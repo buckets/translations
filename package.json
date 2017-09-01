@@ -1,0 +1,12 @@
+{
+  "name": "BucketsLangs",
+  "description": "Buckets Translations",
+  "homepage": "https://github.com/buckets/translations",
+  "scripts": {
+    "test": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "typescript": "^2.5.2"
+  }
+}
