@@ -1,6 +1,5 @@
 import * as React from 'react'
 import * as moment from 'moment'
-import { Date } from '../time'
 
 import { ILangPack, IMessages } from './spec';
 
@@ -55,12 +54,13 @@ const messages:IMessages = {
     h: "wR5L88lhIXbxAVDXEZbN1lwbnZjYUBkAifA2KtAg8dM=",
   },
   "balance-as-of": {
+    val: (date:JSX.Element) => {
+            return <span>as of {date}</span>
+          },
     translated: false,
     src: ["src/budget/accounts.tsx line 112"],
-    h: "D+N588S2kHMm495nsyivvDRsBir0/mEV6YrQOTlen1g=",
-    val: (d:moment.Moment) => {
-            return <span>as of <Date value={d} /></span>
-          },
+    h: "zfEhD0nTmeclrDPBvF4YQvThWfdELzmW0m1T1UJNEKw=",
+    
   },
   "New account": {
     val: "Cuenta nueva",

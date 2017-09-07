@@ -2,7 +2,6 @@
 
 import * as React from 'react'
 import * as moment from 'moment'
-import { Date } from '../time'
 
 interface IMsg<T> {
   val: T;
@@ -19,7 +18,7 @@ export interface IMessages {
   "Balance": IMsg<string>;
   "Synced balance": IMsg<string>;
   "accounts.balance_mismatch_long_msg": IMsg<()=>string|JSX.Element>;
-  "balance-as-of": IMsg<(d:any)=>string|JSX.Element>;
+  "balance-as-of": IMsg<(date:any)=>string|JSX.Element>;
   "New account": IMsg<string>;
   "Connect to bank": IMsg<string>;
   "default account name": IMsg<string>;
@@ -248,29 +247,29 @@ export const DEFAULTS:IMessages = {
     h: "wR5L88lhIXbxAVDXEZbN1lwbnZjYUBkAifA2KtAg8dM=",
   },
   "balance-as-of": {
-    val: (d:moment.Moment) => {
-            return <span>as of <Date value={d} /></span>
+    val: (date:JSX.Element) => {
+            return <span>as of {date}</span>
           },
     translated: false,
     src: ["src/budget/accounts.tsx line 112"],
-    h: "D+N588S2kHMm495nsyivvDRsBir0/mEV6YrQOTlen1g=",
+    h: "zfEhD0nTmeclrDPBvF4YQvThWfdELzmW0m1T1UJNEKw=",
   },
   "New account": {
     val: "New account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 138"],
+    src: ["src/budget/accounts.tsx line 147"],
     h: "MtAiANg7ugdeUiGmiGklfBPG4T1igh1iChKeC0Mdxnc=",
   },
   "Connect to bank": {
     val: "Connect to bank",
     translated: false,
-    src: ["src/budget/accounts.tsx line 139","src/budget/connections.tsx line 137","src/budget/importing.tsx line 201"],
+    src: ["src/budget/accounts.tsx line 148","src/budget/connections.tsx line 137","src/budget/importing.tsx line 201"],
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
   },
   "default account name": {
     val: "Savings",
     translated: false,
-    src: ["src/budget/accounts.tsx line 164"],
+    src: ["src/budget/accounts.tsx line 174"],
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "sync.toast.syncing": {
@@ -398,7 +397,7 @@ export const DEFAULTS:IMessages = {
   "Rain": {
     val: "Rain",
     translated: false,
-    src: ["src/budget/buckets.tsx line 185","src/budget/buckets.tsx line 787","src/budget/budget.tsx line 172"],
+    src: ["src/budget/buckets.tsx line 185","src/budget/buckets.tsx line 787","src/budget/budget.tsx line 184"],
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Total amount your buckets expect each month.": {
@@ -616,79 +615,79 @@ export const DEFAULTS:IMessages = {
   "Trial Version": {
     val: "Trial Version",
     translated: false,
-    src: ["src/budget/budget.tsx line 79","src/mainprocess/menu.ts line 175"],
+    src: ["src/budget/budget.tsx line 91","src/mainprocess/menu.ts line 175"],
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Accounts": {
     val: "Accounts",
     translated: false,
-    src: ["src/budget/budget.tsx line 115"],
+    src: ["src/budget/budget.tsx line 127"],
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Transactions": {
     val: "Transactions",
     translated: false,
-    src: ["src/budget/budget.tsx line 116"],
+    src: ["src/budget/budget.tsx line 128"],
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Buckets": {
     val: "Buckets",
     translated: false,
-    src: ["src/budget/budget.tsx line 117"],
+    src: ["src/budget/budget.tsx line 129"],
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Kicked": {
     val: "Kicked",
     translated: false,
-    src: ["src/budget/budget.tsx line 119"],
+    src: ["src/budget/budget.tsx line 131"],
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "Analysis": {
     val: "Analysis",
     translated: false,
-    src: ["src/budget/budget.tsx line 121"],
+    src: ["src/budget/budget.tsx line 133"],
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Recurring Expenses": {
     val: "Recurring Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 124","src/budget/reports.tsx line 529"],
+    src: ["src/budget/budget.tsx line 136","src/budget/reports.tsx line 529"],
     h: "yDp5Agru+QzDSy583s3kjOdZbbe6X1WDfMeSNXsYlaY=",
   },
   "Connections": {
     val: "Connections",
     translated: false,
-    src: ["src/budget/budget.tsx line 127","src/budget/connections.tsx line 117"],
+    src: ["src/budget/budget.tsx line 139","src/budget/connections.tsx line 117"],
     h: "1hPfKAqhO0JhEGc2rQ8tee2sqrIAP38KrxQcfLF3I1Y=",
   },
   "Import": {
     val: "Import",
     translated: false,
-    src: ["src/budget/budget.tsx line 128"],
+    src: ["src/budget/budget.tsx line 140"],
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Chat with Matt": {
     val: "Chat with Matt",
     translated: false,
-    src: ["src/budget/budget.tsx line 136"],
+    src: ["src/budget/budget.tsx line 148"],
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "rain.help": {
     val: "Rain is the money you haven't yet put into buckets.  After transactions are categorized, always keep this 0 or higher.",
     translated: false,
-    src: ["src/budget/budget.tsx line 172"],
+    src: ["src/budget/budget.tsx line 184"],
     h: "EkC6Xr/2fRJ+4T4rwU2qK1uLpBk7ZpUa9aLGt0wuNr0=",
   },
   "Income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/budget.tsx line 176","src/budget/reports.tsx line 213"],
+    src: ["src/budget/budget.tsx line 188","src/budget/reports.tsx line 213"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Expenses": {
     val: "Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 181","src/budget/reports.tsx line 224"],
+    src: ["src/budget/budget.tsx line 193","src/budget/reports.tsx line 224"],
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "months gain/loss label": {
@@ -696,13 +695,13 @@ export const DEFAULTS:IMessages = {
                         return gain >= 0 ? "Month's gain" : "Month's loss";
                       },
     translated: false,
-    src: ["src/budget/budget.tsx line 186"],
+    src: ["src/budget/budget.tsx line 198"],
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "in the bank": {
     val: "in the bank",
     translated: false,
-    src: ["src/budget/budget.tsx line 192"],
+    src: ["src/budget/budget.tsx line 204"],
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "Sync": {

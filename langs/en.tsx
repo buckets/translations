@@ -1,5 +1,5 @@
 import { ILangPack } from './spec';
-import { DEFAULTS } from './build';
+import { DEFAULTS } from './base';
 
 export const pack:ILangPack = {
   name: 'English',

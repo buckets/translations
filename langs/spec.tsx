@@ -1,5 +1,5 @@
-export { IMessages } from './build';
-import { IMessages } from './build';
+export { IMessages } from './base';
+import { IMessages } from './base';
 
 export interface ILangPack {
   name: string;
