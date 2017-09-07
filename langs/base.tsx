@@ -162,11 +162,16 @@ export interface IMessages {
   "Find Next": IMsg<string>;
   "Find Previous": IMsg<string>;
   "View": IMsg<string>;
+  "Window": IMsg<string>;
+  "Help": IMsg<string>;
   "Learn More": IMsg<string>;
+  "Getting Started...": IMsg<string>;
+  "Chat...": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Report Bug...": IMsg<string>;
-  "Chat...": IMsg<string>;
-  "Getting Started...": IMsg<string>;
+  "Report Translation Error...": IMsg<string>;
+  "It says:": IMsg<string>;
+  "It should say:": IMsg<string>;
   "Purchase Full Version...": IMsg<string>;
   "Enter License...": IMsg<string>;
   "Check For Updates...": IMsg<string>;
@@ -615,7 +620,7 @@ export const DEFAULTS:IMessages = {
   "Trial Version": {
     val: "Trial Version",
     translated: false,
-    src: ["src/budget/budget.tsx line 91","src/mainprocess/menu.ts line 175"],
+    src: ["src/budget/budget.tsx line 91","src/mainprocess/menu.ts line 185"],
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Accounts": {
@@ -1146,58 +1151,88 @@ export const DEFAULTS:IMessages = {
     src: ["src/mainprocess/menu.ts line 119"],
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
+  "Window": {
+    val: "Window",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 134"],
+    h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
+  },
+  "Help": {
+    val: "Help",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 143"],
+    h: "TvUUB7AuCuFJ9IWiz2SbsjnUvYoDPZAaMPxup/rwosM=",
+  },
   "Learn More": {
     val: "Learn More",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 144"],
+    src: ["src/mainprocess/menu.ts line 146"],
     h: "8bk7nEyrz+Q0vmMisWIPVuvHR4/TeW4DhemALir6s1o=",
+  },
+  "Getting Started...": {
+    val: "Getting Started...",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 150"],
+    h: "XD8GQYEIDrNjTMPX4TjGeAbbCIEBcAONlYPd/D8Hz84=",
+  },
+  "Chat...": {
+    val: "Chat...",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 156"],
+    h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Show Log Files...": {
     val: "Show Log Files...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 148"],
+    src: ["src/mainprocess/menu.ts line 163"],
     h: "In00T9z1A4xO6nLu8zAU5s3UzH3+IcK4XjRvrT9CGMs=",
   },
   "Report Bug...": {
     val: "Report Bug...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 154"],
+    src: ["src/mainprocess/menu.ts line 169"],
     h: "i17nG0QruMiCn612ogDToWB1g4xqqei691Yeh/t8MIk=",
   },
-  "Chat...": {
-    val: "Chat...",
+  "Report Translation Error...": {
+    val: "Report Translation Error...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 160"],
-    h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
+    src: ["src/mainprocess/menu.ts line 175"],
+    h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
-  "Getting Started...": {
-    val: "Getting Started...",
+  "It says:": {
+    val: "It says:",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 166"],
-    h: "XD8GQYEIDrNjTMPX4TjGeAbbCIEBcAONlYPd/D8Hz84=",
+    src: ["src/mainprocess/menu.ts line 178"],
+    h: "gbWdWRhcKGQzFCi8CcKy9Bmfg2oYqz1zGMHQzSU8jQE=",
+  },
+  "It should say:": {
+    val: "It should say:",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 178"],
+    h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
   },
   "Purchase Full Version...": {
     val: "Purchase Full Version...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 178"],
+    src: ["src/mainprocess/menu.ts line 188"],
     h: "+6h2Y0QTHEVui0aUhwAlCsyJp/F+S0PYKMRlQysqjrk=",
   },
   "Enter License...": {
     val: "Enter License...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 184"],
+    src: ["src/mainprocess/menu.ts line 194"],
     h: "A+/eZ8qTAh97iBouJPInRkCg7F0nOkteYEBO7+lFHHA=",
   },
   "Check For Updates...": {
     val: "Check For Updates...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 209"],
+    src: ["src/mainprocess/menu.ts line 219"],
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
   "Speech": {
     val: "Speech",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 227"],
+    src: ["src/mainprocess/menu.ts line 237"],
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Update Available": {
