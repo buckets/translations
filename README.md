@@ -11,3 +11,4 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 4. Test with `yarn test` (or `npm test`)
 
 5. Open a pull request.
+
