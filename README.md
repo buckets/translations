@@ -1,4 +1,4 @@
-This is the repository of translations for the [Buckets budgeting app](https://www.bucketsisbetter.com/).  Pull requests welcome.
+This is the repository of translations for the [Buckets budgeting app](https://www.budgetwithbuckets.com/).  Pull requests welcome.
 
 # How to contribute
 
