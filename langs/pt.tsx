@@ -913,18 +913,6 @@ const messages:IMessages = {
     src: ["src/budget/reports.tsx line 432"],
     h: "bwan2qqqdDloluCkgp+UPYWSAeOQk9zkaNwb2p0kUDk=",
   },
-  "Yearly expenses": {
-    val: "Despesas anuais",
-    translated: true,
-    src: ["src/budget/reports.tsx line 650"],
-    h: "W3uzJb/bdMxa/o4IKEKVOWp7OQOGS7ry0h2rz8iPzoM=",
-  },
-  "Monthly expenses": {
-    val: "Despesas mensais",
-    translated: true,
-    src: ["src/budget/reports.tsx line 650"],
-    h: "lRQupgq3/amJQmfkf9uUeT0IsRZu/ItiYG/EpDFhpbg=",
-  },
   "Budgeted": {
     val: "Orçado",
     translated: true,
@@ -937,43 +925,23 @@ const messages:IMessages = {
     src: ["src/budget/reports.tsx line 657"],
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
-  "Period": {
-    val: "Período",
+  "Months": {
+    val: "Meses",
     translated: true,
-    src: ["src/budget/reports.tsx line 658"],
-    h: "hfDqPEJ79UozdsoxEfonMjVDqZQXPzQBbmDwoKYutvo=",
+    src: ["src/budget/reports.tsx line 644"],
+    h: "wW/jCiA3sxpdbZ8SZ50pYiOvxUk2Ix8T6WB3ZXkAS4s=",
+  },
+  "Years": {
+    val: "Anos",
+    translated: true,
+    src: ["src/budget/reports.tsx line 645"],
+    h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "You don't have any recurring expense buckets yet.": {
     val: "Você ainda não tem buckets com despesa recorrente.",
     translated: true,
     src: ["src/budget/reports.tsx line 688"],
     h: "nq2IDCqs8m0MQJ5lO2TU1cnlj9nP1vwIMWMqi0WGOjk=",
-  },
-  "Last": {
-    val: "Último",
-    translated: true,
-    src: ["src/budget/reports.tsx line 704"],
-    h: "xO45HLK2A2r99KDcKviYdyxyl/sOcxrs9sURzIBqXWQ=",
-  },
-  "Budgeted:": {
-    val: "Orçado:",
-    translated: true,
-    src: ["src/budget/reports.tsx line 742"],
-    h: "bTtWXmUkwbhbFLeckHBWA4GKlgok1A9UhOuat+uSsyU=",
-  },
-  "Average:": {
-    val: "Média:",
-    translated: true,
-    src: ["src/budget/reports.tsx line 756"],
-    h: "cjkXL/zpI+dQWkGrhO9+31XBHKDYu26Sb2ce60wR8+w=",
-  },
-  "period-display": {
-    val: (n:number, unit:'year'|'month') => {
-        return `${n}${unit === 'year' ? 'yr' : 'mo'}`;
-    },
-    translated: true,
-    src: ["src/budget/reports.tsx line 823"],
-    h: "fK5jMz0cZJ/y+/XlVn62srIYfD9sHxqK0lOBExYeM1o=",
   },
   "Note": {
     val: "Nota",
@@ -1351,7 +1319,7 @@ Você gostaria de comprar uma licença agora?`,
     src: ["src/mainprocess/files.ts line 664"],
     h: "MKsAG2u3PyHfYzTNB+XEA8Myeu1DiSU2HNpIW8QXTpc=",
   },
-"File": {
+  "File": {
     val: "Arquivo",
     translated: true,
     src: ["src/mainprocess/menu.ts line 22"],

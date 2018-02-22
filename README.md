@@ -1,13 +1,23 @@
-This is the repository of translations for the [Buckets budgeting app](https://www.budgetwithbuckets.com/).  Pull requests welcome.
+This is the repository of translations for the [Buckets budgeting app](https://www.budgetwithbuckets.com/).  Some languages are officially supported, but contributions for other languages are very welcome.
 
 # How to contribute
 
-1. Clone this repo
+1. Look for your language in [/langs](/langs).
 
-2. Run `yarn` or `npm i`
+1. If your language isn't there:
 
-3. Edit the translation files in `langs/` or create a new language by copying `DEFAULTS` from `langs/base.tsx` to your new language file (see `langs/es.tsx` for an example).
+  1. Click the `Create new file` button.
 
-4. Test with `yarn test` (or `npm test`)
+  1. Copy the contents of [/langs/en.tsx](/langs/en.tsx) into the new file
 
-5. Open a pull request.
+  1. Name your file according to the [2-letter 639-1 code listed here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) with `.tsx` at the end (e.g. `en.tsx` for English)
+
+1. Edit the language file.  For each item:
+
+  1. Translate the `val: ...` part
+  
+  1. Change `translated: false` to `translated: true`
+
+1. Submit a pull request (even if you only translate a few things).
+
+If you're familiar with GitHub or you prefer, you can also fork this repo, clone it and edit the file on your computer.  All I'm really looking for is a Pull Request.
