@@ -4,13 +4,13 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 
 1. Look for your language in [/langs](/langs).
 1. If your language isn't there:
-  1. Click the `Create new file` button.
-  1. Copy the contents of [/langs/en.tsx](/langs/en.tsx) into the new file
-  1. Name your file according to the [2-letter 639-1 code listed here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) with `.tsx` at the end (e.g. `en.tsx` for English)
+    1. Click the `Create new file` button.
+    1. Copy the contents of [/langs/en.tsx](/langs/en.tsx) into the new file
+    1. Name your file according to the [2-letter 639-1 code listed here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) with `.tsx` at the end (e.g. `en.tsx` for English)
 
 1. Edit the language file.  For each item:
-  1. Translate the `val: ...` part
-  1. Change `translated: false` to `translated: true`
+    1. Translate the `val: ...` part
+    1. Change `translated: false` to `translated: true`
 
 1. Submit a pull request (even if you only translate a few things).
 
