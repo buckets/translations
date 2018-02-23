@@ -11,30 +11,37 @@ interface IMsg<T> {
   newval?: T;
 }
 export interface IMessages {
+  "Reopen Account": IMsg<string>;
   "Reopen": IMsg<string>;
   "You have no closed accounts.": IMsg<string>;
   "Account": IMsg<string>;
   "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
+  "Update Account Name": IMsg<string>;
   "Balance": IMsg<string>;
   "single-account Closed": IMsg<string>;
+  "Delete Account": IMsg<string>;
   "Account and transactions deleted": IMsg<string>;
   "Permanently delete account": IMsg<string>;
+  "Close Account": IMsg<string>;
   "Account deleted completely": IMsg<string>;
   "Account closed": IMsg<string>;
   "Close account": IMsg<string>;
   "Synced balance": IMsg<string>;
   "accounts.balance_mismatch_long_msg": IMsg<()=>string|JSX.Element>;
+  "Update Account Balance": IMsg<string>;
   "balance-as-of": IMsg<(date:any)=>string|JSX.Element>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
   "New account": IMsg<string>;
   "Connect to bank": IMsg<string>;
+  "Create Account": IMsg<string>;
   "default account name": IMsg<string>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
   "sync.toast.syncing": IMsg<(start:any,end:any)=>string|JSX.Element>;
   "Sync complete": IMsg<string>;
   "Account created: ": IMsg<string>;
   "Unknown account: ": IMsg<string>;
+  "Un-kick Bucket": IMsg<string>;
   "Un-kick": IMsg<string>;
   "more": IMsg<string>;
   "You haven't kicked the bucket yet...": IMsg<string>;
@@ -53,12 +60,19 @@ export interface IMessages {
   "action.New group": IMsg<string>;
   "Rain": IMsg<string>;
   "Total amount your buckets expect each month.": IMsg<string>;
+  "New Bucket": IMsg<string>;
   "default new bucket name": IMsg<string>;
+  "New Group": IMsg<string>;
   "default new group name": IMsg<string>;
+  "Transactions": IMsg<string>;
   "Goal:": IMsg<string>;
+  "Update Goal": IMsg<string>;
   "Target date:": IMsg<string>;
+  "Update Target Date": IMsg<string>;
   "Monthly deposit:": IMsg<string>;
+  "Update Monthly Deposit": IMsg<string>;
   "Bucket type:": IMsg<string>;
+  "Update Bucket Type": IMsg<string>;
   "buckettype.plain": IMsg<string>;
   "buckettype.deposit": IMsg<string>;
   "buckettype.goal-date": IMsg<string>;
@@ -69,8 +83,15 @@ export interface IMessages {
   "Required deposit:": IMsg<string>;
   "Ending amount:": IMsg<string>;
   "Goal: 0": IMsg<string>;
+  "Transaction": IMsg<string>;
+  "Update Color": IMsg<string>;
+  "Update Bucket Name": IMsg<string>;
+  "Move Bucket": IMsg<string>;
   "New bucket": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
+  "Update Group Name": IMsg<string>;
+  "Delete Group": IMsg<string>;
+  "Move Group": IMsg<string>;
   "Want": IMsg<string>;
   "bucketrain.help": IMsg<string>;
   "Net transfers between buckets.": IMsg<string>;
@@ -80,10 +101,15 @@ export interface IMessages {
   "bucket.detailslabel": IMsg<string>;
   "misc group name": IMsg<string>;
   "single-bucket Kicked": IMsg<string>;
+  "Kick Bucket": IMsg<string>;
   "Bucket deleted completely": IMsg<string>;
   "Kick the bucket": IMsg<string>;
+  "Update Name": IMsg<string>;
   "Balance:": IMsg<string>;
   "Rainfall this month:": IMsg<string>;
+  "Make Transfer": IMsg<string>;
+  "Not Transfer": IMsg<string>;
+  "Delete Transactions": IMsg<string>;
   "Posted": IMsg<string>;
   "Memo": IMsg<string>;
   "Amount": IMsg<string>;
@@ -93,7 +119,6 @@ export interface IMessages {
   "Trial Version": IMsg<string>;
   "Accounts": IMsg<string>;
   "Closed": IMsg<string>;
-  "Transactions": IMsg<string>;
   "Buckets": IMsg<string>;
   "Kicked": IMsg<string>;
   "Analysis": IMsg<string>;
@@ -141,15 +166,23 @@ export interface IMessages {
   "Test Toast": IMsg<string>;
   "Create macro": IMsg<string>;
   "Connect": IMsg<string>;
+  "Create Macro": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "On": IMsg<string>;
   "When \"On\" this macro will be run during a normal sync.": IMsg<string>;
   "Name": IMsg<string>;
+  "Enable Macro": IMsg<string>;
+  "Disable Macro": IMsg<string>;
+  "Update Macro Name": IMsg<string>;
+  "Delete Macro": IMsg<string>;
+  "Delete Connection": IMsg<string>;
   "ID": IMsg<string>;
   "Last used": IMsg<string>;
   "Description": IMsg<string>;
   "Create new account": IMsg<string>;
   "action.link-account": IMsg<string>;
+  "Link Account": IMsg<string>;
+  "Update Note": IMsg<string>;
   "Month to Month": IMsg<string>;
   "Year to Year": IMsg<string>;
   "Avg:": IMsg<string>;
@@ -180,9 +213,12 @@ export interface IMessages {
   "Show uncategorized": IMsg<string>;
   "Import file": IMsg<string>;
   "Category": IMsg<string>;
+  "Update Transaction": IMsg<string>;
+  "Create Transaction": IMsg<string>;
   "sync-symbol help": IMsg<string>;
   "Deposit": IMsg<string>;
   "Withdrawl": IMsg<string>;
+  "Categorization": IMsg<string>;
   "Cancel": IMsg<string>;
   "Save": IMsg<string>;
   "noun.income": IMsg<string>;
@@ -229,9 +265,9 @@ export interface IMessages {
   "New Budget...": IMsg<string>;
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
-  "Edit": IMsg<string>;
   "Undo": IMsg<string>;
   "Redo": IMsg<string>;
+  "Edit": IMsg<string>;
   "Cut": IMsg<string>;
   "Copy": IMsg<string>;
   "Paste": IMsg<string>;
@@ -341,82 +377,106 @@ export interface IMessages {
   "Error importing": IMsg<string>;
 }
 export const DEFAULTS:IMessages = {
+  "Reopen Account": {
+    val: "Reopen Account",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 30","src/budget/accounts.tsx line 133"],
+    h: "KBv9ohpTpLSanhr/AFbKdJCA0VZ1iJ0THB53Hut00v4=",
+  },
   "Reopen": {
     val: "Reopen",
     translated: false,
-    src: ["src/budget/accounts.tsx line 30","src/budget/accounts.tsx line 129"],
+    src: ["src/budget/accounts.tsx line 32","src/budget/accounts.tsx line 135"],
     h: "5497b4yxPFO2M524tL0qmmNk47Qv/aca/7n0zMEeX/o=",
   },
   "You have no closed accounts.": {
     val: "You have no closed accounts.",
     translated: false,
-    src: ["src/budget/accounts.tsx line 38"],
+    src: ["src/budget/accounts.tsx line 40"],
     h: "8BZG+UdW1Rrd/+2zFNv7SskiNpD6DtlNa8LwQulqX5s=",
   },
   "Account": {
     val: "Account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 45","src/budget/accounts.tsx line 98","src/budget/importpage.tsx line 447","src/budget/searchpage.tsx line 119","src/budget/searchpage.tsx line 143","src/budget/transactions.tsx line 213"],
+    src: ["src/budget/accounts.tsx line 47","src/budget/accounts.tsx line 102","src/budget/importpage.tsx line 458","src/budget/searchpage.tsx line 119","src/budget/searchpage.tsx line 143","src/budget/transactions.tsx line 215"],
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "accounts.balance_mismatch_msg": {
     val: "The most recent synced balance does not match the balance computed from transactions.  Click ... for more information.",
     translated: false,
-    src: ["src/budget/accounts.tsx line 78"],
+    src: ["src/budget/accounts.tsx line 80"],
     h: "8xHas2SyXqC7roWhYQNIVhFVNvbvzMi6Y3mQce5sIbc=",
   },
   "accounts.name_placeholder": {
     val: "no name",
     translated: false,
-    src: ["src/budget/accounts.tsx line 85","src/budget/accounts.tsx line 177"],
+    src: ["src/budget/accounts.tsx line 87","src/budget/accounts.tsx line 187"],
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
+  },
+  "Update Account Name": {
+    val: "Update Account Name",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 90","src/budget/accounts.tsx line 190"],
+    h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Balance": {
     val: "Balance",
     translated: false,
-    src: ["src/budget/accounts.tsx line 99","src/budget/accounts.tsx line 185","src/budget/buckets.tsx line 1006","src/budget/buckets.tsx line 1238","src/budget/transactions.tsx line 216"],
+    src: ["src/budget/accounts.tsx line 103","src/budget/accounts.tsx line 197","src/budget/buckets.tsx line 1038","src/budget/buckets.tsx line 1282","src/budget/transactions.tsx line 218"],
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "single-account Closed": {
     val: "Closed",
     translated: false,
-    src: ["src/budget/accounts.tsx line 130"],
+    src: ["src/budget/accounts.tsx line 136"],
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
+  },
+  "Delete Account": {
+    val: "Delete Account",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 140"],
+    h: "zTJTocYLEbNVwJ0ojyPCB6M0JpGx6fe6AZHWtuVJv0M=",
   },
   "Account and transactions deleted": {
     val: "Account and transactions deleted",
     translated: false,
-    src: ["src/budget/accounts.tsx line 135"],
+    src: ["src/budget/accounts.tsx line 143"],
     h: "iwS2+dAqfDOEtU5SUm1d1oPFTe0+JT5NCm4nH2SrglE=",
   },
   "Permanently delete account": {
     val: "Permanently delete account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 138"],
+    src: ["src/budget/accounts.tsx line 146"],
     h: "fcpAc/TcJr/ayfOjnYZmGo2BIga/mx8UyuwCbh2BRFg=",
+  },
+  "Close Account": {
+    val: "Close Account",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 152"],
+    h: "qTJEf8mdhLx1bU9LZPYaTtrT8pMLqxemoL/YqbhjESI=",
   },
   "Account deleted completely": {
     val: "Account deleted completely",
     translated: false,
-    src: ["src/budget/accounts.tsx line 147"],
+    src: ["src/budget/accounts.tsx line 157"],
     h: "LswJ+SxzkHRVy6+Et4Wga6r/Io1P6MBlTiwdjUAUj48=",
   },
   "Account closed": {
     val: "Account closed",
     translated: false,
-    src: ["src/budget/accounts.tsx line 149"],
+    src: ["src/budget/accounts.tsx line 159"],
     h: "l9xs5wLKF3KIgunL1SJh9r9XDYpWkC7LYrL4KUUFm3M=",
   },
   "Close account": {
     val: "Close account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 152"],
+    src: ["src/budget/accounts.tsx line 162"],
     h: "7HdV8X8++teDNW33urE2eccDw3VLdSpvII89zC/sfu4=",
   },
   "Synced balance": {
     val: "Synced balance",
     translated: false,
-    src: ["src/budget/accounts.tsx line 157"],
+    src: ["src/budget/accounts.tsx line 167"],
     h: "yyCVeQRle/vbcZ1/QyVYtL+ZmyQ5WanHCYKZpJqFd6o=",
   },
   "accounts.balance_mismatch_long_msg": {
@@ -428,15 +488,21 @@ export const DEFAULTS:IMessages = {
               So this mismatch will usually resolve itself once all the transactions in your bank have been synced into Buckets.
           </span>)},
     translated: false,
-    src: ["src/budget/accounts.tsx line 162"],
+    src: ["src/budget/accounts.tsx line 172"],
     h: "wR5L88lhIXbxAVDXEZbN1lwbnZjYUBkAifA2KtAg8dM=",
+  },
+  "Update Account Balance": {
+    val: "Update Account Balance",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 206"],
+    h: "iwKjdHzqHPwoupXiUwrVL1tX4QfO//taXOPXFVtWRVE=",
   },
   "balance-as-of": {
     val: (date:JSX.Element) => {
             return <span>as of {date}</span>
           },
     translated: false,
-    src: ["src/budget/accounts.tsx line 194"],
+    src: ["src/budget/accounts.tsx line 208"],
     h: "zfEhD0nTmeclrDPBvF4YQvThWfdELzmW0m1T1UJNEKw=",
   },
   "getting-started-link": {
@@ -444,31 +510,37 @@ export const DEFAULTS:IMessages = {
           return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
         },
     translated: false,
-    src: ["src/budget/accounts.tsx line 223"],
+    src: ["src/budget/accounts.tsx line 237"],
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "New account": {
     val: "New account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 234"],
+    src: ["src/budget/accounts.tsx line 248"],
     h: "MtAiANg7ugdeUiGmiGklfBPG4T1igh1iChKeC0Mdxnc=",
   },
   "Connect to bank": {
     val: "Connect to bank",
     translated: false,
-    src: ["src/budget/accounts.tsx line 235"],
+    src: ["src/budget/accounts.tsx line 249"],
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
+  },
+  "Create Account": {
+    val: "Create Account",
+    translated: false,
+    src: ["src/budget/accounts.tsx line 279","src/csvimport.tsx line 490"],
+    h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
   "default account name": {
     val: "Savings",
     translated: false,
-    src: ["src/budget/accounts.tsx line 264"],
+    src: ["src/budget/accounts.tsx line 280"],
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "toast.updated-trans": {
     val: count => `Updated/created ${count} transactions`,
     translated: false,
-    src: ["src/budget/appstate.ts line 301"],
+    src: ["src/budget/appstate.ts line 302"],
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "sync.toast.syncing": {
@@ -476,439 +548,553 @@ export const DEFAULTS:IMessages = {
         return `Syncing transactions from ${start.format('ll')} to ${end.format('ll')}`;
       },
     translated: false,
-    src: ["src/budget/appstate.ts line 312"],
+    src: ["src/budget/appstate.ts line 321"],
     h: "f7R9zSdK0q5+lZ8I9QRhiwN5ENKyWFnrmUG6Gltegfs=",
   },
   "Sync complete": {
     val: "Sync complete",
     translated: false,
-    src: ["src/budget/appstate.ts line 330"],
+    src: ["src/budget/appstate.ts line 339"],
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
   },
   "Account created: ": {
     val: "Account created: ",
     translated: false,
-    src: ["src/budget/appstate.ts line 376"],
+    src: ["src/budget/appstate.ts line 385"],
     h: "AJEfsK8U+n7xnyBkG2FG3cmZZipr4kpQX5mgCZ0Qwi4=",
   },
   "Unknown account: ": {
     val: "Unknown account: ",
     translated: false,
-    src: ["src/budget/appstate.ts line 430"],
+    src: ["src/budget/appstate.ts line 439"],
     h: "1pPv2ePlW/PBrqgYgGCM3lU9qnmnbplR3AzSDDG4TLs=",
+  },
+  "Un-kick Bucket": {
+    val: "Un-kick Bucket",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 46","src/budget/buckets.tsx line 1101"],
+    h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Un-kick": {
     val: "Un-kick",
     translated: false,
-    src: ["src/budget/buckets.tsx line 46","src/budget/buckets.tsx line 1069"],
+    src: ["src/budget/buckets.tsx line 48","src/budget/buckets.tsx line 1103"],
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "more": {
     val: "more",
     translated: false,
-    src: ["src/budget/buckets.tsx line 48"],
+    src: ["src/budget/buckets.tsx line 50"],
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "You haven't kicked the bucket yet...": {
     val: "You haven't kicked the bucket yet...",
     translated: false,
-    src: ["src/budget/buckets.tsx line 54"],
+    src: ["src/budget/buckets.tsx line 56"],
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
   "Bucket": {
     val: "Bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 61","src/budget/reports.tsx line 609","src/budget/searchpage.tsx line 96","src/budget/searchpage.tsx line 172"],
+    src: ["src/budget/buckets.tsx line 63","src/budget/reports.tsx line 609","src/budget/searchpage.tsx line 96","src/budget/searchpage.tsx line 172"],
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "In": {
     val: "In",
     translated: false,
-    src: ["src/budget/buckets.tsx line 100","src/budget/buckets.tsx line 1003"],
+    src: ["src/budget/buckets.tsx line 102","src/budget/buckets.tsx line 1035"],
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "Out": {
     val: "Out",
     translated: false,
-    src: ["src/budget/buckets.tsx line 106","src/budget/buckets.tsx line 1004"],
+    src: ["src/budget/buckets.tsx line 108","src/budget/buckets.tsx line 1036"],
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "Net": {
     val: "Net",
     translated: false,
-    src: ["src/budget/buckets.tsx line 118"],
+    src: ["src/budget/buckets.tsx line 120"],
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": {
     val: "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 118"],
+    src: ["src/budget/buckets.tsx line 120"],
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
   },
   "Rain left": {
     val: "Rain left",
     translated: false,
-    src: ["src/budget/buckets.tsx line 126"],
+    src: ["src/budget/buckets.tsx line 128"],
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
   },
   "Make it so": {
     val: "Make it so",
     translated: false,
-    src: ["src/budget/buckets.tsx line 138","src/budget/buckets.tsx line 141","src/budget/buckets.tsx line 144"],
+    src: ["src/budget/buckets.tsx line 140","src/budget/buckets.tsx line 143","src/budget/buckets.tsx line 146"],
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
     val: "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).",
     translated: false,
-    src: ["src/budget/buckets.tsx line 139"],
+    src: ["src/budget/buckets.tsx line 141"],
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
   "Self debt": {
     val: "Self debt",
     translated: false,
-    src: ["src/budget/buckets.tsx line 167"],
+    src: ["src/budget/buckets.tsx line 169"],
     h: "zRWPLHqBTGcGqHHBHWdXpN2eOUUhRhvCyeAccFlR9Z4=",
   },
   "Amount of money over-allocated in buckets.": {
     val: "Amount of money over-allocated in buckets.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 167"],
+    src: ["src/budget/buckets.tsx line 169"],
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Make it rain!": {
     val: "Make it rain!",
     translated: false,
-    src: ["src/budget/buckets.tsx line 200"],
+    src: ["src/budget/buckets.tsx line 202"],
     h: "GCU3Hru9VCit7F+BYEMKmg5U8gsc1/UZ+o5wsbMAkeY=",
   },
   "action.New bucket": {
     val: "New bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 201"],
+    src: ["src/budget/buckets.tsx line 203"],
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "action.New group": {
     val: "New group",
     translated: false,
-    src: ["src/budget/buckets.tsx line 202"],
+    src: ["src/budget/buckets.tsx line 204"],
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "Rain": {
     val: "Rain",
     translated: false,
-    src: ["src/budget/buckets.tsx line 205","src/budget/budget.tsx line 211","src/budget/budget.tsx line 234"],
+    src: ["src/budget/buckets.tsx line 207","src/budget/budget.tsx line 210","src/budget/budget.tsx line 233"],
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Total amount your buckets expect each month.": {
     val: "Total amount your buckets expect each month.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 205"],
+    src: ["src/budget/buckets.tsx line 207"],
     h: "UtK2gxh+N9D/p1G6dLyhcKMP5Df5XCyEp0jM0c+qoUw=",
+  },
+  "New Bucket": {
+    val: "New Bucket",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 240","src/budget/buckets.tsx line 918"],
+    h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new bucket name": {
     val: "New Bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 237","src/budget/buckets.tsx line 891"],
+    src: ["src/budget/buckets.tsx line 241","src/budget/buckets.tsx line 919"],
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
+  },
+  "New Group": {
+    val: "New Group",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 245"],
+    h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "default new group name": {
     val: "New Group",
     translated: false,
-    src: ["src/budget/buckets.tsx line 240"],
+    src: ["src/budget/buckets.tsx line 246"],
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
+  },
+  "Transactions": {
+    val: "Transactions",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 285","src/budget/budget.tsx line 151","src/budget/exportpage.tsx line 147"],
+    h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Goal:": {
     val: "Goal:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 391"],
+    src: ["src/budget/buckets.tsx line 398"],
     h: "77+E2dn/Mw53xjGhNc6irsiq1WULAiC4yIyt4NaO0DM=",
+  },
+  "Update Goal": {
+    val: "Update Goal",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 406"],
+    h: "S3dt9ahT1yTXTCP2uHqiTMkyPUmAvAHvsCeGNa+NL1E=",
   },
   "Target date:": {
     val: "Target date:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 411"],
+    src: ["src/budget/buckets.tsx line 420"],
     h: "InmNQoNHlJkDpjvEB+J1XPqDWRqnfNIUwTQ86iNiOGc=",
+  },
+  "Update Target Date": {
+    val: "Update Target Date",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 428"],
+    h: "SEac1rQopyHALPSWU85qYV3GE0x9i2OGDB+JYnVID8A=",
   },
   "Monthly deposit:": {
     val: "Monthly deposit:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 426"],
+    src: ["src/budget/buckets.tsx line 437"],
     h: "GKlnbgfjEkmlOI0TT0pyfI30T1/0jrXjT01JZrBTpP0=",
+  },
+  "Update Monthly Deposit": {
+    val: "Update Monthly Deposit",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 445"],
+    h: "rFQ5lKjSNpQyyptg2Y+a4LQ6jwa1xWjKarMapXiD1/8=",
   },
   "Bucket type:": {
     val: "Bucket type:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 448"],
+    src: ["src/budget/buckets.tsx line 461"],
     h: "NMC+sjsH6UgNhNtiqYeiHDi4zDK/+S5h5yMfZ5CQk1c=",
+  },
+  "Update Bucket Type": {
+    val: "Update Bucket Type",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 467"],
+    h: "wt5F9WSIpGlUsGaPnhSJlLYk0qraymNHDw0bYzbHlIE=",
   },
   "buckettype.plain": {
     val: "Plain old bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 455"],
+    src: ["src/budget/buckets.tsx line 470"],
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "buckettype.deposit": {
     val: "Recurring expense",
     translated: false,
-    src: ["src/budget/buckets.tsx line 456"],
+    src: ["src/budget/buckets.tsx line 471"],
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.goal-date": {
     val: "Save X by Y date",
     translated: false,
-    src: ["src/budget/buckets.tsx line 457"],
+    src: ["src/budget/buckets.tsx line 472"],
     h: "+boZHIer4ggkvJ8A5cSl1EVyWRwKigC9UkBFn4WSEdg=",
   },
   "buckettype.goal-deposit": {
     val: "Save X by depositing Z/mo",
     translated: false,
-    src: ["src/budget/buckets.tsx line 458"],
+    src: ["src/budget/buckets.tsx line 473"],
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.deposit-date": {
     val: "Save Z/mo until Y date",
     translated: false,
-    src: ["src/budget/buckets.tsx line 459"],
+    src: ["src/budget/buckets.tsx line 474"],
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "Goal completion:": {
     val: "Goal completion:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 472"],
+    src: ["src/budget/buckets.tsx line 487"],
     h: "v+G5gj6B+MtHwQovNmj/BWbpnQncARZGo+swhE1fbtg=",
   },
   "some day...": {
     val: "some day...",
     translated: false,
-    src: ["src/budget/buckets.tsx line 474"],
+    src: ["src/budget/buckets.tsx line 489"],
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "Required deposit:": {
     val: "Required deposit:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 483"],
+    src: ["src/budget/buckets.tsx line 498"],
     h: "Q34JZduUI2Lx8xxjkeH/Md92nqWgEcbPFZjgf5m7tXA=",
   },
   "Ending amount:": {
     val: "Ending amount:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 495"],
+    src: ["src/budget/buckets.tsx line 510"],
     h: "0IUvXk9nogxjdL1n0VZPrxcMOUZODNXMlGrlpyXq8bI=",
   },
   "Goal: 0": {
     val: "Goal: 0",
     translated: false,
-    src: ["src/budget/buckets.tsx line 517"],
+    src: ["src/budget/buckets.tsx line 532"],
     h: "rtvJnJFYA7lHYjPjGpF27/h2So3pRdrRLjfnkg78woQ=",
+  },
+  "Transaction": {
+    val: "Transaction",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 596"],
+    h: "G0gRZS6Zq1VoQqtY+L8fY3ogdqSl/OAoTurOZ4L480Q=",
+  },
+  "Update Color": {
+    val: "Update Color",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 660","src/budget/buckets.tsx line 1157"],
+    h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
+  },
+  "Update Bucket Name": {
+    val: "Update Bucket Name",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 673"],
+    h: "Oa+1EZtc4RTtPYyk5LflMMlQq/esZ3qvTgbSLiKIl4E=",
+  },
+  "Move Bucket": {
+    val: "Move Bucket",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 753","src/budget/buckets.tsx line 951"],
+    h: "6lJYNJMplvVHQuXlFYBD81+4kgQQb1SwZ0s13hvlIfI=",
   },
   "New bucket": {
     val: "New bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 843"],
+    src: ["src/budget/buckets.tsx line 865"],
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "This is a special group for all the buckets without a group.": {
     val: "This is a special group for all the buckets without a group.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 848"],
+    src: ["src/budget/buckets.tsx line 870"],
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
+  },
+  "Update Group Name": {
+    val: "Update Group Name",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 875"],
+    h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
+  },
+  "Delete Group": {
+    val: "Delete Group",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 905"],
+    h: "VaefOk8g8N64N+Td8TEorhhMQBe0AuWmfRz7u7+Q1Ko=",
+  },
+  "Move Group": {
+    val: "Move Group",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 945"],
+    h: "zSmn/C+X/cbh/GqqDMPetNfBb8iTmlwFh9Dsbc9qe9k=",
   },
   "Want": {
     val: "Want",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1002"],
+    src: ["src/budget/buckets.tsx line 1034"],
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "bucketrain.help": {
     val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1002"],
+    src: ["src/budget/buckets.tsx line 1034"],
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "Net transfers between buckets.": {
     val: "Net transfers between buckets.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1005"],
+    src: ["src/budget/buckets.tsx line 1037"],
     h: "wRxoqvIxh/1UVZNHs+kwKhCJbdg0R5FFPaTVeHEEK3Y=",
   },
   "Effective": {
     val: "Effective",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1007"],
+    src: ["src/budget/buckets.tsx line 1039"],
     h: "Iu58QrugjAc/VqZhXc0aKtmSC8KziRWTzVTiliXpAL0=",
   },
   "effective.help": {
     val: "This would be the balance if no buckets were in debt.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1007"],
+    src: ["src/budget/buckets.tsx line 1039"],
     h: "D6V8nTUoyPCGCdFMHiUFZiACXp8Lpz5MFDbiujAlfSc=",
   },
   "In/Out": {
     val: "In/Out",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1008"],
+    src: ["src/budget/buckets.tsx line 1040"],
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
   "bucket.detailslabel": {
     val: "Details",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1009"],
+    src: ["src/budget/buckets.tsx line 1041"],
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "misc group name": {
     val: "Misc",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1033"],
+    src: ["src/budget/buckets.tsx line 1065"],
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "single-bucket Kicked": {
     val: "Kicked",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1065"],
+    src: ["src/budget/buckets.tsx line 1097"],
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
+  },
+  "Kick Bucket": {
+    val: "Kick Bucket",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 1109"],
+    h: "3hmOuv1hNsjpQJ5cSDTlSqN4jGOGFnSPw9r0bK68RWY=",
   },
   "Bucket deleted completely": {
     val: "Bucket deleted completely",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1078"],
+    src: ["src/budget/buckets.tsx line 1114"],
     h: "gBMlSFTWDRRSWZeZ3fuxDhpJnhv2MoF3EvZSwo1BZHg=",
   },
   "Kick the bucket": {
     val: "Kick the bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1081"],
+    src: ["src/budget/buckets.tsx line 1117"],
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
+  },
+  "Update Name": {
+    val: "Update Name",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 1165"],
+    h: "fTqm8NUcvzaYHnGFDmVhLePEd/TFNPhUDzSYIIerjNc=",
   },
   "Balance:": {
     val: "Balance:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1130"],
+    src: ["src/budget/buckets.tsx line 1170"],
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Rainfall this month:": {
     val: "Rainfall this month:",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1131"],
+    src: ["src/budget/buckets.tsx line 1171"],
     h: "S6dFwRYAFyRMUh4i6My2aNacGwMh8taa7neVTx9aiAM=",
+  },
+  "Make Transfer": {
+    val: "Make Transfer",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 1243"],
+    h: "Rmor5ffKqQTdDQSwA2x/hHhrr0zL7MceXGsR1vHe6b4=",
+  },
+  "Not Transfer": {
+    val: "Not Transfer",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 1243"],
+    h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
+  },
+  "Delete Transactions": {
+    val: "Delete Transactions",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 1266","src/budget/transactions.tsx line 201"],
+    h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
   "Posted": {
     val: "Posted",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1235","src/budget/searchpage.tsx line 142","src/budget/searchpage.tsx line 171","src/budget/transactions.tsx line 212","src/csvimport.tsx line 504"],
+    src: ["src/budget/buckets.tsx line 1279","src/budget/searchpage.tsx line 142","src/budget/searchpage.tsx line 171","src/budget/transactions.tsx line 214","src/csvimport.tsx line 504"],
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
   "Memo": {
     val: "Memo",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1236","src/budget/searchpage.tsx line 144","src/budget/searchpage.tsx line 173","src/budget/transactions.tsx line 214","src/csvimport.tsx line 334","src/csvimport.tsx line 505"],
+    src: ["src/budget/buckets.tsx line 1280","src/budget/searchpage.tsx line 144","src/budget/searchpage.tsx line 173","src/budget/transactions.tsx line 216","src/csvimport.tsx line 334","src/csvimport.tsx line 505"],
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "Amount": {
     val: "Amount",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1237","src/budget/searchpage.tsx line 145","src/budget/searchpage.tsx line 174","src/budget/transactions.tsx line 215","src/csvimport.tsx line 333","src/csvimport.tsx line 506"],
+    src: ["src/budget/buckets.tsx line 1281","src/budget/searchpage.tsx line 145","src/budget/searchpage.tsx line 174","src/budget/transactions.tsx line 217","src/csvimport.tsx line 333","src/csvimport.tsx line 506"],
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "noun.transfer": {
     val: "Transfer",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1239","src/budget/transactions.tsx line 636","src/budget/transactions.tsx line 652"],
+    src: ["src/budget/buckets.tsx line 1283","src/budget/transactions.tsx line 648","src/budget/transactions.tsx line 664"],
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "bucket.transfer.help": {
     val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1239"],
+    src: ["src/budget/buckets.tsx line 1283"],
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "Misc": {
     val: "Misc",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1240"],
+    src: ["src/budget/buckets.tsx line 1284"],
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Trial Version": {
     val: "Trial Version",
     translated: false,
-    src: ["src/budget/budget.tsx line 120","src/mainprocess/menu.ts line 250"],
+    src: ["src/budget/budget.tsx line 119","src/mainprocess/menu.ts line 291"],
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Accounts": {
     val: "Accounts",
     translated: false,
-    src: ["src/budget/budget.tsx line 148","src/budget/budget.tsx line 215","src/budget/searchpage.tsx line 115"],
+    src: ["src/budget/budget.tsx line 147","src/budget/budget.tsx line 214","src/budget/searchpage.tsx line 115"],
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Closed": {
     val: "Closed",
     translated: false,
-    src: ["src/budget/budget.tsx line 150"],
+    src: ["src/budget/budget.tsx line 149"],
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
-  },
-  "Transactions": {
-    val: "Transactions",
-    translated: false,
-    src: ["src/budget/budget.tsx line 152","src/budget/exportpage.tsx line 147"],
-    h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Buckets": {
     val: "Buckets",
     translated: false,
-    src: ["src/budget/budget.tsx line 153","src/budget/budget.tsx line 220","src/budget/searchpage.tsx line 92"],
+    src: ["src/budget/budget.tsx line 152","src/budget/budget.tsx line 219","src/budget/searchpage.tsx line 92"],
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Kicked": {
     val: "Kicked",
     translated: false,
-    src: ["src/budget/budget.tsx line 155"],
+    src: ["src/budget/budget.tsx line 154"],
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "Analysis": {
     val: "Analysis",
     translated: false,
-    src: ["src/budget/budget.tsx line 157"],
+    src: ["src/budget/budget.tsx line 156"],
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Recurring Expenses": {
     val: "Recurring Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 160","src/budget/reports.tsx line 605"],
+    src: ["src/budget/budget.tsx line 159","src/budget/reports.tsx line 605"],
     h: "yDp5Agru+QzDSy583s3kjOdZbbe6X1WDfMeSNXsYlaY=",
   },
   "Import": {
     val: "Import",
     translated: false,
-    src: ["src/budget/budget.tsx line 163"],
+    src: ["src/budget/budget.tsx line 162"],
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Tools": {
     val: "Tools",
     translated: false,
-    src: ["src/budget/budget.tsx line 164"],
+    src: ["src/budget/budget.tsx line 163"],
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Search": {
     val: "Search",
     translated: false,
-    src: ["src/budget/budget.tsx line 167"],
+    src: ["src/budget/budget.tsx line 166"],
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Export": {
     val: "Export",
     translated: false,
-    src: ["src/budget/budget.tsx line 168","src/budget/exportpage.tsx line 97"],
+    src: ["src/budget/budget.tsx line 167","src/budget/exportpage.tsx line 97"],
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
   "Chat with Matt": {
     val: "Chat with Matt",
     translated: false,
-    src: ["src/budget/budget.tsx line 174"],
+    src: ["src/budget/budget.tsx line 173"],
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "Used in future": {
     val: "Used in future",
     translated: false,
-    src: ["src/budget/budget.tsx line 225"],
+    src: ["src/budget/budget.tsx line 224"],
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
   "rain.help.pos": {
@@ -918,7 +1104,7 @@ export const DEFAULTS:IMessages = {
                                       </span>
                                     },
     translated: false,
-    src: ["src/budget/budget.tsx line 241"],
+    src: ["src/budget/budget.tsx line 240"],
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "rain.help.neg": {
@@ -928,19 +1114,19 @@ export const DEFAULTS:IMessages = {
                                       </span>
                                     },
     translated: false,
-    src: ["src/budget/budget.tsx line 246"],
+    src: ["src/budget/budget.tsx line 245"],
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "Income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/budget.tsx line 261","src/budget/reports.tsx line 213"],
+    src: ["src/budget/budget.tsx line 260","src/budget/reports.tsx line 213"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Expenses": {
     val: "Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 266","src/budget/reports.tsx line 224"],
+    src: ["src/budget/budget.tsx line 265","src/budget/reports.tsx line 224"],
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "months gain/loss label": {
@@ -948,13 +1134,13 @@ export const DEFAULTS:IMessages = {
                         return gain >= 0 ? "Month's gain" : "Month's loss";
                       },
     translated: false,
-    src: ["src/budget/budget.tsx line 271"],
+    src: ["src/budget/budget.tsx line 270"],
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "in the bank": {
     val: "in the bank",
     translated: false,
-    src: ["src/budget/budget.tsx line 277"],
+    src: ["src/budget/budget.tsx line 276"],
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "I'm exporting data so that I can ": {
@@ -1147,59 +1333,107 @@ export const DEFAULTS:IMessages = {
     src: ["src/budget/importpage.tsx line 235"],
     h: "pCLQy6ZAsZnJ3ff5r+iD+O2vHQhIJEEUHUhiY1NrMP0=",
   },
+  "Create Macro": {
+    val: "Create Macro",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 297"],
+    h: "F6PDykaoACWoqQ+oKUyJyhERAe1FjT6A3OkxL+S5l8k=",
+  },
   "Connection saved!": {
     val: "Connection saved!",
     translated: false,
-    src: ["src/budget/importpage.tsx line 311"],
+    src: ["src/budget/importpage.tsx line 313"],
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
   "On": {
     val: "On",
     translated: false,
-    src: ["src/budget/importpage.tsx line 326"],
+    src: ["src/budget/importpage.tsx line 328"],
     h: "nMAfqtecKNqqRD1YLNX1F32SXJy1exEgm1QvpnZLBQQ=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "When \"On\" this macro will be run during a normal sync.",
     translated: false,
-    src: ["src/budget/importpage.tsx line 326"],
+    src: ["src/budget/importpage.tsx line 328"],
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Name": {
     val: "Name",
     translated: false,
-    src: ["src/budget/importpage.tsx line 327"],
+    src: ["src/budget/importpage.tsx line 329"],
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
+  },
+  "Enable Macro": {
+    val: "Enable Macro",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 359"],
+    h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
+  },
+  "Disable Macro": {
+    val: "Disable Macro",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 359"],
+    h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
+  },
+  "Update Macro Name": {
+    val: "Update Macro Name",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 370"],
+    h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
+  },
+  "Delete Macro": {
+    val: "Delete Macro",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 392"],
+    h: "Qb7shd6fRLybaDzPvdr0Z4VfVek/fHVV556kEcNZrH8=",
+  },
+  "Delete Connection": {
+    val: "Delete Connection",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 418"],
+    h: "o6bxlUpjZFFTleiRLA4ykeB3yEHsAiXW9usUdJ9jh1g=",
   },
   "ID": {
     val: "ID",
     translated: false,
-    src: ["src/budget/importpage.tsx line 419"],
+    src: ["src/budget/importpage.tsx line 430"],
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
   "Last used": {
     val: "Last used",
     translated: false,
-    src: ["src/budget/importpage.tsx line 420"],
+    src: ["src/budget/importpage.tsx line 431"],
     h: "G5a6Jdor9jRT/Wtcg9SfXQsvqL7VFvnVD2+gq7yT1Jg=",
   },
   "Description": {
     val: "Description",
     translated: false,
-    src: ["src/budget/importpage.tsx line 446"],
+    src: ["src/budget/importpage.tsx line 457"],
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "Create new account": {
     val: "Create new account",
     translated: false,
-    src: ["src/budget/importpage.tsx line 483","src/csvimport.tsx line 469"],
+    src: ["src/budget/importpage.tsx line 494","src/csvimport.tsx line 469"],
     h: "SmoVFbeAWSO4cW1YQJbuDJQz8kenVz5++WTJEkS6Vos=",
   },
   "action.link-account": {
     val: "Link",
     translated: false,
-    src: ["src/budget/importpage.tsx line 488"],
+    src: ["src/budget/importpage.tsx line 499"],
     h: "unfAYQpjuyuTjjRCodr+S+jNjRmz3nahjZ91u/j5HfE=",
+  },
+  "Link Account": {
+    val: "Link Account",
+    translated: false,
+    src: ["src/budget/importpage.tsx line 504"],
+    h: "Kq3pmMt0lHo1Or0xDzOxrUYLyhXtTVmVmcm/qGByIuk=",
+  },
+  "Update Note": {
+    val: "Update Note",
+    translated: false,
+    src: ["src/budget/notes.tsx line 46"],
+    h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "Month to Month": {
     val: "Month to Month",
@@ -1378,55 +1612,73 @@ export const DEFAULTS:IMessages = {
   "Category": {
     val: "Category",
     translated: false,
-    src: ["src/budget/transactions.tsx line 218"],
+    src: ["src/budget/transactions.tsx line 220"],
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
+  },
+  "Update Transaction": {
+    val: "Update Transaction",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 306"],
+    h: "aMF18BJOMjuVOInpbGKf/3jyTE1qYzq4oHzb3sBVcWw=",
+  },
+  "Create Transaction": {
+    val: "Create Transaction",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 321"],
+    h: "G5NDAP857MBDE66GWUREcFAJc2pCogndYa6y+m6PRfE=",
   },
   "sync-symbol help": {
     val: "This symbol means the transaction came from an import/sync",
     translated: false,
-    src: ["src/budget/transactions.tsx line 347"],
+    src: ["src/budget/transactions.tsx line 353"],
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "Deposit": {
     val: "Deposit",
     translated: false,
-    src: ["src/budget/transactions.tsx line 353"],
+    src: ["src/budget/transactions.tsx line 359"],
     h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
   },
   "Withdrawl": {
     val: "Withdrawl",
     translated: false,
-    src: ["src/budget/transactions.tsx line 355"],
+    src: ["src/budget/transactions.tsx line 361"],
     h: "PYAfiGRUsqYlItWQgBtWG3zimuUt57IOlS42TrZ2sf4=",
+  },
+  "Categorization": {
+    val: "Categorization",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 508","src/budget/transactions.tsx line 518"],
+    h: "DShuYOF3daz37AE7lGCN1TajYU1VyorRCvLwh4bM1r8=",
   },
   "Cancel": {
     val: "Cancel",
     translated: false,
-    src: ["src/budget/transactions.tsx line 631"],
+    src: ["src/budget/transactions.tsx line 643"],
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
   },
   "Save": {
     val: "Save",
     translated: false,
-    src: ["src/budget/transactions.tsx line 632","src/wwwroot/record/record.tsx line 488"],
+    src: ["src/budget/transactions.tsx line 644","src/wwwroot/record/record.tsx line 488"],
     h: "wduD0WXtkIpIb6B4R8AA7ph724u3/Gtv27uaky6rEAU=",
   },
   "noun.income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/transactions.tsx line 635"],
+    src: ["src/budget/transactions.tsx line 647"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "noin.income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/transactions.tsx line 647"],
+    src: ["src/budget/transactions.tsx line 659"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Categorize": {
     val: "Categorize",
     translated: false,
-    src: ["src/budget/transactions.tsx line 675"],
+    src: ["src/budget/transactions.tsx line 687"],
     h: "mA6/TefxgXpo2M+OUx/ATLQ4QYHv4t1+8vy3MmV+EQg=",
   },
   "Identify the data each column contains using the drop downs below.": {
@@ -1578,7 +1830,7 @@ export const DEFAULTS:IMessages = {
   "Buckets License": {
     val: "Buckets License",
     translated: false,
-    src: ["src/mainprocess/dbstore.ts line 36","src/mainprocess/dbstore.ts line 70"],
+    src: ["src/mainprocess/dbstore.ts line 37","src/mainprocess/dbstore.ts line 71"],
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
   "Unregistered Version": {
@@ -1616,379 +1868,379 @@ Would you like to purchase a license now?`,
   "Unable to open the file:": {
     val: "Unable to open the file:",
     translated: false,
-    src: ["src/mainprocess/files.ts line 197"],
+    src: ["src/mainprocess/files.ts line 206"],
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Open Transaction File": {
     val: "Open Transaction File",
     translated: false,
-    src: ["src/mainprocess/files.ts line 477"],
+    src: ["src/mainprocess/files.ts line 491"],
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "File does not exist:": {
     val: "File does not exist:",
     translated: false,
-    src: ["src/mainprocess/files.ts line 498"],
+    src: ["src/mainprocess/files.ts line 512"],
     h: "RPeWW9lCHkg+d6XybADj3OH2jxrYcSOhrA3+QHEcYz0=",
   },
   "Open Buckets Budget": {
     val: "Open Buckets Budget",
     translated: false,
-    src: ["src/mainprocess/files.ts line 639"],
+    src: ["src/mainprocess/files.ts line 708"],
     h: "5odppwzoA5bC5nAM3F+GDOVrAq3NfjGxrE0ZFXseCDg=",
   },
   "budget-file-type-name": {
     val: "Buckets Budget",
     translated: false,
-    src: ["src/mainprocess/files.ts line 641"],
+    src: ["src/mainprocess/files.ts line 710"],
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "Buckets Budget Filename": {
     val: "Buckets Budget Filename",
     translated: false,
-    src: ["src/mainprocess/files.ts line 658"],
+    src: ["src/mainprocess/files.ts line 727"],
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "No file chosen": {
     val: "No file chosen",
     translated: false,
-    src: ["src/mainprocess/files.ts line 664"],
+    src: ["src/mainprocess/files.ts line 733"],
     h: "MKsAG2u3PyHfYzTNB+XEA8Myeu1DiSU2HNpIW8QXTpc=",
   },
   "File": {
     val: "File",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 22"],
+    src: ["src/mainprocess/menu.ts line 23"],
     h: "9XpUff7TtVQbIncvgmrfzVB2gkBh35RnM1ET/HFr3k0=",
   },
   "New Budget...": {
     val: "New Budget...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 25","src/wwwroot/misc/wizard.html line 0"],
+    src: ["src/mainprocess/menu.ts line 26","src/wwwroot/misc/wizard.html line 0"],
     h: "daxIu+dqn7pfUDeB26rLQnPnAz2v5opSTHbAyBovaoI=",
   },
   "Open Budget...": {
     val: "Open Budget...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 32","src/wwwroot/misc/wizard.html line 0"],
+    src: ["src/mainprocess/menu.ts line 33","src/wwwroot/misc/wizard.html line 0"],
     h: "67FfAce57aSIe2ncVfWeIeiiRLQQ8uuEUdDyI6UHxHU=",
   },
   "Open Recent...": {
     val: "Open Recent...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 39"],
+    src: ["src/mainprocess/menu.ts line 40"],
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
-  },
-  "Edit": {
-    val: "Edit",
-    translated: false,
-    src: ["src/mainprocess/menu.ts line 53"],
-    h: "9+ZynTDPePvsJX4rW8Mn0wEzk0GRQ+udON01NKHVsQU=",
   },
   "Undo": {
     val: "Undo",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 57"],
+    src: ["src/mainprocess/menu.ts line 53"],
     h: "Z1A2vTdYwfdLsWS25iSchnHOHa1VfbQg7u8MDGHk4yo=",
   },
   "Redo": {
     val: "Redo",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 61"],
+    src: ["src/mainprocess/menu.ts line 55"],
     h: "7buMF65dyGtKDY/ZW/Lkn7eUmdudCsdGV3KR2lYLLA0=",
+  },
+  "Edit": {
+    val: "Edit",
+    translated: false,
+    src: ["src/mainprocess/menu.ts line 72"],
+    h: "9+ZynTDPePvsJX4rW8Mn0wEzk0GRQ+udON01NKHVsQU=",
   },
   "Cut": {
     val: "Cut",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 66"],
+    src: ["src/mainprocess/menu.ts line 107"],
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
   "Copy": {
     val: "Copy",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 70"],
+    src: ["src/mainprocess/menu.ts line 111"],
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Paste": {
     val: "Paste",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 74"],
+    src: ["src/mainprocess/menu.ts line 115"],
     h: "n2Hnio0AcQPZejqQ+hm35GthBg0zYDNoxd8RCFRUhu4=",
   },
   "Paste and Match Style": {
     val: "Paste and Match Style",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 78"],
+    src: ["src/mainprocess/menu.ts line 119"],
     h: "w8hRIxBBNWtXNPcYtQ4t/mTHfPF66U/mJbVpOiIDgYE=",
   },
   "Delete": {
     val: "Delete",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 82"],
+    src: ["src/mainprocess/menu.ts line 123"],
     h: "sm3jcrSw6qxgICiEpy25imvm6QNueF6oZ+oBxfeSEJg=",
   },
   "Select All": {
     val: "Select All",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 86"],
+    src: ["src/mainprocess/menu.ts line 127"],
     h: "tLJuQPindRFUyvGGdMLJbBHcVpAODsfT5p2gDnpB/Oo=",
   },
   "Find...": {
     val: "Find...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 90"],
+    src: ["src/mainprocess/menu.ts line 131"],
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
   },
   "Find Next": {
     val: "Find Next",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 97"],
+    src: ["src/mainprocess/menu.ts line 138"],
     h: "LALfI5V4TsQo0DcGJwmNmrm3xNPtY5PmQuxB1voZo34=",
   },
   "Find Previous": {
     val: "Find Previous",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 104"],
+    src: ["src/mainprocess/menu.ts line 145"],
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
   },
   "View": {
     val: "View",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 113"],
+    src: ["src/mainprocess/menu.ts line 154"],
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
   "Reload": {
     val: "Reload",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 117"],
+    src: ["src/mainprocess/menu.ts line 158"],
     h: "hUVVd3tppLGqwgo2OeC3h334aTF0Y+/GHbuL/I1clYk=",
   },
   "Force Reload": {
     val: "Force Reload",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 121"],
+    src: ["src/mainprocess/menu.ts line 162"],
     h: "ktBJY2UXO+2r0ZvmbQXhArN51bSTnyaNnnBNR9PQ5K8=",
   },
   "Toggle Developer Tools": {
     val: "Toggle Developer Tools",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 125"],
+    src: ["src/mainprocess/menu.ts line 166"],
     h: "IYSSUL9ezB58nRuajYVa+zH4ucrmXQOB92zA7sDlrJc=",
   },
   "Actual Size": {
     val: "Actual Size",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 130"],
+    src: ["src/mainprocess/menu.ts line 171"],
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
   "Zoom In": {
     val: "Zoom In",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 134"],
+    src: ["src/mainprocess/menu.ts line 175"],
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
     val: "Zoom Out",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 138"],
+    src: ["src/mainprocess/menu.ts line 179"],
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "Toggle Full Screen": {
     val: "Toggle Full Screen",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 143"],
+    src: ["src/mainprocess/menu.ts line 184"],
     h: "2ZRq+R5E0Cp4QI+y5jCefU1IOiYvNWLrN/iiJq6hGr8=",
   },
   "Window": {
     val: "Window",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 149"],
+    src: ["src/mainprocess/menu.ts line 190"],
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "Minimize": {
     val: "Minimize",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 153","src/mainprocess/menu.ts line 354"],
+    src: ["src/mainprocess/menu.ts line 194","src/mainprocess/menu.ts line 395"],
     h: "ELhkWGGY5oNKpfCzoXXW6TgkfS1nI0ZuJbWyYLmT+ro=",
   },
   "Close Window": {
     val: "Close Window",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 157","src/mainprocess/menu.ts line 350"],
+    src: ["src/mainprocess/menu.ts line 198","src/mainprocess/menu.ts line 391"],
     h: "hrPxvP/hrVgtNNTMX4sv5sljx57neTy+2p0U1TKGuCE=",
   },
   "Budget": {
     val: "Budget",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 163"],
+    src: ["src/mainprocess/menu.ts line 204"],
     h: "zOO4DqNSFLa6Z9vlmfaz8OnwggHn8wJeP058V5mUKbE=",
   },
   "Duplicate Window": {
     val: "Duplicate Window",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 166"],
+    src: ["src/mainprocess/menu.ts line 207"],
     h: "tjwFTBARBKQ5uC9Fh0zm7ag/RViV95pptJBJn9eVqHE=",
   },
   "Import Transactions...": {
     val: "Import Transactions...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 174"],
+    src: ["src/mainprocess/menu.ts line 215"],
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
   },
   "Import From YNAB4...": {
     val: "Import From YNAB4...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 185"],
+    src: ["src/mainprocess/menu.ts line 226"],
     h: "z10Vp9BzEC6CkLTNtR8xywSTNYGMBbGFZMD7XUEbrVs=",
   },
   "Help": {
     val: "Help",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 200"],
+    src: ["src/mainprocess/menu.ts line 241"],
     h: "TvUUB7AuCuFJ9IWiz2SbsjnUvYoDPZAaMPxup/rwosM=",
   },
   "Learn More": {
     val: "Learn More",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 203"],
+    src: ["src/mainprocess/menu.ts line 244"],
     h: "8bk7nEyrz+Q0vmMisWIPVuvHR4/TeW4DhemALir6s1o=",
   },
   "Getting Started...": {
     val: "Getting Started...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 207"],
+    src: ["src/mainprocess/menu.ts line 248"],
     h: "XD8GQYEIDrNjTMPX4TjGeAbbCIEBcAONlYPd/D8Hz84=",
   },
   "Buckets Guide": {
     val: "Buckets Guide",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 214"],
+    src: ["src/mainprocess/menu.ts line 255"],
     h: "iK/jSwFsIOO0YBANlaqC8+gTWFX+9IBYpc+HuiQ2U/c=",
   },
   "Chat...": {
     val: "Chat...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 221"],
+    src: ["src/mainprocess/menu.ts line 262"],
     h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Show Log Files...": {
     val: "Show Log Files...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 227"],
+    src: ["src/mainprocess/menu.ts line 268"],
     h: "In00T9z1A4xO6nLu8zAU5s3UzH3+IcK4XjRvrT9CGMs=",
   },
   "Report Bug...": {
     val: "Report Bug...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 233"],
+    src: ["src/mainprocess/menu.ts line 274"],
     h: "i17nG0QruMiCn612ogDToWB1g4xqqei691Yeh/t8MIk=",
   },
   "Report Translation Error...": {
     val: "Report Translation Error...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 239"],
+    src: ["src/mainprocess/menu.ts line 280"],
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
   "It says:": {
     val: "It says:",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 242"],
+    src: ["src/mainprocess/menu.ts line 283"],
     h: "gbWdWRhcKGQzFCi8CcKy9Bmfg2oYqz1zGMHQzSU8jQE=",
   },
   "It should say:": {
     val: "It should say:",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 242"],
+    src: ["src/mainprocess/menu.ts line 283"],
     h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
   },
   "Purchase Full Version...": {
     val: "Purchase Full Version...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 253"],
+    src: ["src/mainprocess/menu.ts line 294"],
     h: "+6h2Y0QTHEVui0aUhwAlCsyJp/F+S0PYKMRlQysqjrk=",
   },
   "Enter License...": {
     val: "Enter License...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 259"],
+    src: ["src/mainprocess/menu.ts line 300"],
     h: "A+/eZ8qTAh97iBouJPInRkCg7F0nOkteYEBO7+lFHHA=",
   },
   "About Buckets": {
     val: "About Buckets",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 279"],
+    src: ["src/mainprocess/menu.ts line 320"],
     h: "9bzPsx+kCkNUeLTSVjaygyWCkm3VCdsFaAFRvdS+xEU=",
   },
   "Check For Updates...": {
     val: "Check For Updates...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 282"],
+    src: ["src/mainprocess/menu.ts line 323"],
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
   "Preferences...": {
     val: "Preferences...",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 288"],
+    src: ["src/mainprocess/menu.ts line 329"],
     h: "6iQxyJ1WC9/Z0f0saApfwL5hmhgN5YgJeikLAYqCGBI=",
   },
   "Quit Buckets": {
     val: "Quit Buckets",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 296"],
+    src: ["src/mainprocess/menu.ts line 337"],
     h: "QILEHXgAk6vuNPV3rqkbn2QRZ8WKrPnAZnscp7n8WaM=",
   },
   "Services": {
     val: "Services",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 312"],
+    src: ["src/mainprocess/menu.ts line 353"],
     h: "Y5+GuNZXfFSynDsHvAY8cr0RqU+moaHZNmOk2eQrsNs=",
   },
   "Hide Buckets": {
     val: "Hide Buckets",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 317"],
+    src: ["src/mainprocess/menu.ts line 358"],
     h: "38YdGXFjndmgDFgXTpfUZ0F+W/D9e267YaAvzYZm4O8=",
   },
   "Hide Others": {
     val: "Hide Others",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 321"],
+    src: ["src/mainprocess/menu.ts line 362"],
     h: "RpKz0G7Y8OE5oyGm0/zRffPdr7RQkneZCYrikLHIZ+U=",
   },
   "Show All": {
     val: "Show All",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 325"],
+    src: ["src/mainprocess/menu.ts line 366"],
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
   "Speech": {
     val: "Speech",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 334"],
+    src: ["src/mainprocess/menu.ts line 375"],
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Start Speaking": {
     val: "Start Speaking",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 338"],
+    src: ["src/mainprocess/menu.ts line 379"],
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Stop Speaking": {
     val: "Stop Speaking",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 342"],
+    src: ["src/mainprocess/menu.ts line 383"],
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Zoom": {
     val: "Zoom",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 358"],
+    src: ["src/mainprocess/menu.ts line 399"],
     h: "Zjzswxbrkbj1TLPOYCtimoyh/aJlkF/mxeghbzdheSs=",
   },
   "Bring All to Front": {
     val: "Bring All to Front",
     translated: false,
-    src: ["src/mainprocess/menu.ts line 363"],
+    src: ["src/mainprocess/menu.ts line 404"],
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Update Available": {
