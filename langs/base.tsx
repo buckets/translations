@@ -569,7 +569,7 @@ export const DEFAULTS:IMessages = {
   "Create Account": {
     val: "Create Account",
     translated: false,
-    src: ["src/budget/accounts.tsx line 279","src/csvimport.tsx line 490"],
+    src: ["src/budget/accounts.tsx line 279","src/csvimport.tsx line 493"],
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
   "default account name": {
@@ -1039,19 +1039,19 @@ export const DEFAULTS:IMessages = {
   "Posted": {
     val: "Posted",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1290","src/budget/searchpage.tsx line 142","src/budget/searchpage.tsx line 171","src/budget/transactions.tsx line 214","src/csvimport.tsx line 504"],
+    src: ["src/budget/buckets.tsx line 1290","src/budget/searchpage.tsx line 142","src/budget/searchpage.tsx line 171","src/budget/transactions.tsx line 214","src/csvimport.tsx line 507"],
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
   "Memo": {
     val: "Memo",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1291","src/budget/searchpage.tsx line 144","src/budget/searchpage.tsx line 173","src/budget/transactions.tsx line 216","src/csvimport.tsx line 334","src/csvimport.tsx line 505"],
+    src: ["src/budget/buckets.tsx line 1291","src/budget/searchpage.tsx line 144","src/budget/searchpage.tsx line 173","src/budget/transactions.tsx line 216","src/csvimport.tsx line 337","src/csvimport.tsx line 508"],
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "Amount": {
     val: "Amount",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1292","src/budget/searchpage.tsx line 145","src/budget/searchpage.tsx line 174","src/budget/transactions.tsx line 217","src/csvimport.tsx line 333","src/csvimport.tsx line 506"],
+    src: ["src/budget/buckets.tsx line 1292","src/budget/searchpage.tsx line 145","src/budget/searchpage.tsx line 174","src/budget/transactions.tsx line 217","src/csvimport.tsx line 336","src/csvimport.tsx line 509"],
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "noun.transfer": {
@@ -1701,7 +1701,7 @@ export const DEFAULTS:IMessages = {
   "Create new account": {
     val: "Create new account",
     translated: false,
-    src: ["src/budget/importpage.tsx line 494","src/csvimport.tsx line 469"],
+    src: ["src/budget/importpage.tsx line 494","src/csvimport.tsx line 472"],
     h: "SmoVFbeAWSO4cW1YQJbuDJQz8kenVz5++WTJEkS6Vos=",
   },
   "action.link-account": {
@@ -1971,73 +1971,73 @@ export const DEFAULTS:IMessages = {
   "Identify the data each column contains using the drop downs below.": {
     val: "Identify the data each column contains using the drop downs below.",
     translated: false,
-    src: ["src/csvimport.tsx line 294"],
+    src: ["src/csvimport.tsx line 297"],
     h: "59JoGSJaPOdtgmCL+QLp8U/e6y+OGGM8fdEX4sClrpk=",
   },
   "You must have at least one column each set to Amount, Memo and Date Posted.": {
     val: "You must have at least one column each set to Amount, Memo and Date Posted.",
     translated: false,
-    src: ["src/csvimport.tsx line 295"],
+    src: ["src/csvimport.tsx line 298"],
     h: "k5NuGeKNgPfZs7xUbwp5PgfPr6dosV0ZTVxAnphHH6E=",
   },
   "For Date Posted, you must also choose the date format.": {
     val: "For Date Posted, you must also choose the date format.",
     translated: false,
-    src: ["src/csvimport.tsx line 296"],
+    src: ["src/csvimport.tsx line 299"],
     h: "G2XPMMlP2JPnutFhPAo1RnCQMTzdukxPSc+FjoF2Vjs=",
   },
   "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": {
     val: "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.",
     translated: false,
-    src: ["src/csvimport.tsx line 297"],
+    src: ["src/csvimport.tsx line 300"],
     h: "bxc4+JxhDrm2oYWek0ISeJDxq173KLfpcnOT4GEMWGQ=",
   },
   "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": {
     val: "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.",
     translated: false,
-    src: ["src/csvimport.tsx line 298"],
+    src: ["src/csvimport.tsx line 301"],
     h: "MUc4sPlkaqyooNhJKZ15rbBQdclJSNbaarHERiW1hrs=",
   },
   "Click the \"Set mapping\" to continue.": {
     val: "Click the \"Set mapping\" to continue.",
     translated: false,
-    src: ["src/csvimport.tsx line 299"],
+    src: ["src/csvimport.tsx line 302"],
     h: "17QBrVZk8kjbKoqmqsbEBBHyjcoru22TcYanag65Jrw=",
   },
   "Date Posted": {
     val: "Date Posted",
     translated: false,
-    src: ["src/csvimport.tsx line 335"],
+    src: ["src/csvimport.tsx line 338"],
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Unique ID": {
     val: "Unique ID",
     translated: false,
-    src: ["src/csvimport.tsx line 336"],
+    src: ["src/csvimport.tsx line 339"],
     h: "UZsJmQ28mtEO349l3zdNHoAtb0JT1LT9e7EjedqptSE=",
   },
   "(optional)": {
     val: "(optional)",
     translated: false,
-    src: ["src/csvimport.tsx line 336"],
+    src: ["src/csvimport.tsx line 339"],
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "Set mapping": {
     val: "Set mapping",
     translated: false,
-    src: ["src/csvimport.tsx line 364"],
+    src: ["src/csvimport.tsx line 367"],
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
   },
   "Invalid": {
     val: "Invalid",
     translated: false,
-    src: ["src/csvimport.tsx line 392","src/csvimport.tsx line 395","src/csvimport.tsx line 406"],
+    src: ["src/csvimport.tsx line 395","src/csvimport.tsx line 398","src/csvimport.tsx line 409"],
     h: "TTWlQj/xySwj3x3tLJd80Tl+VmJXWWdhFpMq90hNbfg=",
   },
   "Select the account these transactions belong to.": {
     val: "Select the account these transactions belong to.",
     translated: false,
-    src: ["src/csvimport.tsx line 447"],
+    src: ["src/csvimport.tsx line 450"],
     h: "qkaCMMw9CYakrPrLxgfkBp3KsfadBdGLYgZB8urPaC4=",
   },
   "edit.mapping": {
@@ -2045,25 +2045,25 @@ export const DEFAULTS:IMessages = {
           return <span>Or <a href="#" onClick={onClick}>edit the mapping.</a></span>
         },
     translated: false,
-    src: ["src/csvimport.tsx line 447"],
+    src: ["src/csvimport.tsx line 450"],
     h: "hFYUKKIqC+nYQ+RRKwNu3/PGxbtuHzNHoigSJwCK8d4=",
   },
   "Account name": {
     val: "Account name",
     translated: false,
-    src: ["src/csvimport.tsx line 478"],
+    src: ["src/csvimport.tsx line 481"],
     h: "Wo+ZnjRTxGkow1m4BGCavACj82/UajUNs6oLDXB++sU=",
   },
   "Provide a name for the new account.": {
     val: "Provide a name for the new account.",
     translated: false,
-    src: ["src/csvimport.tsx line 487"],
+    src: ["src/csvimport.tsx line 490"],
     h: "WFHwJzRVIraGkeqDS03YjWe0vMsPsiRE1qM6V/Ef/xE=",
   },
   "Finish import": {
     val: "Finish import",
     translated: false,
-    src: ["src/csvimport.tsx line 498"],
+    src: ["src/csvimport.tsx line 501"],
     h: "4xsUuxEj2AOOfV6aSUBcosl89BFoAZ+srMPIeWzIjUI=",
   },
   "Error": {
@@ -2869,13 +2869,13 @@ Would you like to purchase a license now?`,
   "Open YNAB4 File": {
     val: "Open YNAB4 File",
     translated: false,
-    src: ["src/ynab.ts line 386"],
+    src: ["src/ynab.ts line 397"],
     h: "BrKgvN0SgW410a7e11V3gP+FgW67iTGIY+o/cKI1Ftk=",
   },
   "Error importing": {
     val: "Error importing",
     translated: false,
-    src: ["src/ynab.ts line 401"],
+    src: ["src/ynab.ts line 412"],
     h: "rekzwWcY0HRZEhFebX1fJrp4aDJ/NTPxIwWaCYAk+7k=",
   },
 }
