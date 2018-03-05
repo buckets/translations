@@ -224,6 +224,7 @@ export interface IMessages {
   "action.link-account": IMsg<string>;
   "Link Account": IMsg<string>;
   "Update Note": IMsg<string>;
+  "press Escape to close": IMsg<string>;
   "Month to Month": IMsg<string>;
   "Year to Year": IMsg<string>;
   "Avg:": IMsg<string>;
@@ -727,7 +728,7 @@ export const DEFAULTS:IMessages = {
   "Rain": {
     val: "Rain",
     translated: false,
-    src: ["src/budget/buckets.tsx line 217","src/budget/budget.tsx line 210","src/budget/budget.tsx line 233"],
+    src: ["src/budget/buckets.tsx line 217","src/budget/budget.tsx line 214","src/budget/budget.tsx line 237"],
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Total amount your buckets expect each month.": {
@@ -763,7 +764,7 @@ export const DEFAULTS:IMessages = {
   "Transactions": {
     val: "Transactions",
     translated: false,
-    src: ["src/budget/buckets.tsx line 296","src/budget/budget.tsx line 151","src/budget/exportpage.tsx line 147"],
+    src: ["src/budget/buckets.tsx line 296","src/budget/budget.tsx line 155","src/budget/exportpage.tsx line 147"],
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Goal:": {
@@ -1075,79 +1076,79 @@ export const DEFAULTS:IMessages = {
   "Trial Version": {
     val: "Trial Version",
     translated: false,
-    src: ["src/budget/budget.tsx line 119","src/mainprocess/menu.ts line 291"],
+    src: ["src/budget/budget.tsx line 123","src/mainprocess/menu.ts line 291"],
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Accounts": {
     val: "Accounts",
     translated: false,
-    src: ["src/budget/budget.tsx line 147","src/budget/budget.tsx line 214","src/budget/searchpage.tsx line 115"],
+    src: ["src/budget/budget.tsx line 151","src/budget/budget.tsx line 218","src/budget/searchpage.tsx line 115"],
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Closed": {
     val: "Closed",
     translated: false,
-    src: ["src/budget/budget.tsx line 149"],
+    src: ["src/budget/budget.tsx line 153"],
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "Buckets": {
     val: "Buckets",
     translated: false,
-    src: ["src/budget/budget.tsx line 152","src/budget/budget.tsx line 219","src/budget/searchpage.tsx line 92"],
+    src: ["src/budget/budget.tsx line 156","src/budget/budget.tsx line 223","src/budget/searchpage.tsx line 92"],
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Kicked": {
     val: "Kicked",
     translated: false,
-    src: ["src/budget/budget.tsx line 154"],
+    src: ["src/budget/budget.tsx line 158"],
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "Analysis": {
     val: "Analysis",
     translated: false,
-    src: ["src/budget/budget.tsx line 156"],
+    src: ["src/budget/budget.tsx line 160"],
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Recurring Expenses": {
     val: "Recurring Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 159","src/budget/reports.tsx line 605"],
+    src: ["src/budget/budget.tsx line 163","src/budget/reports.tsx line 605"],
     h: "yDp5Agru+QzDSy583s3kjOdZbbe6X1WDfMeSNXsYlaY=",
   },
   "Import": {
     val: "Import",
     translated: false,
-    src: ["src/budget/budget.tsx line 162"],
+    src: ["src/budget/budget.tsx line 166"],
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Tools": {
     val: "Tools",
     translated: false,
-    src: ["src/budget/budget.tsx line 163"],
+    src: ["src/budget/budget.tsx line 167"],
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Search": {
     val: "Search",
     translated: false,
-    src: ["src/budget/budget.tsx line 166"],
+    src: ["src/budget/budget.tsx line 170"],
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Export": {
     val: "Export",
     translated: false,
-    src: ["src/budget/budget.tsx line 167","src/budget/exportpage.tsx line 97"],
+    src: ["src/budget/budget.tsx line 171","src/budget/exportpage.tsx line 97"],
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
   "Chat with Matt": {
     val: "Chat with Matt",
     translated: false,
-    src: ["src/budget/budget.tsx line 173"],
+    src: ["src/budget/budget.tsx line 177"],
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "Used in future": {
     val: "Used in future",
     translated: false,
-    src: ["src/budget/budget.tsx line 224"],
+    src: ["src/budget/budget.tsx line 228"],
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
   "rain.help.pos": {
@@ -1157,7 +1158,7 @@ export const DEFAULTS:IMessages = {
                                       </span>
                                     },
     translated: false,
-    src: ["src/budget/budget.tsx line 240"],
+    src: ["src/budget/budget.tsx line 244"],
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "rain.help.neg": {
@@ -1167,19 +1168,19 @@ export const DEFAULTS:IMessages = {
                                       </span>
                                     },
     translated: false,
-    src: ["src/budget/budget.tsx line 245"],
+    src: ["src/budget/budget.tsx line 249"],
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "Income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/budget.tsx line 260","src/budget/reports.tsx line 213"],
+    src: ["src/budget/budget.tsx line 264","src/budget/reports.tsx line 213"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Expenses": {
     val: "Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 265","src/budget/reports.tsx line 224"],
+    src: ["src/budget/budget.tsx line 269","src/budget/reports.tsx line 224"],
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "months gain/loss label": {
@@ -1187,13 +1188,13 @@ export const DEFAULTS:IMessages = {
                         return gain >= 0 ? "Month's gain" : "Month's loss";
                       },
     translated: false,
-    src: ["src/budget/budget.tsx line 270"],
+    src: ["src/budget/budget.tsx line 274"],
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "in the bank": {
     val: "in the bank",
     translated: false,
-    src: ["src/budget/budget.tsx line 276"],
+    src: ["src/budget/budget.tsx line 280"],
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "I'm exporting data so that I can ": {
@@ -1719,8 +1720,14 @@ export const DEFAULTS:IMessages = {
   "Update Note": {
     val: "Update Note",
     translated: false,
-    src: ["src/budget/notes.tsx line 46"],
+    src: ["src/budget/notes.tsx line 57"],
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
+  },
+  "press Escape to close": {
+    val: "press Escape to close",
+    translated: false,
+    src: ["src/budget/notes.tsx line 62"],
+    h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "Month to Month": {
     val: "Month to Month",
@@ -2143,7 +2150,7 @@ Would you like to purchase a license now?`,
   "Later": {
     val: "Later",
     translated: false,
-    src: ["src/mainprocess/drm.ts line 93","src/mainprocess/updater.ts line 189"],
+    src: ["src/mainprocess/drm.ts line 93","src/mainprocess/updater.ts line 194"],
     h: "wZUl6R8m08S1l0zLg0xgDG2XE1sodemTuRDbalIB4VM=",
   },
   "Purchase": {
@@ -2533,19 +2540,19 @@ Would you like to purchase a license now?`,
   "Update Available": {
     val: "Update Available",
     translated: false,
-    src: ["src/mainprocess/updater.ts line 187"],
+    src: ["src/mainprocess/updater.ts line 192"],
     h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "version-available": {
     val: (newv:string) => `Version ${newv} available.`,
     translated: false,
-    src: ["src/mainprocess/updater.ts line 188","src/wwwroot/misc/updates.tsx line 56"],
+    src: ["src/mainprocess/updater.ts line 193","src/wwwroot/misc/updates.tsx line 56"],
     h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
   "Download": {
     val: "Download",
     translated: false,
-    src: ["src/mainprocess/updater.ts line 190"],
+    src: ["src/mainprocess/updater.ts line 195"],
     h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Confirm password:": {
@@ -2869,13 +2876,13 @@ Would you like to purchase a license now?`,
   "Open YNAB4 File": {
     val: "Open YNAB4 File",
     translated: false,
-    src: ["src/ynab.ts line 397"],
+    src: ["src/ynab.ts line 400"],
     h: "BrKgvN0SgW410a7e11V3gP+FgW67iTGIY+o/cKI1Ftk=",
   },
   "Error importing": {
     val: "Error importing",
     translated: false,
-    src: ["src/ynab.ts line 412"],
+    src: ["src/ynab.ts line 415"],
     h: "rekzwWcY0HRZEhFebX1fJrp4aDJ/NTPxIwWaCYAk+7k=",
   },
 }

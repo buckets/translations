@@ -1309,6 +1309,12 @@ const messages:IMessages = {
     src: ["src/budget/notes.tsx line 46"],
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
+  "press Escape to close": {
+    val: "press Escape to close",
+    translated: false,
+    src: ["src/budget/notes.tsx line 62"],
+    h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
+  },
   "Month to Month": {
     val: "Mês a mês",
     translated: true,
@@ -2469,5 +2475,11 @@ Você gostaria de comprar uma licença agora?`,
 export const pack:ILangPack = {
   name: 'Português',
   dir: 'ltr',
+  numbers: {
+    group: '.',
+    group_regex: /\./g,
+    decimal: ',',
+    decimal_regex: /,/g,
+  },
   messages
 }
