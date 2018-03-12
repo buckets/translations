@@ -638,7 +638,7 @@ export const DEFAULTS:IMessages = {
   "Bucket": {
     val: "Bucket",
     translated: false,
-    src: ["src/budget/buckets.tsx line 64","src/budget/reports.tsx line 609","src/budget/searchpage.tsx line 96","src/budget/searchpage.tsx line 172"],
+    src: ["src/budget/buckets.tsx line 64","src/budget/reports.tsx line 603","src/budget/searchpage.tsx line 96","src/budget/searchpage.tsx line 172"],
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "In": {
@@ -1058,7 +1058,7 @@ export const DEFAULTS:IMessages = {
   "noun.transfer": {
     val: "Transfer",
     translated: false,
-    src: ["src/budget/buckets.tsx line 1294","src/budget/transactions.tsx line 648","src/budget/transactions.tsx line 664"],
+    src: ["src/budget/buckets.tsx line 1294","src/budget/transactions.tsx line 649","src/budget/transactions.tsx line 665"],
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "bucket.transfer.help": {
@@ -1112,7 +1112,7 @@ export const DEFAULTS:IMessages = {
   "Recurring Expenses": {
     val: "Recurring Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 163","src/budget/reports.tsx line 605"],
+    src: ["src/budget/budget.tsx line 163","src/budget/reports.tsx line 599"],
     h: "yDp5Agru+QzDSy583s3kjOdZbbe6X1WDfMeSNXsYlaY=",
   },
   "Import": {
@@ -1174,13 +1174,13 @@ export const DEFAULTS:IMessages = {
   "Income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/budget.tsx line 264","src/budget/reports.tsx line 213"],
+    src: ["src/budget/budget.tsx line 264","src/budget/reports.tsx line 207"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Expenses": {
     val: "Expenses",
     translated: false,
-    src: ["src/budget/budget.tsx line 269","src/budget/reports.tsx line 224"],
+    src: ["src/budget/budget.tsx line 269","src/budget/reports.tsx line 218"],
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "months gain/loss label": {
@@ -1738,73 +1738,73 @@ export const DEFAULTS:IMessages = {
   "Year to Year": {
     val: "Year to Year",
     translated: false,
-    src: ["src/budget/reports.tsx line 79"],
+    src: ["src/budget/reports.tsx line 73"],
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
   "Avg:": {
     val: "Avg:",
     translated: false,
-    src: ["src/budget/reports.tsx line 220","src/budget/reports.tsx line 231"],
+    src: ["src/budget/reports.tsx line 214","src/budget/reports.tsx line 225"],
     h: "EVMZyhHQEFPlI2ib8VqTJo25bJBk8gHsgZR1SZ2Jcj0=",
   },
   "Net Transfers": {
     val: "Net Transfers",
     translated: false,
-    src: ["src/budget/reports.tsx line 235"],
+    src: ["src/budget/reports.tsx line 229"],
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
   },
   "net-transfers.help": {
     val: "Net transfers are the sum total of all transactions marked as a transfer.  It should be 0.  If it's not, click through to make sure there aren't duplicate transactions or transactions miscategorized as transfers.",
     translated: false,
-    src: ["src/budget/reports.tsx line 235"],
+    src: ["src/budget/reports.tsx line 229"],
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "Tot:": {
     val: "Tot:",
     translated: false,
-    src: ["src/budget/reports.tsx line 242","src/budget/reports.tsx line 380"],
+    src: ["src/budget/reports.tsx line 236","src/budget/reports.tsx line 374"],
     h: "saHMHdDjhEhiq86BBPRvnL+Rb3M/qOu30ZLtUk20QIM=",
   },
   "Gain/Loss": {
     val: "Gain/Loss",
     translated: false,
-    src: ["src/budget/reports.tsx line 373"],
+    src: ["src/budget/reports.tsx line 367"],
     h: "Kop7hNPijjGN5jXxpDmcP32CJy22tzVz1qXWTjNxVg0=",
   },
   "Ending Balance": {
     val: "Ending Balance",
     translated: false,
-    src: ["src/budget/reports.tsx line 432"],
+    src: ["src/budget/reports.tsx line 426"],
     h: "bwan2qqqdDloluCkgp+UPYWSAeOQk9zkaNwb2p0kUDk=",
   },
   "Budgeted": {
     val: "Budgeted",
     translated: false,
-    src: ["src/budget/reports.tsx line 610"],
+    src: ["src/budget/reports.tsx line 604"],
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
   },
   "Average": {
     val: "Average",
     translated: false,
-    src: ["src/budget/reports.tsx line 611"],
+    src: ["src/budget/reports.tsx line 605"],
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
   "Months": {
     val: "Months",
     translated: false,
-    src: ["src/budget/reports.tsx line 644"],
+    src: ["src/budget/reports.tsx line 638"],
     h: "wW/jCiA3sxpdbZ8SZ50pYiOvxUk2Ix8T6WB3ZXkAS4s=",
   },
   "Years": {
     val: "Years",
     translated: false,
-    src: ["src/budget/reports.tsx line 645"],
+    src: ["src/budget/reports.tsx line 639"],
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "You don't have any recurring expense buckets yet.": {
     val: "You don't have any recurring expense buckets yet.",
     translated: false,
-    src: ["src/budget/reports.tsx line 659"],
+    src: ["src/budget/reports.tsx line 653"],
     h: "nq2IDCqs8m0MQJ5lO2TU1cnlj9nP1vwIMWMqi0WGOjk=",
   },
   "Note": {
@@ -1942,37 +1942,37 @@ export const DEFAULTS:IMessages = {
   "Categorization": {
     val: "Categorization",
     translated: false,
-    src: ["src/budget/transactions.tsx line 508","src/budget/transactions.tsx line 518"],
+    src: ["src/budget/transactions.tsx line 509","src/budget/transactions.tsx line 519"],
     h: "DShuYOF3daz37AE7lGCN1TajYU1VyorRCvLwh4bM1r8=",
   },
   "Cancel": {
     val: "Cancel",
     translated: false,
-    src: ["src/budget/transactions.tsx line 643"],
+    src: ["src/budget/transactions.tsx line 644"],
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
   },
   "Save": {
     val: "Save",
     translated: false,
-    src: ["src/budget/transactions.tsx line 644","src/wwwroot/record/record.tsx line 488"],
+    src: ["src/budget/transactions.tsx line 645","src/wwwroot/record/record.tsx line 488"],
     h: "wduD0WXtkIpIb6B4R8AA7ph724u3/Gtv27uaky6rEAU=",
   },
   "noun.income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/transactions.tsx line 647"],
+    src: ["src/budget/transactions.tsx line 648"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "noin.income": {
     val: "Income",
     translated: false,
-    src: ["src/budget/transactions.tsx line 659"],
+    src: ["src/budget/transactions.tsx line 660"],
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Categorize": {
     val: "Categorize",
     translated: false,
-    src: ["src/budget/transactions.tsx line 687"],
+    src: ["src/budget/transactions.tsx line 688"],
     h: "mA6/TefxgXpo2M+OUx/ATLQ4QYHv4t1+8vy3MmV+EQg=",
   },
   "Identify the data each column contains using the drop downs below.": {
@@ -2792,13 +2792,13 @@ Would you like to purchase a license now?`,
   "Update downloaded.": {
     val: "Update downloaded.",
     translated: false,
-    src: ["src/wwwroot/misc/updates.tsx line 83"],
+    src: ["src/wwwroot/misc/updates.tsx line 84"],
     h: "DO2vE3TgW3xjiD8ZaOWeScL3qWCyiFPK8GENQ9NosYw=",
   },
   "Install and Relaunch Buckets": {
     val: "Install and Relaunch Buckets",
     translated: false,
-    src: ["src/wwwroot/misc/updates.tsx line 87"],
+    src: ["src/wwwroot/misc/updates.tsx line 88"],
     h: "bzusTDIT831mqEwmmM59eT12mfoNMYiGPbUfoIzaCwo=",
   },
   "Recently used": {
