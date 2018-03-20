@@ -2472,7 +2472,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Română',
   dir: 'ltr',
   numbers: {
     group: ',',
