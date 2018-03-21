@@ -504,8 +504,8 @@ const messages:IMessages = {
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
-    translated: false,
+    val: "Utilize para colocar ou retirar dinheiro de cada bucket.",
+    translated: true,
     src: ["src/budget/buckets.tsx line 840"],
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
@@ -522,20 +522,20 @@ const messages:IMessages = {
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckethead.in": {
-    val: "Amount of money put in this month.",
-    translated: false,
+    val: "Quantidade de dinheiro para colocar esse mês.",
+    translated: true,
     src: ["src/budget/buckets.tsx line 842"],
     h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
   },
   "Activity": {
-    val: "Activity",
-    translated: false,
+    val: "Atividade",
+    translated: true,
     src: ["src/budget/buckets.tsx line 843"],
     h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
   },
   "bucketactivity.help": {
-    val: "This is the sum of money taken out of this bucket and transfers in from other buckets this month.",
-    translated: false,
+    val: "Esta é a soma do dinheiro retirado desse bucket e transferido de outros buckets nesse mês.",
+    translated: true,
     src: ["src/budget/buckets.tsx line 843"],
     h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
   },
@@ -1328,8 +1328,8 @@ const messages:IMessages = {
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
-    translated: false,
+    val: "pressione Esc para fechar",
+    translated: true,
     src: ["src/budget/notes.tsx line 62"],
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
@@ -1514,8 +1514,8 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Invalid categorization.  Categories not set.": {
-    val: "Invalid categorization.  Categories not set.",
-    translated: false,
+    val: "Categorização inválida. Categoria não foi marcada.",
+    translated: true,
     src: ["src/budget/transactions.tsx line 335"],
     h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
   },
@@ -1539,23 +1539,23 @@ const messages:IMessages = {
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer from {dropdown}</span>
+                return <span>Transferir de{dropdown}</span>
               },
-    translated: false,
+    translated: true,
     src: ["src/budget/transactions.tsx line 497"],
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer to {dropdown}</span>
+                return <span>Transferir para {dropdown}</span>
               },
-    translated: false,
+    translated: true,
     src: ["src/budget/transactions.tsx line 502"],
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
   "Transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "Transferência",
+    translated: true,
     src: ["src/budget/transactions.tsx line 728"],
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
@@ -1566,8 +1566,8 @@ const messages:IMessages = {
     h: "DShuYOF3daz37AE7lGCN1TajYU1VyorRCvLwh4bM1r8=",
   },
   "Remove Categorization": {
-    val: "Remove Categorization",
-    translated: false,
+    val: "Remover Categorização",
+    translated: true,
     src: ["src/budget/transactions.tsx line 890"],
     h: "b5sIQMfXAnBAqHD2NJfIgIAxclRGe5LJ7NzzF6sOruQ=",
   },
