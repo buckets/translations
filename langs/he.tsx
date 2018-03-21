@@ -3,6 +3,14 @@ import * as moment from 'moment'
 
 import { ILangPack, IMessages } from './spec';
 
+// Contributors, include your name and optionally a link to
+// a website as you want it to appear in any credits.
+const contributors = [
+  // {
+  //   name: '',
+  //   // href: '', /* optional */
+  // }
+];
 
 const messages:IMessages = {
   "Reopen Account": {
@@ -486,6 +494,54 @@ const messages:IMessages = {
     src: ["src/budget/buckets.tsx line 753","src/budget/buckets.tsx line 951"],
     h: "6lJYNJMplvVHQuXlFYBD81+4kgQQb1SwZ0s13hvlIfI=",
   },
+  "In/Out": {
+    val: "In/Out",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 799"],
+    h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
+  },
+  "bucketinout.help": {
+    val: "Use this to put money in and take money out of each bucket.",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 840"],
+    h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
+  },
+  "Want": {
+    val: "Want",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 993"],
+    h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
+  },
+  "bucketrain.help": {
+    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 787"],
+    h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
+  },
+  "buckethead.in": {
+    val: "Amount of money put in this month.",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 842"],
+    h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
+  },
+  "Activity": {
+    val: "Activity",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 843"],
+    h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
+  },
+  "bucketactivity.help": {
+    val: "This is the sum of money taken out of this bucket and transfers in from other buckets this month.",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 843"],
+    h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
+  },
+  "bucket.detailslabel": {
+    val: "Details",
+    translated: false,
+    src: ["src/budget/buckets.tsx line 788"],
+    h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
+  },
   "New bucket": {
     val: "New bucket",
     translated: false,
@@ -515,48 +571,6 @@ const messages:IMessages = {
     translated: false,
     src: ["src/budget/buckets.tsx line 945"],
     h: "zSmn/C+X/cbh/GqqDMPetNfBb8iTmlwFh9Dsbc9qe9k=",
-  },
-  "Want": {
-    val: "Want",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 993"],
-    h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
-  },
-  "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 787"],
-    h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
-  },
-  "Net transfers between buckets.": {
-    val: "Net transfers between buckets.",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 996"],
-    h: "wRxoqvIxh/1UVZNHs+kwKhCJbdg0R5FFPaTVeHEEK3Y=",
-  },
-  "Effective": {
-    val: "Effective",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 785"],
-    h: "Iu58QrugjAc/VqZhXc0aKtmSC8KziRWTzVTiliXpAL0=",
-  },
-  "effective.help": {
-    val: "This would be the balance if no buckets were in debt.",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 785"],
-    h: "D6V8nTUoyPCGCdFMHiUFZiACXp8Lpz5MFDbiujAlfSc=",
-  },
-  "In/Out": {
-    val: "In/Out",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 799"],
-    h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
-  },
-  "bucket.detailslabel": {
-    val: "Details",
-    translated: false,
-    src: ["src/budget/buckets.tsx line 788"],
-    h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "misc group name": {
     val: "Misc",
@@ -1507,6 +1521,12 @@ const messages:IMessages = {
     src: ["src/budget/transactions.tsx line 192"],
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
+  "Invalid categorization.  Categories not set.": {
+    val: "Invalid categorization.  Categories not set.",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 335"],
+    h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
+  },
   "Update Transaction": {
     val: "Update Transaction",
     translated: false,
@@ -1525,23 +1545,39 @@ const messages:IMessages = {
     src: ["src/budget/transactions.tsx line 171"],
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
-  "Deposit": {
-    val: "Deposit",
+  "transfer-from-account": {
+    val: (dropdown:JSX.Element) => {
+                return <span>Transfer from {dropdown}</span>
+              },
     translated: false,
-    src: ["src/budget/transactions.tsx line 349"],
-    h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
+    src: ["src/budget/transactions.tsx line 497"],
+    h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
-  "Withdrawl": {
-    val: "Withdrawl",
+  "transfer-to-account": {
+    val: (dropdown:JSX.Element) => {
+                return <span>Transfer to {dropdown}</span>
+              },
     translated: false,
-    src: ["src/budget/transactions.tsx line 351"],
-    h: "PYAfiGRUsqYlItWQgBtWG3zimuUt57IOlS42TrZ2sf4=",
+    src: ["src/budget/transactions.tsx line 502"],
+    h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
+  },
+  "Transfer": {
+    val: "Transfer",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 728"],
+    h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Categorization": {
     val: "Categorization",
     translated: false,
     src: ["src/budget/transactions.tsx line 508","src/budget/transactions.tsx line 518"],
     h: "DShuYOF3daz37AE7lGCN1TajYU1VyorRCvLwh4bM1r8=",
+  },
+  "Remove Categorization": {
+    val: "Remove Categorization",
+    translated: false,
+    src: ["src/budget/transactions.tsx line 890"],
+    h: "b5sIQMfXAnBAqHD2NJfIgIAxclRGe5LJ7NzzF6sOruQ=",
   },
   "Cancel": {
     val: "Cancel",
@@ -1554,12 +1590,6 @@ const messages:IMessages = {
     translated: false,
     src: ["src/budget/transactions.tsx line 509"],
     h: "wduD0WXtkIpIb6B4R8AA7ph724u3/Gtv27uaky6rEAU=",
-  },
-  "noun.income": {
-    val: "Income",
-    translated: false,
-    src: ["src/budget/transactions.tsx line 512"],
-    h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "noin.income": {
     val: "Income",
@@ -2499,5 +2529,6 @@ export const pack:ILangPack = {
     decimal: '.',
     decimal_regex: /\./g,
   },
-  messages
+  messages,
+  contributors,
 }
