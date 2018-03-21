@@ -1539,7 +1539,7 @@ const messages:IMessages = {
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transferir de{dropdown}</span>
+                return <span>Transferir de {dropdown}</span>
               },
     translated: true,
     src: ["src/budget/transactions.tsx line 497"],
