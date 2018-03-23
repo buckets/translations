@@ -251,6 +251,16 @@ export interface IMessages {
   "Successfully imported Amazon Refunds report": IMsg<string>;
   "Import Amazon Reports": IMsg<string>;
   "Amazon Reconciliation": IMsg<string>;
+  "Create Backup": IMsg<string>;
+  "budget-file-type-name": IMsg<string>;
+  "You must backup to a different file.": IMsg<string>;
+  "Start Over": IMsg<string>;
+  "This tool will delete data so that to make it easy to start over with your budget.": IMsg<string>;
+  "Keep buckets": IMsg<string>;
+  "Keep accounts": IMsg<string>;
+  "Keep bucket transactions": IMsg<string>;
+  "Keep account transactions": IMsg<string>;
+  "Create Backup and Start Over": IMsg<string>;
   "Amazon.com Reconciliation": IMsg<string>;
   "Possible Duplicates": IMsg<string>;
   "Show uncategorized": IMsg<string>;
@@ -303,7 +313,6 @@ export interface IMessages {
   "Open Transaction File": IMsg<string>;
   "File does not exist:": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
-  "budget-file-type-name": IMsg<string>;
   "Buckets Budget Filename": IMsg<string>;
   "No file chosen": IMsg<string>;
   "File": IMsg<string>;
@@ -1729,13 +1738,13 @@ export const DEFAULTS:IMessages = {
   "Update Note": {
     val: "Update Note",
     translated: false,
-    src: ["src/budget/notes.tsx line 57"],
+    src: ["src/budget/notes.tsx line 35"],
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "press Escape to close": {
     val: "press Escape to close",
     translated: false,
-    src: ["src/budget/notes.tsx line 62"],
+    src: ["src/budget/notes.tsx line 78"],
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "Month to Month": {
@@ -1888,10 +1897,70 @@ export const DEFAULTS:IMessages = {
     src: ["src/budget/tools/amazon.tsx line 226"],
     h: "S+wC/RTatD+cq4mogt2XBek9Zw6sSUrQX2eNL62gzVE=",
   },
+  "Create Backup": {
+    val: "Create Backup",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 28"],
+    h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
+  },
+  "budget-file-type-name": {
+    val: "Buckets Budget",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 32","src/mainprocess/files.ts line 729"],
+    h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
+  },
+  "You must backup to a different file.": {
+    val: "You must backup to a different file.",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 41"],
+    h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
+  },
+  "Start Over": {
+    val: "Start Over",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 106","src/budget/tools/toolspage.tsx line 25"],
+    h: "hlKNxy6ZDz4ny/qpQfkv6FwXDangtq2ECEo+ICgEbJs=",
+  },
+  "This tool will delete data so that to make it easy to start over with your budget.": {
+    val: "This tool will delete data so that to make it easy to start over with your budget.",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 108"],
+    h: "cGdr2kyPp8Y8D9aDDRX7C71PlUd9jhGYYu0t7fq46NI=",
+  },
+  "Keep buckets": {
+    val: "Keep buckets",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 111"],
+    h: "4lGk6/xvGOvn8z5vLVpqCLE6WQwpEoizH0LM95z1Tvo=",
+  },
+  "Keep accounts": {
+    val: "Keep accounts",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 114"],
+    h: "iQX3g3XL9mIf7uX5wDrQIhLNJ464eieqHwhtKtfSuoA=",
+  },
+  "Keep bucket transactions": {
+    val: "Keep bucket transactions",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 117"],
+    h: "0LwH6beBDlpdXvsVWW7nGj/5/tkz7gDk+Sm4Kltx3rQ=",
+  },
+  "Keep account transactions": {
+    val: "Keep account transactions",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 120"],
+    h: "SA/tgP2OPX7K6/Rztew4oai82mmt7fqOHpOuCWNrPZU=",
+  },
+  "Create Backup and Start Over": {
+    val: "Create Backup and Start Over",
+    translated: false,
+    src: ["src/budget/tools/startover.tsx line 134"],
+    h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
+  },
   "Amazon.com Reconciliation": {
     val: "Amazon.com Reconciliation",
     translated: false,
-    src: ["src/budget/tools/toolspage.tsx line 21"],
+    src: ["src/budget/tools/toolspage.tsx line 26"],
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Possible Duplicates": {
@@ -2143,7 +2212,7 @@ export const DEFAULTS:IMessages = {
   "File type not recognized.": {
     val: "Import Failed",
     translated: false,
-    src: ["src/importing.ts line 75"],
+    src: ["src/importing.ts line 74"],
     h: "Z6QnadHff9fEji/vnFxKuxbfAKGNb263Hm13z3txfSM=",
   },
   "Buckets License": {
@@ -2187,43 +2256,37 @@ Would you like to purchase a license now?`,
   "Unable to open the file:": {
     val: "Unable to open the file:",
     translated: false,
-    src: ["src/mainprocess/files.ts line 206"],
+    src: ["src/mainprocess/files.ts line 215"],
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Open Transaction File": {
     val: "Open Transaction File",
     translated: false,
-    src: ["src/mainprocess/files.ts line 494"],
+    src: ["src/mainprocess/files.ts line 503"],
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "File does not exist:": {
     val: "File does not exist:",
     translated: false,
-    src: ["src/mainprocess/files.ts line 515"],
+    src: ["src/mainprocess/files.ts line 524"],
     h: "RPeWW9lCHkg+d6XybADj3OH2jxrYcSOhrA3+QHEcYz0=",
   },
   "Open Buckets Budget": {
     val: "Open Buckets Budget",
     translated: false,
-    src: ["src/mainprocess/files.ts line 714"],
+    src: ["src/mainprocess/files.ts line 727"],
     h: "5odppwzoA5bC5nAM3F+GDOVrAq3NfjGxrE0ZFXseCDg=",
-  },
-  "budget-file-type-name": {
-    val: "Buckets Budget",
-    translated: false,
-    src: ["src/mainprocess/files.ts line 716"],
-    h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "Buckets Budget Filename": {
     val: "Buckets Budget Filename",
     translated: false,
-    src: ["src/mainprocess/files.ts line 733"],
+    src: ["src/mainprocess/files.ts line 746"],
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "No file chosen": {
     val: "No file chosen",
     translated: false,
-    src: ["src/mainprocess/files.ts line 739"],
+    src: ["src/mainprocess/files.ts line 752"],
     h: "MKsAG2u3PyHfYzTNB+XEA8Myeu1DiSU2HNpIW8QXTpc=",
   },
   "File": {
