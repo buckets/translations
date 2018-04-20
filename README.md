@@ -1,5 +1,17 @@
 This is the repository of translations for the [Buckets budgeting app](https://www.budgetwithbuckets.com/).  Some languages are officially supported, but contributions for other languages are very welcome.
 
+# Current language support
+
+<!-- trans stats start -->
+| Complete | Language |
+|-------|---|
+|  100% | English |
+|   53% | español |
+|    1% | עִברִית |
+|   93% | Português |
+|    6% | Română |
+<!-- trans stats end -->
+
 # How to contribute
 
 1. Look for your language in [/langs](/langs).
@@ -11,6 +23,9 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 1. Edit the language file.  For each item:
    1. Translate the `val: ...` part
    1. Change `translated: false` to `translated: true`
+   1. Look at any comments of this format: `/*! This is a comment for the translator */`
+   1. *If there isn't enough context for you to translate it accurately (e.g. "Is this a noun?" or "What noun does this adjective refer to so its gender can agree?") email me or file an issue.*
+      
 
 1. Submit a pull request (even if you only translate a few things).
 
