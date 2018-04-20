@@ -6,10 +6,10 @@ import { ILangPack, IMessages } from './spec';
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
-  // {
-  //   name: 'Raoul de Limézy',
-  //   // href: '', /* optional */
-  // }
+  {
+    name: 'Raoul de Limézy',
+    // href: '', /* optional */
+  }
 ];
 
 const messages:IMessages = {
@@ -2557,7 +2557,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'français',
   dir: 'ltr',
   numbers: {
     group: ',',
