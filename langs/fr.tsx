@@ -1010,8 +1010,8 @@ const messages:IMessages = {
     h: "cL5KAz7DWc3XTzI4eo3t1PaGUe16WM+dKBg2ykfpQ6A=",
   },
   "Preparation": {
-    val: "Preparation",
-    translated: false,
+    val: "Préparation",
+    translated: true,
     src: ["src/budget/gettingstarted.ts line 99"],
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
