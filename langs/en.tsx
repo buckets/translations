@@ -1864,27 +1864,20 @@ const messages:IMessages = {
     translated: false,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
-  "accounts.balance_mismatch_long_msg": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: () => {
-              return (<span>
-                The "Balance" above is this account's balance as of the latest entered transaction.
-                The "Synced balance" is the this account's balance <i>as reported by the bank.</i>
-                Some banks always report <i>today's balance</i> as the "Synced balance" even though <i>today's transactions</i> haven't been sent to Buckets yet.
-                So this mismatch will usually resolve itself once all the transactions in your bank have been synced into Buckets.
-            </span>)},
-    val: () => {
-            return (<span>
-              The "Balance" above is this account's balance as of the latest entered transaction.
-              The "Synced balance" is the this account's balance <i>as reported by the bank.</i>
-              Some banks always report <i>today's balance</i> as the "Synced balance" even though <i>today's transactions</i> haven't been sent to Buckets yet.
-              So this mismatch will usually resolve itself once all the transactions in your bank have been synced into Buckets.
-          </span>)},
+  "account-bal-diff-1": {
+    val: "The running balance does not match the last synced balance for one of these reasons:",
     translated: false,
-    h: "BdsYjG234PVfRR8ijm7NIKMEBjmebYIMCspF35KEHqA=",
+    h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
+  },
+  "account-bal-diff-fix-1": {
+    val: "The bank has reported a future balance.  To fix this, wait until all transactions have arrived in Buckets.",
+    translated: false,
+    h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
+  },
+  "account-bal-diff-fix-2": {
+    val: "Transactions are missing from Buckets.",
+    translated: false,
+    h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
   },
   "accounts.balance_mismatch_msg": {
     val: "The most recent synced balance does not match the balance computed from transactions.  Click ... for more information.",

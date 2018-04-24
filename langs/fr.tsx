@@ -1864,27 +1864,20 @@ const messages:IMessages = {
     translated: true,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
-  "accounts.balance_mismatch_long_msg": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: () => {
-              return (<span>
-                The "Balance" above is this account's balance as of the latest entered transaction.
-                The "Synced balance" is the this account's balance <i>as reported by the bank.</i>
-                Some banks always report <i>today's balance</i> as the "Synced balance" even though <i>today's transactions</i> haven't been sent to Buckets yet.
-                So this mismatch will usually resolve itself once all the transactions in your bank have been synced into Buckets.
-            </span>)},
-    val: () => {
-            return (<span>
-              Le "Solde" ci-dessus donne le solde de ce compte à date de la dernière transaction enregistrée.
-              Le "Solde synchronisé" donne le solde de ce compte  <i>indiqué par la banque</i>.
-              Certaines banques indiquent systématiquement <i>le solde du jour</i> comme le "Solde synchronisé" même quand <i>les transactions du jour</i> n'ont pas encore été envoyées aux godets.
-              Cette incohérence devrait donc se résoudre d'elle-même une fois que l'ensemble des transactions de votre banque auront été synchronisées dans les godets.
-          </span>)},
+  "account-bal-diff-1": {
+    val: "The running balance does not match the last synced balance for one of these reasons:",
     translated: false,
-    h: "BdsYjG234PVfRR8ijm7NIKMEBjmebYIMCspF35KEHqA=",
+    h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
+  },
+  "account-bal-diff-fix-1": {
+    val: "The bank has reported a future balance.  To fix this, wait until all transactions have arrived in Buckets.",
+    translated: false,
+    h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
+  },
+  "account-bal-diff-fix-2": {
+    val: "Transactions are missing from Buckets.",
+    translated: false,
+    h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
   },
   "accounts.balance_mismatch_msg": {
     val: "Le solde synchronisé le plus récent est différent du solde calculé à partir de vos transactions. Cliquez ... pour plus d'information.",

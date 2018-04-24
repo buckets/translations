@@ -376,7 +376,9 @@ export interface IMessages {
   "Zoom": IMsg<string>;
   "Zoom In": IMsg<string>;
   "Zoom Out": IMsg<string>;
-  "accounts.balance_mismatch_long_msg": IMsg<()=>string|JSX.Element>;
+  "account-bal-diff-1": IMsg<string>;
+  "account-bal-diff-fix-1": IMsg<string>;
+  "account-bal-diff-fix-2": IMsg<string>;
   "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
