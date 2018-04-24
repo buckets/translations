@@ -30,4 +30,6 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 
 1. Submit a pull request (even if you only translate a few things).
 
+1. Optionally, [sign up to be emailed when there's more to translate.](http://eepurl.com/dsz-Wj)
+
 If you're familiar with GitHub or you prefer, you can also fork this repo, clone it and edit the file on your computer.  All I'm really looking for is a Pull Request.
