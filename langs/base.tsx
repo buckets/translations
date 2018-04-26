@@ -10,7 +10,6 @@ export interface IMessages {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
-  "(Restart Buckets for the change to take effect.)": IMsg<string>;
   "(optional)": IMsg<string>;
   "/mo": IMsg<string>;
   "A sync is already in progress": IMsg<string>;
@@ -30,7 +29,7 @@ export interface IMessages {
   "Amount": IMsg<string>;
   "Amount of money over-allocated in buckets.": IMsg<string>;
   "Analysis": IMsg<string>;
-  "Animation:": IMsg<string>;
+  "Animation": IMsg<string>;
   "Any other monthly bills you have?": IMsg<string>;
   "Attached files are too large.": IMsg<string>;
   "Average": IMsg<string>;
@@ -67,6 +66,7 @@ export interface IMessages {
   "Check For Updates...": IMsg<string>;
   "Check for Updates": IMsg<string>;
   "Checking for updates...": IMsg<string>;
+  "Cleared": IMsg<string>;
   "Click the \"Set mapping\" to continue.": IMsg<string>;
   "Close Account": IMsg<string>;
   "Close Window": IMsg<string>;
@@ -179,8 +179,8 @@ export interface IMessages {
   "Kick Bucket": IMsg<string>;
   "Kick the bucket": IMsg<string>;
   "Kicked": IMsg<string>;
+  "Language": IMsg<string>;
   "Language default": IMsg<string>;
-  "Language:": IMsg<string>;
   "Last used": IMsg<string>;
   "Later": IMsg<string>;
   "Learn More": IMsg<string>;
@@ -192,6 +192,8 @@ export interface IMessages {
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
   "Make it so": IMsg<string>;
+  "Mark Cleared": IMsg<string>;
+  "Mark Not Cleared": IMsg<string>;
   "Medical": IMsg<string>;
   "Memo": IMsg<string>;
   "Minimize": IMsg<string>;
@@ -219,9 +221,10 @@ export interface IMessages {
   "No file chosen": IMsg<string>;
   "No matches found": IMsg<string>;
   "Not Transfer": IMsg<string>;
+  "Not yet cleared": IMsg<string>;
   "Note": IMsg<string>;
   "Nothing found matching:": IMsg<string>;
-  "Number format:": IMsg<string>;
+  "Number format": IMsg<string>;
   "OK": IMsg<string>;
   "Off Budget Accounts": IMsg<string>;
   "Off budget": IMsg<string>;
@@ -270,6 +273,7 @@ export interface IMessages {
   "Report Translation Error...": IMsg<string>;
   "Required deposit:": IMsg<string>;
   "Restart Buckets": IMsg<string>;
+  "Restart Buckets for changes to take effect.": IMsg<string>;
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
@@ -306,7 +310,7 @@ export interface IMessages {
   "Sync has not yet been set up.": IMsg<string>;
   "Synced balance": IMsg<string>;
   "Syncing...": IMsg<string>;
-  "System Default": IMsg<string>;
+  "System default": IMsg<string>;
   "Target date:": IMsg<string>;
   "Test Toast": IMsg<string>;
   "Thank you for the feedback!": IMsg<string>;
@@ -314,6 +318,7 @@ export interface IMessages {
   "There was an error.  Maybe try again?": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
+  "Timezone": IMsg<string>;
   "To": IMsg<string>;
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;

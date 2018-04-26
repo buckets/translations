@@ -28,11 +28,6 @@ const messages:IMessages = {
     translated: false,
     h: "Ij4mQm0L5WO4Iunvl3fKwbhLwjTodc3Chq81GsFM+T0=",
   },
-  "(Restart Buckets for the change to take effect.)": {
-    val: "(Restart Buckets for the change to take effect.)",
-    translated: false,
-    h: "IYHFL+R57iN4UW8AS35balApUouS8GdkRIQ3uEa6wT8=",
-  },
   "(optional)": {
     val: "(optional)",
     translated: false,
@@ -128,11 +123,11 @@ const messages:IMessages = {
     translated: true,
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
-  "Animation:": {
+  "Animation": {
     /* Label for application preference enabling/disabling animations */
-    val: "Animation:",
+    val: "Animation",
     translated: false,
-    h: "11MkZLAqpQ4eVU9BzD6XMqSxlyIqQU+lodDdxwNkAag=",
+    h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
     val: "Any other monthly bills you have?",
@@ -313,6 +308,11 @@ const messages:IMessages = {
     val: "Checking for updates...",
     translated: false,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
+  },
+  "Cleared": {
+    val: "Cleared",
+    translated: false,
+    h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Click the \"Set mapping\" to continue.": {
     val: "Click the \"Set mapping\" to continue.",
@@ -876,16 +876,16 @@ const messages:IMessages = {
     translated: false,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
+  "Language": {
+    /* Label for application language preference */
+    val: "Language",
+    translated: false,
+    h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
+  },
   "Language default": {
     val: "Language default",
     translated: false,
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
-  },
-  "Language:": {
-    /* Label for application language preference */
-    val: "Language:",
-    translated: false,
-    h: "Xcdts2Yh+LAPXO+KLTuFxMiNsv+xxIJPLlbCDbLrink=",
   },
   "Last used": {
     val: "Last used",
@@ -941,6 +941,16 @@ const messages:IMessages = {
     val: "Make it so",
     translated: false,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
+  },
+  "Mark Cleared": {
+    val: "Mark Cleared",
+    translated: false,
+    h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
+  },
+  "Mark Not Cleared": {
+    val: "Mark Not Cleared",
+    translated: false,
+    h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Medical": {
     val: "Medical",
@@ -1077,6 +1087,11 @@ const messages:IMessages = {
     translated: false,
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
+  "Not yet cleared": {
+    val: "Not yet cleared",
+    translated: false,
+    h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
+  },
   "Note": {
     val: "Note",
     translated: false,
@@ -1087,11 +1102,11 @@ const messages:IMessages = {
     translated: false,
     h: "NF10b/Nmjj8holFGK7KIiaJhSb8bsL9Zt/Fa8fFy4gk=",
   },
-  "Number format:": {
+  "Number format": {
     /* Label for application number formatting preference */
-    val: "Number format:",
+    val: "Number format",
     translated: false,
-    h: "uTy4YNIFDQEyLVFU5kvDdjAthW+Y6WHSQx49x+suPQI=",
+    h: "RxooctpubAJr5NcKn57a5kjGBEdlPT5b2h6PUFLqxxE=",
   },
   "OK": {
     val: "OK",
@@ -1334,6 +1349,11 @@ const messages:IMessages = {
     translated: false,
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
+  "Restart Buckets for changes to take effect.": {
+    val: "Restart Buckets for changes to take effect.",
+    translated: false,
+    h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
+  },
   "Save": {
     val: "Save",
     translated: false,
@@ -1514,11 +1534,12 @@ const messages:IMessages = {
     translated: false,
     h: "kuwg7vpvp082IqBtRakekOVu7bqB4PYxhnFVsoBDt/g=",
   },
-  "System Default": {
+  "System default": {
     /* Option for Buckets language preference */
-    val: "System Default",
+    /* Option for timezone auto-detection */
+    val: "System default",
     translated: false,
-    h: "UB0KL/QZH4CikHbpWgyv1qC4YgSqsZGmS6lmmgTTiFw=",
+    h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
     val: "Target date:",
@@ -1554,6 +1575,12 @@ const messages:IMessages = {
     val: "This tool will delete data to make it easy to start over with your budget.",
     translated: false,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
+  },
+  "Timezone": {
+    /* Label for timezone selection preference */
+    val: "Timezone",
+    translated: false,
+    h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
   "To": {
     val: "To",

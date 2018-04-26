@@ -28,11 +28,6 @@ const messages:IMessages = {
     translated: true,
     h: "Ij4mQm0L5WO4Iunvl3fKwbhLwjTodc3Chq81GsFM+T0=",
   },
-  "(Restart Buckets for the change to take effect.)": {
-    val: "(Redémarrez Buckets pour que les changements prennent effet.)",
-    translated: true,
-    h: "IYHFL+R57iN4UW8AS35balApUouS8GdkRIQ3uEa6wT8=",
-  },
   "(optional)": {
     val: "(facultatif)",
     translated: true,
@@ -95,7 +90,7 @@ const messages:IMessages = {
   },
   "Actions": {
     val: "Actions",
-    translated: false,
+    translated: true,
     h: "qm2CvbPMHZpeVCriZp/vJ2kAGatdeyDxfZ8TMaapQvo=",
   },
   "Activity": {
@@ -128,11 +123,11 @@ const messages:IMessages = {
     translated: true,
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
-  "Animation:": {
+  "Animation": {
     /* Label for application preference enabling/disabling animations */
-    val: "Animations:",
+    val: "Animations",
     translated: true,
-    h: "11MkZLAqpQ4eVU9BzD6XMqSxlyIqQU+lodDdxwNkAag=",
+    h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
     val: "D'autres factures que vous auriez?",
@@ -314,6 +309,11 @@ const messages:IMessages = {
     translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
+  "Cleared": {
+    val: "Cleared",
+    translated: false,
+    h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
+  },
   "Click the \"Set mapping\" to continue.": {
     val: "Cliquez sur \"Valider la correspondance\" pour continuer.",
     translated: true,
@@ -486,8 +486,8 @@ const messages:IMessages = {
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
   },
   "Done": {
-    val: "Done",
-    translated: false,
+    val: "Fait",
+    translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
   },
   "Download": {
@@ -591,7 +591,7 @@ const messages:IMessages = {
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "Export": {
-    val: "Export",
+    val: "Exporter",
     translated: true,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
@@ -777,8 +777,8 @@ const messages:IMessages = {
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
   },
   "Import from YNAB4": {
-    val: "Import from YNAB4",
-    translated: false,
+    val: "Importer depuis YNAB4",
+    translated: true,
     h: "FJ55mGfxitbc5YeY1s6YEji8I54ILSi3sfzQALSx50I=",
   },
   "In": {
@@ -787,7 +787,7 @@ const messages:IMessages = {
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "In/Out": {
-    val: "Mis/Pris",
+    val: "+/-",
     translated: true,
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
@@ -872,20 +872,20 @@ const messages:IMessages = {
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
-    val: "Liquidé",
+    val: "Liquidés",
     translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
-  "Language default": {
-    val: "Language default",
-    translated: false,
-    h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
-  },
-  "Language:": {
+  "Language": {
     /* Label for application language preference */
-    val: "Langue:",
+    val: "Langue",
     translated: true,
-    h: "Xcdts2Yh+LAPXO+KLTuFxMiNsv+xxIJPLlbCDbLrink=",
+    h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
+  },
+  "Language default": {
+    val: "Langue par défaut",
+    translated: true,
+    h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last used": {
     val: "Dernière utilisation",
@@ -918,13 +918,13 @@ const messages:IMessages = {
     h: "yo4VuLKqBNhvEBgUZKyI2WypDrv1loL/wA1qO3u4Zq4=",
   },
   "Make Account Off Budget": {
-    val: "Make Account Off Budget",
-    translated: false,
+    val: "Mettre Compte Hors-Budget",
+    translated: true,
     h: "jw6HPdaDScqY+QIMmJ35WzXfjHVXwsPaWjv1EgCZC/M=",
   },
   "Make Account On Budget": {
-    val: "Make Account On Budget",
-    translated: false,
+    val: "Mettre Compte dans Budget",
+    translated: true,
     h: "6gjcSYfUh5rPE2oFISLmP498V1RohOYnE0M2uhE47NM=",
   },
   "Make Transfer": {
@@ -941,6 +941,16 @@ const messages:IMessages = {
     val: "Allons-y!",
     translated: true,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
+  },
+  "Mark Cleared": {
+    val: "Mark Cleared",
+    translated: false,
+    h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
+  },
+  "Mark Not Cleared": {
+    val: "Mark Not Cleared",
+    translated: false,
+    h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Medical": {
     val: "Santé",
@@ -1077,6 +1087,11 @@ const messages:IMessages = {
     translated: true,
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
+  "Not yet cleared": {
+    val: "Not yet cleared",
+    translated: false,
+    h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
+  },
   "Note": {
     val: "Note",
     translated: true,
@@ -1087,11 +1102,11 @@ const messages:IMessages = {
     translated: true,
     h: "NF10b/Nmjj8holFGK7KIiaJhSb8bsL9Zt/Fa8fFy4gk=",
   },
-  "Number format:": {
+  "Number format": {
     /* Label for application number formatting preference */
-    val: "Number format:",
+    val: "Format des nombres",
     translated: false,
-    h: "uTy4YNIFDQEyLVFU5kvDdjAthW+Y6WHSQx49x+suPQI=",
+    h: "RxooctpubAJr5NcKn57a5kjGBEdlPT5b2h6PUFLqxxE=",
   },
   "OK": {
     val: "OK",
@@ -1099,13 +1114,13 @@ const messages:IMessages = {
     h: "mMSSK7ZBxlx6MLe8r98jC5sAtmk2McVhRqslsnhu5KM=",
   },
   "Off Budget Accounts": {
-    val: "Off Budget Accounts",
-    translated: false,
+    val: "Comptes Hors-Budget",
+    translated: true,
     h: "EQ0I5sn/xpO55GIvIhUF8/XeTi0g5sxvvyE7TiynJDQ=",
   },
   "Off budget": {
-    val: "Off budget",
-    translated: false,
+    val: "Hors-budget",
+    translated: true,
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
   "On": {
@@ -1215,7 +1230,7 @@ const messages:IMessages = {
   },
   "Preparation": {
     val: "Préparation",
-    translated: false,
+    translated: true,
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
   "Prompt": {
@@ -1265,8 +1280,8 @@ const messages:IMessages = {
     h: "tJ5cBjszrV/JztG5V1FUrgo0bfVgXfK5KB495TvGsYs=",
   },
   "Record change as transaction": {
-    val: "Record change as transaction",
-    translated: false,
+    val: "Enregistrer le changement comme une transaction",
+    translated: true,
     h: "yK0UuSf6pOl+44YBzW+tFNPHt6YYpqe88f+wQCuaHcQ=",
   },
   "Recording": {
@@ -1334,6 +1349,11 @@ const messages:IMessages = {
     translated: true,
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
+  "Restart Buckets for changes to take effect.": {
+    val: "Restart Buckets for changes to take effect.",
+    translated: false,
+    h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
+  },
   "Save": {
     val: "Enregistrer",
     translated: true,
@@ -1345,7 +1365,7 @@ const messages:IMessages = {
     h: "Vl/m/PU/CoPSp/t+drAAfxlQ818VKjlWKN8fsB4/+V4=",
   },
   "Search": {
-    val: "Recherche",
+    val: "Rechercher",
     translated: true,
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
@@ -1514,11 +1534,12 @@ const messages:IMessages = {
     translated: true,
     h: "kuwg7vpvp082IqBtRakekOVu7bqB4PYxhnFVsoBDt/g=",
   },
-  "System Default": {
+  "System default": {
     /* Option for Buckets language preference */
+    /* Option for timezone auto-detection */
     val: "Paramètres par défaut",
     translated: true,
-    h: "UB0KL/QZH4CikHbpWgyv1qC4YgSqsZGmS6lmmgTTiFw=",
+    h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
     val: "Échéance de l'objectif:",
@@ -1551,9 +1572,15 @@ const messages:IMessages = {
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
-    val: "This tool will delete data to make it easy to start over with your budget.",
-    translated: false,
+    val: "Cet outil permet d'effacer vos données pour faciliter la remise à zéro de votre budget.",
+    translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
+  },
+  "Timezone": {
+    /* Label for timezone selection preference */
+    val: "Timezone",
+    translated: false,
+    h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
   "To": {
     val: "À",
@@ -1596,8 +1623,8 @@ const messages:IMessages = {
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Transactions to review": {
-    val: "Transactions to review",
-    translated: false,
+    val: "Transactions à contrôler",
+    translated: true,
     h: "fcauVC7MkwNPXVHbfBl427k53jL2beDDx711UkVI5tg=",
   },
   "Transfer": {
@@ -1656,8 +1683,8 @@ const messages:IMessages = {
     h: "1pPv2ePlW/PBrqgYgGCM3lU9qnmnbplR3AzSDDG4TLs=",
   },
   "Unknown category": {
-    val: "Unknown category",
-    translated: false,
+    val: "Catégorie inconnue",
+    translated: true,
     h: "bK4teMnFOuofJ4sX76ozAla50yDaLbvb5pCj+New5f4=",
   },
   "Unlinked Accounts": {
@@ -1741,18 +1768,18 @@ const messages:IMessages = {
     h: "aMF18BJOMjuVOInpbGKf/3jyTE1qYzq4oHzb3sBVcWw=",
   },
   "Update account balance": {
-    val: "Update account balance",
-    translated: false,
+    val: "Mettre à jour le solde du compte",
+    translated: true,
     h: "GQWvUamqQOyoaXm16AiGtHme6kW171erNK5pa4vgDIE=",
   },
   "Update balance": {
-    val: "Update balance",
-    translated: false,
+    val: "Mettre à jour le solde",
+    translated: true,
     h: "XSg0Q5Q7j+G+HNjn3YJOakbNLSjTNcem3BFbw6fTDI8=",
   },
   "Update balance without a transaction": {
-    val: "Update balance without a transaction",
-    translated: false,
+    val: "Mettre à jour le solde sans transaction",
+    translated: true,
     h: "thUs8btJm84m3sFUOg0QZBXmDfqGOrDhsYqwJ31BIAo=",
   },
   "Update downloaded.": {
@@ -1871,18 +1898,18 @@ const messages:IMessages = {
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-bal-diff-1": {
-    val: "The running balance does not match the last synced balance for one of these reasons:",
-    translated: false,
+    val: "Le solde actuel me correspond pas au solde dernièrement synchronisé pour l'une de ces raisons:",
+    translated: true,
     h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
   },
   "account-bal-diff-fix-1": {
-    val: "The bank has reported a future balance.  To fix this, wait until all transactions have arrived in Buckets.",
-    translated: false,
+    val: "La banque a signalé un solde futur. Il faut attendre que toutes les transactions arrivent dans Buckets pour régler ce problème.",
+    translated: true,
     h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
   },
   "account-bal-diff-fix-2": {
-    val: "Transactions are missing from Buckets.",
-    translated: false,
+    val: "Il manque des transactions dans Buckets.",
+    translated: true,
     h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
   },
   "accounts.balance_mismatch_msg": {
@@ -2050,7 +2077,7 @@ const messages:IMessages = {
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "in the bank": {
-    val: "à la banque",
+    val: "À la banque",
     translated: true,
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
@@ -2068,9 +2095,9 @@ const messages:IMessages = {
   },
   "money-balance-as-of": {
     val: (amount:JSX.Element, date:JSX.Element) => {
-                  return <span>{amount} as of {date}</span>
+                  return <span>{amount} au {date}</span>
                 },
-    translated: false,
+    translated: true,
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
