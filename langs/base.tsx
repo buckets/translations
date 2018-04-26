@@ -141,6 +141,7 @@ export interface IMessages {
   "Goal:": IMsg<string>;
   "Goal: 0": IMsg<string>;
   "Groceries": IMsg<string>;
+  "Header row": IMsg<string>;
   "Health Insurance": IMsg<string>;
   "Hello!  Thanks for trying out Buckets.": IMsg<string>;
   "Help": IMsg<string>;
@@ -383,7 +384,6 @@ export interface IMessages {
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
   "action.New group": IMsg<string>;
-  "action.chat": IMsg<string>;
   "action.ignore": IMsg<string>;
   "action.link-account": IMsg<string>;
   "action.report bug": IMsg<string>;

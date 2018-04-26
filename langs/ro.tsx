@@ -685,6 +685,12 @@ const messages:IMessages = {
     translated: false,
     h: "T6Kz6/FDxQkeIUJq8SVGn0T7OPdZ7B0YjPD3qHqW5p4=",
   },
+  "Header row": {
+    /* Label for checkbox indicating whether a CSV file has a header row or not */
+    val: "Header row",
+    translated: false,
+    h: "uRtdJlb7w3q8Zl9lZhtY0JReqNVI7CfOdo5I9SW5lfw=",
+  },
   "Health Insurance": {
     val: "Health Insurance",
     translated: false,
@@ -1898,11 +1904,6 @@ const messages:IMessages = {
     val: "New group",
     translated: false,
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
-  },
-  "action.chat": {
-    val: "Chat",
-    translated: false,
-    h: "Ct9w1d0AYWvEp42SCfVm7DFmet6f43eJOSWwg17o+7A=",
   },
   "action.ignore": {
     val: "Ignore",
