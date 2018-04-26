@@ -494,7 +494,7 @@ const messages:IMessages = {
     h: "6lJYNJMplvVHQuXlFYBD81+4kgQQb1SwZ0s13hvlIfI=",
   },
   "In/Out": {
-    val: "Mis/Pris",
+    val: "+/-",
     translated: true,
     src: ["src/budget/buckets.tsx line 1008"],
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
@@ -506,7 +506,7 @@ const messages:IMessages = {
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "Want": {
-    val: "Demande",
+    val: "Demandé",
     translated: true,
     src: ["src/budget/buckets.tsx line 1002"],
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
@@ -698,7 +698,7 @@ const messages:IMessages = {
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Kicked": {
-    val: "Liquidé",
+    val: "Liquidés",
     translated: true,
     src: ["src/budget/budget.tsx line 155"],
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
@@ -740,7 +740,7 @@ const messages:IMessages = {
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
   "Chat with Matt": {
-    val: "Tchatter avec Matt",
+    val: "Tchat avec Matt",
     translated: true,
     src: ["src/budget/budget.tsx line 174"],
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
@@ -792,7 +792,7 @@ const messages:IMessages = {
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "in the bank": {
-    val: "à la banque",
+    val: "À la banque",
     translated: true,
     src: ["src/budget/budget.tsx line 277"],
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
@@ -1112,7 +1112,7 @@ const messages:IMessages = {
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
   "Sync": {
-    val: "Synchroniser",
+    val: "Synchronisation",
     translated: true,
     src: ["src/budget/importpage.tsx line 28","src/budget/importpage.tsx line 183"],
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
