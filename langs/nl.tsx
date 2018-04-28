@@ -1350,250 +1350,250 @@ const messages:IMessages = {
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
-    val: "Restart Buckets for changes to take effect.",
+    val: "Herstart Buckets om deze veranderingen te laten ingaan.",
     translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Save": {
-    val: "Save",
+    val: "Opslaan",
     translated: true,
     h: "wduD0WXtkIpIb6B4R8AA7ph724u3/Gtv27uaky6rEAU=",
   },
   "Screenshots:": {
-    val: "Screenshots:",
+    val: "Schermafbeeldingen:",
     translated: true,
     h: "Vl/m/PU/CoPSp/t+drAAfxlQ818VKjlWKN8fsB4/+V4=",
   },
   "Search": {
-    val: "Search",
+    val: "Zoeken",
     translated: true,
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Search:": {
-    val: "Search:",
+    val: "Zoeken:",
     translated: true,
     h: "OHBHBOVnuMjmjWHZURDrna8FWv+geQYMQuobRo4tkq0=",
   },
   "Searching...": {
-    val: "Searching...",
+    val: "Zoeken...",
     translated: true,
     h: "7gAp07Zv3EjrgHoWJ04wEdRefy/aQ0zT8Y2EgQrnbHo=",
   },
   "Select All": {
-    val: "Select All",
+    val: "Selecteer Alles",
     translated: true,
     h: "tLJuQPindRFUyvGGdMLJbBHcVpAODsfT5p2gDnpB/Oo=",
   },
   "Select the account these transactions belong to.": {
-    val: "Select the account these transactions belong to.",
+    val: "Selecteer de rekening waar deze transacties bij horen.",
     translated: true,
     h: "qkaCMMw9CYakrPrLxgfkBp3KsfadBdGLYgZB8urPaC4=",
   },
   "Self debt": {
-    val: "Self debt",
+    val: "Eigen schuld",
     translated: true,
     h: "zRWPLHqBTGcGqHHBHWdXpN2eOUUhRhvCyeAccFlR9Z4=",
   },
   "Send Report": {
-    val: "Send Report",
+    val: "Verstuur Rapport",
     translated: true,
     h: "aLgG0qubuw0p0tGIUYKjgxecVsL0e3AKvQ5+W2JZg18=",
   },
   "Services": {
-    val: "Services",
+    val: "Diensten",
     translated: true,
     h: "Y5+GuNZXfFSynDsHvAY8cr0RqU+moaHZNmOk2eQrsNs=",
   },
   "Set mapping": {
-    val: "Set mapping",
+    val: "Blauwdruk instellen",
     translated: true,
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
   },
   "Show All": {
-    val: "Show All",
+    val: "Toon Alles",
     translated: true,
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
   "Show Log Files...": {
-    val: "Show Log Files...",
+    val: "Toon Logbestanden...",
     translated: true,
     h: "In00T9z1A4xO6nLu8zAU5s3UzH3+IcK4XjRvrT9CGMs=",
   },
   "Show uncategorized": {
-    val: "Show uncategorized",
+    val: "Toon zonder categorie",
     translated: true,
     h: "ZHhB69+qL72sD+upbAXLXIDMlEWXgSbwb5RupMV5K0c=",
   },
   "SimpleFIN Connections": {
-    val: "SimpleFIN Connections",
+    val: "SimpleFIN Connecties",
     translated: true,
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
   "Skip This Version": {
-    val: "Skip This Version",
+    val: "Sla Deze Versie Over",
     translated: true,
     h: "YnC7GSI4QITirt1GGV/Tc1FvTbJYICkEeF3zj4u4eak=",
   },
   "Speech": {
-    val: "Speech",
+    val: "Spraak",
     translated: true,
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Spending Money": {
-    val: "Spending Money",
+    val: "Zakgeld",
     translated: true,
     h: "7mLvCPVxhYqWXYW8EcSN4N6vyUtQqT4PnR0iC1ucTtY=",
   },
   "Start Over": {
-    val: "Start Over",
+    val: "Begin Overnieuw",
     translated: true,
     h: "hlKNxy6ZDz4ny/qpQfkv6FwXDangtq2ECEo+ICgEbJs=",
   },
   "Start Speaking": {
-    val: "Start Speaking",
+    val: "Begin Met Spreken",
     translated: true,
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
-    val: "Start with a template",
+    val: "Start met een voorbeeld",
     translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
   "Step took too long": {
-    val: "Step took too long",
+    val: "Stap deed er te lang over",
     translated: true,
     h: "Py3rsk0guEg0d8Ce9Lbfwzf1zP7E4Z8YPSOu165mOc0=",
   },
   "Stop Speaking": {
-    val: "Stop Speaking",
+    val: "Stop Met Spreken",
     translated: true,
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Student Loan Payment": {
-    val: "Student Loan Payment",
+    val: "Betaling Studielening",
     translated: true,
     h: "j83e9PkiJgq0J5iPOaku/mbjw9H3KtXBaDV4ntsQktk=",
   },
   "Submit": {
-    val: "Submit",
+    val: "Versturen",
     translated: true,
     h: "/plzMiu0xhKwtFcT4VqbJMoCd2dB03dB9EJhijEA284=",
   },
   "Submit feedback": {
-    val: "Submit feedback",
+    val: "Verstuur feedback",
     translated: true,
     h: "ksa09D0YEXUycx+K+ZODvbWRCP78R2W7ClHhOaX4LmM=",
   },
   "Success!": {
-    val: "Success!",
+    val: "Succes!",
     translated: true,
     h: "6NxF/uD6sOEPkEbPFOHdBKRxj0ZXVbmnPkRXNJDy0zs=",
   },
   "Successfully imported Amazon Items report": {
-    val: "Successfully imported Amazon Items report",
+    val: "Amazon Items report succesvol geimporteerd",
     translated: true,
     h: "zcIlaWv/ZpEjOL5xQHbD/Q8+nNhqDbq4oJsVr0hLKcI=",
   },
   "Successfully imported Amazon Orders report": {
-    val: "Successfully imported Amazon Orders report",
+    val: "Amazon Orders report succesvol geimporteerd",
     translated: true,
     h: "jD2nczKNctIdPeGX20WLyUGOlIl/MbKqKpP5hCxbtt8=",
   },
   "Successfully imported Amazon Refunds report": {
-    val: "Successfully imported Amazon Refunds report",
+    val: "Amazon Refunds report succesvol geimporteerd",
     translated: true,
     h: "cL1VAhdyv9ML3nJT0QY3lg6QrxkJ/UQf0gbcokIDJGU=",
   },
   "Sync": {
-    val: "Sync",
+    val: "Synchroniseren",
     translated: true,
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
   },
   "Sync complete": {
-    val: "Sync complete",
+    val: "Synchronisatie gereed",
     translated: true,
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
   },
   "Sync failed": {
-    val: "Sync failed",
+    val: "Synchronisatie mislukt",
     translated: true,
     h: "jBGq60u/Y2WKAulnVvspUq9tLPFtXOnQYczjXXViGA0=",
   },
   "Sync has not yet been set up.": {
-    val: "Sync has not yet been set up.",
+    val: "Synchronisatie is nog niet ingesteld.",
     translated: true,
     h: "B5XIfqqMdt0gMHz2zsZr9GTj9vSRAS5R2akgGce+fsg=",
   },
   "Synced balance": {
-    val: "Synced balance",
+    val: "Gesynchoniseerd saldo",
     translated: true,
     h: "yyCVeQRle/vbcZ1/QyVYtL+ZmyQ5WanHCYKZpJqFd6o=",
   },
   "Syncing...": {
-    val: "Syncing...",
+    val: "Synchroniseren...",
     translated: true,
     h: "kuwg7vpvp082IqBtRakekOVu7bqB4PYxhnFVsoBDt/g=",
   },
   "System default": {
     /* Option for Buckets language preference */
     /* Option for timezone auto-detection */
-    val: "System default",
+    val: "Systeem standaard",
     translated: true,
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
-    val: "Target date:",
+    val: "Doel datum:",
     translated: true,
     h: "InmNQoNHlJkDpjvEB+J1XPqDWRqnfNIUwTQ86iNiOGc=",
   },
   "Test Toast": {
-    val: "Test Toast",
+    val: "Test Melding",
     translated: true,
     h: "5SbiliirLaAKLdgRThX+cO2RwGuC87t3Z1O0xT2WsAE=",
   },
   "Thank you for the feedback!": {
-    val: "Thank you for the feedback!",
+    val: "Bedankt voor je feedback!",
     translated: true,
     h: "8bEPNAScct0pvqY775nF665zylB3/fKo1h3MqoWzXIQ=",
   },
   "There has been an error.": {
-    val: "There has been an error.",
+    val: "Er is een fout opgetreden.",
     translated: true,
     h: "viN5uLRSpgzhvoD9KO9g1cr7ihLQ0Men9LiUpy9RcwE=",
   },
   "There was an error.  Maybe try again?": {
-    val: "There was an error.  Maybe try again?",
+    val: "Er is een fout opgetreden.  Misschien opnieuw proberen?",
     translated: true,
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "This is a special group for all the buckets without a group.": {
-    val: "This is a special group for all the buckets without a group.",
+    val: "Dit is een speciale groep voor alle emmers zonder een groep.",
     translated: true,
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
-    val: "This tool will delete data to make it easy to start over with your budget.",
+    val: "Dit hulpmiddel zal alle data verwijderen om het makkelijk te maken om overnieuw met een budget te beginnen.",
     translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "Timezone": {
     /* Label for timezone selection preference */
-    val: "Timezone",
+    val: "Tijdzone",
     translated: true,
     h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
   "To": {
-    val: "To",
+    val: "Tot",
     translated: true,
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
   "Toggle Developer Tools": {
-    val: "Toggle Developer Tools",
+    val: "Wissel Ontwikkel Hulpmiddel",
     translated: true,
     h: "IYSSUL9ezB58nRuajYVa+zH4ucrmXQOB92zA7sDlrJc=",
   },
   "Toggle Full Screen": {
-    val: "Toggle Full Screen",
+    val: "Wissel Volledig Scherm",
     translated: true,
     h: "2ZRq+R5E0Cp4QI+y5jCefU1IOiYvNWLrN/iiJq6hGr8=",
   },
@@ -1603,217 +1603,217 @@ const messages:IMessages = {
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Tot:": {
-    val: "Tot:",
+    val: "Totaal:",
     translated: true,
     h: "saHMHdDjhEhiq86BBPRvnL+Rb3M/qOu30ZLtUk20QIM=",
   },
   "Total amount your buckets expect each month.": {
-    val: "Total amount your buckets expect each month.",
+    val: "Totaal bedrag die je emmers elke maand verwachten.",
     translated: true,
     h: "UtK2gxh+N9D/p1G6dLyhcKMP5Df5XCyEp0jM0c+qoUw=",
   },
   "Transaction": {
-    val: "Transaction",
+    val: "Transactie",
     translated: true,
     h: "G0gRZS6Zq1VoQqtY+L8fY3ogdqSl/OAoTurOZ4L480Q=",
   },
   "Transactions": {
-    val: "Transactions",
+    val: "Transacties",
     translated: true,
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Transactions to review": {
-    val: "Transactions to review",
+    val: "Transacties om te controleren",
     translated: true,
     h: "fcauVC7MkwNPXVHbfBl427k53jL2beDDx711UkVI5tg=",
   },
   "Transfer": {
-    val: "Transfer",
+    val: "Overboeken",
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Trial Version": {
-    val: "Trial Version",
+    val: "Test Versie",
     translated: true,
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Tuition": {
-    val: "Tuition",
+    val: "Onderwijs",
     translated: true,
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Un-kick": {
-    val: "Un-kick",
+    val: "Terugdraaien",
     translated: true,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
-    val: "Un-kick Bucket",
+    val: "Emmer Verwijdering Ongedaan Maken",
     translated: true,
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
-    val: "Unable to claim access token",
+    val: "Ik kan de toegangscode niet claimen",
     translated: true,
     h: "Gao95RuT9JvhdAoZ5winV9os7iMaPIex3Vq9CMSjhzs=",
   },
   "Unable to open the file:": {
-    val: "Unable to open the file:",
+    val: "Ik kan het bestand niet openen:",
     translated: true,
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Undo": {
-    val: "Undo",
+    val: "Ongedaan maken",
     translated: true,
     h: "Z1A2vTdYwfdLsWS25iSchnHOHa1VfbQg7u8MDGHk4yo=",
   },
   "Unexpected sync error": {
-    val: "Unexpected sync error",
+    val: "Onverwacht synchronisatie resultaat",
     translated: true,
     h: "78kYsQMTfGS8BNaZVuqYaRojJlTpcmN6CF9PQKKO0ME=",
   },
   "Unique ID": {
-    val: "Unique ID",
+    val: "Uniek ID",
     translated: true,
     h: "UZsJmQ28mtEO349l3zdNHoAtb0JT1LT9e7EjedqptSE=",
   },
   "Unknown account: ": {
-    val: "Unknown account: ",
+    val: "Onbekende rekening: ",
     translated: true,
     h: "1pPv2ePlW/PBrqgYgGCM3lU9qnmnbplR3AzSDDG4TLs=",
   },
   "Unknown category": {
-    val: "Unknown category",
+    val: "Onbekende categorie",
     translated: true,
     h: "bK4teMnFOuofJ4sX76ozAla50yDaLbvb5pCj+New5f4=",
   },
   "Unlinked Accounts": {
-    val: "Unlinked Accounts",
+    val: "Niet-gekoppelde Rekeningen",
     translated: true,
     h: "BPAjsiEkATiwSf9f6kde3yZwSmmyiPDLiZ7Rr+3Zv/A=",
   },
   "Unregistered Version": {
-    val: "Unregistered Version",
+    val: "Ongeregistreerde versie",
     translated: true,
     h: "x9ekMClqI57T6jREU5VJurBCzlD+hBNJ8pHNQ0zMB1U=",
   },
   "Update Account Balance": {
-    val: "Update Account Balance",
+    val: "Rekeningsaldo Bijwerken",
     translated: true,
     h: "iwKjdHzqHPwoupXiUwrVL1tX4QfO//taXOPXFVtWRVE=",
   },
   "Update Account Name": {
-    val: "Update Account Name",
+    val: "Rekening naam bijwerken",
     translated: true,
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Update Available": {
-    val: "Update Available",
+    val: "Update Beschikbaar",
     translated: true,
     h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "Update Bucket Name": {
-    val: "Update Bucket Name",
+    val: "Update Emmer Naam",
     translated: true,
     h: "Oa+1EZtc4RTtPYyk5LflMMlQq/esZ3qvTgbSLiKIl4E=",
   },
   "Update Bucket Type": {
-    val: "Update Bucket Type",
+    val: "Update Emmer Type",
     translated: true,
     h: "wt5F9WSIpGlUsGaPnhSJlLYk0qraymNHDw0bYzbHlIE=",
   },
   "Update Color": {
-    val: "Update Color",
+    val: "Update Kleur",
     translated: true,
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
   },
   "Update Goal": {
-    val: "Update Goal",
+    val: "Update Doel",
     translated: true,
     h: "S3dt9ahT1yTXTCP2uHqiTMkyPUmAvAHvsCeGNa+NL1E=",
   },
   "Update Group Name": {
-    val: "Update Group Name",
+    val: "Update Groep Naam",
     translated: true,
     h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
   },
   "Update Macro Name": {
-    val: "Update Macro Name",
+    val: "Update Makro naam",
     translated: true,
     h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
   },
   "Update Monthly Deposit": {
-    val: "Update Monthly Deposit",
+    val: "Update Maandelijkse Storting",
     translated: true,
     h: "rFQ5lKjSNpQyyptg2Y+a4LQ6jwa1xWjKarMapXiD1/8=",
   },
   "Update Name": {
-    val: "Update Name",
+    val: "Update Naam",
     translated: true,
     h: "fTqm8NUcvzaYHnGFDmVhLePEd/TFNPhUDzSYIIerjNc=",
   },
   "Update Note": {
-    val: "Update Note",
+    val: "Update Notitie",
     translated: true,
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "Update Target Date": {
-    val: "Update Target Date",
+    val: "Update Doel Datum",
     translated: true,
     h: "SEac1rQopyHALPSWU85qYV3GE0x9i2OGDB+JYnVID8A=",
   },
   "Update Transaction": {
-    val: "Update Transaction",
+    val: "Update Transactie",
     translated: true,
     h: "aMF18BJOMjuVOInpbGKf/3jyTE1qYzq4oHzb3sBVcWw=",
   },
   "Update account balance": {
-    val: "Update account balance",
+    val: "Update rekeningsaldo",
     translated: true,
     h: "GQWvUamqQOyoaXm16AiGtHme6kW171erNK5pa4vgDIE=",
   },
   "Update balance": {
-    val: "Update balance",
+    val: "Update saldo",
     translated: true,
     h: "XSg0Q5Q7j+G+HNjn3YJOakbNLSjTNcem3BFbw6fTDI8=",
   },
   "Update balance without a transaction": {
-    val: "Update balance without a transaction",
+    val: "Update saldo zonder transactie",
     translated: true,
     h: "thUs8btJm84m3sFUOg0QZBXmDfqGOrDhsYqwJ31BIAo=",
   },
   "Update downloaded.": {
-    val: "Update downloaded.",
+    val: "Update gedownload.",
     translated: true,
     h: "DO2vE3TgW3xjiD8ZaOWeScL3qWCyiFPK8GENQ9NosYw=",
   },
   "Used in future": {
-    val: "Used in future",
+    val: "Gereserveerd voor de toekomst",
     translated: true,
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
   "Vacation ": {
-    val: "Vacation ",
+    val: "Vakantie ",
     translated: true,
     h: "Buf8KjuQKnfaA4c2qPDVm8FQgYWJUfiCYYkPAnsIIBw=",
   },
   "View": {
-    val: "View",
+    val: "Toon",
     translated: true,
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
   "Want": {
-    val: "Want",
+    val: "Wens",
     translated: true,
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "Wants": {
-    val: "Wants",
+    val: "Wensen",
     translated: true,
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
-    val: "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).",
+    val: "Waarschuwing: Als je dit doet, gebruik je regen die je niet hebt en zou regen kunnen stelen van toekomstige maanden (als dat er is).",
     translated: true,
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
@@ -1823,67 +1823,67 @@ const messages:IMessages = {
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When \"On\" this macro will be run during a normal sync.",
+    val: "Als een makro \"Aan\" staat, word deze gebruikt tijdens een synchronisatie.",
     translated: true,
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
-    val: "Window",
+    val: "Venster",
     translated: true,
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "Year to Year": {
-    val: "Year to Year",
+    val: "Jaar op Jaar",
     translated: true,
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
   "Year's Supply": {
-    val: "Year's Supply",
+    val: "Jaarvoorraad",
     translated: true,
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
   },
   "Years": {
-    val: "Years",
+    val: "Jaren",
     translated: true,
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "You are running the latest version!": {
-    val: "You are running the latest version!",
+    val: "Je draait al de laatste versie!",
     translated: true,
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
   "You don't have any recurring expense buckets yet.": {
-    val: "You don't have any recurring expense buckets yet.",
+    val: "Je hebt nog geen herhalende uitgaven emmers.",
     translated: true,
     h: "nq2IDCqs8m0MQJ5lO2TU1cnlj9nP1vwIMWMqi0WGOjk=",
   },
   "You have no closed accounts.": {
-    val: "You have no closed accounts.",
+    val: "Je hebt geen gesloten rekeningen.",
     translated: true,
     h: "8BZG+UdW1Rrd/+2zFNv7SskiNpD6DtlNa8LwQulqX5s=",
   },
   "You haven't kicked the bucket yet...": {
-    val: "You haven't kicked the bucket yet...",
+    val: "Je hebt nog geen emmers verwijderd...",
     translated: true,
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
   "You must backup to a different file.": {
-    val: "You must backup to a different file.",
+    val: "Je moet naar een ander bestand backuppen.",
     translated: true,
     h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
   },
   "You must have at least one column each set to Amount, Memo and Date Posted.": {
-    val: "You must have at least one column each set to Amount, Memo and Date Posted.",
+    val: "Je moet in elk geval een kolom op Bedrag, Memo en Datum zetten.",
     translated: true,
     h: "k5NuGeKNgPfZs7xUbwp5PgfPr6dosV0ZTVxAnphHH6E=",
   },
   "Your email address:": {
-    val: "Your email address:",
+    val: "Je e-mail adres:",
     translated: true,
     h: "/ip+dZCEKXdLQFW5CAt/fB8OBf/rD+67pz8etOXlJXc=",
   },
   "Zoom": {
-    val: "Zoom",
+    val: "Zoomen",
     translated: true,
     h: "Zjzswxbrkbj1TLPOYCtimoyh/aJlkF/mxeghbzdheSs=",
   },
@@ -1893,57 +1893,57 @@ const messages:IMessages = {
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
-    val: "Zoom Out",
+    val: "Zoom Uit",
     translated: true,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-bal-diff-1": {
-    val: "The running balance does not match the last synced balance for one of these reasons:",
+    val: "Het lopende saldo komt niet overeen met het laatste gesynchroniseerde saldo vanwege een van onderstaande redenen:",
     translated: true,
     h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
   },
   "account-bal-diff-fix-1": {
-    val: "The bank has reported a future balance.  To fix this, wait until all transactions have arrived in Buckets.",
+    val: "De bank heeft een toekomstig saldo gemeld. Om dit te verhelpen moet je wachten totdat alle transacties in Buckets ingelezen zijn.",
     translated: true,
     h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
   },
   "account-bal-diff-fix-2": {
-    val: "Transactions are missing from Buckets.",
+    val: "Er missen transacties in Buckets.",
     translated: true,
     h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
   },
   "accounts.balance_mismatch_msg": {
-    val: "The most recent synced balance does not match the balance computed from transactions.  Click ... for more information.",
+    val: "Het meest recent gesynchroniseerde saldo komt niet overeen met het saldo die berekend is aan de hand van de transacties. Klik op ... voor meer informatie.",
     translated: true,
     h: "8xHas2SyXqC7roWhYQNIVhFVNvbvzMi6Y3mQce5sIbc=",
   },
   "accounts.name_placeholder": {
-    val: "no name",
+    val: "geen naam",
     translated: true,
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "action.New bucket": {
-    val: "New bucket",
+    val: "Nieuwe emmer",
     translated: true,
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "action.New group": {
-    val: "New group",
+    val: "Nieuwe groep",
     translated: true,
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "action.ignore": {
-    val: "Ignore",
+    val: "Negeren",
     translated: true,
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "action.link-account": {
-    val: "Link",
+    val: "Koppel",
     translated: true,
     h: "unfAYQpjuyuTjjRCodr+S+jNjRmz3nahjZ91u/j5HfE=",
   },
   "action.report bug": {
-    val: "Report Bug",
+    val: "Rapporteer Fout",
     translated: true,
     h: "RxuE9Dh0Dadda2PtjUPD0dQ7b8aQok84Ytvw31ABBRU=",
   },
@@ -1953,52 +1953,52 @@ const messages:IMessages = {
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.transfer.help": {
-    val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
+    val: "Een overboeking is een transactie van de ene emmer naar de ander. Als de transactie geen inkomst of uitgave is, dan is het waarschijnlijk een overboeking.",
     translated: true,
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucketactivity.help": {
-    val: "This is the sum of money taken out of this bucket and transfers in from other buckets this month.",
+    val: "Dit is het saldo wat uit deze emmer is gehaald en wat deze maand vanuit andere emmers weer binnenkomt.",
     translated: true,
     h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
   },
   "buckethead.in": {
-    val: "Amount of money put in this month.",
+    val: "Bedrag om deze maand in de emmer te doen.",
     translated: true,
     h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
+    val: "Gebruik dit om geld in de emmer te doen of eruit te halen.",
     translated: true,
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
+    val: "Dit is hoeveel geld deze emmers deze maand willen hebben.  Het kleine veld geeft aan hoeveel ze ontvangen hebben.",
     translated: true,
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
-    val: "Recurring expense",
+    val: "Herhalende uitgave",
     translated: true,
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.deposit-date": {
-    val: "Save Z/mo until Y date",
+    val: "Spaar Z per maand tot Y datum",
     translated: true,
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "buckettype.goal-date": {
-    val: "Save X by Y date",
+    val: "Spaar bedrag X tot aan datum Y",
     translated: true,
     h: "+boZHIer4ggkvJ8A5cSl1EVyWRwKigC9UkBFn4WSEdg=",
   },
   "buckettype.goal-deposit": {
-    val: "Save X by depositing Z/mo",
+    val: "Spaar X door elke maand Z te sparen",
     translated: true,
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
-    val: "Plain old bucket",
+    val: "Normale emmer",
     translated: true,
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
@@ -2008,129 +2008,129 @@ const messages:IMessages = {
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "daterange.all": {
-    val: "All time",
+    val: "Alles",
     translated: true,
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
   "daterange.from2monthsago": {
-    val: "From 2 months ago",
+    val: "Vanaf 2 maanden terug",
     translated: true,
     h: "zb4vtJXSL+UcXZTjSbkQueS8khVvJO2MDoFKKPuuDPM=",
   },
   "daterange.from3monthsago": {
-    val: "From 3 months ago",
+    val: "Vanaf 3 maanden terug",
     translated: true,
     h: "4957XI6fjMtXcCqj3IRSUSQzX4ZlEucDTuwgu2krTLw=",
   },
   "daterange.fromlastmonth": {
-    val: "From last month",
+    val: "Vanaf vorige maand",
     translated: true,
     h: "tIBgx9VgMgV21a9XhH7L7TIe/PfdgcW3fdfGaGOeVMo=",
   },
   "daterange.thismonth": {
-    val: "This month",
+    val: "Deze maand",
     translated: true,
     h: "jqSPxB9W3Xqmvb/7MIrwKgcCTUR0zgU3qqTqJFET1e0=",
   },
   "default account name": {
-    val: "Savings",
+    val: "Gespaard",
     translated: true,
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "default new bucket name": {
-    val: "New Bucket",
+    val: "Nieuwe Emmer",
     translated: true,
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new group name": {
-    val: "New Group",
+    val: "Nieuwe Groep",
     translated: true,
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "edit.mapping": {
     val: (onClick) => {
-          return <span>Or <a href="#" onClick={onClick}>edit the mapping.</a></span>
+          return <span>Of <a href="#" onClick={onClick}>pas de blauwdruk aan.</a></span>
         },
     translated: true,
     h: "hFYUKKIqC+nYQ+RRKwNu3/PGxbtuHzNHoigSJwCK8d4=",
   },
   "enter-license-prompt": {
-    val: "\n      Please enter your Buckets License below.  Don&apos;t have a license?  <a href=\"#\" id=\"clicktobuy\">Click here to purchase one.</a>\n    ",
+    val: "\n      Voer je licentie hieronder in.  Heb je nog geen licentie?  <a href=\"#\" id=\"clicktobuy\">Klik dan hier om er een te kopen.</a>\n    ",
     translated: true,
     h: "bQ5kF1mLhFNyrJzVhTf5Cz5lxO8mRww7nwMpeCy9HC8=",
   },
   "error-detail": {
-    val: "If this error keeps happening or doesn't make sense, please report a bug or chat with us.",
+    val: "Als deze fout blijft voorkomen of vreemd is, maak dan een melding aan of start een chat.",
     translated: true,
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
   },
   "export.why": {
-    val: "Perhaps what you're doing with exported data could be built into Buckets.  Mind sending a note?",
+    val: "Misschien moet wat je probeert te doen met geexporteerde data in Buckets worden ingebouwd. Vind je het erg om een berichtje te sturen?",
     translated: true,
     h: "mv9GxRVjWShYHYo8kb/wvNU8eEYBGE2QtfUTxTsdP0I=",
   },
   "getting-started-link": {
     val: (clickhandler) => {
-          return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+          return <span>Eerste keer dat je Buckets gebruikt?  Bekijk de <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
         },
     translated: true,
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "in the bank": {
-    val: "in the bank",
+    val: "op de bank",
     translated: true,
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "match-count": {
     val: (current_match:number, total_matches:number) => {
-        return `${current_match} of ${total_matches}`;
+        return `${current_match} van ${total_matches}`;
       },
     translated: true,
     h: "gGpkwXhLiDpxY0YOCXAFl6Q8D6sb7BX93TqgFRObOqo=",
   },
   "misc group name": {
-    val: "Misc",
+    val: "Diversen",
     translated: true,
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "money-balance-as-of": {
     val: (amount:JSX.Element, date:JSX.Element) => {
-                  return <span>{amount} as of {date}</span>
+                  return <span>{amount} per {date}</span>
                 },
     translated: true,
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
     val: (gain) => {
-                        return gain >= 0 ? "Month's gain" : "Month's loss";
+                        return gain >= 0 ? "Winst deze maand" : "Verlies deze maand";
                       },
     translated: true,
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "more": {
-    val: "more",
+    val: "meer",
     translated: true,
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "nag-message": {
-    val: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
+    val: () => `Dit is een niet geregistreerde testversie. En ookal is deze test termijn niet gelimiteerd, toch zou je een licentie moeten kopen als je het wilt blijven gebruiken.
 
-Would you like to purchase a license now?`,
+Wil je nu een licentie kopen?`,
     translated: true,
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
-    val: (url) => `Go to ${url}`,
+    val: (url) => `Ga naar ${url}`,
     translated: true,
     h: "nI/J4GfYlL6BgRZRSiPFfA5o7ASdx2VVYW6x3vgCuKE=",
   },
   "net-transfers.help": {
-    val: "Net transfers are the sum total of all transactions marked as a transfer.  It should be 0.  If it's not, click through to make sure there aren't duplicate transactions or transactions miscategorized as transfers.",
+    val: "Het saldo van overboekingen is de som van alle transacties die als overboeking zijn gemarkeerd. Het saldo moet 0 zijn.  Als dit het niet is, klik dan door om te controleren of er geen dubbele transacties zijn, of transactions die verkeerd als overboeking zijn gemarkeerd.",
     translated: true,
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "noin.income": {
-    val: "Income",
+    val: "Inkomsten",
     translated: true,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
@@ -2139,35 +2139,34 @@ Would you like to purchase a license now?`,
     /* 1. Translate "newval: ..." */
     /* 2. Delete the old "val: ..." */
     /* 3. Rename "newval" to "val" */
-    newval: filename => `Downloaded file: ${filename}`,
-    val: filename => `Downloaded file: ${filename}`,
+    val: filename => `Gedownload bestand: ${filename}`,
     translated: true,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.transfer": {
-    val: "Transfer",
+    val: "Oveboeking",
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "off": {
-    val: "off",
+    val: "uit",
     translated: true,
     h: "nzvsum5LFYOz4ZRB3eTVliJTfZvVSpTSImJ4XkhThNA=",
   },
   "on": {
-    val: "on",
+    val: "aan",
     translated: true,
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
+    val: "druk op Escape om te sluiten",
     translated: true,
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
+                                      Je hebt {abs_amount} teveel geld in emmers gestopt.  Als alle transacties gecategoriseerd zijn deze maand, verwijder dan {abs_amount} uit emmers naar keuze.
                                       </span>
                                     },
     translated: true,
@@ -2176,85 +2175,85 @@ Would you like to purchase a license now?`,
   "rain.help.pos": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have {abs_amount} left to put into buckets.
+                                      Je hebt {abs_amount} over om in emmers te stoppen.
                                       </span>
                                     },
     translated: true,
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "simplefin-connect-intro": {
-    val: "To connect, do the following:",
+    val: "Om verbinding te maken, doe dan het volgende:",
     translated: true,
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
   "simplefin-get-token": {
     val: (mklink) => {
-              return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
+              return <span>Haal een SimpleFIN Token op van {mklink('SimpleFIN Bridge')}</span>
             },
     translated: true,
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
   "simplefin-paste": {
-    val: "Then paste your SimpleFIN Token here:",
+    val: "Plak dan deze token hier:",
     translated: true,
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "single-account Closed": {
-    val: "Closed",
+    val: "Gesloten",
     translated: true,
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "single-bucket Kicked": {
-    val: "Kicked",
+    val: "Verwijderd",
     translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
-    val: "some day...",
+    val: "op een dag...",
     translated: true,
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "sync-symbol help": {
-    val: "This symbol means the transaction came from an import/sync",
+    val: "Dit symbool betekent dat de transactie uit een import of synchronisatie kwam",
     translated: true,
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
     val: (start:moment.Moment, end:moment.Moment) => {
-        return `Syncing transactions from ${start.format('ll')} to ${end.format('ll')}`;
+        return `Synchroniseren van transacties van ${start.format('ll')} tot ${end.format('ll')}`;
       },
     translated: true,
     h: "f7R9zSdK0q5+lZ8I9QRhiwN5ENKyWFnrmUG6Gltegfs=",
   },
   "toast.updated-trans": {
-    val: count => `Updated/created ${count} transactions`,
+    val: count => `${count} transacties gemaakt of aangepast`,
     translated: true,
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer from {dropdown}</span>
+                return <span>Overboeken van {dropdown}</span>
               },
     translated: true,
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer to {dropdown}</span>
+                return <span>Overboeken naar {dropdown}</span>
               },
     translated: true,
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
   "version-available": {
-    val: (newv:string) => `Version ${newv} available.`,
+    val: (newv:string) => `Versie ${newv} beschikbaar.`,
     translated: true,
     h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Nederlands',
   dir: 'ltr',
-  numbers: 'comma-period',
+  numbers: 'period-comma',
   messages,
   contributors,
 }
