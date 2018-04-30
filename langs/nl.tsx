@@ -285,6 +285,7 @@ const messages:IMessages = {
     h: "5OqY1JRI3brWCHQyu9VDY9hpjXzg1cVB1oQnXLQjZ4U=",
   },
   "Chat with Matt": {
+    /* If "Chat with Matt" is too wide, you can translate this as just "Chat" */
     val: "Chat met Matt",
     translated: true,
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
@@ -756,11 +757,6 @@ const messages:IMessages = {
     translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
-  "Import Amazon Reports": {
-    val: "Importeer Amazon Reports",
-    translated: true,
-    h: "Mlif1y6Q52PbHr5bzc3mqcxGJBv1uosR7E+eLTi79kA=",
-  },
   "Import From YNAB4...": {
     val: "Importeer Vanaf YNAB4...",
     translated: true,
@@ -770,6 +766,16 @@ const messages:IMessages = {
     val: "Importeer Transacties...",
     translated: true,
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
+  },
+  "Import all Amazon Reports": {
+    val: "Import all Amazon Reports",
+    translated: false,
+    h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
+  },
+  "Import an Amazon Items report to see order details.": {
+    val: "Import an Amazon Items report to see order details.",
+    translated: false,
+    h: "wYXwxlFC+5KEx6+/6kqpqcHLs1Xfkt7mHrY683QmQPk=",
   },
   "Import file": {
     val: "Importeer bestand",
@@ -840,6 +846,12 @@ const messages:IMessages = {
     val: "Het zou moeten bevatten:",
     translated: true,
     h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
+  },
+  "Item": {
+    /* Amazon order item description label */
+    val: "Item",
+    translated: false,
+    h: "J0Og6dJ0OAeNyx49ggQ07tKx/Pu/fyej6BKciFOMU0s=",
   },
   "Keep account transactions": {
     val: "Behoud rekening transactie",
@@ -1017,6 +1029,12 @@ const messages:IMessages = {
     translated: true,
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
   },
+  "Negative": {
+    /* Label for choosing the word/symbol that signifies a negative number */
+    val: "Negative",
+    translated: false,
+    h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
+  },
   "Net": {
     val: "Netto",
     translated: true,
@@ -1162,6 +1180,11 @@ const messages:IMessages = {
     val: "Optioneel bericht:",
     translated: true,
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
+  },
+  "Optionally request a Amazon Refunds report": {
+    val: "Optionally request a Amazon Refunds report",
+    translated: false,
+    h: "0Gpd84fiRS78S1bJAzdSplsljFZorKyMIlg+IP0Yjys=",
   },
   "Out": {
     val: "Uit",
@@ -1339,6 +1362,16 @@ const messages:IMessages = {
     translated: true,
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
+  "Request an Amazon Items report": {
+    val: "Request an Amazon Items report",
+    translated: false,
+    h: "P4rrDh5nDkcbT6+2mP6w2/DdQS+Hlhu7u/AEo7usOGc=",
+  },
+  "Request an Amazon Orders report": {
+    val: "Request an Amazon Orders report",
+    translated: false,
+    h: "c+Qi3RJelGSlC9MybLul6oqMPosN10WOFW6k+roCtxk=",
+  },
   "Required deposit:": {
     val: "Storting benodigd:",
     translated: true,
@@ -1423,6 +1456,12 @@ const messages:IMessages = {
     val: "Toon zonder categorie",
     translated: true,
     h: "ZHhB69+qL72sD+upbAXLXIDMlEWXgSbwb5RupMV5K0c=",
+  },
+  "Sign": {
+    /* Noun referring to the sign of a number (positive or negative) */
+    val: "Sign",
+    translated: false,
+    h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "SimpleFIN Connections": {
     val: "SimpleFIN Connecties",
@@ -2135,10 +2174,6 @@ Wil je nu een licentie kopen?`,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
     val: filename => `Gedownload bestand: ${filename}`,
     translated: true,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
