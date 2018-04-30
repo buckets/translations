@@ -1158,12 +1158,12 @@ const messages:IMessages = {
   },
   "Open Budget...": {
     val: "Open Budget...",
-    translated: true,
+    translated: false,
     h: "67FfAce57aSIe2ncVfWeIeiiRLQQ8uuEUdDyI6UHxHU=",
   },
   "Open Recent...": {
     val: "Open Recent...",
-    translated: true,
+    translated: false,
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
   },
   "Open Transaction File": {
@@ -1988,7 +1988,7 @@ const messages:IMessages = {
   },
   "bucket.detailslabel": {
     val: "Details",
-    translated: true,
+    translated: false,
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.transfer.help": {
@@ -2043,7 +2043,7 @@ const messages:IMessages = {
   },
   "budget-file-type-name": {
     val: "Buckets Budget",
-    translated: true,
+    translated: false,
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "daterange.all": {
