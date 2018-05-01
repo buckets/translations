@@ -289,6 +289,7 @@ const messages:IMessages = {
     h: "5OqY1JRI3brWCHQyu9VDY9hpjXzg1cVB1oQnXLQjZ4U=",
   },
   "Chat with Matt": {
+    /* If "Chat with Matt" is too wide, you can translate this as just "Chat" */
     val: "Conversar com o Matt",
     translated: true,
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
@@ -314,8 +315,8 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Cleared": {
-    val: "Cleared",
-    translated: false,
+    val: "Liquidado",
+    translated: true,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Click the \"Set mapping\" to continue.": {
@@ -691,8 +692,8 @@ const messages:IMessages = {
   },
   "Header row": {
     /* Label for checkbox indicating whether a CSV file has a header row or not */
-    val: "Header row",
-    translated: false,
+    val: "Linha do cabeçalho",
+    translated: true,
     h: "uRtdJlb7w3q8Zl9lZhtY0JReqNVI7CfOdo5I9SW5lfw=",
   },
   "Health Insurance": {
@@ -760,11 +761,6 @@ const messages:IMessages = {
     translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
-  "Import Amazon Reports": {
-    val: "Importar Amazon Reports",
-    translated: true,
-    h: "Mlif1y6Q52PbHr5bzc3mqcxGJBv1uosR7E+eLTi79kA=",
-  },
   "Import From YNAB4...": {
     val: "Importar do YNAB4...",
     translated: true,
@@ -774,6 +770,16 @@ const messages:IMessages = {
     val: "Importar Transações...",
     translated: true,
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
+  },
+  "Import all Amazon Reports": {
+    val: "Importar todos os Relatórios da Amazon",
+    translated: true,
+    h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
+  },
+  "Import an Amazon Items report to see order details.": {
+    val: "Importe Itens do Relatório da Amazon para ver detalhes do pedido.",
+    translated: true,
+    h: "wYXwxlFC+5KEx6+/6kqpqcHLs1Xfkt7mHrY683QmQPk=",
   },
   "Import file": {
     val: "Importar arquivo",
@@ -845,6 +851,12 @@ const messages:IMessages = {
     translated: true,
     h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
   },
+  "Item": {
+    /* Amazon order item description label */
+    val: "Item",
+    translated: true,
+    h: "J0Og6dJ0OAeNyx49ggQ07tKx/Pu/fyej6BKciFOMU0s=",
+  },
   "Keep account transactions": {
     val: "Manter as transações da conta",
     translated: true,
@@ -882,8 +894,8 @@ const messages:IMessages = {
   },
   "Language": {
     /* Label for application language preference */
-    val: "Language",
-    translated: false,
+    val: "Idioma",
+    translated: true,
     h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
   },
   "Language default": {
@@ -947,13 +959,13 @@ const messages:IMessages = {
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
   "Mark Cleared": {
-    val: "Mark Cleared",
-    translated: false,
+    val: "Marcar Liquidado",
+    translated: true,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
-    val: "Mark Not Cleared",
-    translated: false,
+    val: "Marcar Não Liquidado",
+    translated: true,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Medical": {
@@ -1020,6 +1032,12 @@ const messages:IMessages = {
     val: "Precisa",
     translated: true,
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
+  },
+  "Negative": {
+    /* Label for choosing the word/symbol that signifies a negative number */
+    val: "Negativo",
+    translated: true,
+    h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
     val: "Líquido",
@@ -1092,8 +1110,8 @@ const messages:IMessages = {
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
   "Not yet cleared": {
-    val: "Not yet cleared",
-    translated: false,
+    val: "Ainda não foi liquidado",
+    translated: true,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
@@ -1166,6 +1184,11 @@ const messages:IMessages = {
     val: "Mensagem Opcional:",
     translated: true,
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
+  },
+  "Optionally request a Amazon Refunds report": {
+    val: "Pedir opcionalmente um relatório de restituição da Amazon",
+    translated: true,
+    h: "0Gpd84fiRS78S1bJAzdSplsljFZorKyMIlg+IP0Yjys=",
   },
   "Out": {
     val: "Fora",
@@ -1343,6 +1366,16 @@ const messages:IMessages = {
     translated: true,
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
+  "Request an Amazon Items report": {
+    val: "Pedir um relatório de Itens da Amazon",
+    translated: true,
+    h: "P4rrDh5nDkcbT6+2mP6w2/DdQS+Hlhu7u/AEo7usOGc=",
+  },
+  "Request an Amazon Orders report": {
+    val: "Pedir um relatório de pedidos da Amazon",
+    translated: true,
+    h: "c+Qi3RJelGSlC9MybLul6oqMPosN10WOFW6k+roCtxk=",
+  },
   "Required deposit:": {
     val: "Depósito obrigatório:",
     translated: true,
@@ -1354,8 +1387,8 @@ const messages:IMessages = {
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
-    val: "Restart Buckets for changes to take effect.",
-    translated: false,
+    val: "Reinicie o Buckets para que as mudanças apareçam.",
+    translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Save": {
@@ -1427,6 +1460,12 @@ const messages:IMessages = {
     val: "Mostrar não-categorizado",
     translated: true,
     h: "ZHhB69+qL72sD+upbAXLXIDMlEWXgSbwb5RupMV5K0c=",
+  },
+  "Sign": {
+    /* Noun referring to the sign of a number (positive or negative) */
+    val: "Sinal",
+    translated: true,
+    h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "SimpleFIN Connections": {
     val: "Conexões SimpleFIN",
@@ -1541,8 +1580,8 @@ const messages:IMessages = {
   "System default": {
     /* Option for Buckets language preference */
     /* Option for timezone auto-detection */
-    val: "System default",
-    translated: false,
+    val: "Padrão do sistema",
+    translated: true,
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
@@ -1582,8 +1621,8 @@ const messages:IMessages = {
   },
   "Timezone": {
     /* Label for timezone selection preference */
-    val: "Timezone",
-    translated: false,
+    val: "Fuso Horário",
+    translated: true,
     h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
   "To": {

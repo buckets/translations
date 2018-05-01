@@ -10,6 +10,9 @@ export type NumberFormat =
 export type NumberFormatDef = {
   [K in NumberFormat]?: INumberFormat
 }
+export type NumberFormatExample = {
+  [K in NumberFormat]: string;
+}
 
 export interface ILangPack {
   name: string;
@@ -29,6 +32,12 @@ export interface INumberFormat {
   decimal_regex: RegExp;
 }
 
+export const NUMBER_FORMAT_EXAMPLES:NumberFormatExample = {
+  '': '',
+  'comma-period': '1,400.82',
+  'period-comma': '1.400,82',
+  'space-comma': '1 400,82',
+}
 export const NUMBER_FORMATS:NumberFormatDef = {
   'comma-period': {
     group: ',',

@@ -155,9 +155,10 @@ export interface IMessages {
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": IMsg<string>;
   "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": IMsg<string>;
   "Import": IMsg<string>;
-  "Import Amazon Reports": IMsg<string>;
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions...": IMsg<string>;
+  "Import all Amazon Reports": IMsg<string>;
+  "Import an Amazon Items report to see order details.": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
   "In": IMsg<string>;
@@ -172,6 +173,7 @@ export interface IMessages {
   "Invalid license": IMsg<string>;
   "It says:": IMsg<string>;
   "It should say:": IMsg<string>;
+  "Item": IMsg<string>;
   "Keep account transactions": IMsg<string>;
   "Keep accounts": IMsg<string>;
   "Keep bucket transactions": IMsg<string>;
@@ -207,6 +209,7 @@ export interface IMessages {
   "Natural gas/propane/oil": IMsg<string>;
   "Need ideas for getting started?": IMsg<string>;
   "Needs": IMsg<string>;
+  "Negative": IMsg<string>;
   "Net": IMsg<string>;
   "Net Transfers": IMsg<string>;
   "New Bucket": IMsg<string>;
@@ -236,6 +239,7 @@ export interface IMessages {
   "Open Transaction File": IMsg<string>;
   "Open YNAB4 File": IMsg<string>;
   "Optional message:": IMsg<string>;
+  "Optionally request a Amazon Refunds report": IMsg<string>;
   "Out": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
@@ -271,6 +275,8 @@ export interface IMessages {
   "Report Bug": IMsg<string>;
   "Report Bug...": IMsg<string>;
   "Report Translation Error...": IMsg<string>;
+  "Request an Amazon Items report": IMsg<string>;
+  "Request an Amazon Orders report": IMsg<string>;
   "Required deposit:": IMsg<string>;
   "Restart Buckets": IMsg<string>;
   "Restart Buckets for changes to take effect.": IMsg<string>;
@@ -288,6 +294,7 @@ export interface IMessages {
   "Show All": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Show uncategorized": IMsg<string>;
+  "Sign": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
   "Skip This Version": IMsg<string>;
   "Speech": IMsg<string>;
