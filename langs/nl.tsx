@@ -114,7 +114,7 @@ const messages:IMessages = {
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
-    val: "Bedrag wat overgeallokeerd is in emmers.",
+    val: "Bedrag wat teveel toegewezen is in emmers.",
     translated: true,
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
@@ -973,7 +973,7 @@ const messages:IMessages = {
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Month to Month": {
-    val: "Maand tot Maand",
+    val: "Van Maand Tot Maand",
     translated: true,
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
@@ -1390,7 +1390,7 @@ const messages:IMessages = {
     h: "qkaCMMw9CYakrPrLxgfkBp3KsfadBdGLYgZB8urPaC4=",
   },
   "Self debt": {
-    val: "Eigen schuld",
+    val: "Schuld aan jezelf",
     translated: true,
     h: "zRWPLHqBTGcGqHHBHWdXpN2eOUUhRhvCyeAccFlR9Z4=",
   },
@@ -1833,7 +1833,7 @@ const messages:IMessages = {
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "Year to Year": {
-    val: "Jaar op Jaar",
+    val: "Van Jaar Tot Jaar",
     translated: true,
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
