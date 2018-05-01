@@ -114,7 +114,7 @@ const messages:IMessages = {
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
-    val: "Bedrag wat overgeallokeerd is in emmers.",
+    val: "Bedrag wat teveel toegewezen is in emmers.",
     translated: true,
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
@@ -768,13 +768,13 @@ const messages:IMessages = {
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
   },
   "Import all Amazon Reports": {
-    val: "Import all Amazon Reports",
-    translated: false,
+    val: "Importeer alle Amazon Reports",
+    translated: true,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import an Amazon Items report to see order details.": {
-    val: "Import an Amazon Items report to see order details.",
-    translated: false,
+    val: "Importeer Amazon Items report om order details in te zien.",
+    translated: true,
     h: "wYXwxlFC+5KEx6+/6kqpqcHLs1Xfkt7mHrY683QmQPk=",
   },
   "Import file": {
@@ -849,8 +849,8 @@ const messages:IMessages = {
   },
   "Item": {
     /* Amazon order item description label */
-    val: "Item",
-    translated: false,
+    val: "Ding",
+    translated: true,
     h: "J0Og6dJ0OAeNyx49ggQ07tKx/Pu/fyej6BKciFOMU0s=",
   },
   "Keep account transactions": {
@@ -985,7 +985,7 @@ const messages:IMessages = {
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Month to Month": {
-    val: "Maand tot Maand",
+    val: "Van Maand Tot Maand",
     translated: true,
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
@@ -1031,8 +1031,8 @@ const messages:IMessages = {
   },
   "Negative": {
     /* Label for choosing the word/symbol that signifies a negative number */
-    val: "Negative",
-    translated: false,
+    val: "Negatief",
+    translated: true,
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
@@ -1158,12 +1158,12 @@ const messages:IMessages = {
   },
   "Open Budget...": {
     val: "Open Budget...",
-    translated: false,
+    translated: true,
     h: "67FfAce57aSIe2ncVfWeIeiiRLQQ8uuEUdDyI6UHxHU=",
   },
   "Open Recent...": {
     val: "Open Recent...",
-    translated: false,
+    translated: true,
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
   },
   "Open Transaction File": {
@@ -1182,8 +1182,8 @@ const messages:IMessages = {
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
   },
   "Optionally request a Amazon Refunds report": {
-    val: "Optionally request a Amazon Refunds report",
-    translated: false,
+    val: "Verzoek optioneel om een Amazon Refunds report",
+    translated: true,
     h: "0Gpd84fiRS78S1bJAzdSplsljFZorKyMIlg+IP0Yjys=",
   },
   "Out": {
@@ -1363,13 +1363,13 @@ const messages:IMessages = {
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
   "Request an Amazon Items report": {
-    val: "Request an Amazon Items report",
-    translated: false,
+    val: "Verzoek een Amazon Items report",
+    translated: true,
     h: "P4rrDh5nDkcbT6+2mP6w2/DdQS+Hlhu7u/AEo7usOGc=",
   },
   "Request an Amazon Orders report": {
-    val: "Request an Amazon Orders report",
-    translated: false,
+    val: "Verzoek een Amazon Orders report",
+    translated: true,
     h: "c+Qi3RJelGSlC9MybLul6oqMPosN10WOFW6k+roCtxk=",
   },
   "Required deposit:": {
@@ -1423,7 +1423,7 @@ const messages:IMessages = {
     h: "qkaCMMw9CYakrPrLxgfkBp3KsfadBdGLYgZB8urPaC4=",
   },
   "Self debt": {
-    val: "Eigen schuld",
+    val: "Schuld aan jezelf",
     translated: true,
     h: "zRWPLHqBTGcGqHHBHWdXpN2eOUUhRhvCyeAccFlR9Z4=",
   },
@@ -1459,8 +1459,8 @@ const messages:IMessages = {
   },
   "Sign": {
     /* Noun referring to the sign of a number (positive or negative) */
-    val: "Sign",
-    translated: false,
+    val: "Positief of negatief",
+    translated: true,
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "SimpleFIN Connections": {
@@ -1667,7 +1667,7 @@ const messages:IMessages = {
     h: "fcauVC7MkwNPXVHbfBl427k53jL2beDDx711UkVI5tg=",
   },
   "Transfer": {
-    val: "Overboeken",
+    val: "Overboeking",
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
@@ -1872,7 +1872,7 @@ const messages:IMessages = {
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "Year to Year": {
-    val: "Jaar op Jaar",
+    val: "Van Jaar Tot Jaar",
     translated: true,
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
@@ -1988,7 +1988,7 @@ const messages:IMessages = {
   },
   "bucket.detailslabel": {
     val: "Details",
-    translated: false,
+    translated: true,
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.transfer.help": {
@@ -2043,7 +2043,7 @@ const messages:IMessages = {
   },
   "budget-file-type-name": {
     val: "Buckets Budget",
-    translated: false,
+    translated: true,
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "daterange.all": {
@@ -2179,7 +2179,7 @@ Wil je nu een licentie kopen?`,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.transfer": {
-    val: "Oveboeking",
+    val: "Overboeking",
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
