@@ -9,6 +9,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   50% | español |
 |   96% | Français |
 |    1% | עִברִית |
+|   37% | Italiano |
 |  100% | Nederlands |
 |  100% | Português |
 |    6% | Română |

@@ -2291,7 +2291,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Italiano',
   dir: 'ltr',
   numbers: 'comma-period',
   messages,
