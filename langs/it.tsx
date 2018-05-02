@@ -1437,8 +1437,8 @@ const messages:IMessages = {
     translated: false,
     h: "Y5+GuNZXfFSynDsHvAY8cr0RqU+moaHZNmOk2eQrsNs=",
   },
-  "Imposta mappatura": {
-    val: "Set mapping",
+  "Set mapping": {
+    val: "Imposta mappatura",
     translated: true,
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
   },
@@ -1615,9 +1615,9 @@ const messages:IMessages = {
     translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
-  "Fuso orario": {
+  "Timezone": {
     /* Label for timezone selection preference */
-    val: "Timezone",
+    val: "Fuso orario",
     translated: true,
     h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
