@@ -6,12 +6,12 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 | Complete | Language |
 |-------|---|
 |  100% | English |
-|   50% | español |
-|   96% | Français |
+|   49% | español |
+|   95% | Français |
 |    1% | עִברִית |
 |   49% | Italiano |
-|  100% | Nederlands |
-|  100% | Português |
+|   99% | Nederlands |
+|   99% | Português |
 |    6% | Română |
 <!-- trans stats end -->
 

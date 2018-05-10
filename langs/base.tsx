@@ -48,6 +48,7 @@ export interface IMessages {
   "Buckets Guide": IMsg<string>;
   "Buckets License": IMsg<string>;
   "Budget": IMsg<string>;
+  "Budget Settings": IMsg<string>;
   "Budgeted": IMsg<string>;
   "CSV Account": IMsg<string>;
   "CSV Fields": IMsg<string>;
@@ -88,6 +89,7 @@ export interface IMessages {
   "Create budget password:": IMsg<string>;
   "Create macro": IMsg<string>;
   "Create new account": IMsg<string>;
+  "Currency symbol": IMsg<string>;
   "Cut": IMsg<string>;
   "Date Posted": IMsg<string>;
   "Debt": IMsg<string>;
@@ -240,6 +242,7 @@ export interface IMessages {
   "Open YNAB4 File": IMsg<string>;
   "Optional message:": IMsg<string>;
   "Optionally request a Amazon Refunds report": IMsg<string>;
+  "Or click to download the new version manually.": IMsg<string>;
   "Out": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
@@ -291,6 +294,7 @@ export interface IMessages {
   "Send Report": IMsg<string>;
   "Services": IMsg<string>;
   "Set mapping": IMsg<string>;
+  "Settings": IMsg<string>;
   "Show All": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Show uncategorized": IMsg<string>;

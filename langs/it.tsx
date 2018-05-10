@@ -222,6 +222,12 @@ const messages:IMessages = {
     translated: false,
     h: "zOO4DqNSFLa6Z9vlmfaz8OnwggHn8wJeP058V5mUKbE=",
   },
+  "Budget Settings": {
+    /* Title for budget settings page */
+    val: "Budget Settings",
+    translated: false,
+    h: "zuw0HcpRRRdvF6TOHxlpW20VLJgfbPvUcTImp1laiKA=",
+  },
   "Budgeted": {
     val: "Budgeted",
     translated: false,
@@ -423,6 +429,12 @@ const messages:IMessages = {
     val: "Crea nuovo account",
     translated: true,
     h: "SmoVFbeAWSO4cW1YQJbuDJQz8kenVz5++WTJEkS6Vos=",
+  },
+  "Currency symbol": {
+    /* Label for currency symbol setting */
+    val: "Currency symbol",
+    translated: false,
+    h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
     val: "Taglia",
@@ -1189,6 +1201,11 @@ const messages:IMessages = {
     translated: false,
     h: "0Gpd84fiRS78S1bJAzdSplsljFZorKyMIlg+IP0Yjys=",
   },
+  "Or click to download the new version manually.": {
+    val: "Or click to download the new version manually.",
+    translated: false,
+    h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
+  },
   "Out": {
     val: "Out",
     translated: false,
@@ -1444,6 +1461,11 @@ const messages:IMessages = {
     val: "Imposta mappatura",
     translated: true,
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
+  },
+  "Settings": {
+    val: "Settings",
+    translated: false,
+    h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Show All": {
     val: "Mostra Tutto",

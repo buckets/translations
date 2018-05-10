@@ -219,6 +219,12 @@ const messages:IMessages = {
     translated: true,
     h: "zOO4DqNSFLa6Z9vlmfaz8OnwggHn8wJeP058V5mUKbE=",
   },
+  "Budget Settings": {
+    /* Title for budget settings page */
+    val: "Budget Settings",
+    translated: false,
+    h: "zuw0HcpRRRdvF6TOHxlpW20VLJgfbPvUcTImp1laiKA=",
+  },
   "Budgeted": {
     val: "Gebudgetteerd",
     translated: true,
@@ -420,6 +426,12 @@ const messages:IMessages = {
     val: "Maak nieuw account",
     translated: true,
     h: "SmoVFbeAWSO4cW1YQJbuDJQz8kenVz5++WTJEkS6Vos=",
+  },
+  "Currency symbol": {
+    /* Label for currency symbol setting */
+    val: "Currency symbol",
+    translated: false,
+    h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
     val: "Knip",
@@ -1186,6 +1198,11 @@ const messages:IMessages = {
     translated: true,
     h: "0Gpd84fiRS78S1bJAzdSplsljFZorKyMIlg+IP0Yjys=",
   },
+  "Or click to download the new version manually.": {
+    val: "Or click to download the new version manually.",
+    translated: false,
+    h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
+  },
   "Out": {
     val: "Uit",
     translated: true,
@@ -1441,6 +1458,11 @@ const messages:IMessages = {
     val: "Blauwdruk instellen",
     translated: true,
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
+  },
+  "Settings": {
+    val: "Settings",
+    translated: false,
+    h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Show All": {
     val: "Toon Alles",
