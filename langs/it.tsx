@@ -17,8 +17,8 @@ const contributors = [
 
 const messages:IMessages = {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
-    val: "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ",
-    translated: false,
+    val: "\n        Anche se riempire questo modulo sarebbe preferibile, puoi anche inviare una mail a bugs@budgetwithbuckets.com\n      ",
+    translated: true,
     h: "05fPQ/cX0e4UXnYsbNTo8b6FUwq/WZ1URc7ixr6WlV8=",
   },
   "(Drop files or click)": {
@@ -1877,13 +1877,13 @@ const messages:IMessages = {
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
-    val: "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).",
-    translated: false,
+    val: "Attenzione: Questo utilizzerà pioggia che non hai e potrebbe rubare la pioggia dei prossimi mesi (se disponibile).",
+    translated: true,
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
   "Water": {
-    val: "Water",
-    translated: false,
+    val: "Acqua",
+    translated: true,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
@@ -1897,8 +1897,8 @@ const messages:IMessages = {
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "Year to Year": {
-    val: "Year to Year",
-    translated: false,
+    val: "Anno per Anno",
+    translated: true,
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
   "Year's Supply": {
@@ -2017,8 +2017,8 @@ const messages:IMessages = {
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.transfer.help": {
-    val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
-    translated: false,
+    val: "Un trasferimento è una transazione da un secchiello a un altro. Se la transazione non è nè un introito nè una spesa, probabilmente è un trasferimento.",
+    translated: true,
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucketactivity.help": {
@@ -2027,23 +2027,23 @@ const messages:IMessages = {
     h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
   },
   "buckethead.in": {
-    val: "Amount of money put in this month.",
-    translated: false,
+    val: "Somma di denaro aggiunta questo mese.",
+    translated: true,
     h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
-    translated: false,
+    val: "Utilizza questo strumento per aggiungere o togliere denaro da ogni secchiello.",
+    translated: true,
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
-    translated: false,
+    val: "Questo indica quanto denaro vogliono ogni mese questi secchielli. Il piccolo quadratino indica quanto ne hanno ricevuto.",
+    translated: true,
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
-    val: "Recurring expense",
-    translated: false,
+    val: "Spesa ricorrente",
+    translated: true,
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.deposit-date": {
@@ -2062,8 +2062,8 @@ const messages:IMessages = {
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
-    val: "Plain old bucket",
-    translated: false,
+    val: "Secchiello vecchio stile",
+    translated: true,
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "budget-file-type-name": {
