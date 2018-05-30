@@ -38,6 +38,7 @@ export interface IMessages {
   "Balance": IMsg<string>;
   "Balance:": IMsg<string>;
   "Birthdays": IMsg<string>;
+  "Break Import Links": IMsg<string>;
   "Bring All to Front": IMsg<string>;
   "Bucket": IMsg<string>;
   "Bucket Transactions": IMsg<string>;
@@ -163,6 +164,7 @@ export interface IMessages {
   "Import an Amazon Items report to see order details.": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
+  "Import links broken": IMsg<string>;
   "In": IMsg<string>;
   "In/Out": IMsg<string>;
   "Include log file": IMsg<string>;

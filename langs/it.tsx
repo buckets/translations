@@ -172,6 +172,11 @@ const messages:IMessages = {
     translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
+  "Break Import Links": {
+    val: "Break Import Links",
+    translated: false,
+    h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
+  },
   "Bring All to Front": {
     val: "Bring All to Front",
     translated: false,
@@ -801,6 +806,12 @@ const messages:IMessages = {
     val: "Importa da YNAB4",
     translated: true,
     h: "FJ55mGfxitbc5YeY1s6YEji8I54ILSi3sfzQALSx50I=",
+  },
+  "Import links broken": {
+    /* Notification indicating that the links between imported transaction files and a particular account have been broken. */
+    val: "Import links broken",
+    translated: false,
+    h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
     val: "In",
