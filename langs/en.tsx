@@ -164,6 +164,12 @@ const messages:IMessages = {
     translated: false,
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
+  "Beta Updates": {
+    /* Label for checkbox indicating if users want to receive Beta version of Buckets before wide release */
+    val: "Beta Updates",
+    translated: false,
+    h: "xyGKwUoes8hYiGBWy9KIoxkU/BREGx8pGiKIUb6hsEc=",
+  },
   "Birthdays": {
     val: "Birthdays",
     translated: false,
@@ -552,6 +558,11 @@ const messages:IMessages = {
     val: "Enable Macro",
     translated: false,
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
+  },
+  "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)": {
+    val: "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)",
+    translated: false,
+    h: "sC2MA2Tqphkt5iblpZFWToDQhdF9U2nk8FpwTxH3Ta8=",
   },
   "Ending Balance": {
     val: "Ending Balance",
@@ -1051,6 +1062,12 @@ const messages:IMessages = {
     val: "Needs",
     translated: false,
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
+  },
+  "Negate": {
+    /* Verb meaning to make a number have the opposite sign */
+    val: "Negate",
+    translated: false,
+    h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
     /* Label for choosing the word/symbol that signifies a negative number */
