@@ -6,17 +6,16 @@ import { ILangPack, IMessages } from './spec';
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
-  {
+  // {
    // name: 'unnamed contributor',
    // href: '', /* optional */
-  }
+  // }
 ];
 
 const messages:IMessages = {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
     val: "\n        Obwohl das Ausfüllen dieses Formular bevorzugt wird, können Sie auch eine E-Mail senden an bugs@budgetwithbuckets.com\n      ",
-    /* People will likely send messages in German language. */
-	translated: true,
+    translated: true,
     h: "05fPQ/cX0e4UXnYsbNTo8b6FUwq/WZ1URc7ixr6WlV8=",
   },
   "(Drop files or click)": {
@@ -51,7 +50,7 @@ const messages:IMessages = {
   },
   "Account": {
     val: "Konto",
-    translated: true			,
+    translated: true,
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "Account Transactions": {
@@ -164,6 +163,12 @@ const messages:IMessages = {
     val: "Saldo:",
     translated: true,
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
+  },
+  "Beta Updates": {
+    /* Label for checkbox indicating if users want to receive Beta version of Buckets before wide release */
+    val: "Beta Updates",
+    translated: false,
+    h: "xyGKwUoes8hYiGBWy9KIoxkU/BREGx8pGiKIUb6hsEc=",
   },
   "Birthdays": {
     val: "Geburtstage",
@@ -324,7 +329,6 @@ const messages:IMessages = {
   },
   "Cleared": {
     val: "Abgeschlossen",
-	/* val: "Beglichen", */
     translated: true,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
@@ -452,8 +456,6 @@ const messages:IMessages = {
   },
   "Debt": {
     val: "Schulden",
-	/* val: "Soll", */
-	/* val: "Verbindlichkeiten", */
     translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
@@ -557,6 +559,11 @@ const messages:IMessages = {
     translated: true,
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
   },
+  "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)": {
+    val: "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)",
+    translated: false,
+    h: "sC2MA2Tqphkt5iblpZFWToDQhdF9U2nk8FpwTxH3Ta8=",
+  },
   "Ending Balance": {
     val: "Endsaldo",
     translated: true,
@@ -639,17 +646,11 @@ const messages:IMessages = {
   },
   "Find Next": {
     val: "Nächste finden",
-	/* val: "Nächste finden", female singular or any gender plural */
-	/* val: "Nächsten finden", male singular */
-	/* val: "Nächstes finden", neutral singular */
     translated: true,
     h: "LALfI5V4TsQo0DcGJwmNmrm3xNPtY5PmQuxB1voZo34=",
   },
   "Find Previous": {
     val: "Vorherige finden",
-	/* val: "Vorherige finden", female singular or any gender plural */
-	/* val: "Vorherigen finden", male singular */
-	/* val: "Vorheriges finden", neutral singular */
     translated: true,
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
   },
@@ -756,13 +757,11 @@ const messages:IMessages = {
   },
   "I'm exporting data so that I can ": {
     val: "Ich exportiere Daten, weil ich ",
-    /* People will send messages in German language. */
     translated: true,
     h: "I5s/a+WZelEoEbDU6z2RwMHJGBkfJJ7zZEZcw89IBck=",
   },
   "ID": {
     val: "ID",
-	/* val: "Identifikation", */
     translated: true,
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
@@ -777,8 +776,8 @@ const messages:IMessages = {
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
   },
   "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": {
-    val: "Wenn mehrere Spalten für Betrag gewählt werden, wird der erste von null abweichende Wert verwendet. Das ist hilfreich, wenn eine CSV-Datei getrennte Spalten für Soll und Haben enthält.",
-    val: "Wenn mehrere Spalten für Betrag gewählt werden, wird der erste von null abweichende Wert verwendet. Das ist hilfreich, wenn eine CSV-Datei getrennte Spalten für Kredit- und Lastposten enthält.",    translated: true,
+    val: "Wenn mehrere Spalten für Betrag gewählt werden, wird der erste von null abweichende Wert verwendet. Das ist hilfreich, wenn eine CSV-Datei getrennte Spalten für Kredit- und Lastposten enthält.",
+    translated: true,
     h: "bxc4+JxhDrm2oYWek0ISeJDxq173KLfpcnOT4GEMWGQ=",
   },
   "Import": {
@@ -910,21 +909,16 @@ const messages:IMessages = {
   },
   "Kick Bucket": {
     val: "Eimer wegtreten",
-	/* val: "Eimer kicken" */
     translated: true,
     h: "3hmOuv1hNsjpQJ5cSDTlSqN4jGOGFnSPw9r0bK68RWY=",
   },
   "Kick the bucket": {
     val: "Tritt den Eimer weg",
-	/* The play of words does not translate well */
-	/* val: "Kick den Eimer" */
     translated: true,
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
     val: "Weggetreten",
-	/* The play of words does not translate well */
-    /* val: "Gekicked", */
     translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
@@ -990,21 +984,17 @@ const messages:IMessages = {
     h: "GCU3Hru9VCit7F+BYEMKmg5U8gsc1/UZ+o5wsbMAkeY=",
   },
   "Make it so": {
-    val: "Machen Sie's so",
-    /* This Star Trek reference does not have the same recognition value in German language. A simple "Bestätigen" ("Confirm") may be better. */
-    /* val: "Bestätigen", */
+    val: "Bestätigen",
     translated: true,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
   "Mark Cleared": {
     val: "Als abgeschlossen markieren",
-	/* val: "Als beglichen markieren", */
     translated: true,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
     val: "Als nicht abgeschlossen markieren",
-	/* val: "Als nicht beglichen markieren", */
     translated: true,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
@@ -1072,6 +1062,12 @@ const messages:IMessages = {
     val: "Bedürfnisse",
     translated: true,
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
+  },
+  "Negate": {
+    /* Verb meaning to make a number have the opposite sign */
+    val: "Negate",
+    translated: false,
+    h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
     /* Label for choosing the word/symbol that signifies a negative number */
@@ -1151,7 +1147,6 @@ const messages:IMessages = {
   },
   "Not yet cleared": {
     val: "Noch nicht abgeschlossen",
-	/* val: "Noch nicht beglichen", */
     translated: true,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
@@ -1308,7 +1303,6 @@ const messages:IMessages = {
   },
   "Prompt": {
     val: "Anzeige",
-    /* val: "Auffordern", */
     translated: true,
     h: "56HrS6R0zfyg5ruiVb/J04UP3T8O2V99V+mXHvVfEZ0=",
   },
@@ -1319,7 +1313,6 @@ const messages:IMessages = {
   },
   "Purchase": {
     val: "Kaufen",
-    /* val: "Kauf", */	
     translated: true,
     h: "SfwhUMXO5ckJhwUkBjdC9n17k8zH4+hoAlFoUdOwE/g=",
   },
@@ -1345,7 +1338,6 @@ const messages:IMessages = {
   },
   "Rainfall this month:": {
     val: "Regen in diesem Monat:",
-    /* val: "Regenfall in diesem Monat:", */
     translated: true,
     h: "S6dFwRYAFyRMUh4i6My2aNacGwMh8taa7neVTx9aiAM=",
   },
@@ -1392,7 +1384,6 @@ const messages:IMessages = {
   },
   "Reopen": {
     val: "Wiedereröffnen",
-    /* val: "Erneut öffnen", */
     translated: true,
     h: "5497b4yxPFO2M524tL0qmmNk47Qv/aca/7n0zMEeX/o=",
   },
@@ -1640,7 +1631,7 @@ const messages:IMessages = {
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
-    val: "Zieldatum
+    val: "Zieldatum",
     translated: true,
     h: "InmNQoNHlJkDpjvEB+J1XPqDWRqnfNIUwTQ86iNiOGc=",
   },
@@ -1742,15 +1733,11 @@ const messages:IMessages = {
   },
   "Un-kick": {
     val: "Als ungetreten markieren",
-    /* The play of words does not translate well */
-    /* val: "Als ungekicked markieren", */
     translated: true,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
     val: "Eimer ungetreten machen",
-    /* The play of words does not translate well */
-    /* val: "Eimer ungekicked machen", */
     translated: true,
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
@@ -1966,7 +1953,6 @@ const messages:IMessages = {
   },
   "You haven't kicked the bucket yet...": {
     val: "Sie haben noch keine Eimer weggetreten...",
-    /* The play of words does not translate well */
     translated: true,
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
@@ -2304,9 +2290,7 @@ Möchten Sie jetzt eine Lizenz erwerben?`,
   },
   "single-bucket Kicked": {
     val: "weggetreten",
-    /* The play of words does not translate well */
-     /* val: "gekicked", */
-	 translated: true,
+    translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
