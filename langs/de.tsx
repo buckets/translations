@@ -166,7 +166,7 @@ const messages:IMessages = {
   },
   "Beta Updates": {
     /* Label for checkbox indicating if users want to receive Beta version of Buckets before wide release */
-    val: "Beta Aktualisierungen",
+    val: "Beta-Aktualisierungen",
     translated: true,
     h: "xyGKwUoes8hYiGBWy9KIoxkU/BREGx8pGiKIUb6hsEc=",
   },
@@ -560,7 +560,7 @@ const messages:IMessages = {
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
   },
   "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)": {
-    val: "Aktivieren, um neue Versionen von Buckets vor allen anderen zu erhalten.  Diese könnten mehr Fehler beeinhalten :)",
+    val: "Aktivieren, um neue Versionen von Buckets vor allen anderen zu erhalten.  Diese könnten mehr Fehler beinhalten :)",
     translated: true,
     h: "sC2MA2Tqphkt5iblpZFWToDQhdF9U2nk8FpwTxH3Ta8=",
   },
@@ -2157,6 +2157,17 @@ const messages:IMessages = {
     val: "Vielleicht kann das, was sie mit exportierten Daten tun, in Buckets implementiert werden. Möchten Sie uns eine Nachricht senden?",
     translated: true,
     h: "mv9GxRVjWShYHYo8kb/wvNU8eEYBGE2QtfUTxTsdP0I=",
+  },
+  "file-perm-error": {
+    /* Error title for file permission problem */
+    val: "Permission error",
+    translated: false,
+    h: "nQIADEN41YoaLIfsI4ftbFHRtc4bChKL9/O1Y4DBd8I=",
+  },
+  "file-perm-error-detail": {
+    val: (path:string) => `Buckets is unable to create a directory inside "${path}".  Buckets uses the directory to save preferences.\n\nPlease adjust permissions and restart Buckets.`,
+    translated: false,
+    h: "SEPpn14I33mY1MVIeTNP+mAkD5up85QMwn5GSW0dAfY=",
   },
   "getting-started-link": {
     val: (clickhandler) => {

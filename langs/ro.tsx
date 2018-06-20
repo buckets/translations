@@ -2158,6 +2158,17 @@ const messages:IMessages = {
     translated: false,
     h: "mv9GxRVjWShYHYo8kb/wvNU8eEYBGE2QtfUTxTsdP0I=",
   },
+  "file-perm-error": {
+    /* Error title for file permission problem */
+    val: "Permission error",
+    translated: false,
+    h: "nQIADEN41YoaLIfsI4ftbFHRtc4bChKL9/O1Y4DBd8I=",
+  },
+  "file-perm-error-detail": {
+    val: (path:string) => `Buckets is unable to create a directory inside "${path}".  Buckets uses the directory to save preferences.\n\nPlease adjust permissions and restart Buckets.`,
+    translated: false,
+    h: "SEPpn14I33mY1MVIeTNP+mAkD5up85QMwn5GSW0dAfY=",
+  },
   "getting-started-link": {
     val: (clickhandler) => {
           return <span>Folosești Buckets pentru prima oară?  Încearcă <a href="#" onClick={clickhandler}>Video-urile pentru Începători.</a></span>
