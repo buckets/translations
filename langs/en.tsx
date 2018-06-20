@@ -328,6 +328,7 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Cleared": {
+    /* Tooltip text indicating that a transaction has cleared. */
     val: "Cleared",
     translated: false,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
@@ -455,6 +456,7 @@ const messages:IMessages = {
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Debt": {
+    /* Name of bucket group for debts */
     val: "Debt",
     translated: false,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
@@ -645,11 +647,13 @@ const messages:IMessages = {
     h: "Z6QnadHff9fEji/vnFxKuxbfAKGNb263Hm13z3txfSM=",
   },
   "Find Next": {
+    /* Edit menu label for finding the next match.  Perhaps use what your browser or other applications use. */
     val: "Find Next",
     translated: false,
     h: "LALfI5V4TsQo0DcGJwmNmrm3xNPtY5PmQuxB1voZo34=",
   },
   "Find Previous": {
+    /* Edit menu label for finding the previous match.  Perhaps use what your browser or other applications use. */
     val: "Find Previous",
     translated: false,
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
@@ -908,16 +912,19 @@ const messages:IMessages = {
     h: "4lGk6/xvGOvn8z5vLVpqCLE6WQwpEoizH0LM95z1Tvo=",
   },
   "Kick Bucket": {
+    /* Name of action.  Consider this "Archive Bucket" */
     val: "Kick Bucket",
     translated: false,
     h: "3hmOuv1hNsjpQJ5cSDTlSqN4jGOGFnSPw9r0bK68RWY=",
   },
   "Kick the bucket": {
+    /* Button label for archiving a bucket */
     val: "Kick the bucket",
     translated: false,
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
+    /* Label for list of archived buckets */
     val: "Kicked",
     translated: false,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
@@ -939,6 +946,7 @@ const messages:IMessages = {
     h: "G5a6Jdor9jRT/Wtcg9SfXQsvqL7VFvnVD2+gq7yT1Jg=",
   },
   "Later": {
+    /* Button label for purchasing a license later */
     val: "Later",
     translated: false,
     h: "wZUl6R8m08S1l0zLg0xgDG2XE1sodemTuRDbalIB4VM=",
@@ -984,16 +992,19 @@ const messages:IMessages = {
     h: "GCU3Hru9VCit7F+BYEMKmg5U8gsc1/UZ+o5wsbMAkeY=",
   },
   "Make it so": {
+    /* Button label for causing the set of pending deposits/withdrawls to happen.  Synonyms could be: "Do it" or "Run" or "Go" */
     val: "Make it so",
     translated: false,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
   "Mark Cleared": {
+    /* Name of action for marking a transaction as having cleared the bank */
     val: "Mark Cleared",
     translated: false,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
+    /* Name of action for marking a transaction as not having cleared the bank */
     val: "Mark Not Cleared",
     translated: false,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
@@ -1146,6 +1157,7 @@ const messages:IMessages = {
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
   "Not yet cleared": {
+    /* Tooltip text indicating that a transaction has not yet cleared. */
     val: "Not yet cleared",
     translated: false,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
@@ -1302,6 +1314,7 @@ const messages:IMessages = {
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
   "Prompt": {
+    /* Title for prompt window */
     val: "Prompt",
     translated: false,
     h: "56HrS6R0zfyg5ruiVb/J04UP3T8O2V99V+mXHvVfEZ0=",
@@ -1312,6 +1325,7 @@ const messages:IMessages = {
     h: "WFHwJzRVIraGkeqDS03YjWe0vMsPsiRE1qM6V/Ef/xE=",
   },
   "Purchase": {
+    /* Button label for purchasing a license */
     val: "Purchase",
     translated: false,
     h: "SfwhUMXO5ckJhwUkBjdC9n17k8zH4+hoAlFoUdOwE/g=",
@@ -1383,6 +1397,7 @@ const messages:IMessages = {
     h: "sCLO0xIawRUzVC3QV8aqowoCCfwYNvtXW848jCLfT10=",
   },
   "Reopen": {
+    /* Label for button to reopen a close account */
     val: "Reopen",
     translated: false,
     h: "5497b4yxPFO2M524tL0qmmNk47Qv/aca/7n0zMEeX/o=",
@@ -1732,11 +1747,14 @@ const messages:IMessages = {
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Un-kick": {
+    /* Button label for unarchiving a bucket */
     val: "Un-kick",
     translated: false,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
+    /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
+    /* Name of action.  Consider this "Unarchive Bucket" */
     val: "Un-kick Bucket",
     translated: false,
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
@@ -2157,17 +2175,6 @@ const messages:IMessages = {
     val: "Perhaps what you're doing with exported data could be built into Buckets.  Mind sending a note?",
     translated: false,
     h: "mv9GxRVjWShYHYo8kb/wvNU8eEYBGE2QtfUTxTsdP0I=",
-  },
-  "file-perm-error": {
-    /* Error title for file permission problem */
-    val: "Permission error",
-    translated: false,
-    h: "nQIADEN41YoaLIfsI4ftbFHRtc4bChKL9/O1Y4DBd8I=",
-  },
-  "file-perm-error-detail": {
-    val: (path:string) => `Buckets is unable to create a directory inside "${path}".  Buckets uses the directory to save preferences.\n\nPlease adjust permissions and restart Buckets.`,
-    translated: false,
-    h: "SEPpn14I33mY1MVIeTNP+mAkD5up85QMwn5GSW0dAfY=",
   },
   "getting-started-link": {
     val: (clickhandler) => {

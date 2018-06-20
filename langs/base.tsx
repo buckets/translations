@@ -432,8 +432,6 @@ export interface IMessages {
   "enter-license-prompt": IMsg<string>;
   "error-detail": IMsg<string>;
   "export.why": IMsg<string>;
-  "file-perm-error": IMsg<string>;
-  "file-perm-error-detail": IMsg<(path:string)=>string|JSX.Element>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
   "in the bank": IMsg<string>;
   "match-count": IMsg<(current_match:number,total_matches:number)=>string|JSX.Element>;
