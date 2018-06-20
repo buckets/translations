@@ -166,8 +166,8 @@ const messages:IMessages = {
   },
   "Beta Updates": {
     /* Label for checkbox indicating if users want to receive Beta version of Buckets before wide release */
-    val: "Beta Updates",
-    translated: false,
+    val: "Beta Aktualisierungen",
+    translated: true,
     h: "xyGKwUoes8hYiGBWy9KIoxkU/BREGx8pGiKIUb6hsEc=",
   },
   "Birthdays": {
@@ -560,8 +560,8 @@ const messages:IMessages = {
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
   },
   "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)": {
-    val: "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)",
-    translated: false,
+    val: "Aktivieren, um neue Versionen von Buckets vor allen anderen zu erhalten.  Diese könnten mehr Fehler beeinhalten :)",
+    translated: true,
     h: "sC2MA2Tqphkt5iblpZFWToDQhdF9U2nk8FpwTxH3Ta8=",
   },
   "Ending Balance": {
@@ -1065,8 +1065,8 @@ const messages:IMessages = {
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
-    val: "Negate",
-    translated: false,
+    val: "Vorzeichen umkehren",
+    translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
