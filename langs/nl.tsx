@@ -1,7 +1,8 @@
 import * as React from 'react'
 import * as moment from 'moment'
 
-import { ILangPack, IMessages } from './spec';
+import { ILangPack } from '@iffycan/i18n'
+import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
@@ -235,6 +236,12 @@ const messages:IMessages = {
     val: "Budget Settings",
     translated: false,
     h: "zuw0HcpRRRdvF6TOHxlpW20VLJgfbPvUcTImp1laiKA=",
+  },
+  "Budget password:": {
+    /* Label for bank macro password prompt */
+    val: "Budget password:",
+    translated: false,
+    h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
   "Budgeted": {
     val: "Gebudgetteerd",

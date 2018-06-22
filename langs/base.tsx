@@ -1,12 +1,7 @@
 // Auto-generated file
 
-interface IMsg<T> {
-  val: T;
-  translated: boolean;
-  h: string;
-  newval?: T;
-}
-export interface IMessages {
+import { IMsg, IMessageSet } from '@iffycan/i18n'
+export interface IMessages extends IMessageSet {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
@@ -51,6 +46,7 @@ export interface IMessages {
   "Buckets License": IMsg<string>;
   "Budget": IMsg<string>;
   "Budget Settings": IMsg<string>;
+  "Budget password:": IMsg<string>;
   "Budgeted": IMsg<string>;
   "CSV Account": IMsg<string>;
   "CSV Fields": IMsg<string>;
