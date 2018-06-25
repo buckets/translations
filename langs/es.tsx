@@ -833,12 +833,12 @@ const messages:IMessages = {
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
-    val: "Poner",
+    val: "Agregar",
     translated: true,
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "In/Out": {
-    val: "Poner/Sacar",
+    val: "Agregar/Sacar",
     translated: true,
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
@@ -926,13 +926,13 @@ const messages:IMessages = {
   },
   "Kick the bucket": {
     /* Button label for archiving a bucket */
-    val: "Echar el cubo",
+    val: "Patear el cubo",
     translated: true,
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
     /* Label for list of archived buckets */
-    val: "Echados",
+    val: "Pateados",
     translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
@@ -994,13 +994,13 @@ const messages:IMessages = {
     h: "Rmor5ffKqQTdDQSwA2x/hHhrr0zL7MceXGsR1vHe6b4=",
   },
   "Make it rain!": {
-    val: "¡Has que llueve!",
+    val: "¡Haz que llueve!",
     translated: true,
     h: "GCU3Hru9VCit7F+BYEMKmg5U8gsc1/UZ+o5wsbMAkeY=",
   },
   "Make it so": {
     /* Button label for causing the set of pending deposits/withdrawls to happen.  Synonyms could be: "Do it" or "Run" or "Go" */
-    val: "Hágalo",
+    val: "Aceptar",
     translated: true,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
@@ -1022,7 +1022,7 @@ const messages:IMessages = {
     h: "TcuCD6n7/CmRm/jdGZQLDvEdAVaJ2cDy2CahpUk9pCQ=",
   },
   "Memo": {
-    val: "Memo",
+    val: "Nota",
     translated: true,
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
@@ -1301,7 +1301,7 @@ const messages:IMessages = {
     h: "ofGzHt7c7jfCo867EwNvCl3vCUJPLeLhFiC5Fmgrgp4=",
   },
   "Posted": {
-    val: "Publicado",
+    val: "Fecha",
     translated: true,
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
@@ -1510,8 +1510,8 @@ const messages:IMessages = {
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
   },
   "Settings": {
-    val: "Settings",
-    translated: false,
+    val: "Opciones",
+    translated: true,
     h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Show All": {
@@ -1525,7 +1525,7 @@ const messages:IMessages = {
     h: "In00T9z1A4xO6nLu8zAU5s3UzH3+IcK4XjRvrT9CGMs=",
   },
   "Show uncategorized": {
-    val: "Mostrarlas sin clasificar",
+    val: "Mostrar transacciones sin categoria",
     translated: true,
     h: "ZHhB69+qL72sD+upbAXLXIDMlEWXgSbwb5RupMV5K0c=",
   },
@@ -1616,7 +1616,7 @@ const messages:IMessages = {
     h: "cL1VAhdyv9ML3nJT0QY3lg6QrxkJ/UQf0gbcokIDJGU=",
   },
   "Sync": {
-    val: "Sinc",
+    val: "Sincronizar",
     translated: true,
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
   },
@@ -1709,7 +1709,7 @@ const messages:IMessages = {
     h: "2ZRq+R5E0Cp4QI+y5jCefU1IOiYvNWLrN/iiJq6hGr8=",
   },
   "Tools": {
-    val: "Herramientos",
+    val: "Herramientas",
     translated: true,
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
