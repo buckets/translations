@@ -7,10 +7,10 @@ import { IMessages } from './base'
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
-  // {
-  //   name: 'Piotr Bielaska',
-  //   // href: '', /* optional */
-  // }
+  {
+    name: 'Piotr Bielaska',
+    // href: '', /* optional */
+  }
 ];
 
 const messages:IMessages = {
@@ -1030,11 +1030,6 @@ const messages:IMessages = {
     val: "Minimize",
     translated: false,
     h: "ELhkWGGY5oNKpfCzoXXW6TgkfS1nI0ZuJbWyYLmT+ro=",
-  },
-  "Misc": {
-    val: "Misc",
-    translated: false,
-    h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Month to Month": {
     val: "Month to Month",
@@ -2249,11 +2244,6 @@ Would you like to purchase a license now?`,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: filename => `Downloaded file: ${filename}`,
     val: filename => `Downloaded file: ${filename}`,
     translated: false,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",

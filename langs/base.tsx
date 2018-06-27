@@ -201,7 +201,6 @@ export interface IMessages extends IMessageSet {
   "Medical": IMsg<string>;
   "Memo": IMsg<string>;
   "Minimize": IMsg<string>;
-  "Misc": IMsg<string>;
   "Month to Month": IMsg<string>;
   "Monthly deposit:": IMsg<string>;
   "Months": IMsg<string>;
