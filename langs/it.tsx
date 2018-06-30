@@ -734,6 +734,7 @@ const messages:IMessages = {
     h: "XD8GQYEIDrNjTMPX4TjGeAbbCIEBcAONlYPd/D8Hz84=",
   },
   "Go To...": {
+    /* Submenu title for navigation shortcuts */
     val: "Go To...",
     translated: false,
     h: "AsKW6buNlZ7YlWHN1pVgNlCAzqiFIsJGL1cg8CkVGkg=",
@@ -1238,11 +1239,6 @@ const messages:IMessages = {
     translated: false,
     h: "MUc4sPlkaqyooNhJKZ15rbBQdclJSNbaarHERiW1hrs=",
   },
-  "Open": {
-    val: "Open",
-    translated: false,
-    h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
-  },
   "Open Buckets Budget": {
     val: "Open Buckets Budget",
     translated: false,
@@ -1732,12 +1728,6 @@ const messages:IMessages = {
     val: "C'è stato un errore. Vuoi provare di nuovo?",
     translated: true,
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
-  },
-  "This Month": {
-    /* Menu item for "Go To This Month" */
-    val: "This Month",
-    translated: false,
-    h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "This is a special group for all the buckets without a group.": {
     val: "This is a special group for all the buckets without a group.",
@@ -2283,6 +2273,12 @@ const messages:IMessages = {
     translated: false,
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
+  "go-to-this-month": {
+    /* Menu item for "Go To... This Month" */
+    val: "This Month",
+    translated: false,
+    h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
+  },
   "in the bank": {
     val: "in the bank",
     translated: false,
@@ -2457,6 +2453,12 @@ Would you like to purchase a license now?`,
               },
     translated: false,
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
+  },
+  "verb-open": {
+    /* Verb to open a page */
+    val: "Open",
+    translated: false,
+    h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
   "version-available": {
     val: (newv:string) => `Version ${newv} available.`,

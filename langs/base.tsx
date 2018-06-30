@@ -239,7 +239,6 @@ export interface IMessages extends IMessageSet {
   "Off budget": IMsg<string>;
   "On": IMsg<string>;
   "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": IMsg<string>;
-  "Open": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
@@ -336,7 +335,6 @@ export interface IMessages extends IMessageSet {
   "Thank you for the feedback!": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
-  "This Month": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "Timezone": IMsg<string>;
@@ -443,6 +441,7 @@ export interface IMessages extends IMessageSet {
   "error-detail": IMsg<string>;
   "export.why": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
+  "go-to-this-month": IMsg<string>;
   "in the bank": IMsg<string>;
   "match-count": IMsg<(current_match:number,total_matches:number)=>string|JSX.Element>;
   "misc group name": IMsg<string>;
@@ -472,6 +471,7 @@ export interface IMessages extends IMessageSet {
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "transfer-to-account": IMsg<(dropdown:any)=>string|JSX.Element>;
+  "verb-open": IMsg<string>;
   "version-available": IMsg<(newv:string)=>string|JSX.Element>;
 }
 
