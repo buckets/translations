@@ -26,6 +26,7 @@ export interface IMessages extends IMessageSet {
   "Analysis": IMsg<string>;
   "Animation": IMsg<string>;
   "Any other monthly bills you have?": IMsg<string>;
+  "Application preferences": IMsg<string>;
   "Attached files are too large.": IMsg<string>;
   "Average": IMsg<string>;
   "Avg:": IMsg<string>;
@@ -45,12 +46,13 @@ export interface IMessages extends IMessageSet {
   "Buckets Guide": IMsg<string>;
   "Buckets License": IMsg<string>;
   "Budget": IMsg<string>;
-  "Budget Settings": IMsg<string>;
+  "Budget Specific Settings": IMsg<string>;
   "Budget password:": IMsg<string>;
   "Budgeted": IMsg<string>;
   "CSV Account": IMsg<string>;
   "CSV Fields": IMsg<string>;
   "Cable TV": IMsg<string>;
+  "Calculator": IMsg<string>;
   "Cancel": IMsg<string>;
   "Cancel sync": IMsg<string>;
   "Car Insurance": IMsg<string>;
@@ -66,6 +68,7 @@ export interface IMessages extends IMessageSet {
   "Check for Updates": IMsg<string>;
   "Checking for updates...": IMsg<string>;
   "Cleared": IMsg<string>;
+  "Cleared balance": IMsg<string>;
   "Click the \"Set mapping\" to continue.": IMsg<string>;
   "Close Account": IMsg<string>;
   "Close Window": IMsg<string>;
@@ -138,6 +141,7 @@ export interface IMessages extends IMessageSet {
   "Fuel": IMsg<string>;
   "Gain/Loss": IMsg<string>;
   "Getting Started...": IMsg<string>;
+  "Go To...": IMsg<string>;
   "Goal completion:": IMsg<string>;
   "Goal:": IMsg<string>;
   "Goal: 0": IMsg<string>;
@@ -159,7 +163,6 @@ export interface IMessages extends IMessageSet {
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions...": IMsg<string>;
   "Import all Amazon Reports": IMsg<string>;
-  "Import an Amazon Items report to see order details.": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
   "Import links broken": IMsg<string>;
@@ -175,7 +178,6 @@ export interface IMessages extends IMessageSet {
   "Invalid license": IMsg<string>;
   "It says:": IMsg<string>;
   "It should say:": IMsg<string>;
-  "Item": IMsg<string>;
   "Keep account transactions": IMsg<string>;
   "Keep accounts": IMsg<string>;
   "Keep bucket transactions": IMsg<string>;
@@ -225,6 +227,8 @@ export interface IMessages extends IMessageSet {
   "New roof": IMsg<string>;
   "No file chosen": IMsg<string>;
   "No matches found": IMsg<string>;
+  "No orders imported": IMsg<string>;
+  "No refunds imported": IMsg<string>;
   "Not Transfer": IMsg<string>;
   "Not yet cleared": IMsg<string>;
   "Note": IMsg<string>;
@@ -235,14 +239,17 @@ export interface IMessages extends IMessageSet {
   "Off budget": IMsg<string>;
   "On": IMsg<string>;
   "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": IMsg<string>;
+  "Open": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
   "Open Transaction File": IMsg<string>;
   "Open YNAB4 File": IMsg<string>;
   "Optional message:": IMsg<string>;
-  "Optionally request a Amazon Refunds report": IMsg<string>;
+  "Optionally request an Amazon Refunds report": IMsg<string>;
   "Or click to download the new version manually.": IMsg<string>;
+  "Order": IMsg<string>;
+  "Orders": IMsg<string>;
   "Out": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
@@ -270,6 +277,7 @@ export interface IMessages extends IMessageSet {
   "Recording": IMsg<string>;
   "Recurring Expenses": IMsg<string>;
   "Redo": IMsg<string>;
+  "Refunds": IMsg<string>;
   "Reload": IMsg<string>;
   "Remove Categorization": IMsg<string>;
   "Rent/Mortgage": IMsg<string>;
@@ -286,6 +294,7 @@ export interface IMessages extends IMessageSet {
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
+  "Search for Amazon transactions:": IMsg<string>;
   "Search:": IMsg<string>;
   "Searching...": IMsg<string>;
   "Select All": IMsg<string>;
@@ -327,6 +336,7 @@ export interface IMessages extends IMessageSet {
   "Thank you for the feedback!": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
+  "This Month": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "Timezone": IMsg<string>;
@@ -346,6 +356,7 @@ export interface IMessages extends IMessageSet {
   "Un-kick Bucket": IMsg<string>;
   "Unable to claim access token": IMsg<string>;
   "Unable to open the file:": IMsg<string>;
+  "Uncleared": IMsg<string>;
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
   "Unique ID": IMsg<string>;
@@ -384,6 +395,7 @@ export interface IMessages extends IMessageSet {
   "Year's Supply": IMsg<string>;
   "Years": IMsg<string>;
   "You are running the latest version!": IMsg<string>;
+  "You can do math in all number inputs, not just here in the calculator.": IMsg<string>;
   "You don't have any recurring expense buckets yet.": IMsg<string>;
   "You have no closed accounts.": IMsg<string>;
   "You haven't kicked the bucket yet...": IMsg<string>;
@@ -396,6 +408,9 @@ export interface IMessages extends IMessageSet {
   "account-bal-diff-1": IMsg<string>;
   "account-bal-diff-fix-1": IMsg<string>;
   "account-bal-diff-fix-2": IMsg<string>;
+  "account-in": IMsg<string>;
+  "account-net-amount": IMsg<string>;
+  "account-out": IMsg<string>;
   "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
@@ -445,6 +460,7 @@ export interface IMessages extends IMessageSet {
   "press Escape to close": IMsg<string>;
   "rain.help.neg": IMsg<(abs_amount:any)=>string|JSX.Element>;
   "rain.help.pos": IMsg<(abs_amount:any)=>string|JSX.Element>;
+  "shipment-number": IMsg<(number:number)=>string|JSX.Element>;
   "simplefin-connect-intro": IMsg<string>;
   "simplefin-get-token": IMsg<(mklink:any)=>string|JSX.Element>;
   "simplefin-paste": IMsg<string>;
