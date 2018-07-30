@@ -226,12 +226,6 @@ const messages:IMessages = {
     translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
-  "Buckets Guide": {
-    /* 'Buckets' refers to the application name. */
-    val: "Instrukcja użytkowania programu Buckets",
-    translated: true,
-    h: "iK/jSwFsIOO0YBANlaqC8+gTWFX+9IBYpc+HuiQ2U/c=",
-  },
   "Buckets License": {
     /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
@@ -320,6 +314,11 @@ const messages:IMessages = {
     val: "Kategorie",
     translated: true,
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
+  },
+  "Change Account Type": {
+    val: "Change Account Type",
+    translated: false,
+    h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
     val: "Charytatywne",
@@ -487,6 +486,7 @@ const messages:IMessages = {
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Debt": {
+    /* Label for a total debt amount */
     /* Name of bucket group for debts */
     val: "Wierzytelności",
     translated: true,
@@ -756,6 +756,12 @@ const messages:IMessages = {
     translated: true,
     h: "T6Kz6/FDxQkeIUJq8SVGn0T7OPdZ7B0YjPD3qHqW5p4=",
   },
+  "Guide": {
+    /* Menu label for the Buckets user guide */
+    val: "Guide",
+    translated: false,
+    h: "E0TqJgLjqp65xs2CJV72FGZk5q/R8lIwaWCMnXpvTPE=",
+  },
   "Header row": {
     /* Label for checkbox indicating whether a CSV file has a header row or not */
     val: "Nagłówek",
@@ -999,16 +1005,6 @@ const messages:IMessages = {
     translated: true,
     h: "yo4VuLKqBNhvEBgUZKyI2WypDrv1loL/wA1qO3u4Zq4=",
   },
-  "Make Account Off Budget": {
-    val: "Usuń konto z budżetu",
-    translated: true,
-    h: "jw6HPdaDScqY+QIMmJ35WzXfjHVXwsPaWjv1EgCZC/M=",
-  },
-  "Make Account On Budget": {
-    val: "Dodaj konto do budżetu",
-    translated: true,
-    h: "6gjcSYfUh5rPE2oFISLmP498V1RohOYnE0M2uhE47NM=",
-  },
   "Make Transfer": {
     val: "Zrób przelew",
     translated: true,
@@ -1183,6 +1179,11 @@ const messages:IMessages = {
     val: "Nie zaimportowano zwrotów",
     translated: true,
     h: "J8bwMBTknpk9dMKKsTWTqNlncBVGlUjhrnjwN6Z7uJk=",
+  },
+  "Normal": {
+    val: "Normal",
+    translated: false,
+    h: "hjYDsfwaNZVxJ5eupqHy97JfTq/YAPm+bD+Zx0zrGuU=",
   },
   "Not Transfer": {
     val: "Nie przelew",
@@ -1588,6 +1589,11 @@ const messages:IMessages = {
     val: "Połączenia SimpleFIN",
     translated: true,
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
+  },
+  "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
+    val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
+    translated: false,
+    h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
     val: "Pomiń tę wersję",
@@ -2106,6 +2112,11 @@ const messages:IMessages = {
     translated: true,
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
+  "account-type": {
+    val: "Type",
+    translated: false,
+    h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
+  },
   "accounts.balance_mismatch_msg": {
     val: "Najnowszy stan konta po synchronizacji nie odpowiada stanowi konta obliczonemu z transakcji. Klinij po więcej informacji.",
     translated: true,
@@ -2226,6 +2237,17 @@ const messages:IMessages = {
     translated: true,
     h: "jqSPxB9W3Xqmvb/7MIrwKgcCTUR0zgU3qqTqJFET1e0=",
   },
+  "debt-bucket-explanation": {
+    val: "This is a special debt payment bucket.",
+    translated: false,
+    h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
+  },
+  "debt-payment-bucket-name": {
+    /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
+    val: (account_name:string) => `${account_name} Payment`,
+    translated: false,
+    h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
+  },
   "default account name": {
     val: "Oszczędności",
     translated: true,
@@ -2338,6 +2360,11 @@ Czy chciałbyś kupić licencję teraz?`,
     val: filename => `Pobrano plik: ${filename}`,
     translated: true,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
+  },
+  "noun.debt": {
+    val: "Debt",
+    translated: false,
+    h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "noun.transfer": {
     val: "Przelew",

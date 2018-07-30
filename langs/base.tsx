@@ -43,7 +43,6 @@ export interface IMessages extends IMessageSet {
   "Bucket type:": IMsg<string>;
   "Buckets": IMsg<string>;
   "Buckets Budget Filename": IMsg<string>;
-  "Buckets Guide": IMsg<string>;
   "Buckets License": IMsg<string>;
   "Budget": IMsg<string>;
   "Budget Specific Settings": IMsg<string>;
@@ -61,6 +60,7 @@ export interface IMessages extends IMessageSet {
   "Categorization": IMsg<string>;
   "Categorize": IMsg<string>;
   "Category": IMsg<string>;
+  "Change Account Type": IMsg<string>;
   "Charity": IMsg<string>;
   "Chat with Matt": IMsg<string>;
   "Chat...": IMsg<string>;
@@ -146,6 +146,7 @@ export interface IMessages extends IMessageSet {
   "Goal:": IMsg<string>;
   "Goal: 0": IMsg<string>;
   "Groceries": IMsg<string>;
+  "Guide": IMsg<string>;
   "Header row": IMsg<string>;
   "Health Insurance": IMsg<string>;
   "Hello!  Thanks for trying out Buckets.": IMsg<string>;
@@ -193,8 +194,6 @@ export interface IMessages extends IMessageSet {
   "Life Insurance": IMsg<string>;
   "Link Account": IMsg<string>;
   "Macros": IMsg<string>;
-  "Make Account Off Budget": IMsg<string>;
-  "Make Account On Budget": IMsg<string>;
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
   "Make it so": IMsg<string>;
@@ -229,6 +228,7 @@ export interface IMessages extends IMessageSet {
   "No matches found": IMsg<string>;
   "No orders imported": IMsg<string>;
   "No refunds imported": IMsg<string>;
+  "Normal": IMsg<string>;
   "Not Transfer": IMsg<string>;
   "Not yet cleared": IMsg<string>;
   "Note": IMsg<string>;
@@ -308,6 +308,7 @@ export interface IMessages extends IMessageSet {
   "Show uncategorized": IMsg<string>;
   "Sign": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
+  "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
   "Skip This Version": IMsg<string>;
   "Speech": IMsg<string>;
   "Spending Money": IMsg<string>;
@@ -409,6 +410,7 @@ export interface IMessages extends IMessageSet {
   "account-in": IMsg<string>;
   "account-net-amount": IMsg<string>;
   "account-out": IMsg<string>;
+  "account-type": IMsg<string>;
   "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
@@ -433,6 +435,8 @@ export interface IMessages extends IMessageSet {
   "daterange.from3monthsago": IMsg<string>;
   "daterange.fromlastmonth": IMsg<string>;
   "daterange.thismonth": IMsg<string>;
+  "debt-bucket-explanation": IMsg<string>;
+  "debt-payment-bucket-name": IMsg<(account_name:string)=>string|JSX.Element>;
   "default account name": IMsg<string>;
   "default new bucket name": IMsg<string>;
   "default new group name": IMsg<string>;
@@ -453,6 +457,7 @@ export interface IMessages extends IMessageSet {
   "net-transfers.help": IMsg<string>;
   "noin.income": IMsg<string>;
   "notify-downloaded-file": IMsg<(filename:any)=>string|JSX.Element>;
+  "noun.debt": IMsg<string>;
   "noun.transfer": IMsg<string>;
   "off": IMsg<string>;
   "on": IMsg<string>;
