@@ -280,6 +280,7 @@ const messages:IMessages = {
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Cancel": {
+    /* Button label */
     val: "Cancelar",
     translated: true,
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
@@ -1057,6 +1058,11 @@ const messages:IMessages = {
     translated: true,
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
+  "Monthly": {
+    val: "Monthly",
+    translated: false,
+    h: "r+AvQ06eYho/PFxjGz8FzHFmEfN+fjBpG0Yzic6/UgU=",
+  },
   "Monthly deposit:": {
     val: "Depósito mensal:",
     translated: true,
@@ -1118,6 +1124,11 @@ const messages:IMessages = {
     val: "Transferência líquida",
     translated: true,
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
+  },
+  "Net Wealth": {
+    val: "Net Wealth",
+    translated: false,
+    h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
   "New Bucket": {
     val: "Novo Bucket",
@@ -1240,6 +1251,12 @@ const messages:IMessages = {
     val: "Selecione apenas a coluna para UNIQUE ID se você tiver certeza que o arquivo contem ID transacional únicos provido pelo banco. A maioria dos CSVs não tem essa coluna.",
     translated: true,
     h: "MUc4sPlkaqyooNhJKZ15rbBQdclJSNbaarHERiW1hrs=",
+  },
+  "Open Anyway": {
+    /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
+    val: "Open Anyway",
+    translated: false,
+    h: "C3I8WidkzZOLAGX0ypckK7pR7+e/M/X/YVIV1GCTYms=",
   },
   "Open Buckets Budget": {
     val: "Abrir as despesas Buckets",
@@ -1736,6 +1753,11 @@ const messages:IMessages = {
     translated: true,
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
+  "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": {
+    val: "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.",
+    translated: false,
+    h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
+  },
   "This is a special group for all the buckets without a group.": {
     val: "Esse é um grupo especial para todos os buckets sem um grupo.",
     translated: true,
@@ -2001,6 +2023,11 @@ const messages:IMessages = {
     translated: true,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
   },
+  "Wealth": {
+    val: "Wealth",
+    translated: false,
+    h: "3RuJtPU0Q7PHnPvGvNFjE2ZioBaxal3OxXU0Yvs2QLI=",
+  },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "Quando \"On\" essa macro irá executar durante a sincronia normal.",
     translated: true,
@@ -2020,6 +2047,11 @@ const messages:IMessages = {
     val: "Suprimento do Ano",
     translated: true,
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
+  },
+  "Yearly": {
+    val: "Yearly",
+    translated: false,
+    h: "LjMZRIZX3jdNUpbBBgqpPR9Az6c4sBWYUwd2WDVb9Rw=",
   },
   "Years": {
     val: "Anos",
@@ -2296,6 +2328,18 @@ const messages:IMessages = {
     translated: true,
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
+  "go-to-next-month": {
+    /* Menu label for "Go To... Next Month" */
+    val: "Next Month",
+    translated: false,
+    h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
+  },
+  "go-to-prev-month": {
+    /* Menu label for "Go To... Previous Month" */
+    val: "Previous Month",
+    translated: false,
+    h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
+  },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
     val: "This Month",
@@ -2462,6 +2506,13 @@ Você gostaria de comprar uma licença agora?`,
     val: count => `Atualizada/Criada ${count} transações`,
     translated: true,
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
+  },
+  "trans-created-outofview": {
+    val: (month:JSX.Element) => {
+              return <span>Transaction created in {month} </span>;
+            },
+    translated: false,
+    h: "Bp5W2CCjocfbExdN4+osaWx0KIrqUL3M8O99S5UBWKQ=",
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {

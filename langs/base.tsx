@@ -203,6 +203,7 @@ export interface IMessages extends IMessageSet {
   "Memo": IMsg<string>;
   "Minimize": IMsg<string>;
   "Month to Month": IMsg<string>;
+  "Monthly": IMsg<string>;
   "Monthly deposit:": IMsg<string>;
   "Months": IMsg<string>;
   "Move Bucket": IMsg<string>;
@@ -215,6 +216,7 @@ export interface IMessages extends IMessageSet {
   "Negative": IMsg<string>;
   "Net": IMsg<string>;
   "Net Transfers": IMsg<string>;
+  "Net Wealth": IMsg<string>;
   "New Bucket": IMsg<string>;
   "New Budget...": IMsg<string>;
   "New Group": IMsg<string>;
@@ -239,6 +241,7 @@ export interface IMessages extends IMessageSet {
   "Off budget": IMsg<string>;
   "On": IMsg<string>;
   "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": IMsg<string>;
+  "Open Anyway": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
@@ -336,6 +339,7 @@ export interface IMessages extends IMessageSet {
   "Thank you for the feedback!": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
+  "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "Timezone": IMsg<string>;
@@ -388,10 +392,12 @@ export interface IMessages extends IMessageSet {
   "Wants": IMsg<string>;
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": IMsg<string>;
   "Water": IMsg<string>;
+  "Wealth": IMsg<string>;
   "When \"On\" this macro will be run during a normal sync.": IMsg<string>;
   "Window": IMsg<string>;
   "Year to Year": IMsg<string>;
   "Year's Supply": IMsg<string>;
+  "Yearly": IMsg<string>;
   "Years": IMsg<string>;
   "You are running the latest version!": IMsg<string>;
   "You can do math in all number inputs, not just here in the calculator.": IMsg<string>;
@@ -445,6 +451,8 @@ export interface IMessages extends IMessageSet {
   "error-detail": IMsg<string>;
   "export.why": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
+  "go-to-next-month": IMsg<string>;
+  "go-to-prev-month": IMsg<string>;
   "go-to-this-month": IMsg<string>;
   "in the bank": IMsg<string>;
   "match-count": IMsg<(current_match:number,total_matches:number)=>string|JSX.Element>;
@@ -474,6 +482,7 @@ export interface IMessages extends IMessageSet {
   "sync-symbol help": IMsg<string>;
   "sync.toast.syncing": IMsg<(start:any,end:any)=>string|JSX.Element>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
+  "trans-created-outofview": IMsg<(month:any)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "transfer-to-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "verb-open": IMsg<string>;
