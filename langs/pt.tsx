@@ -145,6 +145,11 @@ const messages:IMessages = {
     translated: false,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
+  "Assets": {
+    val: "Assets",
+    translated: false,
+    h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
+  },
   "Attached files are too large.": {
     val: "O arquivo em anexo é muito grande.",
     translated: true,
@@ -2022,11 +2027,6 @@ const messages:IMessages = {
     val: "Água",
     translated: true,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
-  },
-  "Wealth": {
-    val: "Wealth",
-    translated: false,
-    h: "3RuJtPU0Q7PHnPvGvNFjE2ZioBaxal3OxXU0Yvs2QLI=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "Quando \"On\" essa macro irá executar durante a sincronia normal.",

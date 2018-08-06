@@ -27,6 +27,7 @@ export interface IMessages extends IMessageSet {
   "Animation": IMsg<string>;
   "Any other monthly bills you have?": IMsg<string>;
   "Application preferences": IMsg<string>;
+  "Assets": IMsg<string>;
   "Attached files are too large.": IMsg<string>;
   "Average": IMsg<string>;
   "Avg:": IMsg<string>;
@@ -392,7 +393,6 @@ export interface IMessages extends IMessageSet {
   "Wants": IMsg<string>;
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": IMsg<string>;
   "Water": IMsg<string>;
-  "Wealth": IMsg<string>;
   "When \"On\" this macro will be run during a normal sync.": IMsg<string>;
   "Window": IMsg<string>;
   "Year to Year": IMsg<string>;
