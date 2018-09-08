@@ -141,13 +141,13 @@ const messages:IMessages = {
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
-    val: "Application preferences",
-    translated: false,
+    val: "Preferências da aplicação",
+    translated: true,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
-    val: "Assets",
-    translated: false,
+    val: "Ativos",
+    translated: true,
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
@@ -249,8 +249,8 @@ const messages:IMessages = {
   },
   "Budget Specific Settings": {
     /* Title for budget settings page */
-    val: "Budget Specific Settings",
-    translated: false,
+    val: "Opções Específicas para o Orçamento",
+    translated: true,
     h: "/RQVOKmoXTgeciF+ohehk19BxpvBXud+3HjfZPPw1v8=",
   },
   "Budget password:": {
@@ -280,8 +280,8 @@ const messages:IMessages = {
     h: "wISz6Dh0vnQ1Tjhr9GWcJ2rhiif2af6NXsAzEAXYxfo=",
   },
   "Calculator": {
-    val: "Calculator",
-    translated: false,
+    val: "Calculadora",
+    translated: true,
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Cancel": {
@@ -326,8 +326,8 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change Account Type": {
-    val: "Change Account Type",
-    translated: false,
+    val: "Mudar Tipo de Conta",
+    translated: true,
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
@@ -369,8 +369,8 @@ const messages:IMessages = {
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
-    val: "Cleared balance",
-    translated: false,
+    val: "Balanço liquidado",
+    translated: true,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
   "Click the \"Set mapping\" to continue.": {
@@ -742,8 +742,8 @@ const messages:IMessages = {
   },
   "Go To...": {
     /* Submenu title for navigation shortcuts */
-    val: "Go To...",
-    translated: false,
+    val: "Vá para...",
+    translated: true,
     h: "AsKW6buNlZ7YlWHN1pVgNlCAzqiFIsJGL1cg8CkVGkg=",
   },
   "Goal completion:": {
@@ -768,8 +768,8 @@ const messages:IMessages = {
   },
   "Guide": {
     /* Menu label for the Buckets user guide */
-    val: "Guide",
-    translated: false,
+    val: "Guia",
+    translated: true,
     h: "E0TqJgLjqp65xs2CJV72FGZk5q/R8lIwaWCMnXpvTPE=",
   },
   "Header row": {
@@ -1064,8 +1064,8 @@ const messages:IMessages = {
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
   "Monthly": {
-    val: "Monthly",
-    translated: false,
+    val: "Mensalmente",
+    translated: true,
     h: "r+AvQ06eYho/PFxjGz8FzHFmEfN+fjBpG0Yzic6/UgU=",
   },
   "Monthly deposit:": {
@@ -1131,8 +1131,8 @@ const messages:IMessages = {
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
   },
   "Net Wealth": {
-    val: "Net Wealth",
-    translated: false,
+    val: "Patrimônio Líquido",
+    translated: true,
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
   "New Bucket": {
@@ -1191,18 +1191,18 @@ const messages:IMessages = {
     h: "p4er9wMKH/YiF5PrBRKpfEzR8HINC3N0d9Iol4zqgtQ=",
   },
   "No orders imported": {
-    val: "No orders imported",
-    translated: false,
+    val: "Nenhuma emcomenda importada",
+    translated: true,
     h: "BSXGKYKVKCk7fbaNo3wAigIjqpZPNfJFNISloGmngZg=",
   },
   "No refunds imported": {
-    val: "No refunds imported",
-    translated: false,
+    val: "Nenhuma restituição importada",
+    translated: true,
     h: "J8bwMBTknpk9dMKKsTWTqNlncBVGlUjhrnjwN6Z7uJk=",
   },
   "Normal": {
     val: "Normal",
-    translated: false,
+    translated: true,
     h: "hjYDsfwaNZVxJ5eupqHy97JfTq/YAPm+bD+Zx0zrGuU=",
   },
   "Not Transfer": {
@@ -1259,8 +1259,8 @@ const messages:IMessages = {
   },
   "Open Anyway": {
     /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
-    val: "Open Anyway",
-    translated: false,
+    val: "Abra mesmo assim",
+    translated: true,
     h: "C3I8WidkzZOLAGX0ypckK7pR7+e/M/X/YVIV1GCTYms=",
   },
   "Open Buckets Budget": {
@@ -1294,8 +1294,8 @@ const messages:IMessages = {
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
   },
   "Optionally request an Amazon Refunds report": {
-    val: "Optionally request an Amazon Refunds report",
-    translated: false,
+    val: "Requisitar opcionalmente um relatório de reembolso da Amazon",
+    translated: true,
     h: "j+ZBzvgoK0z7wbJ25sNsy9fYopXOCUEqjbTFdt559Zo=",
   },
   "Or click to download the new version manually.": {
@@ -1305,14 +1305,14 @@ const messages:IMessages = {
   },
   "Order": {
     /* Label for an Amazon order row */
-    val: "Order",
-    translated: false,
+    val: "Pedido",
+    translated: true,
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "Orders": {
     /* List of orders */
-    val: "Orders",
-    translated: false,
+    val: "Pedidos",
+    translated: true,
     h: "0W3ENYY4AiEiX9CGdCzK/r0XLyqTqbYi8N91GQpTqnM=",
   },
   "Out": {
@@ -1455,8 +1455,8 @@ const messages:IMessages = {
   },
   "Refunds": {
     /* List of refunds */
-    val: "Refunds",
-    translated: false,
+    val: "Reembolso",
+    translated: true,
     h: "4I/iPkFh9gYRoT0f6GWUl2eb1/8WRv59q6yPjB1KOOU=",
   },
   "Reload": {
@@ -1541,8 +1541,8 @@ const messages:IMessages = {
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Search for Amazon transactions:": {
-    val: "Search for Amazon transactions:",
-    translated: false,
+    val: "Procurar por transações da Amazon:",
+    translated: true,
     h: "FGAckk6wNL4OYfSaGK3CYf8NLHv4tvh6bf9YErgSb5E=",
   },
   "Search:": {
@@ -1617,8 +1617,8 @@ const messages:IMessages = {
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
-    val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
-    translated: false,
+    val: "Como alguns baldes tem saldo negativo, esse saldo de pagamento pode não ser exatamente o que você tem disponível no momento.",
+    translated: true,
     h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
@@ -1759,8 +1759,8 @@ const messages:IMessages = {
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": {
-    val: "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.",
-    translated: false,
+    val: "Esse orçamento foi atualizado para a nova versão do Buckets.  Usá-lo com a versão anterior pode não funcionar.",
+    translated: true,
     h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
   },
   "This is a special group for all the buckets without a group.": {
@@ -1864,8 +1864,8 @@ const messages:IMessages = {
   },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
-    val: "Uncleared",
-    translated: false,
+    val: "Não apurado",
+    translated: true,
     h: "1GBgqlG+RCS8dFTG2z15jLFFd4PCVVXDefXwBRq0oTs=",
   },
   "Undo": {
@@ -2049,8 +2049,8 @@ const messages:IMessages = {
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
   },
   "Yearly": {
-    val: "Yearly",
-    translated: false,
+    val: "Anualmente",
+    translated: true,
     h: "LjMZRIZX3jdNUpbBBgqpPR9Az6c4sBWYUwd2WDVb9Rw=",
   },
   "Years": {
@@ -2064,8 +2064,8 @@ const messages:IMessages = {
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
   "You can do math in all number inputs, not just here in the calculator.": {
-    val: "You can do math in all number inputs, not just here in the calculator.",
-    translated: false,
+    val: "Você pode fazer contas em todos os campos numéricos, não apenas aqui na calculadora.",
+    translated: true,
     h: "dn2W/ktTrcwSzYNSq6IQL7Sl2k8lxZQRsFehzG9Mf7g=",
   },
   "You don't have any recurring expense buckets yet.": {
@@ -2132,25 +2132,25 @@ const messages:IMessages = {
   },
   "account-in": {
     /* Label for amount put into an account */
-    val: "In",
-    translated: false,
+    val: "Entrada",
+    translated: true,
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "account-net-amount": {
     /* Label for net value of amount in - amount out for an account */
-    val: "Net",
-    translated: false,
+    val: "Líquido",
+    translated: true,
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "account-out": {
     /* Label for amount taken out of an account */
-    val: "Out",
-    translated: false,
+    val: "Saída",
+    translated: true,
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "account-type": {
-    val: "Type",
-    translated: false,
+    val: "Tipo",
+    translated: true,
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "accounts.balance_mismatch_msg": {
@@ -2274,14 +2274,14 @@ const messages:IMessages = {
     h: "jqSPxB9W3Xqmvb/7MIrwKgcCTUR0zgU3qqTqJFET1e0=",
   },
   "debt-bucket-explanation": {
-    val: "This is a special debt payment bucket.",
-    translated: false,
+    val: "Esse é um balde de débito especial.",
+    translated: true,
     h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
-    val: (account_name:string) => `${account_name} Payment`,
-    translated: false,
+    val: (account_name:string) => `${account_name} Pagamento`,
+    translated: true,
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
@@ -2330,20 +2330,20 @@ const messages:IMessages = {
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "Próximo Mês",
+    translated: true,
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "Mês Anterior",
+    translated: true,
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
-    val: "This Month",
-    translated: false,
+    val: "Esse Mês",
+    translated: true,
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "in the bank": {
@@ -2410,8 +2410,8 @@ Você gostaria de comprar uma licença agora?`,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.debt": {
-    val: "Debt",
-    translated: false,
+    val: "Débto",
+    translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "noun.transfer": {
@@ -2454,8 +2454,8 @@ Você gostaria de comprar uma licença agora?`,
   },
   "shipment-number": {
     /* Noun labeling this shipment number */
-    val: (number:number)=>`Shipment ${number}`,
-    translated: false,
+    val: (number:number)=>`Envio ${number}`,
+    translated: true,
     h: "kOj0AkivxHYJj3IKqIFziGCcIwk1yxyUrloX+kGlOd0=",
   },
   "simplefin-connect-intro": {
@@ -2509,9 +2509,9 @@ Você gostaria de comprar uma licença agora?`,
   },
   "trans-created-outofview": {
     val: (month:JSX.Element) => {
-              return <span>Transaction created in {month} </span>;
+              return <span>Transação criada em {month} </span>;
             },
-    translated: false,
+    translated: true,
     h: "Bp5W2CCjocfbExdN4+osaWx0KIrqUL3M8O99S5UBWKQ=",
   },
   "transfer-from-account": {
@@ -2530,8 +2530,8 @@ Você gostaria de comprar uma licença agora?`,
   },
   "verb-open": {
     /* Verb to open a page */
-    val: "Open",
-    translated: false,
+    val: "Abrir",
+    translated: true,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
   "version-available": {
