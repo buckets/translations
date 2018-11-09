@@ -276,8 +276,8 @@ const messages:IMessages = {
     h: "wISz6Dh0vnQ1Tjhr9GWcJ2rhiif2af6NXsAzEAXYxfo=",
   },
   "Calculator": {
-    val: "Calculator",
-    translated: false,
+    val: "Calculatrice",
+    translated: true,
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Cancel": {
@@ -738,8 +738,8 @@ const messages:IMessages = {
   },
   "Go To...": {
     /* Submenu title for navigation shortcuts */
-    val: "Go To...",
-    translated: false,
+    val: "Aller à...",
+    translated: true,
     h: "AsKW6buNlZ7YlWHN1pVgNlCAzqiFIsJGL1cg8CkVGkg=",
   },
   "Goal completion:": {
@@ -2326,20 +2326,20 @@ const messages:IMessages = {
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "Mois prochain",
+    translated: true,
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "Mois précédent",
+    translated: true,
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
-    val: "This Month",
-    translated: false,
+    val: "Ce mois",
+    translated: true,
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "in the bank": {
