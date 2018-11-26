@@ -8,10 +8,10 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   92% | Deutsch |
 |  100% | English |
 |   45% | español |
-|   87% | Français |
+|   88% | Français |
 |    1% | עִברִית |
 |   47% | Italiano |
-|   90% | Nederlands |
+|   98% | Nederlands |
 |   96% | Polski |
 |  100% | Português |
 |    5% | Română |
