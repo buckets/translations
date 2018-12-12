@@ -17,6 +17,7 @@ export interface IMessages extends IMessageSet {
   "Account deleted completely": IMsg<string>;
   "Account name": IMsg<string>;
   "Accounts": IMsg<string>;
+  "Accounts in side bar": IMsg<string>;
   "Actions": IMsg<string>;
   "Activity": IMsg<string>;
   "Actual Size": IMsg<string>;

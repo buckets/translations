@@ -90,6 +90,11 @@ const messages:IMessages = {
     translated: true,
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
+  "Accounts in side bar": {
+    val: "Accounts in side bar",
+    translated: false,
+    h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
+  },
   "Actions": {
     val: "Acties",
     translated: true,
