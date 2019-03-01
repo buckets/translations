@@ -181,12 +181,6 @@ const messages:IMessages = {
     translated: true,
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
-  "Beta Updates": {
-    /* Label for checkbox indicating if users want to receive Beta version of Buckets before wide release */
-    val: "Aktualizacje Beta",
-    translated: true,
-    h: "xyGKwUoes8hYiGBWy9KIoxkU/BREGx8pGiKIUb6hsEc=",
-  },
   "Birthdays": {
     val: "Urodziny",
     translated: true,
@@ -603,11 +597,6 @@ const messages:IMessages = {
     val: "Włącz makro",
     translated: true,
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
-  },
-  "Enable to get new versions of Buckets before everyone else.  There might be more bugs :)": {
-    val: "Włącz, aby otrzymać nową wersję programu Buckets przed innymi. Program może zawierać błędy :)",
-    translated: true,
-    h: "sC2MA2Tqphkt5iblpZFWToDQhdF9U2nk8FpwTxH3Ta8=",
   },
   "Ending Balance": {
     val: "Suma na koniec",
