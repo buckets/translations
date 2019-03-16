@@ -114,6 +114,12 @@ const messages:IMessages = {
     translated: true,
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
+  "All Files": {
+    /* Label for letting users select any file for import regardless of extension */
+    val: "All Files",
+    translated: false,
+    h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
+  },
   "Amazon.com Reconciliation": {
     val: "Reconciliação Amazon.com",
     translated: true,

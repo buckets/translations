@@ -21,6 +21,7 @@ export interface IMessages extends IMessageSet {
   "Actions": IMsg<string>;
   "Activity": IMsg<string>;
   "Actual Size": IMsg<string>;
+  "All Files": IMsg<string>;
   "Amazon.com Reconciliation": IMsg<string>;
   "Amount": IMsg<string>;
   "Amount of money over-allocated in buckets.": IMsg<string>;
