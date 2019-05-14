@@ -360,6 +360,7 @@ export interface IMessages extends IMessageSet {
   "Un-kick Bucket": IMsg<string>;
   "Unable to claim access token": IMsg<string>;
   "Unable to open the file:": IMsg<string>;
+  "Uncaught Error": IMsg<string>;
   "Uncleared": IMsg<string>;
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;

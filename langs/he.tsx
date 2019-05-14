@@ -1858,6 +1858,12 @@ const messages:IMessages = {
     translated: false,
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
+  "Uncaught Error": {
+    /* Title for error reporting dialog */
+    val: "Uncaught Error",
+    translated: false,
+    h: "8shOzic2CgRpaIcNhv/44tsVBDgSItWp3ZbdihMYp9E=",
+  },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
     val: "Uncleared",
