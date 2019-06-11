@@ -348,7 +348,6 @@ export interface IMessages extends IMessageSet {
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;
   "Tools": IMsg<string>;
-  "Tot:": IMsg<string>;
   "Total amount your buckets expect each month.": IMsg<string>;
   "Transaction": IMsg<string>;
   "Transactions": IMsg<string>;
@@ -453,10 +452,12 @@ export interface IMessages extends IMessageSet {
   "export.why": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
   "go-to-next-month": IMsg<string>;
+  "go-to-next-year": IMsg<string>;
   "go-to-prev-month": IMsg<string>;
+  "go-to-prev-year": IMsg<string>;
   "go-to-this-month": IMsg<string>;
   "in the bank": IMsg<string>;
-  "match-count": IMsg<(current_match:number,total_matches:number)=>string|JSX.Element>;
+  "match-count": IMsg<(target_match:number,total_matches:number)=>string|JSX.Element>;
   "misc group name": IMsg<string>;
   "money-balance-as-of": IMsg<(amount:any,date:any)=>string|JSX.Element>;
   "months gain/loss label": IMsg<(gain:any)=>string|JSX.Element>;

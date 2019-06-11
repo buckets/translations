@@ -1798,11 +1798,6 @@ const messages:IMessages = {
     translated: true,
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
-  "Tot:": {
-    val: "Tot:",
-    translated: false,
-    h: "saHMHdDjhEhiq86BBPRvnL+Rb3M/qOu30ZLtUk20QIM=",
-  },
   "Total amount your buckets expect each month.": {
     val: "Total amount your buckets expect each month.",
     translated: false,
@@ -2339,11 +2334,23 @@ const messages:IMessages = {
     translated: false,
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
+  "go-to-next-year": {
+    /* Menu label for "Go To... Next Year" */
+    val: "Next Year",
+    translated: false,
+    h: "NfnsOERP+IaYQvH6i+9MJ6KRpbYSapnXXUFm60jUbqo=",
+  },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
     val: "Previous Month",
     translated: false,
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
+  },
+  "go-to-prev-year": {
+    /* Menu label for "Go To... Previous Year" */
+    val: "Previous Year",
+    translated: false,
+    h: "ZntiItsGCJfJBxKIXyzi3+NpS8jZXYAK8IXrOl9bfFg=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
@@ -2357,11 +2364,18 @@ const messages:IMessages = {
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "match-count": {
+    /* TRANSLATION CHANGED */
+    /* 1. Translate "newval: ..." */
+    /* 2. Delete the old "val: ..." */
+    /* 3. Rename "newval" to "val" */
+    newval: (target_match:number, total_matches:number) => {
+        return `${target_match} of ${total_matches}`;
+      },
     val: (current_match:number, total_matches:number) => {
         return `${current_match} of ${total_matches}`;
       },
     translated: false,
-    h: "gGpkwXhLiDpxY0YOCXAFl6Q8D6sb7BX93TqgFRObOqo=",
+    h: "v7j9K2L04kDpmH02jGxiXPoyxuQwZTCdUx025bb0Yj4=",
   },
   "misc group name": {
     val: "Misc",
