@@ -1234,12 +1234,12 @@ const messages:IMessages = {
     h: "mMSSK7ZBxlx6MLe8r98jC5sAtmk2McVhRqslsnhu5KM=",
   },
   "Off Budget Accounts": {
-    val: "Vanuit Budget Rekeningen",
+    val: "Buiten Budget Rekeningen",
     translated: true,
     h: "EQ0I5sn/xpO55GIvIhUF8/XeTi0g5sxvvyE7TiynJDQ=",
   },
   "Off budget": {
-    val: "Vanuit budget",
+    val: "Buiten budget",
     translated: true,
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
@@ -1271,7 +1271,7 @@ const messages:IMessages = {
   },
   "Open Recent...": {
     val: "Open Recent...",
-    translated: true,
+    translated: false,
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
   },
   "Open Transaction File": {
