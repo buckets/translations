@@ -10,6 +10,9 @@ const contributors = [
   {
     name: 'Raoul de Limézy',
     // href: '', /* optional */
+  }, {
+    name: "Andre Phu-Van Nguyen",
+    href: 'andre-nguyen.github.io'
   }
 ];
 
@@ -102,8 +105,8 @@ const messages:IMessages = {
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Accounts in side bar": {
-    val: "Accounts in side bar",
-    translated: false,
+    val: "Comptes dans la barre latérale",
+    translated: true,
     h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
   },
   "Actions": {
@@ -133,8 +136,8 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
-    val: "All Files",
-    translated: false,
+    val: "Tous les fichiers",
+    translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Amazon.com Reconciliation": {
@@ -169,8 +172,8 @@ const messages:IMessages = {
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
-    val: "Application preferences",
-    translated: false,
+    val: "Préférences d'application",
+    translated: true,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
@@ -214,8 +217,8 @@ const messages:IMessages = {
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
-    val: "Break Import Links",
-    translated: false,
+    val: "Briser les liens d'imports",
+    translated: true,
     h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
   },
   "Bring All to Front": {
@@ -277,8 +280,8 @@ const messages:IMessages = {
   },
   "Budget password:": {
     /* Label for bank macro password prompt */
-    val: "Budget password:",
-    translated: false,
+    val: "Mot de passe du budget:",
+    translated: true,
     h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
   "Budgeted": {
@@ -348,8 +351,8 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change Account Type": {
-    val: "Change Account Type",
-    translated: false,
+    val: "Changer type du compte",
+    translated: true,
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
@@ -508,8 +511,8 @@ const messages:IMessages = {
   },
   "Currency symbol": {
     /* Label for currency symbol setting */
-    val: "Currency symbol",
-    translated: false,
+    val: "Symbole de devise",
+    translated: true,
     h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
@@ -796,17 +799,17 @@ const messages:IMessages = {
   "Guide": {
     /* Menu label for the Buckets user guide */
     val: "Guide",
-    translated: false,
+    translated: true,
     h: "E0TqJgLjqp65xs2CJV72FGZk5q/R8lIwaWCMnXpvTPE=",
   },
   "Header row": {
     /* Label for checkbox indicating whether a CSV file has a header row or not */
-    val: "Header row",
-    translated: false,
+    val: "Rangée d'entête",
+    translated: true,
     h: "uRtdJlb7w3q8Zl9lZhtY0JReqNVI7CfOdo5I9SW5lfw=",
   },
   "Health Insurance": {
-    val: "Sécu / Complémentaire",
+    val: "Assurance Santé",
     translated: true,
     h: "nsWIG2Kbb9OtoQkBvgkFh5MfMVNfbuGKhZypQ3uoQJw=",
   },
@@ -882,8 +885,8 @@ const messages:IMessages = {
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
   },
   "Import all Amazon Reports": {
-    val: "Import all Amazon Reports",
-    translated: false,
+    val: "Importer tous les rapports d'Amazon",
+    translated: true,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import file": {
@@ -898,8 +901,8 @@ const messages:IMessages = {
   },
   "Import links broken": {
     /* Notification indicating that the links between imported transaction files and a particular account have been broken. */
-    val: "Import links broken",
-    translated: false,
+    val: "Liens d'import brisés",
+    translated: true,
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
@@ -1060,14 +1063,14 @@ const messages:IMessages = {
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
-    val: "Mark Cleared",
-    translated: false,
+    val: "Marquer autorisée",
+    translated: true,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
     /* Name of action for marking a transaction as not having cleared the bank */
-    val: "Mark Not Cleared",
-    translated: false,
+    val: "Marquer en attente",
+    translated: true,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Medical": {
@@ -1091,8 +1094,8 @@ const messages:IMessages = {
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
   "Monthly": {
-    val: "Monthly",
-    translated: false,
+    val: "Mensuel",
+    translated: true,
     h: "r+AvQ06eYho/PFxjGz8FzHFmEfN+fjBpG0Yzic6/UgU=",
   },
   "Monthly deposit:": {
@@ -1144,8 +1147,8 @@ const messages:IMessages = {
   },
   "Negative": {
     /* Label for choosing the word/symbol that signifies a negative number */
-    val: "Negative",
-    translated: false,
+    val: "Négatif",
+    translated: true,
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
@@ -1159,8 +1162,8 @@ const messages:IMessages = {
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
   },
   "Net Wealth": {
-    val: "Net Wealth",
-    translated: false,
+    val: "Valeur Nette",
+    translated: true,
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
   "New Bucket": {
@@ -1229,18 +1232,18 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "No orders imported": {
-    val: "No orders imported",
-    translated: false,
+    val: "Nb ordres importés",
+    translated: true,
     h: "BSXGKYKVKCk7fbaNo3wAigIjqpZPNfJFNISloGmngZg=",
   },
   "No refunds imported": {
-    val: "No refunds imported",
-    translated: false,
+    val: "Nb remboursements importés",
+    translated: true,
     h: "J8bwMBTknpk9dMKKsTWTqNlncBVGlUjhrnjwN6Z7uJk=",
   },
   "Normal": {
     val: "Normal",
-    translated: false,
+    translated: true,
     h: "hjYDsfwaNZVxJ5eupqHy97JfTq/YAPm+bD+Zx0zrGuU=",
   },
   "Not Transfer": {
@@ -1250,8 +1253,8 @@ const messages:IMessages = {
   },
   "Not yet cleared": {
     /* Tooltip text indicating that a transaction has not yet cleared. */
-    val: "Not yet cleared",
-    translated: false,
+    val: "En attente",
+    translated: true,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
@@ -1267,7 +1270,7 @@ const messages:IMessages = {
   "Number format": {
     /* Label for application number formatting preference */
     val: "Format des nombres",
-    translated: false,
+    translated: true,
     h: "RxooctpubAJr5NcKn57a5kjGBEdlPT5b2h6PUFLqxxE=",
   },
   "OK": {
@@ -1297,8 +1300,8 @@ const messages:IMessages = {
   },
   "Open Anyway": {
     /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
-    val: "Open Anyway",
-    translated: false,
+    val: "Ouvrir tout de même",
+    translated: true,
     h: "C3I8WidkzZOLAGX0ypckK7pR7+e/M/X/YVIV1GCTYms=",
   },
   "Open Buckets Budget": {
@@ -1337,20 +1340,20 @@ const messages:IMessages = {
     h: "j+ZBzvgoK0z7wbJ25sNsy9fYopXOCUEqjbTFdt559Zo=",
   },
   "Or click to download the new version manually.": {
-    val: "Or click to download the new version manually.",
-    translated: false,
+    val: "Ou cliquer pour télécharger une nouvelle version manuellement.",
+    translated: true,
     h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
   },
   "Order": {
     /* Label for an Amazon order row */
-    val: "Order",
-    translated: false,
+    val: "Commander",
+    translated: true,
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "Orders": {
     /* List of orders */
-    val: "Orders",
-    translated: false,
+    val: "Commandes",
+    translated: true,
     h: "0W3ENYY4AiEiX9CGdCzK/r0XLyqTqbYi8N91GQpTqnM=",
   },
   "Out": {
@@ -1509,8 +1512,8 @@ const messages:IMessages = {
   },
   "Refunds": {
     /* List of refunds */
-    val: "Refunds",
-    translated: false,
+    val: "Remboursements",
+    translated: true,
     h: "4I/iPkFh9gYRoT0f6GWUl2eb1/8WRv59q6yPjB1KOOU=",
   },
   "Reload": {
@@ -1560,13 +1563,13 @@ const messages:IMessages = {
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
   "Request an Amazon Items report": {
-    val: "Request an Amazon Items report",
-    translated: false,
+    val: "Demander un rapport d'items Amazon",
+    translated: true,
     h: "P4rrDh5nDkcbT6+2mP6w2/DdQS+Hlhu7u/AEo7usOGc=",
   },
   "Request an Amazon Orders report": {
-    val: "Request an Amazon Orders report",
-    translated: false,
+    val: "Demander un rapport de commandes Amazon",
+    translated: true,
     h: "c+Qi3RJelGSlC9MybLul6oqMPosN10WOFW6k+roCtxk=",
   },
   "Required deposit:": {
@@ -1580,8 +1583,8 @@ const messages:IMessages = {
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
-    val: "Restart Buckets for changes to take effect.",
-    translated: false,
+    val: "Réinitialiser Buckers pour que les changements prennent effet.",
+    translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Save": {
@@ -1600,8 +1603,8 @@ const messages:IMessages = {
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Search for Amazon transactions:": {
-    val: "Search for Amazon transactions:",
-    translated: false,
+    val: "Rechercher les transations Amazon:",
+    translated: true,
     h: "FGAckk6wNL4OYfSaGK3CYf8NLHv4tvh6bf9YErgSb5E=",
   },
   "Search:": {
@@ -1645,8 +1648,8 @@ const messages:IMessages = {
     h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
   },
   "Settings": {
-    val: "Settings",
-    translated: false,
+    val: "Préférences",
+    translated: true,
     h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Share from this computer": {
@@ -1676,8 +1679,8 @@ const messages:IMessages = {
   },
   "Sign": {
     /* Noun referring to the sign of a number (positive or negative) */
-    val: "Sign",
-    translated: false,
+    val: "Signe",
+    translated: true,
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "SimpleFIN Connections": {
@@ -1686,8 +1689,8 @@ const messages:IMessages = {
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
-    val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
-    translated: false,
+    val: "Puisque certains godets contiennent des soldes négatifs, ce solde de paiement pourrait ne pas être ce que vous avez de disponible pour un paiement.",
+    translated: true,
     h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
