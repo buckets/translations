@@ -1,12 +1,8 @@
 // Auto-generated file
 
-interface IMsg<T> {
-  val: T;
-  translated: boolean;
-  h: string;
-  newval?: T;
-}
-export interface IMessages {
+import { IMsg, IMessageSet } from '@iffycan/i18n'
+export interface IMessages extends IMessageSet {
+  "": IMsg<string>;
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
@@ -14,6 +10,7 @@ export interface IMessages {
   "/mo": IMsg<string>;
   "A sync is already in progress": IMsg<string>;
   "About Buckets": IMsg<string>;
+  "Access": IMsg<string>;
   "Account": IMsg<string>;
   "Account Transactions": IMsg<string>;
   "Account and transactions deleted": IMsg<string>;
@@ -22,15 +19,21 @@ export interface IMessages {
   "Account deleted completely": IMsg<string>;
   "Account name": IMsg<string>;
   "Accounts": IMsg<string>;
+  "Accounts in side bar": IMsg<string>;
   "Actions": IMsg<string>;
   "Activity": IMsg<string>;
   "Actual Size": IMsg<string>;
+  "Add": IMsg<string>;
+  "Add device": IMsg<string>;
+  "All Files": IMsg<string>;
   "Amazon.com Reconciliation": IMsg<string>;
   "Amount": IMsg<string>;
   "Amount of money over-allocated in buckets.": IMsg<string>;
   "Analysis": IMsg<string>;
   "Animation": IMsg<string>;
   "Any other monthly bills you have?": IMsg<string>;
+  "Application preferences": IMsg<string>;
+  "Assets": IMsg<string>;
   "Attached files are too large.": IMsg<string>;
   "Average": IMsg<string>;
   "Avg:": IMsg<string>;
@@ -38,6 +41,7 @@ export interface IMessages {
   "Balance": IMsg<string>;
   "Balance:": IMsg<string>;
   "Birthdays": IMsg<string>;
+  "Break Import Links": IMsg<string>;
   "Bring All to Front": IMsg<string>;
   "Bucket": IMsg<string>;
   "Bucket Transactions": IMsg<string>;
@@ -45,14 +49,15 @@ export interface IMessages {
   "Bucket type:": IMsg<string>;
   "Buckets": IMsg<string>;
   "Buckets Budget Filename": IMsg<string>;
-  "Buckets Guide": IMsg<string>;
   "Buckets License": IMsg<string>;
   "Budget": IMsg<string>;
-  "Budget Settings": IMsg<string>;
+  "Budget Specific Settings": IMsg<string>;
+  "Budget password:": IMsg<string>;
   "Budgeted": IMsg<string>;
   "CSV Account": IMsg<string>;
   "CSV Fields": IMsg<string>;
   "Cable TV": IMsg<string>;
+  "Calculator": IMsg<string>;
   "Cancel": IMsg<string>;
   "Cancel sync": IMsg<string>;
   "Car Insurance": IMsg<string>;
@@ -61,6 +66,7 @@ export interface IMessages {
   "Categorization": IMsg<string>;
   "Categorize": IMsg<string>;
   "Category": IMsg<string>;
+  "Change Account Type": IMsg<string>;
   "Charity": IMsg<string>;
   "Chat with Matt": IMsg<string>;
   "Chat...": IMsg<string>;
@@ -68,6 +74,7 @@ export interface IMessages {
   "Check for Updates": IMsg<string>;
   "Checking for updates...": IMsg<string>;
   "Cleared": IMsg<string>;
+  "Cleared balance": IMsg<string>;
   "Click the \"Set mapping\" to continue.": IMsg<string>;
   "Close Account": IMsg<string>;
   "Close Window": IMsg<string>;
@@ -77,6 +84,7 @@ export interface IMessages {
   "Confirm password:": IMsg<string>;
   "Connect": IMsg<string>;
   "Connect to bank": IMsg<string>;
+  "Connected": IMsg<string>;
   "Connecting...": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
@@ -103,6 +111,7 @@ export interface IMessages {
   "Description": IMsg<string>;
   "Diapers": IMsg<string>;
   "Disable Macro": IMsg<string>;
+  "Do both devices display the same image and code?": IMsg<string>;
   "Done": IMsg<string>;
   "Download": IMsg<string>;
   "Download Update": IMsg<string>;
@@ -139,10 +148,12 @@ export interface IMessages {
   "Fuel": IMsg<string>;
   "Gain/Loss": IMsg<string>;
   "Getting Started...": IMsg<string>;
+  "Go To...": IMsg<string>;
   "Goal completion:": IMsg<string>;
   "Goal:": IMsg<string>;
   "Goal: 0": IMsg<string>;
   "Groceries": IMsg<string>;
+  "Guide": IMsg<string>;
   "Header row": IMsg<string>;
   "Health Insurance": IMsg<string>;
   "Hello!  Thanks for trying out Buckets.": IMsg<string>;
@@ -160,9 +171,9 @@ export interface IMessages {
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions...": IMsg<string>;
   "Import all Amazon Reports": IMsg<string>;
-  "Import an Amazon Items report to see order details.": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
+  "Import links broken": IMsg<string>;
   "In": IMsg<string>;
   "In/Out": IMsg<string>;
   "Include log file": IMsg<string>;
@@ -175,7 +186,6 @@ export interface IMessages {
   "Invalid license": IMsg<string>;
   "It says:": IMsg<string>;
   "It should say:": IMsg<string>;
-  "Item": IMsg<string>;
   "Keep account transactions": IMsg<string>;
   "Keep accounts": IMsg<string>;
   "Keep bucket transactions": IMsg<string>;
@@ -191,8 +201,6 @@ export interface IMessages {
   "Life Insurance": IMsg<string>;
   "Link Account": IMsg<string>;
   "Macros": IMsg<string>;
-  "Make Account Off Budget": IMsg<string>;
-  "Make Account On Budget": IMsg<string>;
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
   "Make it so": IMsg<string>;
@@ -201,8 +209,8 @@ export interface IMessages {
   "Medical": IMsg<string>;
   "Memo": IMsg<string>;
   "Minimize": IMsg<string>;
-  "Misc": IMsg<string>;
   "Month to Month": IMsg<string>;
+  "Monthly": IMsg<string>;
   "Monthly deposit:": IMsg<string>;
   "Months": IMsg<string>;
   "Move Bucket": IMsg<string>;
@@ -211,9 +219,11 @@ export interface IMessages {
   "Natural gas/propane/oil": IMsg<string>;
   "Need ideas for getting started?": IMsg<string>;
   "Needs": IMsg<string>;
+  "Negate": IMsg<string>;
   "Negative": IMsg<string>;
   "Net": IMsg<string>;
   "Net Transfers": IMsg<string>;
+  "Net Wealth": IMsg<string>;
   "New Bucket": IMsg<string>;
   "New Budget...": IMsg<string>;
   "New Group": IMsg<string>;
@@ -223,8 +233,13 @@ export interface IMessages {
   "New computer": IMsg<string>;
   "New phone": IMsg<string>;
   "New roof": IMsg<string>;
+  "No": IMsg<string>;
   "No file chosen": IMsg<string>;
   "No matches found": IMsg<string>;
+  "No name": IMsg<string>;
+  "No orders imported": IMsg<string>;
+  "No refunds imported": IMsg<string>;
+  "Normal": IMsg<string>;
   "Not Transfer": IMsg<string>;
   "Not yet cleared": IMsg<string>;
   "Note": IMsg<string>;
@@ -235,23 +250,29 @@ export interface IMessages {
   "Off budget": IMsg<string>;
   "On": IMsg<string>;
   "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": IMsg<string>;
+  "Open Anyway": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
   "Open Transaction File": IMsg<string>;
   "Open YNAB4 File": IMsg<string>;
   "Optional message:": IMsg<string>;
-  "Optionally request a Amazon Refunds report": IMsg<string>;
+  "Optionally request an Amazon Refunds report": IMsg<string>;
   "Or click to download the new version manually.": IMsg<string>;
+  "Order": IMsg<string>;
+  "Orders": IMsg<string>;
   "Out": IMsg<string>;
+  "Pair code": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
   "Paste and Match Style": IMsg<string>;
   "Paused": IMsg<string>;
+  "Pending devices": IMsg<string>;
   "Permanently delete account": IMsg<string>;
   "Personal Loan Payment": IMsg<string>;
   "Phone": IMsg<string>;
   "Playing": IMsg<string>;
+  "Port": IMsg<string>;
   "Possible Duplicates": IMsg<string>;
   "Posted": IMsg<string>;
   "Preferences": IMsg<string>;
@@ -270,7 +291,9 @@ export interface IMessages {
   "Recording": IMsg<string>;
   "Recurring Expenses": IMsg<string>;
   "Redo": IMsg<string>;
+  "Refunds": IMsg<string>;
   "Reload": IMsg<string>;
+  "Remote devices": IMsg<string>;
   "Remove Categorization": IMsg<string>;
   "Rent/Mortgage": IMsg<string>;
   "Reopen": IMsg<string>;
@@ -286,6 +309,7 @@ export interface IMessages {
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
+  "Search for Amazon transactions:": IMsg<string>;
   "Search:": IMsg<string>;
   "Searching...": IMsg<string>;
   "Select All": IMsg<string>;
@@ -295,17 +319,21 @@ export interface IMessages {
   "Services": IMsg<string>;
   "Set mapping": IMsg<string>;
   "Settings": IMsg<string>;
+  "Share from this computer": IMsg<string>;
+  "Sharing": IMsg<string>;
   "Show All": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Show uncategorized": IMsg<string>;
   "Sign": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
+  "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
   "Skip This Version": IMsg<string>;
   "Speech": IMsg<string>;
   "Spending Money": IMsg<string>;
   "Start Over": IMsg<string>;
   "Start Speaking": IMsg<string>;
   "Start with a template": IMsg<string>;
+  "Status": IMsg<string>;
   "Step took too long": IMsg<string>;
   "Stop Speaking": IMsg<string>;
   "Student Loan Payment": IMsg<string>;
@@ -327,6 +355,8 @@ export interface IMessages {
   "Thank you for the feedback!": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
+  "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": IMsg<string>;
+  "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "Timezone": IMsg<string>;
@@ -334,7 +364,6 @@ export interface IMessages {
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;
   "Tools": IMsg<string>;
-  "Tot:": IMsg<string>;
   "Total amount your buckets expect each month.": IMsg<string>;
   "Transaction": IMsg<string>;
   "Transactions": IMsg<string>;
@@ -346,6 +375,8 @@ export interface IMessages {
   "Un-kick Bucket": IMsg<string>;
   "Unable to claim access token": IMsg<string>;
   "Unable to open the file:": IMsg<string>;
+  "Uncaught Error": IMsg<string>;
+  "Uncleared": IMsg<string>;
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
   "Unique ID": IMsg<string>;
@@ -382,8 +413,11 @@ export interface IMessages {
   "Window": IMsg<string>;
   "Year to Year": IMsg<string>;
   "Year's Supply": IMsg<string>;
+  "Yearly": IMsg<string>;
   "Years": IMsg<string>;
+  "Yes": IMsg<string>;
   "You are running the latest version!": IMsg<string>;
+  "You can do math in all number inputs, not just here in the calculator.": IMsg<string>;
   "You don't have any recurring expense buckets yet.": IMsg<string>;
   "You have no closed accounts.": IMsg<string>;
   "You haven't kicked the bucket yet...": IMsg<string>;
@@ -396,6 +430,10 @@ export interface IMessages {
   "account-bal-diff-1": IMsg<string>;
   "account-bal-diff-fix-1": IMsg<string>;
   "account-bal-diff-fix-2": IMsg<string>;
+  "account-in": IMsg<string>;
+  "account-net-amount": IMsg<string>;
+  "account-out": IMsg<string>;
+  "account-type": IMsg<string>;
   "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
@@ -415,11 +453,14 @@ export interface IMessages {
   "buckettype.goal-deposit": IMsg<string>;
   "buckettype.plain": IMsg<string>;
   "budget-file-type-name": IMsg<string>;
+  "connection-instructions": IMsg<string>;
   "daterange.all": IMsg<string>;
   "daterange.from2monthsago": IMsg<string>;
   "daterange.from3monthsago": IMsg<string>;
   "daterange.fromlastmonth": IMsg<string>;
   "daterange.thismonth": IMsg<string>;
+  "debt-bucket-explanation": IMsg<string>;
+  "debt-payment-bucket-name": IMsg<(account_name:string)=>string|JSX.Element>;
   "default account name": IMsg<string>;
   "default new bucket name": IMsg<string>;
   "default new group name": IMsg<string>;
@@ -428,8 +469,13 @@ export interface IMessages {
   "error-detail": IMsg<string>;
   "export.why": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
+  "go-to-next-month": IMsg<string>;
+  "go-to-next-year": IMsg<string>;
+  "go-to-prev-month": IMsg<string>;
+  "go-to-prev-year": IMsg<string>;
+  "go-to-this-month": IMsg<string>;
   "in the bank": IMsg<string>;
-  "match-count": IMsg<(current_match:number,total_matches:number)=>string|JSX.Element>;
+  "match-count": IMsg<(target_match:number,total_matches:number)=>string|JSX.Element>;
   "misc group name": IMsg<string>;
   "money-balance-as-of": IMsg<(amount:any,date:any)=>string|JSX.Element>;
   "months gain/loss label": IMsg<(gain:any)=>string|JSX.Element>;
@@ -439,12 +485,14 @@ export interface IMessages {
   "net-transfers.help": IMsg<string>;
   "noin.income": IMsg<string>;
   "notify-downloaded-file": IMsg<(filename:any)=>string|JSX.Element>;
+  "noun.debt": IMsg<string>;
   "noun.transfer": IMsg<string>;
   "off": IMsg<string>;
   "on": IMsg<string>;
   "press Escape to close": IMsg<string>;
   "rain.help.neg": IMsg<(abs_amount:any)=>string|JSX.Element>;
   "rain.help.pos": IMsg<(abs_amount:any)=>string|JSX.Element>;
+  "shipment-number": IMsg<(number:number)=>string|JSX.Element>;
   "simplefin-connect-intro": IMsg<string>;
   "simplefin-get-token": IMsg<(mklink:any)=>string|JSX.Element>;
   "simplefin-paste": IMsg<string>;
@@ -453,9 +501,12 @@ export interface IMessages {
   "some day...": IMsg<string>;
   "sync-symbol help": IMsg<string>;
   "sync.toast.syncing": IMsg<(start:any,end:any)=>string|JSX.Element>;
+  "this_device.name": IMsg<string>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
+  "trans-created-outofview": IMsg<(month:any)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "transfer-to-account": IMsg<(dropdown:any)=>string|JSX.Element>;
+  "verb-open": IMsg<string>;
   "version-available": IMsg<(newv:string)=>string|JSX.Element>;
 }
 

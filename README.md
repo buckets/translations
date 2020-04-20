@@ -5,14 +5,16 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 <!-- trans stats start -->
 | Complete | Language |
 |-------|---|
+|   87% | Deutsch |
 |  100% | English |
-|   49% | español |
-|   95% | Français |
+|   43% | español |
+|   84% | Français |
 |    1% | עִברִית |
-|   49% | Italiano |
-|   99% | Nederlands |
-|   99% | Português |
-|    6% | Română |
+|   45% | Italiano |
+|   93% | Nederlands |
+|   91% | Polski |
+|   95% | Português |
+|    5% | Română |
 <!-- trans stats end -->
 
 # How to contribute
@@ -32,6 +34,6 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 
 1. Submit a pull request (even if you only translate a few things).
 
-1. Optionally, [sign up to be emailed when there's more to translate.](http://eepurl.com/dsz-Wj)
+1. Optionally, [subscribe here to be notified when there's more to translate.](https://github.com/buckets/translations/issues/31)
 
 If you're familiar with GitHub or you prefer, you can also fork this repo, clone it and edit the file on your computer.  All I'm really looking for is a Pull Request.
