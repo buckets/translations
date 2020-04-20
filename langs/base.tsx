@@ -2,6 +2,7 @@
 
 import { IMsg, IMessageSet } from '@iffycan/i18n'
 export interface IMessages extends IMessageSet {
+  "": IMsg<string>;
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
@@ -9,6 +10,7 @@ export interface IMessages extends IMessageSet {
   "/mo": IMsg<string>;
   "A sync is already in progress": IMsg<string>;
   "About Buckets": IMsg<string>;
+  "Access": IMsg<string>;
   "Account": IMsg<string>;
   "Account Transactions": IMsg<string>;
   "Account and transactions deleted": IMsg<string>;
@@ -21,6 +23,8 @@ export interface IMessages extends IMessageSet {
   "Actions": IMsg<string>;
   "Activity": IMsg<string>;
   "Actual Size": IMsg<string>;
+  "Add": IMsg<string>;
+  "Add device": IMsg<string>;
   "All Files": IMsg<string>;
   "Amazon.com Reconciliation": IMsg<string>;
   "Amount": IMsg<string>;
@@ -80,6 +84,7 @@ export interface IMessages extends IMessageSet {
   "Confirm password:": IMsg<string>;
   "Connect": IMsg<string>;
   "Connect to bank": IMsg<string>;
+  "Connected": IMsg<string>;
   "Connecting...": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
@@ -106,6 +111,7 @@ export interface IMessages extends IMessageSet {
   "Description": IMsg<string>;
   "Diapers": IMsg<string>;
   "Disable Macro": IMsg<string>;
+  "Do both devices display the same image and code?": IMsg<string>;
   "Done": IMsg<string>;
   "Download": IMsg<string>;
   "Download Update": IMsg<string>;
@@ -227,8 +233,10 @@ export interface IMessages extends IMessageSet {
   "New computer": IMsg<string>;
   "New phone": IMsg<string>;
   "New roof": IMsg<string>;
+  "No": IMsg<string>;
   "No file chosen": IMsg<string>;
   "No matches found": IMsg<string>;
+  "No name": IMsg<string>;
   "No orders imported": IMsg<string>;
   "No refunds imported": IMsg<string>;
   "Normal": IMsg<string>;
@@ -254,14 +262,17 @@ export interface IMessages extends IMessageSet {
   "Order": IMsg<string>;
   "Orders": IMsg<string>;
   "Out": IMsg<string>;
+  "Pair code": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
   "Paste and Match Style": IMsg<string>;
   "Paused": IMsg<string>;
+  "Pending devices": IMsg<string>;
   "Permanently delete account": IMsg<string>;
   "Personal Loan Payment": IMsg<string>;
   "Phone": IMsg<string>;
   "Playing": IMsg<string>;
+  "Port": IMsg<string>;
   "Possible Duplicates": IMsg<string>;
   "Posted": IMsg<string>;
   "Preferences": IMsg<string>;
@@ -282,6 +293,7 @@ export interface IMessages extends IMessageSet {
   "Redo": IMsg<string>;
   "Refunds": IMsg<string>;
   "Reload": IMsg<string>;
+  "Remote devices": IMsg<string>;
   "Remove Categorization": IMsg<string>;
   "Rent/Mortgage": IMsg<string>;
   "Reopen": IMsg<string>;
@@ -307,6 +319,8 @@ export interface IMessages extends IMessageSet {
   "Services": IMsg<string>;
   "Set mapping": IMsg<string>;
   "Settings": IMsg<string>;
+  "Share from this computer": IMsg<string>;
+  "Sharing": IMsg<string>;
   "Show All": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Show uncategorized": IMsg<string>;
@@ -319,6 +333,7 @@ export interface IMessages extends IMessageSet {
   "Start Over": IMsg<string>;
   "Start Speaking": IMsg<string>;
   "Start with a template": IMsg<string>;
+  "Status": IMsg<string>;
   "Step took too long": IMsg<string>;
   "Stop Speaking": IMsg<string>;
   "Student Loan Payment": IMsg<string>;
@@ -341,6 +356,7 @@ export interface IMessages extends IMessageSet {
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": IMsg<string>;
+  "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "Timezone": IMsg<string>;
@@ -399,6 +415,7 @@ export interface IMessages extends IMessageSet {
   "Year's Supply": IMsg<string>;
   "Yearly": IMsg<string>;
   "Years": IMsg<string>;
+  "Yes": IMsg<string>;
   "You are running the latest version!": IMsg<string>;
   "You can do math in all number inputs, not just here in the calculator.": IMsg<string>;
   "You don't have any recurring expense buckets yet.": IMsg<string>;
@@ -436,6 +453,7 @@ export interface IMessages extends IMessageSet {
   "buckettype.goal-deposit": IMsg<string>;
   "buckettype.plain": IMsg<string>;
   "budget-file-type-name": IMsg<string>;
+  "connection-instructions": IMsg<string>;
   "daterange.all": IMsg<string>;
   "daterange.from2monthsago": IMsg<string>;
   "daterange.from3monthsago": IMsg<string>;
@@ -483,6 +501,7 @@ export interface IMessages extends IMessageSet {
   "some day...": IMsg<string>;
   "sync-symbol help": IMsg<string>;
   "sync.toast.syncing": IMsg<(start:any,end:any)=>string|JSX.Element>;
+  "this_device.name": IMsg<string>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
   "trans-created-outofview": IMsg<(month:any)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;

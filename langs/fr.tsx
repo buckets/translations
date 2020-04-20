@@ -14,6 +14,11 @@ const contributors = [
 ];
 
 const messages:IMessages = {
+  "": {
+    val: "",
+    translated: false,
+    h: "Eq4yyx7ALQHto1gbEnwf7jsNxTVy7WuvI5choD2C4SY=",
+  },
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
     val: "\n        Remplir ce formulaire est préférable, mais vous pouvez aussi envoyer un email à sur bugs@budgetwithbuckets.com\n      ",
     translated: true,
@@ -49,6 +54,12 @@ const messages:IMessages = {
     val: "À Propos de Buckets",
     translated: true,
     h: "9bzPsx+kCkNUeLTSVjaygyWCkm3VCdsFaAFRvdS+xEU=",
+  },
+  "Access": {
+    /* Label for section describing which budget files a remote device has access to */
+    val: "Access",
+    translated: false,
+    h: "fm1fE44xW9uYPR90N2BgNNY+xQ/yovAUMBTbUTFj0F0=",
   },
   "Account": {
     val: "Compte",
@@ -109,6 +120,16 @@ const messages:IMessages = {
     val: "Taille Standard",
     translated: true,
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
+  },
+  "Add": {
+    val: "Add",
+    translated: false,
+    h: "sHHJQ9jaFQD0ZjykXnD1vKiFV5C98TviMmSgajkSEXY=",
+  },
+  "Add device": {
+    val: "Add device",
+    translated: false,
+    h: "VdeXP2eoJR+Sf3pph0sG+PV5E5Jq/mFGXEOAve8aad4=",
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
@@ -420,6 +441,11 @@ const messages:IMessages = {
     translated: true,
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
   },
+  "Connected": {
+    val: "Connected",
+    translated: false,
+    h: "fV/VOfsqBR+vyqF2tRjG6qsC8ufS/QDaTRaUee+UEMA=",
+  },
   "Connecting...": {
     val: "Connexion...",
     translated: true,
@@ -552,6 +578,11 @@ const messages:IMessages = {
     val: "Désactiver Macro",
     translated: true,
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
+  },
+  "Do both devices display the same image and code?": {
+    val: "Do both devices display the same image and code?",
+    translated: false,
+    h: "b4hrUuVyQY42ZQnEyYvmBHmzVT6WcHo30VshIQAx3zQ=",
   },
   "Done": {
     val: "Fait",
@@ -1085,6 +1116,7 @@ const messages:IMessages = {
     h: "zSmn/C+X/cbh/GqqDMPetNfBb8iTmlwFh9Dsbc9qe9k=",
   },
   "Name": {
+    /* Remote device name */
     val: "Nom",
     translated: true,
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
@@ -1176,6 +1208,11 @@ const messages:IMessages = {
     translated: true,
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
+  "No": {
+    val: "No",
+    translated: false,
+    h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
+  },
   "No file chosen": {
     val: "Pas de fichier choisi",
     translated: true,
@@ -1185,6 +1222,11 @@ const messages:IMessages = {
     val: "Aucune correspondance n'a été trouvée",
     translated: true,
     h: "p4er9wMKH/YiF5PrBRKpfEzR8HINC3N0d9Iol4zqgtQ=",
+  },
+  "No name": {
+    val: "No name",
+    translated: false,
+    h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "No orders imported": {
     val: "No orders imported",
@@ -1316,6 +1358,12 @@ const messages:IMessages = {
     translated: true,
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
+  "Pair code": {
+    /* Label for the code used to identify a pair of devices */
+    val: "Pair code",
+    translated: false,
+    h: "7FQzZYGJbXsqp9NdhzzjEApNUEvX9Gs6JABM8Acc2YU=",
+  },
   "Passwords did not match": {
     val: "Les mots de passe ne correspondent pas",
     translated: true,
@@ -1336,6 +1384,11 @@ const messages:IMessages = {
     translated: true,
     h: "sMAADusAjpKEUapa7bSzeAnEAbEGpH+NKBgGh068Ifw=",
   },
+  "Pending devices": {
+    val: "Pending devices",
+    translated: false,
+    h: "Er8hgX1RiLPLj22DHMixOaj5wHsWbUM6mL2mdSbt+Sc=",
+  },
   "Permanently delete account": {
     val: "Supprimer définitivement le compte",
     translated: true,
@@ -1355,6 +1408,11 @@ const messages:IMessages = {
     val: "Execution",
     translated: true,
     h: "69elN/r6NyshRWtcjLOKso9OmdOJhvg/ix+Xy/fE+Z0=",
+  },
+  "Port": {
+    val: "Port",
+    translated: false,
+    h: "u+5cy7Hv8eqnpUCJUVP2QmhGFpu7Zq4UquU/U7tcspI=",
   },
   "Possible Duplicates": {
     val: "Duplicats éventuels",
@@ -1459,6 +1517,11 @@ const messages:IMessages = {
     val: "Raffraîchir",
     translated: true,
     h: "hUVVd3tppLGqwgo2OeC3h334aTF0Y+/GHbuL/I1clYk=",
+  },
+  "Remote devices": {
+    val: "Remote devices",
+    translated: false,
+    h: "Pnrxp4rS7bnapZb26P4HXC5hFardsCyTT6Idz/SFJuE=",
   },
   "Remove Categorization": {
     val: "Supprimer Catégorisation",
@@ -1586,6 +1649,16 @@ const messages:IMessages = {
     translated: false,
     h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
+  "Share from this computer": {
+    val: "Share from this computer",
+    translated: false,
+    h: "sXtF785DDyaMA5+7grS0FR9Xf+cCqlpKgGWZAi6By8g=",
+  },
+  "Sharing": {
+    val: "Sharing",
+    translated: false,
+    h: "+wdr1d9w83UkBcXqGDOkGlmDhl24ktIp0it2O14f4kE=",
+  },
   "Show All": {
     val: "Montrer Tous",
     translated: true,
@@ -1646,6 +1719,12 @@ const messages:IMessages = {
     val: "Lancez-vous avec un modèle",
     translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
+  },
+  "Status": {
+    /* Connection status of remote devices */
+    val: "Status",
+    translated: false,
+    h: "fu712YZJJBbNWIpP5QaYV+fcz5rcN4DkkaOGdL/X6hk=",
   },
   "Step took too long": {
     val: "L'étape a pris trop de temps",
@@ -1758,6 +1837,11 @@ const messages:IMessages = {
     val: "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.",
     translated: false,
     h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
+  },
+  "This device's name": {
+    val: "This device's name",
+    translated: false,
+    h: "eTNSTczX466LRmFxprC4rfZhDomB7x4xWYltPshnAB4=",
   },
   "This is a special group for all the buckets without a group.": {
     val: "Ce groupe spécial rassemble les godets n'ayant pas de groupe.",
@@ -2055,6 +2139,11 @@ const messages:IMessages = {
     translated: true,
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
+  "Yes": {
+    val: "Yes",
+    translated: false,
+    h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
+  },
   "You are running the latest version!": {
     val: "Vous utilisez la dernière version!",
     translated: true,
@@ -2244,6 +2333,11 @@ const messages:IMessages = {
     val: "Budget Buckets",
     translated: true,
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
+  },
+  "connection-instructions": {
+    val: "Provide the following Connection URL to the other device",
+    translated: false,
+    h: "kwKSKlSPTFMLAO7bG4077aAVl7XZft2SrNJMOfe5ILQ=",
   },
   "daterange.all": {
     val: "De tout temps",
@@ -2517,6 +2611,11 @@ Voudriez-vous acheter une licence maintenant?`,
       },
     translated: true,
     h: "f7R9zSdK0q5+lZ8I9QRhiwN5ENKyWFnrmUG6Gltegfs=",
+  },
+  "this_device.name": {
+    val: "No name",
+    translated: false,
+    h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
     val: count => `${count} transactions actualisées/créées`,
