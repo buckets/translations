@@ -5,14 +5,14 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 <!-- trans stats start -->
 | Complete | Language |
 |-------|---|
-|   87% | Deutsch |
+|   91% | Deutsch |
 |  100% | English |
 |   43% | español |
-|   84% | Français |
+|   91% | Français |
 |    1% | עִברִית |
-|   45% | Italiano |
+|   81% | Italiano |
 |   93% | Nederlands |
-|   91% | Polski |
+|   93% | Polski |
 |   95% | Português |
 |    5% | Română |
 <!-- trans stats end -->

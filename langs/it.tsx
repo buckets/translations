@@ -260,11 +260,6 @@ const messages:IMessages = {
     translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
-  "Buckets Guide": {
-    val: "Guida Buckets",
-    translated: true,
-    h: "iK/jSwFsIOO0YBANlaqC8+gTWFX+9IBYpc+HuiQ2U/c=",
-  },
   "Buckets License": {
     /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
@@ -820,7 +815,7 @@ const messages:IMessages = {
   },
   "Hello!  Thanks for trying out Buckets.": {
     val: "Hello!  Thanks for trying out Buckets.",
-    translated: ,
+    translated: false,
     h: "0m9VvMGwLCqD3lmZ24GbzlkRxPX1kf/DsbWA9kkBWX0=",
   },
   "Help": {
@@ -893,11 +888,6 @@ const messages:IMessages = {
     val: "Importa tutti i resoconti di Amazon",
     translated: true,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
-  },
-  "Import an Amazon Items report to see order details.": {
-    val: "Carica un report Amazon Items per vedere i dettagli dell'ordine.",
-    translated: true,
-    h: "wYXwxlFC+5KEx6+/6kqpqcHLs1Xfkt7mHrY683QmQPk=",
   },
   "Import file": {
     val: "Importa file",
@@ -1054,16 +1044,6 @@ const messages:IMessages = {
     val: "Macro",
     translated: true,
     h: "yo4VuLKqBNhvEBgUZKyI2WypDrv1loL/wA1qO3u4Zq4=",
-  },
-  "Make Account Off Budget": {
-    val: "Crea Account Fuori Budget",
-    translated: true,
-    h: "jw6HPdaDScqY+QIMmJ35WzXfjHVXwsPaWjv1EgCZC/M=",
-  },
-  "Make Account On Budget": {
-    val: "Crea Account con Budget",
-    translated: true,
-    h: "6gjcSYfUh5rPE2oFISLmP498V1RohOYnE0M2uhE47NM=",
   },
   "Make Transfer": {
     val: "Esegui trasferimento",
@@ -1902,11 +1882,6 @@ const messages:IMessages = {
     translated: true,
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
-  "Tot:": {
-    val: "Tot:",
-    translated: true,
-    h: "saHMHdDjhEhiq86BBPRvnL+Rb3M/qOu30ZLtUk20QIM=",
-  },
   "Total amount your buckets expect each month.": {
     val: "Importo totale previsto dai tuoi secchielli ogni mese.",
     translated: true,
@@ -1943,7 +1918,7 @@ const messages:IMessages = {
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Un-kick": {
-    /* Button label for unarchiving a bucket */        
+    /* Button label for unarchiving a bucket */
     val: "Recupera",
     translated: true,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
@@ -2483,11 +2458,18 @@ const messages:IMessages = {
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "match-count": {
+    /* TRANSLATION CHANGED */
+    /* 1. Translate "newval: ..." */
+    /* 2. Delete the old "val: ..." */
+    /* 3. Rename "newval" to "val" */
+    newval: (target_match:number, total_matches:number) => {
+        return `${target_match} of ${total_matches}`;
+      },
     val: (current_match:number, total_matches:number) => {
         return `${current_match} di ${total_matches}`;
       },
-    translated: true,
-    h: "gGpkwXhLiDpxY0YOCXAFl6Q8D6sb7BX93TqgFRObOqo=",
+    translated: false,
+    h: "v7j9K2L04kDpmH02jGxiXPoyxuQwZTCdUx025bb0Yj4=",
   },
   "misc group name": {
     val: "Vari",
