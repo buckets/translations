@@ -267,6 +267,11 @@ const messages:IMessages = {
     translated: true,
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
+  "Buckets has crashed.  Please restart after submitting a bug report.": {
+    val: "Buckets has crashed.  Please restart after submitting a bug report.",
+    translated: false,
+    h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
+  },
   "Budget": {
     val: "Budget",
     translated: true,
@@ -843,11 +848,6 @@ const messages:IMessages = {
     val: "Articoli casalinghi",
     translated: true,
     h: "UK1mJCSwg2XnGpH47pKFFD8NlrCfcd3bQb1bJt2RXEg=",
-  },
-  "I'm exporting data so that I can ": {
-    val: "I'm exporting data so that I can ",
-    translated: false,
-    h: "I5s/a+WZelEoEbDU6z2RwMHJGBkfJJ7zZEZcw89IBck=",
   },
   "ID": {
     val: "ID",
@@ -1749,11 +1749,6 @@ const messages:IMessages = {
     translated: true,
     h: "/plzMiu0xhKwtFcT4VqbJMoCd2dB03dB9EJhijEA284=",
   },
-  "Submit feedback": {
-    val: "Invia feedback",
-    translated: true,
-    h: "ksa09D0YEXUycx+K+ZODvbWRCP78R2W7ClHhOaX4LmM=",
-  },
   "Success!": {
     val: "Successo!",
     translated: true,
@@ -1820,11 +1815,6 @@ const messages:IMessages = {
     val: "Test Notifica",
     translated: true,
     h: "5SbiliirLaAKLdgRThX+cO2RwGuC87t3Z1O0xT2WsAE=",
-  },
-  "Thank you for the feedback!": {
-    val: "Grazie per il feedback!",
-    translated: true,
-    h: "8bEPNAScct0pvqY775nF665zylB3/fKo1h3MqoWzXIQ=",
   },
   "There has been an error.": {
     val: "C'è stato un errore.",
@@ -2016,6 +2006,11 @@ const messages:IMessages = {
     val: "Aggiorna Colore",
     translated: true,
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
+  },
+  "Update Currency Symbol": {
+    val: "Update Currency Symbol",
+    translated: false,
+    h: "5ni7IpG/zzlc/uAhhkduQ99K/5B9ui5INpaxZw7QTrs=",
   },
   "Update Goal": {
     val: "Aggiorna Obiettivo",
@@ -2409,11 +2404,6 @@ const messages:IMessages = {
     val: "Se questo errore contnua a succedere o se non dovesse avere senso, per favore segnala un problema o chatta con noi.",
     translated: true,
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
-  },
-  "export.why": {
-    val: "È possibile che quello che stai facendo con le informazioni esportate potrebbe essere aggiunto come funzionalità di Buckets. Potresti inviarci più informazioni?",
-    translated: true,
-    h: "mv9GxRVjWShYHYo8kb/wvNU8eEYBGE2QtfUTxTsdP0I=",
   },
   "getting-started-link": {
     val: (clickhandler) => {

@@ -50,6 +50,7 @@ export interface IMessages extends IMessageSet {
   "Buckets": IMsg<string>;
   "Buckets Budget Filename": IMsg<string>;
   "Buckets License": IMsg<string>;
+  "Buckets has crashed.  Please restart after submitting a bug report.": IMsg<string>;
   "Budget": IMsg<string>;
   "Budget Specific Settings": IMsg<string>;
   "Budget password:": IMsg<string>;
@@ -162,7 +163,6 @@ export interface IMessages extends IMessageSet {
   "Hide Others": IMsg<string>;
   "Holidays": IMsg<string>;
   "Household goods": IMsg<string>;
-  "I'm exporting data so that I can ": IMsg<string>;
   "ID": IMsg<string>;
   "Identify the data each column contains using the drop downs below.": IMsg<string>;
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": IMsg<string>;
@@ -338,7 +338,6 @@ export interface IMessages extends IMessageSet {
   "Stop Speaking": IMsg<string>;
   "Student Loan Payment": IMsg<string>;
   "Submit": IMsg<string>;
-  "Submit feedback": IMsg<string>;
   "Success!": IMsg<string>;
   "Successfully imported Amazon Items report": IMsg<string>;
   "Successfully imported Amazon Orders report": IMsg<string>;
@@ -352,7 +351,6 @@ export interface IMessages extends IMessageSet {
   "System default": IMsg<string>;
   "Target date:": IMsg<string>;
   "Test Toast": IMsg<string>;
-  "Thank you for the feedback!": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": IMsg<string>;
@@ -390,6 +388,7 @@ export interface IMessages extends IMessageSet {
   "Update Bucket Name": IMsg<string>;
   "Update Bucket Type": IMsg<string>;
   "Update Color": IMsg<string>;
+  "Update Currency Symbol": IMsg<string>;
   "Update Goal": IMsg<string>;
   "Update Group Name": IMsg<string>;
   "Update Macro Name": IMsg<string>;
@@ -467,7 +466,6 @@ export interface IMessages extends IMessageSet {
   "edit.mapping": IMsg<(onClick:any)=>string|JSX.Element>;
   "enter-license-prompt": IMsg<string>;
   "error-detail": IMsg<string>;
-  "export.why": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
   "go-to-next-month": IMsg<string>;
   "go-to-next-year": IMsg<string>;
