@@ -81,11 +81,6 @@ const messages:IMessages = {
     translated: true,
     h: "l9xs5wLKF3KIgunL1SJh9r9XDYpWkC7LYrL4KUUFm3M=",
   },
-  "Account created: ": {
-    val: "Konto angelegt: ",
-    translated: true,
-    h: "AJEfsK8U+n7xnyBkG2FG3cmZZipr4kpQX5mgCZ0Qwi4=",
-  },
   "Account deleted completely": {
     val: "Konto vollständig entfernt",
     translated: true,
@@ -1953,11 +1948,6 @@ const messages:IMessages = {
     val: "Einzelkennung",
     translated: true,
     h: "UZsJmQ28mtEO349l3zdNHoAtb0JT1LT9e7EjedqptSE=",
-  },
-  "Unknown account: ": {
-    val: "Unbekanntes Konto: ",
-    translated: true,
-    h: "1pPv2ePlW/PBrqgYgGCM3lU9qnmnbplR3AzSDDG4TLs=",
   },
   "Unknown category": {
     val: "Unbekannte Kategorie",

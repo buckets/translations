@@ -15,7 +15,6 @@ export interface IMessages extends IMessageSet {
   "Account Transactions": IMsg<string>;
   "Account and transactions deleted": IMsg<string>;
   "Account closed": IMsg<string>;
-  "Account created: ": IMsg<string>;
   "Account deleted completely": IMsg<string>;
   "Account name": IMsg<string>;
   "Accounts": IMsg<string>;
@@ -378,7 +377,6 @@ export interface IMessages extends IMessageSet {
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
   "Unique ID": IMsg<string>;
-  "Unknown account: ": IMsg<string>;
   "Unknown category": IMsg<string>;
   "Unlinked Accounts": IMsg<string>;
   "Unregistered Version": IMsg<string>;
