@@ -885,6 +885,8 @@ const messages:IMessages = {
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import file": {
+    /* Button label for starting a file import */
+    /* Button label for starting a file import */
     val: "Importer fichier",
     translated: true,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
