@@ -373,7 +373,7 @@ const messages:IMessages = {
     h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Check For Updates...": {
-    val: "Porcurar por Atualizações...",
+    val: "Procurar por Atualizações...",
     translated: true,
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
