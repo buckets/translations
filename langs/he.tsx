@@ -1,5 +1,4 @@
 import * as React from 'react'
-import * as moment from 'moment-timezone'
 
 import { ILangPack } from '@iffycan/i18n'
 import { IMessages } from './base'
@@ -1795,7 +1794,6 @@ const messages:IMessages = {
   },
   "System default": {
     /* Option for Buckets language preference */
-    /* Option for timezone auto-detection */
     val: "System default",
     translated: false,
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
@@ -1839,12 +1837,6 @@ const messages:IMessages = {
     val: "This tool will delete data to make it easy to start over with your budget.",
     translated: false,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
-  },
-  "Timezone": {
-    /* Label for timezone selection preference */
-    val: "Timezone",
-    translated: false,
-    h: "y2odAzUKexep7CmO6P8BCj1p4PWG6VZ/RbIg8oOWASI=",
   },
   "To": {
     val: "To",
@@ -2227,12 +2219,7 @@ const messages:IMessages = {
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "accounts.balance_mismatch_msg": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: "The most recent synced balance does not match the balance computed from transactions.  Click ... for more information.",
-    val: "The most recent synced balance does not match the balance computed from transactions.  Click more for more information.",
+    val: "The most recent synced balance does not match the balance computed from transactions.  Click ... for more information.",
     translated: false,
     h: "8xHas2SyXqC7roWhYQNIVhFVNvbvzMi6Y3mQce5sIbc=",
   },
@@ -2442,15 +2429,8 @@ const messages:IMessages = {
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "match-count": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: (target_match:number, total_matches:number) => {
+    val: (target_match:number, total_matches:number) => {
         return `${target_match} of ${total_matches}`;
-      },
-    val: (current_match:number, total_matches:number) => {
-        return `${current_match} of ${total_matches}`;
       },
     translated: false,
     h: "v7j9K2L04kDpmH02jGxiXPoyxuQwZTCdUx025bb0Yj4=",
@@ -2480,17 +2460,7 @@ const messages:IMessages = {
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "nag-message": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
-
-Would you like to purchase a license now?`,
-    val: () => `Hello! Thanks for trying out Buckets.
-
-This is an unregistered trial version, and although the trial is untimed,
-a license must be purchased for continued use.
+    val: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
 
 Would you like to purchase a license now?`,
     translated: false,
@@ -2512,11 +2482,6 @@ Would you like to purchase a license now?`,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: filename => `Downloaded file: ${filename}`,
     val: filename => `Downloaded file: ${filename}`,
     translated: false,
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
@@ -2547,38 +2512,20 @@ Would you like to purchase a license now?`,
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: (abs_amount:JSX.Element) => {
+    val: (abs_amount:JSX.Element) => {
                                       return <span>
                                       You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
                                       </span>
                                     },
-    val: (abs_amount:JSX.Element) => {
-                                    return <span>
-                                    You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
-                                    </span>
-                                  },
     translated: false,
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: (abs_amount:JSX.Element) => {
+    val: (abs_amount:JSX.Element) => {
                                       return <span>
                                       You have {abs_amount} left to put into buckets.
                                       </span>
                                     },
-    val: (abs_amount:JSX.Element) => {
-                                    return <span>
-                                    You have {abs_amount} left to put into buckets.
-                                    </span>
-                                  },
     translated: false,
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
@@ -2589,12 +2536,7 @@ Would you like to purchase a license now?`,
     h: "kOj0AkivxHYJj3IKqIFziGCcIwk1yxyUrloX+kGlOd0=",
   },
   "simplefin-connect-intro": {
-    /* TRANSLATION CHANGED */
-    /* 1. Translate "newval: ..." */
-    /* 2. Delete the old "val: ..." */
-    /* 3. Rename "newval" to "val" */
-    newval: "To connect, do the following:",
-    val: "Connecting to your bank account will make it easy to pull transaction history from your bank into Buckets.  To connect, do the following:",
+    val: "To connect, do the following:",
     translated: false,
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
@@ -2631,11 +2573,11 @@ Would you like to purchase a license now?`,
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
-    val: (start:moment.Moment, end:moment.Moment) => {
-        return `Syncing transactions from ${start.format('ll')} to ${end.format('ll')}`;
+    val: (start: string, end: string) => {
+        return `Syncing transactions from ${start} to ${end}`;
       },
     translated: false,
-    h: "f7R9zSdK0q5+lZ8I9QRhiwN5ENKyWFnrmUG6Gltegfs=",
+    h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
   "this_device.name": {
     val: "No name",
@@ -2648,11 +2590,11 @@ Would you like to purchase a license now?`,
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "trans-created-outofview": {
-    val: (month:JSX.Element) => {
+    val: (month: string) => {
               return <span>Transaction created in {month} </span>;
             },
     translated: false,
-    h: "Bp5W2CCjocfbExdN4+osaWx0KIrqUL3M8O99S5UBWKQ=",
+    h: "ur97iCX3Iw1E262eZ72YAEFdXlwvlqNkyNn1caIKi0E=",
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {

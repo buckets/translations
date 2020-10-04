@@ -356,7 +356,6 @@ export interface IMessages extends IMessageSet {
   "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
-  "Timezone": IMsg<string>;
   "To": IMsg<string>;
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;
@@ -496,10 +495,10 @@ export interface IMessages extends IMessageSet {
   "single-bucket Kicked": IMsg<string>;
   "some day...": IMsg<string>;
   "sync-symbol help": IMsg<string>;
-  "sync.toast.syncing": IMsg<(start:any,end:any)=>string|JSX.Element>;
+  "sync.toast.syncing": IMsg<(start:string,end:string)=>string|JSX.Element>;
   "this_device.name": IMsg<string>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
-  "trans-created-outofview": IMsg<(month:any)=>string|JSX.Element>;
+  "trans-created-outofview": IMsg<(month:string)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "transfer-to-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "verb-open": IMsg<string>;
