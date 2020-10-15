@@ -86,6 +86,7 @@ export interface IMessages extends IMessageSet {
   "Connect to bank": IMsg<string>;
   "Connected": IMsg<string>;
   "Connecting...": IMsg<string>;
+  "Connection corrupted. Please delete and re-create.": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
   "Create Account": IMsg<string>;
@@ -132,6 +133,7 @@ export interface IMessages extends IMessageSet {
   "Error parsing response": IMsg<string>;
   "Error running recording": IMsg<string>;
   "Error running sync": IMsg<string>;
+  "Error updating transaction": IMsg<string>;
   "Expenses": IMsg<string>;
   "Export": IMsg<string>;
   "File": IMsg<string>;
@@ -325,6 +327,7 @@ export interface IMessages extends IMessageSet {
   "Show uncategorized": IMsg<string>;
   "Sign": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
+  "SimpleFIN client unconfigured": IMsg<string>;
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
   "Skip This Version": IMsg<string>;
   "Speech": IMsg<string>;
@@ -343,7 +346,6 @@ export interface IMessages extends IMessageSet {
   "Successfully imported Amazon Refunds report": IMsg<string>;
   "Sync": IMsg<string>;
   "Sync complete": IMsg<string>;
-  "Sync failed": IMsg<string>;
   "Sync has not yet been set up.": IMsg<string>;
   "Synced balance": IMsg<string>;
   "Syncing...": IMsg<string>;

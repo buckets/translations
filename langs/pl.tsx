@@ -450,6 +450,12 @@ const messages:IMessages = {
     translated: true,
     h: "fYdj0RfOQMPN3n28gswFnK4aOvozPH0hqm9oqd+NcWI=",
   },
+  "Connection corrupted. Please delete and re-create.": {
+    /* Error when an invalid SimpleFIN connection is attempted */
+    val: "Connection corrupted. Please delete and re-create.",
+    translated: false,
+    h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
+  },
   "Connection saved!": {
     val: "Połączenie zapisane!",
     translated: true,
@@ -683,6 +689,11 @@ const messages:IMessages = {
     val: "Błąd przy synchronizacji",
     translated: true,
     h: "LB/WNzHp4orPsbCVEJuDzUPsQUfNRDNXw7sFnbzfguw=",
+  },
+  "Error updating transaction": {
+    val: "Error updating transaction",
+    translated: false,
+    h: "IEJfuOO0LRCEv2OUh8Cz02PtiJ8tqVTRzeXK5DyqBQs=",
   },
   "Expenses": {
     val: "Wydatki",
@@ -1681,6 +1692,12 @@ const messages:IMessages = {
     translated: true,
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
+  "SimpleFIN client unconfigured": {
+    /* Error when SimpleFIN is not configured */
+    val: "SimpleFIN client unconfigured",
+    translated: false,
+    h: "KYsU2dr94wbYwGx9gIb2sR6Hhmm8Eu4AYBSKf4nnWMU=",
+  },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
     val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
     translated: false,
@@ -1771,11 +1788,6 @@ const messages:IMessages = {
     val: "Zakończono synchronizację",
     translated: true,
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
-  },
-  "Sync failed": {
-    val: "Błąd podczas synchronizacji",
-    translated: true,
-    h: "jBGq60u/Y2WKAulnVvspUq9tLPFtXOnQYczjXXViGA0=",
   },
   "Sync has not yet been set up.": {
     val: "Nie ustawiono synchronizacji.",
