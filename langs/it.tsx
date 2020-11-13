@@ -537,6 +537,11 @@ const messages:IMessages = {
     translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
+  "Debugger": {
+    val: "Debugger",
+    translated: false,
+    h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
+  },
   "Delete": {
     val: "Elimina",
     translated: true,
@@ -1041,6 +1046,11 @@ const messages:IMessages = {
     val: "Assicurazione sulla vita",
     translated: true,
     h: "CafgTI2ogIOqH6sg0xYnwgpDXmZ5SZQAsRY2jlTsp9c=",
+  },
+  "Limit": {
+    val: "Limit",
+    translated: false,
+    h: "tmPeisQPkoz4f2EpO/u0ThQPLC5ev6RKZzs4lkgatBU=",
   },
   "Link Account": {
     val: "Collega Account",
@@ -1594,6 +1604,16 @@ const messages:IMessages = {
     translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
+  "Run": {
+    val: "Run",
+    translated: false,
+    h: "msfklVWTzDTqa2SaDeN2NULTRVjZPdgr6/gggE5vemI=",
+  },
+  "SQL Query": {
+    val: "SQL Query",
+    translated: false,
+    h: "SNOm941c8lDAaYjd9suzSEkHFjFRo8e683rumVLZhoA=",
+  },
   "Save": {
     val: "Salva",
     translated: true,
@@ -2072,6 +2092,11 @@ const messages:IMessages = {
     val: "Used in future",
     translated: false,
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
+  },
+  "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.": {
+    val: "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.",
+    translated: false,
+    h: "TCvA81ztNxeLhpVdiYrF4RLEGEp5FO3YWCgfOyjnjFc=",
   },
   "Vacation ": {
     val: "Vacanze ",

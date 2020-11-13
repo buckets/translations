@@ -102,6 +102,7 @@ export interface IMessages extends IMessageSet {
   "Cut": IMsg<string>;
   "Date Posted": IMsg<string>;
   "Debt": IMsg<string>;
+  "Debugger": IMsg<string>;
   "Delete": IMsg<string>;
   "Delete Account": IMsg<string>;
   "Delete Connection": IMsg<string>;
@@ -200,6 +201,7 @@ export interface IMessages extends IMessageSet {
   "Later": IMsg<string>;
   "Learn More": IMsg<string>;
   "Life Insurance": IMsg<string>;
+  "Limit": IMsg<string>;
   "Link Account": IMsg<string>;
   "Macros": IMsg<string>;
   "Make Transfer": IMsg<string>;
@@ -307,6 +309,8 @@ export interface IMessages extends IMessageSet {
   "Required deposit:": IMsg<string>;
   "Restart Buckets": IMsg<string>;
   "Restart Buckets for changes to take effect.": IMsg<string>;
+  "Run": IMsg<string>;
+  "SQL Query": IMsg<string>;
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
@@ -401,6 +405,7 @@ export interface IMessages extends IMessageSet {
   "Update balance without a transaction": IMsg<string>;
   "Update downloaded.": IMsg<string>;
   "Used in future": IMsg<string>;
+  "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.": IMsg<string>;
   "Vacation ": IMsg<string>;
   "View": IMsg<string>;
   "Want": IMsg<string>;
