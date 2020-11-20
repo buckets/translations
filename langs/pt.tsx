@@ -60,8 +60,8 @@ const messages:IMessages = {
   },
   "Access": {
     /* Label for section describing which budget files a remote device has access to */
-    val: "Access",
-    translated: false,
+    val: "Acesso",
+    translated: true,
     h: "fm1fE44xW9uYPR90N2BgNNY+xQ/yovAUMBTbUTFj0F0=",
   },
   "Account": {
@@ -100,8 +100,8 @@ const messages:IMessages = {
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Accounts in side bar": {
-    val: "Accounts in side bar",
-    translated: false,
+    val: "Contas na barra lateral",
+    translated: true,
     h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
   },
   "Actions": {
@@ -120,19 +120,19 @@ const messages:IMessages = {
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
   "Add": {
-    val: "Add",
-    translated: false,
+    val: "Adicionar",
+    translated: true,
     h: "sHHJQ9jaFQD0ZjykXnD1vKiFV5C98TviMmSgajkSEXY=",
   },
   "Add device": {
-    val: "Add device",
-    translated: false,
+    val: "Adicionar dispositivo",
+    translated: true,
     h: "VdeXP2eoJR+Sf3pph0sG+PV5E5Jq/mFGXEOAve8aad4=",
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
-    val: "All Files",
-    translated: false,
+    val: "Todos os arquivos",
+    translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Amazon.com Reconciliation": {
