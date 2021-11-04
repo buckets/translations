@@ -6,9 +6,12 @@ import { IMessages } from './base'
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
+  {
+    name: 'Viggo N.',
+  },
   // {
-  //   name: 'Viggo N.',
-  //   // href: '', /* optional */
+  //   name: '',
+  //   href: '', /* optional */
   // }
 ];
 
@@ -2661,9 +2664,9 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Bokmål',
   dir: 'ltr',
-  numbers: 'comma-period',
+  numbers: 'space-comma',
   messages,
   contributors,
 }
