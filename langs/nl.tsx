@@ -127,6 +127,8 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
     val: "All Files",
     translated: false,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
@@ -382,6 +384,11 @@ const messages:IMessages = {
     translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
+  "Choose a file ending in either .ynab4 or .ymeta": {
+    val: "Choose a file ending in either .ynab4 or .ymeta",
+    translated: false,
+    h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
+  },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
     val: "Afgevinkt",
@@ -527,6 +534,11 @@ const messages:IMessages = {
     translated: true,
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
+  "Date format": {
+    val: "Date format",
+    translated: false,
+    h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
+  },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
@@ -538,6 +550,11 @@ const messages:IMessages = {
     val: "Debugger",
     translated: false,
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
+  },
+  "Decimal delimiter": {
+    val: "Decimal delimiter",
+    translated: false,
+    h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
     val: "Wis",
@@ -710,6 +727,12 @@ const messages:IMessages = {
     translated: true,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
+  "Faint cents": {
+    /* Label for application preference enabling/disabling faint cents */
+    val: "Faint cents",
+    translated: false,
+    h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
+  },
   "File": {
     val: "Bestand",
     translated: true,
@@ -881,6 +904,16 @@ const messages:IMessages = {
     translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
+  "Import .zip file": {
+    val: "Import .zip file",
+    translated: false,
+    h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
+  },
+  "Import From Web YNAB...": {
+    val: "Import From Web YNAB...",
+    translated: false,
+    h: "7Yteq/akhgWWCBUeqgBRz4wP6bKcirfp74uLeTQop3Q=",
+  },
   "Import From YNAB4...": {
     val: "Importeer Vanaf YNAB4...",
     translated: true,
@@ -902,6 +935,11 @@ const messages:IMessages = {
     val: "Importeer bestand",
     translated: true,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
+  },
+  "Import from Web YNAB": {
+    val: "Import from Web YNAB",
+    translated: false,
+    h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
     val: "Importeer vanaf YNAB4",
@@ -1338,6 +1376,11 @@ const messages:IMessages = {
     translated: true,
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
+  "Open Web YNAB Zip File": {
+    val: "Open Web YNAB Zip File",
+    translated: false,
+    h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
+  },
   "Open YNAB4 File": {
     val: "Open YNAB4 Bestand",
     translated: true,
@@ -1707,6 +1750,11 @@ const messages:IMessages = {
     translated: true,
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
+  "Sign in to the YNAB website, click My Budget then Export Budget.": {
+    val: "Sign in to the YNAB website, click My Budget then Export Budget.",
+    translated: false,
+    h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
+  },
   "SimpleFIN Connections": {
     val: "SimpleFIN Connecties",
     translated: true,
@@ -1869,6 +1917,11 @@ const messages:IMessages = {
     val: "Dit hulpmiddel zal alle data verwijderen om het makkelijk te maken om overnieuw met een budget te beginnen.",
     translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
+  },
+  "Thousands separator": {
+    val: "Thousands separator",
+    translated: false,
+    h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
     val: "Tot",
@@ -2124,6 +2177,12 @@ const messages:IMessages = {
     val: "Water",
     translated: true,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
+  },
+  "Web YNAB Export": {
+    /* Label for YNAB export file type */
+    val: "Web YNAB Export",
+    translated: false,
+    h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "Als een makro \"Aan\" staat, word deze gebruikt tijdens een synchronisatie.",

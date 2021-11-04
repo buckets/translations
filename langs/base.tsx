@@ -73,6 +73,7 @@ export interface IMessages extends IMessageSet {
   "Check For Updates...": IMsg<string>;
   "Check for Updates": IMsg<string>;
   "Checking for updates...": IMsg<string>;
+  "Choose a file ending in either .ynab4 or .ymeta": IMsg<string>;
   "Cleared": IMsg<string>;
   "Cleared balance": IMsg<string>;
   "Click the \"Set mapping\" to continue.": IMsg<string>;
@@ -101,8 +102,10 @@ export interface IMessages extends IMessageSet {
   "Currency symbol": IMsg<string>;
   "Cut": IMsg<string>;
   "Date Posted": IMsg<string>;
+  "Date format": IMsg<string>;
   "Debt": IMsg<string>;
   "Debugger": IMsg<string>;
+  "Decimal delimiter": IMsg<string>;
   "Delete": IMsg<string>;
   "Delete Account": IMsg<string>;
   "Delete Connection": IMsg<string>;
@@ -137,6 +140,7 @@ export interface IMessages extends IMessageSet {
   "Error updating transaction": IMsg<string>;
   "Expenses": IMsg<string>;
   "Export": IMsg<string>;
+  "Faint cents": IMsg<string>;
   "File": IMsg<string>;
   "File does not exist:": IMsg<string>;
   "File saved: ": IMsg<string>;
@@ -170,10 +174,13 @@ export interface IMessages extends IMessageSet {
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": IMsg<string>;
   "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": IMsg<string>;
   "Import": IMsg<string>;
+  "Import .zip file": IMsg<string>;
+  "Import From Web YNAB...": IMsg<string>;
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions...": IMsg<string>;
   "Import all Amazon Reports": IMsg<string>;
   "Import file": IMsg<string>;
+  "Import from Web YNAB": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
   "Import links broken": IMsg<string>;
   "In": IMsg<string>;
@@ -258,6 +265,7 @@ export interface IMessages extends IMessageSet {
   "Open Budget...": IMsg<string>;
   "Open Recent...": IMsg<string>;
   "Open Transaction File": IMsg<string>;
+  "Open Web YNAB Zip File": IMsg<string>;
   "Open YNAB4 File": IMsg<string>;
   "Optional message:": IMsg<string>;
   "Optionally request an Amazon Refunds report": IMsg<string>;
@@ -330,6 +338,7 @@ export interface IMessages extends IMessageSet {
   "Show Log Files...": IMsg<string>;
   "Show uncategorized": IMsg<string>;
   "Sign": IMsg<string>;
+  "Sign in to the YNAB website, click My Budget then Export Budget.": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
   "SimpleFIN client unconfigured": IMsg<string>;
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
@@ -362,6 +371,7 @@ export interface IMessages extends IMessageSet {
   "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
+  "Thousands separator": IMsg<string>;
   "To": IMsg<string>;
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;
@@ -412,6 +422,7 @@ export interface IMessages extends IMessageSet {
   "Wants": IMsg<string>;
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": IMsg<string>;
   "Water": IMsg<string>;
+  "Web YNAB Export": IMsg<string>;
   "When \"On\" this macro will be run during a normal sync.": IMsg<string>;
   "Window": IMsg<string>;
   "Year to Year": IMsg<string>;
