@@ -8,15 +8,16 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   97% | Deutsch |
 |  100% | English |
 |   42% | español |
+|   89% | Eesti |
 |   87% | Français |
 |    1% | עִברִית |
+|    1% | Magyar |
 |   78% | Italiano |
 |   56% | Norsk |
 |   90% | Nederlands |
 |   89% | Polski |
 |   92% | Português |
 |    5% | Română |
-|    1% | Magyar |
 <!-- trans stats end -->
 
 # How to contribute
