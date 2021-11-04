@@ -8,9 +8,9 @@ import {IMessages} from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   {
-    name: 'Peter Panyiczky',
-    href: 'https://magyaritasok.hu', /* optional */
-  }
+    name: "Peter Panyiczky",
+    href: "https://magyaritasok.hu", /* optional */
+  },
 ];
 
 const messages:IMessages = {

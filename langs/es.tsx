@@ -7,9 +7,9 @@ import { IMessages } from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   // {
-  //   name: '',
-  //   // href: '', /* optional */
-  // }
+  //   name: "",
+  //   href: "", /* optional */
+  // },
 ];
 
 const messages:IMessages = {
@@ -2719,7 +2719,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'español',
+  name: 'Español',
   dir: 'ltr',
   numbers: 'comma-period',
   messages,
