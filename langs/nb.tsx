@@ -2722,7 +2722,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'Bokmål',
+  name: 'Norsk',
   dir: 'ltr',
   numbers: 'space-comma',
   messages,
