@@ -130,6 +130,8 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
     val: "Alle filer",
     translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
@@ -385,6 +387,11 @@ const messages:IMessages = {
     translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
+  "Choose a file ending in either .ynab4 or .ymeta": {
+    val: "Choose a file ending in either .ynab4 or .ymeta",
+    translated: false,
+    h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
+  },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
     val: "Klarert",
@@ -530,6 +537,11 @@ const messages:IMessages = {
     translated: false,
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
+  "Date format": {
+    val: "Date format",
+    translated: false,
+    h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
+  },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
@@ -541,6 +553,11 @@ const messages:IMessages = {
     val: "Feilsøker",
     translated: true,
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
+  },
+  "Decimal delimiter": {
+    val: "Decimal delimiter",
+    translated: false,
+    h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
     val: "Slett",
@@ -713,6 +730,12 @@ const messages:IMessages = {
     translated: true,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
+  "Faint cents": {
+    /* Label for application preference enabling/disabling faint cents */
+    val: "Faint cents",
+    translated: false,
+    h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
+  },
   "File": {
     val: "Fil",
     translated: true,
@@ -884,6 +907,16 @@ const messages:IMessages = {
     translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
+  "Import .zip file": {
+    val: "Import .zip file",
+    translated: false,
+    h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
+  },
+  "Import From Web YNAB...": {
+    val: "Import From Web YNAB...",
+    translated: false,
+    h: "7Yteq/akhgWWCBUeqgBRz4wP6bKcirfp74uLeTQop3Q=",
+  },
   "Import From YNAB4...": {
     val: "Importer fra YNAB4...",
     translated: true,
@@ -905,6 +938,11 @@ const messages:IMessages = {
     val: "Importer fil",
     translated: true,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
+  },
+  "Import from Web YNAB": {
+    val: "Import from Web YNAB",
+    translated: false,
+    h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
     val: "Importer fra YNAB4",
@@ -1158,7 +1196,6 @@ const messages:IMessages = {
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
-    /* Note from translator: "Negere", in addition to negate, also denotes a racial slur for dark-skinned humans. Sadly there is no better term in Norwegian. */
     val: "Negere",
     translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
@@ -1341,6 +1378,11 @@ const messages:IMessages = {
     val: "Åpne Transaksjonsfil",
     translated: true,
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
+  },
+  "Open Web YNAB Zip File": {
+    val: "Open Web YNAB Zip File",
+    translated: false,
+    h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
   },
   "Open YNAB4 File": {
     val: "Åpne YNAB4-fil",
@@ -1711,6 +1753,11 @@ const messages:IMessages = {
     translated: false,
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
+  "Sign in to the YNAB website, click My Budget then Export Budget.": {
+    val: "Sign in to the YNAB website, click My Budget then Export Budget.",
+    translated: false,
+    h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
+  },
   "SimpleFIN Connections": {
     val: "SimpleFIN Connections",
     translated: false,
@@ -1873,6 +1920,11 @@ const messages:IMessages = {
     val: "This tool will delete data to make it easy to start over with your budget.",
     translated: false,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
+  },
+  "Thousands separator": {
+    val: "Thousands separator",
+    translated: false,
+    h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
     val: "To",
@@ -2128,6 +2180,12 @@ const messages:IMessages = {
     val: "Water",
     translated: false,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
+  },
+  "Web YNAB Export": {
+    /* Label for YNAB export file type */
+    val: "Web YNAB Export",
+    translated: false,
+    h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "When \"On\" this macro will be run during a normal sync.",

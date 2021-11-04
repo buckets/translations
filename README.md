@@ -11,6 +11,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   87% | Français |
 |    1% | עִברִית |
 |   78% | Italiano |
+|   56% | Bokmål |
 |   90% | Nederlands |
 |   89% | Polski |
 |   92% | Português |
