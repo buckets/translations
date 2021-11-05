@@ -8,9 +8,9 @@ import {IMessages} from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   {
-    name: "Peter Panyiczky",
-    href: "https://magyaritasok.hu", /* optional */
-  },
+    name: 'Peter Panyiczky',
+    href: 'https://magyaritasok.hu', /* optional */
+  }
 ];
 
 const messages:IMessages = {
@@ -688,6 +688,11 @@ const messages:IMessages = {
     translated: false,
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
+  "Error during import": {
+    val: "Error during import",
+    translated: false,
+    h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
+  },
   "Error fetching data": {
     val: "Error fetching data",
     translated: false,
@@ -929,6 +934,11 @@ const messages:IMessages = {
     val: "Import all Amazon Reports",
     translated: false,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
+  },
+  "Import complete!": {
+    val: "Import complete!",
+    translated: false,
+    h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
   },
   "Import file": {
     /* Button label for starting a file import */
@@ -1649,6 +1659,11 @@ const messages:IMessages = {
     val: "Run",
     translated: false,
     h: "msfklVWTzDTqa2SaDeN2NULTRVjZPdgr6/gggE5vemI=",
+  },
+  "Running...": {
+    val: "Running...",
+    translated: false,
+    h: "a2doeW7lyGRq5yq2cOD55HCblS7Hfy72/2G0cp7fk9c=",
   },
   "SQL Query": {
     val: "SQL Query",

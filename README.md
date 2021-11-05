@@ -7,17 +7,18 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |-------|---|
 |   97% | Deutsch |
 |  100% | English |
-|   42% | español |
+|   42% | Español |
 |   89% | Eesti |
-|   87% | Français |
+|   86% | Français |
 |    1% | עִברִית |
 |    1% | Magyar |
-|   78% | Italiano |
-|   56% | Norsk |
-|   90% | Nederlands |
+|   77% | Italiano |
+|   55% | Norsk |
+|   89% | Nederlands |
 |   89% | Polski |
-|   92% | Português |
+|   91% | Português |
 |    5% | Română |
+|   98% | Svenska |
 <!-- trans stats end -->
 
 # How to contribute
