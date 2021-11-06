@@ -132,6 +132,7 @@ export interface IMessages extends IMessageSet {
   "Enter Buckets License": IMsg<string>;
   "Enter License...": IMsg<string>;
   "Error": IMsg<string>;
+  "Error during import": IMsg<string>;
   "Error fetching data": IMsg<string>;
   "Error importing": IMsg<string>;
   "Error parsing response": IMsg<string>;
@@ -179,6 +180,7 @@ export interface IMessages extends IMessageSet {
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions...": IMsg<string>;
   "Import all Amazon Reports": IMsg<string>;
+  "Import complete!": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from Web YNAB": IMsg<string>;
   "Import from YNAB4": IMsg<string>;
@@ -318,6 +320,7 @@ export interface IMessages extends IMessageSet {
   "Restart Buckets": IMsg<string>;
   "Restart Buckets for changes to take effect.": IMsg<string>;
   "Run": IMsg<string>;
+  "Running...": IMsg<string>;
   "SQL Query": IMsg<string>;
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
