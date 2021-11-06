@@ -6,8 +6,8 @@ import {IMessages} from './base'
 
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
-//All String: 519
-//Translated: 160
+// All String: 524
+// Translated: 160
 const contributors = [
   {
     name: 'Peter Panyiczky',
