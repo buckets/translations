@@ -932,12 +932,22 @@ const messages:IMessages = {
     translated: false,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
+  "Import complete!": {
+    val: "Import complete!",
+    translated: false,
+    h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
+  },
   "Import file": {
     /* Button label for starting a file import */
     /* Button label for starting a file import */
     val: "Import file",
     translated: false,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
+  },
+  "Import from Web YNAB": {
+    val: "Import from Web YNAB",
+    translated: false,
+    h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
     val: "Import from YNAB4",
@@ -1374,6 +1384,11 @@ const messages:IMessages = {
     translated: false,
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
+  "Open Web YNAB Zip File": {
+    val: "Open Web YNAB Zip File",
+    translated: false,
+    h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
+  },
   "Open YNAB4 File": {
     val: "Open YNAB4 File",
     translated: false,
@@ -1642,6 +1657,11 @@ const messages:IMessages = {
     translated: false,
     h: "msfklVWTzDTqa2SaDeN2NULTRVjZPdgr6/gggE5vemI=",
   },
+  "Running...": {
+    val: "Running...",
+    translated: false,
+    h: "a2doeW7lyGRq5yq2cOD55HCblS7Hfy72/2G0cp7fk9c=",
+  },
   "SQL Query": {
     val: "SQL Query",
     translated: false,
@@ -1742,6 +1762,11 @@ const messages:IMessages = {
     val: "Sign",
     translated: false,
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
+  },
+  "Sign in to the YNAB website, click My Budget then Export Budget.": {
+    val: "Sign in to the YNAB website, click My Budget then Export Budget.",
+    translated: false,
+    h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
   },
   "SimpleFIN Connections": {
     val: "SimpleFIN Connections",
@@ -1905,6 +1930,11 @@ const messages:IMessages = {
     val: "This tool will delete data to make it easy to start over with your budget.",
     translated: false,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
+  },
+  "Thousands separator": {
+    val: "Thousands separator",
+    translated: false,
+    h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
     val: "To",
@@ -2160,6 +2190,12 @@ const messages:IMessages = {
     val: "Water",
     translated: false,
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
+  },
+  "Web YNAB Export": {
+    /* Label for YNAB export file type */
+    val: "Web YNAB Export",
+    translated: false,
+    h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "When \"On\" this macro will be run during a normal sync.",
