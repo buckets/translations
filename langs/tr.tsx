@@ -2660,9 +2660,9 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Türkçe',
   dir: 'ltr',
-  numbers: 'comma-period',
+  numbers: 'period-comma',
   messages,
   contributors,
 }
