@@ -907,6 +907,16 @@ const messages:IMessages = {
     translated: false,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
+  "Import .zip file": {
+    val: "Import .zip file",
+    translated: false,
+    h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
+  },
+  "Import From Web YNAB...": {
+    val: "Import From Web YNAB...",
+    translated: false,
+    h: "7Yteq/akhgWWCBUeqgBRz4wP6bKcirfp74uLeTQop3Q=",
+  },
   "Import From YNAB4...": {
     val: "Import From YNAB4...",
     translated: false,
