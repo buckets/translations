@@ -377,6 +377,11 @@ const messages:IMessages = {
     translated: true,
     h: "6vtxqhyfiDaIXgTBH0pdoPzTGftDDEoRFNGU082PhRk=",
   },
+  "Choose a file ending in either .ynab4 or .ymeta": {
+    val: "Choose a file ending in either .ynab4 or .ymeta",
+    translated: false,
+    h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
+  },
   "Checking for updates...": {
     val: "Güncellemeler kontrol ediliyor...",
     translated: true,
@@ -527,6 +532,11 @@ const messages:IMessages = {
     translated: false,
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
+  "Date format": {
+    val: "Date format",
+    translated: false,
+    h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
+  },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
@@ -538,6 +548,11 @@ const messages:IMessages = {
     val: "Debugger",
     translated: false,
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
+  },
+  "Decimal delimiter": {
+    val: "Decimal delimiter",
+    translated: false,
+    h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
     val: "Delete",
@@ -670,6 +685,11 @@ const messages:IMessages = {
     translated: false,
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
+  "Error during import": {
+    val: "Error during import",
+    translated: false,
+    h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
+  },
   "Error fetching data": {
     val: "Error fetching data",
     translated: false,
@@ -709,6 +729,12 @@ const messages:IMessages = {
     val: "Export",
     translated: false,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
+  },
+  "Faint cents": {
+    /* Label for application preference enabling/disabling faint cents */
+    val: "Faint cents",
+    translated: false,
+    h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
   },
   "File": {
     val: "File",
