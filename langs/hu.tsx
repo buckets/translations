@@ -388,7 +388,7 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Váassz ki egy fájlt, ami vagy .ynab4 vagy .ymeta kiterjesztéssel végződik",
+    val: "Válassz ki egy fájlt, ami vagy .ynab4 vagy .ymeta kiterjesztéssel végződik",
     translated: true,
     h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
   },
