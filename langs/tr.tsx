@@ -127,6 +127,8 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
     val: "Tüm dosyalar",
     translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
@@ -377,15 +379,15 @@ const messages:IMessages = {
     translated: true,
     h: "6vtxqhyfiDaIXgTBH0pdoPzTGftDDEoRFNGU082PhRk=",
   },
-  "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Choose a file ending in either .ynab4 or .ymeta",
-    translated: false,
-    h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
-  },
   "Checking for updates...": {
     val: "Güncellemeler kontrol ediliyor...",
     translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
+  },
+  "Choose a file ending in either .ynab4 or .ymeta": {
+    val: "Choose a file ending in either .ynab4 or .ymeta",
+    translated: false,
+    h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
   },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
