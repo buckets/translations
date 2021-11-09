@@ -7,9 +7,9 @@ import { IMessages } from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   // {
-  //   name: "",
-  //   href: "", /* optional */
-  // },
+  //   name: '',
+  //   // href: '', /* optional */
+  // }
 ];
 
 const messages:IMessages = {
@@ -24,18 +24,18 @@ const messages:IMessages = {
     h: "05fPQ/cX0e4UXnYsbNTo8b6FUwq/WZ1URc7ixr6WlV8=",
   },
   "(Drop files or click)": {
-    val: "(Drop files or click)",
-    translated: false,
+    val: "(Dosyaları sürükleyin ya da tıklayın)",
+    translated: true,
     h: "cn8vjUpkolK+X1qsHPyR11Qj7uQWZVR6eWnhPRb/zfw=",
   },
   "(If you want a response)": {
-    val: "(If you want a response)",
-    translated: false,
+    val: "(Eğer yanıt istiyorsanız)",
+    translated: true,
     h: "Ij4mQm0L5WO4Iunvl3fKwbhLwjTodc3Chq81GsFM+T0=",
   },
   "(optional)": {
-    val: "(optional)",
-    translated: false,
+    val: "(İsteğe bağlı)",
+    translated: true,
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "/mo": {
@@ -44,55 +44,55 @@ const messages:IMessages = {
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
   "A sync is already in progress": {
-    val: "A sync is already in progress",
-    translated: false,
+    val: "Halihazırda eşzamanlama devam ediyor",
+    translated: true,
     h: "z6CqgxENo0xxB0LPp8P8rmnLPp1m2NElecEaJM8GDfI=",
   },
   "About Buckets": {
     /* 'Buckets' refers to the application name */
-    val: "About Buckets",
-    translated: false,
+    val: "Buckets hakkında",
+    translated: true,
     h: "9bzPsx+kCkNUeLTSVjaygyWCkm3VCdsFaAFRvdS+xEU=",
   },
   "Access": {
     /* Label for section describing which budget files a remote device has access to */
-    val: "Access",
-    translated: false,
+    val: "Erişim",
+    translated: true,
     h: "fm1fE44xW9uYPR90N2BgNNY+xQ/yovAUMBTbUTFj0F0=",
   },
   "Account": {
-    val: "Account",
-    translated: false,
+    val: "Hesap",
+    translated: true,
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "Account Transactions": {
-    val: "Account Transactions",
-    translated: false,
+    val: "Hesap işlemleri",
+    translated: true,
     h: "GPJhFDki3xJdCOMqCkqdUDX7SfEZcg9wGee8KMIuIno=",
   },
   "Account and transactions deleted": {
-    val: "Account and transactions deleted",
-    translated: false,
+    val: "Hesap ve işlemler silindi",
+    translated: true,
     h: "iwS2+dAqfDOEtU5SUm1d1oPFTe0+JT5NCm4nH2SrglE=",
   },
   "Account closed": {
-    val: "Account closed",
-    translated: false,
+    val: "Hesap kapatıldı",
+    translated: true,
     h: "l9xs5wLKF3KIgunL1SJh9r9XDYpWkC7LYrL4KUUFm3M=",
   },
   "Account deleted completely": {
-    val: "Account deleted completely",
-    translated: false,
+    val: "Hesap tamamen silindi",
+    translated: true,
     h: "LswJ+SxzkHRVy6+Et4Wga6r/Io1P6MBlTiwdjUAUj48=",
   },
   "Account name": {
-    val: "Account name",
-    translated: false,
+    val: "Hesap adı",
+    translated: true,
     h: "Wo+ZnjRTxGkow1m4BGCavACj82/UajUNs6oLDXB++sU=",
   },
   "Accounts": {
-    val: "Accounts",
-    translated: false,
+    val: "Hesaplar",
+    translated: true,
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Accounts in side bar": {
@@ -116,26 +116,26 @@ const messages:IMessages = {
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
   "Add": {
-    val: "Add",
-    translated: false,
+    val: "Ekle",
+    translated: true,
     h: "sHHJQ9jaFQD0ZjykXnD1vKiFV5C98TviMmSgajkSEXY=",
   },
   "Add device": {
-    val: "Add device",
-    translated: false,
+    val: "Cihaz ekle",
+    translated: true,
     h: "VdeXP2eoJR+Sf3pph0sG+PV5E5Jq/mFGXEOAve8aad4=",
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
-    val: "All Files",
-    translated: false,
+    val: "Tüm dosyalar",
+    translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Amazon.com Reconciliation": {
-    val: "Amazon.com Reconciliation",
-    translated: false,
+    val: "Amazon.com mutabakatı",
+    translated: true,
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
@@ -149,14 +149,14 @@ const messages:IMessages = {
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
-    val: "Analysis",
-    translated: false,
+    val: "Analiz",
+    translated: true,
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Animation": {
     /* Label for application preference enabling/disabling animations */
-    val: "Animation",
-    translated: false,
+    val: "Animasyonlar",
+    translated: true,
     h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
@@ -165,8 +165,8 @@ const messages:IMessages = {
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
-    val: "Application preferences",
-    translated: false,
+    val: "Uygulama tercihleri",
+    translated: true,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
@@ -175,13 +175,13 @@ const messages:IMessages = {
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
-    val: "Attached files are too large.",
-    translated: false,
+    val: "Eklenen dosyalar çok büyük.",
+    translated: true,
     h: "HfDI7uw+P4uLUPkDu0rxQhxJqjqcriWmD9EWYaiUqvY=",
   },
   "Average": {
-    val: "Average",
-    translated: false,
+    val: "Ortalama",
+    translated: true,
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
   "Avg:": {
@@ -205,8 +205,8 @@ const messages:IMessages = {
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
-    val: "Birthdays",
-    translated: false,
+    val: "Doğumgünleri",
+    translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
@@ -266,25 +266,25 @@ const messages:IMessages = {
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
   "Budget": {
-    val: "Budget",
-    translated: false,
+    val: "Bütçe",
+    translated: true,
     h: "zOO4DqNSFLa6Z9vlmfaz8OnwggHn8wJeP058V5mUKbE=",
   },
   "Budget Specific Settings": {
     /* Title for budget settings page */
-    val: "Budget Specific Settings",
-    translated: false,
+    val: "Bütçeye Özel Ayarlar",
+    translated: true,
     h: "/RQVOKmoXTgeciF+ohehk19BxpvBXud+3HjfZPPw1v8=",
   },
   "Budget password:": {
     /* Label for bank macro password prompt */
-    val: "Budget password:",
-    translated: false,
+    val: "Bütçe şifresi:",
+    translated: true,
     h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
   "Budgeted": {
-    val: "Budgeted",
-    translated: false,
+    val: "Bütçelenen",
+    translated: true,
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
   },
   "CSV Account": {
@@ -303,29 +303,29 @@ const messages:IMessages = {
     h: "wISz6Dh0vnQ1Tjhr9GWcJ2rhiif2af6NXsAzEAXYxfo=",
   },
   "Calculator": {
-    val: "Calculator",
-    translated: false,
+    val: "Hesap makinesi",
+    translated: true,
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Cancel": {
     /* Button label */
-    val: "Cancel",
-    translated: false,
+    val: "İptal",
+    translated: true,
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
   },
   "Cancel sync": {
-    val: "Cancel sync",
-    translated: false,
+    val: "Eşzamanlamayı iptal et",
+    translated: true,
     h: "8xFWyPShIifEhumOA/PeoTtccm5TTtbQmWFViIGcPQA=",
   },
   "Car Insurance": {
-    val: "Car Insurance",
-    translated: false,
+    val: "Araç sigortası",
+    translated: true,
     h: "x3xbGNEH/vHcpYAm2HXTUhRRuz2sb6yfH0gBYFFkqc4=",
   },
   "Car Maintenance": {
-    val: "Car Maintenance",
-    translated: false,
+    val: "Araç bakımı",
+    translated: true,
     h: "Lsok3+kX1L7SXMumFWNo+oxBgfmGJcWg1CdSDw6byx8=",
   },
   "Car Payment": {
@@ -344,13 +344,13 @@ const messages:IMessages = {
     h: "mA6/TefxgXpo2M+OUx/ATLQ4QYHv4t1+8vy3MmV+EQg=",
   },
   "Category": {
-    val: "Category",
-    translated: false,
+    val: "Kategori",
+    translated: true,
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change Account Type": {
-    val: "Change Account Type",
-    translated: false,
+    val: "Hesap Türünü Değiştir",
+    translated: true,
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
@@ -360,8 +360,8 @@ const messages:IMessages = {
   },
   "Chat with Matt": {
     /* If "Chat with Matt" is too wide, you can translate this as just "Chat" */
-    val: "Chat with Matt",
-    translated: false,
+    val: "Matt ile sohbet et",
+    translated: true,
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "Chat...": {
@@ -370,18 +370,18 @@ const messages:IMessages = {
     h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Check For Updates...": {
-    val: "Check For Updates...",
-    translated: false,
+    val: "Güncellemeleri kontrol et...",
+    translated: true,
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
   "Check for Updates": {
-    val: "Check for Updates",
-    translated: false,
+    val: "Güncellemeleri kontrol et",
+    translated: true,
     h: "6vtxqhyfiDaIXgTBH0pdoPzTGftDDEoRFNGU082PhRk=",
   },
   "Checking for updates...": {
-    val: "Checking for updates...",
-    translated: false,
+    val: "Güncellemeler kontrol ediliyor...",
+    translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
@@ -407,29 +407,29 @@ const messages:IMessages = {
     h: "17QBrVZk8kjbKoqmqsbEBBHyjcoru22TcYanag65Jrw=",
   },
   "Close Account": {
-    val: "Close Account",
-    translated: false,
+    val: "Hesabı kapat",
+    translated: true,
     h: "qTJEf8mdhLx1bU9LZPYaTtrT8pMLqxemoL/YqbhjESI=",
   },
   "Close Window": {
-    val: "Close Window",
-    translated: false,
+    val: "Pencereyi kapat",
+    translated: true,
     h: "hrPxvP/hrVgtNNTMX4sv5sljx57neTy+2p0U1TKGuCE=",
   },
   "Close account": {
-    val: "Close account",
-    translated: false,
+    val: "Hesabı kapat",
+    translated: true,
     h: "7HdV8X8++teDNW33urE2eccDw3VLdSpvII89zC/sfu4=",
   },
   "Closed": {
     /* ! Label for list of closed accounts */
-    val: "Closed",
-    translated: false,
+    val: "Kapalı",
+    translated: true,
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "Clothing": {
-    val: "Clothing",
-    translated: false,
+    val: "Giyim",
+    translated: true,
     h: "as4CQmPu3VF2LxSvA5djgiAPatdFRqwmOt0NiHJCe7E=",
   },
   "Confirm password:": {
@@ -438,23 +438,23 @@ const messages:IMessages = {
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Connect": {
-    val: "Connect",
-    translated: false,
+    val: "Bağlan",
+    translated: true,
     h: "pCLQy6ZAsZnJ3ff5r+iD+O2vHQhIJEEUHUhiY1NrMP0=",
   },
   "Connect to bank": {
-    val: "Connect to bank",
-    translated: false,
+    val: "Bankaya bağlan",
+    translated: true,
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
   },
   "Connected": {
-    val: "Connected",
-    translated: false,
+    val: "Bağlandı",
+    translated: true,
     h: "fV/VOfsqBR+vyqF2tRjG6qsC8ufS/QDaTRaUee+UEMA=",
   },
   "Connecting...": {
-    val: "Connecting...",
-    translated: false,
+    val: "Bağlanıyor...",
+    translated: true,
     h: "fYdj0RfOQMPN3n28gswFnK4aOvozPH0hqm9oqd+NcWI=",
   },
   "Connection corrupted. Please delete and re-create.": {
@@ -469,33 +469,33 @@ const messages:IMessages = {
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
   "Copy": {
-    val: "Copy",
-    translated: false,
+    val: "Kopyala",
+    translated: true,
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Create Account": {
-    val: "Create Account",
-    translated: false,
+    val: "Hesap Aç",
+    translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
   "Create Backup": {
-    val: "Create Backup",
-    translated: false,
+    val: "Yedekle",
+    translated: true,
     h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
   },
   "Create Backup and Start Over": {
-    val: "Create Backup and Start Over",
-    translated: false,
+    val: "Yedekle ve Baştan Başla",
+    translated: true,
     h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
   },
   "Create Macro": {
-    val: "Create Macro",
-    translated: false,
+    val: "Makro Yarat",
+    translated: true,
     h: "F6PDykaoACWoqQ+oKUyJyhERAe1FjT6A3OkxL+S5l8k=",
   },
   "Create Template": {
-    val: "Create Template",
-    translated: false,
+    val: "Şablon yarat",
+    translated: true,
     h: "gAbtUL3vhxk+yCSp7fzAF4Z9tV0I4x7Uq5xDJ4nm2Uk=",
   },
   "Create Transaction": {
@@ -2734,9 +2734,9 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'Türkçe',
   dir: 'ltr',
-  numbers: 'comma-period',
+  numbers: 'period-comma',
   messages,
   contributors,
 }
