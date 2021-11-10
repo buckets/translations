@@ -6,9 +6,13 @@ import { IMessages } from './base'
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
+  {
+    name: "osanchez",
+    href: "https://osanchez.dev", /* optional */
+  },
   // {
-  //   name: "osanchez",
-  //   href: "https://osanchez.dev", /* optional */
+  //   name: "",
+  //   href: "", /* optional */
   // },
 ];
 
