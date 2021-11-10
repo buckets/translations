@@ -19,8 +19,8 @@ const messages:IMessages = {
     h: "Eq4yyx7ALQHto1gbEnwf7jsNxTVy7WuvI5choD2C4SY=",
   },
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
-    val: "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ",
-    translated: false,
+    val: "\n        Aunque es preferible llenar este formulario, puedes enviar un correo electrónico a bugs@budgetwithbuckets.com \n      ",
+    translated: true,
     h: "05fPQ/cX0e4UXnYsbNTo8b6FUwq/WZ1URc7ixr6WlV8=",
   },
   "(Drop files or click)": {
@@ -134,8 +134,8 @@ const messages:IMessages = {
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Amazon.com Reconciliation": {
-    val: "Amazon.com Reconciliation",
-    translated: false,
+    val: "Conciliación con Amazon.com",
+    translated: true,
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
@@ -170,13 +170,13 @@ const messages:IMessages = {
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
-    val: "Assets",
-    translated: false,
+    val: "Activos",
+    translated: true,
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
-    val: "Attached files are too large.",
-    translated: false,
+    val: "Los archivos adjuntos son demasiado grandes.",
+    translated: true,
     h: "HfDI7uw+P4uLUPkDu0rxQhxJqjqcriWmD9EWYaiUqvY=",
   },
   "Average": {
@@ -272,14 +272,14 @@ const messages:IMessages = {
   },
   "Budget Specific Settings": {
     /* Title for budget settings page */
-    val: "Budget Specific Settings",
-    translated: false,
+    val: "Preferencias especificas para el presupuesto",
+    translated: true,
     h: "/RQVOKmoXTgeciF+ohehk19BxpvBXud+3HjfZPPw1v8=",
   },
   "Budget password:": {
     /* Label for bank macro password prompt */
-    val: "Budget password:",
-    translated: false,
+    val: "Contraseña del presupuesto:",
+    translated: true,
     h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
   "Budgeted": {
@@ -314,7 +314,7 @@ const messages:IMessages = {
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
   },
   "Cancel sync": {
-    val: "Cancelar sinc",
+    val: "Cancelar sincronización",
     translated: true,
     h: "8xFWyPShIifEhumOA/PeoTtccm5TTtbQmWFViIGcPQA=",
   },
@@ -385,20 +385,20 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Choose a file ending in either .ynab4 or .ymeta",
-    translated: false,
+    val: "Selecciona un archivo con extensión .ynab4 o .ymeta",
+    translated: true,
     h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
   },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
-    val: "Cleared",
-    translated: false,
+    val: "Conciliado",
+    translated: true,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
-    val: "Cleared balance",
-    translated: false,
+    val: "Saldo conciliado",
+    translated: true,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
   "Click the \"Set mapping\" to continue.": {
@@ -407,8 +407,8 @@ const messages:IMessages = {
     h: "17QBrVZk8kjbKoqmqsbEBBHyjcoru22TcYanag65Jrw=",
   },
   "Close Account": {
-    val: "Close Account",
-    translated: false,
+    val: "Cerrar cuenta",
+    translated: true,
     h: "qTJEf8mdhLx1bU9LZPYaTtrT8pMLqxemoL/YqbhjESI=",
   },
   "Close Window": {
@@ -428,17 +428,17 @@ const messages:IMessages = {
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "Clothing": {
-    val: "Clothing",
-    translated: false,
+    val: "Ropa",
+    translated: true,
     h: "as4CQmPu3VF2LxSvA5djgiAPatdFRqwmOt0NiHJCe7E=",
   },
   "Confirm password:": {
-    val: "Confirm password:",
-    translated: false,
+    val: "Confirmar contraseña:",
+    translated: true,
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Connect": {
-    val: "Connectar",
+    val: "Conectar",
     translated: true,
     h: "pCLQy6ZAsZnJ3ff5r+iD+O2vHQhIJEEUHUhiY1NrMP0=",
   },
@@ -448,8 +448,8 @@ const messages:IMessages = {
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
   },
   "Connected": {
-    val: "Connected",
-    translated: false,
+    val: "Conectado",
+    translated: true,
     h: "fV/VOfsqBR+vyqF2tRjG6qsC8ufS/QDaTRaUee+UEMA=",
   },
   "Connecting...": {
@@ -464,7 +464,7 @@ const messages:IMessages = {
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection saved!": {
-    val: "¡Conexión guardado!",
+    val: "¡Conexión guardada!",
     translated: true,
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
@@ -474,43 +474,43 @@ const messages:IMessages = {
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Create Account": {
-    val: "Create Account",
-    translated: false,
+    val: "Crear Cuenta",
+    translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
   "Create Backup": {
-    val: "Create Backup",
-    translated: false,
+    val: "Crear Respaldo",
+    translated: true,
     h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
   },
   "Create Backup and Start Over": {
-    val: "Create Backup and Start Over",
-    translated: false,
+    val: "Crear respaldo e iniciar de nuevo",
+    translated: true,
     h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
   },
   "Create Macro": {
-    val: "Create Macro",
-    translated: false,
+    val: "Crear Macro",
+    translated: true,
     h: "F6PDykaoACWoqQ+oKUyJyhERAe1FjT6A3OkxL+S5l8k=",
   },
   "Create Template": {
-    val: "Create Template",
-    translated: false,
+    val: "Crear Plantilla",
+    translated: true,
     h: "gAbtUL3vhxk+yCSp7fzAF4Z9tV0I4x7Uq5xDJ4nm2Uk=",
   },
   "Create Transaction": {
-    val: "Create Transaction",
-    translated: false,
+    val: "Crear Transacción",
+    translated: true,
     h: "G5NDAP857MBDE66GWUREcFAJc2pCogndYa6y+m6PRfE=",
   },
   "Create budget password:": {
-    val: "Create budget password:",
-    translated: false,
+    val: "Crear password para el presupuesto:",
+    translated: true,
     h: "Bf9XVrpN9UpVSKpZNRpBUw/IaFjMkNCmH4gpAfhYFkY=",
   },
   "Create macro": {
-    val: "Create macro",
-    translated: false,
+    val: "Crear macro",
+    translated: true,
     h: "9xZZAswDH8zePPUhfsaSEDJ21GU1yhILKhDWtvnUlr0=",
   },
   "Create new account": {
@@ -520,8 +520,8 @@ const messages:IMessages = {
   },
   "Currency symbol": {
     /* Label for currency symbol setting */
-    val: "Currency symbol",
-    translated: false,
+    val: "Simbolo de moneda",
+    translated: true,
     h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
@@ -530,30 +530,30 @@ const messages:IMessages = {
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
   "Date Posted": {
-    val: "Date Posted",
-    translated: false,
+    val: "Fecha de Publicación",
+    translated: true,
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Date format": {
-    val: "Date format",
-    translated: false,
+    val: "Formado de fecha",
+    translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
   },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
-    val: "Debt",
-    translated: false,
+    val: "Deuda",
+    translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "Debugger": {
-    val: "Debugger",
-    translated: false,
+    val: "Depurador",
+    translated: true,
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
   },
   "Decimal delimiter": {
-    val: "Decimal delimiter",
-    translated: false,
+    val: "Limite decimal",
+    translated: true,
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
@@ -562,33 +562,33 @@ const messages:IMessages = {
     h: "sm3jcrSw6qxgICiEpy25imvm6QNueF6oZ+oBxfeSEJg=",
   },
   "Delete Account": {
-    val: "Delete Account",
-    translated: false,
+    val: "Borrar Cuenta",
+    translated: true,
     h: "zTJTocYLEbNVwJ0ojyPCB6M0JpGx6fe6AZHWtuVJv0M=",
   },
   "Delete Connection": {
-    val: "Delete Connection",
-    translated: false,
+    val: "Borrar Conexión",
+    translated: true,
     h: "o6bxlUpjZFFTleiRLA4ykeB3yEHsAiXW9usUdJ9jh1g=",
   },
   "Delete Group": {
-    val: "Delete Group",
-    translated: false,
+    val: "Borrar Grupo",
+    translated: true,
     h: "VaefOk8g8N64N+Td8TEorhhMQBe0AuWmfRz7u7+Q1Ko=",
   },
   "Delete Macro": {
-    val: "Delete Macro",
-    translated: false,
+    val: "Borrar Macro",
+    translated: true,
     h: "Qb7shd6fRLybaDzPvdr0Z4VfVek/fHVV556kEcNZrH8=",
   },
   "Delete Transactions": {
-    val: "Delete Transactions",
-    translated: false,
+    val: "Borrar Transacciones",
+    translated: true,
     h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
   "Delete all": {
-    val: "Delete all",
-    translated: false,
+    val: "Borrar todo",
+    translated: true,
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
   },
   "Description": {
