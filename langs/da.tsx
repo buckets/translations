@@ -44,14 +44,14 @@ const messages:IMessages = {
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
   "A sync is already in progress": {
-    val: "A sync is already in progress",
-    translated: false,
+    val: "En synkronisering er allerede i gang",
+    translated: true,
     h: "z6CqgxENo0xxB0LPp8P8rmnLPp1m2NElecEaJM8GDfI=",
   },
   "About Buckets": {
     /* 'Buckets' refers to the application name */
-    val: "About Buckets",
-    translated: false,
+    val: "Om Buckets",
+    translated: true,
     h: "9bzPsx+kCkNUeLTSVjaygyWCkm3VCdsFaAFRvdS+xEU=",
   },
   "Access": {
@@ -61,76 +61,76 @@ const messages:IMessages = {
     h: "fm1fE44xW9uYPR90N2BgNNY+xQ/yovAUMBTbUTFj0F0=",
   },
   "Account": {
-    val: "Account",
-    translated: false,
+    val: "Konto",
+    translated: true,
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "Account Transactions": {
-    val: "Account Transactions",
-    translated: false,
+    val: "Kontooverførsler",
+    translated: true,
     h: "GPJhFDki3xJdCOMqCkqdUDX7SfEZcg9wGee8KMIuIno=",
   },
   "Account and transactions deleted": {
-    val: "Account and transactions deleted",
-    translated: false,
+    val: "Konto og overførsler slettet",
+    translated: true,
     h: "iwS2+dAqfDOEtU5SUm1d1oPFTe0+JT5NCm4nH2SrglE=",
   },
   "Account closed": {
-    val: "Account closed",
-    translated: false,
+    val: "Konto lukket",
+    translated: true,
     h: "l9xs5wLKF3KIgunL1SJh9r9XDYpWkC7LYrL4KUUFm3M=",
   },
   "Account deleted completely": {
-    val: "Account deleted completely",
-    translated: false,
+    val: "Kontoen er slettet permantent",
+    translated: true,
     h: "LswJ+SxzkHRVy6+Et4Wga6r/Io1P6MBlTiwdjUAUj48=",
   },
   "Account name": {
-    val: "Account name",
-    translated: false,
+    val: "Kontonavn",
+    translated: true,
     h: "Wo+ZnjRTxGkow1m4BGCavACj82/UajUNs6oLDXB++sU=",
   },
   "Accounts": {
-    val: "Accounts",
-    translated: false,
+    val: "Konti",
+    translated: true,
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Accounts in side bar": {
-    val: "Accounts in side bar",
-    translated: false,
+    val: "Konti i menuen",
+    translated: true,
     h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
   },
   "Actions": {
-    val: "Actions",
-    translated: false,
+    val: "Handlinger",
+    translated: true,
     h: "qm2CvbPMHZpeVCriZp/vJ2kAGatdeyDxfZ8TMaapQvo=",
   },
   "Activity": {
-    val: "Activity",
-    translated: false,
+    val: "Aktivitet",
+    translated: true,
     h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
   },
   "Actual Size": {
-    val: "Actual Size",
-    translated: false,
+    val: "Faktisk Størrelse",
+    translated: true,
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
   "Add": {
-    val: "Add",
-    translated: false,
+    val: "Tilføj",
+    translated: true,
     h: "sHHJQ9jaFQD0ZjykXnD1vKiFV5C98TviMmSgajkSEXY=",
   },
   "Add device": {
-    val: "Add device",
-    translated: false,
+    val: "Tilføj enhed",
+    translated: true,
     h: "VdeXP2eoJR+Sf3pph0sG+PV5E5Jq/mFGXEOAve8aad4=",
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
-    val: "All Files",
-    translated: false,
+    val: "Alle Filer",
+    translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Amazon.com Reconciliation": {
@@ -139,8 +139,8 @@ const messages:IMessages = {
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
-    val: "Amount",
-    translated: false,
+    val: "Beløb",
+    translated: true,
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
@@ -149,24 +149,24 @@ const messages:IMessages = {
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
-    val: "Analysis",
-    translated: false,
+    val: "Analyse",
+    translated: true,
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Animation": {
     /* Label for application preference enabling/disabling animations */
     val: "Animation",
-    translated: false,
+    translated: true,
     h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
-    val: "Any other monthly bills you have?",
-    translated: false,
+    val: "Har du flere månedlige regninger?",
+    translated: true,
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
-    val: "Application preferences",
-    translated: false,
+    val: "Præferencer",
+    translated: true,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
@@ -175,38 +175,38 @@ const messages:IMessages = {
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
-    val: "Attached files are too large.",
-    translated: false,
+    val: "Tilføjede fil er for stor.",
+    translated: true,
     h: "HfDI7uw+P4uLUPkDu0rxQhxJqjqcriWmD9EWYaiUqvY=",
   },
   "Average": {
-    val: "Average",
-    translated: false,
+    val: "Gennemsnit",
+    translated: true,
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
   "Avg:": {
-    val: "Avg:",
-    translated: false,
+    val: "Gns:",
+    translated: true,
     h: "EVMZyhHQEFPlI2ib8VqTJo25bJBk8gHsgZR1SZ2Jcj0=",
   },
   "Babysitting": {
-    val: "Babysitting",
-    translated: false,
+    val: "Børnepasning",
+    translated: true,
     h: "yOfOnHbye/Uhao1fb5jtfP4z0XPyc757kdBFt32Uwrc=",
   },
   "Balance": {
     val: "Balance",
-    translated: false,
+    translated: true,
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "Balance:": {
     val: "Balance:",
-    translated: false,
+    translated: true,
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
-    val: "Birthdays",
-    translated: false,
+    val: "Fødselsdage",
+    translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
@@ -215,8 +215,8 @@ const messages:IMessages = {
     h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
   },
   "Bring All to Front": {
-    val: "Bring All to Front",
-    translated: false,
+    val: "Bring Alt til Front",
+    translated: true,
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Bucket": {
