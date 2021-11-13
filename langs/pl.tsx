@@ -2255,7 +2255,7 @@ const messages:IMessages = {
     h: "8BZG+UdW1Rrd/+2zFNv7SskiNpD6DtlNa8LwQulqX5s=",
   },
   "You haven't kicked the bucket yet...": {
-    val: "Nie wywróciłeś jeszcze żadnego kupełka...",
+    val: "Nie wywróciłeś jeszcze żadnego kubełka...",
     translated: true,
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
