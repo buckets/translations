@@ -135,6 +135,8 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
     val: "Todos los archivos",
     translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
@@ -248,6 +250,7 @@ const messages:IMessages = {
   "Buckets": {
     /* Bucket list page title.  Does NOT refer to the application name */
     /* Refers to a list of buckets, not the application title */
+    /* Refers to a list of buckets, not the application title */
     val: "Cubos",
     translated: true,
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
@@ -259,6 +262,7 @@ const messages:IMessages = {
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "Buckets License": {
+    /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
     val: "Licencia para Buckets",
     translated: true,
@@ -944,6 +948,7 @@ const messages:IMessages = {
     h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
   },
   "Import file": {
+    /* Button label for starting a file import */
     /* Button label for starting a file import */
     val: "Importar archivo",
     translated: true,
