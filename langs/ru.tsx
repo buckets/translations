@@ -298,39 +298,39 @@ const messages:IMessages = {
     h: "oqAayNv4L3OeWfsN66FDAh9MWIsR//voLRTEotp3GUQ=",
   },
   "Cable TV": {
-    val: "Cable TV",
-    translated: false,
+    val: "Кабельное ТВ",
+    translated: true,
     h: "wISz6Dh0vnQ1Tjhr9GWcJ2rhiif2af6NXsAzEAXYxfo=",
   },
   "Calculator": {
-    val: "Calculator",
-    translated: false,
+    val: "Калькулятор",
+    translated: true,
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Cancel": {
     /* Button label */
-    val: "Cancel",
-    translated: false,
+    val: "Отмена",
+    translated: true,
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
   },
   "Cancel sync": {
-    val: "Cancel sync",
-    translated: false,
+    val: "Отменить синхронизацию",
+    translated: true,
     h: "8xFWyPShIifEhumOA/PeoTtccm5TTtbQmWFViIGcPQA=",
   },
   "Car Insurance": {
-    val: "Car Insurance",
-    translated: false,
+    val: "Автострахование",
+    translated: true,
     h: "x3xbGNEH/vHcpYAm2HXTUhRRuz2sb6yfH0gBYFFkqc4=",
   },
   "Car Maintenance": {
-    val: "Car Maintenance",
-    translated: false,
+    val: "Обслуживание авто",
+    translated: true,
     h: "Lsok3+kX1L7SXMumFWNo+oxBgfmGJcWg1CdSDw6byx8=",
   },
   "Car Payment": {
-    val: "Car Payment",
-    translated: false,
+    val: "Платежи за авто",
+    translated: true,
     h: "wp49ZoinRgifzKQ+N9RrJ6LG/9Yw6hkw1RCwXwHc6tA=",
   },
   "Categorization": {
@@ -349,44 +349,44 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change Account Type": {
-    val: "Change Account Type",
-    translated: false,
+    val: "Изменить тип счета",
+    translated: true,
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
-    val: "Charity",
-    translated: false,
+    val: "Благотворительность",
+    translated: true,
     h: "5OqY1JRI3brWCHQyu9VDY9hpjXzg1cVB1oQnXLQjZ4U=",
   },
   "Chat with Matt": {
     /* If "Chat with Matt" is too wide, you can translate this as just "Chat" */
-    val: "Chat with Matt",
-    translated: false,
+    val: "Чат с Мэттом",
+    translated: true,
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "Chat...": {
-    val: "Chat...",
-    translated: false,
+    val: "Чат...",
+    translated: true,
     h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Check For Updates...": {
-    val: "Check For Updates...",
-    translated: false,
+    val: "Проверить обновления...",
+    translated: true,
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
   "Check for Updates": {
-    val: "Check for Updates",
-    translated: false,
+    val: "Проверить обновления",
+    translated: true,
     h: "6vtxqhyfiDaIXgTBH0pdoPzTGftDDEoRFNGU082PhRk=",
   },
   "Checking for updates...": {
-    val: "Checking for updates...",
-    translated: false,
+    val: "Проверяем обновления...",
+    translated: true,
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Choose a file ending in either .ynab4 or .ymeta",
-    translated: false,
+    val: "Выберите файл с расширением .ynab4 или .ymeta",
+    translated: true,
     h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
   },
   "Cleared": {
@@ -407,34 +407,34 @@ const messages:IMessages = {
     h: "17QBrVZk8kjbKoqmqsbEBBHyjcoru22TcYanag65Jrw=",
   },
   "Close Account": {
-    val: "Close Account",
-    translated: false,
+    val: "Закрыть счет",
+    translated: true,
     h: "qTJEf8mdhLx1bU9LZPYaTtrT8pMLqxemoL/YqbhjESI=",
   },
   "Close Window": {
-    val: "Close Window",
-    translated: false,
+    val: "Закрыть окно",
+    translated: true,
     h: "hrPxvP/hrVgtNNTMX4sv5sljx57neTy+2p0U1TKGuCE=",
   },
   "Close account": {
-    val: "Close account",
-    translated: false,
+    val: "Закрыть счет",
+    translated: true,
     h: "7HdV8X8++teDNW33urE2eccDw3VLdSpvII89zC/sfu4=",
   },
   "Closed": {
     /* ! Label for list of closed accounts */
-    val: "Closed",
-    translated: false,
+    val: "Закрыт",
+    translated: true,
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "Clothing": {
-    val: "Clothing",
-    translated: false,
+    val: "Одежда",
+    translated: true,
     h: "as4CQmPu3VF2LxSvA5djgiAPatdFRqwmOt0NiHJCe7E=",
   },
   "Confirm password:": {
-    val: "Confirm password:",
-    translated: false,
+    val: "Подтверждение пароля:",
+    translated: true,
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Connect": {
@@ -469,8 +469,8 @@ const messages:IMessages = {
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
   "Copy": {
-    val: "Copy",
-    translated: false,
+    val: "Копировать",
+    translated: true,
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Create Account": {
@@ -520,13 +520,13 @@ const messages:IMessages = {
   },
   "Currency symbol": {
     /* Label for currency symbol setting */
-    val: "Currency symbol",
-    translated: false,
+    val: "Символ валюты",
+    translated: true,
     h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
-    val: "Cut",
-    translated: false,
+    val: "Вырезать",
+    translated: true,
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
   "Date Posted": {
@@ -542,8 +542,8 @@ const messages:IMessages = {
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
-    val: "Debt",
-    translated: false,
+    val: "Долги",
+    translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "Debugger": {
@@ -557,8 +557,8 @@ const messages:IMessages = {
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
-    val: "Delete",
-    translated: false,
+    val: "Удалить",
+    translated: true,
     h: "sm3jcrSw6qxgICiEpy25imvm6QNueF6oZ+oBxfeSEJg=",
   },
   "Delete Account": {
@@ -587,18 +587,18 @@ const messages:IMessages = {
     h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
   "Delete all": {
-    val: "Delete all",
-    translated: false,
+    val: "Удалить все",
+    translated: true,
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
   },
   "Description": {
-    val: "Description",
-    translated: false,
+    val: "Описание",
+    translated: true,
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "Diapers": {
-    val: "Diapers",
-    translated: false,
+    val: "Подгузники",
+    translated: true,
     h: "Vr53xwIeHjIIuMymcxrQ3l1RsDE6ra+ZTFT4dbR/rlI=",
   },
   "Disable Macro": {
@@ -617,18 +617,18 @@ const messages:IMessages = {
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
   },
   "Download": {
-    val: "Download",
-    translated: false,
+    val: "Скачать",
+    translated: true,
     h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
-    val: "Download Update",
-    translated: false,
+    val: "Скачать обновление",
+    translated: true,
     h: "OvekDBh71chOkbTXqPs/V/x0lNbpc668s4hyXRF5G+I=",
   },
   "Downloading update...": {
-    val: "Downloading update...",
-    translated: false,
+    val: "Обновление скачивается...",
+    translated: true,
     h: "vTHXpZeFxjQhKPwUQPCm+eHcyYR6YjSmIm4mtV/5iTE=",
   },
   "Duplicate Window": {
@@ -643,8 +643,8 @@ const messages:IMessages = {
     h: "NZPVXQ+Dw1vv0fLXY+Z4R1KiEkXjDZtSmY3tVz5L1VI=",
   },
   "Eating out": {
-    val: "Eating out",
-    translated: false,
+    val: "Рестораны",
+    translated: true,
     h: "aiQggrM+Wb8WtkoJykeSDnNiCBgzGqVGc1Hvkf5Uzg8=",
   },
   "Edit": {
@@ -653,8 +653,8 @@ const messages:IMessages = {
     h: "9+ZynTDPePvsJX4rW8Mn0wEzk0GRQ+udON01NKHVsQU=",
   },
   "Electricity": {
-    val: "Electricity",
-    translated: false,
+    val: "Электричество",
+    translated: true,
     h: "D85G++Fy1hUUGZfHiKAUcNRlXmLcdkKK7RtxnwJ110U=",
   },
   "Enable Macro": {
@@ -683,8 +683,8 @@ const messages:IMessages = {
     h: "A+/eZ8qTAh97iBouJPInRkCg7F0nOkteYEBO7+lFHHA=",
   },
   "Error": {
-    val: "Error",
-    translated: false,
+    val: "Ошибка",
+    translated: true,
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
   "Error during import": {
@@ -728,14 +728,14 @@ const messages:IMessages = {
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "Export": {
-    val: "Export",
-    translated: false,
+    val: "Экспорт",
+    translated: true,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
   "Faint cents": {
     /* Label for application preference enabling/disabling faint cents */
-    val: "Faint cents",
-    translated: false,
+    val: "Полупрозрачные копейки",
+    translated: true,
     h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
   },
   "File": {
@@ -796,8 +796,8 @@ const messages:IMessages = {
     h: "cCFAY2/zl3pq5fMwrP/2LBsrrL36SYzS+6in7mvWyvY=",
   },
   "Fuel": {
-    val: "Fuel",
-    translated: false,
+    val: "Топливо",
+    translated: true,
     h: "lU9dO2a3oisfgHqd0n39sKC/wl7ymSV/XprtLhQLEiI=",
   },
   "Gain/Loss": {
@@ -832,8 +832,8 @@ const messages:IMessages = {
     h: "rtvJnJFYA7lHYjPjGpF27/h2So3pRdrRLjfnkg78woQ=",
   },
   "Groceries": {
-    val: "Groceries",
-    translated: false,
+    val: "Продовольственные товары",
+    translated: true,
     h: "T6Kz6/FDxQkeIUJq8SVGn0T7OPdZ7B0YjPD3qHqW5p4=",
   },
   "Guide": {
@@ -849,8 +849,8 @@ const messages:IMessages = {
     h: "uRtdJlb7w3q8Zl9lZhtY0JReqNVI7CfOdo5I9SW5lfw=",
   },
   "Health Insurance": {
-    val: "Health Insurance",
-    translated: false,
+    val: "Медицинская страховка",
+    translated: true,
     h: "nsWIG2Kbb9OtoQkBvgkFh5MfMVNfbuGKhZypQ3uoQJw=",
   },
   "Hello!  Thanks for trying out Buckets.": {
@@ -875,8 +875,8 @@ const messages:IMessages = {
     h: "RpKz0G7Y8OE5oyGm0/zRffPdr7RQkneZCYrikLHIZ+U=",
   },
   "Holidays": {
-    val: "Holidays",
-    translated: false,
+    val: "Праздники",
+    translated: true,
     h: "HTQ10E8CaKVUu71N6uLx9J+Y6naLLRX37v0oQkesV3k=",
   },
   "Household goods": {
@@ -905,8 +905,8 @@ const messages:IMessages = {
     h: "bxc4+JxhDrm2oYWek0ISeJDxq173KLfpcnOT4GEMWGQ=",
   },
   "Import": {
-    val: "Import",
-    translated: false,
+    val: "Импорт",
+    translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Import .zip file": {
@@ -988,8 +988,8 @@ const messages:IMessages = {
     h: "bzusTDIT831mqEwmmM59eT12mfoNMYiGPbUfoIzaCwo=",
   },
   "Internet": {
-    val: "Internet",
-    translated: false,
+    val: "Интернет",
+    translated: true,
     h: "LUwTAW8PsV34HKGrTUopI7v3NFK8iWKpv5Nb8EOtU1E=",
   },
   "Invalid": {
