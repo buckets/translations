@@ -139,8 +139,8 @@ const messages:IMessages = {
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
-    val: "Amount",
-    translated: false,
+    val: "Количество",
+    translated: true,
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
@@ -149,24 +149,24 @@ const messages:IMessages = {
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
-    val: "Analysis",
-    translated: false,
+    val: "Анализ",
+    translated: true,
     h: "+LNAOPSLW2rpFCrT+U1suhdnoYyZa1k8ALddRlddDlI=",
   },
   "Animation": {
     /* Label for application preference enabling/disabling animations */
-    val: "Animation",
-    translated: false,
+    val: "Анимации",
+    translated: true,
     h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
-    val: "Any other monthly bills you have?",
-    translated: false,
+    val: "Другие ежемесячные платежи?",
+    translated: true,
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
-    val: "Application preferences",
-    translated: false,
+    val: "Настройки приложения",
+    translated: true,
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
@@ -175,8 +175,8 @@ const messages:IMessages = {
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
-    val: "Attached files are too large.",
-    translated: false,
+    val: "Прикрепленные файлы слишком большие.",
+    translated: true,
     h: "HfDI7uw+P4uLUPkDu0rxQhxJqjqcriWmD9EWYaiUqvY=",
   },
   "Average": {
@@ -190,23 +190,23 @@ const messages:IMessages = {
     h: "EVMZyhHQEFPlI2ib8VqTJo25bJBk8gHsgZR1SZ2Jcj0=",
   },
   "Babysitting": {
-    val: "Babysitting",
-    translated: false,
+    val: "Няня",
+    translated: true,
     h: "yOfOnHbye/Uhao1fb5jtfP4z0XPyc757kdBFt32Uwrc=",
   },
   "Balance": {
-    val: "Balance",
-    translated: false,
+    val: "Баланс",
+    translated: true,
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "Balance:": {
-    val: "Balance:",
-    translated: false,
+    val: "Баланс:",
+    translated: true,
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
-    val: "Birthdays",
-    translated: false,
+    val: "Дни рождения",
+    translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
@@ -220,8 +220,8 @@ const messages:IMessages = {
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Bucket": {
-    val: "Bucket",
-    translated: false,
+    val: "Ведро",
+    translated: true,
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "Bucket Transactions": {
@@ -230,21 +230,21 @@ const messages:IMessages = {
     h: "5hMoGWO5uTeCOujLdFnRx4w3D6Zka/avSxnH14UmJiI=",
   },
   "Bucket deleted completely": {
-    val: "Bucket deleted completely",
-    translated: false,
+    val: "Ведро удалено полностью",
+    translated: true,
     h: "gBMlSFTWDRRSWZeZ3fuxDhpJnhv2MoF3EvZSwo1BZHg=",
   },
   "Bucket type:": {
-    val: "Bucket type:",
-    translated: false,
+    val: "Тип ведра:",
+    translated: true,
     h: "NMC+sjsH6UgNhNtiqYeiHDi4zDK/+S5h5yMfZ5CQk1c=",
   },
   "Buckets": {
     /* Bucket list page title.  Does NOT refer to the application name */
     /* Refers to a list of buckets, not the application title */
     /* Refers to a list of buckets, not the application title */
-    val: "Buckets",
-    translated: false,
+    val: "Ведра",
+    translated: true,
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Buckets Budget Filename": {
@@ -256,8 +256,8 @@ const messages:IMessages = {
   "Buckets License": {
     /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
-    val: "Buckets License",
-    translated: false,
+    val: "Лицензия Buckets",
+    translated: true,
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
   "Buckets has crashed.  Please restart after submitting a bug report.": {
@@ -266,8 +266,8 @@ const messages:IMessages = {
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
   "Budget": {
-    val: "Budget",
-    translated: false,
+    val: "Бюджет",
+    translated: true,
     h: "zOO4DqNSFLa6Z9vlmfaz8OnwggHn8wJeP058V5mUKbE=",
   },
   "Budget Specific Settings": {
