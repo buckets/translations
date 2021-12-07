@@ -19,7 +19,8 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   89% | Polski |
 |   91% | Português |
 |    5% | Română |
-|   15% | English |
+|   15% | русский язык |
+|   98% | Svenska |
 |   98% | Svenska |
 |   10% | Türkçe |
 <!-- trans stats end -->
