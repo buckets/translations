@@ -13,11 +13,6 @@ const contributors = [
 ];
 
 const messages:IMessages = {
-  "": {
-    val: "",
-    translated: true,
-    h: "Eq4yyx7ALQHto1gbEnwf7jsNxTVy7WuvI5choD2C4SY=",
-  },
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
     val: "\n        Hoewel het de voorkeur heeft om dit formulier in te vullen, kan je ook een e-mail sturen aan bugs@budgetwithbuckets.com\n      ",
     translated: true,
@@ -53,12 +48,6 @@ const messages:IMessages = {
     val: "Over Buckets",
     translated: true,
     h: "9bzPsx+kCkNUeLTSVjaygyWCkm3VCdsFaAFRvdS+xEU=",
-  },
-  "Access": {
-    /* Label for section describing which budget files a remote device has access to */
-    val: "Toegang",
-    translated: true,
-    h: "fm1fE44xW9uYPR90N2BgNNY+xQ/yovAUMBTbUTFj0F0=",
   },
   "Account": {
     val: "Rekening",
@@ -120,11 +109,6 @@ const messages:IMessages = {
     translated: true,
     h: "sHHJQ9jaFQD0ZjykXnD1vKiFV5C98TviMmSgajkSEXY=",
   },
-  "Add device": {
-    val: "Apparaat toevoegen",
-    translated: true,
-    h: "VdeXP2eoJR+Sf3pph0sG+PV5E5Jq/mFGXEOAve8aad4=",
-  },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
@@ -132,6 +116,11 @@ const messages:IMessages = {
     val: "Alle bestanden",
     translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
+  },
+  "Allow new device requests": {
+    val: "Allow new device requests",
+    translated: false,
+    h: "+ADhW+DC+iBwee59O+D2to40KBQLqc3YMIxy7akwYiQ=",
   },
   "Amazon.com Reconciliation": {
     val: "Amazon.com Afvinken",
@@ -352,6 +341,17 @@ const messages:IMessages = {
     val: "Verander Rekeningtype",
     translated: true,
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
+  },
+  "Channel": {
+    /* Label for sharing channel name */
+    val: "Channel",
+    translated: false,
+    h: "6McSbB26j6gQAt0v7ByUJ/jiHqBZ2yz4LSOmbKx3YvY=",
+  },
+  "Channels": {
+    val: "Channels",
+    translated: false,
+    h: "3WbePrysEPFoKdtJSdWovHXxPrOsBkkHhJdOkxTq8wQ=",
   },
   "Charity": {
     val: "Goed doel",
@@ -596,6 +596,12 @@ const messages:IMessages = {
     translated: true,
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
+  "Details": {
+    /* Label for sharing channel details */
+    val: "Details",
+    translated: false,
+    h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
+  },
   "Diapers": {
     val: "Luiers",
     translated: true,
@@ -605,6 +611,11 @@ const messages:IMessages = {
     val: "Makro Uitzetten",
     translated: true,
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
+  },
+  "Disconnected": {
+    val: "Disconnected",
+    translated: false,
+    h: "8d3FMs2ZCPYbCLDzsVcqXsv6b5vDilOwJCEAevNsZDM=",
   },
   "Do both devices display the same image and code?": {
     val: "Tonen beide apparaten dezelfde afbeelding en code?",
@@ -1739,6 +1750,12 @@ const messages:IMessages = {
     translated: true,
     h: "sXtF785DDyaMA5+7grS0FR9Xf+cCqlpKgGWZAi6By8g=",
   },
+  "Shared budgets": {
+    /* Label for section describing which budget files a remote device has access to */
+    val: "Shared budgets",
+    translated: false,
+    h: "UQn60QixD7w25g/NX5rq2c4M8zrsWvc6m5TUNcT82oI=",
+  },
   "Sharing": {
     val: "Delen",
     translated: true,
@@ -2424,10 +2441,10 @@ const messages:IMessages = {
     translated: true,
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
-  "connection-instructions": {
-    val: "Geef de volgende connectie-URL in op andere apparaten",
-    translated: true,
-    h: "kwKSKlSPTFMLAO7bG4077aAVl7XZft2SrNJMOfe5ILQ=",
+  "connection-instructions-v2": {
+    val: "Provide the following Channel URL to the other device",
+    translated: false,
+    h: "thD/PduOJDWrYRJ+keTXRs1XF7c7vgIpmmPpmtO/B7M=",
   },
   "daterange.all": {
     val: "Alles",
