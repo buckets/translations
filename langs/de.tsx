@@ -118,8 +118,8 @@ const messages:IMessages = {
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Allow new device requests": {
-    val: "Allow new device requests",
-    translated: false,
+    val: "Erlaube Anfragen neuer Geräte",
+    translated: true,
     h: "+ADhW+DC+iBwee59O+D2to40KBQLqc3YMIxy7akwYiQ=",
   },
   "Amazon.com Reconciliation": {
@@ -535,8 +535,8 @@ const messages:IMessages = {
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Date format": {
-    val: "Date format",
-    translated: false,
+    val: "Datumsformat",
+    translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
   },
   "Debt": {
@@ -552,8 +552,8 @@ const messages:IMessages = {
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
   },
   "Decimal delimiter": {
-    val: "Decimal delimiter",
-    translated: false,
+    val: "Dezimaltrennzeichen",
+    translated: true,
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Delete": {
@@ -599,7 +599,7 @@ const messages:IMessages = {
   "Details": {
     /* Label for sharing channel details */
     val: "Details",
-    translated: false,
+    translated: true,
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "Diapers": {
@@ -613,8 +613,8 @@ const messages:IMessages = {
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
   },
   "Disconnected": {
-    val: "Disconnected",
-    translated: false,
+    val: "Unterbrochen",
+    translated: true,
     h: "8d3FMs2ZCPYbCLDzsVcqXsv6b5vDilOwJCEAevNsZDM=",
   },
   "Do both devices display the same image and code?": {
@@ -699,8 +699,8 @@ const messages:IMessages = {
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
   "Error during import": {
-    val: "Error during import",
-    translated: false,
+    val: "Fehler beim Importieren",
+    translated: true,
     h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
   },
   "Error fetching data": {
@@ -745,8 +745,8 @@ const messages:IMessages = {
   },
   "Faint cents": {
     /* Label for application preference enabling/disabling faint cents */
-    val: "Faint cents",
-    translated: false,
+    val: "Cent ausblenden",
+    translated: true,
     h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
   },
   "File": {
@@ -921,13 +921,13 @@ const messages:IMessages = {
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Import .zip file": {
-    val: "Import .zip file",
-    translated: false,
+    val: ".zip-Datei imporiteren",
+    translated: true,
     h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
   },
   "Import From Web YNAB...": {
-    val: "Import From Web YNAB...",
-    translated: false,
+    val: "Von Web YNAB importieren",
+    translated: true,
     h: "7Yteq/akhgWWCBUeqgBRz4wP6bKcirfp74uLeTQop3Q=",
   },
   "Import From YNAB4...": {
@@ -946,8 +946,8 @@ const messages:IMessages = {
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import complete!": {
-    val: "Import complete!",
-    translated: false,
+    val: "Import vollständig!",
+    translated: true,
     h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
   },
   "Import file": {
@@ -958,8 +958,8 @@ const messages:IMessages = {
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
   },
   "Import from Web YNAB": {
-    val: "Import from Web YNAB",
-    translated: false,
+    val: "Von Web YNAB importieren",
+    translated: true,
     h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
@@ -1398,8 +1398,8 @@ const messages:IMessages = {
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "Open Web YNAB Zip File": {
-    val: "Open Web YNAB Zip File",
-    translated: false,
+    val: "Öffne Web YNAB .zip-Datei",
+    translated: true,
     h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
   },
   "Open YNAB4 File": {
@@ -1752,8 +1752,8 @@ const messages:IMessages = {
   },
   "Shared budgets": {
     /* Label for section describing which budget files a remote device has access to */
-    val: "Shared budgets",
-    translated: false,
+    val: "Geteilte Budgets",
+    translated: true,
     h: "UQn60QixD7w25g/NX5rq2c4M8zrsWvc6m5TUNcT82oI=",
   },
   "Sharing": {
@@ -1783,8 +1783,8 @@ const messages:IMessages = {
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "Sign in to the YNAB website, click My Budget then Export Budget.": {
-    val: "Sign in to the YNAB website, click My Budget then Export Budget.",
-    translated: false,
+    val: "Melde dich auf der YNAB-Website an, wähle My Budget aus und drücke Export Budget.",
+    translated: true,
     h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
   },
   "SimpleFIN Connections": {
@@ -1951,8 +1951,8 @@ const messages:IMessages = {
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "Thousands separator": {
-    val: "Thousands separator",
-    translated: false,
+    val: "Tausendertrennzeichen",
+    translated: true,
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
@@ -2213,7 +2213,7 @@ const messages:IMessages = {
   "Web YNAB Export": {
     /* Label for YNAB export file type */
     val: "Web YNAB Export",
-    translated: false,
+    translated: true,
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
