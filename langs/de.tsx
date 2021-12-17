@@ -921,7 +921,7 @@ const messages:IMessages = {
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Import .zip file": {
-    val: ".zip-Datei imporiteren",
+    val: ".zip-Datei importieren",
     translated: true,
     h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
   },
