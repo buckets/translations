@@ -1217,7 +1217,6 @@ const messages:IMessages = {
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
-    /* To the best of my knowledge, no such verb in french ; have to go around */
     val: "Passer en négatif",
     translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
