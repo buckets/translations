@@ -2,7 +2,6 @@
 
 import { IMsg, IMessageSet } from '@iffycan/i18n'
 export interface IMessages extends IMessageSet {
-  "": IMsg<string>;
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
@@ -10,7 +9,6 @@ export interface IMessages extends IMessageSet {
   "/mo": IMsg<string>;
   "A sync is already in progress": IMsg<string>;
   "About Buckets": IMsg<string>;
-  "Access": IMsg<string>;
   "Account": IMsg<string>;
   "Account Transactions": IMsg<string>;
   "Account and transactions deleted": IMsg<string>;
@@ -23,8 +21,8 @@ export interface IMessages extends IMessageSet {
   "Activity": IMsg<string>;
   "Actual Size": IMsg<string>;
   "Add": IMsg<string>;
-  "Add device": IMsg<string>;
   "All Files": IMsg<string>;
+  "Allow new device requests": IMsg<string>;
   "Amazon.com Reconciliation": IMsg<string>;
   "Amount": IMsg<string>;
   "Amount of money over-allocated in buckets.": IMsg<string>;
@@ -67,6 +65,8 @@ export interface IMessages extends IMessageSet {
   "Categorize": IMsg<string>;
   "Category": IMsg<string>;
   "Change Account Type": IMsg<string>;
+  "Channel": IMsg<string>;
+  "Channels": IMsg<string>;
   "Charity": IMsg<string>;
   "Chat with Matt": IMsg<string>;
   "Chat...": IMsg<string>;
@@ -114,8 +114,10 @@ export interface IMessages extends IMessageSet {
   "Delete Transactions": IMsg<string>;
   "Delete all": IMsg<string>;
   "Description": IMsg<string>;
+  "Details": IMsg<string>;
   "Diapers": IMsg<string>;
   "Disable Macro": IMsg<string>;
+  "Disconnected": IMsg<string>;
   "Do both devices display the same image and code?": IMsg<string>;
   "Done": IMsg<string>;
   "Download": IMsg<string>;
@@ -336,6 +338,7 @@ export interface IMessages extends IMessageSet {
   "Set mapping": IMsg<string>;
   "Settings": IMsg<string>;
   "Share from this computer": IMsg<string>;
+  "Shared budgets": IMsg<string>;
   "Sharing": IMsg<string>;
   "Show All": IMsg<string>;
   "Show Log Files...": IMsg<string>;
@@ -470,7 +473,7 @@ export interface IMessages extends IMessageSet {
   "buckettype.goal-deposit": IMsg<string>;
   "buckettype.plain": IMsg<string>;
   "budget-file-type-name": IMsg<string>;
-  "connection-instructions": IMsg<string>;
+  "connection-instructions-v2": IMsg<string>;
   "daterange.all": IMsg<string>;
   "daterange.from2monthsago": IMsg<string>;
   "daterange.from3monthsago": IMsg<string>;

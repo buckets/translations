@@ -6,21 +6,22 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 | Complete | Language |
 |-------|---|
 |    5% | Dansk |
-|   97% | Deutsch |
+|   96% | Deutsch |
 |  100% | English |
-|   65% | Español |
-|   89% | Eesti |
-|   86% | Français |
+|   64% | Español |
+|   88% | Eesti |
+|   94% | Français |
 |    1% | עִברִית |
-|   58% | Magyar |
+|   57% | Magyar |
 |   77% | Italiano |
-|   99% | Norsk |
-|  100% | Nederlands |
-|   89% | Polski |
-|   91% | Português |
+|   98% | Norsk |
+|   98% | Nederlands |
+|   88% | Polski |
+|   90% | Português |
 |    5% | Română |
-|   98% | Svenska |
-|   10% | Türkçe |
+|   14% | русский язык |
+|   97% | Svenska |
+|    9% | Türkçe |
 <!-- trans stats end -->
 
 # How to contribute
