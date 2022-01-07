@@ -1574,7 +1574,7 @@ const messages:IMessages = {
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
   },
   "Rainfall this month:": {
-    val: "Lluvia este mes:",
+    val: "Lluvia durante este mes:",
     translated: true,
     h: "S6dFwRYAFyRMUh4i6My2aNacGwMh8taa7neVTx9aiAM=",
   },
@@ -1672,7 +1672,7 @@ const messages:IMessages = {
     h: "Q34JZduUI2Lx8xxjkeH/Md92nqWgEcbPFZjgf5m7tXA=",
   },
   "Restart Buckets": {
-    val: "Reiniciar buckets",
+    val: "Reiniciar Buckets",
     translated: true,
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
@@ -1768,7 +1768,7 @@ const messages:IMessages = {
   },
   "Shared budgets": {
     /* Label for section describing which budget files a remote device has access to */
-    val: "Presupuestos compartirdos",
+    val: "Presupuestos compartidos",
     translated: true,
     h: "UQn60QixD7w25g/NX5rq2c4M8zrsWvc6m5TUNcT82oI=",
   },
@@ -1810,18 +1810,18 @@ const messages:IMessages = {
   },
   "SimpleFIN client unconfigured": {
     /* Error when SimpleFIN is not configured */
-    val: "SimpleFIN client unconfigured",
-    translated: false,
+    val: "Cliente SimpleFIN sin configurar",
+    translated: true,
     h: "KYsU2dr94wbYwGx9gIb2sR6Hhmm8Eu4AYBSKf4nnWMU=",
   },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
-    val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
-    translated: false,
+    val: "Dado que algunos cubos tienen saldo negativo, el saldo puede no corresponderse con el que en realidad esté disponible para realizar el pago.",
+    translated: true,
     h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
-    val: "Skip This Version",
-    translated: false,
+    val: "Saltar esta versión",
+    translated: true,
     h: "YnC7GSI4QITirt1GGV/Tc1FvTbJYICkEeF3zj4u4eak=",
   },
   "Speech": {
@@ -1830,13 +1830,13 @@ const messages:IMessages = {
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Spending Money": {
-    val: "Spending Money",
-    translated: false,
+    val: "Dinero para gastar",
+    translated: true,
     h: "7mLvCPVxhYqWXYW8EcSN4N6vyUtQqT4PnR0iC1ucTtY=",
   },
   "Start Over": {
-    val: "Start Over",
-    translated: false,
+    val: "Empezar de cero",
+    translated: true,
     h: "hlKNxy6ZDz4ny/qpQfkv6FwXDangtq2ECEo+ICgEbJs=",
   },
   "Start Speaking": {
@@ -1845,19 +1845,19 @@ const messages:IMessages = {
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
-    val: "Start with a template",
-    translated: false,
+    val: "Comenzar con una plantilla",
+    translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
   "Status": {
     /* Connection status of remote devices */
-    val: "Status",
-    translated: false,
+    val: "Estado de la conexión",
+    translated: true,
     h: "fu712YZJJBbNWIpP5QaYV+fcz5rcN4DkkaOGdL/X6hk=",
   },
   "Step took too long": {
-    val: "Step took too long",
-    translated: false,
+    val: "Este paso está durando demasiado tiempo",
+    translated: true,
     h: "Py3rsk0guEg0d8Ce9Lbfwzf1zP7E4Z8YPSOu165mOc0=",
   },
   "Stop Speaking": {
@@ -1866,8 +1866,8 @@ const messages:IMessages = {
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Student Loan Payment": {
-    val: "Student Loan Payment",
-    translated: false,
+    val: "Pago de préstamo de estudios",
+    translated: true,
     h: "j83e9PkiJgq0J5iPOaku/mbjw9H3KtXBaDV4ntsQktk=",
   },
   "Submit": {
@@ -1901,13 +1901,13 @@ const messages:IMessages = {
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
   },
   "Sync complete": {
-    val: "Sincronización terminó",
+    val: "Sincronización finalizada",
     translated: true,
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
   },
   "Sync has not yet been set up.": {
-    val: "Sync has not yet been set up.",
-    translated: false,
+    val: "No se ha configurado todavía la sincronización.",
+    translated: true,
     h: "B5XIfqqMdt0gMHz2zsZr9GTj9vSRAS5R2akgGce+fsg=",
   },
   "Synced balance": {
@@ -1922,8 +1922,8 @@ const messages:IMessages = {
   },
   "System default": {
     /* Option for Buckets language preference */
-    val: "System default",
-    translated: false,
+    val: "SIdioma del sistema operativo por defecto",
+    translated: true,
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
@@ -1937,38 +1937,38 @@ const messages:IMessages = {
     h: "5SbiliirLaAKLdgRThX+cO2RwGuC87t3Z1O0xT2WsAE=",
   },
   "There has been an error.": {
-    val: "Hay error.",
+    val: "Ha ocurrido un error.",
     translated: true,
     h: "viN5uLRSpgzhvoD9KO9g1cr7ihLQ0Men9LiUpy9RcwE=",
   },
   "There was an error.  Maybe try again?": {
-    val: "Habia error.  ¿Inténtelo de nuevo?",
+    val: "Hab ocurrido un error.  ¿Inténtelo de nuevo?",
     translated: true,
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": {
-    val: "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.",
-    translated: false,
+    val: "Este presupuesto ha sido modificado por una versión más moderna de Bucket. Si lo abre en una versión más antigua, tal vez no funcione.",
+    translated: true,
     h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
   },
   "This device's name": {
-    val: "This device's name",
-    translated: false,
+    val: "Nombre de este dispositivo",
+    translated: true,
     h: "eTNSTczX466LRmFxprC4rfZhDomB7x4xWYltPshnAB4=",
   },
   "This is a special group for all the buckets without a group.": {
-    val: "Este grupo especial es para los cubos cuales no tienen grupo.",
+    val: "Este es un grupo especial en que se incluyen todos los cubos que no lo están ya en otro.",
     translated: true,
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
-    val: "This tool will delete data to make it easy to start over with your budget.",
-    translated: false,
+    val: "Esta herramienta eliminará los datos para facilitar el comienzo desde cero en su nuevo presupuesto.",
+    translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "Thousands separator": {
-    val: "Thousands separator",
-    translated: false,
+    val: "Carácter separador de unidades de millar",
+    translated: true,
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
@@ -1997,8 +1997,8 @@ const messages:IMessages = {
     h: "UtK2gxh+N9D/p1G6dLyhcKMP5Df5XCyEp0jM0c+qoUw=",
   },
   "Transaction": {
-    val: "Transaction",
-    translated: false,
+    val: "Transacción",
+    translated: true,
     h: "G0gRZS6Zq1VoQqtY+L8fY3ogdqSl/OAoTurOZ4L480Q=",
   },
   "Transactions": {
@@ -2007,13 +2007,13 @@ const messages:IMessages = {
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Transactions to review": {
-    val: "Transactions to review",
-    translated: false,
+    val: "Transacciones a revisar",
+    translated: true,
     h: "fcauVC7MkwNPXVHbfBl427k53jL2beDDx711UkVI5tg=",
   },
   "Transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "Transferencia",
+    translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Trial Version": {
@@ -2022,21 +2022,21 @@ const messages:IMessages = {
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Tuition": {
-    val: "Tuition",
-    translated: false,
+    val: "Matrícula de estudios",
+    translated: true,
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
-    val: "Des-echar",
+    val: "Desarchivar",
     translated: true,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
     /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
     /* Name of action.  Consider this "Unarchive Bucket" */
-    val: "Un-kick Bucket",
-    translated: false,
+    val: "Desarchivar cubo",
+    translated: true,
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
