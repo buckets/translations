@@ -123,7 +123,7 @@ const messages:IMessages = {
     h: "+ADhW+DC+iBwee59O+D2to40KBQLqc3YMIxy7akwYiQ=",
   },
   "Amazon.com Reconciliation": {
-    val: "Reconciliere Amazon.com"
+    val: "Reconciliere Amazon.com",
     translated: true,
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
@@ -194,7 +194,7 @@ const messages:IMessages = {
     h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
-    val: "Zile de naștere",,
+    val: "Zile de naștere",
     translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
@@ -485,7 +485,7 @@ const messages:IMessages = {
     h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
   },
   "Create Backup and Start Over": {
-    val: "Creați o copie de rezervă și luați-o de la capăt"
+    val: "Creați o copie de rezervă și luați-o de la capăt",
     translated: true,
     h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
   },
