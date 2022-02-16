@@ -133,8 +133,8 @@ const messages:IMessages = {
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
-    val: "Amount of money over-allocated in buckets.",
-    translated: false,
+    val: "Количество избыточных денег в ведрах.",
+    translated: true,
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
@@ -159,8 +159,8 @@ const messages:IMessages = {
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
-    val: "Assets",
-    translated: false,
+    val: "Активы",
+    translated: true,
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
@@ -174,8 +174,8 @@ const messages:IMessages = {
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
   "Avg:": {
-    val: "Avg:",
-    translated: false,
+    val: "Сред.:",
+    translated: true,
     h: "EVMZyhHQEFPlI2ib8VqTJo25bJBk8gHsgZR1SZ2Jcj0=",
   },
   "Babysitting": {
@@ -214,7 +214,7 @@ const messages:IMessages = {
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "Bucket Transactions": {
-    val: "Bucket Транзакции",
+    val: "Операции по ведру",
     translated: true,
     h: "5hMoGWO5uTeCOujLdFnRx4w3D6Zka/avSxnH14UmJiI=",
   },
@@ -238,7 +238,7 @@ const messages:IMessages = {
   },
   "Buckets Budget Filename": {
     /* 'Buckets' refers to the application name */
-    val: "Buckets Бюджет Имя Файла",
+    val: "Название файла бюджета Buckets",
     translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
@@ -448,13 +448,13 @@ const messages:IMessages = {
     h: "0T7eA3oFvMxyPIOAkMZ2rDpJxQVORgxrLqrDx87L1ZY=",
   },
   "Connected": {
-    val: "Connected",
-    translated: false,
+    val: "Подключено",
+    translated: true,
     h: "fV/VOfsqBR+vyqF2tRjG6qsC8ufS/QDaTRaUee+UEMA=",
   },
   "Connecting...": {
-    val: "Connecting...",
-    translated: false,
+    val: "Подключение...",
+    translated: true,
     h: "fYdj0RfOQMPN3n28gswFnK4aOvozPH0hqm9oqd+NcWI=",
   },
   "Connection corrupted. Please delete and re-create.": {
@@ -464,8 +464,8 @@ const messages:IMessages = {
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection saved!": {
-    val: "Connection saved!",
-    translated: false,
+    val: "Подключение сохранено!",
+    translated: true,
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
   "Copy": {
@@ -474,8 +474,8 @@ const messages:IMessages = {
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Create Account": {
-    val: "Create Account",
-    translated: false,
+    val: "Создать счет",
+    translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
   "Create Backup": {
@@ -582,8 +582,8 @@ const messages:IMessages = {
     h: "Qb7shd6fRLybaDzPvdr0Z4VfVek/fHVV556kEcNZrH8=",
   },
   "Delete Transactions": {
-    val: "Delete Transactions",
-    translated: false,
+    val: "Удалить операции",
+    translated: true,
     h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
   "Delete all": {
@@ -1004,12 +1004,12 @@ const messages:IMessages = {
     h: "LUwTAW8PsV34HKGrTUopI7v3NFK8iWKpv5Nb8EOtU1E=",
   },
   "Invalid": {
-    val: "Invalid",
+    val: "Недействительно",
     translated: false,
     h: "TTWlQj/xySwj3x3tLJd80Tl+VmJXWWdhFpMq90hNbfg=",
   },
   "Invalid SimpleFIN Token": {
-    val: "Invalid SimpleFIN Token",
+    val: "Недействительный токен SimpleFIN",
     translated: false,
     h: "C6BzeT0S0G+xUVzgdubtVeH39oIVS4hUaVBd2gKS3Uo=",
   },
@@ -1019,7 +1019,7 @@ const messages:IMessages = {
     h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
   },
   "Invalid license": {
-    val: "Invalid license",
+    val: "Недействительная лицензия",
     translated: false,
     h: "BfJdh6NOzurSCMGRmCP8gb1VAXUlrSSsCFIGHGXtNiA=",
   },
@@ -2751,7 +2751,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'русский язык',
+  name: 'Русский',
   dir: 'ltr',
   numbers: 'comma-period',
   messages,
