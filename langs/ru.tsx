@@ -169,7 +169,7 @@ const messages:IMessages = {
     h: "HfDI7uw+P4uLUPkDu0rxQhxJqjqcriWmD9EWYaiUqvY=",
   },
   "Average": {
-    val: "В среднем",
+    val: "Среднее",
     translated: true,
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
@@ -204,8 +204,8 @@ const messages:IMessages = {
     h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
   },
   "Bring All to Front": {
-    val: "Bring All to Front",
-    translated: false,
+    val: "Принести все в перед",
+    translated: true,
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Bucket": {
@@ -250,7 +250,7 @@ const messages:IMessages = {
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
   "Buckets has crashed.  Please restart after submitting a bug report.": {
-    val: "Произошел вылет Buckets.  Пожалуйста, перезапустите приложение после отправки отчета об ошибках.",
+    val: "Buckets закрылось с ошибкой.  Пожалуйста отправьте отчет об ошибке и перезапущите приложение.",
     translated: true,
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
@@ -261,7 +261,7 @@ const messages:IMessages = {
   },
   "Budget Specific Settings": {
     /* Title for budget settings page */
-    val: "Настройки бюджета",
+    val: "Специальные Настройки Бюджета",
     translated: true,
     h: "/RQVOKmoXTgeciF+ohehk19BxpvBXud+3HjfZPPw1v8=",
   },
