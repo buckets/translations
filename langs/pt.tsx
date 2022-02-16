@@ -78,11 +78,6 @@ const messages:IMessages = {
     translated: true,
     h: "LswJ+SxzkHRVy6+Et4Wga6r/Io1P6MBlTiwdjUAUj48=",
   },
-  "Account name": {
-    val: "Nome da conta",
-    translated: true,
-    h: "Wo+ZnjRTxGkow1m4BGCavACj82/UajUNs6oLDXB++sU=",
-  },
   "Accounts": {
     val: "Contas",
     translated: true,
@@ -275,20 +270,15 @@ const messages:IMessages = {
     translated: true,
     h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
+  "Budget-specific number format": {
+    val: "Budget-specific number format",
+    translated: false,
+    h: "34SWA6JebUvD6EsRbt8oe1ERhdfOkpdEfhXNZsRVcx4=",
+  },
   "Budgeted": {
     val: "Orçado",
     translated: true,
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
-  },
-  "CSV Account": {
-    val: "Conta CSV",
-    translated: true,
-    h: "iUtlYMX6nlvjb8WPFElRbcnOQ/BXPc6BjaHKp6b6GUM=",
-  },
-  "CSV Fields": {
-    val: "Campos CSV",
-    translated: true,
-    h: "oqAayNv4L3OeWfsN66FDAh9MWIsR//voLRTEotp3GUQ=",
   },
   "Cable TV": {
     val: "TV a Cabe",
@@ -305,6 +295,12 @@ const messages:IMessages = {
     val: "Cancelar",
     translated: true,
     h: "wHdMGFBg/BNmqwwBSIr4TrXk4fT1kilDHgZN5z4N5sU=",
+  },
+  "Cancel Import": {
+    /* Undo/redo label for canceling import */
+    val: "Cancel Import",
+    translated: false,
+    h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
   "Cancel sync": {
     val: "Cancelar sincronia",
@@ -405,11 +401,6 @@ const messages:IMessages = {
     translated: true,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
-  "Click the \"Set mapping\" to continue.": {
-    val: "Clique em \"Selecionar Mapeamento\" para continuar.",
-    translated: true,
-    h: "17QBrVZk8kjbKoqmqsbEBBHyjcoru22TcYanag65Jrw=",
-  },
   "Close Account": {
     val: "Fechar Conta",
     translated: true,
@@ -478,6 +469,8 @@ const messages:IMessages = {
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Create Account": {
+    /* Undo/redo label for creating an account */
+    /* Undo/redo label for creating an account */
     val: "Criar Conta",
     translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
@@ -533,6 +526,11 @@ const messages:IMessages = {
     translated: true,
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
+  "Data": {
+    val: "Data",
+    translated: false,
+    h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
+  },
   "Date Posted": {
     val: "Data Postado",
     translated: true,
@@ -559,6 +557,12 @@ const messages:IMessages = {
     val: "Decimal delimiter",
     translated: false,
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
+  },
+  "Default number format": {
+    /* Label for application number formatting preference */
+    val: "Default number format",
+    translated: false,
+    h: "mgzNoP6jlMs5CPedg7OHyJuqrwEkQlj6DduekmeqfCY=",
   },
   "Delete": {
     val: "Apagar",
@@ -590,10 +594,20 @@ const messages:IMessages = {
     translated: true,
     h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
+  "Delete Unknown Account": {
+    val: "Delete Unknown Account",
+    translated: false,
+    h: "SzZ+N6/hpntSyAoyuLxzaipQcinkrh5c33ceQdtoUcE=",
+  },
   "Delete all": {
     val: "Apagar tudo",
     translated: true,
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
+  },
+  "Delimiter": {
+    val: "Delimiter",
+    translated: false,
+    h: "VDesNaCayRIGFHLEXOjH3Eev3D/EzM6/dVsl7zN/+Mo=",
   },
   "Description": {
     val: "Descrição",
@@ -768,11 +782,6 @@ const messages:IMessages = {
     translated: true,
     h: "e6UDV8UzF5qqysQpN3OrcspjD8zPNn72zKd1CH1lFe8=",
   },
-  "File type not recognized.": {
-    val: "Importação Falhou",
-    translated: true,
-    h: "Z6QnadHff9fEji/vnFxKuxbfAKGNb263Hm13z3txfSM=",
-  },
   "Find Next": {
     /* Edit menu label for finding the next match.  Perhaps use what your browser or other applications use. */
     val: "Encontrar próximo",
@@ -789,16 +798,6 @@ const messages:IMessages = {
     val: "Encontrar...",
     translated: true,
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
-  },
-  "Finish import": {
-    val: "Terminar importação",
-    translated: true,
-    h: "4xsUuxEj2AOOfV6aSUBcosl89BFoAZ+srMPIeWzIjUI=",
-  },
-  "For Date Posted, you must also choose the date format.": {
-    val: "Para Date Posted, você também tem que escolher o formato da data.",
-    translated: true,
-    h: "G2XPMMlP2JPnutFhPAo1RnCQMTzdukxPSc+FjoF2Vjs=",
   },
   "Force Reload": {
     val: "Forçar Recarga",
@@ -857,12 +856,6 @@ const messages:IMessages = {
     translated: true,
     h: "E0TqJgLjqp65xs2CJV72FGZk5q/R8lIwaWCMnXpvTPE=",
   },
-  "Header row": {
-    /* Label for checkbox indicating whether a CSV file has a header row or not */
-    val: "Linha do cabeçalho",
-    translated: true,
-    h: "uRtdJlb7w3q8Zl9lZhtY0JReqNVI7CfOdo5I9SW5lfw=",
-  },
   "Health Insurance": {
     val: "Seguro de Saúde",
     translated: true,
@@ -904,20 +897,22 @@ const messages:IMessages = {
     translated: true,
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
-  "Identify the data each column contains using the drop downs below.": {
-    val: "Identifique os dados que cada coluna contém usando o dropdown abaixo.",
-    translated: true,
-    h: "59JoGSJaPOdtgmCL+QLp8U/e6y+OGGM8fdEX4sClrpk=",
-  },
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": {
     val: "Se o Líquido é 0, as transações do bucket serão marcadas como transferências ao invés de renda ou despesas.",
     translated: true,
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
   },
-  "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": {
-    val: "Se múltiplas colunas forem selecionadas para Amount, a primeira não-nula será usada.  Isto é importante se o CSV tiver colunas de Crédito e Débito separadas.",
-    translated: true,
-    h: "bxc4+JxhDrm2oYWek0ISeJDxq173KLfpcnOT4GEMWGQ=",
+  "Ignore": {
+    /* Label for checkbox controlling whether an account is ignored or not */
+    val: "Ignore",
+    translated: false,
+    h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
+  },
+  "Ignore Account": {
+    /* Undo/Redo label for ignoring an account from import */
+    val: "Ignore Account",
+    translated: false,
+    h: "Ils1ViOchbpiaHmdalbFiGmOlTK7ck+6+BhoyvUVrqM=",
   },
   "Import": {
     val: "Importar",
@@ -939,6 +934,12 @@ const messages:IMessages = {
     translated: true,
     h: "z10Vp9BzEC6CkLTNtR8xywSTNYGMBbGFZMD7XUEbrVs=",
   },
+  "Import Transactions": {
+    /* Undo/redo label for importing transactions */
+    val: "Import Transactions",
+    translated: false,
+    h: "0RkMBEPqgu5UHcGd2OzH7z/1vkRlIhOPxBSeollnMnU=",
+  },
   "Import Transactions...": {
     val: "Importar Transações...",
     translated: true,
@@ -950,6 +951,7 @@ const messages:IMessages = {
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import complete!": {
+    /* Notification when an import is complete */
     val: "Import complete!",
     translated: false,
     h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
@@ -1007,11 +1009,6 @@ const messages:IMessages = {
     translated: true,
     h: "LUwTAW8PsV34HKGrTUopI7v3NFK8iWKpv5Nb8EOtU1E=",
   },
-  "Invalid": {
-    val: "Inválido",
-    translated: true,
-    h: "TTWlQj/xySwj3x3tLJd80Tl+VmJXWWdhFpMq90hNbfg=",
-  },
   "Invalid SimpleFIN Token": {
     val: "Token SimpleFIN inválido",
     translated: true,
@@ -1026,6 +1023,11 @@ const messages:IMessages = {
     val: "Licença inválida",
     translated: true,
     h: "BfJdh6NOzurSCMGRmCP8gb1VAXUlrSSsCFIGHGXtNiA=",
+  },
+  "Invalid transactions preventing import": {
+    val: "Invalid transactions preventing import",
+    translated: false,
+    h: "smXPNWsiVwsLzBZ2L/sbD9IO3ZMxKyORNgcKAa3CFRE=",
   },
   "It says:": {
     val: "Diz:",
@@ -1080,11 +1082,6 @@ const messages:IMessages = {
     val: "Idioma",
     translated: true,
     h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
-  },
-  "Language default": {
-    val: "Idioma padrão",
-    translated: true,
-    h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last used": {
     val: "Usado por último",
@@ -1223,7 +1220,7 @@ const messages:IMessages = {
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
-    /* Label for choosing the word/symbol that signifies a negative number */
+    /* Label for choosing which value wihtin a CSV file represents negative */
     val: "Negativo",
     translated: true,
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
@@ -1345,7 +1342,7 @@ const messages:IMessages = {
     h: "NF10b/Nmjj8holFGK7KIiaJhSb8bsL9Zt/Fa8fFy4gk=",
   },
   "Number format": {
-    /* Label for application number formatting preference */
+    /* Label for budget number formatting preference */
     val: "Formato do número",
     translated: true,
     h: "RxooctpubAJr5NcKn57a5kjGBEdlPT5b2h6PUFLqxxE=",
@@ -1369,11 +1366,6 @@ const messages:IMessages = {
     val: "On",
     translated: true,
     h: "nMAfqtecKNqqRD1YLNX1F32SXJy1exEgm1QvpnZLBQQ=",
-  },
-  "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": {
-    val: "Selecione apenas a coluna para UNIQUE ID se você tiver certeza que o arquivo contem ID transacional únicos provido pelo banco. A maioria dos CSVs não tem essa coluna.",
-    translated: true,
-    h: "MUc4sPlkaqyooNhJKZ15rbBQdclJSNbaarHERiW1hrs=",
   },
   "Open Anyway": {
     /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
@@ -1524,16 +1516,17 @@ const messages:IMessages = {
     translated: true,
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
+  "Preview": {
+    /* Noun */
+    val: "Preview",
+    translated: false,
+    h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
+  },
   "Prompt": {
     /* Title for prompt window */
     val: "Prompt",
     translated: true,
     h: "56HrS6R0zfyg5ruiVb/J04UP3T8O2V99V+mXHvVfEZ0=",
-  },
-  "Provide a name for the new account.": {
-    val: "Coloque um nome para a nova conta.",
-    translated: true,
-    h: "WFHwJzRVIraGkeqDS03YjWe0vMsPsiRE1qM6V/Ef/xE=",
   },
   "Purchase": {
     /* Button label for purchasing a license */
@@ -1669,6 +1662,12 @@ const messages:IMessages = {
     translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
+  "Reverse": {
+    /* Label for checkbox indicating that transactions should be imported in reverse order */
+    val: "Reverse",
+    translated: false,
+    h: "asyh3SM4xzCuJwKJ77z/6mR7GortI9HKht5YBJYkHnk=",
+  },
   "Run": {
     val: "Run",
     translated: false,
@@ -1719,11 +1718,6 @@ const messages:IMessages = {
     translated: true,
     h: "tLJuQPindRFUyvGGdMLJbBHcVpAODsfT5p2gDnpB/Oo=",
   },
-  "Select the account these transactions belong to.": {
-    val: "Selecione a conta que essas transações pertencem.",
-    translated: true,
-    h: "qkaCMMw9CYakrPrLxgfkBp3KsfadBdGLYgZB8urPaC4=",
-  },
   "Self debt": {
     val: "Débito próprio",
     translated: true,
@@ -1739,10 +1733,11 @@ const messages:IMessages = {
     translated: true,
     h: "Y5+GuNZXfFSynDsHvAY8cr0RqU+moaHZNmOk2eQrsNs=",
   },
-  "Set mapping": {
-    val: "Selecionar Mapeamento",
-    translated: true,
-    h: "0GImzkG1VPzFzjFdepzZz8+Ysis4xn7QQRVGlxVrQIw=",
+  "Set Mapping": {
+    /* Undo/redo label for setting the mapping of a file import */
+    val: "Set Mapping",
+    translated: false,
+    h: "0VIJHYOJcEvpUbDh2MFyEtmMxHbY10WbgLG0YVeRSng=",
   },
   "Settings": {
     val: "Opções",
@@ -1811,6 +1806,12 @@ const messages:IMessages = {
     val: "Pular Essa Versão",
     translated: true,
     h: "YnC7GSI4QITirt1GGV/Tc1FvTbJYICkEeF3zj4u4eak=",
+  },
+  "Skip invalid": {
+    /* Label for checkbox which controls skipping invalid transactions during import */
+    val: "Skip invalid",
+    translated: false,
+    h: "sKPi3ongM5VPkq2aFjBN1FX9/N/KiThGWd54qaHNfi8=",
   },
   "Speech": {
     val: "Falar",
@@ -2014,6 +2015,12 @@ const messages:IMessages = {
     translated: true,
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
+  "Un-ignore Account": {
+    /* Undo/Redo label for no longer ignoring an account from import */
+    val: "Un-ignore Account",
+    translated: false,
+    h: "DVgAPa6nwJLDg7emkZZ+j85bGwcKjEzqlkZlPHkypU8=",
+  },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
     val: "Desfazer chutar",
@@ -2058,11 +2065,6 @@ const messages:IMessages = {
     val: "Erro de sincronia inesperada",
     translated: true,
     h: "78kYsQMTfGS8BNaZVuqYaRojJlTpcmN6CF9PQKKO0ME=",
-  },
-  "Unique ID": {
-    val: "Unique ID",
-    translated: true,
-    h: "UZsJmQ28mtEO349l3zdNHoAtb0JT1LT9e7EjedqptSE=",
   },
   "Unknown category": {
     val: "Categoria desconhecida",
@@ -2143,6 +2145,11 @@ const messages:IMessages = {
     val: "Atualizar Nota",
     translated: true,
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
+  },
+  "Update Number Format": {
+    val: "Update Number Format",
+    translated: false,
+    h: "98Qu07eWAHjS80FuHQajrVMMtd0jq5Zq8rRKuDQEZEU=",
   },
   "Update Target Date": {
     val: "Atualizar Dia Alvo",
@@ -2284,11 +2291,6 @@ const messages:IMessages = {
     val: "Você deve fazer o backup em um arquivo diferente.",
     translated: true,
     h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
-  },
-  "You must have at least one column each set to Amount, Memo and Date Posted.": {
-    val: "Você deve ter ao menos uma coluna de cada marcado como Amount, Memo e Date Posted.",
-    translated: true,
-    h: "k5NuGeKNgPfZs7xUbwp5PgfPr6dosV0ZTVxAnphHH6E=",
   },
   "Your email address:": {
     val: "Seu endereço de email:",
@@ -2501,13 +2503,6 @@ const messages:IMessages = {
     translated: true,
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
-  "edit.mapping": {
-    val: (onClick) => {
-          return <span>Or <a href="#" onClick={onClick}>editar mapeamento.</a></span>
-        },
-    translated: true,
-    h: "hFYUKKIqC+nYQ+RRKwNu3/PGxbtuHzNHoigSJwCK8d4=",
-  },
   "enter-license-prompt": {
     val: "\n      Por favor coloque a licença do Buckets abaixo.  Não tem uma licença?  <a href=\"#\" id=\"clicktobuy\">Clique aqui e compre uma.</a>\n    ",
     translated: true,
@@ -2554,6 +2549,11 @@ const messages:IMessages = {
     val: "Esse Mês",
     translated: true,
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
+  },
+  "import-verb": {
+    val: "Import",
+    translated: false,
+    h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
     val: "no banco",
@@ -2608,6 +2608,11 @@ Você gostaria de comprar uma licença agora?`,
     translated: true,
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
+  "no name": {
+    val: "no name",
+    translated: false,
+    h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
+  },
   "noin.income": {
     val: "Renda",
     translated: true,
@@ -2661,6 +2666,13 @@ Você gostaria de comprar uma licença agora?`,
     translated: true,
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
+  "sample-size": {
+    val: (count:number, total:number) => {
+          return `Showing ${count} of ${total}`
+        },
+    translated: false,
+    h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
+  },
   "shipment-number": {
     /* Noun labeling this shipment number */
     val: (number:number)=>`Envio ${number}`,
@@ -2711,6 +2723,12 @@ Você gostaria de comprar uma licença agora?`,
     translated: true,
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
+  "tab": {
+    /* Label for 'tab' character */
+    val: "tab",
+    translated: false,
+    h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
+  },
   "this_device.name": {
     val: "No name",
     translated: false,
@@ -2742,6 +2760,12 @@ Você gostaria de comprar uma licença agora?`,
     translated: true,
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
+  "use-delimiter": {
+    /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
+    val: (delimiter:string) => `Use "${delimiter}"`,
+    translated: false,
+    h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
+  },
   "verb-open": {
     /* Verb to open a page */
     val: "Abrir",
@@ -2757,7 +2781,11 @@ Você gostaria de comprar uma licença agora?`,
 export const pack:ILangPack = {
   name: 'Português',
   dir: 'ltr',
-  numbers: 'period-comma',
+  numbers: {
+    thousands: '.',
+    decimal: ',',
+    decimal_places: 2,
+  },
   messages,
   contributors,
 }

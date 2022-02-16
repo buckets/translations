@@ -14,7 +14,6 @@ export interface IMessages extends IMessageSet {
   "Account and transactions deleted": IMsg<string>;
   "Account closed": IMsg<string>;
   "Account deleted completely": IMsg<string>;
-  "Account name": IMsg<string>;
   "Accounts": IMsg<string>;
   "Accounts in side bar": IMsg<string>;
   "Actions": IMsg<string>;
@@ -51,12 +50,12 @@ export interface IMessages extends IMessageSet {
   "Budget": IMsg<string>;
   "Budget Specific Settings": IMsg<string>;
   "Budget password:": IMsg<string>;
+  "Budget-specific number format": IMsg<string>;
   "Budgeted": IMsg<string>;
-  "CSV Account": IMsg<string>;
-  "CSV Fields": IMsg<string>;
   "Cable TV": IMsg<string>;
   "Calculator": IMsg<string>;
   "Cancel": IMsg<string>;
+  "Cancel Import": IMsg<string>;
   "Cancel sync": IMsg<string>;
   "Car Insurance": IMsg<string>;
   "Car Maintenance": IMsg<string>;
@@ -76,7 +75,6 @@ export interface IMessages extends IMessageSet {
   "Choose a file ending in either .ynab4 or .ymeta": IMsg<string>;
   "Cleared": IMsg<string>;
   "Cleared balance": IMsg<string>;
-  "Click the \"Set mapping\" to continue.": IMsg<string>;
   "Close Account": IMsg<string>;
   "Close Window": IMsg<string>;
   "Close account": IMsg<string>;
@@ -101,18 +99,22 @@ export interface IMessages extends IMessageSet {
   "Create new account": IMsg<string>;
   "Currency symbol": IMsg<string>;
   "Cut": IMsg<string>;
+  "Data": IMsg<string>;
   "Date Posted": IMsg<string>;
   "Date format": IMsg<string>;
   "Debt": IMsg<string>;
   "Debugger": IMsg<string>;
   "Decimal delimiter": IMsg<string>;
+  "Default number format": IMsg<string>;
   "Delete": IMsg<string>;
   "Delete Account": IMsg<string>;
   "Delete Connection": IMsg<string>;
   "Delete Group": IMsg<string>;
   "Delete Macro": IMsg<string>;
   "Delete Transactions": IMsg<string>;
+  "Delete Unknown Account": IMsg<string>;
   "Delete all": IMsg<string>;
+  "Delimiter": IMsg<string>;
   "Description": IMsg<string>;
   "Details": IMsg<string>;
   "Diapers": IMsg<string>;
@@ -147,12 +149,9 @@ export interface IMessages extends IMessageSet {
   "File": IMsg<string>;
   "File does not exist:": IMsg<string>;
   "File saved: ": IMsg<string>;
-  "File type not recognized.": IMsg<string>;
   "Find Next": IMsg<string>;
   "Find Previous": IMsg<string>;
   "Find...": IMsg<string>;
-  "Finish import": IMsg<string>;
-  "For Date Posted, you must also choose the date format.": IMsg<string>;
   "Force Reload": IMsg<string>;
   "From": IMsg<string>;
   "Fuel": IMsg<string>;
@@ -164,7 +163,6 @@ export interface IMessages extends IMessageSet {
   "Goal: 0": IMsg<string>;
   "Groceries": IMsg<string>;
   "Guide": IMsg<string>;
-  "Header row": IMsg<string>;
   "Health Insurance": IMsg<string>;
   "Hello!  Thanks for trying out Buckets.": IMsg<string>;
   "Help": IMsg<string>;
@@ -173,13 +171,14 @@ export interface IMessages extends IMessageSet {
   "Holidays": IMsg<string>;
   "Household goods": IMsg<string>;
   "ID": IMsg<string>;
-  "Identify the data each column contains using the drop downs below.": IMsg<string>;
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": IMsg<string>;
-  "If multiple columns are selected for Amount, the first non-zero value will be used.  This is helpful if the CSV contains separate Credit and Debit columns.": IMsg<string>;
+  "Ignore": IMsg<string>;
+  "Ignore Account": IMsg<string>;
   "Import": IMsg<string>;
   "Import .zip file": IMsg<string>;
   "Import From Web YNAB...": IMsg<string>;
   "Import From YNAB4...": IMsg<string>;
+  "Import Transactions": IMsg<string>;
   "Import Transactions...": IMsg<string>;
   "Import all Amazon Reports": IMsg<string>;
   "Import complete!": IMsg<string>;
@@ -193,10 +192,10 @@ export interface IMessages extends IMessageSet {
   "Income": IMsg<string>;
   "Install and Relaunch Buckets": IMsg<string>;
   "Internet": IMsg<string>;
-  "Invalid": IMsg<string>;
   "Invalid SimpleFIN Token": IMsg<string>;
   "Invalid categorization.  Categories not set.": IMsg<string>;
   "Invalid license": IMsg<string>;
+  "Invalid transactions preventing import": IMsg<string>;
   "It says:": IMsg<string>;
   "It should say:": IMsg<string>;
   "Keep account transactions": IMsg<string>;
@@ -207,7 +206,6 @@ export interface IMessages extends IMessageSet {
   "Kick the bucket": IMsg<string>;
   "Kicked": IMsg<string>;
   "Language": IMsg<string>;
-  "Language default": IMsg<string>;
   "Last used": IMsg<string>;
   "Later": IMsg<string>;
   "Learn More": IMsg<string>;
@@ -263,7 +261,6 @@ export interface IMessages extends IMessageSet {
   "Off Budget Accounts": IMsg<string>;
   "Off budget": IMsg<string>;
   "On": IMsg<string>;
-  "Only select a column for Unique ID if you are sure it contains bank-assigned, unique transaction IDs.  Most CSVs will not have this field.": IMsg<string>;
   "Open Anyway": IMsg<string>;
   "Open Buckets Budget": IMsg<string>;
   "Open Budget...": IMsg<string>;
@@ -293,8 +290,8 @@ export interface IMessages extends IMessageSet {
   "Preferences": IMsg<string>;
   "Preferences...": IMsg<string>;
   "Preparation": IMsg<string>;
+  "Preview": IMsg<string>;
   "Prompt": IMsg<string>;
-  "Provide a name for the new account.": IMsg<string>;
   "Purchase": IMsg<string>;
   "Purchase Full Version...": IMsg<string>;
   "Quit Buckets": IMsg<string>;
@@ -321,6 +318,7 @@ export interface IMessages extends IMessageSet {
   "Required deposit:": IMsg<string>;
   "Restart Buckets": IMsg<string>;
   "Restart Buckets for changes to take effect.": IMsg<string>;
+  "Reverse": IMsg<string>;
   "Run": IMsg<string>;
   "Running...": IMsg<string>;
   "SQL Query": IMsg<string>;
@@ -331,11 +329,10 @@ export interface IMessages extends IMessageSet {
   "Search:": IMsg<string>;
   "Searching...": IMsg<string>;
   "Select All": IMsg<string>;
-  "Select the account these transactions belong to.": IMsg<string>;
   "Self debt": IMsg<string>;
   "Send Report": IMsg<string>;
   "Services": IMsg<string>;
-  "Set mapping": IMsg<string>;
+  "Set Mapping": IMsg<string>;
   "Settings": IMsg<string>;
   "Share from this computer": IMsg<string>;
   "Shared budgets": IMsg<string>;
@@ -349,6 +346,7 @@ export interface IMessages extends IMessageSet {
   "SimpleFIN client unconfigured": IMsg<string>;
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
   "Skip This Version": IMsg<string>;
+  "Skip invalid": IMsg<string>;
   "Speech": IMsg<string>;
   "Spending Money": IMsg<string>;
   "Start Over": IMsg<string>;
@@ -389,6 +387,7 @@ export interface IMessages extends IMessageSet {
   "Transfer": IMsg<string>;
   "Trial Version": IMsg<string>;
   "Tuition": IMsg<string>;
+  "Un-ignore Account": IMsg<string>;
   "Un-kick": IMsg<string>;
   "Un-kick Bucket": IMsg<string>;
   "Unable to claim access token": IMsg<string>;
@@ -397,7 +396,6 @@ export interface IMessages extends IMessageSet {
   "Uncleared": IMsg<string>;
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
-  "Unique ID": IMsg<string>;
   "Unknown category": IMsg<string>;
   "Unlinked Accounts": IMsg<string>;
   "Unregistered Version": IMsg<string>;
@@ -414,6 +412,7 @@ export interface IMessages extends IMessageSet {
   "Update Monthly Deposit": IMsg<string>;
   "Update Name": IMsg<string>;
   "Update Note": IMsg<string>;
+  "Update Number Format": IMsg<string>;
   "Update Target Date": IMsg<string>;
   "Update Transaction": IMsg<string>;
   "Update account balance": IMsg<string>;
@@ -442,7 +441,6 @@ export interface IMessages extends IMessageSet {
   "You have no closed accounts.": IMsg<string>;
   "You haven't kicked the bucket yet...": IMsg<string>;
   "You must backup to a different file.": IMsg<string>;
-  "You must have at least one column each set to Amount, Memo and Date Posted.": IMsg<string>;
   "Your email address:": IMsg<string>;
   "Zoom": IMsg<string>;
   "Zoom In": IMsg<string>;
@@ -484,7 +482,6 @@ export interface IMessages extends IMessageSet {
   "default account name": IMsg<string>;
   "default new bucket name": IMsg<string>;
   "default new group name": IMsg<string>;
-  "edit.mapping": IMsg<(onClick:any)=>string|JSX.Element>;
   "enter-license-prompt": IMsg<string>;
   "error-detail": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
@@ -493,6 +490,7 @@ export interface IMessages extends IMessageSet {
   "go-to-prev-month": IMsg<string>;
   "go-to-prev-year": IMsg<string>;
   "go-to-this-month": IMsg<string>;
+  "import-verb": IMsg<string>;
   "in the bank": IMsg<string>;
   "match-count": IMsg<(target_match:number,total_matches:number)=>string|JSX.Element>;
   "misc group name": IMsg<string>;
@@ -502,6 +500,7 @@ export interface IMessages extends IMessageSet {
   "nag-message": IMsg<()=>string|JSX.Element>;
   "navigatestep": IMsg<(url:any)=>string|JSX.Element>;
   "net-transfers.help": IMsg<string>;
+  "no name": IMsg<string>;
   "noin.income": IMsg<string>;
   "notify-downloaded-file": IMsg<(filename:any)=>string|JSX.Element>;
   "noun.debt": IMsg<string>;
@@ -511,6 +510,7 @@ export interface IMessages extends IMessageSet {
   "press Escape to close": IMsg<string>;
   "rain.help.neg": IMsg<(abs_amount:any)=>string|JSX.Element>;
   "rain.help.pos": IMsg<(abs_amount:any)=>string|JSX.Element>;
+  "sample-size": IMsg<(count:number,total:number)=>string|JSX.Element>;
   "shipment-number": IMsg<(number:number)=>string|JSX.Element>;
   "simplefin-connect-intro": IMsg<string>;
   "simplefin-get-token": IMsg<(mklink:any)=>string|JSX.Element>;
@@ -520,11 +520,13 @@ export interface IMessages extends IMessageSet {
   "some day...": IMsg<string>;
   "sync-symbol help": IMsg<string>;
   "sync.toast.syncing": IMsg<(start:string,end:string)=>string|JSX.Element>;
+  "tab": IMsg<string>;
   "this_device.name": IMsg<string>;
   "toast.updated-trans": IMsg<(count:any)=>string|JSX.Element>;
   "trans-created-outofview": IMsg<(month:string)=>string|JSX.Element>;
   "transfer-from-account": IMsg<(dropdown:any)=>string|JSX.Element>;
   "transfer-to-account": IMsg<(dropdown:any)=>string|JSX.Element>;
+  "use-delimiter": IMsg<(delimiter:string)=>string|JSX.Element>;
   "verb-open": IMsg<string>;
   "version-available": IMsg<(newv:string)=>string|JSX.Element>;
 }
