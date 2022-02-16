@@ -2751,7 +2751,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'русский язык',
+  name: 'Русский',
   dir: 'ltr',
   numbers: 'comma-period',
   messages,
