@@ -385,7 +385,6 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Choose a file ending in either .ynab4 or .ymeta",
     val: "Alegeți un fișier cu extensia .ynab4 sau .ymeta",
     translated: true,
     h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
@@ -684,8 +683,8 @@ const messages:IMessages = {
     translated: true,
     h: "0IUvXk9nogxjdL1n0VZPrxcMOUZODNXMlGrlpyXq8bI=",
   },
-  "Introduceți licența Buckets": {
-    val: "Enter Buckets License",
+  "Enter Buckets License": {
+    val: "Introduceți licența Buckets",
     translated: true,
     h: "QPy/bCk+yTP2DzZAmXWbRYj2KC5QbrLq/XeXrysIX6Q=",
   },
