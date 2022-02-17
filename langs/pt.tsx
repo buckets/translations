@@ -1703,6 +1703,12 @@ const messages:IMessages = {
     translated: true,
     h: "FGAckk6wNL4OYfSaGK3CYf8NLHv4tvh6bf9YErgSb5E=",
   },
+  "Search...": {
+    /* Menu label for search page */
+    val: "Search...",
+    translated: false,
+    h: "TOtty3gn23+64CNUlKn+bNe2V0f4xfUBGLHQ/Pw8XKQ=",
+  },
   "Search:": {
     val: "Procurar:",
     translated: true,
@@ -2447,6 +2453,11 @@ const messages:IMessages = {
     translated: true,
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
+  "click-to-buy-license": {
+    val: "Click here to purchase a license.",
+    translated: false,
+    h: "SG8574IFjT8lV9ejaxh3+l1/7egqVVKC59elWkHN3IU=",
+  },
   "connection-instructions-v2": {
     val: "Provide the following Channel URL to the other device",
     translated: false,
@@ -2504,9 +2515,9 @@ const messages:IMessages = {
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "enter-license-prompt": {
-    val: "\n      Por favor coloque a licença do Buckets abaixo.  Não tem uma licença?  <a href=\"#\" id=\"clicktobuy\">Clique aqui e compre uma.</a>\n    ",
+    val: "Por favor coloque a licença do Buckets abaixo.",
     translated: true,
-    h: "bQ5kF1mLhFNyrJzVhTf5Cz5lxO8mRww7nwMpeCy9HC8=",
+    h: "xbsLH9dKhhcdpY6+CFD5E3/4IdnZZk49WmeisyuQ/oo=",
   },
   "error-detail": {
     val: "Se esse erro continuar acontecendo ou se ele não fizer sentido, por favor reporte um bug ou converse conosco.",

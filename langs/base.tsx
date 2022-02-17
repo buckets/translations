@@ -326,6 +326,7 @@ export interface IMessages extends IMessageSet {
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
   "Search for Amazon transactions:": IMsg<string>;
+  "Search...": IMsg<string>;
   "Search:": IMsg<string>;
   "Searching...": IMsg<string>;
   "Select All": IMsg<string>;
@@ -471,6 +472,7 @@ export interface IMessages extends IMessageSet {
   "buckettype.goal-deposit": IMsg<string>;
   "buckettype.plain": IMsg<string>;
   "budget-file-type-name": IMsg<string>;
+  "click-to-buy-license": IMsg<string>;
   "connection-instructions-v2": IMsg<string>;
   "daterange.all": IMsg<string>;
   "daterange.from2monthsago": IMsg<string>;
