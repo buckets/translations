@@ -294,8 +294,8 @@ const messages:IMessages = {
   },
   "Cancel Import": {
     /* Undo/redo label for canceling import */
-    val: "Cancel Import",
-    translated: false,
+    val: "Importieren abbrechen",
+    translated: true,
     h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
   "Cancel sync": {
@@ -523,8 +523,8 @@ const messages:IMessages = {
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
   "Data": {
-    val: "Data",
-    translated: false,
+    val: "Dateiinhalt",
+    translated: true,
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "Date Posted": {
@@ -601,8 +601,8 @@ const messages:IMessages = {
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
   },
   "Delimiter": {
-    val: "Delimiter",
-    translated: false,
+    val: "Trennzeichen",
+    translated: true,
     h: "VDesNaCayRIGFHLEXOjH3Eev3D/EzM6/dVsl7zN/+Mo=",
   },
   "Description": {
@@ -932,8 +932,8 @@ const messages:IMessages = {
   },
   "Import Transactions": {
     /* Undo/redo label for importing transactions */
-    val: "Import Transactions",
-    translated: false,
+    val: "Umsätze importieren",
+    translated: true,
     h: "0RkMBEPqgu5UHcGd2OzH7z/1vkRlIhOPxBSeollnMnU=",
   },
   "Import Transactions...": {
@@ -1514,8 +1514,8 @@ const messages:IMessages = {
   },
   "Preview": {
     /* Noun */
-    val: "Preview",
-    translated: false,
+    val: "Vorschau",
+    translated: true,
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
   "Prompt": {
@@ -1660,8 +1660,8 @@ const messages:IMessages = {
   },
   "Reverse": {
     /* Label for checkbox indicating that transactions should be imported in reverse order */
-    val: "Reverse",
-    translated: false,
+    val: "Reihenfolge umkehren",
+    translated: true,
     h: "asyh3SM4xzCuJwKJ77z/6mR7GortI9HKht5YBJYkHnk=",
   },
   "Run": {
@@ -1701,8 +1701,8 @@ const messages:IMessages = {
   },
   "Search...": {
     /* Menu label for search page */
-    val: "Search...",
-    translated: false,
+    val: "Suche...",
+    translated: true,
     h: "TOtty3gn23+64CNUlKn+bNe2V0f4xfUBGLHQ/Pw8XKQ=",
   },
   "Search:": {
@@ -1811,8 +1811,8 @@ const messages:IMessages = {
   },
   "Skip invalid": {
     /* Label for checkbox which controls skipping invalid transactions during import */
-    val: "Skip invalid",
-    translated: false,
+    val: "Ungültige überspringen",
+    translated: true,
     h: "sKPi3ongM5VPkq2aFjBN1FX9/N/KiThGWd54qaHNfi8=",
   },
   "Speech": {
@@ -2149,8 +2149,8 @@ const messages:IMessages = {
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "Update Number Format": {
-    val: "Update Number Format",
-    translated: false,
+    val: "Zahlenformat ändern",
+    translated: true,
     h: "98Qu07eWAHjS80FuHQajrVMMtd0jq5Zq8rRKuDQEZEU=",
   },
   "Update Target Date": {
@@ -2450,8 +2450,8 @@ const messages:IMessages = {
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "click-to-buy-license": {
-    val: "Click here to purchase a license.",
-    translated: false,
+    val: "Hier klicken um eine Lizenz zu erwerben.",
+    translated: true,
     h: "SG8574IFjT8lV9ejaxh3+l1/7egqVVKC59elWkHN3IU=",
   },
   "connection-instructions-v2": {
@@ -2558,8 +2558,8 @@ const messages:IMessages = {
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "import-verb": {
-    val: "Import",
-    translated: false,
+    val: "Importieren",
+    translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
@@ -2675,9 +2675,9 @@ Möchten Sie jetzt eine Lizenz erwerben?`,
   },
   "sample-size": {
     val: (count:number, total:number) => {
-          return `Showing ${count} of ${total}`
+          return `Zeige ${count} von ${total}`
         },
-    translated: false,
+    translated: true,
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
   "shipment-number": {
