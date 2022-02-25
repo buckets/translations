@@ -2450,7 +2450,7 @@ const messages:IMessages = {
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "click-to-buy-license": {
-    val: "Hier klicken um eine Lizenz zu erwerben.",
+    val: "Hier klicken, um eine Lizenz zu erwerben.",
     translated: true,
     h: "SG8574IFjT8lV9ejaxh3+l1/7egqVVKC59elWkHN3IU=",
   },
