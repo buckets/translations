@@ -1290,11 +1290,6 @@ const messages:IMessages = {
     translated: false,
     h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
   },
-  "No file chosen": {
-    val: "Nenhum nome de arquivo escolhido",
-    translated: true,
-    h: "MKsAG2u3PyHfYzTNB+XEA8Myeu1DiSU2HNpIW8QXTpc=",
-  },
   "No matches found": {
     val: "Nada encontrado",
     translated: true,
@@ -1889,6 +1884,12 @@ const messages:IMessages = {
     val: "Amazon Refunds report impostados com sucesso",
     translated: true,
     h: "cL1VAhdyv9ML3nJT0QY3lg6QrxkJ/UQf0gbcokIDJGU=",
+  },
+  "Swap NAME and MEMO": {
+    /* Label for checkbox that will swap the value for NAME and MEMO when import OFX files */
+    val: "Swap NAME and MEMO",
+    translated: false,
+    h: "ayF7yBQJox0msQ75+rZt4xxanK31lYhwEoynkOsepjc=",
   },
   "Sync": {
     val: "Sincronizar",

@@ -246,7 +246,6 @@ export interface IMessages extends IMessageSet {
   "New phone": IMsg<string>;
   "New roof": IMsg<string>;
   "No": IMsg<string>;
-  "No file chosen": IMsg<string>;
   "No matches found": IMsg<string>;
   "No name": IMsg<string>;
   "No orders imported": IMsg<string>;
@@ -362,6 +361,7 @@ export interface IMessages extends IMessageSet {
   "Successfully imported Amazon Items report": IMsg<string>;
   "Successfully imported Amazon Orders report": IMsg<string>;
   "Successfully imported Amazon Refunds report": IMsg<string>;
+  "Swap NAME and MEMO": IMsg<string>;
   "Sync": IMsg<string>;
   "Sync complete": IMsg<string>;
   "Sync has not yet been set up.": IMsg<string>;
