@@ -9,8 +9,8 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   94% | Deutsch |
 |  100% | English |
 |   91% | Español |
-|   83% | Eesti |
-|  100% | Français |
+|   96% | Eesti |
+|   90% | Français |
 |    1% | עִברִית |
 |   55% | Magyar |
 |   73% | Italiano |
@@ -20,7 +20,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   86% | Português |
 |   30% | Română |
 |   17% | Русский |
-|   93% | Svenska |
+|   92% | Svenska |
 |    9% | Türkçe |
 <!-- trans stats end -->
 
