@@ -10,8 +10,8 @@ import {IMessages} from './base'
 // Translated: 303
 const contributors = [
   {
-    name: 'Peter Panyiczky',
-    href: 'https://magyaritasok.hu', /* optional */
+    name: "Peter Panyiczky",
+    href: "https://magyaritasok.hu", /* optional */
   }
 ];
 
