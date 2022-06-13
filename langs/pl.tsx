@@ -90,6 +90,7 @@ const messages:IMessages = {
     h: "qm2CvbPMHZpeVCriZp/vJ2kAGatdeyDxfZ8TMaapQvo=",
   },
   "Activity": {
+    /* Noun, label for a bucket's usage (income/expenses) for a period */
     val: "Aktywność",
     translated: true,
     h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
@@ -182,11 +183,6 @@ const messages:IMessages = {
     val: "Stan konta",
     translated: true,
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
-  },
-  "Balance:": {
-    val: "W kubełku:",
-    translated: true,
-    h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
     val: "Urodziny",
@@ -1236,6 +1232,11 @@ const messages:IMessages = {
     translated: false,
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
+  "Net change": {
+    val: "Net change",
+    translated: false,
+    h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
+  },
   "New Bucket": {
     val: "Nowy kubełek",
     translated: true,
@@ -1544,11 +1545,6 @@ const messages:IMessages = {
     val: "Pozostałe wolne środki",
     translated: true,
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
-  },
-  "Rainfall this month:": {
-    val: "Dodano w tym miesiącu:",
-    translated: true,
-    h: "S6dFwRYAFyRMUh4i6My2aNacGwMh8taa7neVTx9aiAM=",
   },
   "Recently used": {
     /* Label for list of recently used buckets files */
@@ -2008,6 +2004,11 @@ const messages:IMessages = {
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
+  "Transferred": {
+    val: "Transferred",
+    translated: false,
+    h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
+  },
   "Trial Version": {
     val: "Wersja testowa",
     translated: true,
@@ -2017,6 +2018,11 @@ const messages:IMessages = {
     val: "Świadczenie",
     translated: true,
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
+  },
+  "Type a date format...": {
+    val: "Type a date format...",
+    translated: false,
+    h: "oOXoncSSYGIZM5rpYEudSx4xWO7x8hRHdt89DNfPv84=",
   },
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
@@ -2315,23 +2321,6 @@ const messages:IMessages = {
     translated: true,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
-  "account-bal-diff-1": {
-    val: "Aktualny stan konta nie odpowida stanowi konta po synchronizacji z jednego z poniższych powodów:",
-    translated: true,
-    h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
-  },
-  "account-bal-diff-fix-1": {
-    /* 'Buckets' refers to the application name */
-    val: "Bank określił przyszły stan konta.  Aby to naprawić poczekaj aż wszystkie transakcje zostaną dodane do Buckets.",
-    translated: true,
-    h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
-  },
-  "account-bal-diff-fix-2": {
-    /* 'Buckets' refers to the application name. */
-    val: "Brak transakcji w programie Buckets.",
-    translated: true,
-    h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
-  },
   "account-in": {
     /* Label for amount put into an account */
     val: "Dodano",
@@ -2354,11 +2343,6 @@ const messages:IMessages = {
     val: "Type",
     translated: false,
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
-  },
-  "accounts.balance_mismatch_msg": {
-    val: "Najnowszy stan konta po synchronizacji nie odpowiada stanowi konta obliczonemu z transakcji. Klinij po więcej informacji.",
-    translated: true,
-    h: "8xHas2SyXqC7roWhYQNIVhFVNvbvzMi6Y3mQce5sIbc=",
   },
   "accounts.name_placeholder": {
     val: "brak nazwy",
@@ -2400,15 +2384,15 @@ const messages:IMessages = {
     translated: true,
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
-  "bucketactivity.help": {
-    val: "To suma pieniędzy wyjęta z tego kubełka i dodana z innych kubełków w tym miesiącu.",
-    translated: true,
-    h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
+  "buckethead.activity": {
+    val: "Net total of income and expenses.",
+    translated: false,
+    h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
-  "buckethead.in": {
-    val: "Kwota pieniędzy do umieszczenia w kubełkach w tym miesiącu.",
-    translated: true,
-    h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
+  "buckethead.fill": {
+    val: "Net total put in and taken out (unrelated to transactions).",
+    translated: false,
+    h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
     val: "Użyj tej opcji aby dodać i wyjąć pieniądze do/z każdego kubełka.",

@@ -35,7 +35,6 @@ export interface IMessages extends IMessageSet {
   "Avg:": IMsg<string>;
   "Babysitting": IMsg<string>;
   "Balance": IMsg<string>;
-  "Balance:": IMsg<string>;
   "Birthdays": IMsg<string>;
   "Break Import Links": IMsg<string>;
   "Bring All to Front": IMsg<string>;
@@ -236,6 +235,7 @@ export interface IMessages extends IMessageSet {
   "Net": IMsg<string>;
   "Net Transfers": IMsg<string>;
   "Net Wealth": IMsg<string>;
+  "Net change": IMsg<string>;
   "New Bucket": IMsg<string>;
   "New Budget...": IMsg<string>;
   "New Group": IMsg<string>;
@@ -296,7 +296,6 @@ export interface IMessages extends IMessageSet {
   "Quit Buckets": IMsg<string>;
   "Rain": IMsg<string>;
   "Rain left": IMsg<string>;
-  "Rainfall this month:": IMsg<string>;
   "Recently used": IMsg<string>;
   "Record change as transaction": IMsg<string>;
   "Recording": IMsg<string>;
@@ -386,8 +385,10 @@ export interface IMessages extends IMessageSet {
   "Transactions": IMsg<string>;
   "Transactions to review": IMsg<string>;
   "Transfer": IMsg<string>;
+  "Transferred": IMsg<string>;
   "Trial Version": IMsg<string>;
   "Tuition": IMsg<string>;
+  "Type a date format...": IMsg<string>;
   "Un-ignore Account": IMsg<string>;
   "Un-kick": IMsg<string>;
   "Un-kick Bucket": IMsg<string>;
@@ -446,14 +447,10 @@ export interface IMessages extends IMessageSet {
   "Zoom": IMsg<string>;
   "Zoom In": IMsg<string>;
   "Zoom Out": IMsg<string>;
-  "account-bal-diff-1": IMsg<string>;
-  "account-bal-diff-fix-1": IMsg<string>;
-  "account-bal-diff-fix-2": IMsg<string>;
   "account-in": IMsg<string>;
   "account-net-amount": IMsg<string>;
   "account-out": IMsg<string>;
   "account-type": IMsg<string>;
-  "accounts.balance_mismatch_msg": IMsg<string>;
   "accounts.name_placeholder": IMsg<string>;
   "action.New bucket": IMsg<string>;
   "action.New group": IMsg<string>;
@@ -462,8 +459,8 @@ export interface IMessages extends IMessageSet {
   "action.report bug": IMsg<string>;
   "bucket.detailslabel": IMsg<string>;
   "bucket.transfer.help": IMsg<string>;
-  "bucketactivity.help": IMsg<string>;
-  "buckethead.in": IMsg<string>;
+  "buckethead.activity": IMsg<string>;
+  "buckethead.fill": IMsg<string>;
   "bucketinout.help": IMsg<string>;
   "bucketrain.help": IMsg<string>;
   "buckettype.deposit": IMsg<string>;

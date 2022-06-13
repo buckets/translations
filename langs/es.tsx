@@ -106,6 +106,7 @@ const messages:IMessages = {
     h: "qm2CvbPMHZpeVCriZp/vJ2kAGatdeyDxfZ8TMaapQvo=",
   },
   "Activity": {
+    /* Noun, label for a bucket's usage (income/expenses) for a period */
     val: "Actividad",
     translated: true,
     h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
@@ -198,11 +199,6 @@ const messages:IMessages = {
     val: "Saldo",
     translated: true,
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
-  },
-  "Balance:": {
-    val: "Saldo:",
-    translated: true,
-    h: "hHHAAGXs0oscbD5jkMQSQUQ5sLsgo/sPaBumUBAq+CA=",
   },
   "Birthdays": {
     val: "Cumpleaños",
@@ -1252,6 +1248,11 @@ const messages:IMessages = {
     translated: true,
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
+  "Net change": {
+    val: "Net change",
+    translated: false,
+    h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
+  },
   "New Bucket": {
     val: "Cubo Nuevo",
     translated: true,
@@ -1560,11 +1561,6 @@ const messages:IMessages = {
     val: "Gotas de lluvia restantes",
     translated: true,
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
-  },
-  "Rainfall this month:": {
-    val: "Lluvia durante este mes:",
-    translated: true,
-    h: "S6dFwRYAFyRMUh4i6My2aNacGwMh8taa7neVTx9aiAM=",
   },
   "Recently used": {
     /* Label for list of recently used buckets files */
@@ -2024,6 +2020,11 @@ const messages:IMessages = {
     translated: true,
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
+  "Transferred": {
+    val: "Transferred",
+    translated: false,
+    h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
+  },
   "Trial Version": {
     val: "Versión de prueba",
     translated: true,
@@ -2033,6 +2034,11 @@ const messages:IMessages = {
     val: "Matrícula de estudios",
     translated: true,
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
+  },
+  "Type a date format...": {
+    val: "Type a date format...",
+    translated: false,
+    h: "oOXoncSSYGIZM5rpYEudSx4xWO7x8hRHdt89DNfPv84=",
   },
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
@@ -2331,23 +2337,6 @@ const messages:IMessages = {
     translated: true,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
-  "account-bal-diff-1": {
-    val: "El saldo actual no coincide con el existente tras la últiima sincronización por alguno de estos motivos:",
-    translated: true,
-    h: "9KaivrLeSKn8ROgvad6S9iE9NAz0BZRwQh3/ufRahVA=",
-  },
-  "account-bal-diff-fix-1": {
-    /* 'Buckets' refers to the application name */
-    val: "El banco ha informado un saldo a futuro. Para solucionar esto, espere a que todas las transacciones queden reflejadas en Buckets.",
-    translated: true,
-    h: "CRYYgg8YHspvP5KI3HGvyzlrOhxZf4rrjjUQbmL6Z7Q=",
-  },
-  "account-bal-diff-fix-2": {
-    /* 'Buckets' refers to the application name. */
-    val: "Las transacciones ha desaparecido de Buckets.",
-    translated: true,
-    h: "CeKVWaErT3a5EvPpQb/Av2kHD7RtudYjlQntfcMMtS8=",
-  },
   "account-in": {
     /* Label for amount put into an account */
     val: "Añadir",
@@ -2370,11 +2359,6 @@ const messages:IMessages = {
     val: "Tipo",
     translated: true,
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
-  },
-  "accounts.balance_mismatch_msg": {
-    val: "El saldo sincronizado más reciente no coincide con el saldo calculado a partir de las transacciones.  Haga clic en ... para obtener más información.",
-    translated: true,
-    h: "8xHas2SyXqC7roWhYQNIVhFVNvbvzMi6Y3mQce5sIbc=",
   },
   "accounts.name_placeholder": {
     val: "Desconocido",
@@ -2416,15 +2400,15 @@ const messages:IMessages = {
     translated: true,
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
-  "bucketactivity.help": {
-    val: "Este es el saldo resultante del dinero sacado de este cubo y de las transferencias a éste desde otros cubos a lo largo del mes.",
+  "buckethead.activity": {
+    val: "Net total of income and expenses.",
     translated: false,
-    h: "//A1247jGgumC/yiUDcTLEsXMcwseMWOiaZOpsiMCu0=",
+    h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
-  "buckethead.in": {
-    val: "Cantidad de dinero añadida a lo largo del mes.",
-    translated: true,
-    h: "VaDlj3R8L2TD4QFh1rotfK5RjV7WF91mP3iqVAvdppc=",
+  "buckethead.fill": {
+    val: "Net total put in and taken out (unrelated to transactions).",
+    translated: false,
+    h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
     val: "Desde aquí puede añadir dinero y también sacarlo de cada cubo.",
