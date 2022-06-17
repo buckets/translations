@@ -10,6 +10,10 @@ const contributors = [
   //   name: '',
   //   // href: '', /* optional */
   // }
+  {I
+    name: 'Kemal Altıntop',
+    href: 'http://kemalaltintop.com.tr'
+  }
 ];
 
 const messages:IMessages = {
@@ -34,8 +38,8 @@ const messages:IMessages = {
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "/mo": {
-    val: "/mo",
-    translated: false,
+    val: "/ay",
+    translated: true,
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
   "A sync is already in progress": {
@@ -80,24 +84,24 @@ const messages:IMessages = {
     h: "1oHDkv2zB1yiCABVTWBY5oX4Ccu36nJBCG7Q+JVg8TA=",
   },
   "Accounts in side bar": {
-    val: "Accounts in side bar",
-    translated: false,
+    val: "Kenar çubuğundaki hesaplar",
+    translated: true,
     h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
   },
   "Actions": {
-    val: "Actions",
-    translated: false,
+    val: "Hareketler",
+    translated: true,
     h: "qm2CvbPMHZpeVCriZp/vJ2kAGatdeyDxfZ8TMaapQvo=",
   },
   "Activity": {
     /* Noun, label for a bucket's usage (income/expenses) for a period */
-    val: "Activity",
-    translated: false,
+    val: "Aktivite",
+    translated: true,
     h: "jfKSYDWvDxzcenHtImEM9HokIu7tBJbMki25BNTynTI=",
   },
   "Actual Size": {
-    val: "Actual Size",
-    translated: false,
+    val: "Gerçek Boyutu",
+    translated: true,
     h: "k1ZfUj7bmT4XwiALRlZo7ztl2d+e7JcLt3WCnvjpBYg=",
   },
   "Add": {
@@ -114,8 +118,8 @@ const messages:IMessages = {
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
   "Allow new device requests": {
-    val: "Allow new device requests",
-    translated: false,
+    val: "Yeni cihaz isteklerine izin ver",
+    translated: true,
     h: "+ADhW+DC+iBwee59O+D2to40KBQLqc3YMIxy7akwYiQ=",
   },
   "Amazon.com Reconciliation": {
@@ -124,13 +128,13 @@ const messages:IMessages = {
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
-    val: "Amount",
-    translated: false,
+    val: "Tutar",
+    translated: true,
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "Amount of money over-allocated in buckets.": {
-    val: "Amount of money over-allocated in buckets.",
-    translated: false,
+    val: "Buckets içinde fazla tahsis edilen para miktarı.",
+    translated: true,
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
@@ -145,8 +149,8 @@ const messages:IMessages = {
     h: "Vk4XaMgXNIEY4+Gcal1n+qdnamgr4Q5af/+wzFRoIHU=",
   },
   "Any other monthly bills you have?": {
-    val: "Any other monthly bills you have?",
-    translated: false,
+    val: "Başka aylık faturanız var mı?",
+    translated: true,
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "Application preferences": {
@@ -155,8 +159,8 @@ const messages:IMessages = {
     h: "PIhGW3aVUScG87KKiDCF4fLhudwZ3eYbz7n7msHJU1U=",
   },
   "Assets": {
-    val: "Assets",
-    translated: false,
+    val: "Varlıklar",
+    translated: true,
     h: "VBLBowZo0Lx8GWGbWVcEEFzSxnwQmcEOSxwtD5yIhwQ=",
   },
   "Attached files are too large.": {
@@ -170,53 +174,53 @@ const messages:IMessages = {
     h: "zLxQhptvlIYtt0l/prvWMqnsQHh7N1gxh33WeorRi2w=",
   },
   "Avg:": {
-    val: "Avg:",
-    translated: false,
+    val: "Ort:",
+    translated: true,
     h: "EVMZyhHQEFPlI2ib8VqTJo25bJBk8gHsgZR1SZ2Jcj0=",
   },
   "Babysitting": {
-    val: "Babysitting",
-    translated: false,
+    val: "Bakıcı",
+    translated: true,
     h: "yOfOnHbye/Uhao1fb5jtfP4z0XPyc757kdBFt32Uwrc=",
   },
   "Balance": {
-    val: "Balance",
-    translated: false,
+    val: "Bakiye",
+    translated: true,
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "Birthdays": {
-    val: "Doğumgünleri",
+    val: "Doğum Günleri",
     translated: true,
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
-    val: "Break Import Links",
-    translated: false,
+    val: "İçe Aktarma Bağlantılarını Kes",
+    translated: true,
     h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
   },
   "Bring All to Front": {
-    val: "Bring All to Front",
-    translated: false,
+    val: "Tümünü Öne Getir",
+    translated: true,
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Bucket": {
     val: "Bucket",
-    translated: false,
+    translated: true,
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "Bucket Transactions": {
-    val: "Bucket Transactions",
-    translated: false,
+    val: "Bucket İşlemleri",
+    translated: true,
     h: "5hMoGWO5uTeCOujLdFnRx4w3D6Zka/avSxnH14UmJiI=",
   },
   "Bucket deleted completely": {
-    val: "Bucket deleted completely",
-    translated: false,
+    val: "Bucket tamamen silindi",
+    translated: true,
     h: "gBMlSFTWDRRSWZeZ3fuxDhpJnhv2MoF3EvZSwo1BZHg=",
   },
   "Bucket type:": {
-    val: "Bucket type:",
-    translated: false,
+    val: "Bucket tipi:",
+    translated: true,
     h: "NMC+sjsH6UgNhNtiqYeiHDi4zDK/+S5h5yMfZ5CQk1c=",
   },
   "Buckets": {
@@ -224,25 +228,25 @@ const messages:IMessages = {
     /* Refers to a list of buckets, not the application title */
     /* Refers to a list of buckets, not the application title */
     val: "Buckets",
-    translated: false,
+    translated: true,
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Buckets Budget Filename": {
     /* 'Buckets' refers to the application name */
-    val: "Buckets Budget Filename",
-    translated: false,
+    val: "Buckets Bütçe Dosya Adı",
+    translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "Buckets License": {
     /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
-    val: "Buckets License",
-    translated: false,
+    val: "Buckets Lisansı",
+    translated: true,
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
   "Buckets has crashed.  Please restart after submitting a bug report.": {
-    val: "Buckets has crashed.  Please restart after submitting a bug report.",
-    translated: false,
+    val: "Buckets çöktü. Lütfen bir hata raporu gönderdikten sonra yeniden başlatın.",
+    translated: true,
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
   "Budget": {
@@ -263,8 +267,8 @@ const messages:IMessages = {
     h: "yB5u4awiXu76+/Pw81ZYhBtgYQktcAVe6KU4WreiReU=",
   },
   "Budget-specific number format": {
-    val: "Budget-specific number format",
-    translated: false,
+    val: "Bütçeye özel sayı biçimi",
+    translated: true,
     h: "34SWA6JebUvD6EsRbt8oe1ERhdfOkpdEfhXNZsRVcx4=",
   },
   "Budgeted": {
@@ -273,8 +277,8 @@ const messages:IMessages = {
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
   },
   "Cable TV": {
-    val: "Cable TV",
-    translated: false,
+    val: "Kablolu TV",
+    translated: true,
     h: "wISz6Dh0vnQ1Tjhr9GWcJ2rhiif2af6NXsAzEAXYxfo=",
   },
   "Calculator": {
@@ -290,8 +294,8 @@ const messages:IMessages = {
   },
   "Cancel Import": {
     /* Undo/redo label for canceling import */
-    val: "Cancel Import",
-    translated: false,
+    val: "İçe Aktarmayı İptal Et",
+    translated: true,
     h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
   "Cancel sync": {
@@ -310,18 +314,18 @@ const messages:IMessages = {
     h: "Lsok3+kX1L7SXMumFWNo+oxBgfmGJcWg1CdSDw6byx8=",
   },
   "Car Payment": {
-    val: "Car Payment",
-    translated: false,
+    val: "Araç Ödemesi",
+    translated: true,
     h: "wp49ZoinRgifzKQ+N9RrJ6LG/9Yw6hkw1RCwXwHc6tA=",
   },
   "Categorization": {
-    val: "Categorization",
-    translated: false,
+    val: "Kategorizasyon",
+    translated: true,
     h: "DShuYOF3daz37AE7lGCN1TajYU1VyorRCvLwh4bM1r8=",
   },
   "Categorize": {
-    val: "Categorize",
-    translated: false,
+    val: "Kategorize Et",
+    translated: true,
     h: "mA6/TefxgXpo2M+OUx/ATLQ4QYHv4t1+8vy3MmV+EQg=",
   },
   "Category": {
@@ -336,18 +340,18 @@ const messages:IMessages = {
   },
   "Channel": {
     /* Label for sharing channel name */
-    val: "Channel",
-    translated: false,
+    val: "Kanal",
+    translated: true,
     h: "6McSbB26j6gQAt0v7ByUJ/jiHqBZ2yz4LSOmbKx3YvY=",
   },
   "Channels": {
-    val: "Channels",
-    translated: false,
+    val: "Kanallar",
+    translated: true,
     h: "3WbePrysEPFoKdtJSdWovHXxPrOsBkkHhJdOkxTq8wQ=",
   },
   "Charity": {
-    val: "Charity",
-    translated: false,
+    val: "Hayır Kurumu",
+    translated: true,
     h: "5OqY1JRI3brWCHQyu9VDY9hpjXzg1cVB1oQnXLQjZ4U=",
   },
   "Chat with Matt": {
@@ -357,8 +361,8 @@ const messages:IMessages = {
     h: "9nQjbkjkf8l2mX6xeNaU///NYhxxWFqnvTKOmakMmRY=",
   },
   "Chat...": {
-    val: "Chat...",
-    translated: false,
+    val: "Sohbet...",
+    translated: true,
     h: "SytGirG0+cdtbPfjBma/G/tEOt4rdOj4mnjcaWsTbt8=",
   },
   "Check For Updates...": {
@@ -377,20 +381,20 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
-    val: "Choose a file ending in either .ynab4 or .ymeta",
-    translated: false,
+    val: ".ynab4 veya .ymeta ile biten bir dosya seçin",
+    translated: true,
     h: "Tym1GWz52+2AgA4qwsbqknBtvR9QYYGN2y5oYYQ7yZQ=",
   },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
-    val: "Cleared",
-    translated: false,
+    val: "Temizlendi",
+    translated: true,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
-    val: "Cleared balance",
-    translated: false,
+    val: "Temizlenmiş bakiye",
+    translated: true,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
   "Close Account": {
@@ -420,8 +424,8 @@ const messages:IMessages = {
     h: "as4CQmPu3VF2LxSvA5djgiAPatdFRqwmOt0NiHJCe7E=",
   },
   "Confirm password:": {
-    val: "Confirm password:",
-    translated: false,
+    val: "Şifreyi onayla:",
+    translated: true,
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Connect": {
@@ -446,13 +450,13 @@ const messages:IMessages = {
   },
   "Connection corrupted. Please delete and re-create.": {
     /* Error when an invalid SimpleFIN connection is attempted */
-    val: "Connection corrupted. Please delete and re-create.",
-    translated: false,
+    val: "Bağlantı bozuk. Lütfen silin ve yeniden oluşturun.",
+    translated: true,
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection saved!": {
-    val: "Connection saved!",
-    translated: false,
+    val: "Bağlantı kaydedildi!",
+    translated: true,
     h: "wAgyeIQsbaI/kFPgBf8sWlKK1mf/VcP7BjHpC9TNYuc=",
   },
   "Copy": {
@@ -488,497 +492,497 @@ const messages:IMessages = {
     h: "gAbtUL3vhxk+yCSp7fzAF4Z9tV0I4x7Uq5xDJ4nm2Uk=",
   },
   "Create Transaction": {
-    val: "Create Transaction",
-    translated: false,
+    val: "İşlem Oluştur",
+    translated: true,
     h: "G5NDAP857MBDE66GWUREcFAJc2pCogndYa6y+m6PRfE=",
   },
   "Create budget password:": {
-    val: "Create budget password:",
-    translated: false,
+    val: "Bütçe şifresi oluştur:",
+    translated: true,
     h: "Bf9XVrpN9UpVSKpZNRpBUw/IaFjMkNCmH4gpAfhYFkY=",
   },
   "Create macro": {
-    val: "Create macro",
-    translated: false,
+    val: "Makro oluştur",
+    translated: true,
     h: "9xZZAswDH8zePPUhfsaSEDJ21GU1yhILKhDWtvnUlr0=",
   },
   "Create new account": {
-    val: "Create new account",
-    translated: false,
+    val: "Yeni hesap oluştur",
+    translated: true,
     h: "SmoVFbeAWSO4cW1YQJbuDJQz8kenVz5++WTJEkS6Vos=",
   },
   "Currency symbol": {
     /* Label for currency symbol setting */
-    val: "Currency symbol",
-    translated: false,
+    val: "Para birimi simgesi",
+    translated: true,
     h: "/zaBMXJh747DLHbqocisO7iV5wDJpVTSCx8RhH7Ye0E=",
   },
   "Cut": {
-    val: "Cut",
-    translated: false,
+    val: "Kes",
+    translated: true,
     h: "+kuX06pgC809fwr+5h9VbC8sVgVWo6EXgg6bzfXXtJs=",
   },
   "Data": {
-    val: "Data",
-    translated: false,
+    val: "Veri",
+    translated: true,
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "Date Posted": {
-    val: "Date Posted",
-    translated: false,
+    val: "Yayınlanma Tarihi",
+    translated: true,
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Date format": {
-    val: "Date format",
-    translated: false,
+    val: "Tarih formatı",
+    translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
   },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
-    val: "Debt",
-    translated: false,
+    val: "Borç",
+    translated: true,
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "Debugger": {
-    val: "Debugger",
-    translated: false,
+    val: "Hata ayıklayıcı",
+    translated: true,
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
   },
   "Decimal delimiter": {
-    val: "Decimal delimiter",
-    translated: false,
+    val: "Ondalık sınırlayıcı",
+    translated: true,
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Default number format": {
     /* Label for application number formatting preference */
-    val: "Default number format",
-    translated: false,
+    val: "Varsayılan sayı biçimi",
+    translated: true,
     h: "mgzNoP6jlMs5CPedg7OHyJuqrwEkQlj6DduekmeqfCY=",
   },
   "Delete": {
-    val: "Delete",
-    translated: false,
+    val: "Sil",
+    translated: true,
     h: "sm3jcrSw6qxgICiEpy25imvm6QNueF6oZ+oBxfeSEJg=",
   },
   "Delete Account": {
-    val: "Delete Account",
-    translated: false,
+    val: "Hesabı Sil",
+    translated: true,
     h: "zTJTocYLEbNVwJ0ojyPCB6M0JpGx6fe6AZHWtuVJv0M=",
   },
   "Delete Connection": {
-    val: "Delete Connection",
-    translated: false,
+    val: "Bağlantıyı Sil",
+    translated: true,
     h: "o6bxlUpjZFFTleiRLA4ykeB3yEHsAiXW9usUdJ9jh1g=",
   },
   "Delete Group": {
-    val: "Delete Group",
-    translated: false,
+    val: "Grubu Sil",
+    translated: true,
     h: "VaefOk8g8N64N+Td8TEorhhMQBe0AuWmfRz7u7+Q1Ko=",
   },
   "Delete Macro": {
-    val: "Delete Macro",
-    translated: false,
+    val: "Macroyu Sil",
+    translated: true,
     h: "Qb7shd6fRLybaDzPvdr0Z4VfVek/fHVV556kEcNZrH8=",
   },
   "Delete Transactions": {
-    val: "Delete Transactions",
-    translated: false,
+    val: "İşlemleri Sil",
+    translated: true,
     h: "5rAWRNk97CWy9OfDP5IWSE/T2Ao461w7C3z/IDV154I=",
   },
   "Delete Unknown Account": {
-    val: "Delete Unknown Account",
-    translated: false,
+    val: "Bilinmeyen Hesabı Sil",
+    translated: true,
     h: "SzZ+N6/hpntSyAoyuLxzaipQcinkrh5c33ceQdtoUcE=",
   },
   "Delete all": {
-    val: "Delete all",
-    translated: false,
+    val: "Tümünü Sil",
+    translated: true,
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
   },
   "Delimiter": {
-    val: "Delimiter",
-    translated: false,
+    val: "Sınırlayıcı",
+    translated: true,
     h: "VDesNaCayRIGFHLEXOjH3Eev3D/EzM6/dVsl7zN/+Mo=",
   },
   "Description": {
-    val: "Description",
-    translated: false,
+    val: "Tanım",
+    translated: true,
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "Details": {
     /* Label for sharing channel details */
-    val: "Details",
-    translated: false,
+    val: "Detaylar",
+    translated: true,
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "Diapers": {
-    val: "Diapers",
-    translated: false,
+    val: "Çocuk Bezi",
+    translated: true,
     h: "Vr53xwIeHjIIuMymcxrQ3l1RsDE6ra+ZTFT4dbR/rlI=",
   },
   "Disable Macro": {
-    val: "Disable Macro",
-    translated: false,
+    val: "Makroyu Devre Dışı Bırak",
+    translated: true,
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
   },
   "Disconnected": {
-    val: "Disconnected",
-    translated: false,
+    val: "Bağlantı kesildi",
+    translated: true,
     h: "8d3FMs2ZCPYbCLDzsVcqXsv6b5vDilOwJCEAevNsZDM=",
   },
   "Do both devices display the same image and code?": {
-    val: "Do both devices display the same image and code?",
-    translated: false,
+    val: "Her iki cihaz da aynı görüntüyü ve kodu gösteriyor mu?",
+    translated: true,
     h: "b4hrUuVyQY42ZQnEyYvmBHmzVT6WcHo30VshIQAx3zQ=",
   },
   "Done": {
-    val: "Done",
-    translated: false,
+    val: "Tamamlandı",
+    translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
   },
   "Download": {
-    val: "Download",
-    translated: false,
+    val: "İndir",
+    translated: true,
     h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
-    val: "Download Update",
-    translated: false,
+    val: "Güncellemeyi indir",
+    translated: true,
     h: "OvekDBh71chOkbTXqPs/V/x0lNbpc668s4hyXRF5G+I=",
   },
   "Downloading update...": {
-    val: "Downloading update...",
-    translated: false,
+    val: "Güncelleme indiriliyor...",
+    translated: true,
     h: "vTHXpZeFxjQhKPwUQPCm+eHcyYR6YjSmIm4mtV/5iTE=",
   },
   "Duplicate Window": {
-    val: "Duplicate Window",
-    translated: false,
+    val: "Pencereyi Çoğalt",
+    translated: true,
     h: "tjwFTBARBKQ5uC9Fh0zm7ag/RViV95pptJBJn9eVqHE=",
   },
   "EXPERIMENTAL Buckets Macro Maker": {
     /* 'Buckets' refers to the application name */
-    val: "EXPERIMENTAL Buckets Macro Maker",
-    translated: false,
+    val: "DENEYSEL Buckets Makro Yapıcı",
+    translated: true,
     h: "NZPVXQ+Dw1vv0fLXY+Z4R1KiEkXjDZtSmY3tVz5L1VI=",
   },
   "Eating out": {
-    val: "Eating out",
-    translated: false,
+    val: "Dışarıda yemek",
+    translated: true,
     h: "aiQggrM+Wb8WtkoJykeSDnNiCBgzGqVGc1Hvkf5Uzg8=",
   },
   "Edit": {
-    val: "Edit",
-    translated: false,
+    val: "Düzenle",
+    translated: true,
     h: "9+ZynTDPePvsJX4rW8Mn0wEzk0GRQ+udON01NKHVsQU=",
   },
   "Electricity": {
-    val: "Electricity",
-    translated: false,
+    val: "Elektrik",
+    translated: true,
     h: "D85G++Fy1hUUGZfHiKAUcNRlXmLcdkKK7RtxnwJ110U=",
   },
   "Enable Macro": {
-    val: "Enable Macro",
-    translated: false,
+    val: "Makroyu Etkinleştir",
+    translated: true,
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
   },
   "Ending Balance": {
-    val: "Ending Balance",
-    translated: false,
+    val: "Kapanış Bakiyesi",
+    translated: true,
     h: "bwan2qqqdDloluCkgp+UPYWSAeOQk9zkaNwb2p0kUDk=",
   },
   "Ending amount:": {
-    val: "Ending amount:",
-    translated: false,
+    val: "Bitiş miktarı:",
+    translated: true,
     h: "0IUvXk9nogxjdL1n0VZPrxcMOUZODNXMlGrlpyXq8bI=",
   },
   "Enter Buckets License": {
-    val: "Enter Buckets License",
-    translated: false,
+    val: "Buckets Lisansı Gir",
+    translated: true,
     h: "QPy/bCk+yTP2DzZAmXWbRYj2KC5QbrLq/XeXrysIX6Q=",
   },
   "Enter License...": {
-    val: "Enter License...",
-    translated: false,
+    val: "Lisans gir...",
+    translated: true,
     h: "A+/eZ8qTAh97iBouJPInRkCg7F0nOkteYEBO7+lFHHA=",
   },
   "Error": {
-    val: "Error",
-    translated: false,
+    val: "Hata",
+    translated: true,
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
   "Error during import": {
-    val: "Error during import",
-    translated: false,
+    val: "İçe aktarma sırasında hata",
+    translated: true,
     h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
   },
   "Error fetching data": {
-    val: "Error fetching data",
-    translated: false,
+    val: "Veri alınırken hata oluştu",
+    translated: true,
     h: "z94B0956dECmmaMVLZFW0oZMVtA92etw+2ZqumR4K9Q=",
   },
   "Error importing": {
-    val: "Error importing",
-    translated: false,
+    val: "İçe aktarma hatası",
+    translated: true,
     h: "rekzwWcY0HRZEhFebX1fJrp4aDJ/NTPxIwWaCYAk+7k=",
   },
   "Error parsing response": {
-    val: "Error parsing response",
-    translated: false,
+    val: "Yanıt ayrıştırılırken hata oluştu",
+    translated: true,
     h: "PsIRbom+m8Y5OIEPW2rzJYVlNA2NQrZmEQnpW7Y/9KI=",
   },
   "Error running recording": {
-    val: "Error running recording",
-    translated: false,
+    val: "Kayıt çalıştırılırken hata oluştu",
+    translated: true,
     h: "eE9Fw8G4vQpND3fFWnfGNvtN5LxCcQQecWO6fQgBmpM=",
   },
   "Error running sync": {
-    val: "Error running sync",
-    translated: false,
+    val: "Senkronizasyon çalıştırılırken hata oluştu",
+    translated: true,
     h: "LB/WNzHp4orPsbCVEJuDzUPsQUfNRDNXw7sFnbzfguw=",
   },
   "Error updating transaction": {
-    val: "Error updating transaction",
-    translated: false,
+    val: "İşlem güncellenirken hata oluştu",
+    translated: true,
     h: "IEJfuOO0LRCEv2OUh8Cz02PtiJ8tqVTRzeXK5DyqBQs=",
   },
   "Expenses": {
-    val: "Expenses",
-    translated: false,
+    val: "Masraflar",
+    translated: true,
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
   "Export": {
-    val: "Export",
-    translated: false,
+    val: "Dışa Aktar",
+    translated: true,
     h: "mZJs0iE089tMZ5BWqTUBp+2aJ90wKL4act4hUPt7zkA=",
   },
   "Faint cents": {
     /* Label for application preference enabling/disabling faint cents */
     val: "Faint cents",
-    translated: false,
+    translated: true,
     h: "gL5W+6nmqNfRsbiNIBEyHIX0LvI1xCYl+kDyuUwFsGI=",
   },
   "File": {
-    val: "File",
-    translated: false,
+    val: "Dosya",
+    translated: true,
     h: "9XpUff7TtVQbIncvgmrfzVB2gkBh35RnM1ET/HFr3k0=",
   },
   "File does not exist:": {
-    val: "File does not exist:",
-    translated: false,
+    val: "Dosya bulunmuyor:",
+    translated: true,
     h: "RPeWW9lCHkg+d6XybADj3OH2jxrYcSOhrA3+QHEcYz0=",
   },
   "File saved: ": {
-    val: "File saved: ",
-    translated: false,
+    val: "Dosya kaydedildi: ",
+    translated: true,
     h: "e6UDV8UzF5qqysQpN3OrcspjD8zPNn72zKd1CH1lFe8=",
   },
   "Find Next": {
     /* Edit menu label for finding the next match.  Perhaps use what your browser or other applications use. */
-    val: "Find Next",
-    translated: false,
+    val: "Sonrakini Bul",
+    translated: true,
     h: "LALfI5V4TsQo0DcGJwmNmrm3xNPtY5PmQuxB1voZo34=",
   },
   "Find Previous": {
     /* Edit menu label for finding the previous match.  Perhaps use what your browser or other applications use. */
-    val: "Find Previous",
-    translated: false,
+    val: "Öncekini Bul",
+    translated: true,
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
   },
   "Find...": {
-    val: "Find...",
-    translated: false,
+    val: "Bul...",
+    translated: true,
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
   },
   "Force Reload": {
-    val: "Force Reload",
-    translated: false,
+    val: "Yeniden Başlamaya Zorla",
+    translated: true,
     h: "ktBJY2UXO+2r0ZvmbQXhArN51bSTnyaNnnBNR9PQ5K8=",
   },
   "From": {
-    val: "From",
-    translated: false,
+    val: "İtibaren",
+    translated: true,
     h: "cCFAY2/zl3pq5fMwrP/2LBsrrL36SYzS+6in7mvWyvY=",
   },
   "Fuel": {
-    val: "Fuel",
-    translated: false,
+    val: "Yakıt",
+    translated: true,
     h: "lU9dO2a3oisfgHqd0n39sKC/wl7ymSV/XprtLhQLEiI=",
   },
   "Gain/Loss": {
-    val: "Gain/Loss",
-    translated: false,
+    val: "Kazanç/Kayıp",
+    translated: true,
     h: "Kop7hNPijjGN5jXxpDmcP32CJy22tzVz1qXWTjNxVg0=",
   },
   "Getting Started...": {
-    val: "Getting Started...",
-    translated: false,
+    val: "Başlarken...",
+    translated: true,
     h: "XD8GQYEIDrNjTMPX4TjGeAbbCIEBcAONlYPd/D8Hz84=",
   },
   "Go To...": {
     /* Submenu title for navigation shortcuts */
-    val: "Go To...",
-    translated: false,
+    val: "Git...",
+    translated: true,
     h: "AsKW6buNlZ7YlWHN1pVgNlCAzqiFIsJGL1cg8CkVGkg=",
   },
   "Goal completion:": {
-    val: "Goal completion:",
-    translated: false,
+    val: "Hedef tamamlama:",
+    translated: true,
     h: "v+G5gj6B+MtHwQovNmj/BWbpnQncARZGo+swhE1fbtg=",
   },
   "Goal:": {
-    val: "Goal:",
-    translated: false,
+    val: "Hedef:",
+    translated: true,
     h: "77+E2dn/Mw53xjGhNc6irsiq1WULAiC4yIyt4NaO0DM=",
   },
   "Goal: 0": {
-    val: "Goal: 0",
-    translated: false,
+    val: "Hedef: 0",
+    translated: true,
     h: "rtvJnJFYA7lHYjPjGpF27/h2So3pRdrRLjfnkg78woQ=",
   },
   "Groceries": {
-    val: "Groceries",
-    translated: false,
+    val: "Bakkaliye",
+    translated: true,
     h: "T6Kz6/FDxQkeIUJq8SVGn0T7OPdZ7B0YjPD3qHqW5p4=",
   },
   "Guide": {
     /* Menu label for the Buckets user guide */
-    val: "Guide",
-    translated: false,
+    val: "Kılavuz",
+    translated: true,
     h: "E0TqJgLjqp65xs2CJV72FGZk5q/R8lIwaWCMnXpvTPE=",
   },
   "Health Insurance": {
-    val: "Health Insurance",
-    translated: false,
+    val: "Sağlık Sigortası",
+    translated: true,
     h: "nsWIG2Kbb9OtoQkBvgkFh5MfMVNfbuGKhZypQ3uoQJw=",
   },
   "Hello!  Thanks for trying out Buckets.": {
-    val: "Hello!  Thanks for trying out Buckets.",
-    translated: false,
+    val: "Merhaba! Buckets'ı denediğiniz için teşekkürler.",
+    translated: true,
     h: "0m9VvMGwLCqD3lmZ24GbzlkRxPX1kf/DsbWA9kkBWX0=",
   },
   "Help": {
-    val: "Help",
-    translated: false,
+    val: "Yardım",
+    translated: true,
     h: "TvUUB7AuCuFJ9IWiz2SbsjnUvYoDPZAaMPxup/rwosM=",
   },
   "Hide Buckets": {
     /* 'Buckets' refers to the application name. */
-    val: "Hide Buckets",
-    translated: false,
+    val: "Buckets'ı Gizle",
+    translated: true,
     h: "38YdGXFjndmgDFgXTpfUZ0F+W/D9e267YaAvzYZm4O8=",
   },
   "Hide Others": {
-    val: "Hide Others",
-    translated: false,
+    val: "Diğerlerini Gizle",
+    translated: true,
     h: "RpKz0G7Y8OE5oyGm0/zRffPdr7RQkneZCYrikLHIZ+U=",
   },
   "Holidays": {
-    val: "Holidays",
-    translated: false,
+    val: "Tatiller",
+    translated: true,
     h: "HTQ10E8CaKVUu71N6uLx9J+Y6naLLRX37v0oQkesV3k=",
   },
   "Household goods": {
-    val: "Household goods",
-    translated: false,
+    val: "Ev eşyaları",
+    translated: true,
     h: "UK1mJCSwg2XnGpH47pKFFD8NlrCfcd3bQb1bJt2RXEg=",
   },
   "ID": {
-    val: "ID",
-    translated: false,
+    val: "Kimlik",
+    translated: true,
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": {
-    val: "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.",
-    translated: false,
+    val: "Net 0 ise, bucket işlemleri gelir veya gider olarak değil transfer olarak işaretlenecektir.",
+    translated: true,
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
   },
   "Ignore": {
     /* Label for checkbox controlling whether an account is ignored or not */
-    val: "Ignore",
-    translated: false,
+    val: "Yoksay",
+    translated: true,
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "Ignore Account": {
     /* Undo/Redo label for ignoring an account from import */
-    val: "Ignore Account",
-    translated: false,
+    val: "Hesabı Yoksay",
+    translated: true,
     h: "Ils1ViOchbpiaHmdalbFiGmOlTK7ck+6+BhoyvUVrqM=",
   },
   "Import": {
-    val: "Import",
-    translated: false,
+    val: "İçe Aktar",
+    translated: true,
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "Import .zip file": {
-    val: "Import .zip file",
-    translated: false,
+    val: ".zip dosyasını içe aktar",
+    translated: true,
     h: "EmJa8O6YE7jrgmaqDUM5pIdurIYHfx1RIvVLHmqhRws=",
   },
   "Import From Web YNAB...": {
-    val: "Import From Web YNAB...",
-    translated: false,
+    val: "Web YNAB'dan İçe Aktar...",
+    translated: true,
     h: "7Yteq/akhgWWCBUeqgBRz4wP6bKcirfp74uLeTQop3Q=",
   },
   "Import From YNAB4...": {
-    val: "Import From YNAB4...",
-    translated: false,
+    val: "YNAB4'ten İçe Aktar...",
+    translated: true,
     h: "z10Vp9BzEC6CkLTNtR8xywSTNYGMBbGFZMD7XUEbrVs=",
   },
   "Import Transactions": {
     /* Undo/redo label for importing transactions */
-    val: "Import Transactions",
-    translated: false,
+    val: "İşlemleri İçe Aktar",
+    translated: true,
     h: "0RkMBEPqgu5UHcGd2OzH7z/1vkRlIhOPxBSeollnMnU=",
   },
   "Import Transactions...": {
-    val: "Import Transactions...",
-    translated: false,
+    val: "İşlemleri İçe Aktar...",
+    translated: true,
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
   },
   "Import all Amazon Reports": {
-    val: "Import all Amazon Reports",
-    translated: false,
+    val: "Tüm Amazon Raporlarını içe aktar",
+    translated: true,
     h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
   },
   "Import complete!": {
     /* Notification when an import is complete */
-    val: "Import complete!",
-    translated: false,
+    val: "İçe aktarma tamamlandı!",
+    translated: true,
     h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
   },
   "Import file": {
     /* Button label for starting a file import */
     /* Button label for starting a file import */
-    val: "Import file",
-    translated: false,
+    val: "Dosya aktar",
+    translated: true,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
   },
   "Import from Web YNAB": {
-    val: "Import from Web YNAB",
-    translated: false,
+    val: "Web YNAB'dan içe aktar",
+    translated: true,
     h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
-    val: "Import from YNAB4",
-    translated: false,
+    val: "YNAB4'ten içe aktar",
+    translated: true,
     h: "FJ55mGfxitbc5YeY1s6YEji8I54ILSi3sfzQALSx50I=",
   },
   "Import links broken": {
     /* Notification indicating that the links between imported transaction files and a particular account have been broken. */
-    val: "Import links broken",
-    translated: false,
+    val: "İçe aktarma bağlantıları bozuk",
+    translated: true,
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
-    val: "In",
-    translated: false,
+    val: "İçinde",
+    translated: true,
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "In/Out": {
-    val: "In/Out",
-    translated: false,
+    val: "Giriş/Çıkış",
+    translated: true,
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
   "Include log file": {
