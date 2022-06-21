@@ -9,7 +9,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   99% | Deutsch |
 |  100% | English |
 |   90% | Español |
-|   95% | Eesti |
+|   97% | Eesti |
 |   98% | Français |
 |    1% | עִברִית |
 |   55% | Magyar |
@@ -38,7 +38,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
    1. Change `translated: false` to `translated: true`
    1. Look at any comments of this format: `/*! This is a comment for the translator */`
    1. **If there isn't enough context** for you to translate it accurately (e.g. "Is this a noun?" or "What noun does this adjective refer to so its gender can agree?") email me or file an issue.
-      
+
 
 1. Submit a pull request (even if you only translate a few things).
 
