@@ -119,8 +119,8 @@ const messages:IMessages = {
     h: "+ADhW+DC+iBwee59O+D2to40KBQLqc3YMIxy7akwYiQ=",
   },
   "Amazon.com Reconciliation": {
-    val: "Amazon.com Reconciliation",
-    translated: false,
+    val: "Amazon.com tasaarveldus",
+    translated: true,
     h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
   },
   "Amount": {
@@ -190,8 +190,8 @@ const messages:IMessages = {
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
-    val: "Break Import Links",
-    translated: false,
+    val: "Katkesta impordi seosed",
+    translated: true,
     h: "XQYKw3qJ7xKoR/DX6K6NdZxbJLHVJhxy9mFVV8r1ZU4=",
   },
   "Bring All to Front": {
@@ -1579,8 +1579,8 @@ const messages:IMessages = {
     h: "4I/iPkFh9gYRoT0f6GWUl2eb1/8WRv59q6yPjB1KOOU=",
   },
   "Reload": {
-    val: "Reload",
-    translated: false,
+    val: "Värskenda",
+    translated: true,
     h: "hUVVd3tppLGqwgo2OeC3h334aTF0Y+/GHbuL/I1clYk=",
   },
   "Remote devices": {
@@ -1879,8 +1879,8 @@ const messages:IMessages = {
   },
   "Swap NAME and MEMO": {
     /* Label for checkbox that will swap the value for NAME and MEMO when import OFX files */
-    val: "Swap NAME and MEMO",
-    translated: false,
+    val: "Vaheta NAME ja MEMO",
+    translated: true,
     h: "ayF7yBQJox0msQ75+rZt4xxanK31lYhwEoynkOsepjc=",
   },
   "Sync": {
@@ -2005,8 +2005,8 @@ const messages:IMessages = {
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Transferred": {
-    val: "Transferred",
-    translated: false,
+    val: "Ülekantud",
+    translated: true,
     h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
   },
   "Trial Version": {
@@ -2020,8 +2020,8 @@ const messages:IMessages = {
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Type a date format...": {
-    val: "Type a date format...",
-    translated: false,
+    val: "Sisesta kuupäevaformaat...",
+    translated: true,
     h: "oOXoncSSYGIZM5rpYEudSx4xWO7x8hRHdt89DNfPv84=",
   },
   "Un-ignore Account": {
@@ -2385,13 +2385,13 @@ const messages:IMessages = {
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "buckethead.activity": {
-    val: "Net total of income and expenses.",
-    translated: false,
+    val: "Sissetulekute ja väljaminekute kogusumma.",
+    translated: true,
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
-    val: "Net total put in and taken out (unrelated to transactions).",
-    translated: false,
+    val: "Tehinguga mitteseotud sissetulekute ja väljaminekute kogusumma.",
+    translated: true,
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
