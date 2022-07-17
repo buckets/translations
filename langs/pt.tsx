@@ -1158,6 +1158,11 @@ const messages:IMessages = {
     translated: true,
     h: "ELhkWGGY5oNKpfCzoXXW6TgkfS1nI0ZuJbWyYLmT+ro=",
   },
+  "Misc": {
+    val: "Misc",
+    translated: false,
+    h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
+  },
   "Month to Month": {
     val: "Mês a mês",
     translated: true,
