@@ -10,7 +10,7 @@ const contributors = [
   //   name: '',
   //   // href: '', /* optional */
   // }
-  {I
+  {
     name: 'Kemal Altıntop',
     href: 'http://kemalaltintop.com.tr'
   }
