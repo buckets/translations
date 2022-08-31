@@ -1228,6 +1228,7 @@ const messages:IMessages = {
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
+    /* Verb meaning to make a number have the opposite sign */
     val: "Cambiar signo en la cifra",
     translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",

@@ -8,8 +8,8 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |    4% | Dansk |
 |   98% | Deutsch |
 |  100% | English |
-|   90% | Español |
-|   97% | Eesti |
+|   91% | Español |
+|   96% | Eesti |
 |   98% | Français |
 |    1% | עִברִית |
 |   55% | Magyar |
@@ -21,7 +21,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   29% | Română |
 |   17% | Русский |
 |   98% | Svenska |
-|    9% | Türkçe |
+|   34% | Türkçe |
 |   27% | Українська |
 <!-- trans stats end -->
 

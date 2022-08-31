@@ -1216,6 +1216,7 @@ const messages:IMessages = {
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
+    /* Verb meaning to make a number have the opposite sign */
     val: "Negativar",
     translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
