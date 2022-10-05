@@ -18,7 +18,7 @@ const contributors = [
 
 const messages:IMessages = {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
-    val: "\n        Apesar de ser preferível que você preencha esse formulário, você também pode enviar um email bugs@budgetwithbuckets.com\n      ",
+    val: "\n        Apesar de ser preferível que você preencha esse formulário, você também pode enviar um email para bugs@budgetwithbuckets.com\n      ",
     translated: true,
     h: "05fPQ/cX0e4UXnYsbNTo8b6FUwq/WZ1URc7ixr6WlV8=",
   },
@@ -43,7 +43,7 @@ const messages:IMessages = {
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
   "A sync is already in progress": {
-    val: "Uma sincroniza já está em progresso",
+    val: "Sincronização em andamento",
     translated: true,
     h: "z6CqgxENo0xxB0LPp8P8rmnLPp1m2NElecEaJM8GDfI=",
   },
@@ -219,7 +219,7 @@ const messages:IMessages = {
     h: "gBMlSFTWDRRSWZeZ3fuxDhpJnhv2MoF3EvZSwo1BZHg=",
   },
   "Bucket type:": {
-    val: "Tipo de Bucket:",
+    val: "Tipo de Balde:",
     translated: true,
     h: "NMC+sjsH6UgNhNtiqYeiHDi4zDK/+S5h5yMfZ5CQk1c=",
   },
@@ -414,7 +414,7 @@ const messages:IMessages = {
   },
   "Closed": {
     /* ! Label for list of closed accounts */
-    val: "Fechado",
+    val: "Encerrado",
     translated: true,
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
@@ -827,7 +827,7 @@ const messages:IMessages = {
     h: "AsKW6buNlZ7YlWHN1pVgNlCAzqiFIsJGL1cg8CkVGkg=",
   },
   "Goal completion:": {
-    val: "Objetivo completado:",
+    val: "Conclusão da meta:",
     translated: true,
     h: "v+G5gj6B+MtHwQovNmj/BWbpnQncARZGo+swhE1fbtg=",
   },
@@ -1243,12 +1243,12 @@ const messages:IMessages = {
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
   "Net change": {
-    val: "Net change",
+    val: "Mudança no valor líquido",
     translated: false,
     h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
   },
   "New Bucket": {
-    val: "Novo Bucket",
+    val: "Novo Balde",
     translated: true,
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
@@ -1268,7 +1268,7 @@ const messages:IMessages = {
     h: "MtAiANg7ugdeUiGmiGklfBPG4T1igh1iChKeC0Mdxnc=",
   },
   "New bucket": {
-    val: "Novo bucket",
+    val: "Novo Balde",
     translated: true,
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
@@ -1990,7 +1990,7 @@ const messages:IMessages = {
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Total amount your buckets expect each month.": {
-    val: "Quantidade total esperada para seus buckets a cada mês.",
+    val: "Valor total que seus baldes esperam mensalmente.",
     translated: true,
     h: "UtK2gxh+N9D/p1G6dLyhcKMP5Df5XCyEp0jM0c+qoUw=",
   },
@@ -2015,7 +2015,7 @@ const messages:IMessages = {
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Transferred": {
-    val: "Transferred",
+    val: "Transferido",
     translated: false,
     h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
   },
@@ -2042,7 +2042,7 @@ const messages:IMessages = {
   },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
-    val: "Desfazer chutar",
+    val: "Desfazer o chute",
     translated: true,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
@@ -2191,7 +2191,7 @@ const messages:IMessages = {
     h: "XSg0Q5Q7j+G+HNjn3YJOakbNLSjTNcem3BFbw6fTDI8=",
   },
   "Update balance without a transaction": {
-    val: "Atualizar saldo sem uma transação",
+    val: "Atualizar saldo sem transação",
     translated: true,
     h: "thUs8btJm84m3sFUOg0QZBXmDfqGOrDhsYqwJ31BIAo=",
   },
@@ -2221,12 +2221,12 @@ const messages:IMessages = {
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
   "Want": {
-    val: "Deseja",
+    val: "Precisa",
     translated: true,
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "Wants": {
-    val: "Precisa",
+    val: "Precisam",
     translated: true,
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
@@ -2282,7 +2282,7 @@ const messages:IMessages = {
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "You are running the latest version!": {
-    val: "Você está rodando a versão mais atual!",
+    val: "Você está rodando a última versão!",
     translated: true,
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
@@ -2360,7 +2360,7 @@ const messages:IMessages = {
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "action.New bucket": {
-    val: "Novo bucket",
+    val: "Novo balde",
     translated: true,
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
@@ -2395,17 +2395,17 @@ const messages:IMessages = {
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "buckethead.activity": {
-    val: "Net total of income and expenses.",
+    val: "Total líquido de receitas e despesas.",
     translated: false,
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
-    val: "Net total put in and taken out (unrelated to transactions).",
+    val: "Total líquido de entrada e saída (não relacionado a transações).",
     translated: false,
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
-    val: "Utilize para colocar ou retirar dinheiro de cada bucket.",
+    val: "Utilize para colocar ou retirar dinheiro de cada balde.",
     translated: true,
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
@@ -2496,7 +2496,7 @@ const messages:IMessages = {
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "default new bucket name": {
-    val: "Novo Bucket",
+    val: "Novo balde",
     translated: true,
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
@@ -2699,7 +2699,7 @@ Você gostaria de comprar uma licença agora?`,
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "single-account Closed": {
-    val: "Fechado",
+    val: "Encerradas",
     translated: true,
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
