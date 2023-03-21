@@ -11,8 +11,8 @@ const contributors = [
   //   // href: '', /* optional */
   // }
   {
-    name: 'Kemal Altıntop',
-    href: 'http://kemalaltintop.com.tr'
+    name: "Kemal Altıntop",
+    href: "http://kemalaltintop.com.tr",
   }
 ];
 
