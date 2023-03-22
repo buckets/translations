@@ -1,4 +1,4 @@
-import * as React from 'react'import
+import * as React from 'react'
 
 import { ILangPack } from '@iffycan/i18n'
 import { IMessages } from './base'
