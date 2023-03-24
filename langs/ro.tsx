@@ -402,7 +402,7 @@ const messages:IMessages = {
   },
   "Cancel Import": {
     /* Undo/redo label for canceling import */
-    val: "Anulează importul",
+    val: "anulează importul",
     translated: true,
     h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
@@ -502,13 +502,13 @@ const messages:IMessages = {
   },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
-    val: "Compensat",
+    val: "Procesată",
     translated: true,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
-    val: "Sold compensat",
+    val: "Sold procesate",
     translated: true,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
@@ -582,7 +582,7 @@ const messages:IMessages = {
   "Create Account": {
     /* Undo/redo label for creating an account */
     /* Undo/redo label for creating an account */
-    val: "Creează cont",
+    val: "creează cont",
     translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
   },
@@ -1124,7 +1124,7 @@ const messages:IMessages = {
   },
   "Import Transactions": {
     /* Undo/redo label for importing transactions */
-    val: "Importă tranzacțiile",
+    val: "importă tranzacțiile",
     translated: true,
     h: "0RkMBEPqgu5UHcGd2OzH7z/1vkRlIhOPxBSeollnMnU=",
   },
@@ -1361,13 +1361,13 @@ const messages:IMessages = {
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
-    val: "Marchează compensată",
+    val: "Marchează procesată",
     translated: true,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
     /* Name of action for marking a transaction as not having cleared the bank */
-    val: "Marchează necompensată",
+    val: "Marchează neprocesată",
     translated: true,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
@@ -1573,7 +1573,7 @@ const messages:IMessages = {
   },
   "Not yet cleared": {
     /* Tooltip text indicating that a transaction has not yet cleared. */
-    val: "Încă necompensat",
+    val: "Încă neprocesată",
     translated: true,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
@@ -2042,7 +2042,7 @@ const messages:IMessages = {
   },
   "Set Mapping": {
     /* Undo/redo label for setting the mapping of a file import */
-    val: "Setează maparea",
+    val: "setează maparea",
     translated: true,
     h: "0VIJHYOJcEvpUbDh2MFyEtmMxHbY10WbgLG0YVeRSng=",
   },
@@ -2322,7 +2322,7 @@ const messages:IMessages = {
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Total amount your buckets want each month.": {
-    val: "Suma totală de care gălețile dvs. au nevoie lunar.",
+    val: "Suma totală pe care-o doresc gălețile dvs. lunar.",
     translated: true,
     h: "PdavPuX8D9m/BkLbr04OKhddGvl8+l0iDiqd+5K9sMc=",
   },
@@ -2373,7 +2373,7 @@ const messages:IMessages = {
   },
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
-    val: "Nu mai ignora contul",
+    val: "nu mai ignora contul",
     translated: true,
     h: "DVgAPa6nwJLDg7emkZZ+j85bGwcKjEzqlkZlPHkypU8=",
   },
@@ -2408,7 +2408,7 @@ const messages:IMessages = {
   },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
-    val: "Necompensate",
+    val: "Neprocesate",
     translated: true,
     h: "1GBgqlG+RCS8dFTG2z15jLFFd4PCVVXDefXwBRq0oTs=",
   },
@@ -2584,12 +2584,12 @@ const messages:IMessages = {
     h: "F88F80XANbwofOEoXYAjMA09+UIhKPUY6qNK7dkEQmo=",
   },
   "Want": {
-    val: "Nevoie",
+    val: "Dorință",
     translated: true,
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "Wants": {
-    val: "Nevoi",
+    val: "Dorințe",
     translated: true,
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
