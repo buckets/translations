@@ -1705,8 +1705,8 @@ const messages:IMessages = {
     h: "0W3ENYY4AiEiX9CGdCzK/r0XLyqTqbYi8N91GQpTqnM=",
   },
   "Other devices have made the following files available. Choose where you would like to save them on this device.": {
-    val: "Other devices have made the following files available. Choose where you would like to save them on this device.",
-    translated: false,
+    val: "Otros dispositivos han hecho disponibles los siguientes archivos. Elige donde quieres guardarlos en este dispositivo.",
+    translated: true,
     h: "Fbk5s0n43m2f5wfmDIpYQniAcPes2dp0Opv/VxSZJGE=",
   },
   "Out": {
@@ -1715,13 +1715,13 @@ const messages:IMessages = {
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "Overwrite budget from backup": {
-    val: "Overwrite budget from backup",
-    translated: false,
+    val: "Sobreescribir presupuesto desde el respaldo",
+    translated: true,
     h: "p47XTJ4eKHU3WYE+YwdBvSL80vnN/gn5Xf7C+/gs66U=",
   },
   "Pairing code": {
-    val: "Pairing code",
-    translated: false,
+    val: "Código de emparejamiento",
+    translated: true,
     h: "vEvXjrpoLPbXr+M9YBSVz5TplRIOw8ghDETxlgdUp7k=",
   },
   "Password": {
@@ -1751,13 +1751,13 @@ const messages:IMessages = {
   },
   "Pending...": {
     /* Status when a connection to another device is pending but not complete */
-    val: "Pending...",
-    translated: false,
+    val: "Pendiente...",
+    translated: true,
     h: "EBff3fGHatt8ejJo8RfuFp62oI9ZKjguA+ZUW6tDU7I=",
   },
   "Permanently delete account and transactions": {
-    val: "Permanently delete account and transactions",
-    translated: false,
+    val: "Eliminar permanentemente la cuenta y las transacciones",
+    translated: true,
     h: "mSRS1xHHrwwVBuWBlj7RZIGTyGuUy4GwrwOFty5tZrU=",
   },
   "Personal Loan Payment": {
@@ -1830,8 +1830,8 @@ const messages:IMessages = {
   },
   "Purchase license": {
     /* Button that takes people to purchase a license */
-    val: "Purchase license",
-    translated: false,
+    val: "Comprar licencia",
+    translated: true,
     h: "3LYaot06ClRiLOZ31fOKIxzRXO8X0w5qFIfav969me8=",
   },
   "Quit Buckets": {
@@ -1904,8 +1904,8 @@ const messages:IMessages = {
   },
   "Remote file": {
     /* Noun; label for budget filename */
-    val: "Remote file",
-    translated: false,
+    val: "Archivo remoto",
+    translated: true,
     h: "56l/nivDa2uMpQGnE8MPPBt60GjEgxNG5Cr/fNrTlO8=",
   },
   "Remove Categorization": {
@@ -1970,13 +1970,13 @@ const messages:IMessages = {
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Restore from backup": {
-    val: "Restore from backup",
-    translated: false,
+    val: "Restaurar desde respaldo",
+    translated: true,
     h: "4/wBBIqPRkVkrgO1WQ28ED/bEOnF9yg7FMna28aBMC0=",
   },
   "Restored budget from backup": {
-    val: "Restored budget from backup",
-    translated: false,
+    val: "Presupuesto restaurado desde respaldo",
+    translated: true,
     h: "ETnF9ML8onmHyfTrUsxJwyn/DQp3IFbSD1m6PNM9CAU=",
   },
   "Reverse": {
@@ -2069,8 +2069,8 @@ const messages:IMessages = {
   },
   "Share with": {
     /* Label for remote devices a budget is shared with */
-    val: "Share with",
-    translated: false,
+    val: "Compartir con",
+    translated: true,
     h: "U9hHc0V4Fpw0S1hjtdNc0UEGCP7X6n6JmCeoSW/LgVo=",
   },
   "Sharing": {
