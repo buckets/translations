@@ -1168,7 +1168,7 @@ const messages:IMessages = {
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
-    val: "İçinde",
+    val: "Giriş",
     translated: true,
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
@@ -1183,8 +1183,8 @@ const messages:IMessages = {
     h: "rjy01ggb0uSRPn/tmrf/BVwGQiXaaSc6Nh+o92BIU3U=",
   },
   "Income": {
-    val: "Income",
-    translated: false,
+    val: "Gelir",
+    translated: true,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "Install and Relaunch Buckets": {
@@ -1193,8 +1193,8 @@ const messages:IMessages = {
     h: "bzusTDIT831mqEwmmM59eT12mfoNMYiGPbUfoIzaCwo=",
   },
   "Internet": {
-    val: "Internet",
-    translated: false,
+    val: "İnternet",
+    translated: true,
     h: "LUwTAW8PsV34HKGrTUopI7v3NFK8iWKpv5Nb8EOtU1E=",
   },
   "Invalid SimpleFIN Token": {
@@ -1208,8 +1208,8 @@ const messages:IMessages = {
     h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
   },
   "Invalid license": {
-    val: "Invalid license",
-    translated: false,
+    val: "Geçersiz lisans",
+    translated: true,
     h: "BfJdh6NOzurSCMGRmCP8gb1VAXUlrSSsCFIGHGXtNiA=",
   },
   "Invalid transactions preventing import": {
@@ -1218,13 +1218,13 @@ const messages:IMessages = {
     h: "smXPNWsiVwsLzBZ2L/sbD9IO3ZMxKyORNgcKAa3CFRE=",
   },
   "It says:": {
-    val: "It says:",
-    translated: false,
+    val: "Şöyle diyor:",
+    translated: true,
     h: "gbWdWRhcKGQzFCi8CcKy9Bmfg2oYqz1zGMHQzSU8jQE=",
   },
   "It should say:": {
-    val: "It should say:",
-    translated: false,
+    val: "Şöyle demeli:",
+    translated: true,
     h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
   },
   "Keep account transactions": {
