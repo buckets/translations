@@ -2199,11 +2199,6 @@ const messages:IMessages = {
     translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
-  "Starting": {
-    val: "Pornește",
-    translated: true,
-    h: "9luLbIYDS1YVWu77mgRdjaMtTT4vBdAAdzdJrJm930A=",
-  },
   "Status": {
     /* Connection status of remote devices */
     /* Label for connection status of sharing avenues */
