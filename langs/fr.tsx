@@ -173,6 +173,12 @@ const messages:IMessages = {
     translated: false,
     h: "bk/DqvzHJTuksZnC0cWC2+KPOwsnilgNjXSPLv1SbPA=",
   },
+  "As of": {
+    /* Label for timestamp on a document */
+    val: "As of",
+    translated: false,
+    h: "AONctcFQnUGl+zc/NhrnGa7CfTpqu3E92stXUc93EEU=",
+  },
   "Assets": {
     val: "Actifs",
     translated: true,
@@ -643,6 +649,12 @@ const messages:IMessages = {
     translated: false,
     h: "lVqFstk3jMWPnA1laudxoN7T6PXUVe365RE2LqCMZmA=",
   },
+  "Custom": {
+    /* A label for choosing a custom date range */
+    val: "Custom",
+    translated: false,
+    h: "npcV1SQQyG8XsJlGwbsserjaxIIkVCtt9ZFBODiihSI=",
+  },
   "Cut": {
     val: "Couper",
     translated: true,
@@ -662,6 +674,11 @@ const messages:IMessages = {
     val: "Format des dates",
     translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
+  },
+  "Date range": {
+    val: "Date range",
+    translated: false,
+    h: "Byx38NxnaOdzvBIgWlDoyRZR5IEPJ329lwDnivHzJik=",
   },
   "Debt": {
     /* Label for a total debt amount */
@@ -798,6 +815,12 @@ const messages:IMessages = {
     translated: true,
     h: "tjwFTBARBKQ5uC9Fh0zm7ag/RViV95pptJBJn9eVqHE=",
   },
+  "Duplicate of existing transaction": {
+    /* Label for an imported transaction that is a duplicate of an existing one */
+    val: "Duplicate of existing transaction",
+    translated: false,
+    h: "6d7BweiCObuFrgVXiVOkjVaHEKwbPSJY2AbNcT/7508=",
+  },
   "EULA accepted": {
     val: "EULA accepted",
     translated: false,
@@ -848,6 +871,11 @@ const messages:IMessages = {
     val: "Montant final:",
     translated: true,
     h: "0IUvXk9nogxjdL1n0VZPrxcMOUZODNXMlGrlpyXq8bI=",
+  },
+  "Ending balance": {
+    val: "Ending balance",
+    translated: false,
+    h: "aAtJw4Tz1ZrB97s3K84TZqaiG7f+B04ZFnxZx9ryHWQ=",
   },
   "Enter License...": {
     val: "Entrer Licence...",
@@ -952,6 +980,11 @@ const messages:IMessages = {
     val: "Rechercher Précédent",
     translated: true,
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
+  },
+  "Find on page": {
+    val: "Find on page",
+    translated: false,
+    h: "C8FK0TP/vHA4Dt565Z2E2vc+j9soU5SIaWGmc7j+UEc=",
   },
   "Find...": {
     val: "Rechercher...",
@@ -1186,6 +1219,11 @@ const messages:IMessages = {
     translated: true,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
+  "Income/Expense": {
+    val: "Income/Expense",
+    translated: false,
+    h: "i/Z19mssKMh8vj11iAIlpS59JGc7MtE5zkyAW/IJVdA=",
+  },
   "Install and Relaunch Buckets": {
     val: "Installez et relancez Buckets",
     translated: true,
@@ -1196,15 +1234,15 @@ const messages:IMessages = {
     translated: true,
     h: "LUwTAW8PsV34HKGrTUopI7v3NFK8iWKpv5Nb8EOtU1E=",
   },
-  "Invalid SimpleFIN Token": {
-    val: "Token SimpleFIN Incorrect",
-    translated: true,
-    h: "C6BzeT0S0G+xUVzgdubtVeH39oIVS4hUaVBd2gKS3Uo=",
-  },
   "Invalid categorization.  Categories not set.": {
     val: "Catégorisation non valide. Catégories non paramétrées.",
     translated: true,
     h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
+  },
+  "Invalid date": {
+    val: "Invalid date",
+    translated: false,
+    h: "wDN2ZzrVLU22Lij4eJJvxPBmC6Qv9SPmgRT36Qpq9KE=",
   },
   "Invalid license": {
     val: "Licence non valide",
@@ -1794,6 +1832,11 @@ const messages:IMessages = {
     translated: true,
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
+  "Print...": {
+    val: "Print...",
+    translated: false,
+    h: "Zx0axQhFFBAeUJiZxUAcm9hrf0Dd7+kTskEK3MSkm1Q=",
+  },
   "Prompt": {
     /* Title for prompt window */
     val: "Message",
@@ -1973,6 +2016,11 @@ const messages:IMessages = {
     translated: true,
     h: "msfklVWTzDTqa2SaDeN2NULTRVjZPdgr6/gggE5vemI=",
   },
+  "Running": {
+    val: "Running",
+    translated: false,
+    h: "Fc5kaM2PdFj1JUHmSYpQFl5RnVw8wUq7J00zdnDXNBc=",
+  },
   "Running...": {
     val: "En cours...",
     translated: true,
@@ -2109,12 +2157,6 @@ const messages:IMessages = {
     translated: true,
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
-  "SimpleFIN client unconfigured": {
-    /* Error when SimpleFIN is not configured */
-    val: "Client SimpleFIN non configuré",
-    translated: true,
-    h: "KYsU2dr94wbYwGx9gIb2sR6Hhmm8Eu4AYBSKf4nnWMU=",
-  },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
     val: "Puisque certains godets contiennent des soldes négatifs, ce solde de paiement pourrait ne pas être ce que vous avez de disponible pour un paiement.",
     translated: true,
@@ -2155,11 +2197,6 @@ const messages:IMessages = {
     val: "Lancez-vous avec un modèle",
     translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
-  },
-  "Starting": {
-    val: "Starting",
-    translated: false,
-    h: "9luLbIYDS1YVWu77mgRdjaMtTT4vBdAAdzdJrJm930A=",
   },
   "Status": {
     /* Connection status of remote devices */
@@ -2320,6 +2357,11 @@ const messages:IMessages = {
     translated: true,
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
+  "Total": {
+    val: "Total",
+    translated: false,
+    h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
+  },
   "Total amount your buckets want each month.": {
     val: "Total amount your buckets want each month.",
     translated: false,
@@ -2359,6 +2401,11 @@ const messages:IMessages = {
     val: "Trial version",
     translated: false,
     h: "/B8oxaBijS+cHJQBdPRkq7IfcHyPStMT5uGKWUeZQuQ=",
+  },
+  "Try the Amazon transactions page instead of using the reports below.": {
+    val: "Try the Amazon transactions page instead of using the reports below.",
+    translated: false,
+    h: "GHctPN+mo6YaBc3phg56gj1DMNCqVfHnjqkKbcNdt/U=",
   },
   "Tuition": {
     val: "Frais de scolarité",
@@ -2816,26 +2863,6 @@ const messages:IMessages = {
     translated: true,
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
-  "daterange.from2monthsago": {
-    val: "Depuis 2 mois",
-    translated: true,
-    h: "zb4vtJXSL+UcXZTjSbkQueS8khVvJO2MDoFKKPuuDPM=",
-  },
-  "daterange.from3monthsago": {
-    val: "Depuis 3 mois",
-    translated: true,
-    h: "4957XI6fjMtXcCqj3IRSUSQzX4ZlEucDTuwgu2krTLw=",
-  },
-  "daterange.fromlastmonth": {
-    val: "Depuis le mois précédent",
-    translated: true,
-    h: "tIBgx9VgMgV21a9XhH7L7TIe/PfdgcW3fdfGaGOeVMo=",
-  },
-  "daterange.thismonth": {
-    val: "Ce mois-ci",
-    translated: true,
-    h: "jqSPxB9W3Xqmvb/7MIrwKgcCTUR0zgU3qqTqJFET1e0=",
-  },
   "debt-bucket-explanation": {
     val: "Ceci est un godet spécial pour le remboursement des dettes",
     translated: true,
@@ -2913,13 +2940,6 @@ const messages:IMessages = {
     val: "À la banque",
     translated: true,
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
-  },
-  "match-count": {
-    val: (target_match:number, total_matches:number) => {
-        return `${target_match} parmi ${total_matches}`;
-      },
-    translated: true,
-    h: "v7j9K2L04kDpmH02jGxiXPoyxuQwZTCdUx025bb0Yj4=",
   },
   "misc group name": {
     val: "Divers",

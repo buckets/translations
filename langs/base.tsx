@@ -32,6 +32,7 @@ export interface IMessages extends IMessageSet {
   "Animation": IMsg<string>;
   "Any other monthly bills you have?": IMsg<string>;
   "App Settings": IMsg<string>;
+  "As of": IMsg<string>;
   "Assets": IMsg<string>;
   "Attached files are too large.": IMsg<string>;
   "Authenticated": IMsg<string>;
@@ -120,10 +121,12 @@ export interface IMessages extends IMessageSet {
   "Create or manage account": IMsg<string>;
   "Currency symbol": IMsg<string>;
   "Current version": IMsg<string>;
+  "Custom": IMsg<string>;
   "Cut": IMsg<string>;
   "Data": IMsg<string>;
   "Date Posted": IMsg<string>;
   "Date format": IMsg<string>;
+  "Date range": IMsg<string>;
   "Debt": IMsg<string>;
   "Debugger": IMsg<string>;
   "Decimal delimiter": IMsg<string>;
@@ -150,6 +153,7 @@ export interface IMessages extends IMessageSet {
   "Download Update": IMsg<string>;
   "Downloading update...": IMsg<string>;
   "Duplicate Window": IMsg<string>;
+  "Duplicate of existing transaction": IMsg<string>;
   "EULA accepted": IMsg<string>;
   "EULA not accepted": IMsg<string>;
   "EXPERIMENTAL Buckets Macro Maker": IMsg<string>;
@@ -160,6 +164,7 @@ export interface IMessages extends IMessageSet {
   "Enabled": IMsg<string>;
   "Ending Balance": IMsg<string>;
   "Ending amount:": IMsg<string>;
+  "Ending balance": IMsg<string>;
   "Enter License...": IMsg<string>;
   "Error": IMsg<string>;
   "Error during import": IMsg<string>;
@@ -180,6 +185,7 @@ export interface IMessages extends IMessageSet {
   "Files available to sync": IMsg<string>;
   "Find Next": IMsg<string>;
   "Find Previous": IMsg<string>;
+  "Find on page": IMsg<string>;
   "Find...": IMsg<string>;
   "Forbidden": IMsg<string>;
   "Force Reload": IMsg<string>;
@@ -224,10 +230,11 @@ export interface IMessages extends IMessageSet {
   "In/Out": IMsg<string>;
   "Include log file": IMsg<string>;
   "Income": IMsg<string>;
+  "Income/Expense": IMsg<string>;
   "Install and Relaunch Buckets": IMsg<string>;
   "Internet": IMsg<string>;
-  "Invalid SimpleFIN Token": IMsg<string>;
   "Invalid categorization.  Categories not set.": IMsg<string>;
+  "Invalid date": IMsg<string>;
   "Invalid license": IMsg<string>;
   "Invalid transactions preventing import": IMsg<string>;
   "It says:": IMsg<string>;
@@ -341,6 +348,7 @@ export interface IMessages extends IMessageSet {
   "Preferences...": IMsg<string>;
   "Preparation": IMsg<string>;
   "Preview": IMsg<string>;
+  "Print...": IMsg<string>;
   "Prompt": IMsg<string>;
   "Purchase": IMsg<string>;
   "Purchase Full Version...": IMsg<string>;
@@ -375,6 +383,7 @@ export interface IMessages extends IMessageSet {
   "Restored budget from backup": IMsg<string>;
   "Reverse": IMsg<string>;
   "Run": IMsg<string>;
+  "Running": IMsg<string>;
   "Running...": IMsg<string>;
   "SQL Query": IMsg<string>;
   "Save": IMsg<string>;
@@ -401,7 +410,6 @@ export interface IMessages extends IMessageSet {
   "Sign": IMsg<string>;
   "Sign in to the YNAB website, click My Budget then Export Budget.": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
-  "SimpleFIN client unconfigured": IMsg<string>;
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": IMsg<string>;
   "Skip This Version": IMsg<string>;
   "Skip invalid": IMsg<string>;
@@ -410,7 +418,6 @@ export interface IMessages extends IMessageSet {
   "Start Over": IMsg<string>;
   "Start Speaking": IMsg<string>;
   "Start with a template": IMsg<string>;
-  "Starting": IMsg<string>;
   "Status": IMsg<string>;
   "Step took too long": IMsg<string>;
   "Stop Speaking": IMsg<string>;
@@ -442,6 +449,7 @@ export interface IMessages extends IMessageSet {
   "Toggle Developer Tools": IMsg<string>;
   "Toggle Full Screen": IMsg<string>;
   "Tools": IMsg<string>;
+  "Total": IMsg<string>;
   "Total amount your buckets want each month.": IMsg<string>;
   "Transaction": IMsg<string>;
   "Transactions": IMsg<string>;
@@ -450,6 +458,7 @@ export interface IMessages extends IMessageSet {
   "Transferred": IMsg<string>;
   "Trial Version": IMsg<string>;
   "Trial version": IMsg<string>;
+  "Try the Amazon transactions page instead of using the reports below.": IMsg<string>;
   "Tuition": IMsg<string>;
   "Type a date format...": IMsg<string>;
   "Un-ignore Account": IMsg<string>;
@@ -539,10 +548,6 @@ export interface IMessages extends IMessageSet {
   "buckettype.plain": IMsg<string>;
   "budget-file-type-name": IMsg<string>;
   "daterange.all": IMsg<string>;
-  "daterange.from2monthsago": IMsg<string>;
-  "daterange.from3monthsago": IMsg<string>;
-  "daterange.fromlastmonth": IMsg<string>;
-  "daterange.thismonth": IMsg<string>;
   "debt-bucket-explanation": IMsg<string>;
   "debt-payment-bucket-name": IMsg<(account_name:string)=>string|JSX.Element>;
   "default account name": IMsg<string>;
@@ -557,7 +562,6 @@ export interface IMessages extends IMessageSet {
   "go-to-this-month": IMsg<string>;
   "import-verb": IMsg<string>;
   "in the bank": IMsg<string>;
-  "match-count": IMsg<(target_match:number,total_matches:number)=>string|JSX.Element>;
   "misc group name": IMsg<string>;
   "money-balance-as-of": IMsg<(amount:any,date:any)=>string|JSX.Element>;
   "months gain/loss label": IMsg<(gain:any)=>string|JSX.Element>;
