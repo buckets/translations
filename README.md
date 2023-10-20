@@ -10,7 +10,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   82% | Deutsch |
 |  100% | English |
 |   95% | Español |
-|   98% | Eesti |
+|   97% | Eesti |
 |   82% | Français |
 |    1% | עִברִית |
 |   47% | Magyar |
@@ -19,7 +19,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   78% | Nederlands |
 |   74% | Polski |
 |   72% | Português |
-|   97% | Română |
+|  100% | Română |
 |   15% | Русский |
 |   82% | Svenska |
 |   30% | Türkçe |
