@@ -7,12 +7,16 @@ import { IMessages } from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   {
-    name: "Piotr Bielaska",
-    // href: "", /* optional */
-  },
-  {
     name: "Mateusz Kuniczuk",
     href: "https://github.com/Maffey",
+  },
+  {
+    name: "Paweł Michna",
+    href: "https://github.com/pmichna",
+  },
+  {
+    name: "Piotr Bielaska",
+    // href: "", /* optional */
   },
 ];
 
