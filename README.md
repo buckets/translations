@@ -5,25 +5,25 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 <!-- trans stats start -->
 | Complete | Language |
 |-------|---|
-|    9% | Беларуская |
-|    4% | Dansk |
-|   82% | Deutsch |
+|    7% | Беларуская |
+|    3% | Dansk |
+|   71% | Deutsch |
 |  100% | English |
-|   95% | Español |
-|   97% | Eesti |
-|   82% | Français |
+|   82% | Español |
+|   83% | Eesti |
+|   70% | Français |
 |    1% | עִברִית |
-|   47% | Magyar |
-|   62% | Italiano |
-|   97% | Norsk |
-|   78% | Nederlands |
-|   74% | Polski |
-|   72% | Português |
-|  100% | Română |
-|   15% | Русский |
-|   82% | Svenska |
-|   30% | Türkçe |
-|   23% | Українська |
+|   40% | Magyar |
+|   53% | Italiano |
+|   83% | Norsk |
+|   67% | Nederlands |
+|   64% | Polski |
+|   62% | Português |
+|   85% | Română |
+|   13% | Русский |
+|   71% | Svenska |
+|   26% | Türkçe |
+|   20% | Українська |
 <!-- trans stats end -->
 
 # How to contribute
