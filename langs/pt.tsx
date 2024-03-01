@@ -254,7 +254,7 @@ const messages:IMessages = {
     h: "Jyyh8MGvKZoZXXZkPyMrHYEAAyTOt+V8Kao2KKQtS6k=",
   },
   "Avenues are what you use to connect your devices together so you can send your budget from one device to another.": {
-    val: ""Avenidas" são meios de conexão com seus dispositivos para que você possa enviar seu orçamento de um dispositivo para outro.",
+    val: "Avenidas são meios de conexão com seus dispositivos para que você possa enviar seu orçamento de um dispositivo para outro.",
     translated: true,
     h: "XbtezQPrPTjwRYWch5a1SMCG3WCcDTCs0PlLzxyPRcY=",
   },
