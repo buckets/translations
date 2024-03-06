@@ -11,9 +11,9 @@ const contributors = [
   //   // href: '', /* optional */
   // }
   {
-    name: 'Kemal Altıntop',
-    href: 'http://kemalaltintop.com.tr'
-  }
+    name: "Kemal Altıntop",
+    href: "http://kemalaltintop.com.tr",
+  },
 ];
 
 const messages:IMessages = {
@@ -505,6 +505,7 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change": {
+    /* Noun: name of object describing a change in data */
     val: "Change",
     translated: false,
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
@@ -883,11 +884,6 @@ const messages:IMessages = {
     val: "Tamamlandı",
     translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
-  },
-  "Download": {
-    val: "İndir",
-    translated: true,
-    h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
     val: "Güncellemeyi indir",
@@ -2399,6 +2395,12 @@ const messages:IMessages = {
     translated: false,
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
+  "Show Budget File...": {
+    /* Show the current budget file in Finder/Explorer */
+    val: "Show Budget File...",
+    translated: false,
+    h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
+  },
   "Show Log Files...": {
     val: "Show Log Files...",
     translated: false,
@@ -2796,11 +2798,6 @@ const messages:IMessages = {
     val: "Update Account Name",
     translated: false,
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
-  },
-  "Update Available": {
-    val: "Update Available",
-    translated: false,
-    h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "Update Bucket Name": {
     val: "Update Bucket Name",
@@ -3717,11 +3714,6 @@ Would you like to purchase a license now?`,
     val: "Open",
     translated: false,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
-  },
-  "version-available": {
-    val: (newv:string) => `Version ${newv} available.`,
-    translated: false,
-    h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
 }
 export const pack:ILangPack = {

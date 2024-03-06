@@ -504,6 +504,7 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change": {
+    /* Noun: name of object describing a change in data */
     val: "Change",
     translated: false,
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
@@ -882,11 +883,6 @@ const messages:IMessages = {
     val: "Fatto",
     translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
-  },
-  "Download": {
-    val: "Download",
-    translated: true,
-    h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
     val: "Download Aggiornamento",
@@ -2398,6 +2394,12 @@ const messages:IMessages = {
     translated: true,
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
+  "Show Budget File...": {
+    /* Show the current budget file in Finder/Explorer */
+    val: "Show Budget File...",
+    translated: false,
+    h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
+  },
   "Show Log Files...": {
     val: "Mostra File di Registro...",
     translated: true,
@@ -2795,11 +2797,6 @@ const messages:IMessages = {
     val: "Aggiorna Nome Account",
     translated: true,
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
-  },
-  "Update Available": {
-    val: "Aggiornamento Disponibile",
-    translated: true,
-    h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "Update Bucket Name": {
     val: "Aggiorna Nome Secchiello",
@@ -3716,11 +3713,6 @@ Vuoi comprare una licenza ora?`,
     val: "Open",
     translated: false,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
-  },
-  "version-available": {
-    val: (newv:string) => `Versione ${newv} disponibile.`,
-    translated: true,
-    h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
 }
 export const pack:ILangPack = {
