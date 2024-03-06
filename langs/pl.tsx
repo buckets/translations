@@ -7,12 +7,16 @@ import { IMessages } from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   {
-    name: "Piotr Bielaska",
-    // href: "", /* optional */
-  },
-  {
     name: "Mateusz Kuniczuk",
     href: "https://github.com/Maffey",
+  },
+  {
+    name: "Paweł Michna",
+    href: "https://github.com/pmichna",
+  },
+  {
+    name: "Piotr Bielaska",
+    // href: "", /* optional */
   },
 ];
 
@@ -43,7 +47,7 @@ const messages:IMessages = {
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "/mo": {
-    val: "/mi",
+    val: "/msc.",
     translated: true,
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
@@ -505,6 +509,7 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change": {
+    /* Noun: name of object describing a change in data */
     val: "Change",
     translated: false,
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
@@ -883,11 +888,6 @@ const messages:IMessages = {
     val: "Zakończ",
     translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
-  },
-  "Download": {
-    val: "Pobierz",
-    translated: true,
-    h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
     val: "Pobierz aktualizację",
@@ -2399,6 +2399,12 @@ const messages:IMessages = {
     translated: true,
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
+  "Show Budget File...": {
+    /* Show the current budget file in Finder/Explorer */
+    val: "Show Budget File...",
+    translated: false,
+    h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
+  },
   "Show Log Files...": {
     val: "Pokaż pliki z logami...",
     translated: true,
@@ -2657,8 +2663,8 @@ const messages:IMessages = {
     h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
   },
   "Total amount your buckets want each month.": {
-    val: "Total amount your buckets want each month.",
-    translated: false,
+    val: "Łączna kwota, jakiej potrzebują Twoje kubełki każdego miesiąca.",
+    translated: true,
     h: "PdavPuX8D9m/BkLbr04OKhddGvl8+l0iDiqd+5K9sMc=",
   },
   "Transaction": {
@@ -2796,11 +2802,6 @@ const messages:IMessages = {
     val: "Zmień nazwę konta",
     translated: true,
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
-  },
-  "Update Available": {
-    val: "Aktualizacja jest dostępna",
-    translated: true,
-    h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "Update Bucket Name": {
     val: "Zmień nazwę kubełka",
@@ -3717,11 +3718,6 @@ Czy chciałbyś kupić licencję teraz?`,
     val: "Otwórz",
     translated: true,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
-  },
-  "version-available": {
-    val: (newv:string) => `Nowa wersja ${newv} jest dostępna.`,
-    translated: true,
-    h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
 }
 export const pack:ILangPack = {

@@ -504,6 +504,7 @@ const messages:IMessages = {
     h: "/frArhrZL+bxdiiBKi/1cYdR/tSD7rhbMHJLgHQQdNQ=",
   },
   "Change": {
+    /* Noun: name of object describing a change in data */
     val: "Change",
     translated: false,
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
@@ -882,11 +883,6 @@ const messages:IMessages = {
     val: "Kész",
     translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
-  },
-  "Download": {
-    val: "Letöltés",
-    translated: true,
-    h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
   },
   "Download Update": {
     val: "Frissítés letöltése",
@@ -2398,6 +2394,12 @@ const messages:IMessages = {
     translated: false,
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
+  "Show Budget File...": {
+    /* Show the current budget file in Finder/Explorer */
+    val: "Show Budget File...",
+    translated: false,
+    h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
+  },
   "Show Log Files...": {
     val: "Log fájlok mutatása...",
     translated: true,
@@ -2795,11 +2797,6 @@ const messages:IMessages = {
     val: "Update Account Name",
     translated: false,
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
-  },
-  "Update Available": {
-    val: "Frissítés elérhető",
-    translated: true,
-    h: "FKOD6i3t69T8rvTwVJ5VSnLfkQPBcceuuk2X4ZsNKMY=",
   },
   "Update Bucket Name": {
     val: "Vödör nevének frissítése",
@@ -3716,11 +3713,6 @@ Would you like to purchase a license now?`,
     val: "Megnyitás",
     translated: true,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
-  },
-  "version-available": {
-    val: (newv:string) => `Új verzió érhető el: ${newv}`,
-    translated: true,
-    h: "YCoofx1v0tRUHkHfhFnm6bV2xXfnsNT6QAyXqgkUa9c=",
   },
 }
 export const pack:ILangPack = {

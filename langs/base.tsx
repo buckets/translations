@@ -166,7 +166,6 @@ export interface IMessages extends IMessageSet {
   "Disconnected": IMsg<string>;
   "Do both devices show the same pairing codes?": IMsg<string>;
   "Done": IMsg<string>;
-  "Download": IMsg<string>;
   "Download Update": IMsg<string>;
   "Downloading update...": IMsg<string>;
   "Duplicate Window": IMsg<string>;
@@ -450,6 +449,7 @@ export interface IMessages extends IMessageSet {
   "Sharing": IMsg<string>;
   "Sharing key": IMsg<string>;
   "Show All": IMsg<string>;
+  "Show Budget File...": IMsg<string>;
   "Show Log Files...": IMsg<string>;
   "Show debug info": IMsg<string>;
   "Show folder": IMsg<string>;
@@ -527,7 +527,6 @@ export interface IMessages extends IMessageSet {
   "Update": IMsg<string>;
   "Update Account Balance": IMsg<string>;
   "Update Account Name": IMsg<string>;
-  "Update Available": IMsg<string>;
   "Update Bucket Name": IMsg<string>;
   "Update Bucket Type": IMsg<string>;
   "Update Color": IMsg<string>;
@@ -694,6 +693,5 @@ export interface IMessages extends IMessageSet {
   "unknown_account.ignore": IMsg<string>;
   "use-delimiter": IMsg<(delimiter:string)=>string|JSX.Element>;
   "verb-open": IMsg<string>;
-  "version-available": IMsg<(newv:string)=>string|JSX.Element>;
 }
 
