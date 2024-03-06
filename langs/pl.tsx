@@ -7,12 +7,16 @@ import { IMessages } from './base'
 // a website as you want it to appear in any credits.
 const contributors = [
   {
-    name: "Piotr Bielaska",
-    // href: "", /* optional */
-  },
-  {
     name: "Mateusz Kuniczuk",
     href: "https://github.com/Maffey",
+  },
+  {
+    name: "Paweł Michna",
+    href: "https://github.com/pmichna",
+  },
+  {
+    name: "Piotr Bielaska",
+    // href: "", /* optional */
   },
 ];
 
@@ -43,7 +47,7 @@ const messages:IMessages = {
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "/mo": {
-    val: "/mi",
+    val: "/msc.",
     translated: true,
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
@@ -2659,8 +2663,8 @@ const messages:IMessages = {
     h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
   },
   "Total amount your buckets want each month.": {
-    val: "Total amount your buckets want each month.",
-    translated: false,
+    val: "Łączna kwota, jakiej potrzebują Twoje kubełki każdego miesiąca.",
+    translated: true,
     h: "PdavPuX8D9m/BkLbr04OKhddGvl8+l0iDiqd+5K9sMc=",
   },
   "Transaction": {
