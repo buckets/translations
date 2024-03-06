@@ -881,11 +881,6 @@ const messages:IMessages = {
     translated: true,
     h: "FlUsJYC76LgtNYLenrPiDvDgAVk3wLT14rwyk2hHYiY=",
   },
-  "Download": {
-    val: "Спампаваць",
-    translated: true,
-    h: "QVM3NKWnuJ19cWUaN3y9fVCbkiQTygWbOYuFMklAwNc=",
-  },
   "Download Update": {
     val: "Спампаваць абнаўленне",
     translated: true,
@@ -1117,12 +1112,6 @@ const messages:IMessages = {
     val: "Прымусовая перазагрузка",
     translated: true,
     h: "ktBJY2UXO+2r0ZvmbQXhArN51bSTnyaNnnBNR9PQ5K8=",
-  },
-  "Force sync now": {
-    /* Label on button that causes budgets to sync between devices */
-    val: "Прымусова сінхранізаваць",
-    translated: true,
-    h: "YzfV70/cCFqjo0Sg7NtKED1joQ7JkMf31of4dwf3SFU=",
   },
   "From": {
     val: "З",

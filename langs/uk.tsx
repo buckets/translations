@@ -134,6 +134,9 @@ const messages:IMessages = {
   },
   "All Files": {
     /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
+    /* Label for letting users select any file for import regardless of extension */
     val: "Всі файли",
     translated: true,
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
@@ -353,17 +356,20 @@ const messages:IMessages = {
   "Buckets": {
     /* Bucket list page title.  Does NOT refer to the application name */
     /* Refers to a list of buckets, not the application title */
+    /* Refers to a list of buckets, not the application title */
     val: "Відра",
     translated: true,
     h: "fMPIWzGvVEG0t7+bZX1ucgzulk8FaQfqioLgwLsj+oE=",
   },
   "Buckets Budget Filename": {
     /* 'Buckets' refers to the application name */
+    /* 'Buckets' refers to the application name */
     val: "Назва файлу бюджету Buckets",
     translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "Buckets License": {
+    /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
     val: "Ліцензія Buckets",
     translated: true,

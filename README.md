@@ -5,11 +5,11 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 <!-- trans stats start -->
 | Complete | Language |
 |-------|---|
-|    7% | Беларуская |
+|   37% | Беларуская |
 |    3% | Dansk |
 |   70% | Deutsch |
 |  100% | English |
-|   82% | Español |
+|   81% | Español |
 |   97% | Eesti |
 |   70% | Français |
 |    1% | עִברִית |
@@ -18,12 +18,12 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 |   83% | Norsk |
 |   67% | Nederlands |
 |   63% | Polski |
-|   62% | Português |
-|   85% | Română |
+|   93% | Português |
+|   99% | Română |
 |   13% | Русский |
 |   70% | Svenska |
 |   26% | Türkçe |
-|   19% | Українська |
+|   32% | Українська |
 <!-- trans stats end -->
 
 # How to contribute
