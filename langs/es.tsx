@@ -8,7 +8,7 @@ import { IMessages } from './base'
 const contributors = [
   {
     name: "osanchez",
-    href: "https://osanchez.dev", /* optional */
+    href: "", /* optional */
   },
   {
     name: "Rafael Sillero",
