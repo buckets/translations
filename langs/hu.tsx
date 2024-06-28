@@ -11,7 +11,7 @@ import {IMessages} from './base'
 const contributors = [
   {
     name: "Peter Panyiczky",
-    href: "https://magyaritasok.hu", /* optional */
+    href: "", /* optional */
   }
 ];
 
