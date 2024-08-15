@@ -6,13 +6,17 @@ import { IMessages } from './base'
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
-   {
-     name: "Yahor Haurylenka",
-     href: "https://www.facebook.com/k1llo/", /* optional */
-   },
+  {
+    name: "Yahor Haurylenka",
+    href: "https://www.facebook.com/k1llo/", /* optional */
+  },
+  {
+    name: "Aliaksiej Homza",
+    href: "https://x.com/GomZik", /* optional */
+  },
 ];
 
-const messages:IMessages = {
+const messages: IMessages = {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
     val: "\n        Хаця запаўненне гэтай формы пажадана, вы таксама можаце адправіць па электроннай пошце bugs@budgetwithbuckets.com\n      ",
     translated: true,
@@ -178,7 +182,7 @@ const messages:IMessages = {
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "App Settings": {
-    val: "Налады аплікацыі",
+    val: "Налады праграмы",
     translated: true,
     h: "bk/DqvzHJTuksZnC0cWC2+KPOwsnilgNjXSPLv1SbPA=",
   },
@@ -241,7 +245,7 @@ const messages:IMessages = {
   },
   "Avenue unavailable": {
     val: "Avenue недаступна",
-    translated: false,
+    translated: true,
     h: "cDAq+7ZyrtyC7zRkvSBe9Ob6LBn4eVkqXRT7Y3Bau3U=",
   },
   "Avenues": {
@@ -299,8 +303,8 @@ const messages:IMessages = {
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "Bank macro": {
-    val: "Bank macro",
-    translated: false,
+    val: "Макрас Банка",
+    translated: true,
     h: "IQmQZ/1/eVg9LLwOsnxkUbQGAcx9ZkBAlrP1Ch3Xo/c=",
   },
   "Basic settings": {
@@ -339,13 +343,13 @@ const messages:IMessages = {
     h: "gBMlSFTWDRRSWZeZ3fuxDhpJnhv2MoF3EvZSwo1BZHg=",
   },
   "Bucket group": {
-    val: "Bucket group",
-    translated: false,
+    val: "Група вёдраў",
+    translated: true,
     h: "SK6rZDww/r+lLW1JUMyv3SXYmxaP95hasIOTSW4WFZY=",
   },
   "Bucket transaction": {
-    val: "Bucket transaction",
-    translated: false,
+    val: "Аперацыі вядра",
+    translated: true,
     h: "bEQDTy9m51uIwZj996XKffMPU91hkOBVlNOKpudB2hw=",
   },
   "Bucket type:": {
@@ -419,8 +423,8 @@ const messages:IMessages = {
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
   },
   "Budgets are too different to merge": {
-    val: "Budgets are too different to merge",
-    translated: false,
+    val: "Файлы бюджэтаў моцна адрозніваюцца, каб зрабіць зліццё",
+    translated: true,
     h: "vkltd5Q5ByrmIraVpTVq0iz8MIHQWKRmddlYq9ahIKk=",
   },
   "Cable TV": {
@@ -434,8 +438,8 @@ const messages:IMessages = {
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Can't merge with unresolved conflicts": {
-    val: "Can't merge with unresolved conflicts",
-    translated: false,
+    val: "Нельга зрабіць зліццё пакуль існуюць нявырашаныя канфлікты",
+    translated: true,
     h: "5kZvSW2HEqYSqqo9U64Kvkuax9LfssNm+s4I9CvjJQ0=",
   },
   "Cancel": {
@@ -451,13 +455,13 @@ const messages:IMessages = {
     h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
   "Cancel Merge": {
-    val: "Cancel Merge",
-    translated: false,
+    val: "Скасаваць зліццё",
+    translated: true,
     h: "xOUSd4pIBFhoe1VahnIJgCO8yf46iL9AGSBb3bE9Mvc=",
   },
   "Cancel merge": {
-    val: "Cancel merge",
-    translated: false,
+    val: "Скасаваць зліццё",
+    translated: true,
     h: "PtR83Mtr2bGbo1WTP4IRb/XgW5AiIVvzTQD9jFDSoAI=",
   },
   "Cancel sync": {
@@ -481,8 +485,8 @@ const messages:IMessages = {
     h: "wp49ZoinRgifzKQ+N9RrJ6LG/9Yw6hkw1RCwXwHc6tA=",
   },
   "Categories": {
-    val: "Categories",
-    translated: false,
+    val: "Катэгорыі",
+    translated: true,
     h: "UxClJeKz605AO/90mJ2YOi6N2LJk9D+RJReMlC3TDO8=",
   },
   "Categorization": {
@@ -502,8 +506,8 @@ const messages:IMessages = {
   },
   "Change": {
     /* Noun: name of object describing a change in data */
-    val: "Change",
-    translated: false,
+    val: "Змена",
+    translated: true,
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
   },
   "Change Account Type": {
@@ -533,14 +537,14 @@ const messages:IMessages = {
     h: "S/1p0syaOMqjAbHpmZa6gWaIh/9e29QR2cRJhiMadz0=",
   },
   "Check for Updates": {
-    val: "Праверка наяўнасці абнаўленняў",
+    val: "Праверыць наяўнасць абнаўленняў",
     translated: true,
     h: "6vtxqhyfiDaIXgTBH0pdoPzTGftDDEoRFNGU082PhRk=",
   },
   "Check for updates": {
     /* Label on button that causes budgets to sync between devices */
-    val: "Check for updates",
-    translated: false,
+    val: "Праверыць наяўнасць зменаў",
+    translated: true,
     h: "MerO0fg7nnpQBvZ87GDbTKrOJZo+aGSx6qiQEeVAmXw=",
   },
   "Checking for updates...": {
@@ -549,8 +553,8 @@ const messages:IMessages = {
     h: "wjjhyYhYEFdJWUmwdJIEdxm0iAq2bwrWU79ANObzzZY=",
   },
   "Choose": {
-    val: "Choose",
-    translated: false,
+    val: "Выбраць",
+    translated: true,
     h: "UeJgTiqvSbyjLXgzersyKp/deJ/06L+xXts8Eq4g6Jk=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
@@ -620,8 +624,8 @@ const messages:IMessages = {
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Conflicts": {
-    val: "Conflicts",
-    translated: false,
+    val: "Канфлікты",
+    translated: true,
     h: "W04VkIj+XKS1rPtY7a6cQITUa157onpN6NAVlO9MknY=",
   },
   "Connect": {
@@ -646,7 +650,7 @@ const messages:IMessages = {
   },
   "Connection corrupted. Please delete and re-create.": {
     /* Error when an invalid SimpleFIN connection is attempted */
-    val: "Злучэнне Tsonnection пашкоджана. Калі ласка, выдаліце і стварыце зноў.",
+    val: "Злучэнне пашкоджана. Калі ласка, выдаліце і стварыце зноў.",
     translated: true,
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
@@ -769,8 +773,8 @@ const messages:IMessages = {
     h: "4ScsdyOtUZsKH/cENJNnmyZFMuIjtHzPrPhrpnc+kOk=",
   },
   "Debugging": {
-    val: "Debugging",
-    translated: false,
+    val: "Адладка",
+    translated: true,
     h: "5qYhotBwdyjpp1WiJlT+T5wf/rpbKu5NEGOrxJMpz2U=",
   },
   "Decimal delimiter": {
@@ -831,8 +835,8 @@ const messages:IMessages = {
     h: "nKzti1takFUxZyWfLTGqgvdL3dJMx6CdNwVfBH1jUYE=",
   },
   "Deleted": {
-    val: "Deleted",
-    translated: false,
+    val: "Выдалена",
+    translated: true,
     h: "qaM7+YriKFk63EE2I46KNlMjYgR2jOP4JZMTj4yIti4=",
   },
   "Delimiter": {
@@ -974,8 +978,8 @@ const messages:IMessages = {
     h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
   },
   "Error during merge": {
-    val: "Error during merge",
-    translated: false,
+    val: "Памылка падчас зліцця",
+    translated: true,
     h: "PoE7TMsxGW9dp4u1juziybXV1VV8Wgv9ejdrAoUVynk=",
   },
   "Error fetching data": {
@@ -1014,8 +1018,8 @@ const messages:IMessages = {
     h: "IEJfuOO0LRCEv2OUh8Cz02PtiJ8tqVTRzeXK5DyqBQs=",
   },
   "Existing version": {
-    val: "Existing version",
-    translated: false,
+    val: "Існуючая версія",
+    translated: true,
     h: "w3Sl4FH2y8PxQEXEcDumPPkMrRbBM/winnkwLKNDghY=",
   },
   "Expenses": {
@@ -1046,8 +1050,8 @@ const messages:IMessages = {
     h: "9XpUff7TtVQbIncvgmrfzVB2gkBh35RnM1ET/HFr3k0=",
   },
   "File access error": {
-    val: "File access error",
-    translated: false,
+    val: "Памылка доступу да файла",
+    translated: true,
     h: "DnlPFIjZcB6Sgt6APxZIl4HyFKIDaY5CiE4AWlVYqMI=",
   },
   "File does not exist:": {
@@ -1094,13 +1098,13 @@ const messages:IMessages = {
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
   },
   "Finish merge": {
-    val: "Finish merge",
-    translated: false,
+    val: "Скончыць зліццё",
+    translated: true,
     h: "B0c10bq0bG9fZmohGvSo0pG1yeqxKs5mLo7SpplAhfw=",
   },
   "Folder": {
-    val: "Folder",
-    translated: false,
+    val: "Папка",
+    translated: true,
     h: "U0LnwvQV2yrtaYfkte120FAJhkqVya8TcV7qJ9tumUs=",
   },
   "Forbidden": {
@@ -1204,8 +1208,8 @@ const messages:IMessages = {
     h: "RpKz0G7Y8OE5oyGm0/zRffPdr7RQkneZCYrikLHIZ+U=",
   },
   "Hide debug info": {
-    val: "Hide debug info",
-    translated: false,
+    val: "Схаваць адладачную інфармацыю",
+    translated: true,
     h: "9rip1vzCF79F3bOZh86TdPkeaNjawcFqlYX/gmCqHyU=",
   },
   "Holidays": {
@@ -1336,13 +1340,13 @@ const messages:IMessages = {
     h: "i/Z19mssKMh8vj11iAIlpS59JGc7MtE5zkyAW/IJVdA=",
   },
   "Incoming budget file": {
-    val: "Incoming budget file",
-    translated: false,
+    val: "Уваходны файл бюджэта",
+    translated: true,
     h: "KQwRx6114V/RFL9ilT4S8R+fWFeCu7sLcYe2GcL9JmQ=",
   },
   "Incoming version": {
-    val: "Incoming version",
-    translated: false,
+    val: "Уваходная версія",
+    translated: true,
     h: "u02gUA6+LNLSmH1C76FF2HqPX3K7EuK8xBSB0tl41js=",
   },
   "Install and Relaunch Buckets": {
@@ -1362,7 +1366,7 @@ const messages:IMessages = {
   },
   "Invalid date": {
     val: "Памылковая дата",
-    translated: false,
+    translated: true,
     h: "wDN2ZzrVLU22Lij4eJJvxPBmC6Qv9SPmgRT36Qpq9KE=",
   },
   "Invalid license": {
@@ -1407,19 +1411,19 @@ const messages:IMessages = {
   },
   "Kick Bucket": {
     /* Name of action.  Consider this "Archive Bucket" */
-    val: "Штурхануць вядро",
+    val: "Прыбраць вядро",
     translated: true,
     h: "3hmOuv1hNsjpQJ5cSDTlSqN4jGOGFnSPw9r0bK68RWY=",
   },
   "Kick the bucket": {
     /* Button label for archiving a bucket */
-    val: "Штурхануць вядро",
+    val: "Прыбраць вядро",
     translated: true,
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
     /* Label for list of archived buckets */
-    val: "Штурханута",
+    val: "Прыбраныя",
     translated: true,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
@@ -1435,8 +1439,8 @@ const messages:IMessages = {
     h: "ifqkf2oJbmCZakm2f0rOQonkEGgcRhI46mmhSM3tTbA=",
   },
   "Last updated": {
-    val: "Last updated",
-    translated: false,
+    val: "Апошняе абнаўленне",
+    translated: true,
     h: "BenCUeX0s7/BAYHFcK/s7yUcGW68Pyd1JDxeIPnbBGM=",
   },
   "Last used": {
@@ -1524,101 +1528,101 @@ const messages:IMessages = {
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
-    val: "Адзначыць ачышчаным",
+    val: "Адзначыць правераным",
     translated: true,
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
     /* Name of action for marking a transaction as not having cleared the bank */
-    val: "Mark Not Cleared",
-    translated: false,
+    val: "Адзначыць неправераным",
+    translated: true,
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Medical": {
-    val: "Medical",
-    translated: false,
+    val: "Медыцына",
+    translated: true,
     h: "TcuCD6n7/CmRm/jdGZQLDvEdAVaJ2cDy2CahpUk9pCQ=",
   },
   "Memo": {
-    val: "Memo",
-    translated: false,
+    val: "Нататка",
+    translated: true,
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "Merge": {
-    val: "Merge",
-    translated: false,
+    val: "Зліццё",
+    translated: true,
     h: "mOHySNwxHH1kAQerMpBekxjTXkpm93+75ghAQZBI8YU=",
   },
   "Merge Budgets": {
-    val: "Merge Budgets",
-    translated: false,
+    val: "Зліць вёдры",
+    translated: true,
     h: "7mOfG0hHFzdbEwVuhnSJP2QnEDVFQg4s3d8syq4EMHw=",
   },
   "Merge already in progress": {
-    val: "Merge already in progress",
-    translated: false,
+    val: "Зліццё ўжо праводзіцца",
+    translated: true,
     h: "oIEtjAX5TjxJ78OneCHljWt7hpmZS8AhezCjetJ2UEA=",
   },
   "Merge complete": {
-    val: "Merge complete",
-    translated: false,
+    val: "Зліццё скончана",
+    translated: true,
     h: "4DUIP9c3KGNs5H3H3fnNnu8LfaHA4bB8PIds+wSy3jI=",
   },
   "Merge failed": {
-    val: "Merge failed",
-    translated: false,
+    val: "Памылка зліцця",
+    translated: true,
     h: "6HNyKVatlEsWVRVgjSSAxmGoD1obkrMMWW6Ci7DLb3A=",
   },
   "Minimize": {
-    val: "Minimize",
-    translated: false,
+    val: "Згарнуць",
+    translated: true,
     h: "ELhkWGGY5oNKpfCzoXXW6TgkfS1nI0ZuJbWyYLmT+ro=",
   },
   "Misc": {
-    val: "Misc",
-    translated: false,
+    val: "Іншае",
+    translated: true,
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Month to Month": {
-    val: "Month to Month",
-    translated: false,
+    val: "Месяц да месяцу",
+    translated: true,
     h: "VYq/DQYARQsjblXvXMijYnVbyFbLkqoRYmQ8IHhTbDQ=",
   },
   "Monthly": {
-    val: "Monthly",
-    translated: false,
+    val: "Месячны",
+    translated: true,
     h: "r+AvQ06eYho/PFxjGz8FzHFmEfN+fjBpG0Yzic6/UgU=",
   },
   "Monthly deposit:": {
-    val: "Monthly deposit:",
-    translated: false,
+    val: "Месячны дэпазіт:",
+    translated: true,
     h: "GKlnbgfjEkmlOI0TT0pyfI30T1/0jrXjT01JZrBTpP0=",
   },
   "Months": {
-    val: "Months",
-    translated: false,
+    val: "Месяцы",
+    translated: true,
     h: "wW/jCiA3sxpdbZ8SZ50pYiOvxUk2Ix8T6WB3ZXkAS4s=",
   },
   "Move Bucket": {
-    val: "Move Bucket",
-    translated: false,
+    val: "Перасунуць вядро",
+    translated: true,
     h: "6lJYNJMplvVHQuXlFYBD81+4kgQQb1SwZ0s13hvlIfI=",
   },
   "Move Group": {
-    val: "Move Group",
-    translated: false,
+    val: "Перасунуць групу",
+    translated: true,
     h: "zSmn/C+X/cbh/GqqDMPetNfBb8iTmlwFh9Dsbc9qe9k=",
   },
   "NO": {
-    val: "NO",
-    translated: false,
+    val: "НЕ",
+    translated: true,
     h: "hxXybQ1uFw+QDmCTj+3XDrm4sicWa7ZqmazhYaf5Nr8=",
   },
   "Name": {
     /* Remote device name */
     /* Label for sharing avenue name */
-    val: "Name",
-    translated: false,
+    val: "Назва",
+    translated: true,
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "Natural gas/propane/oil": {
@@ -1627,35 +1631,35 @@ const messages:IMessages = {
     h: "CMjkKDPUYAAymOaPiz0PkXS6Ec3BTRWuNZJQ34kHA5s=",
   },
   "Need ideas for getting started?": {
-    val: "Need ideas for getting started?",
-    translated: false,
+    val: "Патрэбныя ідэі для пачатку?",
+    translated: true,
     h: "JLW3ar4riykgYXyTGeMCNqL+wes0evHH6RERa+qXPaw=",
   },
   "Needs": {
-    val: "Needs",
-    translated: false,
+    val: "Патрэбы",
+    translated: true,
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
     /* Verb meaning to make a number have the opposite sign */
-    val: "Negate",
-    translated: false,
+    val: "Зрабіць адмоўным",
+    translated: true,
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
     /* Label for choosing which value wihtin a CSV file represents negative */
-    val: "Negative",
-    translated: false,
+    val: "Знак адмоўнасці",
+    translated: true,
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
     val: "Net",
-    translated: false,
+    translated: true,
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "Net Transfers": {
-    val: "Net Transfers",
+    val: "Net пераводы",
     translated: false,
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
   },
@@ -1670,98 +1674,98 @@ const messages:IMessages = {
     h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
   },
   "New Bucket": {
-    val: "New Bucket",
-    translated: false,
+    val: "Новае вядро",
+    translated: true,
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "New Budget...": {
-    val: "New Budget...",
-    translated: false,
+    val: "Новы бюджэт...",
+    translated: true,
     h: "daxIu+dqn7pfUDeB26rLQnPnAz2v5opSTHbAyBovaoI=",
   },
   "New Group": {
-    val: "New Group",
-    translated: false,
+    val: "Новая група",
+    translated: true,
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "New account": {
-    val: "New account",
-    translated: false,
+    val: "Новы рахунак",
+    translated: true,
     h: "MtAiANg7ugdeUiGmiGklfBPG4T1igh1iChKeC0Mdxnc=",
   },
   "New avenue": {
-    val: "New avenue",
-    translated: false,
+    val: "Новы avenue",
+    translated: true,
     h: "EyqJb2lqkOre5EVjsnQYGA3tj0tYdB/UHeT1HQmp6g4=",
   },
   "New bucket": {
-    val: "New bucket",
-    translated: false,
+    val: "Новае вядро",
+    translated: true,
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "New car": {
-    val: "New car",
-    translated: false,
+    val: "Новае аўто",
+    translated: true,
     h: "Bp27l6cn2XdsJhTwsG7CqndX5v6581sQjpY4tMVeh88=",
   },
   "New computer": {
-    val: "New computer",
-    translated: false,
+    val: "Новы камп'ютар",
+    translated: true,
     h: "zrx1OP3GJYjfIIZU0Sa31Mm3aQjGco6OnX25VqxnLlY=",
   },
   "New phone": {
-    val: "New phone",
-    translated: false,
+    val: "Новы тэлефон",
+    translated: true,
     h: "v6DgXaDFo1Yjq7Cyz8tC29KXNgr704sFNCnXIedKsHw=",
   },
   "New roof": {
-    val: "New roof",
-    translated: false,
+    val: "Новая крыша",
+    translated: true,
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
   "No": {
-    val: "No",
-    translated: false,
+    val: "Не",
+    translated: true,
     h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
   },
   "No conflicts": {
-    val: "No conflicts",
-    translated: false,
+    val: "Няма канфліктаў",
+    translated: true,
     h: "UlN5g4bplbpYSjOMLbuCBZ5ICB8dMKhKiRial9fMUF8=",
   },
   "No matches found": {
-    val: "No matches found",
-    translated: false,
+    val: "Супадзенняў не знойдзена",
+    translated: true,
     h: "p4er9wMKH/YiF5PrBRKpfEzR8HINC3N0d9Iol4zqgtQ=",
   },
   "No name": {
-    val: "No name",
-    translated: false,
+    val: "Няма назвы",
+    translated: true,
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "No orders imported": {
-    val: "No orders imported",
-    translated: false,
+    val: "Заказы не былі імпартаваныя",
+    translated: true,
     h: "BSXGKYKVKCk7fbaNo3wAigIjqpZPNfJFNISloGmngZg=",
   },
   "No refunds imported": {
-    val: "No refunds imported",
-    translated: false,
+    val: "Звароты не былі імпартаваныя",
+    translated: true,
     h: "J8bwMBTknpk9dMKKsTWTqNlncBVGlUjhrnjwN6Z7uJk=",
   },
   "No, don't connect": {
-    val: "No, don't connect",
-    translated: false,
+    val: "Не, не злучацца",
+    translated: true,
     h: "MaiZRnZgYzKFsvyy1L/fnIA4McuhD8MAo4t+Rw216oE=",
   },
   "Normal": {
-    val: "Normal",
-    translated: false,
+    val: "Звычайны",
+    translated: true,
     h: "hjYDsfwaNZVxJ5eupqHy97JfTq/YAPm+bD+Zx0zrGuU=",
   },
   "Not Transfer": {
-    val: "Not Transfer",
-    translated: false,
+    val: "Не перавод",
+    translated: true,
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
   "Not running": {
@@ -1771,24 +1775,24 @@ const messages:IMessages = {
   },
   "Not yet cleared": {
     /* Tooltip text indicating that a transaction has not yet cleared. */
-    val: "Not yet cleared",
-    translated: false,
+    val: "Яшчэ не праверана",
+    translated: true,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
-    val: "Note",
-    translated: false,
+    val: "Нататка",
+    translated: true,
     h: "omcHOlFDF1aMLf9t2/tJ9R1dYEFSQC9IiPuXLXuFwEk=",
   },
   "Nothing found matching:": {
-    val: "Nothing found matching:",
-    translated: false,
+    val: "Супадзенняў не знойдзена:",
+    translated: true,
     h: "NF10b/Nmjj8holFGK7KIiaJhSb8bsL9Zt/Fa8fFy4gk=",
   },
   "Number format": {
     /* Label for budget number formatting preference */
-    val: "Number format",
-    translated: false,
+    val: "Лічбавы фармат",
+    translated: true,
     h: "RxooctpubAJr5NcKn57a5kjGBEdlPT5b2h6PUFLqxxE=",
   },
   "OBJ.account_id": {
@@ -3393,7 +3397,7 @@ const messages:IMessages = {
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
-    val: (account_name:string) => `${account_name} Payment`,
+    val: (account_name: string) => `${account_name} Payment`,
     translated: false,
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
@@ -3425,8 +3429,8 @@ const messages:IMessages = {
   },
   "getting-started-link": {
     val: (clickhandler) => {
-          return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
-        },
+      return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+    },
     translated: false,
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
@@ -3476,16 +3480,16 @@ const messages:IMessages = {
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "money-balance-as-of": {
-    val: (amount:JSX.Element, date:JSX.Element) => {
-                  return <span>{amount} as of {date}</span>
-                },
+    val: (amount: JSX.Element, date: JSX.Element) => {
+      return <span>{amount} as of {date}</span>
+    },
     translated: false,
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
     val: (gain) => {
-                        return gain >= 0 ? "Month's gain" : "Month's loss";
-                      },
+      return gain >= 0 ? "Month's gain" : "Month's loss";
+    },
     translated: false,
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
@@ -3552,27 +3556,27 @@ Would you like to purchase a license now?`,
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
-    val: (abs_amount:JSX.Element) => {
-                                      return <span>
-                                      You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
-                                      </span>
-                                    },
+    val: (abs_amount: JSX.Element) => {
+      return <span>
+        You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
+      </span>
+    },
     translated: false,
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
-    val: (abs_amount:JSX.Element) => {
-                                      return <span>
-                                      You have {abs_amount} left to put into buckets.
-                                      </span>
-                                    },
+    val: (abs_amount: JSX.Element) => {
+      return <span>
+        You have {abs_amount} left to put into buckets.
+      </span>
+    },
     translated: false,
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "sample-size": {
-    val: (count:number, total:number) => {
-          return `Showing ${count} of ${total}`
-        },
+    val: (count: number, total: number) => {
+      return `Showing ${count} of ${total}`
+    },
     translated: false,
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
@@ -3590,7 +3594,7 @@ Would you like to purchase a license now?`,
   },
   "shipment-number": {
     /* Noun labeling this shipment number */
-    val: (number:number)=>`Shipment ${number}`,
+    val: (number: number) => `Shipment ${number}`,
     translated: false,
     h: "kOj0AkivxHYJj3IKqIFziGCcIwk1yxyUrloX+kGlOd0=",
   },
@@ -3601,8 +3605,8 @@ Would you like to purchase a license now?`,
   },
   "simplefin-get-token": {
     val: (mklink) => {
-              return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
-            },
+      return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
+    },
     translated: false,
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
@@ -3639,8 +3643,8 @@ Would you like to purchase a license now?`,
   },
   "sync.toast.syncing": {
     val: (start: string, end: string) => {
-        return `Syncing transactions from ${start} to ${end}`;
-      },
+      return `Syncing transactions from ${start} to ${end}`;
+    },
     translated: false,
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
@@ -3662,22 +3666,22 @@ Would you like to purchase a license now?`,
   },
   "trans-created-outofview": {
     val: (month: string) => {
-              return <span>Transaction created in {month} </span>;
-            },
+      return <span>Transaction created in {month} </span>;
+    },
     translated: false,
     h: "ur97iCX3Iw1E262eZ72YAEFdXlwvlqNkyNn1caIKi0E=",
   },
   "transfer-from-account": {
-    val: (dropdown:JSX.Element) => {
-                return <span>Transfer from {dropdown}</span>
-              },
+    val: (dropdown: JSX.Element) => {
+      return <span>Transfer from {dropdown}</span>
+    },
     translated: false,
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
-    val: (dropdown:JSX.Element) => {
-                return <span>Transfer to {dropdown}</span>
-              },
+    val: (dropdown: JSX.Element) => {
+      return <span>Transfer to {dropdown}</span>
+    },
     translated: false,
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
@@ -3701,7 +3705,7 @@ Would you like to purchase a license now?`,
   },
   "use-delimiter": {
     /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
-    val: (delimiter:string) => `Use "${delimiter}"`,
+    val: (delimiter: string) => `Use "${delimiter}"`,
     translated: false,
     h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
   },
@@ -3712,7 +3716,7 @@ Would you like to purchase a license now?`,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
 }
-export const pack:ILangPack = {
+export const pack: ILangPack = {
   name: 'Беларуская',
   dir: 'ltr',
   numbers: {
