@@ -6,10 +6,10 @@ import { IMessages } from './base'
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
 const contributors = [
-  // {
-  //   name: "Jakub Žídek",
-  //   href: "", /* optional */
-  // },
+  {
+    name: "Jakub Žídek",
+    href: "", /* optional */
+  },
 ];
 
 const messages:IMessages = {
@@ -3710,7 +3710,7 @@ Would you like to purchase a license now?`,
   },
 }
 export const pack:ILangPack = {
-  name: 'English',
+  name: 'čeština',
   dir: 'ltr',
   numbers: {
     thousands: ',',
