@@ -3,6 +3,7 @@
 import { IMsg, IMessageSet } from '@iffycan/i18n'
 export interface IMessages extends IMessageSet {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
+  "(Blank)": IMsg<string>;
   "(Drop files or click)": IMsg<string>;
   "(If you want a response)": IMsg<string>;
   "(easiest)": IMsg<string>;
@@ -40,6 +41,7 @@ export interface IMessages extends IMessageSet {
   "Authenticated": IMsg<string>;
   "Authenticating": IMsg<string>;
   "Authentication": IMsg<string>;
+  "Automatic": IMsg<string>;
   "Available version": IMsg<string>;
   "Avenue available": IMsg<string>;
   "Avenue closed": IMsg<string>;
@@ -62,7 +64,9 @@ export interface IMessages extends IMessageSet {
   "Break Import Links": IMsg<string>;
   "Bring All to Front": IMsg<string>;
   "Bucket": IMsg<string>;
+  "Bucket Transaction ID": IMsg<string>;
   "Bucket Transactions": IMsg<string>;
+  "Bucket amount": IMsg<string>;
   "Bucket deleted completely": IMsg<string>;
   "Bucket group": IMsg<string>;
   "Bucket transaction": IMsg<string>;
@@ -74,14 +78,13 @@ export interface IMessages extends IMessageSet {
   "Budget": IMsg<string>;
   "Budget Specific Settings": IMsg<string>;
   "Budget file": IMsg<string>;
+  "Budget files are too different to merge": IMsg<string>;
   "Budget password:": IMsg<string>;
-  "Budget version is not the same": IMsg<string>;
   "Budget-specific number format": IMsg<string>;
   "Budgeted": IMsg<string>;
-  "Budgets are too different to merge": IMsg<string>;
   "Cable TV": IMsg<string>;
   "Calculator": IMsg<string>;
-  "Can't merge with unresolved conflicts": IMsg<string>;
+  "Can't merge budgets of different versions": IMsg<string>;
   "Cancel": IMsg<string>;
   "Cancel Import": IMsg<string>;
   "Cancel Merge": IMsg<string>;
@@ -124,6 +127,7 @@ export interface IMessages extends IMessageSet {
   "Connection corrupted. Please delete and re-create.": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
+  "Count": IMsg<string>;
   "Create Account": IMsg<string>;
   "Create Backup": IMsg<string>;
   "Create Backup and Start Over": IMsg<string>;
@@ -134,10 +138,11 @@ export interface IMessages extends IMessageSet {
   "Create macro": IMsg<string>;
   "Create new account": IMsg<string>;
   "Create or manage account": IMsg<string>;
-  "Currency symbol": IMsg<string>;
+  "Currency symbols": IMsg<string>;
   "Current version": IMsg<string>;
   "Custom": IMsg<string>;
   "Cut": IMsg<string>;
+  "Dark": IMsg<string>;
   "Data": IMsg<string>;
   "Date Posted": IMsg<string>;
   "Date format": IMsg<string>;
@@ -161,6 +166,7 @@ export interface IMessages extends IMessageSet {
   "Description": IMsg<string>;
   "Details": IMsg<string>;
   "Device": IMsg<string>;
+  "Device ID": IMsg<string>;
   "Diapers": IMsg<string>;
   "Disable Macro": IMsg<string>;
   "Disconnected": IMsg<string>;
@@ -178,17 +184,21 @@ export interface IMessages extends IMessageSet {
   "Electricity": IMsg<string>;
   "Enable Macro": IMsg<string>;
   "Enabled": IMsg<string>;
+  "Encryption": IMsg<string>;
+  "Encryption keys": IMsg<string>;
   "Ending Balance": IMsg<string>;
   "Ending amount:": IMsg<string>;
   "Ending balance": IMsg<string>;
   "Enter License...": IMsg<string>;
   "Error": IMsg<string>;
+  "Error decrypting recording": IMsg<string>;
   "Error during import": IMsg<string>;
   "Error during merge": IMsg<string>;
   "Error fetching data": IMsg<string>;
   "Error importing": IMsg<string>;
   "Error parsing response": IMsg<string>;
   "Error restoring from backup": IMsg<string>;
+  "Error running macro": IMsg<string>;
   "Error running recording": IMsg<string>;
   "Error running sync": IMsg<string>;
   "Error updating transaction": IMsg<string>;
@@ -203,12 +213,14 @@ export interface IMessages extends IMessageSet {
   "File import mapping": IMsg<string>;
   "File saved: ": IMsg<string>;
   "Files available to sync": IMsg<string>;
+  "Filter": IMsg<string>;
   "Find Next": IMsg<string>;
   "Find Previous": IMsg<string>;
   "Find on page": IMsg<string>;
   "Find...": IMsg<string>;
   "Finish merge": IMsg<string>;
   "Folder": IMsg<string>;
+  "For Older Budgets": IMsg<string>;
   "Forbidden": IMsg<string>;
   "Force Reload": IMsg<string>;
   "From": IMsg<string>;
@@ -260,6 +272,7 @@ export interface IMessages extends IMessageSet {
   "Invalid categorization.  Categories not set.": IMsg<string>;
   "Invalid date": IMsg<string>;
   "Invalid license": IMsg<string>;
+  "Invalid password": IMsg<string>;
   "Invalid transactions preventing import": IMsg<string>;
   "It says:": IMsg<string>;
   "It should say:": IMsg<string>;
@@ -279,7 +292,9 @@ export interface IMessages extends IMessageSet {
   "License": IMsg<string>;
   "License status": IMsg<string>;
   "Life Insurance": IMsg<string>;
+  "Light": IMsg<string>;
   "Limit": IMsg<string>;
+  "Limit:": IMsg<string>;
   "Link Account": IMsg<string>;
   "Local file": IMsg<string>;
   "Local files": IMsg<string>;
@@ -291,10 +306,13 @@ export interface IMessages extends IMessageSet {
   "Make it so": IMsg<string>;
   "Mark Cleared": IMsg<string>;
   "Mark Not Cleared": IMsg<string>;
+  "Mass Update": IMsg<string>;
   "Medical": IMsg<string>;
   "Memo": IMsg<string>;
+  "Memos To Payees": IMsg<string>;
   "Merge": IMsg<string>;
   "Merge Budgets": IMsg<string>;
+  "Merge Payees": IMsg<string>;
   "Merge already in progress": IMsg<string>;
   "Merge complete": IMsg<string>;
   "Merge failed": IMsg<string>;
@@ -306,6 +324,7 @@ export interface IMessages extends IMessageSet {
   "Months": IMsg<string>;
   "Move Bucket": IMsg<string>;
   "Move Group": IMsg<string>;
+  "Move all transaction memos to blank payee field": IMsg<string>;
   "NO": IMsg<string>;
   "Name": IMsg<string>;
   "Natural gas/propane/oil": IMsg<string>;
@@ -327,6 +346,8 @@ export interface IMessages extends IMessageSet {
   "New computer": IMsg<string>;
   "New phone": IMsg<string>;
   "New roof": IMsg<string>;
+  "New transaction": IMsg<string>;
+  "New value": IMsg<string>;
   "No": IMsg<string>;
   "No conflicts": IMsg<string>;
   "No matches found": IMsg<string>;
@@ -348,6 +369,7 @@ export interface IMessages extends IMessageSet {
   "OBJ.last_used": IMsg<string>;
   "OBJ.memo": IMsg<string>;
   "OBJ.notes": IMsg<string>;
+  "OBJ.payee": IMsg<string>;
   "OBJ.posted": IMsg<string>;
   "OFF": IMsg<string>;
   "OK": IMsg<string>;
@@ -373,10 +395,14 @@ export interface IMessages extends IMessageSet {
   "Overwrite budget from backup": IMsg<string>;
   "Pairing code": IMsg<string>;
   "Password": IMsg<string>;
+  "Password not yet set": IMsg<string>;
+  "Password reset": IMsg<string>;
   "Passwords did not match": IMsg<string>;
   "Paste": IMsg<string>;
   "Paste and Match Style": IMsg<string>;
   "Paused": IMsg<string>;
+  "Payee": IMsg<string>;
+  "Payees": IMsg<string>;
   "Pending merges": IMsg<string>;
   "Pending...": IMsg<string>;
   "Permanently delete account and transactions": IMsg<string>;
@@ -404,6 +430,7 @@ export interface IMessages extends IMessageSet {
   "Recurring Expenses": IMsg<string>;
   "Redo": IMsg<string>;
   "Refunds": IMsg<string>;
+  "Regenerate": IMsg<string>;
   "Registered to": IMsg<string>;
   "Relay client": IMsg<string>;
   "Relay server": IMsg<string>;
@@ -421,6 +448,8 @@ export interface IMessages extends IMessageSet {
   "Request an Amazon Items report": IMsg<string>;
   "Request an Amazon Orders report": IMsg<string>;
   "Required deposit:": IMsg<string>;
+  "Reset Password": IMsg<string>;
+  "Reset bank macro password": IMsg<string>;
   "Restart Buckets": IMsg<string>;
   "Restart Buckets for changes to take effect.": IMsg<string>;
   "Restore from backup": IMsg<string>;
@@ -433,6 +462,7 @@ export interface IMessages extends IMessageSet {
   "Save": IMsg<string>;
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
+  "Search categories": IMsg<string>;
   "Search for Amazon transactions:": IMsg<string>;
   "Search...": IMsg<string>;
   "Search:": IMsg<string>;
@@ -454,7 +484,6 @@ export interface IMessages extends IMessageSet {
   "Show debug info": IMsg<string>;
   "Show folder": IMsg<string>;
   "Show full changelog": IMsg<string>;
-  "Show uncategorized": IMsg<string>;
   "Sign": IMsg<string>;
   "Sign in to the YNAB website, click My Budget then Export Budget.": IMsg<string>;
   "SimpleFIN Connections": IMsg<string>;
@@ -477,6 +506,7 @@ export interface IMessages extends IMessageSet {
   "Successfully imported Amazon Items report": IMsg<string>;
   "Successfully imported Amazon Orders report": IMsg<string>;
   "Successfully imported Amazon Refunds report": IMsg<string>;
+  "Suggested value": IMsg<string>;
   "Swap NAME and MEMO": IMsg<string>;
   "Sync": IMsg<string>;
   "Sync complete": IMsg<string>;
@@ -486,6 +516,8 @@ export interface IMessages extends IMessageSet {
   "System default": IMsg<string>;
   "Target date:": IMsg<string>;
   "Test Toast": IMsg<string>;
+  "Theme": IMsg<string>;
+  "There are unresolved conflicts": IMsg<string>;
   "There has been an error.": IMsg<string>;
   "There was an error.  Maybe try again?": IMsg<string>;
   "These devices can talk to each other": IMsg<string>;
@@ -493,6 +525,7 @@ export interface IMessages extends IMessageSet {
   "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
+  "This will break all existing bank macros": IMsg<string>;
   "Thousands separator": IMsg<string>;
   "To": IMsg<string>;
   "To use Buckets, you must accept the End User License Agreement (EULA).": IMsg<string>;
@@ -502,6 +535,7 @@ export interface IMessages extends IMessageSet {
   "Total": IMsg<string>;
   "Total amount your buckets want each month.": IMsg<string>;
   "Transaction": IMsg<string>;
+  "Transaction ID": IMsg<string>;
   "Transactions": IMsg<string>;
   "Transactions to review": IMsg<string>;
   "Transfer": IMsg<string>;
@@ -516,6 +550,9 @@ export interface IMessages extends IMessageSet {
   "Un-kick Bucket": IMsg<string>;
   "Unable to claim access token": IMsg<string>;
   "Unable to open the file:": IMsg<string>;
+  "Unattended merge not possible": IMsg<string>;
+  "Unavailable": IMsg<string>;
+  "Uncategorized": IMsg<string>;
   "Uncaught Error": IMsg<string>;
   "Uncleared": IMsg<string>;
   "Undo": IMsg<string>;
@@ -538,14 +575,19 @@ export interface IMessages extends IMessageSet {
   "Update Name": IMsg<string>;
   "Update Note": IMsg<string>;
   "Update Number Format": IMsg<string>;
+  "Update Payee": IMsg<string>;
+  "Update Payees": IMsg<string>;
   "Update Target Date": IMsg<string>;
   "Update Transaction": IMsg<string>;
   "Update account balance": IMsg<string>;
   "Update balance": IMsg<string>;
+  "Update complete": IMsg<string>;
   "Update downloaded.": IMsg<string>;
+  "Update failed": IMsg<string>;
   "Update opening balance": IMsg<string>;
   "Updated": IMsg<string>;
   "Updates": IMsg<string>;
+  "Updating...": IMsg<string>;
   "Used in future": IMsg<string>;
   "Username": IMsg<string>;
   "Username/Password": IMsg<string>;
@@ -642,6 +684,7 @@ export interface IMessages extends IMessageSet {
   "default account name": IMsg<string>;
   "default new bucket name": IMsg<string>;
   "default new group name": IMsg<string>;
+  "err": IMsg<string>;
   "error-detail": IMsg<string>;
   "file_import_mapping.mapping_json": IMsg<string>;
   "getting-started-link": IMsg<(clickhandler:any)=>string|JSX.Element>;
