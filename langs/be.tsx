@@ -16,7 +16,7 @@ const contributors = [
   },
 ];
 
-const messages: IMessages = {
+const messages:IMessages = {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": {
     val: "\n        Хаця запаўненне гэтай формы пажадана, вы таксама можаце адправіць па электроннай пошце bugs@budgetwithbuckets.com\n      ",
     translated: true,
