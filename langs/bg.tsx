@@ -2289,7 +2289,7 @@ const messages:IMessages = {
   },
   "Remote devices": {
     val: "Отдалечени устройства",
-    translated: false,
+    translated: true,
     h: "Pnrxp4rS7bnapZb26P4HXC5hFardsCyTT6Idz/SFJuE=",
   },
   "Remote file": {
