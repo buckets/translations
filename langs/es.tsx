@@ -24,7 +24,7 @@ const contributors = [
   },
   {
     name: "DiegoC281",
-    href: "https://github.com/DiegoC281",
+    href: "",
   },
   // {
   //   name: "",
