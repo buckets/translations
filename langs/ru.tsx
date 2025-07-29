@@ -180,8 +180,8 @@ const messages:IMessages = {
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "App Settings": {
-    val: "App Settings",
-    translated: false,
+    val: "Настройки",
+    translated: true,
     h: "bk/DqvzHJTuksZnC0cWC2+KPOwsnilgNjXSPLv1SbPA=",
   },
   "As of": {
@@ -217,8 +217,8 @@ const messages:IMessages = {
   },
   "Automatic": {
     /* Option for theme preference indicating that the system will choose between light and dark */
-    val: "Automatic",
-    translated: false,
+    val: "Авто",
+    translated: true,
     h: "0YA2t1ssPk8k4xaICpB9//fM3ol0d/FeOVb6dCD0ux8=",
   },
   "Available version": {
@@ -394,7 +394,7 @@ const messages:IMessages = {
     h: "sym++hSpJ7LeHTQAaiYRAK41eYIw9pfMFO2EbYTHGxo=",
   },
   "Buckets has crashed.  Please restart after submitting a bug report.": {
-    val: "Buckets закрылось с ошибкой.  Пожалуйста отправьте отчет об ошибке и перезапущите приложение.",
+    val: "Buckets закрылось с ошибкой.  Пожалуйста отправьте отчет об ошибке и перезапустите приложение.",
     translated: true,
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
@@ -690,8 +690,8 @@ const messages:IMessages = {
     h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
   },
   "Create Backup and Start Over": {
-    val: "Create Backup and Start Over",
-    translated: false,
+    val: "Создать бэкап и начать сначала",
+    translated: true,
     h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
   },
   "Create Macro": {
@@ -738,14 +738,14 @@ const messages:IMessages = {
   },
   "Current version": {
     /* Label for current application version */
-    val: "Current version",
-    translated: false,
+    val: "Текущая версия",
+    translated: true,
     h: "lVqFstk3jMWPnA1laudxoN7T6PXUVe365RE2LqCMZmA=",
   },
   "Custom": {
     /* A label for choosing a custom date range */
-    val: "Custom",
-    translated: false,
+    val: "Ручной выбор",
+    translated: true,
     h: "npcV1SQQyG8XsJlGwbsserjaxIIkVCtt9ZFBODiihSI=",
   },
   "Cut": {
@@ -755,8 +755,8 @@ const messages:IMessages = {
   },
   "Dark": {
     /* Option for theme preference */
-    val: "Dark",
-    translated: false,
+    val: "Тёмная",
+    translated: true,
     h: "n09JYTXgkVzgVfXO+ZBo3gryCtlg9t+GoZSQe2YpJPQ=",
   },
   "Data": {
@@ -771,13 +771,13 @@ const messages:IMessages = {
   },
   "Date format": {
     /* Label for application date format preference */
-    val: "Date format",
-    translated: false,
+    val: "Формат даты",
+    translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
   },
   "Date range": {
-    val: "Date range",
-    translated: false,
+    val: "Период времени",
+    translated: true,
     h: "Byx38NxnaOdzvBIgWlDoyRZR5IEPJ329lwDnivHzJik=",
   },
   "Debt": {
@@ -810,8 +810,8 @@ const messages:IMessages = {
   },
   "Default number format": {
     /* Label for application number formatting preference */
-    val: "Default number format",
-    translated: false,
+    val: "Формат чисел",
+    translated: true,
     h: "mgzNoP6jlMs5CPedg7OHyJuqrwEkQlj6DduekmeqfCY=",
   },
   "Delete": {
@@ -953,8 +953,8 @@ const messages:IMessages = {
     h: "aiQggrM+Wb8WtkoJykeSDnNiCBgzGqVGc1Hvkf5Uzg8=",
   },
   "Edit": {
-    val: "Edit",
-    translated: false,
+    val: "Редактировать",
+    translated: true,
     h: "9+ZynTDPePvsJX4rW8Mn0wEzk0GRQ+udON01NKHVsQU=",
   },
   "Electricity": {
@@ -1121,8 +1121,8 @@ const messages:IMessages = {
     h: "tD4YLtMv/MtHbTXTSZmkcCxj1g7Km6d6kuWI+1yHo/8=",
   },
   "Filter": {
-    val: "Filter",
-    translated: false,
+    val: "Фильтр",
+    translated: true,
     h: "gG/X0Prd382E2jAAsfyk3bynhjgo9Fk44NYmIbqfMTk=",
   },
   "Find Next": {
@@ -1138,13 +1138,13 @@ const messages:IMessages = {
     h: "0n6Dq5KDTxxsTAKrJE+RDdgi9ln6FyfUEPNBJ6ejZ5o=",
   },
   "Find on page": {
-    val: "Find on page",
-    translated: false,
+    val: "Найти на странице",
+    translated: true,
     h: "C8FK0TP/vHA4Dt565Z2E2vc+j9soU5SIaWGmc7j+UEc=",
   },
   "Find...": {
-    val: "Find...",
-    translated: false,
+    val: "Найти...",
+    translated: true,
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
   },
   "Finish merge": {
@@ -1169,13 +1169,13 @@ const messages:IMessages = {
     h: "CcNf+bPZqU5SYvmmxeJh8TRTDY9bbSASjE9y1+21kGU=",
   },
   "Force Reload": {
-    val: "Force Reload",
-    translated: false,
+    val: "Жёсткая перезагрузка",
+    translated: true,
     h: "ktBJY2UXO+2r0ZvmbQXhArN51bSTnyaNnnBNR9PQ5K8=",
   },
   "From": {
-    val: "From",
-    translated: false,
+    val: "С",
+    translated: true,
     h: "cCFAY2/zl3pq5fMwrP/2LBsrrL36SYzS+6in7mvWyvY=",
   },
   "Fuel": {
@@ -1196,8 +1196,8 @@ const messages:IMessages = {
   },
   "General": {
     /* Label for general preferences */
-    val: "General",
-    translated: false,
+    val: "Общие",
+    translated: true,
     h: "Ro1hqU2fnZPlbffPiUFBRSO2oSn7YKpDUbDUDIWP9Ew=",
   },
   "Getting Started...": {
@@ -1248,8 +1248,8 @@ const messages:IMessages = {
     h: "0m9VvMGwLCqD3lmZ24GbzlkRxPX1kf/DsbWA9kkBWX0=",
   },
   "Help": {
-    val: "Help",
-    translated: false,
+    val: "Помощь",
+    translated: true,
     h: "TvUUB7AuCuFJ9IWiz2SbsjnUvYoDPZAaMPxup/rwosM=",
   },
   "Hide Buckets": {
@@ -1345,18 +1345,18 @@ const messages:IMessages = {
   "Import file": {
     /* Button label for starting a file import */
     /* Button label for starting a file import */
-    val: "Import file",
-    translated: false,
+    val: "Импортировать файл",
+    translated: true,
     h: "iaQvPnsbTKu/ItmjoC8ctwpVbyumVe15GLL8nCbe25Q=",
   },
   "Import from Web YNAB": {
-    val: "Import from Web YNAB",
-    translated: false,
+    val: "Импортировать из Web YNAB",
+    translated: true,
     h: "NyXkbdCVf1mZfbmhjqJx4M10Vz/UfGdvSHdz+G6CGKc=",
   },
   "Import from YNAB4": {
-    val: "Import from YNAB4",
-    translated: false,
+    val: "Импортировать из YNAB4",
+    translated: true,
     h: "FJ55mGfxitbc5YeY1s6YEji8I54ILSi3sfzQALSx50I=",
   },
   "Import links broken": {
@@ -1451,18 +1451,18 @@ const messages:IMessages = {
     h: "SA/tgP2OPX7K6/Rztew4oai82mmt7fqOHpOuCWNrPZU=",
   },
   "Keep accounts": {
-    val: "Keep accounts",
-    translated: false,
+    val: "Сохранить счета",
+    translated: true,
     h: "iQX3g3XL9mIf7uX5wDrQIhLNJ464eieqHwhtKtfSuoA=",
   },
   "Keep bucket transactions": {
-    val: "Keep bucket transactions",
-    translated: false,
+    val: "Сохранить операции с вёдрами",
+    translated: true,
     h: "0LwH6beBDlpdXvsVWW7nGj/5/tkz7gDk+Sm4Kltx3rQ=",
   },
   "Keep buckets": {
-    val: "Keep buckets",
-    translated: false,
+    val: "Сохранить вёдра",
+    translated: true,
     h: "4lGk6/xvGOvn8z5vLVpqCLE6WQwpEoizH0LM95z1Tvo=",
   },
   "Kick Bucket": {
@@ -1485,13 +1485,13 @@ const messages:IMessages = {
   },
   "Language": {
     /* Label for application language preference */
-    val: "Language",
-    translated: false,
+    val: "Язык",
+    translated: true,
     h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
   },
   "Language default": {
-    val: "Language default",
-    translated: false,
+    val: "По умолчанию",
+    translated: true,
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
@@ -1522,13 +1522,13 @@ const messages:IMessages = {
   },
   "License": {
     /* Label for page where you view license details */
-    val: "License",
-    translated: false,
+    val: "Лицензия",
+    translated: true,
     h: "qmaEL5BHMIqGJ0RYbmhJPHnRV60sgX8a8RHEh3wAQvc=",
   },
   "License status": {
-    val: "License status",
-    translated: false,
+    val: "Статус лицензии",
+    translated: true,
     h: "pB9DYc2XWzC+Y3NEmw4dc63G3dstNOjTOAgt+MPA5WU=",
   },
   "Life Insurance": {
@@ -1538,8 +1538,8 @@ const messages:IMessages = {
   },
   "Light": {
     /* Option for theme preference */
-    val: "Light",
-    translated: false,
+    val: "Светлая",
+    translated: true,
     h: "C0avqWOAFWs6Zf7/577zzmx49uDbTZDSmLAJIQchfuE=",
   },
   "Limit": {
@@ -1661,8 +1661,8 @@ const messages:IMessages = {
     h: "6HNyKVatlEsWVRVgjSSAxmGoD1obkrMMWW6Ci7DLb3A=",
   },
   "Minimize": {
-    val: "Minimize",
-    translated: false,
+    val: "Свернуть",
+    translated: true,
     h: "ELhkWGGY5oNKpfCzoXXW6TgkfS1nI0ZuJbWyYLmT+ro=",
   },
   "Misc": {
@@ -1728,8 +1728,8 @@ const messages:IMessages = {
     h: "CMjkKDPUYAAymOaPiz0PkXS6Ec3BTRWuNZJQ34kHA5s=",
   },
   "Need ideas for getting started?": {
-    val: "Need ideas for getting started?",
-    translated: false,
+    val: "Нужны идеи, как начать?",
+    translated: true,
     h: "JLW3ar4riykgYXyTGeMCNqL+wes0evHH6RERa+qXPaw=",
   },
   "Needs": {
@@ -1786,8 +1786,8 @@ const messages:IMessages = {
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "New account": {
-    val: "New account",
-    translated: false,
+    val: "Новый счёт",
+    translated: true,
     h: "MtAiANg7ugdeUiGmiGklfBPG4T1igh1iChKeC0Mdxnc=",
   },
   "New avenue": {
@@ -1821,8 +1821,8 @@ const messages:IMessages = {
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
   "New transaction": {
-    val: "New transaction",
-    translated: false,
+    val: "Новая операция",
+    translated: true,
     h: "1VsMSv2xvSjfHSqSZPw0gw1fD9E+Jvyr+2JVT/4bt64=",
   },
   "New value": {
@@ -2021,8 +2021,8 @@ const messages:IMessages = {
     h: "67FfAce57aSIe2ncVfWeIeiiRLQQ8uuEUdDyI6UHxHU=",
   },
   "Open Recent...": {
-    val: "Open Recent...",
-    translated: false,
+    val: "Открыть недавнее...",
+    translated: true,
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
   },
   "Open Transaction File": {
@@ -2051,8 +2051,8 @@ const messages:IMessages = {
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
   },
   "Or click to download the new version manually.": {
-    val: "Or click to download the new version manually.",
-    translated: false,
+    val: "Или кликните здесь, чтобы скачать новую версию вручную.",
+    translated: true,
     h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
   },
   "Other devices have made the following files available. Choose where you would like to save them on this device.": {
@@ -2096,8 +2096,8 @@ const messages:IMessages = {
     h: "PyUeXNOVYhNDM/De1HIPLeiwy6d+x7bkZphOo5ZqR6Q=",
   },
   "Paste": {
-    val: "Paste",
-    translated: false,
+    val: "Вставить",
+    translated: true,
     h: "n2Hnio0AcQPZejqQ+hm35GthBg0zYDNoxd8RCFRUhu4=",
   },
   "Paste and Match Style": {
@@ -2152,8 +2152,8 @@ const messages:IMessages = {
     h: "69elN/r6NyshRWtcjLOKso9OmdOJhvg/ix+Xy/fE+Z0=",
   },
   "Please enter your Buckets License below.": {
-    val: "Please enter your Buckets License below.",
-    translated: false,
+    val: "Пожалуйста, вставьте лицензию Buckets в поле ниже.",
+    translated: true,
     h: "xbsLH9dKhhcdpY6+CFD5E3/4IdnZZk49WmeisyuQ/oo=",
   },
   "Port": {
@@ -2188,8 +2188,8 @@ const messages:IMessages = {
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
   "Print...": {
-    val: "Print...",
-    translated: false,
+    val: "Печать...",
+    translated: true,
     h: "Zx0axQhFFBAeUJiZxUAcm9hrf0Dd7+kTskEK3MSkm1Q=",
   },
   "Prompt": {
@@ -2211,13 +2211,13 @@ const messages:IMessages = {
   },
   "Purchase license": {
     /* Button that takes people to purchase a license */
-    val: "Purchase license",
-    translated: false,
+    val: "Приобрести лицензию",
+    translated: true,
     h: "3LYaot06ClRiLOZ31fOKIxzRXO8X0w5qFIfav969me8=",
   },
   "Quit Buckets": {
-    val: "Quit Buckets",
-    translated: false,
+    val: "Выйти из Buckets",
+    translated: true,
     h: "QILEHXgAk6vuNPV3rqkbn2QRZ8WKrPnAZnscp7n8WaM=",
   },
   "Rain": {
@@ -2278,8 +2278,8 @@ const messages:IMessages = {
     h: "+cMcGjAKTrxBcgm02bYOEYsUTqHNoQJayrxZ+3L3Nag=",
   },
   "Reload": {
-    val: "Reload",
-    translated: false,
+    val: "Перезагрузить",
+    translated: true,
     h: "hUVVd3tppLGqwgo2OeC3h334aTF0Y+/GHbuL/I1clYk=",
   },
   "Remote device": {
@@ -2355,8 +2355,8 @@ const messages:IMessages = {
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
-    val: "Restart Buckets for changes to take effect.",
-    translated: false,
+    val: "Перезапустите Buckets, чтобы применить изменения.",
+    translated: true,
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Restore from backup": {
@@ -2406,8 +2406,8 @@ const messages:IMessages = {
     h: "Vl/m/PU/CoPSp/t+drAAfxlQ818VKjlWKN8fsB4/+V4=",
   },
   "Search": {
-    val: "Search",
-    translated: false,
+    val: "Поиск",
+    translated: true,
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Search categories": {
@@ -2432,8 +2432,8 @@ const messages:IMessages = {
     h: "7gAp07Zv3EjrgHoWJ04wEdRefy/aQ0zT8Y2EgQrnbHo=",
   },
   "Select All": {
-    val: "Select All",
-    translated: false,
+    val: "Выбрать все",
+    translated: true,
     h: "tLJuQPindRFUyvGGdMLJbBHcVpAODsfT5p2gDnpB/Oo=",
   },
   "Self debt": {
@@ -2464,8 +2464,8 @@ const messages:IMessages = {
     h: "VPMIV8ll2EYKjYDlgvDS3IbSSfjmE5VmCEGwFTHn/ys=",
   },
   "Settings": {
-    val: "Settings",
-    translated: false,
+    val: "Настройки",
+    translated: true,
     h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Share with": {
@@ -2518,8 +2518,8 @@ const messages:IMessages = {
     h: "479YuRtJUsvCCqzaEjK+WyPmy20v+YQPfY3Xo/eIzKM=",
   },
   "Show full changelog": {
-    val: "Show full changelog",
-    translated: false,
+    val: "Показать полный журнал изменений проекта",
+    translated: true,
     h: "nu/b3QeVa2N7QmrPffBdK2zSVYIp81gVGbFjcYrlL5A=",
   },
   "Sign": {
@@ -2575,8 +2575,8 @@ const messages:IMessages = {
     h: "48IhJ8jvgXzTH0cgI8MR9W3NiQFlvBbJA/j7mj6KFhY=",
   },
   "Start Over": {
-    val: "Start Over",
-    translated: false,
+    val: "Начать сначала",
+    translated: true,
     h: "hlKNxy6ZDz4ny/qpQfkv6FwXDangtq2ECEo+ICgEbJs=",
   },
   "Start Speaking": {
@@ -2585,8 +2585,8 @@ const messages:IMessages = {
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
-    val: "Start with a template",
-    translated: false,
+    val: "Начать с шаблоном",
+    translated: true,
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
   "Status": {
@@ -2633,8 +2633,8 @@ const messages:IMessages = {
     h: "ayF7yBQJox0msQ75+rZt4xxanK31lYhwEoynkOsepjc=",
   },
   "Sync": {
-    val: "Sync",
-    translated: false,
+    val: "Синхронизация",
+    translated: true,
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
   },
   "Sync complete": {
@@ -2659,8 +2659,8 @@ const messages:IMessages = {
   },
   "System default": {
     /* Option for Buckets language preference */
-    val: "System default",
-    translated: false,
+    val: "Системный",
+    translated: true,
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
@@ -2675,8 +2675,8 @@ const messages:IMessages = {
   },
   "Theme": {
     /* Label for application theme setting */
-    val: "Theme",
-    translated: false,
+    val: "Тема",
+    translated: true,
     h: "iIVgvkFsqSibVEM+h5dM+gyXv0J8Elgp99rvJsOFYqo=",
   },
   "There are unresolved conflicts": {
@@ -2690,8 +2690,8 @@ const messages:IMessages = {
     h: "viN5uLRSpgzhvoD9KO9g1cr7ihLQ0Men9LiUpy9RcwE=",
   },
   "There was an error.  Maybe try again?": {
-    val: "There was an error.  Maybe try again?",
-    translated: false,
+    val: "Произошла ошибка. Может, попробовать снова?",
+    translated: true,
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "These devices can talk to each other": {
@@ -2715,8 +2715,8 @@ const messages:IMessages = {
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
-    val: "This tool will delete data to make it easy to start over with your budget.",
-    translated: false,
+    val: "Этот инструмент удалит данные для того, чтобы было проще начать работу с бюджетом с чистого листа.",
+    translated: true,
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "This will break all existing bank macros": {
@@ -2730,8 +2730,8 @@ const messages:IMessages = {
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
-    val: "To",
-    translated: false,
+    val: "По",
+    translated: true,
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
   "To use Buckets, you must accept the End User License Agreement (EULA).": {
@@ -2750,8 +2750,8 @@ const messages:IMessages = {
     h: "2ZRq+R5E0Cp4QI+y5jCefU1IOiYvNWLrN/iiJq6hGr8=",
   },
   "Tools": {
-    val: "Tools",
-    translated: false,
+    val: "Инструменты",
+    translated: true,
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Total": {
@@ -2780,8 +2780,8 @@ const messages:IMessages = {
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transactions": {
-    val: "Transactions",
-    translated: false,
+    val: "Операции",
+    translated: true,
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Transactions to review": {
@@ -2800,8 +2800,8 @@ const messages:IMessages = {
     h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
   },
   "Trial Version": {
-    val: "Trial Version",
-    translated: false,
+    val: "Пробная версия",
+    translated: true,
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Trial version": {
@@ -3032,8 +3032,8 @@ const messages:IMessages = {
   },
   "Updates": {
     /* Label for section about Buckets application updates */
-    val: "Updates",
-    translated: false,
+    val: "Обновления",
+    translated: true,
     h: "lAv/Y2isYNmD0UIkVd8zZO2kJ9FjxPjiL+Bnajfzxtg=",
   },
   "Updating...": {
@@ -3113,8 +3113,8 @@ const messages:IMessages = {
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
-    val: "Window",
-    translated: false,
+    val: "Окно",
+    translated: true,
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "YES": {
@@ -3153,13 +3153,13 @@ const messages:IMessages = {
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
   "You are running the latest version!": {
-    val: "You are running the latest version!",
-    translated: false,
+    val: "Вы используете последнюю версию приложения!",
+    translated: true,
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
   "You can do math in all number inputs, not just here in the calculator.": {
-    val: "You can do math in all number inputs, not just here in the calculator.",
-    translated: false,
+    val: "Выполнять математические операции можно не только в калькуляторе, но и во всех полях ввода.",
+    translated: true,
     h: "dn2W/ktTrcwSzYNSq6IQL7Sl2k8lxZQRsFehzG9Mf7g=",
   },
   "You don't have any recurring expense buckets yet.": {
@@ -3193,13 +3193,13 @@ const messages:IMessages = {
     h: "Zjzswxbrkbj1TLPOYCtimoyh/aJlkF/mxeghbzdheSs=",
   },
   "Zoom In": {
-    val: "Zoom In",
-    translated: false,
+    val: "Приблизить",
+    translated: true,
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
-    val: "Zoom Out",
-    translated: false,
+    val: "Отдалить",
+    translated: true,
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-in": {
@@ -3538,8 +3538,8 @@ const messages:IMessages = {
     h: "K80xtzHhh4SO59NC0gT7rx1scigZGMneXw1DA+Ycv48=",
   },
   "daterange.all": {
-    val: "All time",
-    translated: false,
+    val: "Всё время",
+    translated: true,
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
   "debt-bucket-explanation": {
@@ -3586,39 +3586,39 @@ const messages:IMessages = {
   },
   "getting-started-link": {
     val: (clickhandler) => {
-          return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+          return <span>Используете Buckets в первый раз? Посмотрите <a href="#" onClick={clickhandler}>видео о начале работы.</a></span>
         },
-    translated: false,
+    translated: true,
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "следующему месяцу",
+    translated: true,
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-next-year": {
     /* Menu label for "Go To... Next Year" */
-    val: "Next Year",
-    translated: false,
+    val: "следующему году",
+    translated: true,
     h: "NfnsOERP+IaYQvH6i+9MJ6KRpbYSapnXXUFm60jUbqo=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "предыдущему месяцу",
+    translated: true,
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-prev-year": {
     /* Menu label for "Go To... Previous Year" */
-    val: "Previous Year",
-    translated: false,
+    val: "предыдущему году",
+    translated: true,
     h: "ZntiItsGCJfJBxKIXyzi3+NpS8jZXYAK8IXrOl9bfFg=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
-    val: "This Month",
-    translated: false,
+    val: "текущему месяцу",
+    translated: true,
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "import-verb": {
@@ -3663,8 +3663,8 @@ Would you like to purchase a license now?`,
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
-    val: (url) => `Go to ${url}`,
-    translated: false,
+    val: (url) => `Перейти к ${url}`,
+    translated: true,
     h: "nI/J4GfYlL6BgRZRSiPFfA5o7ASdx2VVYW6x3vgCuKE=",
   },
   "net-transfers.help": {
@@ -3708,8 +3708,8 @@ Would you like to purchase a license now?`,
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
-    translated: false,
+    val: "нажмите Escape, чтобы закрыть",
+    translated: true,
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
@@ -3862,8 +3862,8 @@ Would you like to purchase a license now?`,
   },
   "verb-open": {
     /* Verb to open a page */
-    val: "Open",
-    translated: false,
+    val: "Открыть",
+    translated: true,
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
 }
