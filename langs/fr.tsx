@@ -387,11 +387,13 @@ const messages:IMessages = {
   },
   "Buckets Budget Filename": {
     /* 'Buckets' refers to the application name */
+    /* 'Buckets' refers to the application name */
     val: "Nom de fichier de Buckets",
     translated: true,
     h: "PMqvee/qJsh/OYtRi+hbcH4fgl07SR6XM0wx4c1C+sU=",
   },
   "Buckets License": {
+    /* 'Buckets' refers to the application name */
     /* 'Buckets' refers to the application name */
     val: "Licence de Buckets",
     translated: true,

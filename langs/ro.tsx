@@ -688,6 +688,7 @@ const messages:IMessages = {
   },
   "Create Account": {
     /* Undo/redo label for creating an account */
+    /* Undo/redo label for creating an account */
     val: "creează cont",
     translated: true,
     h: "0N2I0sNdMLVk7zC9FqlNYoA1G6RDgQDvQErp/TjAnRA=",
