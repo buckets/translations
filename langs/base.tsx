@@ -124,6 +124,7 @@ export interface IMessages extends IMessageSet {
   "Connected": IMsg<string>;
   "Connecting...": IMsg<string>;
   "Connection corrupted. Please delete and re-create.": IMsg<string>;
+  "Connection deleted": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
   "Count": IMsg<string>;
@@ -299,6 +300,7 @@ export interface IMessages extends IMessageSet {
   "Local files": IMsg<string>;
   "Local network client": IMsg<string>;
   "Local network server": IMsg<string>;
+  "Macro deleted": IMsg<string>;
   "Macros": IMsg<string>;
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
@@ -524,6 +526,7 @@ export interface IMessages extends IMessageSet {
   "Transaction": IMsg<string>;
   "Transaction ID": IMsg<string>;
   "Transaction Type": IMsg<string>;
+  "Transaction(s) deleted": IMsg<string>;
   "Transactions": IMsg<string>;
   "Transactions to review": IMsg<string>;
   "Transfer": IMsg<string>;
@@ -545,6 +548,7 @@ export interface IMessages extends IMessageSet {
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
   "Unknown account": IMsg<string>;
+  "Unknown account deleted": IMsg<string>;
   "Unknown category": IMsg<string>;
   "Unlinked Accounts": IMsg<string>;
   "Unregistered Version": IMsg<string>;

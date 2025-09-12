@@ -662,6 +662,11 @@ const messages:IMessages = {
     translated: true,
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
+  "Connection deleted": {
+    val: "Connection deleted",
+    translated: false,
+    h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
+  },
   "Connection saved!": {
     val: "Verbinding opgeslagen!",
     translated: true,
@@ -1576,6 +1581,11 @@ const messages:IMessages = {
     val: "Local network server",
     translated: false,
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
+  },
+  "Macro deleted": {
+    val: "Macro deleted",
+    translated: false,
+    h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
     val: "Makros",
@@ -2779,6 +2789,11 @@ const messages:IMessages = {
     translated: false,
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
+  "Transaction(s) deleted": {
+    val: "Transaction(s) deleted",
+    translated: false,
+    h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
+  },
   "Transactions": {
     val: "Transacties",
     translated: true,
@@ -2889,6 +2904,11 @@ const messages:IMessages = {
     val: "Unknown account",
     translated: false,
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
+  },
+  "Unknown account deleted": {
+    val: "Unknown account deleted",
+    translated: false,
+    h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
     val: "Onbekende categorie",
