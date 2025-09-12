@@ -28,7 +28,6 @@ export interface IMessages extends IMessageSet {
   "Agreements": IMsg<string>;
   "All Files": IMsg<string>;
   "Allow new connections": IMsg<string>;
-  "Amazon.com Reconciliation": IMsg<string>;
   "Amount": IMsg<string>;
   "Amount of money over-allocated in buckets.": IMsg<string>;
   "Analysis": IMsg<string>;
@@ -125,6 +124,7 @@ export interface IMessages extends IMessageSet {
   "Connected": IMsg<string>;
   "Connecting...": IMsg<string>;
   "Connection corrupted. Please delete and re-create.": IMsg<string>;
+  "Connection deleted": IMsg<string>;
   "Connection saved!": IMsg<string>;
   "Copy": IMsg<string>;
   "Count": IMsg<string>;
@@ -254,7 +254,6 @@ export interface IMessages extends IMessageSet {
   "Import From YNAB4...": IMsg<string>;
   "Import Transactions": IMsg<string>;
   "Import Transactions...": IMsg<string>;
-  "Import all Amazon Reports": IMsg<string>;
   "Import complete!": IMsg<string>;
   "Import file": IMsg<string>;
   "Import from Web YNAB": IMsg<string>;
@@ -284,6 +283,7 @@ export interface IMessages extends IMessageSet {
   "Kick the bucket": IMsg<string>;
   "Kicked": IMsg<string>;
   "Language": IMsg<string>;
+  "Language default": IMsg<string>;
   "Last sync": IMsg<string>;
   "Last updated": IMsg<string>;
   "Last used": IMsg<string>;
@@ -300,6 +300,7 @@ export interface IMessages extends IMessageSet {
   "Local files": IMsg<string>;
   "Local network client": IMsg<string>;
   "Local network server": IMsg<string>;
+  "Macro deleted": IMsg<string>;
   "Macros": IMsg<string>;
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
@@ -322,6 +323,7 @@ export interface IMessages extends IMessageSet {
   "Monthly": IMsg<string>;
   "Monthly deposit:": IMsg<string>;
   "Months": IMsg<string>;
+  "Move Account": IMsg<string>;
   "Move Bucket": IMsg<string>;
   "Move Group": IMsg<string>;
   "Move all transaction memos to blank payee field": IMsg<string>;
@@ -350,10 +352,7 @@ export interface IMessages extends IMessageSet {
   "New value": IMsg<string>;
   "No": IMsg<string>;
   "No conflicts": IMsg<string>;
-  "No matches found": IMsg<string>;
   "No name": IMsg<string>;
-  "No orders imported": IMsg<string>;
-  "No refunds imported": IMsg<string>;
   "No, don't connect": IMsg<string>;
   "Normal": IMsg<string>;
   "Not Transfer": IMsg<string>;
@@ -386,10 +385,7 @@ export interface IMessages extends IMessageSet {
   "Open YNAB4 File": IMsg<string>;
   "Opening balance": IMsg<string>;
   "Optional message:": IMsg<string>;
-  "Optionally request an Amazon Refunds report": IMsg<string>;
   "Or click to download the new version manually.": IMsg<string>;
-  "Order": IMsg<string>;
-  "Orders": IMsg<string>;
   "Other devices have made the following files available. Choose where you would like to save them on this device.": IMsg<string>;
   "Out": IMsg<string>;
   "Overwrite budget from backup": IMsg<string>;
@@ -429,7 +425,6 @@ export interface IMessages extends IMessageSet {
   "Recording": IMsg<string>;
   "Recurring Expenses": IMsg<string>;
   "Redo": IMsg<string>;
-  "Refunds": IMsg<string>;
   "Regenerate": IMsg<string>;
   "Registered to": IMsg<string>;
   "Relay client": IMsg<string>;
@@ -445,8 +440,6 @@ export interface IMessages extends IMessageSet {
   "Report Bug": IMsg<string>;
   "Report Bug...": IMsg<string>;
   "Report Translation Error...": IMsg<string>;
-  "Request an Amazon Items report": IMsg<string>;
-  "Request an Amazon Orders report": IMsg<string>;
   "Required deposit:": IMsg<string>;
   "Reset Password": IMsg<string>;
   "Reset bank macro password": IMsg<string>;
@@ -463,7 +456,6 @@ export interface IMessages extends IMessageSet {
   "Screenshots:": IMsg<string>;
   "Search": IMsg<string>;
   "Search categories": IMsg<string>;
-  "Search for Amazon transactions:": IMsg<string>;
   "Search...": IMsg<string>;
   "Search:": IMsg<string>;
   "Searching...": IMsg<string>;
@@ -503,9 +495,6 @@ export interface IMessages extends IMessageSet {
   "Stopped": IMsg<string>;
   "Student Loan Payment": IMsg<string>;
   "Success!": IMsg<string>;
-  "Successfully imported Amazon Items report": IMsg<string>;
-  "Successfully imported Amazon Orders report": IMsg<string>;
-  "Successfully imported Amazon Refunds report": IMsg<string>;
   "Suggested value": IMsg<string>;
   "Swap NAME and MEMO": IMsg<string>;
   "Sync": IMsg<string>;
@@ -536,13 +525,14 @@ export interface IMessages extends IMessageSet {
   "Total amount your buckets want each month.": IMsg<string>;
   "Transaction": IMsg<string>;
   "Transaction ID": IMsg<string>;
+  "Transaction Type": IMsg<string>;
+  "Transaction(s) deleted": IMsg<string>;
   "Transactions": IMsg<string>;
   "Transactions to review": IMsg<string>;
   "Transfer": IMsg<string>;
   "Transferred": IMsg<string>;
   "Trial Version": IMsg<string>;
   "Trial version": IMsg<string>;
-  "Try the Amazon transactions page instead of using the reports below.": IMsg<string>;
   "Tuition": IMsg<string>;
   "Type a date format...": IMsg<string>;
   "Un-ignore Account": IMsg<string>;
@@ -558,6 +548,7 @@ export interface IMessages extends IMessageSet {
   "Undo": IMsg<string>;
   "Unexpected sync error": IMsg<string>;
   "Unknown account": IMsg<string>;
+  "Unknown account deleted": IMsg<string>;
   "Unknown category": IMsg<string>;
   "Unlinked Accounts": IMsg<string>;
   "Unregistered Version": IMsg<string>;
@@ -631,6 +622,7 @@ export interface IMessages extends IMessageSet {
   "account.kind": IMsg<string>;
   "account.name": IMsg<string>;
   "account.offbudget": IMsg<string>;
+  "account.ranking": IMsg<string>;
   "account.starting_balance": IMsg<string>;
   "account_mapping.account_hash": IMsg<string>;
   "account_transaction.cleared": IMsg<string>;
@@ -715,7 +707,6 @@ export interface IMessages extends IMessageSet {
   "sample-size": IMsg<(count:number,total:number)=>string|JSX.Element>;
   "settings.key": IMsg<string>;
   "settings.value": IMsg<string>;
-  "shipment-number": IMsg<(number:number)=>string|JSX.Element>;
   "simplefin-connect-intro": IMsg<string>;
   "simplefin-get-token": IMsg<(mklink:any)=>string|JSX.Element>;
   "simplefin-paste": IMsg<string>;

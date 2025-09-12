@@ -157,11 +157,6 @@ const messages:IMessages = {
     translated: true,
     h: "MGoLxui/5J17owbWiAA17QPnQkrBZ2bExUfiXFBaC+8=",
   },
-  "Amazon.com Reconciliation": {
-    val: "Reconciliação com Amazon.com",
-    translated: true,
-    h: "SS/vhEAqfP5cTcprv5/4dDYZCEsTIMySGfXEngOoMj0=",
-  },
   "Amount": {
     val: "Quantia",
     translated: true,
@@ -671,6 +666,11 @@ const messages:IMessages = {
     translated: true,
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
+  "Connection deleted": {
+    val: "Connection deleted",
+    translated: false,
+    h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
+  },
   "Connection saved!": {
     val: "Conexão salva!",
     translated: true,
@@ -779,6 +779,7 @@ const messages:IMessages = {
     h: "3A+vhaBB21UASdnwmNYVGMV9qH/U43D3DCsVSXlWasY=",
   },
   "Date format": {
+    /* Label for application date format preference */
     val: "Formato de data",
     translated: true,
     h: "fY1FnR2YTcyORx9p/4BdLTjtjH1FNW35jtGy64ltO4E=",
@@ -1344,11 +1345,6 @@ const messages:IMessages = {
     translated: true,
     h: "PPLzf/61MKc3iWfDMTRo6ERH/TYu6TxBH2vmVbZD5Lk=",
   },
-  "Import all Amazon Reports": {
-    val: "Importar todos os Relatórios da Amazon",
-    translated: true,
-    h: "EwzV2gCi/cxxLtdXGeSBJLDZhAhXqomL1rdi7QPOQxA=",
-  },
   "Import complete!": {
     /* Notification when an import is complete */
     val: "Importação completa!",
@@ -1502,6 +1498,11 @@ const messages:IMessages = {
     translated: true,
     h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
   },
+  "Language default": {
+    val: "Language default",
+    translated: false,
+    h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
+  },
   "Last sync": {
     val: "Última sincronização",
     translated: true,
@@ -1584,6 +1585,11 @@ const messages:IMessages = {
     val: "Servidor de rede local",
     translated: true,
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
+  },
+  "Macro deleted": {
+    val: "Macro deleted",
+    translated: false,
+    h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
     val: "Macros",
@@ -1697,6 +1703,11 @@ const messages:IMessages = {
     val: "Meses",
     translated: true,
     h: "wW/jCiA3sxpdbZ8SZ50pYiOvxUk2Ix8T6WB3ZXkAS4s=",
+  },
+  "Move Account": {
+    val: "Move Account",
+    translated: false,
+    h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
     val: "Mover Bucket",
@@ -1843,25 +1854,10 @@ const messages:IMessages = {
     translated: true,
     h: "UlN5g4bplbpYSjOMLbuCBZ5ICB8dMKhKiRial9fMUF8=",
   },
-  "No matches found": {
-    val: "Sem combinações encontradas",
-    translated: true,
-    h: "p4er9wMKH/YiF5PrBRKpfEzR8HINC3N0d9Iol4zqgtQ=",
-  },
   "No name": {
     val: "Sem nome",
     translated: true,
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
-  },
-  "No orders imported": {
-    val: "Nenhuma ordem importada",
-    translated: true,
-    h: "BSXGKYKVKCk7fbaNo3wAigIjqpZPNfJFNISloGmngZg=",
-  },
-  "No refunds imported": {
-    val: "Nenhuma restituição importada",
-    translated: true,
-    h: "J8bwMBTknpk9dMKKsTWTqNlncBVGlUjhrnjwN6Z7uJk=",
   },
   "No, don't connect": {
     val: "Não, não conectar",
@@ -2068,27 +2064,10 @@ const messages:IMessages = {
     translated: true,
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
   },
-  "Optionally request an Amazon Refunds report": {
-    val: "Opcionalmente requisitar relatório de reembolso da Amazon",
-    translated: true,
-    h: "j+ZBzvgoK0z7wbJ25sNsy9fYopXOCUEqjbTFdt559Zo=",
-  },
   "Or click to download the new version manually.": {
     val: "Ou clique para baixar a nova versão manualmente.",
     translated: true,
     h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
-  },
-  "Order": {
-    /* Label for an Amazon order row */
-    val: "Pedido",
-    translated: true,
-    h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
-  },
-  "Orders": {
-    /* List of orders */
-    val: "Pedidos",
-    translated: true,
-    h: "0W3ENYY4AiEiX9CGdCzK/r0XLyqTqbYi8N91GQpTqnM=",
   },
   "Other devices have made the following files available. Choose where you would like to save them on this device.": {
     val: "Outros dispositivos disponibilizaram os seguintes arquivos. Escolha onde você gostaria de salvá-los neste dispositivo.",
@@ -2291,12 +2270,6 @@ const messages:IMessages = {
     translated: true,
     h: "7buMF65dyGtKDY/ZW/Lkn7eUmdudCsdGV3KR2lYLLA0=",
   },
-  "Refunds": {
-    /* List of refunds */
-    val: "Reembolsos",
-    translated: true,
-    h: "4I/iPkFh9gYRoT0f6GWUl2eb1/8WRv59q6yPjB1KOOU=",
-  },
   "Regenerate": {
     val: "Regenerate",
     translated: false,
@@ -2374,16 +2347,6 @@ const messages:IMessages = {
     val: "Reportar Erro de Tradução...",
     translated: true,
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
-  },
-  "Request an Amazon Items report": {
-    val: "Pedir um relatório de Itens da Amazon",
-    translated: true,
-    h: "P4rrDh5nDkcbT6+2mP6w2/DdQS+Hlhu7u/AEo7usOGc=",
-  },
-  "Request an Amazon Orders report": {
-    val: "Pedir um relatório de pedidos da Amazon",
-    translated: true,
-    h: "c+Qi3RJelGSlC9MybLul6oqMPosN10WOFW6k+roCtxk=",
   },
   "Required deposit:": {
     val: "Depósito obrigatório:",
@@ -2465,11 +2428,6 @@ const messages:IMessages = {
     val: "Search categories",
     translated: false,
     h: "IScCkXq3OcNUufpAsgrWXkdRVqBrowHYo2hdSPS+X7I=",
-  },
-  "Search for Amazon transactions:": {
-    val: "Procurar por transações da Amazon:",
-    translated: true,
-    h: "FGAckk6wNL4OYfSaGK3CYf8NLHv4tvh6bf9YErgSb5E=",
   },
   "Search...": {
     /* Menu label for search page */
@@ -2677,21 +2635,6 @@ const messages:IMessages = {
     translated: true,
     h: "6NxF/uD6sOEPkEbPFOHdBKRxj0ZXVbmnPkRXNJDy0zs=",
   },
-  "Successfully imported Amazon Items report": {
-    val: "Relatório de itens da Amazon importado com sucesso",
-    translated: true,
-    h: "zcIlaWv/ZpEjOL5xQHbD/Q8+nNhqDbq4oJsVr0hLKcI=",
-  },
-  "Successfully imported Amazon Orders report": {
-    val: "Relatório de compras da Amazon importado com sucesso",
-    translated: true,
-    h: "jD2nczKNctIdPeGX20WLyUGOlIl/MbKqKpP5hCxbtt8=",
-  },
-  "Successfully imported Amazon Refunds report": {
-    val: "Reembolsos da Amazon importados com sucesso",
-    translated: true,
-    h: "cL1VAhdyv9ML3nJT0QY3lg6QrxkJ/UQf0gbcokIDJGU=",
-  },
   "Suggested value": {
     val: "Suggested value",
     translated: false,
@@ -2845,6 +2788,16 @@ const messages:IMessages = {
     translated: false,
     h: "5DaWwSVPo8La/gW0/QWRXAHx08KcbBLOe7BrRuMnKMQ=",
   },
+  "Transaction Type": {
+    val: "Transaction Type",
+    translated: false,
+    h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
+  },
+  "Transaction(s) deleted": {
+    val: "Transaction(s) deleted",
+    translated: false,
+    h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
+  },
   "Transactions": {
     val: "Transações",
     translated: true,
@@ -2874,11 +2827,6 @@ const messages:IMessages = {
     val: "Versão de testes",
     translated: true,
     h: "/B8oxaBijS+cHJQBdPRkq7IfcHyPStMT5uGKWUeZQuQ=",
-  },
-  "Try the Amazon transactions page instead of using the reports below.": {
-    val: "Tente a página de transações da Amazon ao invés dos relatórios abaixo.",
-    translated: true,
-    h: "GHctPN+mo6YaBc3phg56gj1DMNCqVfHnjqkKbcNdt/U=",
   },
   "Tuition": {
     val: "Mensalidade escolar",
@@ -2960,6 +2908,11 @@ const messages:IMessages = {
     val: "Conta desconhecida",
     translated: true,
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
+  },
+  "Unknown account deleted": {
+    val: "Unknown account deleted",
+    translated: false,
+    h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
     val: "Categoria desconhecida",
@@ -3337,6 +3290,12 @@ const messages:IMessages = {
     val: "Fora do orçamento",
     translated: true,
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
+  },
+  "account.ranking": {
+    /* Account order label */
+    val: "Order",
+    translated: false,
+    h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
     /* Account opening balance label */
@@ -3813,12 +3772,6 @@ Você gostaria de comprar uma licença agora?`,
     val: "Valores",
     translated: true,
     h: "+VG3lKNZdlCrMfK2d7yG7/OtZ5iGD3yqkIqOIClVuNw=",
-  },
-  "shipment-number": {
-    /* Noun labeling this shipment number */
-    val: (number:number)=>`Envio ${number}`,
-    translated: true,
-    h: "kOj0AkivxHYJj3IKqIFziGCcIwk1yxyUrloX+kGlOd0=",
   },
   "simplefin-connect-intro": {
     val: "Para conectar, faça o seguinte:",
