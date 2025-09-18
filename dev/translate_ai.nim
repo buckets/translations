@@ -5,6 +5,12 @@ import std/strformat
 import std/times
 import std/os
 
+import termtools
+
+initTermTools()
+addQuitProc proc() {.noconv.} =
+  deinitTermTools()
+
 let
   GROK_APIKEY = getEnv("GROK_APIKEY")
   OPENAI_APIKEY = getEnv("OPENAI_APIKEY")
@@ -181,6 +187,7 @@ proc translateFile(filename: string, in_place = false) =
   let outf = open(outp, fmWrite)
   proc emit(x: string) =
     outf.write x
+    outf.flushFile()
     echo x.strip(leading=false)
   for part in fileParts(filename):
     case part.kind
@@ -192,13 +199,12 @@ proc translateFile(filename: string, in_place = false) =
         for c in part.context_comments:
           toTranslate.add c & "\n"
         toTranslate.add part.val
-        stderr.writeLine("\n    Translating:\n" & toTranslate)
+        stderr.writeLine(faint("....Translating:\n" & toTranslate))
         let start = getTime()
         try:
           let translated = translate(langname, toTranslate)
           let elapsed = getTime() - start
-          stderr.writeLine(fmt"    Translation took {elapsed.inSeconds()} seconds")
-          stderr.writeLine("    Got translation:\n" & translated)
+          stderr.writeLine(faint(fmt"....{elapsed.inSeconds()}s"))
           emit FileComponent(
             kind: Item,
             context_comments: part.context_comments,
@@ -206,7 +212,7 @@ proc translateFile(filename: string, in_place = false) =
             translated: AutoTranslated
           ).render()
         except:
-          stderr.writeLine("ERROR during translation: " & getCurrentExceptionMsg())
+          stderr.writeLine(fgColor("ERROR during translation: " & getCurrentExceptionMsg(), "#ff4444"))
           emit part.render()
       else:
         emit part.render()
