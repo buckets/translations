@@ -113,6 +113,8 @@ If it looks like a JavaScript function, translate only the string literals insid
 
 JavaScript-style comments give context to the translators. Use them, but don't translate them and omit them in the response.
 
+For RTL languages, make sure the text (including trailing or leading punctuation) is in logical order, not visual order.
+
 Return the translation without any explanation in exactly the same format as was given, with surrounding quotes and commas (especially for functions). No triple backticks or extra whitespace.
 """
 
@@ -174,6 +176,11 @@ proc translate*(langname: string, typescript: string): string =
   sendToGrok(langname, typescript)
   # sendToChatGPT(langname, typescript)
 
+var keepGoing = true
+proc handleControlC() {.noconv.} =
+  keepGoing = false
+  stderr.writeLine(fgColor("\nStopping due to ctrl-C. Wait until the current translation finishes.", "#ff4444"))
+
 proc translateFile(filename: string, in_place = false) =
   var res = ""
   let guts = readFile(filename)
@@ -194,7 +201,7 @@ proc translateFile(filename: string, in_place = false) =
     of Literal:
       emit part.render()
     else:
-      if part.translated == NotTranslated:
+      if keepGoing and part.translated == NotTranslated:
         var toTranslate = ""
         for c in part.context_comments:
           toTranslate.add c & "\n"
@@ -235,4 +242,5 @@ proc translateFile(filename: string, in_place = false) =
 
 when isMainModule:
   import cligen
+  setControlCHook(handleControlC)
   dispatch translateFile
