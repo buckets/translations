@@ -118,7 +118,7 @@ proc sendToGrok(langname: string, x: string): string =
       {"role": "system", "content": this_prompt},
       {"role": "user", "content": x},
     ],
-    "model": "grok-4",
+    "model": "grok-3-mini",
     "stream": false,
     "temperature": 0,
     # "response_format": {"type": "json_object"},
@@ -192,13 +192,13 @@ proc translateFile(filename: string, in_place = false) =
         for c in part.context_comments:
           toTranslate.add c & "\n"
         toTranslate.add part.val
-        stderr.writeLine("\nTranslating:\n" & toTranslate)
+        stderr.writeLine("\n    Translating:\n" & toTranslate)
         let start = getTime()
         try:
           let translated = translate(langname, toTranslate)
           let elapsed = getTime() - start
-          stderr.writeLine(fmt"Translation took {elapsed.inSeconds()} seconds")
-          stderr.writeLine("Got translation:\n" & translated)
+          stderr.writeLine(fmt"    Translation took {elapsed.inSeconds()} seconds")
+          stderr.writeLine("    Got translation:\n" & translated)
           emit FileComponent(
             kind: Item,
             context_comments: part.context_comments,
@@ -206,7 +206,7 @@ proc translateFile(filename: string, in_place = false) =
             translated: AutoTranslated
           ).render()
         except:
-          stderr.writeLine("Error during translation: " & getCurrentExceptionMsg())
+          stderr.writeLine("ERROR during translation: " & getCurrentExceptionMsg())
           emit part.render()
       else:
         emit part.render()
