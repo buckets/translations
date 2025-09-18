@@ -115,7 +115,7 @@ const messages:IMessages = {
   },
   "Action": {
     val: "Action",
-    translated: false,
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "Actions": {
@@ -217,8 +217,8 @@ const messages:IMessages = {
     h: "7Sf5Nv5dGmsCdcFHDTi6IdPNrr7sui7KirEdQpUMd7I=",
   },
   "Authentication": {
-    val: "Authentication",
-    translated: false,
+    val: "Authentification",
+    translated: 'auto',
     h: "NAlBsTsQWu6FaPj3Q2Iyd12M/7PEA4UYqE+gj4dHkZA=",
   },
   "Automatic": {
@@ -638,8 +638,8 @@ const messages:IMessages = {
     h: "Px/rLFgkE/Sv1Z+Xm0frULVV3lxvrEc7ABJaDzmv670=",
   },
   "Conflicts": {
-    val: "Conflicts",
-    translated: false,
+    val: "Conflits",
+    translated: 'auto',
     h: "W04VkIj+XKS1rPtY7a6cQITUa157onpN6NAVlO9MknY=",
   },
   "Connect": {
@@ -669,8 +669,8 @@ const messages:IMessages = {
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection deleted": {
-    val: "Connection deleted",
-    translated: false,
+    val: "Connexion supprimée",
+    translated: 'auto',
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -684,8 +684,8 @@ const messages:IMessages = {
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Count": {
-    val: "Count",
-    translated: false,
+    val: "Compter",
+    translated: 'auto',
     h: "ikvrmlftwm5qPEEca6YD6duk6CH45CROgmp9sfZMEFE=",
   },
   "Create Account": {
@@ -887,8 +887,8 @@ const messages:IMessages = {
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "Device": {
-    val: "Device",
-    translated: false,
+    val: "Appareil",
+    translated: 'auto',
     h: "SljXcmF5cBUDvagtLmL5aNIz++tnIbf5qjS1cxxEI1I=",
   },
   "Device ID": {
@@ -984,8 +984,8 @@ const messages:IMessages = {
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "Encryption": {
-    val: "Encryption",
-    translated: false,
+    val: "Chiffrement",
+    translated: 'auto',
     h: "Rfsn7WkrTLeDLzups4h7merVzPfg8xcRh1++z49WW8Y=",
   },
   "Encryption keys": {
@@ -1159,8 +1159,8 @@ const messages:IMessages = {
     h: "aUU1pzvlZzKNgYZP2ZpPtQMImBOStbFnK33P3YwXTNs=",
   },
   "Finish merge": {
-    val: "Finish merge",
-    translated: false,
+    val: "Terminer la fusion",
+    translated: 'auto',
     h: "B0c10bq0bG9fZmohGvSo0pG1yeqxKs5mLo7SpplAhfw=",
   },
   "Folder": {
@@ -1589,8 +1589,8 @@ const messages:IMessages = {
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
   "Macro deleted": {
-    val: "Macro deleted",
-    translated: false,
+    val: "Macro supprimée",
+    translated: 'auto',
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1642,8 +1642,8 @@ const messages:IMessages = {
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "Memos To Payees": {
-    val: "Memos To Payees",
-    translated: false,
+    val: "Mémos aux Bénéficiaires",
+    translated: 'auto',
     h: "RrzhV+LUxgPfiFMK0krRxVfeKXhRquwgRwC8neBJ2Xs=",
   },
   "Merge": {
@@ -1990,8 +1990,8 @@ const messages:IMessages = {
   },
   "OFF": {
     /* Label for toggle switch OFF */
-    val: "OFF",
-    translated: false,
+    val: "Éteint",
+    translated: 'auto',
     h: "g0c9fS73Ra/6fEcgtA+AZ5QtmmCEO7dX81vP7YtzM4o=",
   },
   "OK": {
@@ -2001,8 +2001,8 @@ const messages:IMessages = {
   },
   "ON": {
     /* Label for toggle switch ON */
-    val: "ON",
-    translated: false,
+    val: "Activé",
+    translated: 'auto',
     h: "wZR/9OiLHV0XO5Mm9aURB4fbSWSyea2Z6CQce8Q14gU=",
   },
   "Off Budget Accounts": {
@@ -2623,8 +2623,8 @@ const messages:IMessages = {
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Stopped": {
-    val: "Stopped",
-    translated: false,
+    val: "Arrêté",
+    translated: 'auto',
     h: "9KSqBDjMEVALs44MtvCW75xXb7Ta+lGl6bMoOlDV824=",
   },
   "Student Loan Payment": {
@@ -2772,7 +2772,7 @@ const messages:IMessages = {
   },
   "Total": {
     val: "Total",
-    translated: false,
+    translated: 'auto',
     h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
   },
   "Total amount your buckets want each month.": {
@@ -2786,8 +2786,8 @@ const messages:IMessages = {
     h: "G0gRZS6Zq1VoQqtY+L8fY3ogdqSl/OAoTurOZ4L480Q=",
   },
   "Transaction ID": {
-    val: "ID Transaction",
-    translated: false,
+    val: "Identifiant de transaction",
+    translated: 'auto',
     h: "5DaWwSVPo8La/gW0/QWRXAHx08KcbBLOe7BrRuMnKMQ=",
   },
   "Transaction Type": {
@@ -2796,8 +2796,8 @@ const messages:IMessages = {
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
-    val: "Transaction(s) deleted",
-    translated: false,
+    val: "Transaction(s) supprimée(s)"
+    translated: 'auto',
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2912,8 +2912,8 @@ const messages:IMessages = {
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
   },
   "Unknown account deleted": {
-    val: "Unknown account deleted",
-    translated: false,
+    val: "Compte inconnu supprimé",
+    translated: 'auto',
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
@@ -3253,8 +3253,8 @@ const messages:IMessages = {
   },
   "account.balance": {
     /* Account balance label */
-    val: "Balance",
-    translated: false,
+    val: "Solde",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "account.closed": {
@@ -3278,7 +3278,7 @@ const messages:IMessages = {
   "account.kind": {
     /* Account type label */
     val: "Type",
-    translated: false,
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.name": {
@@ -3385,8 +3385,8 @@ const messages:IMessages = {
   },
   "bucket.balance": {
     /* Bucket balance label */
-    val: "Balance",
-    translated: false,
+    val: "Solde",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "bucket.color": {
@@ -3439,7 +3439,7 @@ const messages:IMessages = {
   "bucket.kind": {
     /* Bucket type label */
     val: "Type",
-    translated: false,
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "bucket.name": {
@@ -3548,7 +3548,7 @@ const messages:IMessages = {
   "change_log.action": {
     /* Change log action type */
     val: "Action",
-    translated: false,
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "change_log.obj": {
@@ -3595,8 +3595,8 @@ const messages:IMessages = {
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "err": {
-    val: "err",
-    translated: false,
+    val: "erreur",
+    translated: 'auto',
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {

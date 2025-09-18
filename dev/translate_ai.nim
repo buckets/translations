@@ -199,12 +199,13 @@ proc translateFile(filename: string, in_place = false) =
         for c in part.context_comments:
           toTranslate.add c & "\n"
         toTranslate.add part.val
-        stderr.writeLine(faint("....Translating:\n" & toTranslate))
+        stderr.write(faint("Translating..."))
+        stderr.flushFile()
         let start = getTime()
         try:
           let translated = translate(langname, toTranslate)
           let elapsed = getTime() - start
-          stderr.writeLine(faint(fmt"....{elapsed.inSeconds()}s"))
+          stderr.writeLine(faint(fmt"{elapsed.inSeconds()}s"))
           emit FileComponent(
             kind: Item,
             context_comments: part.context_comments,
