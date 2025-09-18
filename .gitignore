@@ -3,3 +3,6 @@
 node_modules/
 /.idea
 /translations.iml
+totrans
+.envrc
+langs/*.translated
