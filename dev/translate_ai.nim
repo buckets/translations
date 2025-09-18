@@ -176,6 +176,18 @@ proc translate*(langname: string, typescript: string): string =
   sendToGrok(langname, typescript)
   # sendToChatGPT(langname, typescript)
 
+proc ensureTranslatedFormat*(x: string): string =
+  result = x
+  if x.strip().startsWith("(") and "=>" in x:
+    # function
+    if not x.strip().endsWith(","):
+      result.add ","
+  else:
+    if not x.startsWith("\""):
+      result = "\"" & x & "\""
+    if not x.endsWith(","):
+      result.add ","
+
 var keepGoing = true
 proc handleControlC() {.noconv.} =
   keepGoing = false
@@ -210,7 +222,7 @@ proc translateFile(filename: string, in_place = false) =
         stderr.flushFile()
         let start = getTime()
         try:
-          let translated = translate(langname, toTranslate)
+          let translated = translate(langname, toTranslate).ensureTranslatedFormat()
           let elapsed = getTime() - start
           stderr.writeLine(faint(fmt"{elapsed.inSeconds()}s"))
           emit FileComponent(

@@ -2796,7 +2796,7 @@ const messages:IMessages = {
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
-    val: "Transaction(s) supprimée(s)"
+    val: "Transaction(s) supprimée(s)",
     translated: 'auto',
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
