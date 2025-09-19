@@ -103,7 +103,7 @@ proc render(comp: FileComponent): string =
     case comp.translated
       of NotTranslated: result.add "false"
       of Translated: result.add "true"
-      of AutoTranslated: result.add "'auto'"
+      of AutoTranslated: result.add "\"auto\""
     result.add ",\n"
 
 const PROMPT = """
