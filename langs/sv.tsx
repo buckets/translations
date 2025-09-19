@@ -232,7 +232,7 @@ const messages:IMessages = {
     h: "dPTYVfj33eBbVAOPN62sq/SkzXeFqTiSSeGbq7RT8ns=",
   },
   "Avenue available": {
-    val: "Aveny tillgänglig,"
+    val: "Aveny tillgänglig",
     translated: 'auto',
     h: "0ZTppZemkrqVd6lIxbRj8UJat3meVAiWkM22EaiH5eg=",
   },
@@ -1162,7 +1162,7 @@ const messages:IMessages = {
     h: "B0c10bq0bG9fZmohGvSo0pG1yeqxKs5mLo7SpplAhfw=",
   },
   "Folder": {
-    val: "Mapp,"
+    val: "Mapp",
     translated: 'auto',
     h: "U0LnwvQV2yrtaYfkte120FAJhkqVya8TcV7qJ9tumUs=",
   },
@@ -3275,7 +3275,7 @@ const messages:IMessages = {
   },
   "account.kind": {
     /* Account type label */
-    val: "    "Typ","
+    val: "Typ",
     translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },

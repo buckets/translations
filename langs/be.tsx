@@ -2436,7 +2436,7 @@ const messages:IMessages = {
     h: "TOtty3gn23+64CNUlKn+bNe2V0f4xfUBGLHQ/Pw8XKQ=",
   },
   "Search:": {
-    val: Пошук:
+    val: "Пошук:",
     translated: 'auto',
     h: "OHBHBOVnuMjmjWHZURDrna8FWv+geQYMQuobRo4tkq0=",
   },
@@ -2975,7 +2975,7 @@ const messages:IMessages = {
     h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
   },
   "Update Macro Name": {
-    val: Абнавіць назву макра,
+    val: "Абнавіць назву макра",
     translated: 'auto',
     h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
   },
@@ -3680,7 +3680,7 @@ const messages:IMessages = {
   "nag-message": {
     val: () => `Гэта незарэгістраваная пробная версія, і хаця пробны перыяд не абмежаваны часам, ліцэнзія павінна быць купленая для далейшага выкарыстання.
 
-Ці жадаеце вы купіць ліцэнзію зараз?`
+Ці жадаеце вы купіць ліцэнзію зараз?`,
     translated: 'auto',
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },

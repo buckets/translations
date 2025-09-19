@@ -178,7 +178,7 @@ proc translate*(langname: string, typescript: string): string =
 
 proc ensureTranslatedFormat*(x: string): string =
   result = x
-  if x.strip().startsWith("(") and "=>" in x:
+  if "=>" in x:
     # function
     if not x.strip().endsWith(","):
       result.add ","

@@ -1581,7 +1581,7 @@ const messages:IMessages = {
     h: "bI/iWjtuzv7DVDFzzviehzbWu1TWwURDNt++OVfSXEg=",
   },
   "Local network server": {
-    val: "Helyi hálózati szerver,"
+    val: "Helyi hálózati szerver",
     translated: 'auto',
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
@@ -2134,7 +2134,7 @@ const messages:IMessages = {
     h: "YjA+7FE+9F3uMVjqhQQyv29+TRFaEMDJfFGbbX1+9aI=",
   },
   "Pending merges": {
-    val: "Függőben lévő egyesítések,"
+    val: "Függőben lévő egyesítések",
     translated: 'auto',
     h: "7vaBvdca+0T8ZgfGLkLVyTGgsK9QgFVnFdWRmqi8cbw=",
   },
@@ -3004,7 +3004,7 @@ const messages:IMessages = {
     h: "28JOAeb8QLlBYMLiOO8RGW8SHBJ14Gdp/t/7rprHodk=",
   },
   "Update Payees": {
-    val: "Kedvezményezettek frissítése,"
+    val: "Kedvezményezettek frissítése",
     translated: 'auto',
     h: "hJhDyJDaai8R9NXK8J3AOdqOOhdqmkZeR8ziJyzuzVU=",
   },
@@ -3538,7 +3538,7 @@ const messages:IMessages = {
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "budget-file-type-name": {
-    val: "Vödrök Költségvetés,"
+    val: "Vödrök Költségvetés",
     translated: 'auto',
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },

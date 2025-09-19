@@ -347,7 +347,7 @@ const messages:IMessages = {
     h: "5hMoGWO5uTeCOujLdFnRx4w3D6Zka/avSxnH14UmJiI=",
   },
   "Bucket amount": {
-    val: "כמות דלי,"
+    val: "כמות דלי",
     translated: 'auto',
     h: "KeOvMpoI1q2oV66HC3pMPPSZyZ3AfK3/ttog4A9oHTs=",
   },
@@ -1376,7 +1376,7 @@ const messages:IMessages = {
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "In/Out": {
-    val: "כניסה/יציאה,"
+    val: "כניסה/יציאה",
     translated: 'auto',
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
@@ -1436,7 +1436,7 @@ const messages:IMessages = {
     h: "4JKuk5cidGqS+Yy2zWi8Bf+XYJLipTr94xQ+cPTJUVs=",
   },
   "Invalid transactions preventing import": {
-    val: "עסקאות לא תקינות מונעות ייבוא,"
+    val: "עסקאות לא תקינות מונעות ייבוא",
     translated: 'auto',
     h: "smXPNWsiVwsLzBZ2L/sbD9IO3ZMxKyORNgcKAa3CFRE=",
   },
@@ -1781,7 +1781,7 @@ const messages:IMessages = {
     h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
   },
   "New Bucket": {
-    val: "דלי חדש,"
+    val: "דלי חדש",
     translated: 'auto',
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
@@ -1846,7 +1846,7 @@ const messages:IMessages = {
     h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
   },
   "No conflicts": {
-    val: "אין קונפליקטים,"
+    val: "אין קונפליקטים",
     translated: 'auto',
     h: "UlN5g4bplbpYSjOMLbuCBZ5ICB8dMKhKiRial9fMUF8=",
   },
@@ -2193,7 +2193,7 @@ const messages:IMessages = {
   },
   "Preview": {
     /* Noun */
-    val: "     "תצוגה מקדימה","
+    val: "תצוגה מקדימה",
     translated: 'auto',
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
@@ -2283,7 +2283,7 @@ const messages:IMessages = {
     h: "mSWVLtN7G9ZyP/WXAVEiOcbZQJIK6YenAW9E0ZZS3B0=",
   },
   "Relay server": {
-    val: "שרת ממסר,"
+    val: "שרת ממסר",
     translated: 'auto',
     h: "+cMcGjAKTrxBcgm02bYOEYsUTqHNoQJayrxZ+3L3Nag=",
   },
@@ -2740,7 +2740,7 @@ const messages:IMessages = {
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
-    val: "לְ,"
+    val: "לְ",
     translated: 'auto',
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
@@ -2941,7 +2941,7 @@ const messages:IMessages = {
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Update Bucket Name": {
-    val: "עדכן שם דלי,"
+    val: "עדכן שם דלי",
     translated: 'auto',
     h: "Oa+1EZtc4RTtPYyk5LflMMlQq/esZ3qvTgbSLiKIl4E=",
   },
@@ -3062,7 +3062,7 @@ const messages:IMessages = {
     h: "gAFg4pzFnJ37C/ReDfO2llXdsckG7onQiLq6WjhBWxk=",
   },
   "Used in future": {
-    val: "משומש בעתיד,"
+    val: "משומש בעתיד",
     translated: 'auto',
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
@@ -3385,7 +3385,7 @@ const messages:IMessages = {
   },
   "bucket.color": {
     /* Bucket color label */
-    val: "     "צבע","
+    val: "צבע",
     translated: 'auto',
     h: "/hiVjO3WJ9JPhG5BDY2SqUELJlWFlhAWkhD3x/c45mU=",
   },
@@ -3701,7 +3701,7 @@ const messages:IMessages = {
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `הקובץ שהורד: ${filename}`,"
+    val: filename => `הקובץ שהורד: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3825,7 +3825,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `עודכן/נוצר ${count} עסקאות`,"
+    val: count => `עודכן/נוצר ${count} עסקאות`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

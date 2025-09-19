@@ -18,5 +18,3 @@ accept:
 .PHONY: all accept
 .PRECIOUS: $(TRANSLATED_FILES)
 
-# cp $${file}.translated $$file;
-# cp $${file%.translated} $$file;

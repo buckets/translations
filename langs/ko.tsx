@@ -3128,8 +3128,8 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When "On" 이 활성화되었을 때, 이 매크로는 정상 동기화 중에 실행됩니다.",
-    translated: 'auto',
+    val: "When \"On\" this macro will be run during a normal sync.",
+    translated: false,
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
@@ -3703,7 +3703,7 @@ const messages:IMessages = {
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `다운로드된 파일: ${filename}`,"
+    val: filename => `다운로드된 파일: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3829,7 +3829,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `업데이트/생성된 ${count} 거래`,"
+    val: count => `업데이트/생성된 ${count} 거래`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

@@ -1440,7 +1440,7 @@ const messages:IMessages = {
     h: "4JKuk5cidGqS+Yy2zWi8Bf+XYJLipTr94xQ+cPTJUVs=",
   },
   "Invalid transactions preventing import": {
-    val: "Geçersiz işlemler içe aktarmayı engelliyor,"
+    val: "Geçersiz işlemler içe aktarmayı engelliyor",
     translated: 'auto',
     h: "smXPNWsiVwsLzBZ2L/sbD9IO3ZMxKyORNgcKAa3CFRE=",
   },
@@ -1655,7 +1655,7 @@ const messages:IMessages = {
     h: "7mOfG0hHFzdbEwVuhnSJP2QnEDVFQg4s3d8syq4EMHw=",
   },
   "Merge Payees": {
-    val: "Alıcıları Birleştir,"
+    val: "Alıcıları Birleştir",
     translated: 'auto',
     h: "E1u4wBRN09jfBf9R5K2xo80gFrGBuDEB39Ri7EL8bYw=",
   },
@@ -1765,7 +1765,7 @@ const messages:IMessages = {
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
-    val: "Net","
+    val: "Net",
     translated: 'auto',
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
@@ -1886,7 +1886,7 @@ const messages:IMessages = {
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
-    val: "Not","
+    val: "Not",
     translated: 'auto',
     h: "omcHOlFDF1aMLf9t2/tJ9R1dYEFSQC9IiPuXLXuFwEk=",
   },
@@ -2744,7 +2744,7 @@ const messages:IMessages = {
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
-    val: "Kime,"
+    val: "Kime",
     translated: 'auto',
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
@@ -3132,7 +3132,7 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "Açık olduğunda "Açık" bu makro normal bir senkronizasyon sırasında çalıştırılacak.",
+    val: "Açık olduğunda \"Açık\" bu makro normal bir senkronizasyon sırasında çalıştırılacak.",
     translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
@@ -3418,7 +3418,7 @@ const messages:IMessages = {
   },
   "bucket.goal": {
     /* Bucket goal amount label */
-    val: "    "Hedef","
+    val: "Hedef",
     translated: 'auto',
     h: "IGWRYx9sqJO1YtI2GyVqdV+i4fFQ+e8XMaiWTNAn/xk=",
   },
@@ -3703,7 +3703,7 @@ const messages:IMessages = {
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `İndirilen dosya: ${filename}`,"
+    val: filename => `İndirilen dosya: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3831,7 +3831,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `Güncellenmiş/Oluşturulmuş ${count} işlemler`,"
+    val: count => `Güncellenmiş/Oluşturulmuş ${count} işlemler`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

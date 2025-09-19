@@ -3128,7 +3128,7 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "Коли "Увімкнено" цей макрос буде запущений під час звичайної синхронізації.",
+    val: "Коли \"Увімкнено\" цей макрос буде запущений під час звичайної синхронізації.",
     translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
@@ -3701,7 +3701,7 @@ const messages:IMessages = {
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `Завантажений файл: ${filename}`,"
+    val: filename => `Завантажений файл: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3829,7 +3829,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `Оновлено/створено ${count} транзакцій`,"
+    val: count => `Оновлено/створено ${count} транзакцій`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

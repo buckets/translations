@@ -46,7 +46,7 @@ const messages:IMessages = {
     h: "njVpYkgCdiB755Pxnsk1D8GELOWqw1mBBYG+YQr7e98=",
   },
   "/mo": {
-    val: "za měsíc,"
+    val: "za měsíc",
     translated: 'auto',
     h: "ggq7na5vMB1wOjQQo0Wq0o7ctwbMUiiJr1tRRKphHss=",
   },
@@ -1456,7 +1456,7 @@ const messages:IMessages = {
     h: "SA/tgP2OPX7K6/Rztew4oai82mmt7fqOHpOuCWNrPZU=",
   },
   "Keep accounts": {
-    val: "Udržovat účty,"
+    val: "Udržovat účty",
     translated: 'auto',
     h: "iQX3g3XL9mIf7uX5wDrQIhLNJ464eieqHwhtKtfSuoA=",
   },
@@ -3701,7 +3701,7 @@ Chcete nyní zakoupit licenci?`,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `Stažený soubor: ${filename}`,"
+    val: filename => `Stažený soubor: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3827,7 +3827,7 @@ Chcete nyní zakoupit licenci?`,
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `Aktualizováno/vytvořeno ${count} transakcí`,"
+    val: count => `Aktualizováno/vytvořeno ${count} transakcí`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

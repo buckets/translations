@@ -36,7 +36,7 @@ const messages:IMessages = {
     h: "Ij4mQm0L5WO4Iunvl3fKwbhLwjTodc3Chq81GsFM+T0=",
   },
   "(easiest)": {
-    val: "(enkleste),"
+    val: "(enkleste)",
     translated: 'auto',
     h: "mvpASP1TOoS7w7iXoO7ThUyiPKnrtytWyDC2XJ1WReE=",
   },
@@ -248,7 +248,7 @@ const messages:IMessages = {
     h: "m88+08lu2BgvX8BFsKwDKo/bYeJbqlIkmK5GD9AbD9s=",
   },
   "Avenue unavailable": {
-    val: "Avenue ikke tilgængelig,"
+    val: "Avenue ikke tilgængelig",
     translated: 'auto',
     h: "cDAq+7ZyrtyC7zRkvSBe9Ob6LBn4eVkqXRT7Y3Bau3U=",
   },
@@ -2956,7 +2956,7 @@ const messages:IMessages = {
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
   },
   "Update Currency Symbol": {
-    val: "Opdater valutasymbol,"
+    val: "Opdater valutasymbol",
     translated: 'auto',
     h: "5ni7IpG/zzlc/uAhhkduQ99K/5B9ui5INpaxZw7QTrs=",
   },
@@ -3041,7 +3041,7 @@ const messages:IMessages = {
     h: "MU8WQkSmMfpUADhweg+WSBrhrTcWK23Ow4QqwxyoAfo=",
   },
   "Update opening balance": {
-    val: "Opdater åbningssaldo,"
+    val: "Opdater åbningssaldo",
     translated: 'auto',
     h: "Z0BMQUVy9IHw3rAN6dd3xnGsgHNFC+l4FxxGcNc8QJ8=",
   },
@@ -3128,7 +3128,7 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "Når "På" vil denne makro køre under en normal synkronisering.",
+    val: "Når \"På\" vil denne makro køre under en normal synkronisering.",
     translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
@@ -3703,7 +3703,7 @@ Vil du gerne købe en licens nu?`,
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `Downloadet fil: ${filename}`,"
+    val: filename => `Downloadet fil: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3831,7 +3831,7 @@ Vil du gerne købe en licens nu?`,
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `Opdateret/oprettet ${count} transaktioner`",
+    val: count => `Opdateret/oprettet ${count} transaktioner`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },

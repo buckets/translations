@@ -3128,7 +3128,7 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "عندما "تشغيل" هذا الماكرو سيتم تشغيله أثناء مزامنة عادية.",
+    val: "عندما \"تشغيل\" هذا الماكرو سيتم تشغيله أثناء مزامنة عادية.",
     translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
@@ -3647,7 +3647,7 @@ const messages:IMessages = {
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
-    val: "في البنك"،,
+    val: "في البنك",
     translated: 'auto',
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
@@ -3703,7 +3703,7 @@ const messages:IMessages = {
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: "filename => `ملف تم تنزيله: ${filename}`,"
+    val: filename => `ملف تم تنزيله: ${filename}`,
     translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
@@ -3723,7 +3723,7 @@ const messages:IMessages = {
     h: "nzvsum5LFYOz4ZRB3eTVliJTfZvVSpTSImJ4XkhThNA=",
   },
   "on": {
-    val: "على"،,
+    val: "على",
     translated: 'auto',
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
@@ -3829,7 +3829,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: "count => `تم تحديث/إنشاء ${count} معاملات`,"
+    val: count => `تم تحديث/إنشاء ${count} معاملات`,
     translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
