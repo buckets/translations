@@ -240,21 +240,6 @@ proc translateFile(filename: string, in_place = false) =
           emit part.render()
       else:
         emit part.render()
-  # echo res
-  # let guts = readFile(filename)
-  # var langname = ""
-  # for line in guts.split("\n"):
-  #   if line.strip().startsWith("name: "):
-  #     langname = line.split(": ")[1].split(',')[0][1..^2]
-  # stderr.writeLine(fmt("langname: -->{langname}<--"))
-  # let start = getTime()
-  # let res = translate(langname, guts)
-  # let diff = getTime() - start
-  # stderr.writeLine(fmt"Translation took {diff.inSeconds()} seconds")
-  # if in_place:
-  #   writeFile(filename, res)
-  # else:
-  #   echo res
 
 when isMainModule:
   import cligen
