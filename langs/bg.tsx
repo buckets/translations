@@ -663,8 +663,8 @@ const messages:IMessages = {
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection deleted": {
-    val: "Connection deleted",
-    translated: false,
+    val: "Връзката е изтрита",
+    translated: 'auto',
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -1583,8 +1583,8 @@ const messages:IMessages = {
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
   "Macro deleted": {
-    val: "Macro deleted",
-    translated: false,
+    val: "Макрос изтрит",
+    translated: 'auto',
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -2790,8 +2790,8 @@ const messages:IMessages = {
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
-    val: "Transaction(s) deleted",
-    translated: false,
+    val: "Транзакция(и) изтрити",
+    translated: 'auto',
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2906,8 +2906,8 @@ const messages:IMessages = {
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
   },
   "Unknown account deleted": {
-    val: "Unknown account deleted",
-    translated: false,
+    val: "Изтрита неизвестна сметка",
+    translated: 'auto',
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {

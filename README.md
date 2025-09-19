@@ -37,8 +37,8 @@ This is the repository of translations for the [Buckets budgeting app](https://w
    1. Name your file according to the [2-letter 639-1 code listed here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) with `.tsx` at the end (e.g. `en.tsx` for English)
 
 1. Edit the language file.  For each item:
-   1. Translate the `val: ...` part
-   1. Change `translated: false` to `translated: true`
+   1. Either translate the `val: ...` part if `translated: false` or verify/fix the translation if `translated: 'auto'`
+   1. Change `translated: ...` to `translated: true`
    1. Look at any comments of this format: `/*! This is a comment for the translator */`
    1. **If there isn't enough context** for you to translate it accurately (e.g. "Is this a noun?" or "What noun does this adjective refer to so its gender can agree?") email me or file an issue.
 

@@ -6,10 +6,9 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@iffycan/events/-/events-1.0.1.tgz#b78b4610effad956cfdd7ed46da6b78dc2c2a8b3"
 
-"@iffycan/i18n@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@iffycan/i18n/-/i18n-0.7.1.tgz#adc5324ea66f50d4f088ac8964bf8bdac89e3c9e"
-  integrity sha512-85IjkE1E1/moxbrPyvB2/8uNvkH1JPeWwFmKDTnWP05ko34BeIRUKRr4bdZSqfEJ8OOVt/AtJks5WbkJhYBDag==
+"@iffycan/i18n@github:iffy/iffycan-i18n":
+  version "0.8.0"
+  resolved "git+ssh://git@github.com/iffy/iffycan-i18n.git#619d0be8025459ff6b9bb7c4d42211f6365f6c91"
   dependencies:
     "@iffycan/events" "^1.0.1"
 

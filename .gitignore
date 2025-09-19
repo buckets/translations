@@ -3,3 +3,7 @@
 node_modules/
 /.idea
 /translations.iml
+totrans
+.envrc
+langs/*.translated
+dev/translate_ai

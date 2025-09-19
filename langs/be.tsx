@@ -25,8 +25,8 @@ const messages:IMessages = {
   "(Blank)": {
     /* Label for things that are blank */
     /* Label for things that are blank */
-    val: "(Blank)",
-    translated: false,
+    val: "(Пусты)",
+    translated: 'auto',
     h: "zYRwxSqiVmaHvp3Ra8DQeYHJW50oqXUf4Jz4UvXRs4U=",
   },
   "(Drop files or click)": {
@@ -97,8 +97,8 @@ const messages:IMessages = {
   },
   "Account mapping": {
     /* Noun describing import details that map to an account */
-    val: "Account mapping",
-    translated: false,
+    val: "Мапаванне рахунка",
+    translated: 'auto',
     h: "utrzN1AM7WMltloEYtQSoFhx5O5Zf4u6M2p33kntCXM=",
   },
   "Accounts": {
@@ -112,8 +112,8 @@ const messages:IMessages = {
     h: "BsDoJS2nPDKya2do9fNF2o2jl0mIUxjdBycHbmsu6HY=",
   },
   "Action": {
-    val: "Action",
-    translated: false,
+    val: "Дзеянне",
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "Actions": {
@@ -190,8 +190,8 @@ const messages:IMessages = {
   },
   "As of": {
     /* Label for timestamp on a document */
-    val: "As of",
-    translated: false,
+    val: "Станом на",
+    translated: 'auto',
     h: "AONctcFQnUGl+zc/NhrnGa7CfTpqu3E92stXUc93EEU=",
   },
   "Assets": {
@@ -221,8 +221,8 @@ const messages:IMessages = {
   },
   "Automatic": {
     /* Option for theme preference indicating that the system will choose between light and dark */
-    val: "Automatic",
-    translated: false,
+    val: "Аўтаматычны",
+    translated: 'auto',
     h: "0YA2t1ssPk8k4xaICpB9//fM3ol0d/FeOVb6dCD0ux8=",
   },
   "Available version": {
@@ -341,8 +341,8 @@ const messages:IMessages = {
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "Bucket Transaction ID": {
-    val: "Bucket Transaction ID",
-    translated: false,
+    val: "ID транзакцыі бакета",
+    translated: 'auto',
     h: "1bsbXV1Kuxj83UA24XCyscrAKm+nsN+WNbFz1+lf66E=",
   },
   "Bucket Transactions": {
@@ -351,8 +351,8 @@ const messages:IMessages = {
     h: "5hMoGWO5uTeCOujLdFnRx4w3D6Zka/avSxnH14UmJiI=",
   },
   "Bucket amount": {
-    val: "Bucket amount",
-    translated: false,
+    val: "Колькасць вядра",
+    translated: 'auto',
     h: "KeOvMpoI1q2oV66HC3pMPPSZyZ3AfK3/ttog4A9oHTs=",
   },
   "Bucket deleted completely": {
@@ -420,8 +420,8 @@ const messages:IMessages = {
     h: "hbfzyLF9pCBuXZJ4fcHPQVNia5LnROzn4NZFhOhjuG8=",
   },
   "Budget files are too different to merge": {
-    val: "Budget files are too different to merge",
-    translated: false,
+    val: "Файлы бюджэту занадта розныя, каб іх злучыць",
+    translated: 'auto',
     h: "S/vIb5Nknf3NHyuW7Xmh5zS8soTt74dT2/tWCxM5lic=",
   },
   "Budget password:": {
@@ -450,8 +450,8 @@ const messages:IMessages = {
     h: "IiaAFlM5LkjsirGL06i1plXy1FoW75TKBiuin2r4s6Q=",
   },
   "Can't merge budgets of different versions": {
-    val: "Can't merge budgets of different versions",
-    translated: false,
+    val: "Не можна аб'яднаць бюджэты розных версіяў",
+    translated: 'auto',
     h: "6+AzeGDN9PmeIUO0hjF85F3PzmbhX9bXkHzYVrGiNU4=",
   },
   "Cancel": {
@@ -667,8 +667,8 @@ const messages:IMessages = {
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection deleted": {
-    val: "Connection deleted",
-    translated: false,
+    val: "Злучэнне выдалена",
+    translated: 'auto',
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -682,8 +682,8 @@ const messages:IMessages = {
     h: "T2DR4UKv+pyVWY8GzF/WWjk5XqMXgZ0gDyXkZmYczHw=",
   },
   "Count": {
-    val: "Count",
-    translated: false,
+    val: "Лічыць",
+    translated: 'auto',
     h: "ikvrmlftwm5qPEEca6YD6duk6CH45CROgmp9sfZMEFE=",
   },
   "Create Account": {
@@ -741,8 +741,8 @@ const messages:IMessages = {
   },
   "Currency symbols": {
     /* Label for currency symbol setting */
-    val: "Currency symbols",
-    translated: false,
+    val: "Сымбалі валюты",
+    translated: 'auto',
     h: "MB7GDp8dkw8tLgwCzsb2VwrDRWwirbks5+U6PkshBB4=",
   },
   "Current version": {
@@ -764,8 +764,8 @@ const messages:IMessages = {
   },
   "Dark": {
     /* Option for theme preference */
-    val: "Dark",
-    translated: false,
+    val: "Цёмны",
+    translated: 'auto',
     h: "n09JYTXgkVzgVfXO+ZBo3gryCtlg9t+GoZSQe2YpJPQ=",
   },
   "Data": {
@@ -890,8 +890,8 @@ const messages:IMessages = {
     h: "SljXcmF5cBUDvagtLmL5aNIz++tnIbf5qjS1cxxEI1I=",
   },
   "Device ID": {
-    val: "Device ID",
-    translated: false,
+    val: "ID прылады",
+    translated: 'auto',
     h: "23vizNM3wG6SeZvqULHYvtlqlWmwbFL3GuLOzGzdSK8=",
   },
   "Diapers": {
@@ -982,13 +982,13 @@ const messages:IMessages = {
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "Encryption": {
-    val: "Encryption",
-    translated: false,
+    val: "Шыфраванне",
+    translated: 'auto',
     h: "Rfsn7WkrTLeDLzups4h7merVzPfg8xcRh1++z49WW8Y=",
   },
   "Encryption keys": {
-    val: "Encryption keys",
-    translated: false,
+    val: "Ключы шыфравання",
+    translated: 'auto',
     h: "u45A8tEUHjVJ/FuiM5W+sNzNth8QZuHXNgdL16YmB1U=",
   },
   "Ending Balance": {
@@ -1017,8 +1017,8 @@ const messages:IMessages = {
     h: "/ErBlknw7o83xx0uIDCjdDA4u5bAwnNZuhFd2GV1Zcw=",
   },
   "Error decrypting recording": {
-    val: "Error decrypting recording",
-    translated: false,
+    val: "Памылка пры дэкрыпціі запісу",
+    translated: 'auto',
     h: "6LehLh8oNPMtzfLjQbZAJ3a35TSBoIn+XTBtBBaEuKI=",
   },
   "Error during import": {
@@ -1052,8 +1052,8 @@ const messages:IMessages = {
     h: "7dtoozbhFD0JBqVUuvIbB6I58faFMyoolWjHqHP7ypo=",
   },
   "Error running macro": {
-    val: "Error running macro",
-    translated: false,
+    val: "Памылка пры выкананні макра",
+    translated: 'auto',
     h: "obu/8VMe/z+StejTUbzL5fGOP7tMkWw4DfW4KkF/lxs=",
   },
   "Error running recording": {
@@ -1115,8 +1115,8 @@ const messages:IMessages = {
   },
   "File import mapping": {
     /* Noun: object that contains settings for importing a file */
-    val: "File import mapping",
-    translated: false,
+    val: "Мапаванне імпарту файла",
+    translated: 'auto',
     h: "5s+unX9P0STLcQ5yQjcOEEO3XLrHp6TiOAXOY5L4Jzo=",
   },
   "File saved: ": {
@@ -1130,8 +1130,8 @@ const messages:IMessages = {
     h: "tD4YLtMv/MtHbTXTSZmkcCxj1g7Km6d6kuWI+1yHo/8=",
   },
   "Filter": {
-    val: "Filter",
-    translated: false,
+    val: "Фільтр",
+    translated: 'auto',
     h: "gG/X0Prd382E2jAAsfyk3bynhjgo9Fk44NYmIbqfMTk=",
   },
   "Find Next": {
@@ -1168,8 +1168,8 @@ const messages:IMessages = {
   },
   "For Older Budgets": {
     /* Label for section related to updating from older budgets */
-    val: "For Older Budgets",
-    translated: false,
+    val: "Для Старэйшых Бюджэтаў",
+    translated: 'auto',
     h: "TMGosuE5olJuLuly8uc8gx4r4RTMA3guKrboArLuB7w=",
   },
   "Forbidden": {
@@ -1435,8 +1435,8 @@ const messages:IMessages = {
     h: "BfJdh6NOzurSCMGRmCP8gb1VAXUlrSSsCFIGHGXtNiA=",
   },
   "Invalid password": {
-    val: "Invalid password",
-    translated: false,
+    val: "Няправільны пароль",
+    translated: 'auto',
     h: "4JKuk5cidGqS+Yy2zWi8Bf+XYJLipTr94xQ+cPTJUVs=",
   },
   "Invalid transactions preventing import": {
@@ -1499,8 +1499,8 @@ const messages:IMessages = {
     h: "H6JLSQVzeo1QvqYd6ewWITP1MyGheSF5eFCeaP6nQwk=",
   },
   "Language default": {
-    val: "Language default",
-    translated: false,
+    val: "Мова па змаўчанні",
+    translated: 'auto',
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
@@ -1547,8 +1547,8 @@ const messages:IMessages = {
   },
   "Light": {
     /* Option for theme preference */
-    val: "Light",
-    translated: false,
+    val: "Светлы",
+    translated: 'auto',
     h: "C0avqWOAFWs6Zf7/577zzmx49uDbTZDSmLAJIQchfuE=",
   },
   "Limit": {
@@ -1557,8 +1557,8 @@ const messages:IMessages = {
     h: "tmPeisQPkoz4f2EpO/u0ThQPLC5ev6RKZzs4lkgatBU=",
   },
   "Limit:": {
-    val: "Limit:",
-    translated: false,
+    val: "Ліміт:",
+    translated: 'auto',
     h: "fU5A7Xvpww+aXRMyXDk5JaooMFWEKRFeMBtm2aYfRXQ=",
   },
   "Link Account": {
@@ -1587,8 +1587,8 @@ const messages:IMessages = {
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
   "Macro deleted": {
-    val: "Macro deleted",
-    translated: false,
+    val: "Макра выдаленая",
+    translated: 'auto',
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1625,8 +1625,8 @@ const messages:IMessages = {
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Mass Update": {
-    val: "Mass Update",
-    translated: false,
+    val: "Масавы абнаўленне",
+    translated: 'auto',
     h: "8Vx8raw2DARWzkCbKtZrIQdXCP2vDzw/FMYKfw51Jcs=",
   },
   "Medical": {
@@ -1640,8 +1640,8 @@ const messages:IMessages = {
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "Memos To Payees": {
-    val: "Memos To Payees",
-    translated: false,
+    val: "Заўвагі да атрымальнікаў",
+    translated: 'auto',
     h: "RrzhV+LUxgPfiFMK0krRxVfeKXhRquwgRwC8neBJ2Xs=",
   },
   "Merge": {
@@ -1655,8 +1655,8 @@ const messages:IMessages = {
     h: "7mOfG0hHFzdbEwVuhnSJP2QnEDVFQg4s3d8syq4EMHw=",
   },
   "Merge Payees": {
-    val: "Merge Payees",
-    translated: false,
+    val: "Аб'яднаць атрымальнікаў",
+    translated: 'auto',
     h: "E1u4wBRN09jfBf9R5K2xo80gFrGBuDEB39Ri7EL8bYw=",
   },
   "Merge already in progress": {
@@ -1705,8 +1705,8 @@ const messages:IMessages = {
     h: "wW/jCiA3sxpdbZ8SZ50pYiOvxUk2Ix8T6WB3ZXkAS4s=",
   },
   "Move Account": {
-    val: "Move Account",
-    translated: false,
+    val: "Перанесці ўліковы запіс",
+    translated: 'auto',
     h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
@@ -1720,8 +1720,8 @@ const messages:IMessages = {
     h: "zSmn/C+X/cbh/GqqDMPetNfBb8iTmlwFh9Dsbc9qe9k=",
   },
   "Move all transaction memos to blank payee field": {
-    val: "Move all transaction memos to blank payee field",
-    translated: false,
+    val: "Перанесці ўсе нотаткі транзакцый у пустое поле плательшчыка",
+    translated: 'auto',
     h: "Ibe3mbvnAzB2IdenvVSIAQdz1//j2Hd5vMpVIn+CH+8=",
   },
   "NO": {
@@ -1737,8 +1737,8 @@ const messages:IMessages = {
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "Natural gas/propane/oil": {
-    val: "Natural gas/propane/oil",
-    translated: false,
+    val: "Прыродны газ/прапан/нафта",
+    translated: 'auto',
     h: "CMjkKDPUYAAymOaPiz0PkXS6Ec3BTRWuNZJQ34kHA5s=",
   },
   "Need ideas for getting started?": {
@@ -1770,18 +1770,18 @@ const messages:IMessages = {
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "Net Transfers": {
-    val: "Net пераводы",
-    translated: false,
+    val: "Не пераводы",
+    translated: 'auto',
     h: "4FYbJ2rCxhrWW9XBurKbS2mOSTwlxIXH/jCv5FDofeM=",
   },
   "Net Wealth": {
-    val: "Net Wealth",
-    translated: false,
+    val: "Чыстая маёмнасць",
+    translated: 'auto',
     h: "XKjeMQyciPmv55LHmQ9l0ulp6PwrF1QA1lN2Pua1Kk8=",
   },
   "Net change": {
-    val: "Net change",
-    translated: false,
+    val: "Чыстая змена",
+    translated: 'auto',
     h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
   },
   "New Bucket": {
@@ -1835,13 +1835,13 @@ const messages:IMessages = {
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
   "New transaction": {
-    val: "New transaction",
-    translated: false,
+    val: "Новы транзакцыя",
+    translated: 'auto',
     h: "1VsMSv2xvSjfHSqSZPw0gw1fD9E+Jvyr+2JVT/4bt64=",
   },
   "New value": {
-    val: "New value",
-    translated: false,
+    val: "Новы значэнне",
+    translated: 'auto',
     h: "IYMui0S7sNqh1DSN12/iCzLNTNeExrjoZ96g5EkvRgc=",
   },
   "No": {
@@ -1875,8 +1875,8 @@ const messages:IMessages = {
     h: "GJsf5+RmvoXTk3dewQIb90+6xb+mujI/mpSM8cmgUEI=",
   },
   "Not running": {
-    val: "Not running",
-    translated: false,
+    val: "Не запущена",
+    translated: 'auto',
     h: "PC00/YYL+rTs9SryRz4ennpjhF/LuzL/1aMY6Hiajmc=",
   },
   "Not yet cleared": {
@@ -1904,15 +1904,15 @@ const messages:IMessages = {
   "OBJ.account_id": {
     /* Account label */
     /* Account label */
-    val: "Account",
-    translated: false,
+    val: "Акаўнт",
+    translated: 'auto',
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "OBJ.amount": {
     /* Transaction amount label */
     /* Transaction amount label */
-    val: "Amount",
-    translated: false,
+    val: "Сума",
+    translated: 'auto',
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "OBJ.created": {
@@ -1928,8 +1928,8 @@ const messages:IMessages = {
     /* Object creation date label */
     /* Object creation date label */
     /* Object creation date label */
-    val: "Created",
-    translated: false,
+    val: "Створана",
+    translated: 'auto',
     h: "8ELUP5FRI8KPKAswN0H7ALwQ3sP6liJQvRN5tbeBYzo=",
   },
   "OBJ.id": {
@@ -1945,22 +1945,22 @@ const messages:IMessages = {
     /* Object ID label */
     /* Object ID label */
     /* Object ID label */
-    val: "ID",
-    translated: false,
+    val: "ІД",
+    translated: 'auto',
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
   "OBJ.last_used": {
     /* Last used date label */
     /* Last used date label */
-    val: "Last used",
-    translated: false,
+    val: "Апошняе выкарыстанне",
+    translated: 'auto',
     h: "G5a6Jdor9jRT/Wtcg9SfXQsvqL7VFvnVD2+gq7yT1Jg=",
   },
   "OBJ.memo": {
     /* Transaction memo label */
     /* Transaction memo label */
-    val: "Memo",
-    translated: false,
+    val: "Прымечанне",
+    translated: 'auto',
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "OBJ.notes": {
@@ -1969,1925 +1969,1921 @@ const messages:IMessages = {
     /* Object note label */
     /* Object note label */
     /* Object note label */
-    val: "Note",
-    translated: false,
+    val: "Заўвага",
+    translated: 'auto',
     h: "omcHOlFDF1aMLf9t2/tJ9R1dYEFSQC9IiPuXLXuFwEk=",
   },
   "OBJ.payee": {
     /* Transaction payee */
-    val: "Payee",
-    translated: false,
+    val: "Палучальнік",
+    translated: 'auto',
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "OBJ.posted": {
     /* Transaction posted date label */
     /* Transaction posted date label */
-    val: "Posted",
-    translated: false,
+    val: "Зарэгістраваны",
+    translated: 'auto',
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
   "OFF": {
     /* Label for toggle switch OFF */
-    val: "OFF",
-    translated: false,
+    val: "Выкл.",
+    translated: 'auto',
     h: "g0c9fS73Ra/6fEcgtA+AZ5QtmmCEO7dX81vP7YtzM4o=",
   },
   "OK": {
-    val: "OK",
-    translated: false,
+    val: "Добра",
+    translated: 'auto',
     h: "mMSSK7ZBxlx6MLe8r98jC5sAtmk2McVhRqslsnhu5KM=",
   },
   "ON": {
     /* Label for toggle switch ON */
-    val: "ON",
-    translated: false,
+    val: "УКЛ",
+    translated: 'auto',
     h: "wZR/9OiLHV0XO5Mm9aURB4fbSWSyea2Z6CQce8Q14gU=",
   },
   "Off Budget Accounts": {
-    val: "Off Budget Accounts",
-    translated: false,
+    val: "Позабюджетныя рахункі",
+    translated: 'auto',
     h: "EQ0I5sn/xpO55GIvIhUF8/XeTi0g5sxvvyE7TiynJDQ=",
   },
   "Off budget": {
-    val: "Off budget",
-    translated: false,
+    val: "Вне бюджету",
+    translated: 'auto',
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
   "On": {
-    val: "On",
-    translated: false,
+    val: "На",
+    translated: 'auto',
     h: "nMAfqtecKNqqRD1YLNX1F32SXJy1exEgm1QvpnZLBQQ=",
   },
   "Open Anyway": {
     /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
-    val: "Open Anyway",
-    translated: false,
+    val: "Адкрыць усе ж",
+    translated: 'auto',
     h: "C3I8WidkzZOLAGX0ypckK7pR7+e/M/X/YVIV1GCTYms=",
   },
   "Open Buckets Budget": {
-    val: "Open Buckets Budget",
-    translated: false,
+    val: "Адкрыць Buckets Budget",
+    translated: 'auto',
     h: "5odppwzoA5bC5nAM3F+GDOVrAq3NfjGxrE0ZFXseCDg=",
   },
   "Open Budget...": {
-    val: "Open Budget...",
-    translated: false,
+    val: "Адкрыты Бюджэт...",
+    translated: 'auto',
     h: "67FfAce57aSIe2ncVfWeIeiiRLQQ8uuEUdDyI6UHxHU=",
   },
   "Open Recent...": {
-    val: "Open Recent...",
-    translated: false,
+    val: "Адкрыць нядаўнія...",
+    translated: 'auto',
     h: "Uf1w3VIwUvsmKvOkQtBwsGvbRzQ5gMbEq/iyNzv95cs=",
   },
   "Open Transaction File": {
-    val: "Open Transaction File",
-    translated: false,
+    val: "Адкрыць файл транзакцый",
+    translated: 'auto',
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "Open Web YNAB Zip File": {
-    val: "Open Web YNAB Zip File",
-    translated: false,
+    val: "Адкрыць Web YNAB ZIP-файл",
+    translated: 'auto',
     h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
   },
   "Open YNAB4 File": {
-    val: "Open YNAB4 File",
-    translated: false,
+    val: "Адкрыць YNAB4 Файл",
+    translated: 'auto',
     h: "BrKgvN0SgW410a7e11V3gP+FgW67iTGIY+o/cKI1Ftk=",
   },
   "Opening balance": {
-    val: "Opening balance",
-    translated: false,
+    val: "Пачатковы баланс",
+    translated: 'auto',
     h: "OEuQ3gAWrV+lPay2usXLKN3bNCH87PEsrcr+thNNbJY=",
   },
   "Optional message:": {
-    val: "Optional message:",
-    translated: false,
+    val: "Неабавязковы паведамленне:",
+    translated: 'auto',
     h: "zVM8610w5Mn1yRIYOsmOY5ZxBd2KLIudsimw610auYU=",
   },
   "Or click to download the new version manually.": {
-    val: "Or click to download the new version manually.",
-    translated: false,
+    val: "Ці націсніце, каб сцягнуць новую версію ручна.",
+    translated: 'auto',
     h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
   },
   "Other devices have made the following files available. Choose where you would like to save them on this device.": {
-    val: "Other devices have made the following files available. Choose where you would like to save them on this device.",
-    translated: false,
+    val: "Іншы прылады зрабілі даступныя наступныя файлы. Выберыце, куды вы хочеце іх захаваць на гэтым прыладзе.",
+    translated: 'auto',
     h: "Fbk5s0n43m2f5wfmDIpYQniAcPes2dp0Opv/VxSZJGE=",
   },
   "Out": {
-    val: "Out",
-    translated: false,
+    val: "Вон",
+    translated: 'auto',
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "Overwrite budget from backup": {
-    val: "Overwrite budget from backup",
-    translated: false,
+    val: "Перазапісаць бюджэт з рэзэрва",
+    translated: 'auto',
     h: "p47XTJ4eKHU3WYE+YwdBvSL80vnN/gn5Xf7C+/gs66U=",
   },
   "Pairing code": {
-    val: "Pairing code",
-    translated: false,
+    val: "Код парыяваньня",
+    translated: 'auto',
     h: "vEvXjrpoLPbXr+M9YBSVz5TplRIOw8ghDETxlgdUp7k=",
   },
   "Password": {
-    val: "Password",
-    translated: false,
+    val: "Пароль",
+    translated: 'auto',
     h: "nhByOwQBMFlIuzeSPsoMPTnOwa4wBUBDjDxArgBfXjE=",
   },
   "Password not yet set": {
-    val: "Password not yet set",
-    translated: false,
+    val: "Пароль яшчэ не усталяваны",
+    translated: 'auto',
     h: "8NXPDxaFV7KVroTg3YTaO/dWsepbJT/ASSZw9yGeD5g=",
   },
   "Password reset": {
-    val: "Password reset",
-    translated: false,
+    val: "Скінуць пароль",
+    translated: 'auto',
     h: "dVWv+2lbwYUiQVBBqp1wHOfyMDlGJq8aqtvWV20t/Ns=",
   },
   "Passwords did not match": {
-    val: "Passwords did not match",
-    translated: false,
+    val: "Паролі не супадаюць",
+    translated: 'auto',
     h: "PyUeXNOVYhNDM/De1HIPLeiwy6d+x7bkZphOo5ZqR6Q=",
   },
   "Paste": {
-    val: "Paste",
-    translated: false,
+    val: "Уставіць",
+    translated: 'auto',
     h: "n2Hnio0AcQPZejqQ+hm35GthBg0zYDNoxd8RCFRUhu4=",
   },
   "Paste and Match Style": {
-    val: "Paste and Match Style",
-    translated: false,
+    val: "Уставіць і супадаючы стыль",
+    translated: 'auto',
     h: "w8hRIxBBNWtXNPcYtQ4t/mTHfPF66U/mJbVpOiIDgYE=",
   },
   "Paused": {
-    val: "Paused",
-    translated: false,
+    val: "Паўзня",
+    translated: 'auto',
     h: "sMAADusAjpKEUapa7bSzeAnEAbEGpH+NKBgGh068Ifw=",
   },
   "Payee": {
-    val: "Payee",
-    translated: false,
+    val: "Адбывец",
+    translated: 'auto',
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "Payees": {
-    val: "Payees",
-    translated: false,
+    val: "Палучальнікі",
+    translated: 'auto',
     h: "YjA+7FE+9F3uMVjqhQQyv29+TRFaEMDJfFGbbX1+9aI=",
   },
   "Pending merges": {
-    val: "Pending merges",
-    translated: false,
+    val: "Чакаючыя злучэнні",
+    translated: 'auto',
     h: "7vaBvdca+0T8ZgfGLkLVyTGgsK9QgFVnFdWRmqi8cbw=",
   },
   "Pending...": {
     /* Status when a connection to another device is pending but not complete */
-    val: "Pending...",
-    translated: false,
+    val: "У чаканні...",
+    translated: 'auto',
     h: "EBff3fGHatt8ejJo8RfuFp62oI9ZKjguA+ZUW6tDU7I=",
   },
   "Permanently delete account and transactions": {
-    val: "Permanently delete account and transactions",
-    translated: false,
+    val: "Выдаліць назаўсёды уліковы запіс і транзакцыі",
+    translated: 'auto',
     h: "mSRS1xHHrwwVBuWBlj7RZIGTyGuUy4GwrwOFty5tZrU=",
   },
   "Personal Loan Payment": {
-    val: "Personal Loan Payment",
-    translated: false,
+    val: "Платёж па асабістай пазыцы",
+    translated: 'auto',
     h: "cL5KAz7DWc3XTzI4eo3t1PaGUe16WM+dKBg2ykfpQ6A=",
   },
   "Phone": {
-    val: "Phone",
-    translated: false,
+    val: "Тэлефон",
+    translated: 'auto',
     h: "9WrpirmkhUIuWq47S+FrVpJP+prT4uInaMOfMHjxS8c=",
   },
   "Playing": {
-    val: "Playing",
-    translated: false,
+    val: "Граванне",
+    translated: 'auto',
     h: "69elN/r6NyshRWtcjLOKso9OmdOJhvg/ix+Xy/fE+Z0=",
   },
   "Please enter your Buckets License below.": {
-    val: "Please enter your Buckets License below.",
-    translated: false,
+    val: "Калі ласка, увядзіце вашу ліцэнзію Buckets ніжэй.",
+    translated: 'auto',
     h: "xbsLH9dKhhcdpY6+CFD5E3/4IdnZZk49WmeisyuQ/oo=",
   },
   "Port": {
-    val: "Port",
-    translated: false,
+    val: "Порт",
+    translated: 'auto',
     h: "u+5cy7Hv8eqnpUCJUVP2QmhGFpu7Zq4UquU/U7tcspI=",
   },
   "Possible Duplicates": {
-    val: "Possible Duplicates",
-    translated: false,
+    val: "Магчымыя Дублікаты",
+    translated: 'auto',
     h: "ofGzHt7c7jfCo867EwNvCl3vCUJPLeLhFiC5Fmgrgp4=",
   },
   "Posted": {
-    val: "Posted",
-    translated: false,
+    val: "Апублікавана",
+    translated: 'auto',
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
   "Preferences...": {
-    val: "Preferences...",
-    translated: false,
+    val: "Перавагі...",
+    translated: 'auto',
     h: "6iQxyJ1WC9/Z0f0saApfwL5hmhgN5YgJeikLAYqCGBI=",
   },
   "Preparation": {
-    val: "Preparation",
-    translated: false,
+    val: "Падрыхтоўка",
+    translated: 'auto',
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
   "Preview": {
     /* Noun */
-    val: "Preview",
-    translated: false,
+    val: "Перагляд",
+    translated: 'auto',
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
   "Print...": {
-    val: "Print...",
-    translated: false,
+    val: "Друкаваць...",
+    translated: 'auto',
     h: "Zx0axQhFFBAeUJiZxUAcm9hrf0Dd7+kTskEK3MSkm1Q=",
   },
   "Prompt": {
     /* Title for prompt window */
-    val: "Prompt",
-    translated: false,
+    val: "Прапановы",
+    translated: 'auto',
     h: "56HrS6R0zfyg5ruiVb/J04UP3T8O2V99V+mXHvVfEZ0=",
   },
   "Purchase": {
     /* Button label for purchasing a license */
-    val: "Purchase",
-    translated: false,
+    val: "Купiць",
+    translated: 'auto',
     h: "SfwhUMXO5ckJhwUkBjdC9n17k8zH4+hoAlFoUdOwE/g=",
   },
   "Purchase Full Version...": {
-    val: "Purchase Full Version...",
-    translated: false,
+    val: "Купiць поўную версію...",
+    translated: 'auto',
     h: "+6h2Y0QTHEVui0aUhwAlCsyJp/F+S0PYKMRlQysqjrk=",
   },
   "Purchase license": {
     /* Button that takes people to purchase a license */
-    val: "Purchase license",
-    translated: false,
+    val: "Купіць ліцэнзію",
+    translated: 'auto',
     h: "3LYaot06ClRiLOZ31fOKIxzRXO8X0w5qFIfav969me8=",
   },
   "Quit Buckets": {
-    val: "Quit Buckets",
-    translated: false,
+    val: "Прыпыніць Ведры",
+    translated: 'auto',
     h: "QILEHXgAk6vuNPV3rqkbn2QRZ8WKrPnAZnscp7n8WaM=",
   },
   "Rain": {
-    val: "Rain",
-    translated: false,
+    val: "Дощ",
+    translated: 'auto',
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Rain left": {
-    val: "Rain left",
-    translated: false,
+    val: "Дождж пайшоў",
+    translated: 'auto',
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
   },
   "Recently used": {
     /* Label for list of recently used buckets files */
-    val: "Recently used",
-    translated: false,
+    val: "Недаўна выкарыстаныя",
+    translated: 'auto',
     h: "tJ5cBjszrV/JztG5V1FUrgo0bfVgXfK5KB495TvGsYs=",
   },
   "Record change as transaction": {
-    val: "Record change as transaction",
-    translated: false,
+    val: "Запісаць змену як транзакцыю",
+    translated: 'auto',
     h: "yK0UuSf6pOl+44YBzW+tFNPHt6YYpqe88f+wQCuaHcQ=",
   },
   "Recording": {
-    val: "Recording",
-    translated: false,
+    val: "Запіс",
+    translated: 'auto',
     h: "s1hytW8ZlaU8eRtoTfV+4aCpW5biiyifheE3t0kouUo=",
   },
   "Recurring Expenses": {
-    val: "Recurring Expenses",
-    translated: false,
+    val: "Рэгулярныя выдаткі",
+    translated: 'auto',
     h: "yDp5Agru+QzDSy583s3kjOdZbbe6X1WDfMeSNXsYlaY=",
   },
   "Redo": {
-    val: "Redo",
-    translated: false,
+    val: "Паўтор",
+    translated: 'auto',
     h: "7buMF65dyGtKDY/ZW/Lkn7eUmdudCsdGV3KR2lYLLA0=",
   },
   "Regenerate": {
-    val: "Regenerate",
-    translated: false,
+    val: "Перагенераваць",
+    translated: 'auto',
     h: "u5QDOgMBGl3INOqya7C/iE0tXSBbYdhLgcM9mBSHQ6k=",
   },
   "Registered to": {
     /* Label for the name/email of the person this application is registered to */
-    val: "Registered to",
-    translated: false,
+    val: "Зареестравана на",
+    translated: 'auto',
     h: "fDXs0ZL8cmmMNVzrdFyhb8+RwdyTtA2b9yOO1B0nTrA=",
   },
   "Relay client": {
-    val: "Relay client",
-    translated: false,
+    val: "Рэлей кліент",
+    translated: 'auto',
     h: "mSWVLtN7G9ZyP/WXAVEiOcbZQJIK6YenAW9E0ZZS3B0=",
   },
   "Relay server": {
-    val: "Relay server",
-    translated: false,
+    val: "Рэлейны сервер",
+    translated: 'auto',
     h: "+cMcGjAKTrxBcgm02bYOEYsUTqHNoQJayrxZ+3L3Nag=",
   },
   "Reload": {
-    val: "Reload",
-    translated: false,
+    val: "Перазагрузіць",
+    translated: 'auto',
     h: "hUVVd3tppLGqwgo2OeC3h334aTF0Y+/GHbuL/I1clYk=",
   },
   "Remote device": {
-    val: "Remote device",
-    translated: false,
+    val: "Адлеглы прыстрой",
+    translated: 'auto',
     h: "kGM8ugCEJGdTGfBFNcwYe5BNeXY+Wh9J4nYpxeXj2ZY=",
   },
   "Remote devices": {
-    val: "Remote devices",
-    translated: false,
+    val: "Аддаленыя прылады",
+    translated: 'auto',
     h: "Pnrxp4rS7bnapZb26P4HXC5hFardsCyTT6Idz/SFJuE=",
   },
   "Remote file": {
     /* Noun; label for budget filename */
-    val: "Remote file",
-    translated: false,
+    val: "Адлеглы файл",
+    translated: 'auto',
     h: "56l/nivDa2uMpQGnE8MPPBt60GjEgxNG5Cr/fNrTlO8=",
   },
   "Remove Categorization": {
-    val: "Remove Categorization",
-    translated: false,
+    val: "Выдаліць катэгорызацыю",
+    translated: 'auto',
     h: "b5sIQMfXAnBAqHD2NJfIgIAxclRGe5LJ7NzzF6sOruQ=",
   },
   "Rent/Mortgage": {
-    val: "Rent/Mortgage",
-    translated: false,
+    val: "Аренда/Іпакека",
+    translated: 'auto',
     h: "sCLO0xIawRUzVC3QV8aqowoCCfwYNvtXW848jCLfT10=",
   },
   "Reopen": {
     /* Label for button to reopen a close account */
-    val: "Reopen",
-    translated: false,
+    val: "Пераадкрыць",
+    translated: 'auto',
     h: "5497b4yxPFO2M524tL0qmmNk47Qv/aca/7n0zMEeX/o=",
   },
   "Reopen Account": {
-    val: "Reopen Account",
-    translated: false,
+    val: "Пераадкрыць рахунак",
+    translated: 'auto',
     h: "KBv9ohpTpLSanhr/AFbKdJCA0VZ1iJ0THB53Hut00v4=",
   },
   "Report Bug": {
-    val: "Report Bug",
-    translated: false,
+    val: "Заявіць баг",
+    translated: 'auto',
     h: "RxuE9Dh0Dadda2PtjUPD0dQ7b8aQok84Ytvw31ABBRU=",
   },
   "Report Bug...": {
-    val: "Report Bug...",
-    translated: false,
+    val: "Заявіць баг...",
+    translated: 'auto',
     h: "i17nG0QruMiCn612ogDToWB1g4xqqei691Yeh/t8MIk=",
   },
   "Report Translation Error...": {
-    val: "Report Translation Error...",
-    translated: false,
+    val: "Заявіць памылку перакладу...",
+    translated: 'auto',
     h: "/jSK7LcBLJ1FsOYb9ntsVYAxwAyGLLUZXlTL/zrC020=",
   },
   "Required deposit:": {
-    val: "Required deposit:",
-    translated: false,
+    val: "Патрэбны дэпазыт:",
+    translated: 'auto',
     h: "Q34JZduUI2Lx8xxjkeH/Md92nqWgEcbPFZjgf5m7tXA=",
   },
   "Reset Password": {
-    val: "Reset Password",
-    translated: false,
+    val: "Аднавіць пароль",
+    translated: 'auto',
     h: "PHk0gZ6FwtHbvhVQhAv2NOv4tUth66ZawXknegPfOIU=",
   },
   "Reset bank macro password": {
-    val: "Reset bank macro password",
-    translated: false,
+    val: "Скінуць пароль макра банка",
+    translated: 'auto',
     h: "aGiRaSU/j/Kke84s+8fSjfD+y1hVndJAUFpywUJVq50=",
   },
   "Restart Buckets": {
-    val: "Restart Buckets",
-    translated: false,
+    val: "Перазапуск Бакетаў",
+    translated: 'auto',
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
-    val: "Restart Buckets for changes to take effect.",
-    translated: false,
+    val: "Перазапуск Buckets, каб змены набылі ефекту.",
+    translated: 'auto',
     h: "WDqnfUftItQB8zteFdZrFOknNYODkXCwU89Lk/Hs/SQ=",
   },
   "Restore from backup": {
-    val: "Restore from backup",
-    translated: false,
+    val: "Аднавіць з рэзэрвавай копіі",
+    translated: 'auto',
     h: "4/wBBIqPRkVkrgO1WQ28ED/bEOnF9yg7FMna28aBMC0=",
   },
   "Restored budget from backup": {
-    val: "Restored budget from backup",
-    translated: false,
+    val: "Адноўлены бюджет з рэзервовай копіі",
+    translated: 'auto',
     h: "ETnF9ML8onmHyfTrUsxJwyn/DQp3IFbSD1m6PNM9CAU=",
   },
   "Reverse": {
     /* Label for checkbox indicating that transactions should be imported in reverse order */
-    val: "Reverse",
-    translated: false,
+    val: "Зваротны",
+    translated: 'auto',
     h: "asyh3SM4xzCuJwKJ77z/6mR7GortI9HKht5YBJYkHnk=",
   },
   "Run": {
-    val: "Run",
-    translated: false,
+    val: "Бяжы",
+    translated: 'auto',
     h: "msfklVWTzDTqa2SaDeN2NULTRVjZPdgr6/gggE5vemI=",
   },
   "Running": {
-    val: "Running",
-    translated: false,
+    val: "Запушчаны",
+    translated: 'auto',
     h: "Fc5kaM2PdFj1JUHmSYpQFl5RnVw8wUq7J00zdnDXNBc=",
   },
   "Running...": {
-    val: "Running...",
-    translated: false,
+    val: "Працуе...",
+    translated: 'auto',
     h: "a2doeW7lyGRq5yq2cOD55HCblS7Hfy72/2G0cp7fk9c=",
   },
   "SQL Query": {
-    val: "SQL Query",
-    translated: false,
+    val: "SQL Запыт",
+    translated: 'auto',
     h: "SNOm941c8lDAaYjd9suzSEkHFjFRo8e683rumVLZhoA=",
   },
   "Save": {
-    val: "Save",
-    translated: false,
+    val: "Захаваць",
+    translated: 'auto',
     h: "wduD0WXtkIpIb6B4R8AA7ph724u3/Gtv27uaky6rEAU=",
   },
   "Screenshots:": {
-    val: "Screenshots:",
-    translated: false,
+    val: "Зняточкі:",
+    translated: 'auto',
     h: "Vl/m/PU/CoPSp/t+drAAfxlQ818VKjlWKN8fsB4/+V4=",
   },
   "Search": {
-    val: "Search",
-    translated: false,
+    val: "Пошук",
+    translated: 'auto',
     h: "vembE+Cp1aKCKR2j2LCJD29QyiQxfGPUcGI1I8l5/5Y=",
   },
   "Search categories": {
-    val: "Search categories",
-    translated: false,
+    val: "Пошук катэгорый",
+    translated: 'auto',
     h: "IScCkXq3OcNUufpAsgrWXkdRVqBrowHYo2hdSPS+X7I=",
   },
   "Search...": {
     /* Menu label for search page */
-    val: "Search...",
-    translated: false,
+    val: "Пошук...",
+    translated: 'auto',
     h: "TOtty3gn23+64CNUlKn+bNe2V0f4xfUBGLHQ/Pw8XKQ=",
   },
   "Search:": {
-    val: "Search:",
-    translated: false,
+    val: "Пошук:",
+    translated: 'auto',
     h: "OHBHBOVnuMjmjWHZURDrna8FWv+geQYMQuobRo4tkq0=",
   },
   "Searching...": {
-    val: "Searching...",
-    translated: false,
+    val: "Пошук...",
+    translated: 'auto',
     h: "7gAp07Zv3EjrgHoWJ04wEdRefy/aQ0zT8Y2EgQrnbHo=",
   },
   "Select All": {
-    val: "Select All",
-    translated: false,
+    val: "Выбраць усё",
+    translated: 'auto',
     h: "tLJuQPindRFUyvGGdMLJbBHcVpAODsfT5p2gDnpB/Oo=",
   },
   "Self debt": {
-    val: "Self debt",
-    translated: false,
+    val: "Асобісты даўг",
+    translated: 'auto',
     h: "zRWPLHqBTGcGqHHBHWdXpN2eOUUhRhvCyeAccFlR9Z4=",
   },
   "Send Report": {
-    val: "Send Report",
-    translated: false,
+    val: "Адправіць справаздачу",
+    translated: 'auto',
     h: "aLgG0qubuw0p0tGIUYKjgxecVsL0e3AKvQ5+W2JZg18=",
   },
   "Services": {
-    val: "Services",
-    translated: false,
+    val: "Паслугі",
+    translated: 'auto',
     h: "Y5+GuNZXfFSynDsHvAY8cr0RqU+moaHZNmOk2eQrsNs=",
   },
   "Set Mapping": {
     /* Undo/redo label for setting the mapping of a file import */
-    val: "Set Mapping",
-    translated: false,
+    val: "Задаць мапаванне",
+    translated: 'auto',
     h: "0VIJHYOJcEvpUbDh2MFyEtmMxHbY10WbgLG0YVeRSng=",
   },
   "Setting": {
     /* Noun: a single budget setting */
-    val: "Setting",
-    translated: false,
+    val: "Налада",
+    translated: 'auto',
     h: "VPMIV8ll2EYKjYDlgvDS3IbSSfjmE5VmCEGwFTHn/ys=",
   },
   "Settings": {
-    val: "Settings",
-    translated: false,
+    val: "Налады",
+    translated: 'auto',
     h: "g5CfgkRu6cPoKgSs58kE8baksjDRuXC1WTLWKVn75z0=",
   },
   "Share with": {
     /* Label for remote devices a budget is shared with */
-    val: "Share with",
-    translated: false,
+    val: "Падзяліць з",
+    translated: 'auto',
     h: "U9hHc0V4Fpw0S1hjtdNc0UEGCP7X6n6JmCeoSW/LgVo=",
   },
   "Shared folder": {
-    val: "Shared folder",
-    translated: false,
+    val: "Спадзелены каталог",
+    translated: 'auto',
     h: "oeX6u9PQi6wT6MDH6F+w/A90h0XaexWgp2eca3mEfbE=",
   },
   "Sharing": {
     /* Label for sharing preferences */
-    val: "Sharing",
-    translated: false,
+    val: "Падзел",
+    translated: 'auto',
     h: "+wdr1d9w83UkBcXqGDOkGlmDhl24ktIp0it2O14f4kE=",
   },
   "Sharing key": {
-    val: "Sharing key",
-    translated: false,
+    val: "Ключ падзелу",
+    translated: 'auto',
     h: "T90VMQdBq1lWvcHGfsIRWyHfGz8aM9ZB2cWLO1VoH2Q=",
   },
   "Show All": {
-    val: "Show All",
-    translated: false,
+    val: "Паказаць усё",
+    translated: 'auto',
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
   "Show Budget File...": {
     /* Show the current budget file in Finder/Explorer */
-    val: "Show Budget File...",
-    translated: false,
+    val: "Паказаць файл бюджэту...",
+    translated: 'auto',
     h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
   },
   "Show Log Files...": {
-    val: "Show Log Files...",
-    translated: false,
+    val: "Паказаць файлы лога...",
+    translated: 'auto',
     h: "In00T9z1A4xO6nLu8zAU5s3UzH3+IcK4XjRvrT9CGMs=",
   },
   "Show debug info": {
-    val: "Show debug info",
-    translated: false,
+    val: "Паказаць наладкавую інфармацыю",
+    translated: 'auto',
     h: "TXWI2u7pYf+GGAZ9ed2OwHkF93XqFdRCj1q7sE4PsnQ=",
   },
   "Show folder": {
     /* Button to open a folder */
-    val: "Show folder",
-    translated: false,
+    val: "Паказаць папку",
+    translated: 'auto',
     h: "479YuRtJUsvCCqzaEjK+WyPmy20v+YQPfY3Xo/eIzKM=",
   },
   "Show full changelog": {
-    val: "Show full changelog",
-    translated: false,
+    val: "Паказаць поўны спіс зменаў",
+    translated: 'auto',
     h: "nu/b3QeVa2N7QmrPffBdK2zSVYIp81gVGbFjcYrlL5A=",
   },
   "Sign": {
     /* Noun referring to the sign of a number (positive or negative) */
-    val: "Sign",
-    translated: false,
+    val: "Знак",
+    translated: 'auto',
     h: "uw6BT7o9vlsgV2TpwBFx/MfF1npvA+6ru4lXXcSzoCM=",
   },
   "Sign in to the YNAB website, click My Budget then Export Budget.": {
-    val: "Sign in to the YNAB website, click My Budget then Export Budget.",
-    translated: false,
+    val: "Увайдзіце на сайт YNAB, націсніце My Budget, потым Экспарт Бюджэт.",
+    translated: 'auto',
     h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
   },
   "SimpleFIN Connections": {
-    val: "SimpleFIN Connections",
-    translated: false,
+    val: "SimpleFIN Злучэнні",
+    translated: 'auto',
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
   "SimpleFIN connection": {
-    val: "SimpleFIN connection",
-    translated: false,
+    val: "Злучэнне SimpleFIN",
+    translated: 'auto',
     h: "g+4foa5uuY9Yv3vI/gA6gaEoNUJi2k4oFouZlUWwv/U=",
   },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
-    val: "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.",
-    translated: false,
+    val: "Паколькі некаторыя бакеты маюць адмоўныя балансы, гэты плацэжны баланс можа не быць тым, што вы сапраўды маеце даступна для плацяжу.",
+    translated: 'auto',
     h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
-    val: "Skip This Version",
-    translated: false,
+    val: "Прапусціць гэтую версію",
+    translated: 'auto',
     h: "YnC7GSI4QITirt1GGV/Tc1FvTbJYICkEeF3zj4u4eak=",
   },
   "Skip invalid": {
     /* Label for checkbox which controls skipping invalid transactions during import */
-    val: "Skip invalid",
-    translated: false,
+    val: "Прапусціць недапушчальныя",
+    translated: 'auto',
     h: "sKPi3ongM5VPkq2aFjBN1FX9/N/KiThGWd54qaHNfi8=",
   },
   "Speech": {
-    val: "Speech",
-    translated: false,
+    val: "Рэч",
+    translated: 'auto',
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Spending Money": {
-    val: "Spending Money",
-    translated: false,
+    val: "Траты грошай",
+    translated: 'auto',
     h: "7mLvCPVxhYqWXYW8EcSN4N6vyUtQqT4PnR0iC1ucTtY=",
   },
   "Start Merge": {
-    val: "Start Merge",
-    translated: false,
+    val: "Пачаць злучэнне",
+    translated: 'auto',
     h: "48IhJ8jvgXzTH0cgI8MR9W3NiQFlvBbJA/j7mj6KFhY=",
   },
   "Start Over": {
-    val: "Start Over",
-    translated: false,
+    val: "Пачаць зноў",
+    translated: 'auto',
     h: "hlKNxy6ZDz4ny/qpQfkv6FwXDangtq2ECEo+ICgEbJs=",
   },
   "Start Speaking": {
-    val: "Start Speaking",
-    translated: false,
+    val: "Пачаць гаварыць",
+    translated: 'auto',
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
-    val: "Start with a template",
-    translated: false,
+    val: "Пачаць з шаблону",
+    translated: 'auto',
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
   "Status": {
     /* Connection status of remote devices */
     /* Label for connection status of sharing avenues */
-    val: "Status",
-    translated: false,
+    val: "Статус",
+    translated: 'auto',
     h: "fu712YZJJBbNWIpP5QaYV+fcz5rcN4DkkaOGdL/X6hk=",
   },
   "Step took too long": {
-    val: "Step took too long",
-    translated: false,
+    val: "Крок заняў занадта доўга",
+    translated: 'auto',
     h: "Py3rsk0guEg0d8Ce9Lbfwzf1zP7E4Z8YPSOu165mOc0=",
   },
   "Stop Speaking": {
-    val: "Stop Speaking",
-    translated: false,
+    val: "Спыніце Гаварыць",
+    translated: 'auto',
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Stopped": {
-    val: "Stopped",
-    translated: false,
+    val: "Зупінены",
+    translated: 'auto',
     h: "9KSqBDjMEVALs44MtvCW75xXb7Ta+lGl6bMoOlDV824=",
   },
   "Student Loan Payment": {
-    val: "Student Loan Payment",
-    translated: false,
+    val: "Платёж па студенцкай пазыцы",
+    translated: 'auto',
     h: "j83e9PkiJgq0J5iPOaku/mbjw9H3KtXBaDV4ntsQktk=",
   },
   "Success!": {
-    val: "Success!",
-    translated: false,
+    val: "Успех!",
+    translated: 'auto',
     h: "6NxF/uD6sOEPkEbPFOHdBKRxj0ZXVbmnPkRXNJDy0zs=",
   },
   "Suggested value": {
-    val: "Suggested value",
-    translated: false,
+    val: "Прапанаванае значэнне",
+    translated: 'auto',
     h: "k6ScHeFo3C5+aB0s7M5rumKKBu3AJp93St0oUuF2GFw=",
   },
   "Swap NAME and MEMO": {
     /* Label for checkbox that will swap the value for NAME and MEMO when import OFX files */
-    val: "Swap NAME and MEMO",
-    translated: false,
+    val: "Абменяць NAME і MEMO",
+    translated: 'auto',
     h: "ayF7yBQJox0msQ75+rZt4xxanK31lYhwEoynkOsepjc=",
   },
   "Sync": {
-    val: "Sync",
-    translated: false,
+    val: "Сінхранізацыя",
+    translated: 'auto',
     h: "zJAmFTCwHue7APF8kCb39YCX8J17Tsy3mxyhpQQhge8=",
   },
   "Sync complete": {
-    val: "Sync complete",
-    translated: false,
+    val: "Сінхранізацыя завершана",
+    translated: 'auto',
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
   },
   "Sync has not yet been set up.": {
-    val: "Sync has not yet been set up.",
-    translated: false,
+    val: "Сінхранізацыя яшчэ не была наладжана.",
+    translated: 'auto',
     h: "B5XIfqqMdt0gMHz2zsZr9GTj9vSRAS5R2akgGce+fsg=",
   },
   "Synced balance": {
-    val: "Synced balance",
-    translated: false,
+    val: "Сінхранізаваны баланс",
+    translated: 'auto',
     h: "yyCVeQRle/vbcZ1/QyVYtL+ZmyQ5WanHCYKZpJqFd6o=",
   },
   "Syncing...": {
-    val: "Syncing...",
-    translated: false,
+    val: "Сінхранізацыя...",
+    translated: 'auto',
     h: "kuwg7vpvp082IqBtRakekOVu7bqB4PYxhnFVsoBDt/g=",
   },
   "System default": {
     /* Option for Buckets language preference */
-    val: "System default",
-    translated: false,
+    val: "Сістэмны па змаўчанні",
+    translated: 'auto',
     h: "A9haWZjRR5Su694Q278jjqi/xmRweA6I6et1Q9L3ahI=",
   },
   "Target date:": {
-    val: "Target date:",
-    translated: false,
+    val: "Цэльны дата:",
+    translated: 'auto',
     h: "InmNQoNHlJkDpjvEB+J1XPqDWRqnfNIUwTQ86iNiOGc=",
   },
   "Test Toast": {
-    val: "Test Toast",
-    translated: false,
+    val: "Тэст Тост",
+    translated: 'auto',
     h: "5SbiliirLaAKLdgRThX+cO2RwGuC87t3Z1O0xT2WsAE=",
   },
   "Theme": {
     /* Label for application theme setting */
-    val: "Theme",
-    translated: false,
+    val: "Тэма",
+    translated: 'auto',
     h: "iIVgvkFsqSibVEM+h5dM+gyXv0J8Elgp99rvJsOFYqo=",
   },
   "There are unresolved conflicts": {
-    val: "There are unresolved conflicts",
-    translated: false,
+    val: "Існуюць неразв'язаныя канфлікты",
+    translated: 'auto',
     h: "WGAgJ2b6hUZ5DKTAJ6APu2LzgV5Fzwg0I80+N1TETdQ=",
   },
   "There has been an error.": {
-    val: "There has been an error.",
-    translated: false,
+    val: "Узнікла памылка.",
+    translated: 'auto',
     h: "viN5uLRSpgzhvoD9KO9g1cr7ihLQ0Men9LiUpy9RcwE=",
   },
   "There was an error.  Maybe try again?": {
-    val: "There was an error.  Maybe try again?",
-    translated: false,
+    val: "Узнікла памылка. Можа, паспрабуйце яшчэ раз?",
+    translated: 'auto',
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "These devices can talk to each other": {
-    val: "These devices can talk to each other",
-    translated: false,
+    val: "Гэтыя прылады могуць камнікаваць адзін з адным",
+    translated: 'auto',
     h: "eNTVUVG4RQJPWolU7i1WUrn9Xi4zBpLJ4eQHjG71Kio=",
   },
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": {
-    val: "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.",
-    translated: false,
+    val: "Гэты бюджет быў абноўлены для новай версіі Buckets. Выкарыстоўваючы яго з гэтай старэйшай версіяй, можа не працаваць.",
+    translated: 'auto',
     h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
   },
   "This device's name": {
-    val: "This device's name",
-    translated: false,
+    val: "Назва гэтай прылады",
+    translated: 'auto',
     h: "eTNSTczX466LRmFxprC4rfZhDomB7x4xWYltPshnAB4=",
   },
   "This is a special group for all the buckets without a group.": {
-    val: "This is a special group for all the buckets without a group.",
-    translated: false,
+    val: "Гэта спецыяльная група для ўсіх ведроў без групы.",
+    translated: 'auto',
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
-    val: "This tool will delete data to make it easy to start over with your budget.",
-    translated: false,
+    val: "Гэты інструмент выдаліць дадзеныя, каб зрабіць гэта лёгка пачаць з пачатку з вашым бюджэтам.",
+    translated: 'auto',
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "This will break all existing bank macros": {
-    val: "This will break all existing bank macros",
-    translated: false,
+    val: "Гэта зламае ўсе існуючыя макросы банкаў",
+    translated: 'auto',
     h: "VStGFY84kcqELxtAwamD6vI9ELaA4dZnOs2Ubvwnao8=",
   },
   "Thousands separator": {
-    val: "Thousands separator",
-    translated: false,
+    val: "Раздзельнік тысяч",
+    translated: 'auto',
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
-    val: "To",
-    translated: false,
+    val: "Да",
+    translated: 'auto',
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
   "To use Buckets, you must accept the End User License Agreement (EULA).": {
-    val: "To use Buckets, you must accept the End User License Agreement (EULA).",
-    translated: false,
+    val: "Каб выкарыстоўваць Buckets, вы павінны прыняць Дагавор аб ліцэнзіі для канцавага карыстальніка (EULA).",
+    translated: 'auto',
     h: "0six0i9oNNM/hjCYct1UTEqdgMn0uoBbaBq0cvnoZLM=",
   },
   "Toggle Developer Tools": {
-    val: "Toggle Developer Tools",
-    translated: false,
+    val: "Пераключыць інструменты распрацоўшчыка",
+    translated: 'auto',
     h: "IYSSUL9ezB58nRuajYVa+zH4ucrmXQOB92zA7sDlrJc=",
   },
   "Toggle Full Screen": {
-    val: "Toggle Full Screen",
-    translated: false,
+    val: "Пераключыць поўны экран",
+    translated: 'auto',
     h: "2ZRq+R5E0Cp4QI+y5jCefU1IOiYvNWLrN/iiJq6hGr8=",
   },
   "Tools": {
-    val: "Tools",
-    translated: false,
+    val: "Інструменты",
+    translated: 'auto',
     h: "mPsch0seV0ZNaU+41My/wS+DkAGfYqzWpPlJpfT1sBs=",
   },
   "Total": {
-    val: "Total",
-    translated: false,
+    val: "Усяго",
+    translated: 'auto',
     h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
   },
   "Total amount your buckets want each month.": {
-    val: "Total amount your buckets want each month.",
-    translated: false,
+    val: "Агульная сума, якую вашы бакеты хочуць кожны месяц.",
+    translated: 'auto',
     h: "PdavPuX8D9m/BkLbr04OKhddGvl8+l0iDiqd+5K9sMc=",
   },
   "Transaction": {
-    val: "Transaction",
-    translated: false,
+    val: "Транзакцыя",
+    translated: 'auto',
     h: "G0gRZS6Zq1VoQqtY+L8fY3ogdqSl/OAoTurOZ4L480Q=",
   },
   "Transaction ID": {
-    val: "Transaction ID",
-    translated: false,
+    val: "ID транзакцыі",
+    translated: 'auto',
     h: "5DaWwSVPo8La/gW0/QWRXAHx08KcbBLOe7BrRuMnKMQ=",
   },
   "Transaction Type": {
-    val: "Transaction Type",
-    translated: false,
+    val: "Тып транзакцыі",
+    translated: 'auto',
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
-    val: "Transaction(s) deleted",
-    translated: false,
+    val: "Транзакцыя(і) выдалены",
+    translated: 'auto',
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
-    val: "Transactions",
-    translated: false,
+    val: "Транзакцыі",
+    translated: 'auto',
     h: "4+yGUer/b71cfxTdeUa5QbonqN9ezC8Eii7KO22Ety0=",
   },
   "Transactions to review": {
-    val: "Transactions to review",
-    translated: false,
+    val: "Транзакцыі для праверкі",
+    translated: 'auto',
     h: "fcauVC7MkwNPXVHbfBl427k53jL2beDDx711UkVI5tg=",
   },
   "Transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "Перадача",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "Transferred": {
-    val: "Transferred",
-    translated: false,
+    val: "Перанесены",
+    translated: 'auto',
     h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
   },
   "Trial Version": {
-    val: "Trial Version",
-    translated: false,
+    val: "Прабная Версія",
+    translated: 'auto',
     h: "GtZIXrHILA84HlpKlxi3BErHwR7WIYkQ/e5BE0Fiaxg=",
   },
   "Trial version": {
-    val: "Trial version",
-    translated: false,
+    val: "Прабачная версія",
+    translated: 'auto',
     h: "/B8oxaBijS+cHJQBdPRkq7IfcHyPStMT5uGKWUeZQuQ=",
   },
   "Tuition": {
-    val: "Tuition",
-    translated: false,
+    val: "Плата за навучанне",
+    translated: 'auto',
     h: "UpDg7j7/mXJnP7WdFJe4hMlLw2XtH7X3Cj669aLHzec=",
   },
   "Type a date format...": {
-    val: "Type a date format...",
-    translated: false,
+    val: "Увядзіце фармат даты...",
+    translated: 'auto',
     h: "oOXoncSSYGIZM5rpYEudSx4xWO7x8hRHdt89DNfPv84=",
   },
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
-    val: "Un-ignore Account",
-    translated: false,
+    val: "Адмяніць ігнораванне акаўнта",
+    translated: 'auto',
     h: "DVgAPa6nwJLDg7emkZZ+j85bGwcKjEzqlkZlPHkypU8=",
   },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
-    val: "Un-kick",
-    translated: false,
+    val: "Разарhiваваць",
+    translated: 'auto',
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
     /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
     /* Name of action.  Consider this "Unarchive Bucket" */
-    val: "Un-kick Bucket",
-    translated: false,
+    val: "Адкік Відра",
+    translated: 'auto',
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
-    val: "Unable to claim access token",
-    translated: false,
+    val: "Не ўдаецца атрымаць токен доступу",
+    translated: 'auto',
     h: "Gao95RuT9JvhdAoZ5winV9os7iMaPIex3Vq9CMSjhzs=",
   },
   "Unable to open the file:": {
-    val: "Unable to open the file:",
-    translated: false,
+    val: "Немагчыма адкрыць файл:",
+    translated: 'auto',
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Unattended merge not possible": {
-    val: "Unattended merge not possible",
-    translated: false,
+    val: "Злучэнне без нагляду немагчымае",
+    translated: 'auto',
     h: "gj2u4cxLi3C3cxHWoasHcAgEnMNADU6mwZx4EGEZgLU=",
   },
   "Unavailable": {
-    val: "Unavailable",
-    translated: false,
+    val: "Недаступны",
+    translated: 'auto',
     h: "tML1A7GUQ8Z/SUbUV6zcxmjjrptonGvYtuU1Y2y/gvE=",
   },
   "Uncategorized": {
-    val: "Uncategorized",
-    translated: false,
+    val: "Не класыфікаваны",
+    translated: 'auto',
     h: "BjQg1sHfdAVLyMzfMfC6sQnK4vIGQ6vrl6OsGg8Oqkk=",
   },
   "Uncaught Error": {
     /* Title for error reporting dialog */
     val: "Uncaught Error",
-    translated: false,
+    translated: 'auto',
     h: "8shOzic2CgRpaIcNhv/44tsVBDgSItWp3ZbdihMYp9E=",
   },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
-    val: "Uncleared",
-    translated: false,
+    val: "Непроведзены",
+    translated: 'auto',
     h: "1GBgqlG+RCS8dFTG2z15jLFFd4PCVVXDefXwBRq0oTs=",
   },
   "Undo": {
-    val: "Undo",
-    translated: false,
+    val: "Адмяніць",
+    translated: 'auto',
     h: "Z1A2vTdYwfdLsWS25iSchnHOHa1VfbQg7u8MDGHk4yo=",
   },
   "Unexpected sync error": {
-    val: "Unexpected sync error",
-    translated: false,
+    val: "Нечаканая памылка сінхранізацыі",
+    translated: 'auto',
     h: "78kYsQMTfGS8BNaZVuqYaRojJlTpcmN6CF9PQKKO0ME=",
   },
   "Unknown account": {
-    val: "Unknown account",
-    translated: false,
+    val: "Невядомы аккаўнт",
+    translated: 'auto',
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
   },
   "Unknown account deleted": {
-    val: "Unknown account deleted",
-    translated: false,
+    val: "Невядомы акаўнт выдалены",
+    translated: 'auto',
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
-    val: "Unknown category",
-    translated: false,
+    val: "Невядомая катэгорыя",
+    translated: 'auto',
     h: "bK4teMnFOuofJ4sX76ozAla50yDaLbvb5pCj+New5f4=",
   },
   "Unlinked Accounts": {
-    val: "Unlinked Accounts",
-    translated: false,
+    val: "Не звязаныя Акаўнты",
+    translated: 'auto',
     h: "BPAjsiEkATiwSf9f6kde3yZwSmmyiPDLiZ7Rr+3Zv/A=",
   },
   "Unregistered Version": {
-    val: "Unregistered Version",
-    translated: false,
+    val: "Нязареестраваная Версія",
+    translated: 'auto',
     h: "x9ekMClqI57T6jREU5VJurBCzlD+hBNJ8pHNQ0zMB1U=",
   },
   "Update": {
-    val: "Update",
-    translated: false,
+    val: "Абнаўленне",
+    translated: 'auto',
     h: "cQYLRi89RKalUb+A5uCwnJtCV0x+6+otody2dq/mqxk=",
   },
   "Update Account Balance": {
-    val: "Update Account Balance",
-    translated: false,
+    val: "Абнавіць баланс рахунку",
+    translated: 'auto',
     h: "iwKjdHzqHPwoupXiUwrVL1tX4QfO//taXOPXFVtWRVE=",
   },
   "Update Account Name": {
-    val: "Update Account Name",
-    translated: false,
+    val: "Абнавіць імя акаўнта",
+    translated: 'auto',
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Update Bucket Name": {
-    val: "Update Bucket Name",
-    translated: false,
+    val: "Абнавіць Назву Бакета",
+    translated: 'auto',
     h: "Oa+1EZtc4RTtPYyk5LflMMlQq/esZ3qvTgbSLiKIl4E=",
   },
   "Update Bucket Type": {
-    val: "Update Bucket Type",
-    translated: false,
+    val: "Абнавіць Тып Бакета",
+    translated: 'auto',
     h: "wt5F9WSIpGlUsGaPnhSJlLYk0qraymNHDw0bYzbHlIE=",
   },
   "Update Color": {
-    val: "Update Color",
-    translated: false,
+    val: "Абнавіць Колер",
+    translated: 'auto',
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
   },
   "Update Currency Symbol": {
-    val: "Update Currency Symbol",
-    translated: false,
+    val: "Абнавіць Сымбаль Валюты",
+    translated: 'auto',
     h: "5ni7IpG/zzlc/uAhhkduQ99K/5B9ui5INpaxZw7QTrs=",
   },
   "Update Goal": {
-    val: "Update Goal",
-    translated: false,
+    val: "Абнавіць Мэту",
+    translated: 'auto',
     h: "S3dt9ahT1yTXTCP2uHqiTMkyPUmAvAHvsCeGNa+NL1E=",
   },
   "Update Group Name": {
-    val: "Update Group Name",
-    translated: false,
+    val: "Абнавіць назву групы",
+    translated: 'auto',
     h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
   },
   "Update Macro Name": {
-    val: "Update Macro Name",
-    translated: false,
+    val: "Абнавіць назву макра",
+    translated: 'auto',
     h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
   },
   "Update Monthly Deposit": {
-    val: "Update Monthly Deposit",
-    translated: false,
+    val: "Абнаўленне Месячнага Вклада",
+    translated: 'auto',
     h: "rFQ5lKjSNpQyyptg2Y+a4LQ6jwa1xWjKarMapXiD1/8=",
   },
   "Update Name": {
-    val: "Update Name",
-    translated: false,
+    val: "Абнавіць Імя",
+    translated: 'auto',
     h: "fTqm8NUcvzaYHnGFDmVhLePEd/TFNPhUDzSYIIerjNc=",
   },
   "Update Note": {
-    val: "Update Note",
-    translated: false,
+    val: "Заўвага аб абнаўленні",
+    translated: 'auto',
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "Update Number Format": {
-    val: "Update Number Format",
-    translated: false,
+    val: "Абнавіць фармат нумара",
+    translated: 'auto',
     h: "98Qu07eWAHjS80FuHQajrVMMtd0jq5Zq8rRKuDQEZEU=",
   },
   "Update Payee": {
-    val: "Update Payee",
-    translated: false,
+    val: "Абнавіць Палучальніка",
+    translated: 'auto',
     h: "28JOAeb8QLlBYMLiOO8RGW8SHBJ14Gdp/t/7rprHodk=",
   },
   "Update Payees": {
-    val: "Update Payees",
-    translated: false,
+    val: "Абнавіць Плацільнікаў",
+    translated: 'auto',
     h: "hJhDyJDaai8R9NXK8J3AOdqOOhdqmkZeR8ziJyzuzVU=",
   },
   "Update Target Date": {
-    val: "Update Target Date",
-    translated: false,
+    val: "Абнавіць дату мэты",
+    translated: 'auto',
     h: "SEac1rQopyHALPSWU85qYV3GE0x9i2OGDB+JYnVID8A=",
   },
   "Update Transaction": {
-    val: "Update Transaction",
-    translated: false,
+    val: "Абнавіць Транзакцыю",
+    translated: 'auto',
     h: "aMF18BJOMjuVOInpbGKf/3jyTE1qYzq4oHzb3sBVcWw=",
   },
   "Update account balance": {
-    val: "Update account balance",
-    translated: false,
+    val: "Абнавіць баланс рахунку",
+    translated: 'auto',
     h: "GQWvUamqQOyoaXm16AiGtHme6kW171erNK5pa4vgDIE=",
   },
   "Update balance": {
-    val: "Update balance",
-    translated: false,
+    val: "Абнавіць баланс",
+    translated: 'auto',
     h: "XSg0Q5Q7j+G+HNjn3YJOakbNLSjTNcem3BFbw6fTDI8=",
   },
   "Update complete": {
-    val: "Update complete",
-    translated: false,
+    val: "Абнаўленне завершана",
+    translated: 'auto',
     h: "5JP6upRWYG0d3p+rGNvUMcl08i6wvxKs0zhYG5NvUj4=",
   },
   "Update downloaded.": {
-    val: "Update downloaded.",
-    translated: false,
+    val: "Абнаўленне загрузана.",
+    translated: 'auto',
     h: "DO2vE3TgW3xjiD8ZaOWeScL3qWCyiFPK8GENQ9NosYw=",
   },
   "Update failed": {
-    val: "Update failed",
-    translated: false,
+    val: "Абнаўленне не ўдалося",
+    translated: 'auto',
     h: "MU8WQkSmMfpUADhweg+WSBrhrTcWK23Ow4QqwxyoAfo=",
   },
   "Update opening balance": {
-    val: "Update opening balance",
-    translated: false,
+    val: "Абнавіць пачатковы баланс",
+    translated: 'auto',
     h: "Z0BMQUVy9IHw3rAN6dd3xnGsgHNFC+l4FxxGcNc8QJ8=",
   },
   "Updated": {
-    val: "Updated",
-    translated: false,
+    val: "Абноўлена",
+    translated: 'auto',
     h: "zN8HYtieJpXIt5Bdb1SWdC1+tonH7H3QHVbuUzU4rgY=",
   },
   "Updates": {
     /* Label for section about Buckets application updates */
-    val: "Updates",
-    translated: false,
+    val: "Абнаўленні",
+    translated: 'auto',
     h: "lAv/Y2isYNmD0UIkVd8zZO2kJ9FjxPjiL+Bnajfzxtg=",
   },
   "Updating...": {
-    val: "Updating...",
-    translated: false,
+    val: "Абнаўленне...",
+    translated: 'auto',
     h: "gAFg4pzFnJ37C/ReDfO2llXdsckG7onQiLq6WjhBWxk=",
   },
   "Used in future": {
-    val: "Used in future",
-    translated: false,
+    val: "Выкарыстоўваецца ў будучыні",
+    translated: 'auto',
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
   "Username": {
-    val: "Username",
-    translated: false,
+    val: "Імя карыстальніка",
+    translated: 'auto',
     h: "UAZmOHuQGOos8K4CBGseGzsnoOEV6JPA/VJYYtHu0k8=",
   },
   "Username/Password": {
-    val: "Username/Password",
-    translated: false,
+    val: "Імя карыстальніка/Пароль",
+    translated: 'auto',
     h: "2pr0zsSsuFii6F31xH62795E7bFmbKwAYd/oe2E1kBc=",
   },
   "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.": {
-    val: "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.",
-    translated: false,
+    val: "Выкарыстанне гэтага інструмента можа пашкодзіць ваш файл бюджэту. Зрабіце копію вашага бюджэту, калі вы занепакоены.",
+    translated: 'auto',
     h: "TCvA81ztNxeLhpVdiYrF4RLEGEp5FO3YWCgfOyjnjFc=",
   },
   "Vacation ": {
-    val: "Vacation ",
-    translated: false,
+    val: "Вакацыя ",
+    translated: 'auto',
     h: "Buf8KjuQKnfaA4c2qPDVm8FQgYWJUfiCYYkPAnsIIBw=",
   },
   "View": {
-    val: "View",
-    translated: false,
+    val: "Прагляд",
+    translated: 'auto',
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
   "View EULA": {
-    val: "View EULA",
-    translated: false,
+    val: "Праглядзець EULA",
+    translated: 'auto',
     h: "6symBeYWMFH1ySjpbWX+XjygI3Cq3j/ywz3b0tPtIHE=",
   },
   "Waiting to retry": {
-    val: "Waiting to retry",
-    translated: false,
+    val: "Чакае пераспробы",
+    translated: 'auto',
     h: "F88F80XANbwofOEoXYAjMA09+UIhKPUY6qNK7dkEQmo=",
   },
   "Want": {
-    val: "Want",
-    translated: false,
+    val: "Хочець",
+    translated: 'auto',
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "Wants": {
-    val: "Wants",
-    translated: false,
+    val: "Хоча",
+    translated: 'auto',
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
-    val: "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).",
-    translated: false,
+    val: "Папярэнне: Гэта выкарыстае даждж, які ў вас няма, і можа красьці даждж з будучых месяцаў (калі даступны).",
+    translated: 'auto',
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
   "Water": {
-    val: "Water",
-    translated: false,
+    val: "Вода",
+    translated: 'auto',
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
   },
   "Web YNAB Export": {
     /* Label for YNAB export file type */
-    val: "Web YNAB Export",
-    translated: false,
+    val: "Вэб YNAB Экспарт",
+    translated: 'auto',
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When \"On\" this macro will be run during a normal sync.",
-    translated: false,
+    val: "Калі \"Укл.\" гэтая макра будзе выконвацца падчас звычайнай сінхранізацыі.",
+    translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
-    val: "Window",
-    translated: false,
+    val: "Вокно",
+    translated: 'auto',
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "YES": {
-    val: "YES",
-    translated: false,
+    val: "Так",
+    translated: 'auto',
     h: "z2FPqj4x8eJnnL7/njedU5qqPbxgrFqjpsTeqGqJH9U=",
   },
   "Year to Year": {
-    val: "Year to Year",
-    translated: false,
+    val: "Год да году",
+    translated: 'auto',
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
   "Year's Supply": {
-    val: "Year's Supply",
-    translated: false,
+    val: "Запас на год",
+    translated: 'auto',
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
   },
   "Yearly": {
-    val: "Yearly",
-    translated: false,
+    val: "Штогодны",
+    translated: 'auto',
     h: "LjMZRIZX3jdNUpbBBgqpPR9Az6c4sBWYUwd2WDVb9Rw=",
   },
   "Years": {
-    val: "Years",
-    translated: false,
+    val: "Гады",
+    translated: 'auto',
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "Yes": {
-    val: "Yes",
-    translated: false,
+    val: "Так",
+    translated: 'auto',
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "Yes, connect": {
-    val: "Yes, connect",
-    translated: false,
+    val: "Так, падлучыць",
+    translated: 'auto',
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
   "You are running the latest version!": {
-    val: "You are running the latest version!",
-    translated: false,
+    val: "Вы выкарыстоўваеце апошнюю версію!",
+    translated: 'auto',
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
   "You can do math in all number inputs, not just here in the calculator.": {
-    val: "You can do math in all number inputs, not just here in the calculator.",
-    translated: false,
+    val: "Вы можаце робіць матэматыку ў усіх уводзілах лікаў, не толькі тут у калькулятары.",
+    translated: 'auto',
     h: "dn2W/ktTrcwSzYNSq6IQL7Sl2k8lxZQRsFehzG9Mf7g=",
   },
   "You don't have any recurring expense buckets yet.": {
-    val: "You don't have any recurring expense buckets yet.",
-    translated: false,
+    val: "Вы яшчэ не маеце ніякіх паўтаральных коштоў выдаткаў.",
+    translated: 'auto',
     h: "nq2IDCqs8m0MQJ5lO2TU1cnlj9nP1vwIMWMqi0WGOjk=",
   },
   "You have no closed accounts.": {
-    val: "You have no closed accounts.",
-    translated: false,
+    val: "У вас няма закрытых рахункаў.",
+    translated: 'auto',
     h: "8BZG+UdW1Rrd/+2zFNv7SskiNpD6DtlNa8LwQulqX5s=",
   },
   "You haven't kicked the bucket yet...": {
-    val: "You haven't kicked the bucket yet...",
-    translated: false,
+    val: "Ты яшчэ не памёр...",
+    translated: 'auto',
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
   "You must backup to a different file.": {
-    val: "You must backup to a different file.",
-    translated: false,
+    val: "Вы павінны зрабіць бэкап у іншы файл.",
+    translated: 'auto',
     h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
   },
   "Your email address:": {
-    val: "Your email address:",
-    translated: false,
+    val: "Ваш адрас электроннай пошты:",
+    translated: 'auto',
     h: "/ip+dZCEKXdLQFW5CAt/fB8OBf/rD+67pz8etOXlJXc=",
   },
   "Zoom": {
-    val: "Zoom",
-    translated: false,
+    val: "Прыбліжэнне",
+    translated: 'auto',
     h: "Zjzswxbrkbj1TLPOYCtimoyh/aJlkF/mxeghbzdheSs=",
   },
   "Zoom In": {
-    val: "Zoom In",
-    translated: false,
+    val: "Павелічыць",
+    translated: 'auto',
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
-    val: "Zoom Out",
-    translated: false,
+    val: "Паменшыць",
+    translated: 'auto',
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-in": {
     /* Label for amount put into an account */
-    val: "In",
-    translated: false,
+    val: "У",
+    translated: 'auto',
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "account-net-amount": {
     /* Label for net value of amount in - amount out for an account */
-    val: "Net",
-    translated: false,
+    val: "Нэт",
+    translated: 'auto',
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "account-out": {
     /* Label for amount taken out of an account */
-    val: "Out",
-    translated: false,
+    val: "Выемка",
+    translated: 'auto',
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "account-type": {
-    val: "Type",
-    translated: false,
+    val: "Тып",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.balance": {
     /* Account balance label */
-    val: "Balance",
-    translated: false,
+    val: "Баланс",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "account.closed": {
     /* Account closed label */
-    val: "Closed",
-    translated: false,
+    val: "Закрыты",
+    translated: 'auto',
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "account.currency": {
     /* Account currency label */
-    val: "Currency",
-    translated: false,
+    val: "Валюта",
+    translated: 'auto',
     h: "3D60KXXRwf14ydWSrd5tvgLQBOCOfNDf05UchJALh14=",
   },
   "account.import_balance": {
     /* Account imported balance label */
-    val: "Imported balance",
-    translated: false,
+    val: "Імпартаваны баланс",
+    translated: 'auto',
     h: "Z2Hg44o19bCItKOAhixAAwpW972mvt3LZyFy7Y3Dhgk=",
   },
   "account.kind": {
     /* Account type label */
-    val: "Type",
-    translated: false,
+    val: "Тып",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.name": {
     /* Account name label */
-    val: "Name",
-    translated: false,
+    val: "Імя",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "account.offbudget": {
     /* Deprecated label for off budget accounts */
-    val: "Off budget",
-    translated: false,
+    val: "Поза бюджэтам",
+    translated: 'auto',
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
   "account.ranking": {
     /* Account order label */
-    val: "Order",
-    translated: false,
+    val: "Замовленне",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
     /* Account opening balance label */
-    val: "Opening balance",
-    translated: false,
+    val: "Пачатковы баланс",
+    translated: 'auto',
     h: "OEuQ3gAWrV+lPay2usXLKN3bNCH87PEsrcr+thNNbJY=",
   },
   "account_mapping.account_hash": {
     /* Account cryptographic hash label */
-    val: "Fingerprint",
-    translated: false,
+    val: "Адбітак",
+    translated: 'auto',
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "account_transaction.cleared": {
     /* Transaction cleared flag label */
-    val: "Cleared",
-    translated: false,
+    val: "Ачышчана",
+    translated: 'auto',
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "account_transaction.fi_id": {
     /* Financial institution assigned transaction ID label */
-    val: "Institution-assigned ID",
-    translated: false,
+    val: "ID, прызначаны ўстановай",
+    translated: 'auto',
     h: "gFeirPPl/djXfLKwDK8FtD7JPKjC/2e7sHuRIxqkii8=",
   },
   "account_transaction.general_cat": {
     /* General category label */
-    val: "General category",
-    translated: false,
+    val: "Агульная катэгорыя",
+    translated: 'auto',
     h: "xEay6AzOg30Omh/FS2qPVa7eCkrUiXxTIclZM+h3BZE=",
   },
   "accounts.name_placeholder": {
-    val: "no name",
-    translated: false,
+    val: "няма імя",
+    translated: 'auto',
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "action.New bucket": {
-    val: "New bucket",
-    translated: false,
+    val: "Новы вядро",
+    translated: 'auto',
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "action.New group": {
-    val: "New group",
-    translated: false,
+    val: "Новая група",
+    translated: 'auto',
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "action.ignore": {
-    val: "Ignore",
-    translated: false,
+    val: "Ігнараваць",
+    translated: 'auto',
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "action.link-account": {
-    val: "Link",
-    translated: false,
+    val: "Спасылка",
+    translated: 'auto',
     h: "unfAYQpjuyuTjjRCodr+S+jNjRmz3nahjZ91u/j5HfE=",
   },
   "action.report bug": {
-    val: "Report Bug",
-    translated: false,
+    val: "Заявіць памылку",
+    translated: 'auto',
     h: "RxuE9Dh0Dadda2PtjUPD0dQ7b8aQok84Ytvw31ABBRU=",
   },
   "bank_macro.enabled": {
     /* Bank macro enabled flag label */
-    val: "Enabled",
-    translated: false,
+    val: "Уключаны",
+    translated: 'auto',
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "bank_macro.enc_recording": {
     /* Bank macro recording data label */
-    val: "Recording data",
-    translated: false,
+    val: "Запіс дадзеных",
+    translated: 'auto',
     h: "nCMGHm2pOXvkN7v4hXGbN6g6Q9KfnHLC9ToPAUPTNIo=",
   },
   "bank_macro.name": {
     /* Bank macro name label */
-    val: "Name",
-    translated: false,
+    val: "Імя",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bank_macro.uuid": {
     /* Bank macro UUID label */
-    val: "UUID",
-    translated: false,
+    val: "Унікальны ідэнтыфікатар",
+    translated: 'auto',
     h: "UbH2EWDbIyGX6gVQAsz9xGUQYrsX+er1VM8Fuuxhxrw=",
   },
   "bucket.balance": {
     /* Bucket balance label */
-    val: "Balance",
-    translated: false,
+    val: "Баланс",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "bucket.color": {
     /* Bucket color label */
-    val: "Color",
-    translated: false,
+    val: "Колер",
+    translated: 'auto',
     h: "/hiVjO3WJ9JPhG5BDY2SqUELJlWFlhAWkhD3x/c45mU=",
   },
   "bucket.debt_account_id": {
     /* Bucket's related debt account label */
-    val: "Debt account",
-    translated: false,
+    val: "Рахунак даўгу",
+    translated: 'auto',
     h: "VSXRVQC8DbjhKcJjXLieRBksQgQU56PH2njj+P5m/KI=",
   },
   "bucket.deposit": {
     /* Bucket deposit amount label */
-    val: "Deposit",
-    translated: false,
+    val: "Вклад",
+    translated: 'auto',
     h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
   },
   "bucket.detailslabel": {
-    val: "Details",
-    translated: false,
+    val: "Дэталі",
+    translated: 'auto',
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.end_date": {
     /* Bucket goal target date label */
-    val: "Target date",
-    translated: false,
+    val: "Дата меты",
+    translated: 'auto',
     h: "4+CFBiJaLAXPQeIpTMtcn3dB7Kgzsb0U/1WlSaqWgwM=",
   },
   "bucket.goal": {
     /* Bucket goal amount label */
-    val: "Goal",
-    translated: false,
+    val: "Мэта",
+    translated: 'auto',
     h: "IGWRYx9sqJO1YtI2GyVqdV+i4fFQ+e8XMaiWTNAn/xk=",
   },
   "bucket.group_id": {
     /* Bucket group label */
-    val: "Group",
-    translated: false,
+    val: "Група",
+    translated: 'auto',
     h: "sOfjtH37WgstIWC3rRx2AsnvrT3fsQLKx5n8lTeYI0Y=",
   },
   "bucket.kicked": {
     /* Bucket kicked flag label */
-    val: "Kicked",
-    translated: false,
+    val: "Выгнаны",
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "bucket.kind": {
     /* Bucket type label */
-    val: "Type",
-    translated: false,
+    val: "Тып",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "bucket.name": {
     /* Bucket name label */
-    val: "Name",
-    translated: false,
+    val: "Імя",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket.ranking": {
     /* Bucket order label */
-    val: "Order",
-    translated: false,
+    val:     "Парадак",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket.transfer.help": {
-    val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
-    translated: false,
+    val: "Пераклад – гэта транзакцыя з аднаго бакета ў іншы. Калі транзакцыя не з'яўляецца даходам або вытратам, гэта верагодна пераклад.",
+    translated: 'auto',
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucket_group.name": {
     /* Bucket group name label */
-    val: "Name",
-    translated: false,
+    val: "Назва",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket_group.ranking": {
     /* Bucket group ordering label */
-    val: "Order",
-    translated: false,
+    val: "Парадак",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket_transaction.account_trans_id": {
     /* Bucket transaction's related account transactions ID label */
-    val: "Account transaction",
-    translated: false,
+    val: "Транзакцыя рахунку",
+    translated: 'auto',
     h: "LyTdIJwB7IZ3hRIJLfTzbNqAiCegb1SR/QSm722WZkc=",
   },
   "bucket_transaction.bucket_id": {
     /* Bucket transaction bucket label */
-    val: "Bucket",
-    translated: false,
+    val: "Відро",
+    translated: 'auto',
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "bucket_transaction.linked_trans_id": {
     /* Label for a debt account's transaction that caused this transaction */
-    val: "Debt transaction",
-    translated: false,
+    val: "Даўговая транзакцыя",
+    translated: 'auto',
     h: "dsZm4Y+ZMohJRUkDmRya3MF/TZcL+z8GokDuT1P2da0=",
   },
   "bucket_transaction.transfer": {
     /* Transfer flag label */
-    val: "Transfer",
-    translated: false,
+    val: "Перадача",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "buckethead.activity": {
-    val: "Net total of income and expenses.",
-    translated: false,
+    val: "Чыстая сума даходаў і выдаткаў.",
+    translated: 'auto',
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
-    val: "Net total put in and taken out (unrelated to transactions).",
-    translated: false,
+    val: "Чысты суму ўкладзенага і вынятага (не звязана з транзакцыямі).",
+    translated: 'auto',
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
-    translated: false,
+    val: "Выкарыстоўвайце гэта, каб класьці грошы ў кожны бакет і выяўляць іх з яго.",
+    translated: 'auto',
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
-    translated: false,
+    val: "Гэта колькасць грошай, якія гэтыя бакеты жадаюць кожны месяц.  Маленькі скрынька паказвае, колькасць грошай, якія яны атрымалі.",
+    translated: 'auto',
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
-    val: "Recurring expense",
-    translated: false,
+    val: "Паўторныя выдаткі",
+    translated: 'auto',
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.deposit-date": {
-    val: "Save Z/mo until Y date",
-    translated: false,
+    val: "Эканоміць Z/месяц да даты Y",
+    translated: 'auto',
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "buckettype.goal-date": {
-    val: "Save X by Y date",
-    translated: false,
+    val: "Захаваць X да даты Y",
+    translated: 'auto',
     h: "+boZHIer4ggkvJ8A5cSl1EVyWRwKigC9UkBFn4WSEdg=",
   },
   "buckettype.goal-deposit": {
-    val: "Save X by depositing Z/mo",
-    translated: false,
+    val: "Захоўнайце X, дэпазітуючы Z на месяц",
+    translated: 'auto',
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
-    val: "Plain old bucket",
-    translated: false,
+    val: "Звычайнае старое вядро",
+    translated: 'auto',
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "budget-file-type-name": {
-    val: "Buckets Budget",
-    translated: false,
+    val: "Бакеты Бюджет",
+    translated: 'auto',
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "change_log.action": {
     /* Change log action type */
-    val: "Action",
-    translated: false,
+    val: "Дзеянне",
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "change_log.obj": {
     /* Change log object name label */
-    val: "Object",
-    translated: false,
+    val: "Аб'ект",
+    translated: 'auto',
     h: "x6OaEMmJvznVG69QSR5ZH9Xoyu3vlgNaQC6E/ymQjgQ=",
   },
   "change_log.obj_id": {
     /* Change log object id label */
-    val: "Object ID",
-    translated: false,
+    val: "ID аб'екта",
+    translated: 'auto',
     h: "K80xtzHhh4SO59NC0gT7rx1scigZGMneXw1DA+Ycv48=",
   },
   "daterange.all": {
-    val: "All time",
-    translated: false,
+    val: "Увесь час",
+    translated: 'auto',
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
   "debt-bucket-explanation": {
-    val: "This is a special debt payment bucket.",
-    translated: false,
+    val: "Гэта спецыяльны кош для аплаты даўгу.",
+    translated: 'auto',
     h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
-    val: (account_name: string) => `${account_name} Payment`,
-    translated: false,
+    val: (account_name: string) => `${account_name} Аплата`,
+    translated: 'auto',
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
-    val: "Savings",
-    translated: false,
+    val: "Збережэнні",
+    translated: 'auto',
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "default new bucket name": {
-    val: "New Bucket",
-    translated: false,
+    val: "Новы Вядро",
+    translated: 'auto',
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new group name": {
-    val: "New Group",
-    translated: false,
+    val: "Новы Група",
+    translated: 'auto',
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "err": {
-    val: "err",
-    translated: false,
+    val: "памылка",
+    translated: 'auto',
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
-    val: "If this error keeps happening or doesn't make sense, please report a bug or chat with us.",
-    translated: false,
+    val: "Калі гэтая памылка працягвае адбывацца або не зразумела, калі ласка, паведаміць аб памылцы або зваротна звязацца з намі.",
+    translated: 'auto',
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
   },
   "file_import_mapping.mapping_json": {
     /* File import mapping data label */
-    val: "Data",
-    translated: false,
+    val: "Дадзеныя",
+    translated: 'auto',
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "getting-started-link": {
     val: (clickhandler) => {
-      return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+      return <span>Першы раз выкарыстоўваеце Buckets?  Паглядзіце <a href="#" onClick={clickhandler}>Відэа для пачатку.</a></span>
     },
-    translated: false,
+    translated: 'auto',
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "Наступны месяц",
+    translated: 'auto',
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-next-year": {
     /* Menu label for "Go To... Next Year" */
-    val: "Next Year",
-    translated: false,
+    val: "Наступны год",
+    translated: 'auto',
     h: "NfnsOERP+IaYQvH6i+9MJ6KRpbYSapnXXUFm60jUbqo=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "Папярэдні месяц",
+    translated: 'auto',
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-prev-year": {
     /* Menu label for "Go To... Previous Year" */
-    val: "Previous Year",
-    translated: false,
+    val: "Папярэдні год",
+    translated: 'auto',
     h: "ZntiItsGCJfJBxKIXyzi3+NpS8jZXYAK8IXrOl9bfFg=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
-    val: "This Month",
-    translated: false,
+    val: "Гэты месяц",
+    translated: 'auto',
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "import-verb": {
-    val: "Import",
-    translated: false,
+    val: "Імпарт",
+    translated: 'auto',
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
-    val: "in the bank",
-    translated: false,
+    val: "у банка",
+    translated: 'auto',
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "misc group name": {
-    val: "Misc",
-    translated: false,
+    val: "Рознае",
+    translated: 'auto',
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "money-balance-as-of": {
-    val: (amount: JSX.Element, date: JSX.Element) => {
-      return <span>{amount} as of {date}</span>
-    },
-    translated: false,
+    val: (amount: JSX.Element, date: JSX.Element) => { return <span>{amount} станом на {date}</span> },
+    translated: 'auto',
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
     val: (gain) => {
-      return gain >= 0 ? "Month's gain" : "Month's loss";
+      return gain >= 0 ? "Прыбытак месяца" : "Збитак месяца";
     },
-    translated: false,
+    translated: 'auto',
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "more": {
-    val: "more",
-    translated: false,
+    val: "больш",
+    translated: 'auto',
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "nag-message": {
-    val: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
+    val: () => `Гэта незарэгістраваная пробная версія, і хаця пробны перыяд не абмежаваны часам, ліцэнзія павінна быць купленая для далейшага выкарыстання.
 
-Would you like to purchase a license now?`,
-    translated: false,
+Ці жадаеце вы купіць ліцэнзію зараз?`,
+    translated: 'auto',
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
-    val: (url) => `Go to ${url}`,
-    translated: false,
+    val: (url) => `Перайсці да ${url}`,
+    translated: 'auto',
     h: "nI/J4GfYlL6BgRZRSiPFfA5o7ASdx2VVYW6x3vgCuKE=",
   },
   "net-transfers.help": {
-    val: "Net transfers are the sum total of all transactions marked as a transfer.  It should be 0.  If it's not, click through to make sure there aren't duplicate transactions or transactions miscategorized as transfers.",
-    translated: false,
+    val: "Чыстыя пераклады з'яўляюцца сумай усяго транзакцый, пазначаных як пераклад. Яно павінна быць 0. Калі гэта не так, націсніце, каб пераканацца, што няма дублікатных транзакцый або транзакцый, няслушна пазначаных як пераклады.",
+    translated: 'auto',
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "no name": {
-    val: "no name",
-    translated: false,
+    val: "няма імя",
+    translated: 'auto',
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "noin.income": {
-    val: "Income",
-    translated: false,
+    val: "Даход",
+    translated: 'auto',
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: filename => `Downloaded file: ${filename}`,
-    translated: false,
+    val: filename => `Спампаваны файл: ${filename}`,
+    translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.debt": {
-    val: "Debt",
-    translated: false,
+    val: "Борг",
+    translated: 'auto',
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "noun.transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "Перадача",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "off": {
-    val: "off",
-    translated: false,
+    val: "выключаны",
+    translated: 'auto',
     h: "nzvsum5LFYOz4ZRB3eTVliJTfZvVSpTSImJ4XkhThNA=",
   },
   "on": {
-    val: "on",
-    translated: false,
+    val: "на",
+    translated: 'auto',
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
-    translated: false,
+    val: "Націсніце Escape, каб закрыць",
+    translated: 'auto',
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
     val: (abs_amount: JSX.Element) => {
       return <span>
-        You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
+        Вы ўкладалі {abs_amount} занадта шмат грошаў у вядры. Калі ўсе транзакцыі былі катэгаризаваныя гэтым месяцы, выдаліце {abs_amount} з выбраных вамі вядроў.
       </span>
     },
-    translated: false,
+    translated: 'auto',
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
     val: (abs_amount: JSX.Element) => {
       return <span>
-        You have {abs_amount} left to put into buckets.
+        У вас засталося {abs_amount} для пакладання ў вядры.
       </span>
     },
-    translated: false,
+    translated: 'auto',
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "sample-size": {
     val: (count: number, total: number) => {
-      return `Showing ${count} of ${total}`
+      return `Паказваюцца ${count} з ${total}`
     },
-    translated: false,
+    translated: 'auto',
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
   "settings.key": {
     /* Settings name label */
-    val: "Name",
-    translated: false,
+    val: "Імя",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "settings.value": {
     /* Settings value label */
-    val: "Value",
-    translated: false,
+    val: "Значэнне",
+    translated: 'auto',
     h: "+VG3lKNZdlCrMfK2d7yG7/OtZ5iGD3yqkIqOIClVuNw=",
   },
   "simplefin-connect-intro": {
-    val: "To connect, do the following:",
-    translated: false,
+    val: "Каб злучыць, зрабіце наступнае:",
+    translated: 'auto',
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
   "simplefin-get-token": {
     val: (mklink) => {
-      return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
+      return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Мост')}</span>
     },
-    translated: false,
+    translated: 'auto',
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
   "simplefin-paste": {
-    val: "Then paste your SimpleFIN Token here:",
-    translated: false,
+    val: "Потым устаўце свой SimpleFIN Token сюды:",
+    translated: 'auto',
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "simplefin_connection.access_token": {
     /* SimpleFIN access token label */
-    val: "Token",
-    translated: false,
+    val: "Токен",
+    translated: 'auto',
     h: "RqJX7GMSAvHvTe36qzKsJI8E56vSQX8DYTUB/G7/RTI=",
   },
   "single-account Closed": {
-    val: "Closed",
-    translated: false,
+    val: "Закрыты",
+    translated: 'auto',
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "single-bucket Kicked": {
-    val: "Kicked",
-    translated: false,
+    val: "Выкінуты",
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
-    val: "some day...",
-    translated: false,
+    val: "аднаго дня...",
+    translated: 'auto',
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "sync-symbol help": {
-    val: "This symbol means the transaction came from an import/sync",
-    translated: false,
+    val: "Гэты сімвал азначае, што транзакцыя прыйшла з імпарту/сінка",
+    translated: 'auto',
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
     val: (start: string, end: string) => {
-      return `Syncing transactions from ${start} to ${end}`;
+      return `Сінхранізацыя транзакцый з ${start} да ${end}`;
     },
-    translated: false,
+    translated: 'auto',
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
   "tab": {
     /* Label for 'tab' character */
-    val: "tab",
-    translated: false,
+    val: "таб",
+    translated: 'auto',
     h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
   },
   "this_device.name": {
-    val: "No name",
-    translated: false,
+    val: "Без імя",
+    translated: 'auto',
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: count => `Updated/created ${count} transactions`,
-    translated: false,
+    val: count => `Абноўлена/стварана ${count} транзакцыяў`,
+    translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "trans-created-outofview": {
     val: (month: string) => {
-      return <span>Transaction created in {month} </span>;
+      return <span>Транзакцыя створана ў {month} </span>;
     },
-    translated: false,
+    translated: 'auto',
     h: "ur97iCX3Iw1E262eZ72YAEFdXlwvlqNkyNn1caIKi0E=",
   },
   "transfer-from-account": {
     val: (dropdown: JSX.Element) => {
-      return <span>Transfer from {dropdown}</span>
+      return <span>Перавод з {dropdown}</span>
     },
-    translated: false,
+    translated: 'auto',
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
-    val: (dropdown: JSX.Element) => {
-      return <span>Transfer to {dropdown}</span>
-    },
-    translated: false,
+    val: (dropdown: JSX.Element) => { return <span>Перадаць у {dropdown}</span> },
+    translated: 'auto',
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
   "unknown_account.account_hash": {
     /* Account fingerprint label */
-    val: "Fingerprint",
-    translated: false,
+    val: "Fінгерпрынт",
+    translated: 'auto',
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "unknown_account.description": {
     /* Unknown account description label */
-    val: "Description",
-    translated: false,
+    val: "Апісанне",
+    translated: 'auto',
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "unknown_account.ignore": {
     /* Label for flag indicating if an unknown account is ignored or not */
-    val: "Ignore",
-    translated: false,
+    val: "Ігнараваць",
+    translated: 'auto',
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "use-delimiter": {
     /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
-    val: (delimiter: string) => `Use "${delimiter}"`,
-    translated: false,
+    val: (delimiter: string) => `Выкарыстоўваць "${delimiter}"`,
+    translated: 'auto',
     h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
   },
   "verb-open": {
     /* Verb to open a page */
-    val: "Open",
-    translated: false,
+    val: "Адкрыць",
+    translated: 'auto',
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
 }
