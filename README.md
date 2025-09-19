@@ -33,11 +33,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 # How to contribute
 
 1. Look for your language in [/langs](/langs).
-1. If your language isn't there:
-   1. Click the `Create new file` button.
-   1. Copy the contents of [/langs/en.tsx](/langs/en.tsx) into the new file
-   1. Name your file according to the [2-letter 639-1 code listed here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) with `.tsx` at the end (e.g. `en.tsx` for English)
-
+1. If your language isn't there, [submit an issue](https://github.com/buckets/translations/issues/new/choose) to add it. We'll do an initial AI-based translation.
 1. Edit the language file.  For each item:
    1. Either translate the `val: ...` part if `translated: false` or verify/fix the translation if `translated: "auto"`
    1. Change `translated: ...` to `translated: true`
@@ -45,7 +41,7 @@ This is the repository of translations for the [Buckets budgeting app](https://w
    1. **If there isn't enough context** for you to translate it accurately (e.g. "Is this a noun?" or "What noun does this adjective refer to so its gender can agree?") email me or file an issue.
 
 
-1. Submit a pull request (even if you only translate a few things).
+1. Submit a pull request (even if you only translate/verify a few things).
 
 1. Optionally, [subscribe here to be notified when there's more to translate.](https://github.com/buckets/translations/issues/31)
 
