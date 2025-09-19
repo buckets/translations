@@ -190,8 +190,12 @@ proc ensureTranslatedFormat*(x: string): string =
 
 var keepGoing = true
 proc handleControlC() {.noconv.} =
-  keepGoing = false
-  stderr.writeLine(fgColor("\nStopping due to ctrl-C. Wait until the current translation finishes.", "#ff4444"))
+  if keepGoing:
+    keepGoing = false
+    stderr.writeLine(fgColor("\nStopping due to ctrl-C. Wait until the current translation finishes.", "#ff4444"))
+  else:
+    stderr.writeLine(fgColor("\nExiting immediately due to second ctrl-C.", "#ff4444"))
+    quit(1)
 
 proc translateFile(filename: string, in_place = false) =
   var res = ""

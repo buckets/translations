@@ -2595,8 +2595,8 @@ const messages:IMessages = {
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
-    val: "Start with a template",
-    translated: false,
+    val: "ابدأ بقالب",
+    translated: 'auto',
     h: "HbSWD1rCMlssQIfvhdN+qwtdXT/k2Rq4+lTObtGpWbo=",
   },
   "Status": {
@@ -2740,8 +2740,8 @@ const messages:IMessages = {
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
-    val: "To",
-    translated: false,
+    val: "إلى",
+    translated: 'auto',
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
   "To use Buckets, you must accept the End User License Agreement (EULA).": {
@@ -3128,8 +3128,8 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When \"On\" this macro will be run during a normal sync.",
-    translated: false,
+    val: "عندما "تشغيل" هذا الماكرو سيتم تشغيله أثناء مزامنة عادية.",
+    translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
@@ -3168,8 +3168,8 @@ const messages:IMessages = {
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "Yes, connect": {
-    val: "Yes, connect",
-    translated: false,
+    val: "نعم، اتصل",
+    translated: 'auto',
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
   "You are running the latest version!": {
@@ -3373,517 +3373,515 @@ const messages:IMessages = {
   },
   "bank_macro.uuid": {
     /* Bank macro UUID label */
-    val: "UUID",
-    translated: false,
+    val: "معرف فريد عالمي",
+    translated: 'auto',
     h: "UbH2EWDbIyGX6gVQAsz9xGUQYrsX+er1VM8Fuuxhxrw=",
   },
   "bucket.balance": {
     /* Bucket balance label */
-    val: "Balance",
-    translated: false,
+    val: "رصيد",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "bucket.color": {
     /* Bucket color label */
-    val: "Color",
-    translated: false,
+    val: "لون",
+    translated: 'auto',
     h: "/hiVjO3WJ9JPhG5BDY2SqUELJlWFlhAWkhD3x/c45mU=",
   },
   "bucket.debt_account_id": {
     /* Bucket's related debt account label */
-    val: "Debt account",
-    translated: false,
+    val: "حساب الديون",
+    translated: 'auto',
     h: "VSXRVQC8DbjhKcJjXLieRBksQgQU56PH2njj+P5m/KI=",
   },
   "bucket.deposit": {
     /* Bucket deposit amount label */
-    val: "Deposit",
-    translated: false,
+    val: "إيداع",
+    translated: 'auto',
     h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
   },
   "bucket.detailslabel": {
-    val: "Details",
-    translated: false,
+    val: "تفاصيل",
+    translated: 'auto',
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.end_date": {
     /* Bucket goal target date label */
-    val: "Target date",
-    translated: false,
+    val: "تاريخ الاستهداف",
+    translated: 'auto',
     h: "4+CFBiJaLAXPQeIpTMtcn3dB7Kgzsb0U/1WlSaqWgwM=",
   },
   "bucket.goal": {
     /* Bucket goal amount label */
-    val: "Goal",
-    translated: false,
+    val: "هدف",
+    translated: 'auto',
     h: "IGWRYx9sqJO1YtI2GyVqdV+i4fFQ+e8XMaiWTNAn/xk=",
   },
   "bucket.group_id": {
     /* Bucket group label */
-    val: "Group",
-    translated: false,
+    val: "مجموعة",
+    translated: 'auto',
     h: "sOfjtH37WgstIWC3rRx2AsnvrT3fsQLKx5n8lTeYI0Y=",
   },
   "bucket.kicked": {
     /* Bucket kicked flag label */
     val: "Kicked",
-    translated: false,
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "bucket.kind": {
     /* Bucket type label */
-    val: "Type",
-    translated: false,
+    val: "نوع",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "bucket.name": {
     /* Bucket name label */
-    val: "Name",
-    translated: false,
+    val: "الاسم",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket.ranking": {
     /* Bucket order label */
-    val: "Order",
-    translated: false,
+    val: "ترتيب",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket.transfer.help": {
-    val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
-    translated: false,
+    val: "التحويل هو معاملة من دلو إلى آخر. إذا لم تكن المعاملة دخلا أو نفقة، فمن المحتمل أن تكون تحويلا.",
+    translated: 'auto',
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucket_group.name": {
     /* Bucket group name label */
-    val: "Name",
-    translated: false,
+    val: "الاسم",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket_group.ranking": {
     /* Bucket group ordering label */
-    val: "Order",
-    translated: false,
+    val: "ترتيب",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket_transaction.account_trans_id": {
     /* Bucket transaction's related account transactions ID label */
-    val: "Account transaction",
-    translated: false,
+    val: "معاملة الحساب",
+    translated: 'auto',
     h: "LyTdIJwB7IZ3hRIJLfTzbNqAiCegb1SR/QSm722WZkc=",
   },
   "bucket_transaction.bucket_id": {
     /* Bucket transaction bucket label */
-    val: "Bucket",
-    translated: false,
+    val: "سلة",
+    translated: 'auto',
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "bucket_transaction.linked_trans_id": {
     /* Label for a debt account's transaction that caused this transaction */
-    val: "Debt transaction",
-    translated: false,
+    val: "معاملة الدين",
+    translated: 'auto',
     h: "dsZm4Y+ZMohJRUkDmRya3MF/TZcL+z8GokDuT1P2da0=",
   },
   "bucket_transaction.transfer": {
     /* Transfer flag label */
-    val: "Transfer",
-    translated: false,
+    val: "تحويل",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "buckethead.activity": {
-    val: "Net total of income and expenses.",
-    translated: false,
+    val: "الإجمالي الصافي للدخل والنفقات",
+    translated: 'auto',
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
-    val: "Net total put in and taken out (unrelated to transactions).",
-    translated: false,
+    val: "الإجمالي الصافي للإدخال والإخراج (غير متعلق بالمعاملات).",
+    translated: 'auto',
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
-    translated: false,
+    val: "استخدم هذا لإيداع المال في كل دلو و سحبه منه.",
+    translated: 'auto',
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
-    translated: false,
+    val: "هذا هو مقدار المال الذي تريده هذه السلال كل شهر. يشير الصندوق الصغير إلى مقدار ما قد تلقوه.",
+    translated: 'auto',
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
-    val: "Recurring expense",
-    translated: false,
+    val: "نفقة متكررة",
+    translated: 'auto',
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.deposit-date": {
-    val: "Save Z/mo until Y date",
-    translated: false,
+    val: "ادخر Z/شهر حتى تاريخ Y",
+    translated: 'auto',
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "buckettype.goal-date": {
-    val: "Save X by Y date",
-    translated: false,
+    val: "حفظ X بحلول تاريخ Y",
+    translated: 'auto',
     h: "+boZHIer4ggkvJ8A5cSl1EVyWRwKigC9UkBFn4WSEdg=",
   },
   "buckettype.goal-deposit": {
-    val: "Save X by depositing Z/mo",
-    translated: false,
+    val: "ادخر X عن طريق الإيداع Z/شهر",
+    translated: 'auto',
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
-    val: "Plain old bucket",
-    translated: false,
+    val: "دلو عادي قديم",
+    translated: 'auto',
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "budget-file-type-name": {
-    val: "Buckets Budget",
-    translated: false,
+    val: "ميزانية التصنيفات",
+    translated: 'auto',
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "change_log.action": {
     /* Change log action type */
-    val: "Action",
-    translated: false,
+    val: "إجراء",
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "change_log.obj": {
     /* Change log object name label */
-    val: "Object",
-    translated: false,
+    val: "كائن",
+    translated: 'auto',
     h: "x6OaEMmJvznVG69QSR5ZH9Xoyu3vlgNaQC6E/ymQjgQ=",
   },
   "change_log.obj_id": {
     /* Change log object id label */
-    val: "Object ID",
-    translated: false,
+    val: "معرف الكائن",
+    translated: 'auto',
     h: "K80xtzHhh4SO59NC0gT7rx1scigZGMneXw1DA+Ycv48=",
   },
   "daterange.all": {
-    val: "All time",
-    translated: false,
+    val: "كل الوقت",
+    translated: 'auto',
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
   "debt-bucket-explanation": {
-    val: "This is a special debt payment bucket.",
-    translated: false,
+    val: "هذا هو صندوق خاص لسداد الديون.",
+    translated: 'auto',
     h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
-    val: (account_name:string) => `${account_name} Payment`,
-    translated: false,
+    val: (account_name:string) => `${account_name} الدفعة`,
+    translated: 'auto',
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
     val: "Savings",
-    translated: false,
+    translated: 'auto',
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "default new bucket name": {
-    val: "New Bucket",
-    translated: false,
+    val: "دلو جديد",
+    translated: 'auto',
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new group name": {
-    val: "New Group",
-    translated: false,
+    val: "مجموعة جديدة",
+    translated: 'auto',
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "err": {
-    val: "err",
-    translated: false,
+    val: "خطأ",
+    translated: 'auto',
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
-    val: "If this error keeps happening or doesn't make sense, please report a bug or chat with us.",
-    translated: false,
+    val: "إذا استمر هذا الخطأ في الحدوث أو لم يكن منطقيًا، يرجى الإبلاغ عن خطأ أو الدردشة معنا.",
+    translated: 'auto',
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
   },
   "file_import_mapping.mapping_json": {
     /* File import mapping data label */
-    val: "Data",
-    translated: false,
+    val: "بيانات",
+    translated: 'auto',
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "getting-started-link": {
     val: (clickhandler) => {
-          return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+          return <span>هل هذه المرة الأولى التي تستخدم فيها Buckets؟  تحقق من ال<a href="#" onClick={clickhandler}>فيديوهات البدء.</a></span>
         },
-    translated: false,
+    translated: 'auto',
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "الشهر المقبل",
+    translated: 'auto',
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-next-year": {
     /* Menu label for "Go To... Next Year" */
-    val: "Next Year",
-    translated: false,
+    val: "العام المقبل",
+    translated: 'auto',
     h: "NfnsOERP+IaYQvH6i+9MJ6KRpbYSapnXXUFm60jUbqo=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "الشهر السابق",
+    translated: 'auto',
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-prev-year": {
     /* Menu label for "Go To... Previous Year" */
-    val: "Previous Year",
-    translated: false,
+    val: "السنة السابقة",
+    translated: 'auto',
     h: "ZntiItsGCJfJBxKIXyzi3+NpS8jZXYAK8IXrOl9bfFg=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
     val: "This Month",
-    translated: false,
+    translated: 'auto',
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "import-verb": {
-    val: "Import",
-    translated: false,
+    val: "استيراد",
+    translated: 'auto',
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
-    val: "in the bank",
-    translated: false,
+    val: "في البنك"،,
+    translated: 'auto',
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "misc group name": {
-    val: "Misc",
-    translated: false,
+    val: "متنوعة",
+    translated: 'auto',
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "money-balance-as-of": {
     val: (amount:JSX.Element, date:JSX.Element) => {
-                  return <span>{amount} as of {date}</span>
+                  return <span>{amount} كما في {date}</span>
                 },
-    translated: false,
+    translated: 'auto',
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
     val: (gain) => {
-                        return gain >= 0 ? "Month's gain" : "Month's loss";
+                        return gain >= 0 ? "ربح الشهر" : "خسارة الشهر";
                       },
-    translated: false,
+    translated: 'auto',
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "more": {
-    val: "more",
-    translated: false,
+    val: "المزيد",
+    translated: 'auto',
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "nag-message": {
-    val: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
+    val: () => `هذا هو الإصدار التجريبي غير المسجل، وبينما يكون التجربة غير محدود الوقت، يجب شراء رخصة للاستخدام المستمر.
 
-Would you like to purchase a license now?`,
-    translated: false,
+هل ترغب في شراء رخصة الآن؟`,
+    translated: 'auto',
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
-    val: (url) => `Go to ${url}`,
-    translated: false,
+    val: (url) => `انتقل إلى ${url}`,
+    translated: 'auto',
     h: "nI/J4GfYlL6BgRZRSiPFfA5o7ASdx2VVYW6x3vgCuKE=",
   },
   "net-transfers.help": {
-    val: "Net transfers are the sum total of all transactions marked as a transfer.  It should be 0.  If it's not, click through to make sure there aren't duplicate transactions or transactions miscategorized as transfers.",
-    translated: false,
+    val: "التحويلات الصافية هي مجموع جميع المعاملات المعلمة كتحويل. يجب أن تكون 0. إذا لم تكن كذلك، انقر للدخول للتأكد من عدم وجود معاملات مكررة أو معاملات مصنفة بشكل خاطئ كتحويلات.",
+    translated: 'auto',
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "no name": {
-    val: "no name",
-    translated: false,
+    val: "لا اسم",
+    translated: 'auto',
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "noin.income": {
-    val: "Income",
-    translated: false,
+    val: "دخل",
+    translated: 'auto',
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: filename => `Downloaded file: ${filename}`,
-    translated: false,
+    val: "filename => `ملف تم تنزيله: ${filename}`,"
+    translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.debt": {
-    val: "Debt",
-    translated: false,
+    val: "دَيْن",
+    translated: 'auto',
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "noun.transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "تحويل",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "off": {
-    val: "off",
-    translated: false,
+    val: "إيقاف",
+    translated: 'auto',
     h: "nzvsum5LFYOz4ZRB3eTVliJTfZvVSpTSImJ4XkhThNA=",
   },
   "on": {
-    val: "on",
-    translated: false,
+    val: "على"،,
+    translated: 'auto',
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
-    translated: false,
+    val: "اضغط على Escape لإغلاق",
+    translated: 'auto',
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
+                                      لقد وضعت {abs_amount} زيادة في المال في السلال. إذا كان جميع المعاملات قد تم تصنيفها هذا الشهر، أزل {abs_amount} من السلال التي تختارها.
                                       </span>
                                     },
-    translated: false,
+    translated: 'auto',
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have {abs_amount} left to put into buckets.
+                                      لديك {abs_amount} متبقي لإضافته إلى السلال.
                                       </span>
                                     },
-    translated: false,
+    translated: 'auto',
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "sample-size": {
-    val: (count:number, total:number) => {
-          return `Showing ${count} of ${total}`
-        },
-    translated: false,
+    val: (count:number, total:number) => { return `عرض ${count} من ${total}` },
+    translated: 'auto',
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
   "settings.key": {
     /* Settings name label */
-    val: "Name",
-    translated: false,
+    val: "الاسم",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "settings.value": {
     /* Settings value label */
-    val: "Value",
-    translated: false,
+    val: "قيمة",
+    translated: 'auto',
     h: "+VG3lKNZdlCrMfK2d7yG7/OtZ5iGD3yqkIqOIClVuNw=",
   },
   "simplefin-connect-intro": {
-    val: "To connect, do the following:",
-    translated: false,
+    val: "للتواصل، قم بالخطوات التالية:",
+    translated: 'auto',
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
   "simplefin-get-token": {
     val: (mklink) => {
-              return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
+              return <span>احصل على رمز SimpleFIN من {mklink('جسر SimpleFIN')}</span>
             },
-    translated: false,
+    translated: 'auto',
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
   "simplefin-paste": {
-    val: "Then paste your SimpleFIN Token here:",
-    translated: false,
+    val: "ثم قم بلصق رمز SimpleFIN الخاص بك هنا:",
+    translated: 'auto',
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "simplefin_connection.access_token": {
     /* SimpleFIN access token label */
-    val: "Token",
-    translated: false,
+    val: "توكن",
+    translated: 'auto',
     h: "RqJX7GMSAvHvTe36qzKsJI8E56vSQX8DYTUB/G7/RTI=",
   },
   "single-account Closed": {
-    val: "Closed",
-    translated: false,
+    val: "مغلق",
+    translated: 'auto',
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "single-bucket Kicked": {
-    val: "Kicked",
-    translated: false,
+    val: "طرد",
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
-    val: "some day...",
-    translated: false,
+    val: "ذات يوم...",
+    translated: 'auto',
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "sync-symbol help": {
-    val: "This symbol means the transaction came from an import/sync",
-    translated: false,
+    val: "يشير هذا الرمز إلى أن المعاملة جاءت من عملية استيراد أو مزامنة",
+    translated: 'auto',
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
     val: (start: string, end: string) => {
-        return `Syncing transactions from ${start} to ${end}`;
+        return `مزامنة المعاملات من ${start} إلى ${end}`;
       },
-    translated: false,
+    translated: 'auto',
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
   "tab": {
     /* Label for 'tab' character */
-    val: "tab",
-    translated: false,
+    val: "تب",
+    translated: 'auto',
     h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
   },
   "this_device.name": {
-    val: "No name",
-    translated: false,
+    val: "لا اسم",
+    translated: 'auto',
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: count => `Updated/created ${count} transactions`,
-    translated: false,
+    val: "count => `تم تحديث/إنشاء ${count} معاملات`,"
+    translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "trans-created-outofview": {
     val: (month: string) => {
-              return <span>Transaction created in {month} </span>;
+              return <span>تم إنشاء المعاملة في {month} </span>;
             },
-    translated: false,
+    translated: 'auto',
     h: "ur97iCX3Iw1E262eZ72YAEFdXlwvlqNkyNn1caIKi0E=",
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer from {dropdown}</span>
+                return <span>نقل من {dropdown}</span>
               },
-    translated: false,
+    translated: 'auto',
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer to {dropdown}</span>
+                return <span>نقل إلى {dropdown}</span>
               },
-    translated: false,
+    translated: 'auto',
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
   "unknown_account.account_hash": {
     /* Account fingerprint label */
-    val: "Fingerprint",
-    translated: false,
+    val: "بصمة",
+    translated: 'auto',
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "unknown_account.description": {
     /* Unknown account description label */
-    val: "Description",
-    translated: false,
+    val: "وصف",
+    translated: 'auto',
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "unknown_account.ignore": {
     /* Label for flag indicating if an unknown account is ignored or not */
     val: "Ignore",
-    translated: false,
+    translated: 'auto',
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "use-delimiter": {
     /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
-    val: (delimiter:string) => `Use "${delimiter}"`,
-    translated: false,
+    val: (delimiter:string) => `استخدم "${delimiter}"`,
+    translated: 'auto',
     h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
   },
   "verb-open": {
     /* Verb to open a page */
-    val: "Open",
-    translated: false,
+    val: "فتح",
+    translated: 'auto',
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
 }

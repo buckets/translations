@@ -2850,1040 +2850,1038 @@ const messages:IMessages = {
     /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
     /* Name of action.  Consider this "Unarchive Bucket" */
     val: "Un-kick Bucket",
-    translated: false,
+    translated: 'auto',
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
-    val: "Unable to claim access token",
-    translated: false,
+    val: "액세스 토큰을 얻을 수 없습니다",
+    translated: 'auto',
     h: "Gao95RuT9JvhdAoZ5winV9os7iMaPIex3Vq9CMSjhzs=",
   },
   "Unable to open the file:": {
-    val: "Unable to open the file:",
-    translated: false,
+    val: "파일을 열 수 없습니다:",
+    translated: 'auto',
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Unattended merge not possible": {
-    val: "Unattended merge not possible",
-    translated: false,
+    val: "무인 병합이 불가능합니다",
+    translated: 'auto',
     h: "gj2u4cxLi3C3cxHWoasHcAgEnMNADU6mwZx4EGEZgLU=",
   },
   "Unavailable": {
-    val: "Unavailable",
-    translated: false,
+    val: "사용할 수 없음",
+    translated: 'auto',
     h: "tML1A7GUQ8Z/SUbUV6zcxmjjrptonGvYtuU1Y2y/gvE=",
   },
   "Uncategorized": {
-    val: "Uncategorized",
-    translated: false,
+    val: "미분류",
+    translated: 'auto',
     h: "BjQg1sHfdAVLyMzfMfC6sQnK4vIGQ6vrl6OsGg8Oqkk=",
   },
   "Uncaught Error": {
     /* Title for error reporting dialog */
-    val: "Uncaught Error",
-    translated: false,
+    val: "잡지 못한 오류",
+    translated: 'auto',
     h: "8shOzic2CgRpaIcNhv/44tsVBDgSItWp3ZbdihMYp9E=",
   },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
-    val: "Uncleared",
-    translated: false,
+    val: "미청산",
+    translated: 'auto',
     h: "1GBgqlG+RCS8dFTG2z15jLFFd4PCVVXDefXwBRq0oTs=",
   },
   "Undo": {
-    val: "Undo",
-    translated: false,
+    val: "되돌리기",
+    translated: 'auto',
     h: "Z1A2vTdYwfdLsWS25iSchnHOHa1VfbQg7u8MDGHk4yo=",
   },
   "Unexpected sync error": {
-    val: "Unexpected sync error",
-    translated: false,
+    val: "예기치 않은 동기화 오류",
+    translated: 'auto',
     h: "78kYsQMTfGS8BNaZVuqYaRojJlTpcmN6CF9PQKKO0ME=",
   },
   "Unknown account": {
-    val: "Unknown account",
-    translated: false,
+    val: "알 수 없는 계정",
+    translated: 'auto',
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
   },
   "Unknown account deleted": {
-    val: "Unknown account deleted",
-    translated: false,
+    val: "알 수 없는 계정 삭제됨",
+    translated: 'auto',
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
-    val: "Unknown category",
-    translated: false,
+    val: "알 수 없는 카테고리",
+    translated: 'auto',
     h: "bK4teMnFOuofJ4sX76ozAla50yDaLbvb5pCj+New5f4=",
   },
   "Unlinked Accounts": {
-    val: "Unlinked Accounts",
-    translated: false,
+    val: "연결되지 않은 계정",
+    translated: 'auto',
     h: "BPAjsiEkATiwSf9f6kde3yZwSmmyiPDLiZ7Rr+3Zv/A=",
   },
   "Unregistered Version": {
-    val: "Unregistered Version",
-    translated: false,
+    val: "등록되지 않은 버전",
+    translated: 'auto',
     h: "x9ekMClqI57T6jREU5VJurBCzlD+hBNJ8pHNQ0zMB1U=",
   },
   "Update": {
-    val: "Update",
-    translated: false,
+    val: "업데이트",
+    translated: 'auto',
     h: "cQYLRi89RKalUb+A5uCwnJtCV0x+6+otody2dq/mqxk=",
   },
   "Update Account Balance": {
-    val: "Update Account Balance",
-    translated: false,
+    val: "계정 잔액 업데이트",
+    translated: 'auto',
     h: "iwKjdHzqHPwoupXiUwrVL1tX4QfO//taXOPXFVtWRVE=",
   },
   "Update Account Name": {
-    val: "Update Account Name",
-    translated: false,
+    val: "계정 이름 업데이트",
+    translated: 'auto',
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Update Bucket Name": {
-    val: "Update Bucket Name",
-    translated: false,
+    val: "버킷 이름 업데이트",
+    translated: 'auto',
     h: "Oa+1EZtc4RTtPYyk5LflMMlQq/esZ3qvTgbSLiKIl4E=",
   },
   "Update Bucket Type": {
-    val: "Update Bucket Type",
-    translated: false,
+    val: "버킷 유형 업데이트",
+    translated: 'auto',
     h: "wt5F9WSIpGlUsGaPnhSJlLYk0qraymNHDw0bYzbHlIE=",
   },
   "Update Color": {
-    val: "Update Color",
-    translated: false,
+    val: "색상 업데이트",
+    translated: 'auto',
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
   },
   "Update Currency Symbol": {
-    val: "Update Currency Symbol",
-    translated: false,
+    val: "통화 기호 업데이트",
+    translated: 'auto',
     h: "5ni7IpG/zzlc/uAhhkduQ99K/5B9ui5INpaxZw7QTrs=",
   },
   "Update Goal": {
-    val: "Update Goal",
-    translated: false,
+    val: "목표 업데이트",
+    translated: 'auto',
     h: "S3dt9ahT1yTXTCP2uHqiTMkyPUmAvAHvsCeGNa+NL1E=",
   },
   "Update Group Name": {
-    val: "Update Group Name",
-    translated: false,
+    val: "그룹 이름 업데이트",
+    translated: 'auto',
     h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
   },
   "Update Macro Name": {
-    val: "Update Macro Name",
-    translated: false,
+    val: "매크로 이름 업데이트",
+    translated: 'auto',
     h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
   },
   "Update Monthly Deposit": {
-    val: "Update Monthly Deposit",
-    translated: false,
+    val: "월간 예금 업데이트",
+    translated: 'auto',
     h: "rFQ5lKjSNpQyyptg2Y+a4LQ6jwa1xWjKarMapXiD1/8=",
   },
   "Update Name": {
-    val: "Update Name",
-    translated: false,
+    val: "이름 업데이트",
+    translated: 'auto',
     h: "fTqm8NUcvzaYHnGFDmVhLePEd/TFNPhUDzSYIIerjNc=",
   },
   "Update Note": {
-    val: "Update Note",
-    translated: false,
+    val: "업데이트 노트",
+    translated: 'auto',
     h: "h4A+jnQW9OrS0wVVoQ9OEJ5I6/h4p7IWrKvN+uSXe4I=",
   },
   "Update Number Format": {
-    val: "Update Number Format",
-    translated: false,
+    val: "숫자 형식 업데이트",
+    translated: 'auto',
     h: "98Qu07eWAHjS80FuHQajrVMMtd0jq5Zq8rRKuDQEZEU=",
   },
   "Update Payee": {
-    val: "Update Payee",
-    translated: false,
+    val: "수취인 업데이트",
+    translated: 'auto',
     h: "28JOAeb8QLlBYMLiOO8RGW8SHBJ14Gdp/t/7rprHodk=",
   },
   "Update Payees": {
-    val: "Update Payees",
-    translated: false,
+    val: "수취인 업데이트",
+    translated: 'auto',
     h: "hJhDyJDaai8R9NXK8J3AOdqOOhdqmkZeR8ziJyzuzVU=",
   },
   "Update Target Date": {
-    val: "Update Target Date",
-    translated: false,
+    val: "타겟 날짜 업데이트",
+    translated: 'auto',
     h: "SEac1rQopyHALPSWU85qYV3GE0x9i2OGDB+JYnVID8A=",
   },
   "Update Transaction": {
-    val: "Update Transaction",
-    translated: false,
+    val: "거래 업데이트",
+    translated: 'auto',
     h: "aMF18BJOMjuVOInpbGKf/3jyTE1qYzq4oHzb3sBVcWw=",
   },
   "Update account balance": {
-    val: "Update account balance",
-    translated: false,
+    val: "계정 잔액 업데이트",
+    translated: 'auto',
     h: "GQWvUamqQOyoaXm16AiGtHme6kW171erNK5pa4vgDIE=",
   },
   "Update balance": {
-    val: "Update balance",
-    translated: false,
+    val: "잔액 업데이트",
+    translated: 'auto',
     h: "XSg0Q5Q7j+G+HNjn3YJOakbNLSjTNcem3BFbw6fTDI8=",
   },
   "Update complete": {
-    val: "Update complete",
-    translated: false,
+    val: "업데이트 완료",
+    translated: 'auto',
     h: "5JP6upRWYG0d3p+rGNvUMcl08i6wvxKs0zhYG5NvUj4=",
   },
   "Update downloaded.": {
-    val: "Update downloaded.",
-    translated: false,
+    val: "업데이트가 다운로드되었습니다.",
+    translated: 'auto',
     h: "DO2vE3TgW3xjiD8ZaOWeScL3qWCyiFPK8GENQ9NosYw=",
   },
   "Update failed": {
-    val: "Update failed",
-    translated: false,
+    val: "업데이트 실패",
+    translated: 'auto',
     h: "MU8WQkSmMfpUADhweg+WSBrhrTcWK23Ow4QqwxyoAfo=",
   },
   "Update opening balance": {
-    val: "Update opening balance",
-    translated: false,
+    val: "개시 잔액 업데이트",
+    translated: 'auto',
     h: "Z0BMQUVy9IHw3rAN6dd3xnGsgHNFC+l4FxxGcNc8QJ8=",
   },
   "Updated": {
-    val: "Updated",
-    translated: false,
+    val: "업데이트됨",
+    translated: 'auto',
     h: "zN8HYtieJpXIt5Bdb1SWdC1+tonH7H3QHVbuUzU4rgY=",
   },
   "Updates": {
     /* Label for section about Buckets application updates */
-    val: "Updates",
-    translated: false,
+    val: "업데이트",
+    translated: 'auto',
     h: "lAv/Y2isYNmD0UIkVd8zZO2kJ9FjxPjiL+Bnajfzxtg=",
   },
   "Updating...": {
-    val: "Updating...",
-    translated: false,
+    val: "업데이트 중...",
+    translated: 'auto',
     h: "gAFg4pzFnJ37C/ReDfO2llXdsckG7onQiLq6WjhBWxk=",
   },
   "Used in future": {
-    val: "Used in future",
-    translated: false,
+    val: "향후 사용",
+    translated: 'auto',
     h: "O0zGsqv23d44/pWJqCSt+qkDtG/nBrBI2W0aRA9XoDw=",
   },
   "Username": {
-    val: "Username",
-    translated: false,
+    val: "사용자 이름",
+    translated: 'auto',
     h: "UAZmOHuQGOos8K4CBGseGzsnoOEV6JPA/VJYYtHu0k8=",
   },
   "Username/Password": {
-    val: "Username/Password",
-    translated: false,
+    val: "사용자 이름/비밀번호",
+    translated: 'auto',
     h: "2pr0zsSsuFii6F31xH62795E7bFmbKwAYd/oe2E1kBc=",
   },
   "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.": {
-    val: "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.",
-    translated: false,
+    val: "이 도구를 사용하면 예산 파일이 손상될 수 있습니다. 걱정된다면 예산의 사본을 만드세요.",
+    translated: 'auto',
     h: "TCvA81ztNxeLhpVdiYrF4RLEGEp5FO3YWCgfOyjnjFc=",
   },
   "Vacation ": {
-    val: "Vacation ",
-    translated: false,
+    val: "휴가 ",
+    translated: 'auto',
     h: "Buf8KjuQKnfaA4c2qPDVm8FQgYWJUfiCYYkPAnsIIBw=",
   },
   "View": {
-    val: "View",
-    translated: false,
+    val: "보기",
+    translated: 'auto',
     h: "paIseOhKCT2+NaUBPKk98vQB/lphf7jIGeERV77doDg=",
   },
   "View EULA": {
-    val: "View EULA",
-    translated: false,
+    val: "EULA 보기",
+    translated: 'auto',
     h: "6symBeYWMFH1ySjpbWX+XjygI3Cq3j/ywz3b0tPtIHE=",
   },
   "Waiting to retry": {
-    val: "Waiting to retry",
-    translated: false,
+    val: "재시도 대기 중",
+    translated: 'auto',
     h: "F88F80XANbwofOEoXYAjMA09+UIhKPUY6qNK7dkEQmo=",
   },
   "Want": {
-    val: "Want",
-    translated: false,
+    val: "원함",
+    translated: 'auto',
     h: "lV/eDqkplJ/XKjHyCSE47yOWOl3t3Igj9S559wDKMZI=",
   },
   "Wants": {
-    val: "Wants",
-    translated: false,
+    val: "원한다",
+    translated: 'auto',
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
-    val: "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).",
-    translated: false,
+    val: "경고: 이 작업을 수행하면 보유하지 않은 비를 사용하게 되며, 미래의 달에서 비를 빼앗을 수 있습니다 (가능한 경우).",
+    translated: 'auto',
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
   "Water": {
-    val: "Water",
-    translated: false,
+    val: "물",
+    translated: 'auto',
     h: "BOL+IhrDsm6ooEqGpFPieQoyXrWpV6LvKh0DvkAJ2bw=",
   },
   "Web YNAB Export": {
     /* Label for YNAB export file type */
-    val: "Web YNAB Export",
-    translated: false,
+    val: "웹 YNAB 내보내기",
+    translated: 'auto',
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When \"On\" this macro will be run during a normal sync.",
-    translated: false,
+    val: "When "On" 이 활성화되었을 때, 이 매크로는 정상 동기화 중에 실행됩니다.",
+    translated: 'auto',
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
-    val: "Window",
-    translated: false,
+    val: "창",
+    translated: 'auto',
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "YES": {
-    val: "YES",
-    translated: false,
+    val: "예",
+    translated: 'auto',
     h: "z2FPqj4x8eJnnL7/njedU5qqPbxgrFqjpsTeqGqJH9U=",
   },
   "Year to Year": {
-    val: "Year to Year",
-    translated: false,
+    val: "연도 대 연도",
+    translated: 'auto',
     h: "YBGCdB/QACmMM/QS2qMrGlC8qtfWz9bhue7sgDaIRHg=",
   },
   "Year's Supply": {
-    val: "Year's Supply",
-    translated: false,
+    val: "1년 공급",
+    translated: 'auto',
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
   },
   "Yearly": {
-    val: "Yearly",
-    translated: false,
+    val: "연간",
+    translated: 'auto',
     h: "LjMZRIZX3jdNUpbBBgqpPR9Az6c4sBWYUwd2WDVb9Rw=",
   },
   "Years": {
-    val: "Years",
-    translated: false,
+    val: "년",
+    translated: 'auto',
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "Yes": {
-    val: "Yes",
-    translated: false,
+    val: "예",
+    translated: 'auto',
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "Yes, connect": {
-    val: "Yes, connect",
-    translated: false,
+    val: "네, 연결",
+    translated: 'auto',
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
   "You are running the latest version!": {
-    val: "You are running the latest version!",
-    translated: false,
+    val: "최신 버전을 실행 중입니다!",
+    translated: 'auto',
     h: "hShy87A6GAhRqqtK+8VdVeGD70zA64iiV0/SwectQ0I=",
   },
   "You can do math in all number inputs, not just here in the calculator.": {
-    val: "You can do math in all number inputs, not just here in the calculator.",
-    translated: false,
+    val: "모든 숫자 입력란에서 수학 계산을 할 수 있습니다. 여기 계산기에서만이 아닙니다.",
+    translated: 'auto',
     h: "dn2W/ktTrcwSzYNSq6IQL7Sl2k8lxZQRsFehzG9Mf7g=",
   },
   "You don't have any recurring expense buckets yet.": {
-    val: "You don't have any recurring expense buckets yet.",
-    translated: false,
+    val: "아직 반복 지출 버킷이 없습니다.",
+    translated: 'auto',
     h: "nq2IDCqs8m0MQJ5lO2TU1cnlj9nP1vwIMWMqi0WGOjk=",
   },
   "You have no closed accounts.": {
-    val: "You have no closed accounts.",
-    translated: false,
+    val: "폐쇄된 계정이 없습니다.",
+    translated: 'auto',
     h: "8BZG+UdW1Rrd/+2zFNv7SskiNpD6DtlNa8LwQulqX5s=",
   },
   "You haven't kicked the bucket yet...": {
-    val: "You haven't kicked the bucket yet...",
-    translated: false,
+    val: "당신은 아직 죽지 않았어...",
+    translated: 'auto',
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
   "You must backup to a different file.": {
-    val: "You must backup to a different file.",
-    translated: false,
+    val: "다른 파일에 백업해야 합니다.",
+    translated: 'auto',
     h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
   },
   "Your email address:": {
-    val: "Your email address:",
-    translated: false,
+    val: "귀하의 이메일 주소:",
+    translated: 'auto',
     h: "/ip+dZCEKXdLQFW5CAt/fB8OBf/rD+67pz8etOXlJXc=",
   },
   "Zoom": {
-    val: "Zoom",
-    translated: false,
+    val: "줌",
+    translated: 'auto',
     h: "Zjzswxbrkbj1TLPOYCtimoyh/aJlkF/mxeghbzdheSs=",
   },
   "Zoom In": {
-    val: "Zoom In",
-    translated: false,
+    val: "확대",
+    translated: 'auto',
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
-    val: "Zoom Out",
-    translated: false,
+    val: "축소",
+    translated: 'auto',
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-in": {
     /* Label for amount put into an account */
     val: "In",
-    translated: false,
+    translated: 'auto',
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "account-net-amount": {
     /* Label for net value of amount in - amount out for an account */
-    val: "Net",
-    translated: false,
+    val: "순",
+    translated: 'auto',
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "account-out": {
     /* Label for amount taken out of an account */
-    val: "Out",
-    translated: false,
+    val: "출금",
+    translated: 'auto',
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "account-type": {
-    val: "Type",
-    translated: false,
+    val: "유형",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.balance": {
     /* Account balance label */
-    val: "Balance",
-    translated: false,
+    val: "잔액",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "account.closed": {
     /* Account closed label */
-    val: "Closed",
-    translated: false,
+    val: "폐쇄",
+    translated: 'auto',
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "account.currency": {
     /* Account currency label */
-    val: "Currency",
-    translated: false,
+    val: "통화",
+    translated: 'auto',
     h: "3D60KXXRwf14ydWSrd5tvgLQBOCOfNDf05UchJALh14=",
   },
   "account.import_balance": {
     /* Account imported balance label */
-    val: "Imported balance",
-    translated: false,
+    val: "가져온 잔액",
+    translated: 'auto',
     h: "Z2Hg44o19bCItKOAhixAAwpW972mvt3LZyFy7Y3Dhgk=",
   },
   "account.kind": {
     /* Account type label */
-    val: "Type",
-    translated: false,
+    val: "유형",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.name": {
     /* Account name label */
-    val: "Name",
-    translated: false,
+    val: "이름",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "account.offbudget": {
     /* Deprecated label for off budget accounts */
-    val: "Off budget",
-    translated: false,
+    val: "예산 외",
+    translated: 'auto',
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
   "account.ranking": {
     /* Account order label */
-    val: "Order",
-    translated: false,
+    val: "주문",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
     /* Account opening balance label */
-    val: "Opening balance",
-    translated: false,
+    val: "개시 잔액",
+    translated: 'auto',
     h: "OEuQ3gAWrV+lPay2usXLKN3bNCH87PEsrcr+thNNbJY=",
   },
   "account_mapping.account_hash": {
     /* Account cryptographic hash label */
     val: "Fingerprint",
-    translated: false,
+    translated: 'auto',
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "account_transaction.cleared": {
     /* Transaction cleared flag label */
     val: "Cleared",
-    translated: false,
+    translated: 'auto',
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "account_transaction.fi_id": {
     /* Financial institution assigned transaction ID label */
     val: "Institution-assigned ID",
-    translated: false,
+    translated: 'auto',
     h: "gFeirPPl/djXfLKwDK8FtD7JPKjC/2e7sHuRIxqkii8=",
   },
   "account_transaction.general_cat": {
     /* General category label */
-    val: "General category",
-    translated: false,
+    val: "일반 카테고리",
+    translated: 'auto',
     h: "xEay6AzOg30Omh/FS2qPVa7eCkrUiXxTIclZM+h3BZE=",
   },
   "accounts.name_placeholder": {
-    val: "no name",
-    translated: false,
+    val: "이름 없음",
+    translated: 'auto',
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "action.New bucket": {
-    val: "New bucket",
-    translated: false,
+    val: "새 버킷",
+    translated: 'auto',
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "action.New group": {
-    val: "New group",
-    translated: false,
+    val: "새 그룹",
+    translated: 'auto',
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "action.ignore": {
-    val: "Ignore",
-    translated: false,
+    val: "무시",
+    translated: 'auto',
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "action.link-account": {
-    val: "Link",
-    translated: false,
+    val: "링크",
+    translated: 'auto',
     h: "unfAYQpjuyuTjjRCodr+S+jNjRmz3nahjZ91u/j5HfE=",
   },
   "action.report bug": {
-    val: "Report Bug",
-    translated: false,
+    val: "버그 신고",
+    translated: 'auto',
     h: "RxuE9Dh0Dadda2PtjUPD0dQ7b8aQok84Ytvw31ABBRU=",
   },
   "bank_macro.enabled": {
     /* Bank macro enabled flag label */
-    val: "Enabled",
-    translated: false,
+    val: "활성화",
+    translated: 'auto',
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "bank_macro.enc_recording": {
     /* Bank macro recording data label */
-    val: "Recording data",
-    translated: false,
+    val: "데이터 기록",
+    translated: 'auto',
     h: "nCMGHm2pOXvkN7v4hXGbN6g6Q9KfnHLC9ToPAUPTNIo=",
   },
   "bank_macro.name": {
     /* Bank macro name label */
-    val: "Name",
-    translated: false,
+    val: "이름",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bank_macro.uuid": {
     /* Bank macro UUID label */
     val: "UUID",
-    translated: false,
+    translated: 'auto',
     h: "UbH2EWDbIyGX6gVQAsz9xGUQYrsX+er1VM8Fuuxhxrw=",
   },
   "bucket.balance": {
     /* Bucket balance label */
-    val: "Balance",
-    translated: false,
+    val: "잔액",
+    translated: 'auto',
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "bucket.color": {
     /* Bucket color label */
-    val: "Color",
-    translated: false,
+    val: "색상",
+    translated: 'auto',
     h: "/hiVjO3WJ9JPhG5BDY2SqUELJlWFlhAWkhD3x/c45mU=",
   },
   "bucket.debt_account_id": {
     /* Bucket's related debt account label */
-    val: "Debt account",
-    translated: false,
+    val: "부채 계정",
+    translated: 'auto',
     h: "VSXRVQC8DbjhKcJjXLieRBksQgQU56PH2njj+P5m/KI=",
   },
   "bucket.deposit": {
     /* Bucket deposit amount label */
-    val: "Deposit",
-    translated: false,
+    val: "입금",
+    translated: 'auto',
     h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
   },
   "bucket.detailslabel": {
-    val: "Details",
-    translated: false,
+    val: "상세",
+    translated: 'auto',
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "bucket.end_date": {
     /* Bucket goal target date label */
-    val: "Target date",
-    translated: false,
+    val: "목표 날짜",
+    translated: 'auto',
     h: "4+CFBiJaLAXPQeIpTMtcn3dB7Kgzsb0U/1WlSaqWgwM=",
   },
   "bucket.goal": {
     /* Bucket goal amount label */
-    val: "Goal",
-    translated: false,
+    val: "목표",
+    translated: 'auto',
     h: "IGWRYx9sqJO1YtI2GyVqdV+i4fFQ+e8XMaiWTNAn/xk=",
   },
   "bucket.group_id": {
     /* Bucket group label */
-    val: "Group",
-    translated: false,
+    val: "그룹",
+    translated: 'auto',
     h: "sOfjtH37WgstIWC3rRx2AsnvrT3fsQLKx5n8lTeYI0Y=",
   },
   "bucket.kicked": {
     /* Bucket kicked flag label */
     val: "Kicked",
-    translated: false,
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "bucket.kind": {
     /* Bucket type label */
-    val: "Type",
-    translated: false,
+    val: "유형",
+    translated: 'auto',
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "bucket.name": {
     /* Bucket name label */
-    val: "Name",
-    translated: false,
+    val: "이름",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket.ranking": {
     /* Bucket order label */
-    val: "Order",
-    translated: false,
+    val: "순서",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket.transfer.help": {
-    val: "A transfer is a transaction from one bucket to another.  If the transaction isn't income or an expense, it's likely a transfer.",
-    translated: false,
+    val: "이체는 하나의 버킷에서 다른 버킷으로의 거래입니다. 거래가 수입이나 지출이 아닌 경우, 그것은 아마도 이체일 것입니다.",
+    translated: 'auto',
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucket_group.name": {
     /* Bucket group name label */
-    val: "Name",
-    translated: false,
+    val: "이름",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket_group.ranking": {
     /* Bucket group ordering label */
-    val: "Order",
-    translated: false,
+    val: "순서",
+    translated: 'auto',
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket_transaction.account_trans_id": {
     /* Bucket transaction's related account transactions ID label */
-    val: "Account transaction",
-    translated: false,
+    val: "계좌 거래",
+    translated: 'auto',
     h: "LyTdIJwB7IZ3hRIJLfTzbNqAiCegb1SR/QSm722WZkc=",
   },
   "bucket_transaction.bucket_id": {
     /* Bucket transaction bucket label */
-    val: "Bucket",
-    translated: false,
+    val: "버킷",
+    translated: 'auto',
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "bucket_transaction.linked_trans_id": {
     /* Label for a debt account's transaction that caused this transaction */
-    val: "Debt transaction",
-    translated: false,
+    val: "부채 거래",
+    translated: 'auto',
     h: "dsZm4Y+ZMohJRUkDmRya3MF/TZcL+z8GokDuT1P2da0=",
   },
   "bucket_transaction.transfer": {
     /* Transfer flag label */
-    val: "Transfer",
-    translated: false,
+    val: "전송",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "buckethead.activity": {
-    val: "Net total of income and expenses.",
-    translated: false,
+    val: "수입과 지출의 순 총액.",
+    translated: 'auto',
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
-    val: "Net total put in and taken out (unrelated to transactions).",
-    translated: false,
+    val: "투입 및 인출의 순 총액 (거래와 무관).",
+    translated: 'auto',
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
-    val: "Use this to put money in and take money out of each bucket.",
-    translated: false,
+    val: "이것을 사용하여 각 버킷에 돈을 넣고 빼세요.",
+    translated: 'auto',
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
-    val: "This is how much money these buckets want each month.  The little box indicates how much they have received.",
-    translated: false,
+    val: "이 버킷들이 매월 원하는 금액입니다. 작은 상자가 그들이 받은 금액을 나타냅니다.",
+    translated: 'auto',
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
-    val: "Recurring expense",
-    translated: false,
+    val: "정기 지출",
+    translated: 'auto',
     h: "3HXotB9ZHFm14ArdM0RfCT0merw8+KuXthbzotnPRec=",
   },
   "buckettype.deposit-date": {
-    val: "Save Z/mo until Y date",
-    translated: false,
+    val: "Y 날짜까지 Z/월 저축",
+    translated: 'auto',
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "buckettype.goal-date": {
-    val: "Save X by Y date",
-    translated: false,
+    val: "X를 Y 날짜까지 저장",
+    translated: 'auto',
     h: "+boZHIer4ggkvJ8A5cSl1EVyWRwKigC9UkBFn4WSEdg=",
   },
   "buckettype.goal-deposit": {
-    val: "Save X by depositing Z/mo",
-    translated: false,
+    val: "X를 매월 Z를 예치하여 절약하세요",
+    translated: 'auto',
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
-    val: "Plain old bucket",
-    translated: false,
+    val: "평범한 오래된 양동이",
+    translated: 'auto',
     h: "AqvTaZK8lidyI8PZ9JXBBQABazz8uxM+uQM6iEuyO6w=",
   },
   "budget-file-type-name": {
-    val: "Buckets Budget",
-    translated: false,
+    val: "버킷 예산",
+    translated: 'auto',
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "change_log.action": {
     /* Change log action type */
-    val: "Action",
-    translated: false,
+    val: "작업",
+    translated: 'auto',
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "change_log.obj": {
     /* Change log object name label */
-    val: "Object",
-    translated: false,
+    val: "객체",
+    translated: 'auto',
     h: "x6OaEMmJvznVG69QSR5ZH9Xoyu3vlgNaQC6E/ymQjgQ=",
   },
   "change_log.obj_id": {
     /* Change log object id label */
-    val: "Object ID",
-    translated: false,
+    val: "객체 ID",
+    translated: 'auto',
     h: "K80xtzHhh4SO59NC0gT7rx1scigZGMneXw1DA+Ycv48=",
   },
   "daterange.all": {
-    val: "All time",
-    translated: false,
+    val: "전체 기간",
+    translated: 'auto',
     h: "Fz1lBhxlewLJ5bSKTiIzzaW3CAtAPxkUWWKU0BVqgAA=",
   },
   "debt-bucket-explanation": {
-    val: "This is a special debt payment bucket.",
-    translated: false,
+    val: "이것은 특별한 부채 상환 버킷입니다.",
+    translated: 'auto',
     h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
-    val: (account_name:string) => `${account_name} Payment`,
-    translated: false,
+    val: (account_name:string) => `${account_name} 결제`,
+    translated: 'auto',
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
-    val: "Savings",
-    translated: false,
+    val: "저축",
+    translated: 'auto',
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
   "default new bucket name": {
-    val: "New Bucket",
-    translated: false,
+    val: "새 버킷",
+    translated: 'auto',
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new group name": {
-    val: "New Group",
-    translated: false,
+    val: "새 그룹",
+    translated: 'auto',
     h: "1dmXA/VlW+tjhojOGcypAy70L2wupHf9EdVjUByvpmA=",
   },
   "err": {
-    val: "err",
-    translated: false,
+    val: "에러",
+    translated: 'auto',
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
-    val: "If this error keeps happening or doesn't make sense, please report a bug or chat with us.",
-    translated: false,
+    val: "이 오류가 계속 발생하거나 이해가 안 된다면, 버그를 보고하거나 우리에게 채팅하세요.",
+    translated: 'auto',
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
   },
   "file_import_mapping.mapping_json": {
     /* File import mapping data label */
-    val: "Data",
-    translated: false,
+    val: "데이터",
+    translated: 'auto',
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "getting-started-link": {
     val: (clickhandler) => {
-          return <span>First time using Buckets?  Check out the <a href="#" onClick={clickhandler}>Getting Started Videos.</a></span>
+          return <span>버킷을 처음 사용하시나요? 확인해 보세요. <a href="#" onClick={clickhandler}>시작 가이드 비디오.</a></span>
         },
-    translated: false,
+    translated: 'auto',
     h: "9NGQRvIxlAaOF9i+zWPXMFQubcY+5jtA7Td/lii16aM=",
   },
   "go-to-next-month": {
     /* Menu label for "Go To... Next Month" */
-    val: "Next Month",
-    translated: false,
+    val: "다음 달",
+    translated: 'auto',
     h: "O3OOxop0NEwRr9eDaqAU+8KU9Pw0GeVnYLo0Abdkotw=",
   },
   "go-to-next-year": {
     /* Menu label for "Go To... Next Year" */
-    val: "Next Year",
-    translated: false,
+    val: "내년",
+    translated: 'auto',
     h: "NfnsOERP+IaYQvH6i+9MJ6KRpbYSapnXXUFm60jUbqo=",
   },
   "go-to-prev-month": {
     /* Menu label for "Go To... Previous Month" */
-    val: "Previous Month",
-    translated: false,
+    val: "이전 달",
+    translated: 'auto',
     h: "aCvOorN0f6iWVHoOoBvWYttjgiPF/x5zZvXX3IqFI6g=",
   },
   "go-to-prev-year": {
     /* Menu label for "Go To... Previous Year" */
-    val: "Previous Year",
-    translated: false,
+    val: "이전 연도",
+    translated: 'auto',
     h: "ZntiItsGCJfJBxKIXyzi3+NpS8jZXYAK8IXrOl9bfFg=",
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
     val: "This Month",
-    translated: false,
+    translated: 'auto',
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
   "import-verb": {
-    val: "Import",
-    translated: false,
+    val: "수입",
+    translated: 'auto',
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
-    val: "in the bank",
-    translated: false,
+    val: "은행에서",
+    translated: 'auto',
     h: "7gl7ZdgJ3HfhOcQMiU7hVkFpXIR3KFxXtlMhKyE/Irw=",
   },
   "misc group name": {
-    val: "Misc",
-    translated: false,
+    val: "기타",
+    translated: 'auto',
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "money-balance-as-of": {
     val: (amount:JSX.Element, date:JSX.Element) => {
-                  return <span>{amount} as of {date}</span>
+                  return <span>{amount} 기준 {date}</span>
                 },
-    translated: false,
+    translated: 'auto',
     h: "99X4HuXB5SeCrTqn5LuD/S4a6GjUCB6gV1Z1gAZPfKM=",
   },
   "months gain/loss label": {
     val: (gain) => {
-                        return gain >= 0 ? "Month's gain" : "Month's loss";
+                        return gain >= 0 ? "월의 이익" : "월의 손실";
                       },
-    translated: false,
+    translated: 'auto',
     h: "lGcEnJfZJau2h5ohbKNxY1FjL0vJoW3oJOJQwSCt+Kg=",
   },
   "more": {
-    val: "more",
-    translated: false,
+    val: "더",
+    translated: 'auto',
     h: "uiqCMjSdL1TgDZHPNYXLnfN/yZq59+kDR/wKZSAP0hU=",
   },
   "nag-message": {
-    val: () => `This is an unregistered trial version, and although the trial is untimed, a license must be purchased for continued use.
+    val: () => `이것은 등록되지 않은 평가판 버전입니다. 평가판은 시간 제한이 없지만, 계속 사용하려면 라이선스를 구매해야 합니다.
 
-Would you like to purchase a license now?`,
-    translated: false,
+지금 라이선스를 구매하시겠습니까?`,
+    translated: 'auto',
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
-    val: (url) => `Go to ${url}`,
-    translated: false,
+    val: (url) => `으로 가기 ${url}`,
+    translated: 'auto',
     h: "nI/J4GfYlL6BgRZRSiPFfA5o7ASdx2VVYW6x3vgCuKE=",
   },
   "net-transfers.help": {
-    val: "Net transfers are the sum total of all transactions marked as a transfer.  It should be 0.  If it's not, click through to make sure there aren't duplicate transactions or transactions miscategorized as transfers.",
-    translated: false,
+    val: "순 이체는 이체로 표시된 모든 거래의 합계입니다. 0이어야 합니다. 그렇지 않으면, 중복 거래나 이체로 잘못 분류된 거래가 없는지 확인하기 위해 클릭하세요.",
+    translated: 'auto',
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "no name": {
-    val: "no name",
-    translated: false,
+    val: "이름 없음",
+    translated: 'auto',
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "noin.income": {
-    val: "Income",
-    translated: false,
+    val: "수입",
+    translated: 'auto',
     h: "D2fJbta5d1Z5QYuRC5zzkBHsItZOOgY4FKrFJ64BvRs=",
   },
   "notify-downloaded-file": {
-    val: filename => `Downloaded file: ${filename}`,
-    translated: false,
+    val: "filename => `다운로드된 파일: ${filename}`,"
+    translated: 'auto',
     h: "HwxJ2TVx57Qef6bXYySekL/eoBzvIEFUqBxQdxgcyCs=",
   },
   "noun.debt": {
-    val: "Debt",
-    translated: false,
+    val: "부채",
+    translated: 'auto',
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "noun.transfer": {
-    val: "Transfer",
-    translated: false,
+    val: "전송",
+    translated: 'auto',
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "off": {
-    val: "off",
-    translated: false,
+    val: "끄기",
+    translated: 'auto',
     h: "nzvsum5LFYOz4ZRB3eTVliJTfZvVSpTSImJ4XkhThNA=",
   },
   "on": {
-    val: "on",
-    translated: false,
+    val: "켜짐",
+    translated: 'auto',
     h: "mQwjhouWWBSxF8+abE3+RUUurcIXHh+YGGXr/ITxByQ=",
   },
   "press Escape to close": {
-    val: "press Escape to close",
-    translated: false,
+    val: "Escape 키를 눌러 닫기",
+    translated: 'auto',
     h: "5jKKS3xwogwcB2YptY5sW2/MQ/ikfMbR99l8ViHxmAA=",
   },
   "rain.help.neg": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have put {abs_amount} too much money into buckets.  If all transactions have been categorized this month, remove {abs_amount} from buckets of your choosing.
+                                      귀하가 {abs_amount}을 버킷에 너무 많이 넣었습니다.  이번 달에 모든 거래가 분류되었으면, 원하는 버킷에서 {abs_amount}을 제거하세요.
                                       </span>
                                     },
-    translated: false,
+    translated: 'auto',
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
     val: (abs_amount:JSX.Element) => {
                                       return <span>
-                                      You have {abs_amount} left to put into buckets.
+                                      버킷에 넣을 {abs_amount}이 남았습니다.
                                       </span>
                                     },
-    translated: false,
+    translated: 'auto',
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "sample-size": {
-    val: (count:number, total:number) => {
-          return `Showing ${count} of ${total}`
-        },
-    translated: false,
+    val: (count:number, total:number) => { return `총 ${total} 중 ${count}개 표시` },
+    translated: 'auto',
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
   "settings.key": {
     /* Settings name label */
-    val: "Name",
-    translated: false,
+    val: "이름",
+    translated: 'auto',
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "settings.value": {
     /* Settings value label */
-    val: "Value",
-    translated: false,
+    val: "값",
+    translated: 'auto',
     h: "+VG3lKNZdlCrMfK2d7yG7/OtZ5iGD3yqkIqOIClVuNw=",
   },
   "simplefin-connect-intro": {
-    val: "To connect, do the following:",
-    translated: false,
+    val: "연결하려면 다음을 수행하세요:",
+    translated: 'auto',
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
   "simplefin-get-token": {
     val: (mklink) => {
-              return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN Bridge')}</span>
+              return <span>Get a SimpleFIN Token from the {mklink('SimpleFIN 브리지')}</span>
             },
-    translated: false,
+    translated: 'auto',
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
   "simplefin-paste": {
-    val: "Then paste your SimpleFIN Token here:",
-    translated: false,
+    val: "그런 다음 여기에 SimpleFIN 토큰을 붙여넣으세요:",
+    translated: 'auto',
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "simplefin_connection.access_token": {
     /* SimpleFIN access token label */
-    val: "Token",
-    translated: false,
+    val: "토큰",
+    translated: 'auto',
     h: "RqJX7GMSAvHvTe36qzKsJI8E56vSQX8DYTUB/G7/RTI=",
   },
   "single-account Closed": {
-    val: "Closed",
-    translated: false,
+    val: "닫음",
+    translated: 'auto',
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "single-bucket Kicked": {
-    val: "Kicked",
-    translated: false,
+    val: "킥",
+    translated: 'auto',
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
-    val: "some day...",
-    translated: false,
+    val: "어느 날...",
+    translated: 'auto',
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "sync-symbol help": {
-    val: "This symbol means the transaction came from an import/sync",
-    translated: false,
+    val: "이 기호는 거래가 수입/동기화에서 왔음을 의미합니다.",
+    translated: 'auto',
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
     val: (start: string, end: string) => {
-        return `Syncing transactions from ${start} to ${end}`;
+        return `거래를 ${start}부터 ${end}까지 동기화 중`;
       },
-    translated: false,
+    translated: 'auto',
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
   "tab": {
     /* Label for 'tab' character */
-    val: "tab",
-    translated: false,
+    val: "탭",
+    translated: 'auto',
     h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
   },
   "this_device.name": {
-    val: "No name",
-    translated: false,
+    val: "이름 없음",
+    translated: 'auto',
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "toast.updated-trans": {
-    val: count => `Updated/created ${count} transactions`,
-    translated: false,
+    val: "count => `업데이트/생성된 ${count} 거래`,"
+    translated: 'auto',
     h: "bBKDE3rQIV5P80cYEL6mkLmIvgxjzVHCIf3aFa+KtmU=",
   },
   "trans-created-outofview": {
     val: (month: string) => {
-              return <span>Transaction created in {month} </span>;
+              return <span>거래가 {month}에 생성되었습니다 </span>;
             },
-    translated: false,
+    translated: 'auto',
     h: "ur97iCX3Iw1E262eZ72YAEFdXlwvlqNkyNn1caIKi0E=",
   },
   "transfer-from-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer from {dropdown}</span>
+                return <span>전송 원본 {dropdown}</span>
               },
-    translated: false,
+    translated: 'auto',
     h: "VJmIMDZGOdMKwBpoqDUYiVdCFhw1pJ4qCmKiszAECL4=",
   },
   "transfer-to-account": {
     val: (dropdown:JSX.Element) => {
-                return <span>Transfer to {dropdown}</span>
+                return <span>이전하기 {dropdown}</span>
               },
-    translated: false,
+    translated: 'auto',
     h: "Bd1IGkjXo2ruWofGrT+WwLdiy8IwJ/PW+7SO4TaDcps=",
   },
   "unknown_account.account_hash": {
     /* Account fingerprint label */
     val: "Fingerprint",
-    translated: false,
+    translated: 'auto',
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "unknown_account.description": {
     /* Unknown account description label */
-    val: "Description",
-    translated: false,
+    val: "설명",
+    translated: 'auto',
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "unknown_account.ignore": {
     /* Label for flag indicating if an unknown account is ignored or not */
-    val: "Ignore",
-    translated: false,
+    val: "무시",
+    translated: 'auto',
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "use-delimiter": {
     /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
-    val: (delimiter:string) => `Use "${delimiter}"`,
-    translated: false,
+    val: (delimiter:string) => `사용 "${delimiter}"`,
+    translated: 'auto',
     h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
   },
   "verb-open": {
     /* Verb to open a page */
-    val: "Open",
-    translated: false,
+    val: "열기",
+    translated: 'auto',
     h: "PlLwT5LggHCmpOqXIa1xXdU/K/ztbasiD703lhOnltA=",
   },
 }

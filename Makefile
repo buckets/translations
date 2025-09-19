@@ -4,15 +4,19 @@ MAKEFLAGS += -j10
 
 all: $(TRANSLATED_FILES)
 
-langs/%.tsx.translated: langs/%.tsx
-	nim r -d:release -d:ssl dev/translate_ai.nim -f $&lt;
+dev/translate_ai: dev/translate_ai.nim
+	nim c -d:release -d:ssl $<
+
+langs/%.tsx.translated: langs/%.tsx dev/translate_ai
+	dev/translate_ai -f $<
 
 accept:
 	for file in $(SOURCE_FILES); do \
-		echo "cp $${file}.translated $${file}"; \
+		cp $${file}.translated $${file}; \
 	done
 
 .PHONY: all accept
+.PRECIOUS: $(TRANSLATED_FILES)
 
 # cp $${file}.translated $$file;
 # cp $${file%.translated} $$file;

@@ -6,3 +6,4 @@ node_modules/
 totrans
 .envrc
 langs/*.translated
+dev/translate_ai
