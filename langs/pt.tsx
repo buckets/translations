@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ILangPack } from '@iffycan/i18n'
+import { ILangPack } from './i18n_ifaces'
 import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
@@ -26,7 +26,7 @@ const messages:IMessages = {
     /* Label for things that are blank */
     /* Label for things that are blank */
     val: "(Em branco)",
-    translated: 'auto',
+    translated: "auto",
     h: "zYRwxSqiVmaHvp3Ra8DQeYHJW50oqXUf4Jz4UvXRs4U=",
   },
   "(Drop files or click)": {
@@ -222,7 +222,7 @@ const messages:IMessages = {
   "Automatic": {
     /* Option for theme preference indicating that the system will choose between light and dark */
     val: "Automático",
-    translated: 'auto',
+    translated: "auto",
     h: "0YA2t1ssPk8k4xaICpB9//fM3ol0d/FeOVb6dCD0ux8=",
   },
   "Available version": {
@@ -342,7 +342,7 @@ const messages:IMessages = {
   },
   "Bucket Transaction ID": {
     val: "ID de Transação de Bucket",
-    translated: 'auto',
+    translated: "auto",
     h: "1bsbXV1Kuxj83UA24XCyscrAKm+nsN+WNbFz1+lf66E=",
   },
   "Bucket Transactions": {
@@ -352,7 +352,7 @@ const messages:IMessages = {
   },
   "Bucket amount": {
     val: "Quantidade do balde",
-    translated: 'auto',
+    translated: "auto",
     h: "KeOvMpoI1q2oV66HC3pMPPSZyZ3AfK3/ttog4A9oHTs=",
   },
   "Bucket deleted completely": {
@@ -421,7 +421,7 @@ const messages:IMessages = {
   },
   "Budget files are too different to merge": {
     val: "Os arquivos de orçamento são muito diferentes para mesclar",
-    translated: 'auto',
+    translated: "auto",
     h: "S/vIb5Nknf3NHyuW7Xmh5zS8soTt74dT2/tWCxM5lic=",
   },
   "Budget password:": {
@@ -451,7 +451,7 @@ const messages:IMessages = {
   },
   "Can't merge budgets of different versions": {
     val: "Não é possível mesclar orçamentos de versões diferentes",
-    translated: 'auto',
+    translated: "auto",
     h: "6+AzeGDN9PmeIUO0hjF85F3PzmbhX9bXkHzYVrGiNU4=",
   },
   "Cancel": {
@@ -668,7 +668,7 @@ const messages:IMessages = {
   },
   "Connection deleted": {
     val: "Conexão excluída",
-    translated: 'auto',
+    translated: "auto",
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -683,7 +683,7 @@ const messages:IMessages = {
   },
   "Count": {
     val: "Contar",
-    translated: 'auto',
+    translated: "auto",
     h: "ikvrmlftwm5qPEEca6YD6duk6CH45CROgmp9sfZMEFE=",
   },
   "Create Account": {
@@ -742,7 +742,7 @@ const messages:IMessages = {
   "Currency symbols": {
     /* Label for currency symbol setting */
     val: "Símbolos de moeda",
-    translated: 'auto',
+    translated: "auto",
     h: "MB7GDp8dkw8tLgwCzsb2VwrDRWwirbks5+U6PkshBB4=",
   },
   "Current version": {
@@ -765,7 +765,7 @@ const messages:IMessages = {
   "Dark": {
     /* Option for theme preference */
     val: "Escuro",
-    translated: 'auto',
+    translated: "auto",
     h: "n09JYTXgkVzgVfXO+ZBo3gryCtlg9t+GoZSQe2YpJPQ=",
   },
   "Data": {
@@ -891,7 +891,7 @@ const messages:IMessages = {
   },
   "Device ID": {
     val: "ID do Dispositivo",
-    translated: 'auto',
+    translated: "auto",
     h: "23vizNM3wG6SeZvqULHYvtlqlWmwbFL3GuLOzGzdSK8=",
   },
   "Diapers": {
@@ -983,12 +983,12 @@ const messages:IMessages = {
   },
   "Encryption": {
     val: "Criptografia",
-    translated: 'auto',
+    translated: "auto",
     h: "Rfsn7WkrTLeDLzups4h7merVzPfg8xcRh1++z49WW8Y=",
   },
   "Encryption keys": {
     val: "Chaves de criptografia",
-    translated: 'auto',
+    translated: "auto",
     h: "u45A8tEUHjVJ/FuiM5W+sNzNth8QZuHXNgdL16YmB1U=",
   },
   "Ending Balance": {
@@ -1018,7 +1018,7 @@ const messages:IMessages = {
   },
   "Error decrypting recording": {
     val: "Erro ao descriptografar a gravação",
-    translated: 'auto',
+    translated: "auto",
     h: "6LehLh8oNPMtzfLjQbZAJ3a35TSBoIn+XTBtBBaEuKI=",
   },
   "Error during import": {
@@ -1053,7 +1053,7 @@ const messages:IMessages = {
   },
   "Error running macro": {
     val: "Erro ao executar macro",
-    translated: 'auto',
+    translated: "auto",
     h: "obu/8VMe/z+StejTUbzL5fGOP7tMkWw4DfW4KkF/lxs=",
   },
   "Error running recording": {
@@ -1131,7 +1131,7 @@ const messages:IMessages = {
   },
   "Filter": {
     val: "Filtro",
-    translated: 'auto',
+    translated: "auto",
     h: "gG/X0Prd382E2jAAsfyk3bynhjgo9Fk44NYmIbqfMTk=",
   },
   "Find Next": {
@@ -1169,7 +1169,7 @@ const messages:IMessages = {
   "For Older Budgets": {
     /* Label for section related to updating from older budgets */
     val: "For Orçamentos Antigos",
-    translated: 'auto',
+    translated: "auto",
     h: "TMGosuE5olJuLuly8uc8gx4r4RTMA3guKrboArLuB7w=",
   },
   "Forbidden": {
@@ -1436,7 +1436,7 @@ const messages:IMessages = {
   },
   "Invalid password": {
     val: "Senha inválida",
-    translated: 'auto',
+    translated: "auto",
     h: "4JKuk5cidGqS+Yy2zWi8Bf+XYJLipTr94xQ+cPTJUVs=",
   },
   "Invalid transactions preventing import": {
@@ -1500,7 +1500,7 @@ const messages:IMessages = {
   },
   "Language default": {
     val: "Idioma padrão",
-    translated: 'auto',
+    translated: "auto",
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
@@ -1548,7 +1548,7 @@ const messages:IMessages = {
   "Light": {
     /* Option for theme preference */
     val: "Claro",
-    translated: 'auto',
+    translated: "auto",
     h: "C0avqWOAFWs6Zf7/577zzmx49uDbTZDSmLAJIQchfuE=",
   },
   "Limit": {
@@ -1558,7 +1558,7 @@ const messages:IMessages = {
   },
   "Limit:": {
     val: "Limite:",
-    translated: 'auto',
+    translated: "auto",
     h: "fU5A7Xvpww+aXRMyXDk5JaooMFWEKRFeMBtm2aYfRXQ=",
   },
   "Link Account": {
@@ -1588,7 +1588,7 @@ const messages:IMessages = {
   },
   "Macro deleted": {
     val: "Macro excluída",
-    translated: 'auto',
+    translated: "auto",
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1626,7 +1626,7 @@ const messages:IMessages = {
   },
   "Mass Update": {
     val: "Atualização em Massa",
-    translated: 'auto',
+    translated: "auto",
     h: "8Vx8raw2DARWzkCbKtZrIQdXCP2vDzw/FMYKfw51Jcs=",
   },
   "Medical": {
@@ -1641,7 +1641,7 @@ const messages:IMessages = {
   },
   "Memos To Payees": {
     val: "Memorandos aos Beneficiários",
-    translated: 'auto',
+    translated: "auto",
     h: "RrzhV+LUxgPfiFMK0krRxVfeKXhRquwgRwC8neBJ2Xs=",
   },
   "Merge": {
@@ -1656,7 +1656,7 @@ const messages:IMessages = {
   },
   "Merge Payees": {
     val: "Mesclar Beneficiários",
-    translated: 'auto',
+    translated: "auto",
     h: "E1u4wBRN09jfBf9R5K2xo80gFrGBuDEB39Ri7EL8bYw=",
   },
   "Merge already in progress": {
@@ -1706,7 +1706,7 @@ const messages:IMessages = {
   },
   "Move Account": {
     val: "Mover Conta",
-    translated: 'auto',
+    translated: "auto",
     h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
@@ -1721,7 +1721,7 @@ const messages:IMessages = {
   },
   "Move all transaction memos to blank payee field": {
     val: "Mover todos os memorandos de transações para o campo de beneficiário em branco",
-    translated: 'auto',
+    translated: "auto",
     h: "Ibe3mbvnAzB2IdenvVSIAQdz1//j2Hd5vMpVIn+CH+8=",
   },
   "NO": {
@@ -1836,12 +1836,12 @@ const messages:IMessages = {
   },
   "New transaction": {
     val: "Nova transação",
-    translated: 'auto',
+    translated: "auto",
     h: "1VsMSv2xvSjfHSqSZPw0gw1fD9E+Jvyr+2JVT/4bt64=",
   },
   "New value": {
     val: "Novo valor",
-    translated: 'auto',
+    translated: "auto",
     h: "IYMui0S7sNqh1DSN12/iCzLNTNeExrjoZ96g5EkvRgc=",
   },
   "No": {
@@ -1976,7 +1976,7 @@ const messages:IMessages = {
   "OBJ.payee": {
     /* Transaction payee */
     val: "Beneficiário",
-    translated: 'auto',
+    translated: "auto",
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "OBJ.posted": {
@@ -2096,12 +2096,12 @@ const messages:IMessages = {
   },
   "Password not yet set": {
     val: "Senha ainda não definida",
-    translated: 'auto',
+    translated: "auto",
     h: "8NXPDxaFV7KVroTg3YTaO/dWsepbJT/ASSZw9yGeD5g=",
   },
   "Password reset": {
     val: "Redefinição de senha",
-    translated: 'auto',
+    translated: "auto",
     h: "dVWv+2lbwYUiQVBBqp1wHOfyMDlGJq8aqtvWV20t/Ns=",
   },
   "Passwords did not match": {
@@ -2126,12 +2126,12 @@ const messages:IMessages = {
   },
   "Payee": {
     val: "Beneficiário",
-    translated: 'auto',
+    translated: "auto",
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "Payees": {
     val: "Beneficiários",
-    translated: 'auto',
+    translated: "auto",
     h: "YjA+7FE+9F3uMVjqhQQyv29+TRFaEMDJfFGbbX1+9aI=",
   },
   "Pending merges": {
@@ -2272,7 +2272,7 @@ const messages:IMessages = {
   },
   "Regenerate": {
     val: "Regenerar",
-    translated: 'auto',
+    translated: "auto",
     h: "u5QDOgMBGl3INOqya7C/iE0tXSBbYdhLgcM9mBSHQ6k=",
   },
   "Registered to": {
@@ -2355,12 +2355,12 @@ const messages:IMessages = {
   },
   "Reset Password": {
     val: "Redefinir Senha",
-    translated: 'auto',
+    translated: "auto",
     h: "PHk0gZ6FwtHbvhVQhAv2NOv4tUth66ZawXknegPfOIU=",
   },
   "Reset bank macro password": {
     val: "Redefinir senha de macro do banco",
-    translated: 'auto',
+    translated: "auto",
     h: "aGiRaSU/j/Kke84s+8fSjfD+y1hVndJAUFpywUJVq50=",
   },
   "Restart Buckets": {
@@ -2426,7 +2426,7 @@ const messages:IMessages = {
   },
   "Search categories": {
     val: "Pesquisar categorias",
-    translated: 'auto',
+    translated: "auto",
     h: "IScCkXq3OcNUufpAsgrWXkdRVqBrowHYo2hdSPS+X7I=",
   },
   "Search...": {
@@ -2637,7 +2637,7 @@ const messages:IMessages = {
   },
   "Suggested value": {
     val: "Valor sugerido",
-    translated: 'auto',
+    translated: "auto",
     h: "k6ScHeFo3C5+aB0s7M5rumKKBu3AJp93St0oUuF2GFw=",
   },
   "Swap NAME and MEMO": {
@@ -2690,12 +2690,12 @@ const messages:IMessages = {
   "Theme": {
     /* Label for application theme setting */
     val: "Tema",
-    translated: 'auto',
+    translated: "auto",
     h: "iIVgvkFsqSibVEM+h5dM+gyXv0J8Elgp99rvJsOFYqo=",
   },
   "There are unresolved conflicts": {
     val: "Há conflitos não resolvidos",
-    translated: 'auto',
+    translated: "auto",
     h: "WGAgJ2b6hUZ5DKTAJ6APu2LzgV5Fzwg0I80+N1TETdQ=",
   },
   "There has been an error.": {
@@ -2735,7 +2735,7 @@ const messages:IMessages = {
   },
   "This will break all existing bank macros": {
     val: "Isto quebrará todos os macros de banco existentes",
-    translated: 'auto',
+    translated: "auto",
     h: "VStGFY84kcqELxtAwamD6vI9ELaA4dZnOs2Ubvwnao8=",
   },
   "Thousands separator": {
@@ -2785,17 +2785,17 @@ const messages:IMessages = {
   },
   "Transaction ID": {
     val: "ID da Transação",
-    translated: 'auto',
+    translated: "auto",
     h: "5DaWwSVPo8La/gW0/QWRXAHx08KcbBLOe7BrRuMnKMQ=",
   },
   "Transaction Type": {
     val: "Tipo de Transação",
-    translated: 'auto',
+    translated: "auto",
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
     val: "Transação(ões) excluída(s)",
-    translated: 'auto',
+    translated: "auto",
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2869,17 +2869,17 @@ const messages:IMessages = {
   },
   "Unattended merge not possible": {
     val: "Mesclagem não supervisionada não é possível",
-    translated: 'auto',
+    translated: "auto",
     h: "gj2u4cxLi3C3cxHWoasHcAgEnMNADU6mwZx4EGEZgLU=",
   },
   "Unavailable": {
     val: "Indisponível",
-    translated: 'auto',
+    translated: "auto",
     h: "tML1A7GUQ8Z/SUbUV6zcxmjjrptonGvYtuU1Y2y/gvE=",
   },
   "Uncategorized": {
     val: "Sem categoria",
-    translated: 'auto',
+    translated: "auto",
     h: "BjQg1sHfdAVLyMzfMfC6sQnK4vIGQ6vrl6OsGg8Oqkk=",
   },
   "Uncaught Error": {
@@ -2911,7 +2911,7 @@ const messages:IMessages = {
   },
   "Unknown account deleted": {
     val: "Conta desconhecida excluída",
-    translated: 'auto',
+    translated: "auto",
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
@@ -3001,12 +3001,12 @@ const messages:IMessages = {
   },
   "Update Payee": {
     val: "Atualizar Beneficiário",
-    translated: 'auto',
+    translated: "auto",
     h: "28JOAeb8QLlBYMLiOO8RGW8SHBJ14Gdp/t/7rprHodk=",
   },
   "Update Payees": {
     val: "Atualizar Beneficiários",
-    translated: 'auto',
+    translated: "auto",
     h: "hJhDyJDaai8R9NXK8J3AOdqOOhdqmkZeR8ziJyzuzVU=",
   },
   "Update Target Date": {
@@ -3031,7 +3031,7 @@ const messages:IMessages = {
   },
   "Update complete": {
     val: "Atualização concluída",
-    translated: 'auto',
+    translated: "auto",
     h: "5JP6upRWYG0d3p+rGNvUMcl08i6wvxKs0zhYG5NvUj4=",
   },
   "Update downloaded.": {
@@ -3041,7 +3041,7 @@ const messages:IMessages = {
   },
   "Update failed": {
     val: "Atualização falhou",
-    translated: 'auto',
+    translated: "auto",
     h: "MU8WQkSmMfpUADhweg+WSBrhrTcWK23Ow4QqwxyoAfo=",
   },
   "Update opening balance": {
@@ -3062,7 +3062,7 @@ const messages:IMessages = {
   },
   "Updating...": {
     val: "Atualizando...",
-    translated: 'auto',
+    translated: "auto",
     h: "gAFg4pzFnJ37C/ReDfO2llXdsckG7onQiLq6WjhBWxk=",
   },
   "Used in future": {
@@ -3294,7 +3294,7 @@ const messages:IMessages = {
   "account.ranking": {
     /* Account order label */
     val: "Pedido",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
@@ -3594,7 +3594,7 @@ const messages:IMessages = {
   },
   "err": {
     val: "erro",
-    translated: 'auto',
+    translated: "auto",
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
@@ -3826,7 +3826,7 @@ Você gostaria de comprar uma licença agora?`,
   "tab": {
     /* Label for 'tab' character */
     val: "Tab",
-    translated: 'auto',
+    translated: "auto",
     h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
   },
   "this_device.name": {
@@ -3893,6 +3893,7 @@ Você gostaria de comprar uma licença agora?`,
 }
 export const pack:ILangPack = {
   name: 'Português',
+  en_name: 'Portuguese',
   dir: 'ltr',
   numbers: {
     thousands: '.',

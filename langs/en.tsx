@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ILangPack } from '@iffycan/i18n'
+import { ILangPack } from './i18n_ifaces'
 import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
@@ -3889,6 +3889,7 @@ Would you like to purchase a license now?`,
 }
 export const pack:ILangPack = {
   name: 'English',
+  en_name: 'English',
   dir: 'ltr',
   numbers: {
     thousands: ',',

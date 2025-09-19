@@ -3,29 +3,31 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 # Current language support
 
 <!-- trans stats start -->
-| Complete | Language |
-|-------|---|
-|   44% | Беларуская |
-|   99% | Български |
-|    3% | čeština |
-|    3% | Dansk |
-|   86% | Deutsch |
-|  100% | English |
-|   75% | Español |
-|   98% | Eesti |
-|   64% | Français |
-|    0% | עִברִית |
-|   37% | Magyar |
-|   49% | Italiano |
-|   77% | Norsk |
-|   61% | Nederlands |
-|   58% | Polski |
-|   92% | Português |
-|   98% | Română |
-|   22% | Русский |
-|   65% | Svenska |
-|   24% | Türkçe |
-|   30% | Українська |
+| AI Translated | Human Translated | Language | Code |
+|--------------:|-----------------:|----------|------|
+|          100% |               0% | العربية | ar |
+|          100% |              44% | Беларуская | be |
+|          100% |              99% | Български | bg |
+|          100% |               3% | čeština | cs |
+|          100% |               3% | Dansk | da |
+|          100% |              86% | Deutsch | de |
+|          100% |             100% | English | en |
+|          100% |              75% | Español | es |
+|          100% |              98% | Eesti | et |
+|          100% |              64% | Français | fr |
+|          100% |               0% | עִברִית | he |
+|           99% |              37% | Magyar | hu |
+|          100% |              48% | Italiano | it |
+|           99% |               0% | 한국어 | ko |
+|           99% |              77% | Norsk | nb |
+|          100% |              61% | Nederlands | nl |
+|          100% |              58% | Polski | pl |
+|          100% |              92% | Português | pt |
+|          100% |              98% | Română | ro |
+|          100% |              22% | Русский | ru |
+|          100% |              65% | Svenska | sv |
+|          100% |              24% | Türkçe | tr |
+|          100% |              30% | Українська | uk |
 <!-- trans stats end -->
 
 # How to contribute

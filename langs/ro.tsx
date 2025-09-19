@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ILangPack } from '@iffycan/i18n'
+import { ILangPack } from './i18n_ifaces'
 import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
@@ -668,7 +668,7 @@ const messages:IMessages = {
   },
   "Connection deleted": {
     val: "Conexiune ștearsă",
-    translated: 'auto',
+    translated: "auto",
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -1500,7 +1500,7 @@ const messages:IMessages = {
   },
   "Language default": {
     val: "Limbă implicită",
-    translated: 'auto',
+    translated: "auto",
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
@@ -1588,7 +1588,7 @@ const messages:IMessages = {
   },
   "Macro deleted": {
     val: "Macro șters",
-    translated: 'auto',
+    translated: "auto",
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1706,7 +1706,7 @@ const messages:IMessages = {
   },
   "Move Account": {
     val: "Mută Cont",
-    translated: 'auto',
+    translated: "auto",
     h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
@@ -2790,12 +2790,12 @@ const messages:IMessages = {
   },
   "Transaction Type": {
     val: "Tip de tranzacție",
-    translated: 'auto',
+    translated: "auto",
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
     val: "Tranzacție(i) șterse",
-    translated: 'auto',
+    translated: "auto",
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2911,7 +2911,7 @@ const messages:IMessages = {
   },
   "Unknown account deleted": {
     val: "Cont necunoscut șters",
-    translated: 'auto',
+    translated: "auto",
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
@@ -3294,7 +3294,7 @@ const messages:IMessages = {
   "account.ranking": {
     /* Account order label */
     val: "Comandă",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
@@ -3893,6 +3893,7 @@ Doriți să cumpărați o licență acum?`,
 }
 export const pack:ILangPack = {
   name: 'Română',
+  en_name: 'Romanian',
   dir: 'ltr',
   numbers: {
     thousands: '.',

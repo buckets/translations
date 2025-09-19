@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ILangPack } from '@iffycan/i18n'
+import { ILangPack } from './i18n_ifaces'
 import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
@@ -664,7 +664,7 @@ const messages:IMessages = {
   },
   "Connection deleted": {
     val: "Връзката е изтрита",
-    translated: 'auto',
+    translated: "auto",
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -1584,7 +1584,7 @@ const messages:IMessages = {
   },
   "Macro deleted": {
     val: "Макрос изтрит",
-    translated: 'auto',
+    translated: "auto",
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -2791,7 +2791,7 @@ const messages:IMessages = {
   },
   "Transaction(s) deleted": {
     val: "Транзакция(и) изтрити",
-    translated: 'auto',
+    translated: "auto",
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2907,7 +2907,7 @@ const messages:IMessages = {
   },
   "Unknown account deleted": {
     val: "Изтрита неизвестна сметка",
-    translated: 'auto',
+    translated: "auto",
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
@@ -3889,6 +3889,7 @@ const messages:IMessages = {
 }
 export const pack:ILangPack = {
   name: 'Български',
+  en_name: 'Bulgarian',
   dir: 'ltr',
   numbers: {
     thousands: ' ',

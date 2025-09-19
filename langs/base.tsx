@@ -1,6 +1,6 @@
 // Auto-generated file
 
-import { IMsg, IMessageSet } from '@iffycan/i18n'
+import { IMsg, IMessageSet } from './i18n_ifaces'
 export interface IMessages extends IMessageSet {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Blank)": IMsg<string>;

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { ILangPack } from '@iffycan/i18n'
+import { ILangPack } from './i18n_ifaces'
 import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
@@ -664,7 +664,7 @@ const messages:IMessages = {
   },
   "Connection deleted": {
     val: "Ühendus kustutatud",
-    translated: 'auto',
+    translated: "auto",
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -1496,7 +1496,7 @@ const messages:IMessages = {
   },
   "Language default": {
     val: "Keel vaikimisi",
-    translated: 'auto',
+    translated: "auto",
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
@@ -1584,7 +1584,7 @@ const messages:IMessages = {
   },
   "Macro deleted": {
     val: "Makro kustutatud",
-    translated: 'auto',
+    translated: "auto",
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1702,7 +1702,7 @@ const messages:IMessages = {
   },
   "Move Account": {
     val: "Liiguta konto",
-    translated: 'auto',
+    translated: "auto",
     h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
@@ -1985,7 +1985,7 @@ const messages:IMessages = {
   "OFF": {
     /* Label for toggle switch OFF */
     val: "VÄLJA",
-    translated: 'auto',
+    translated: "auto",
     h: "g0c9fS73Ra/6fEcgtA+AZ5QtmmCEO7dX81vP7YtzM4o=",
   },
   "OK": {
@@ -1996,7 +1996,7 @@ const messages:IMessages = {
   "ON": {
     /* Label for toggle switch ON */
     val: "SEES",
-    translated: 'auto',
+    translated: "auto",
     h: "wZR/9OiLHV0XO5Mm9aURB4fbSWSyea2Z6CQce8Q14gU=",
   },
   "Off Budget Accounts": {
@@ -2382,7 +2382,7 @@ const messages:IMessages = {
   "Reverse": {
     /* Label for checkbox indicating that transactions should be imported in reverse order */
     val: "Tagurpidi",
-    translated: 'auto',
+    translated: "auto",
     h: "asyh3SM4xzCuJwKJ77z/6mR7GortI9HKht5YBJYkHnk=",
   },
   "Run": {
@@ -2786,12 +2786,12 @@ const messages:IMessages = {
   },
   "Transaction Type": {
     val: "Tehingu tüüp",
-    translated: 'auto',
+    translated: "auto",
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
     val: "Tehing(ud) kustutatud",
-    translated: 'auto',
+    translated: "auto",
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2907,7 +2907,7 @@ const messages:IMessages = {
   },
   "Unknown account deleted": {
     val: "Tundmatu konto kustutatud",
-    translated: 'auto',
+    translated: "auto",
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
@@ -3290,7 +3290,7 @@ const messages:IMessages = {
   "account.ranking": {
     /* Account order label */
     val: "Tellimus",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
@@ -3356,7 +3356,7 @@ const messages:IMessages = {
   "bank_macro.enabled": {
     /* Bank macro enabled flag label */
     val: "Lubatud",
-    translated: 'auto',
+    translated: "auto",
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "bank_macro.enc_recording": {
@@ -3590,7 +3590,7 @@ const messages:IMessages = {
   },
   "err": {
     val: "viga",
-    translated: 'auto',
+    translated: "auto",
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
@@ -3889,6 +3889,7 @@ Kas soovid nüüd litsentsi osta?`,
 }
 export const pack:ILangPack = {
   name: 'Eesti',
+  en_name: 'Estonian',
   dir: 'ltr',
   numbers: {
     thousands: ' ',

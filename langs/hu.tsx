@@ -1,8 +1,7 @@
-import * as React
-  from 'react'
+import * as React from 'react'
 
-import {ILangPack} from '@iffycan/i18n'
-import {IMessages} from './base'
+import { ILangPack } from './i18n_ifaces'
+import { IMessages } from './base'
 
 // Contributors, include your name and optionally a link to
 // a website as you want it to appear in any credits.
@@ -25,7 +24,7 @@ const messages:IMessages = {
     /* Label for things that are blank */
     /* Label for things that are blank */
     val: "(Üres)",
-    translated: 'auto',
+    translated: "auto",
     h: "zYRwxSqiVmaHvp3Ra8DQeYHJW50oqXUf4Jz4UvXRs4U=",
   },
   "(Drop files or click)": {
@@ -40,7 +39,7 @@ const messages:IMessages = {
   },
   "(easiest)": {
     val: "(legkönnyebb)",
-    translated: 'auto',
+    translated: "auto",
     h: "mvpASP1TOoS7w7iXoO7ThUyiPKnrtytWyDC2XJ1WReE=",
   },
   "(optional)": {
@@ -66,7 +65,7 @@ const messages:IMessages = {
   },
   "Accept EULA": {
     val: "Elfogad EULA",
-    translated: 'auto',
+    translated: "auto",
     h: "2TWZMBgBGQU/CoeXRW5NR1b0AT4yW/zrLyRpUGWBQn8=",
   },
   "Account": {
@@ -97,7 +96,7 @@ const messages:IMessages = {
   "Account mapping": {
     /* Noun describing import details that map to an account */
     val: "Fiók leképezés",
-    translated: 'auto',
+    translated: "auto",
     h: "utrzN1AM7WMltloEYtQSoFhx5O5Zf4u6M2p33kntCXM=",
   },
   "Accounts": {
@@ -112,7 +111,7 @@ const messages:IMessages = {
   },
   "Action": {
     val: "Akció",
-    translated: 'auto',
+    translated: "auto",
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "Actions": {
@@ -133,13 +132,13 @@ const messages:IMessages = {
   },
   "Advanced settings": {
     val: "Haladó beállítások",
-    translated: 'auto',
+    translated: "auto",
     h: "oQ0ic6e7zWfGl55WCEVG2QbtvynCSY0WyVPEdEA15q4=",
   },
   "Agreements": {
     /* Label for page with Terms of Use type agreements */
     val: "Megállapodások",
-    translated: 'auto',
+    translated: "auto",
     h: "RJ//uETg43dMDTum+jM/26gJUl1X/TzlcrmBmETZxtc=",
   },
   "All Files": {
@@ -153,7 +152,7 @@ const messages:IMessages = {
   },
   "Allow new connections": {
     val: "Engedélyezze új kapcsolatokat",
-    translated: 'auto',
+    translated: "auto",
     h: "MGoLxui/5J17owbWiAA17QPnQkrBZ2bExUfiXFBaC+8=",
   },
   "Amount": {
@@ -163,7 +162,7 @@ const messages:IMessages = {
   },
   "Amount of money over-allocated in buckets.": {
     val: "A kosarakban túlkiosztott pénz összege.",
-    translated: 'auto',
+    translated: "auto",
     h: "kFucvPefN9Kae7dArnle8i0rTZZq1U+3d8w81lDNVKw=",
   },
   "Analysis": {
@@ -179,18 +178,18 @@ const messages:IMessages = {
   },
   "Any other monthly bills you have?": {
     val: "Van más havi számlád?",
-    translated: 'auto',
+    translated: "auto",
     h: "rmA9D10bvYOVj3U4kE7U6jALpz7WpqBJTv6HZaI4T/M=",
   },
   "App Settings": {
     val: "Alkalmazás beállításai",
-    translated: 'auto',
+    translated: "auto",
     h: "bk/DqvzHJTuksZnC0cWC2+KPOwsnilgNjXSPLv1SbPA=",
   },
   "As of": {
     /* Label for timestamp on a document */
     val: "Dátum szerint",
-    translated: 'auto',
+    translated: "auto",
     h: "AONctcFQnUGl+zc/NhrnGa7CfTpqu3E92stXUc93EEU=",
   },
   "Assets": {
@@ -205,64 +204,64 @@ const messages:IMessages = {
   },
   "Authenticated": {
     val: "Hitelesített",
-    translated: 'auto',
+    translated: "auto",
     h: "qFkX9LG17MNSZOEH8+oXRLvO9La2Ph/uzSCZn7/FPHg=",
   },
   "Authenticating": {
     val: "Hitelesítés",
-    translated: 'auto',
+    translated: "auto",
     h: "7Sf5Nv5dGmsCdcFHDTi6IdPNrr7sui7KirEdQpUMd7I=",
   },
   "Authentication": {
     val: "Hitelesítés",
-    translated: 'auto',
+    translated: "auto",
     h: "NAlBsTsQWu6FaPj3Q2Iyd12M/7PEA4UYqE+gj4dHkZA=",
   },
   "Automatic": {
     /* Option for theme preference indicating that the system will choose between light and dark */
     val: "Automata",
-    translated: 'auto',
+    translated: "auto",
     h: "0YA2t1ssPk8k4xaICpB9//fM3ol0d/FeOVb6dCD0ux8=",
   },
   "Available version": {
     /* Label for version available to upgrade Buckets to */
     val: "Elérhető verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "dPTYVfj33eBbVAOPN62sq/SkzXeFqTiSSeGbq7RT8ns=",
   },
   "Avenue available": {
     val: "Sugárút elérhető",
-    translated: 'auto',
+    translated: "auto",
     h: "0ZTppZemkrqVd6lIxbRj8UJat3meVAiWkM22EaiH5eg=",
   },
   "Avenue closed": {
     val: "Sugárút lezárva",
-    translated: 'auto',
+    translated: "auto",
     h: "E7OVHGkfKw0NKIt4PXlc0AQqXkllTGiKAqnilsHEzUE=",
   },
   "Avenue opened": {
     val: "Sugárút megnyitott",
-    translated: 'auto',
+    translated: "auto",
     h: "3UKUOWH4r70ixbYNjwWI7kEXLVPY/H62HsX7AypQ1D8=",
   },
   "Avenue type": {
     val: "Sugárút típus",
-    translated: 'auto',
+    translated: "auto",
     h: "m88+08lu2BgvX8BFsKwDKo/bYeJbqlIkmK5GD9AbD9s=",
   },
   "Avenue unavailable": {
     val: "Sugárút nem elérhető",
-    translated: 'auto',
+    translated: "auto",
     h: "cDAq+7ZyrtyC7zRkvSBe9Ob6LBn4eVkqXRT7Y3Bau3U=",
   },
   "Avenues": {
     val: "Sugárutak",
-    translated: 'auto',
+    translated: "auto",
     h: "Jyyh8MGvKZoZXXZkPyMrHYEAAyTOt+V8Kao2KKQtS6k=",
   },
   "Avenues are what you use to connect your devices together so you can send your budget from one device to another.": {
     val: "Avenues azok, amiket használsz az eszközeid összekötésére, hogy elküldhesd a költségvetésedet egyik eszközről a másikra.",
-    translated: 'auto',
+    translated: "auto",
     h: "XbtezQPrPTjwRYWch5a1SMCG3WCcDTCs0PlLzxyPRcY=",
   },
   "Average": {
@@ -283,25 +282,25 @@ const messages:IMessages = {
   "Backup file": {
     /* Label for backup file selector */
     val: "Backup file",
-    translated: 'auto',
+    translated: "auto",
     h: "HF5523dI/DYBC0mgunrYA58CSFMjLy0eMYOIgDnftyQ=",
   },
   "Backup folder": {
     /* Label for application preference of which folder to use for automatic backups */
     val: "Biztonsági mentés mappa",
-    translated: 'auto',
+    translated: "auto",
     h: "BLOblCLkVxAs6HObgPraktoiBEQNMNFixnzpvk7FWoU=",
   },
   "Backups": {
     /* Label for backup preferences */
     val: "Mentések",
-    translated: 'auto',
+    translated: "auto",
     h: "2JCpk92cgO56Ebw/lZGjh81dIWUzHyTIthk3tbUO5SY=",
   },
   "Backups enabled": {
     /* Label for application preference enabling/disabling automated backups */
     val: "Biztonsági másolatok engedélyezve",
-    translated: 'auto',
+    translated: "auto",
     h: "Y9MhMpBC7vFMEGWhaOb2cH6gqp/6lHO1R2XRniiNYes=",
   },
   "Balance": {
@@ -311,12 +310,12 @@ const messages:IMessages = {
   },
   "Bank macro": {
     val: "Bank makró",
-    translated: 'auto',
+    translated: "auto",
     h: "IQmQZ/1/eVg9LLwOsnxkUbQGAcx9ZkBAlrP1Ch3Xo/c=",
   },
   "Basic settings": {
     val: "Alapbeállítások",
-    translated: 'auto',
+    translated: "auto",
     h: "9/8gWH6aVupdwCUJFJ4KodEJWn4fFwbiASgh7oQcxPE=",
   },
   "Birthdays": {
@@ -331,7 +330,7 @@ const messages:IMessages = {
   },
   "Bring All to Front": {
     val: "Mindet előre",
-    translated: 'auto',
+    translated: "auto",
     h: "vXNLSncC5dTsDdfhZY5dhbev+Y3PpqQEy1fwxTkGWU0=",
   },
   "Bucket": {
@@ -341,7 +340,7 @@ const messages:IMessages = {
   },
   "Bucket Transaction ID": {
     val: "Tároló Tranzakció Azonosító",
-    translated: 'auto',
+    translated: "auto",
     h: "1bsbXV1Kuxj83UA24XCyscrAKm+nsN+WNbFz1+lf66E=",
   },
   "Bucket Transactions": {
@@ -351,7 +350,7 @@ const messages:IMessages = {
   },
   "Bucket amount": {
     val: "Vödör mennyiség",
-    translated: 'auto',
+    translated: "auto",
     h: "KeOvMpoI1q2oV66HC3pMPPSZyZ3AfK3/ttog4A9oHTs=",
   },
   "Bucket deleted completely": {
@@ -361,12 +360,12 @@ const messages:IMessages = {
   },
   "Bucket group": {
     val: "Vödör csoport",
-    translated: 'auto',
+    translated: "auto",
     h: "SK6rZDww/r+lLW1JUMyv3SXYmxaP95hasIOTSW4WFZY=",
   },
   "Bucket transaction": {
     val: "Vödör tranzakció",
-    translated: 'auto',
+    translated: "auto",
     h: "bEQDTy9m51uIwZj996XKffMPU91hkOBVlNOKpudB2hw=",
   },
   "Bucket type:": {
@@ -398,7 +397,7 @@ const messages:IMessages = {
   },
   "Buckets has crashed.  Please restart after submitting a bug report.": {
     val: "Buckets összeomlott. Kérjük, indítsa újra a hibajelentés benyújtása után.",
-    translated: 'auto',
+    translated: "auto",
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
   "Budget": {
@@ -415,12 +414,12 @@ const messages:IMessages = {
   },
   "Budget file": {
     val: "Költségvetés fájl",
-    translated: 'auto',
+    translated: "auto",
     h: "hbfzyLF9pCBuXZJ4fcHPQVNia5LnROzn4NZFhOhjuG8=",
   },
   "Budget files are too different to merge": {
     val: "A költségvetési fájlok túl eltérőek ahhoz, hogy össze lehessen őket vonni",
-    translated: 'auto',
+    translated: "auto",
     h: "S/vIb5Nknf3NHyuW7Xmh5zS8soTt74dT2/tWCxM5lic=",
   },
   "Budget password:": {
@@ -430,7 +429,7 @@ const messages:IMessages = {
   },
   "Budget-specific number format": {
     val: "Költségvetés-specifikus számformátum",
-    translated: 'auto',
+    translated: "auto",
     h: "34SWA6JebUvD6EsRbt8oe1ERhdfOkpdEfhXNZsRVcx4=",
   },
   "Budgeted": {
@@ -450,7 +449,7 @@ const messages:IMessages = {
   },
   "Can't merge budgets of different versions": {
     val: "Nem lehet egyesíteni a különböző verziójú költségvetéseket",
-    translated: 'auto',
+    translated: "auto",
     h: "6+AzeGDN9PmeIUO0hjF85F3PzmbhX9bXkHzYVrGiNU4=",
   },
   "Cancel": {
@@ -462,17 +461,17 @@ const messages:IMessages = {
   "Cancel Import": {
     /* Undo/redo label for canceling import */
     val: "Importálás megszakítása",
-    translated: 'auto',
+    translated: "auto",
     h: "ASPyW8TypDFl1ANm1SIrpmykDdl3rBQDzC+wk4mdZXA=",
   },
   "Cancel Merge": {
     val: "Mégse Összefésülés",
-    translated: 'auto',
+    translated: "auto",
     h: "xOUSd4pIBFhoe1VahnIJgCO8yf46iL9AGSBb3bE9Mvc=",
   },
   "Cancel merge": {
     val: "Összevonás megszakítása",
-    translated: 'auto',
+    translated: "auto",
     h: "PtR83Mtr2bGbo1WTP4IRb/XgW5AiIVvzTQD9jFDSoAI=",
   },
   "Cancel sync": {
@@ -487,17 +486,17 @@ const messages:IMessages = {
   },
   "Car Maintenance": {
     val: "Autó Karbantartás",
-    translated: 'auto',
+    translated: "auto",
     h: "Lsok3+kX1L7SXMumFWNo+oxBgfmGJcWg1CdSDw6byx8=",
   },
   "Car Payment": {
     val: "Autófizetés",
-    translated: 'auto',
+    translated: "auto",
     h: "wp49ZoinRgifzKQ+N9RrJ6LG/9Yw6hkw1RCwXwHc6tA=",
   },
   "Categories": {
     val: "Kategóriák",
-    translated: 'auto',
+    translated: "auto",
     h: "UxClJeKz605AO/90mJ2YOi6N2LJk9D+RJReMlC3TDO8=",
   },
   "Categorization": {
@@ -518,17 +517,17 @@ const messages:IMessages = {
   "Change": {
     /* Noun: name of object describing a change in data */
     val: "Változás",
-    translated: 'auto',
+    translated: "auto",
     h: "prG6DzYDTLinvWF30h7VL2QRdBBwll00hx4flJyEWMc=",
   },
   "Change Account Type": {
     val: "Számlatípus változtatása",
-    translated: 'auto',
+    translated: "auto",
     h: "elw7uWDm9Vij1azrwiBbY+VwbjMQuo/xziG393BqGUA=",
   },
   "Charity": {
     val: "Jótékonyság",
-    translated: 'auto',
+    translated: "auto",
     h: "5OqY1JRI3brWCHQyu9VDY9hpjXzg1cVB1oQnXLQjZ4U=",
   },
   "Chat with Matt": {
@@ -555,7 +554,7 @@ const messages:IMessages = {
   "Check for updates": {
     /* Label on button that causes budgets to sync between devices */
     val: "Frissítések ellenőrzése",
-    translated: 'auto',
+    translated: "auto",
     h: "MerO0fg7nnpQBvZ87GDbTKrOJZo+aGSx6qiQEeVAmXw=",
   },
   "Checking for updates...": {
@@ -565,7 +564,7 @@ const messages:IMessages = {
   },
   "Choose": {
     val: "Válassz",
-    translated: 'auto',
+    translated: "auto",
     h: "UeJgTiqvSbyjLXgzersyKp/deJ/06L+xXts8Eq4g6Jk=",
   },
   "Choose a file ending in either .ynab4 or .ymeta": {
@@ -575,12 +574,12 @@ const messages:IMessages = {
   },
   "Choose save location": {
     val: "Válassza ki a mentés helyét",
-    translated: 'auto',
+    translated: "auto",
     h: "3GFv8eEkA96n0cetdd4cUVIl0CtfTQCk4q9Z09uSE0Y=",
   },
   "Choose which of the files on this device you want to make available to your other devices.": {
     val: "Válassza ki, hogy mely fájlokat szeretné elérhetővé tenni más eszközein erről az eszközről.",
-    translated: 'auto',
+    translated: "auto",
     h: "3Vyn9u6I123YU1+p+9TdGJ3wnrJHbwswJEZPYB1lrYU=",
   },
   "Choose...": {
@@ -588,19 +587,19 @@ const messages:IMessages = {
     /* Label for choosing a budget file */
     /* Label for choosing a backup file */
     val: "Válassz...",
-    translated: 'auto',
+    translated: "auto",
     h: "mitI0a0UwvINcTM1Hb0R9fSY5KucYuyfjuNiySSQmDY=",
   },
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
     val: "Jóváírva",
-    translated: 'auto',
+    translated: "auto",
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
     val: "Kiegyenlített egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
   "Close Account": {
@@ -636,7 +635,7 @@ const messages:IMessages = {
   },
   "Conflicts": {
     val: "Konfliktusok",
-    translated: 'auto',
+    translated: "auto",
     h: "W04VkIj+XKS1rPtY7a6cQITUa157onpN6NAVlO9MknY=",
   },
   "Connect": {
@@ -662,12 +661,12 @@ const messages:IMessages = {
   "Connection corrupted. Please delete and re-create.": {
     /* Error when an invalid SimpleFIN connection is attempted */
     val: "Kapcsolat sérült. Kérjük, törölje és hozza létre újból.",
-    translated: 'auto',
+    translated: "auto",
     h: "YjH9IxACkJ2e9cq+MYI3I6l3RmOWZPEBAwzjq3W7x0s=",
   },
   "Connection deleted": {
     val: "Kapcsolat törölve",
-    translated: 'auto',
+    translated: "auto",
     h: "QbB3NfDIpEmXgwY+hq95+aQCRlMErfUvqa+o3tPY93A=",
   },
   "Connection saved!": {
@@ -682,7 +681,7 @@ const messages:IMessages = {
   },
   "Count": {
     val: "Gróf",
-    translated: 'auto',
+    translated: "auto",
     h: "ikvrmlftwm5qPEEca6YD6duk6CH45CROgmp9sfZMEFE=",
   },
   "Create Account": {
@@ -694,12 +693,12 @@ const messages:IMessages = {
   },
   "Create Backup": {
     val: "Biztonsági másolat létrehozása",
-    translated: 'auto',
+    translated: "auto",
     h: "tUZEq5sa8Ggh6lIgsWzX8Blj6/unJ8dhl9sKpfwxRYY=",
   },
   "Create Backup and Start Over": {
     val: "Készíts biztonsági másolatot és kezdd elölről",
-    translated: 'auto',
+    translated: "auto",
     h: "55tb3CtVKNADQpK4SdoMMPQvHu1ftBosd/dP8lFHV/o=",
   },
   "Create Macro": {
@@ -719,12 +718,12 @@ const messages:IMessages = {
   },
   "Create budget password:": {
     val: "Költségvetés jelszó létrehozása:",
-    translated: 'auto',
+    translated: "auto",
     h: "Bf9XVrpN9UpVSKpZNRpBUw/IaFjMkNCmH4gpAfhYFkY=",
   },
   "Create macro": {
     val: "Makró létrehozása",
-    translated: 'auto',
+    translated: "auto",
     h: "9xZZAswDH8zePPUhfsaSEDJ21GU1yhILKhDWtvnUlr0=",
   },
   "Create new account": {
@@ -735,25 +734,25 @@ const messages:IMessages = {
   "Create or manage account": {
     /* Link to manage relay accounts */
     val: "Fiók létrehozása vagy kezelése",
-    translated: 'auto',
+    translated: "auto",
     h: "U5lOs+hLfJ8gBJoXR9ToFOsg130hRzN7A4AauACQHHY=",
   },
   "Currency symbols": {
     /* Label for currency symbol setting */
     val: "Valuta szimbólumok",
-    translated: 'auto',
+    translated: "auto",
     h: "MB7GDp8dkw8tLgwCzsb2VwrDRWwirbks5+U6PkshBB4=",
   },
   "Current version": {
     /* Label for current application version */
     val: "Aktuális verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "lVqFstk3jMWPnA1laudxoN7T6PXUVe365RE2LqCMZmA=",
   },
   "Custom": {
     /* A label for choosing a custom date range */
     val: "Egyedi",
-    translated: 'auto',
+    translated: "auto",
     h: "npcV1SQQyG8XsJlGwbsserjaxIIkVCtt9ZFBODiihSI=",
   },
   "Cut": {
@@ -764,12 +763,12 @@ const messages:IMessages = {
   "Dark": {
     /* Option for theme preference */
     val: "Sötét",
-    translated: 'auto',
+    translated: "auto",
     h: "n09JYTXgkVzgVfXO+ZBo3gryCtlg9t+GoZSQe2YpJPQ=",
   },
   "Data": {
     val: "Adat",
-    translated: 'auto',
+    translated: "auto",
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "Date Posted": {
@@ -785,14 +784,14 @@ const messages:IMessages = {
   },
   "Date range": {
     val: "Dátumtartomány",
-    translated: 'auto',
+    translated: "auto",
     h: "Byx38NxnaOdzvBIgWlDoyRZR5IEPJ329lwDnivHzJik=",
   },
   "Debt": {
     /* Label for a total debt amount */
     /* Name of bucket group for debts */
     val: "Adósság",
-    translated: 'auto',
+    translated: "auto",
     h: "y9kslXhW17gMMFZ9Dq8g/tabfINzlmzT+39QNbWiWGA=",
   },
   "Debugger": {
@@ -802,24 +801,24 @@ const messages:IMessages = {
   },
   "Debugging": {
     val: "Hibakeresés",
-    translated: 'auto',
+    translated: "auto",
     h: "5qYhotBwdyjpp1WiJlT+T5wf/rpbKu5NEGOrxJMpz2U=",
   },
   "Decimal delimiter": {
     val: "Tizedes elválasztó",
-    translated: 'auto',
+    translated: "auto",
     h: "Qjuny9lynn/v2WJwTnYLdXQb/ne+0Q2TBiSM+KFIrIU=",
   },
   "Default": {
     /* Label for default backup folder location */
     val: "Alapértelmezett",
-    translated: 'auto',
+    translated: "auto",
     h: "TKDg5zIpVAzBCbQHtW0yWzTe9w8z+EmC7VPeZA2B70k=",
   },
   "Default number format": {
     /* Label for application number formatting preference */
     val: "Alapértelmezett számformátum",
-    translated: 'auto',
+    translated: "auto",
     h: "mgzNoP6jlMs5CPedg7OHyJuqrwEkQlj6DduekmeqfCY=",
   },
   "Delete": {
@@ -844,7 +843,7 @@ const messages:IMessages = {
   },
   "Delete Macro": {
     val: "Makró törlése",
-    translated: 'auto',
+    translated: "auto",
     h: "Qb7shd6fRLybaDzPvdr0Z4VfVek/fHVV556kEcNZrH8=",
   },
   "Delete Transactions": {
@@ -854,7 +853,7 @@ const messages:IMessages = {
   },
   "Delete Unknown Account": {
     val: "Ismeretlen fiók törlése",
-    translated: 'auto',
+    translated: "auto",
     h: "SzZ+N6/hpntSyAoyuLxzaipQcinkrh5c33ceQdtoUcE=",
   },
   "Delete all": {
@@ -864,12 +863,12 @@ const messages:IMessages = {
   },
   "Deleted": {
     val: "Törölve",
-    translated: 'auto',
+    translated: "auto",
     h: "qaM7+YriKFk63EE2I46KNlMjYgR2jOP4JZMTj4yIti4=",
   },
   "Delimiter": {
     val: "Elválasztó",
-    translated: 'auto',
+    translated: "auto",
     h: "VDesNaCayRIGFHLEXOjH3Eev3D/EzM6/dVsl7zN/+Mo=",
   },
   "Description": {
@@ -880,37 +879,37 @@ const messages:IMessages = {
   "Details": {
     /* Label for sharing avenue details */
     val: "Részletek",
-    translated: 'auto',
+    translated: "auto",
     h: "68e/QPEuI36iIEcTWmKDrVU9KBReQ3EjFzF1F06KQMA=",
   },
   "Device": {
     val: "Eszköz",
-    translated: 'auto',
+    translated: "auto",
     h: "SljXcmF5cBUDvagtLmL5aNIz++tnIbf5qjS1cxxEI1I=",
   },
   "Device ID": {
     val: "Eszköz ID",
-    translated: 'auto',
+    translated: "auto",
     h: "23vizNM3wG6SeZvqULHYvtlqlWmwbFL3GuLOzGzdSK8=",
   },
   "Diapers": {
     val: "Pelenkák",
-    translated: 'auto',
+    translated: "auto",
     h: "Vr53xwIeHjIIuMymcxrQ3l1RsDE6ra+ZTFT4dbR/rlI=",
   },
   "Disable Macro": {
     val: "Makró letiltása",
-    translated: 'auto',
+    translated: "auto",
     h: "k0HEkS8+oirJJHylM2fcT1D1/IqnGFVX3cGlU3d3G50=",
   },
   "Disconnected": {
     val: "Leválasztva",
-    translated: 'auto',
+    translated: "auto",
     h: "8d3FMs2ZCPYbCLDzsVcqXsv6b5vDilOwJCEAevNsZDM=",
   },
   "Do both devices show the same pairing codes?": {
     val: "Mindkét eszköz ugyanazokat a párosítási kódokat mutatja?",
-    translated: 'auto',
+    translated: "auto",
     h: "w66hJr+u8QSrtvG+XC0n5CLXFsJuU1YfxxNPzX6b/z8=",
   },
   "Done": {
@@ -930,23 +929,23 @@ const messages:IMessages = {
   },
   "Duplicate Window": {
     val: "Duplikált ablak",
-    translated: 'auto',
+    translated: "auto",
     h: "tjwFTBARBKQ5uC9Fh0zm7ag/RViV95pptJBJn9eVqHE=",
   },
   "Duplicate of existing transaction": {
     /* Label for an imported transaction that is a duplicate of an existing one */
     val: "Létező tranzakció másolata",
-    translated: 'auto',
+    translated: "auto",
     h: "6d7BweiCObuFrgVXiVOkjVaHEKwbPSJY2AbNcT/7508=",
   },
   "EULA accepted": {
     val: "EULA elfogadva",
-    translated: 'auto',
+    translated: "auto",
     h: "MZZW8mGJoOJ5ehMdPPve2szfe+yi7Du06hSKo61py9Y=",
   },
   "EULA not accepted": {
     val: "EULA nem elfogadva",
-    translated: 'auto',
+    translated: "auto",
     h: "FVsbix5CHwscF/kgCdBTZYPnKTpIN55xFHleEFK6Oqw=",
   },
   "EXPERIMENTAL Buckets Macro Maker": {
@@ -957,7 +956,7 @@ const messages:IMessages = {
   },
   "Eating out": {
     val: "Kint eszik",
-    translated: 'auto',
+    translated: "auto",
     h: "aiQggrM+Wb8WtkoJykeSDnNiCBgzGqVGc1Hvkf5Uzg8=",
   },
   "Edit": {
@@ -967,27 +966,27 @@ const messages:IMessages = {
   },
   "Electricity": {
     val: "Elektromosság",
-    translated: 'auto',
+    translated: "auto",
     h: "D85G++Fy1hUUGZfHiKAUcNRlXmLcdkKK7RtxnwJ110U=",
   },
   "Enable Macro": {
     val: "Makró engedélyezése",
-    translated: 'auto',
+    translated: "auto",
     h: "9SWFr96CNVD21JQ30lw4cj1JCAZ44RNlKkDzQJ/RyuE=",
   },
   "Enabled": {
     val: "Engedélyezve",
-    translated: 'auto',
+    translated: "auto",
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "Encryption": {
     val: "Titkosítás",
-    translated: 'auto',
+    translated: "auto",
     h: "Rfsn7WkrTLeDLzups4h7merVzPfg8xcRh1++z49WW8Y=",
   },
   "Encryption keys": {
     val: "Titkosítási kulcsok",
-    translated: 'auto',
+    translated: "auto",
     h: "u45A8tEUHjVJ/FuiM5W+sNzNth8QZuHXNgdL16YmB1U=",
   },
   "Ending Balance": {
@@ -1002,7 +1001,7 @@ const messages:IMessages = {
   },
   "Ending balance": {
     val: "Záró egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "aAtJw4Tz1ZrB97s3K84TZqaiG7f+B04ZFnxZx9ryHWQ=",
   },
   "Enter License...": {
@@ -1017,7 +1016,7 @@ const messages:IMessages = {
   },
   "Error decrypting recording": {
     val: "Hiba a felvétel dekódolása során",
-    translated: 'auto',
+    translated: "auto",
     h: "6LehLh8oNPMtzfLjQbZAJ3a35TSBoIn+XTBtBBaEuKI=",
   },
   "Error during import": {
@@ -1027,52 +1026,52 @@ const messages:IMessages = {
   },
   "Error during merge": {
     val: "Hiba a merge során",
-    translated: 'auto',
+    translated: "auto",
     h: "PoE7TMsxGW9dp4u1juziybXV1VV8Wgv9ejdrAoUVynk=",
   },
   "Error fetching data": {
     val: "Hiba az adatok lekérésekor",
-    translated: 'auto',
+    translated: "auto",
     h: "z94B0956dECmmaMVLZFW0oZMVtA92etw+2ZqumR4K9Q=",
   },
   "Error importing": {
     val: "Hiba az importáláskor",
-    translated: 'auto',
+    translated: "auto",
     h: "rekzwWcY0HRZEhFebX1fJrp4aDJ/NTPxIwWaCYAk+7k=",
   },
   "Error parsing response": {
     val: "Hiba a válasz elemzésekor",
-    translated: 'auto',
+    translated: "auto",
     h: "PsIRbom+m8Y5OIEPW2rzJYVlNA2NQrZmEQnpW7Y/9KI=",
   },
   "Error restoring from backup": {
     val: "Hiba a biztonsági mentés visszaállítása során",
-    translated: 'auto',
+    translated: "auto",
     h: "7dtoozbhFD0JBqVUuvIbB6I58faFMyoolWjHqHP7ypo=",
   },
   "Error running macro": {
     val: "Hiba a makró futtatása közben",
-    translated: 'auto',
+    translated: "auto",
     h: "obu/8VMe/z+StejTUbzL5fGOP7tMkWw4DfW4KkF/lxs=",
   },
   "Error running recording": {
     val: "Hiba a felvétel futtatása közben",
-    translated: 'auto',
+    translated: "auto",
     h: "eE9Fw8G4vQpND3fFWnfGNvtN5LxCcQQecWO6fQgBmpM=",
   },
   "Error running sync": {
     val: "Hiba a szinkronizálás futtatása során",
-    translated: 'auto',
+    translated: "auto",
     h: "LB/WNzHp4orPsbCVEJuDzUPsQUfNRDNXw7sFnbzfguw=",
   },
   "Error updating transaction": {
     val: "Hiba a tranzakció frissítésekor",
-    translated: 'auto',
+    translated: "auto",
     h: "IEJfuOO0LRCEv2OUh8Cz02PtiJ8tqVTRzeXK5DyqBQs=",
   },
   "Existing version": {
     val: "meglévő verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "w3Sl4FH2y8PxQEXEcDumPPkMrRbBM/winnkwLKNDghY=",
   },
   "Expenses": {
@@ -1087,7 +1086,7 @@ const messages:IMessages = {
   },
   "Failed": {
     val: "Sikertelen",
-    translated: 'auto',
+    translated: "auto",
     h: "pDZMH/BpUzRALpC+FEhtjeyLcyvg3szLxg2ly14c9pY=",
   },
   "Faint cents": {
@@ -1104,7 +1103,7 @@ const messages:IMessages = {
   },
   "File access error": {
     val: "Fájlhozzáférési hiba",
-    translated: 'auto',
+    translated: "auto",
     h: "DnlPFIjZcB6Sgt6APxZIl4HyFKIDaY5CiE4AWlVYqMI=",
   },
   "File does not exist:": {
@@ -1115,7 +1114,7 @@ const messages:IMessages = {
   "File import mapping": {
     /* Noun: object that contains settings for importing a file */
     val: "Fájl import leképezés",
-    translated: 'auto',
+    translated: "auto",
     h: "5s+unX9P0STLcQ5yQjcOEEO3XLrHp6TiOAXOY5L4Jzo=",
   },
   "File saved: ": {
@@ -1125,12 +1124,12 @@ const messages:IMessages = {
   },
   "Files available to sync": {
     val: "Szinkronizálható fájlok",
-    translated: 'auto',
+    translated: "auto",
     h: "tD4YLtMv/MtHbTXTSZmkcCxj1g7Km6d6kuWI+1yHo/8=",
   },
   "Filter": {
     val: "szűrő",
-    translated: 'auto',
+    translated: "auto",
     h: "gG/X0Prd382E2jAAsfyk3bynhjgo9Fk44NYmIbqfMTk=",
   },
   "Find Next": {
@@ -1147,7 +1146,7 @@ const messages:IMessages = {
   },
   "Find on page": {
     val: "Keresés az oldalon",
-    translated: 'auto',
+    translated: "auto",
     h: "C8FK0TP/vHA4Dt565Z2E2vc+j9soU5SIaWGmc7j+UEc=",
   },
   "Find...": {
@@ -1157,28 +1156,28 @@ const messages:IMessages = {
   },
   "Finish merge": {
     val: "Befejez összevonást",
-    translated: 'auto',
+    translated: "auto",
     h: "B0c10bq0bG9fZmohGvSo0pG1yeqxKs5mLo7SpplAhfw=",
   },
   "Folder": {
     val: "Mappa",
-    translated: 'auto',
+    translated: "auto",
     h: "U0LnwvQV2yrtaYfkte120FAJhkqVya8TcV7qJ9tumUs=",
   },
   "For Older Budgets": {
     /* Label for section related to updating from older budgets */
     val: "Régebbi költségvetések",
-    translated: 'auto',
+    translated: "auto",
     h: "TMGosuE5olJuLuly8uc8gx4r4RTMA3guKrboArLuB7w=",
   },
   "Forbidden": {
     val: "Tiltott",
-    translated: 'auto',
+    translated: "auto",
     h: "CcNf+bPZqU5SYvmmxeJh8TRTDY9bbSASjE9y1+21kGU=",
   },
   "Force Reload": {
     val: "Kényszerített újratöltés",
-    translated: 'auto',
+    translated: "auto",
     h: "ktBJY2UXO+2r0ZvmbQXhArN51bSTnyaNnnBNR9PQ5K8=",
   },
   "From": {
@@ -1194,7 +1193,7 @@ const messages:IMessages = {
   "Full version": {
     /* Status for when a user has a Buckets application license */
     val: "Teljes verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "8gxVtYQtIFlJyU0m/Fyu2usHpVC5gXv1gstLNS4/pV4=",
   },
   "Gain/Loss": {
@@ -1205,7 +1204,7 @@ const messages:IMessages = {
   "General": {
     /* Label for general preferences */
     val: "Általános",
-    translated: 'auto',
+    translated: "auto",
     h: "Ro1hqU2fnZPlbffPiUFBRSO2oSn7YKpDUbDUDIWP9Ew=",
   },
   "Getting Started...": {
@@ -1231,7 +1230,7 @@ const messages:IMessages = {
   },
   "Goal: 0": {
     val: " Cél: 0",
-    translated: 'auto',
+    translated: "auto",
     h: "rtvJnJFYA7lHYjPjGpF27/h2So3pRdrRLjfnkg78woQ=",
   },
   "Groceries": {
@@ -1247,7 +1246,7 @@ const messages:IMessages = {
   },
   "Health Insurance": {
     val: "Egészségbiztosítás",
-    translated: 'auto',
+    translated: "auto",
     h: "nsWIG2Kbb9OtoQkBvgkFh5MfMVNfbuGKhZypQ3uoQJw=",
   },
   "Hello!  Thanks for trying out Buckets.": {
@@ -1268,27 +1267,27 @@ const messages:IMessages = {
   },
   "Hide Others": {
     val: "Egyebek elrejtése",
-    translated: 'auto',
+    translated: "auto",
     h: "RpKz0G7Y8OE5oyGm0/zRffPdr7RQkneZCYrikLHIZ+U=",
   },
   "Hide debug info": {
     val: "Debug info elrejtése",
-    translated: 'auto',
+    translated: "auto",
     h: "9rip1vzCF79F3bOZh86TdPkeaNjawcFqlYX/gmCqHyU=",
   },
   "Holidays": {
     val: "Ünnepek",
-    translated: 'auto',
+    translated: "auto",
     h: "HTQ10E8CaKVUu71N6uLx9J+Y6naLLRX37v0oQkesV3k=",
   },
   "Host": {
     val: "Hoszt",
-    translated: 'auto',
+    translated: "auto",
     h: "gPYRfd5+U6aDaCpXeR+YM/R+wrkLCLMOQUbeT5GQn6E=",
   },
   "Household goods": {
     val: "Háztartási cikkek",
-    translated: 'auto',
+    translated: "auto",
     h: "UK1mJCSwg2XnGpH47pKFFD8NlrCfcd3bQb1bJt2RXEg=",
   },
   "ID": {
@@ -1298,19 +1297,19 @@ const messages:IMessages = {
   },
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": {
     val: "Ha a Net 0, a bucket tranzakciók átutalásként lesznek megjelölve, nem pedig bevételekként vagy kiadásként.",
-    translated: 'auto',
+    translated: "auto",
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
   },
   "Ignore": {
     /* Label for checkbox controlling whether an account is ignored or not */
     val: "Ignorál",
-    translated: 'auto',
+    translated: "auto",
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "Ignore Account": {
     /* Undo/Redo label for ignoring an account from import */
     val: "Ignore Account",
-    translated: 'auto',
+    translated: "auto",
     h: "Ils1ViOchbpiaHmdalbFiGmOlTK7ck+6+BhoyvUVrqM=",
   },
   "Import": {
@@ -1336,7 +1335,7 @@ const messages:IMessages = {
   "Import Transactions": {
     /* Undo/redo label for importing transactions */
     val: "Tranzakciók importálása",
-    translated: 'auto',
+    translated: "auto",
     h: "0RkMBEPqgu5UHcGd2OzH7z/1vkRlIhOPxBSeollnMnU=",
   },
   "Import Transactions...": {
@@ -1347,7 +1346,7 @@ const messages:IMessages = {
   "Import complete!": {
     /* Notification when an import is complete */
     val: "Importálás befejeződött!",
-    translated: 'auto',
+    translated: "auto",
     h: "L9VgrAXBV8q2Ux9I1Y2Mr/vbc6PiBI0Uxct20Hw6hwY=",
   },
   "Import file": {
@@ -1370,7 +1369,7 @@ const messages:IMessages = {
   "Import links broken": {
     /* Notification indicating that the links between imported transaction files and a particular account have been broken. */
     val: "Import linkek megszakadtak",
-    translated: 'auto',
+    translated: "auto",
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
@@ -1395,17 +1394,17 @@ const messages:IMessages = {
   },
   "Income/Expense": {
     val: "Bevétel/Kiadás",
-    translated: 'auto',
+    translated: "auto",
     h: "i/Z19mssKMh8vj11iAIlpS59JGc7MtE5zkyAW/IJVdA=",
   },
   "Incoming budget file": {
     val: "Bejövő költségvetési fájl",
-    translated: 'auto',
+    translated: "auto",
     h: "KQwRx6114V/RFL9ilT4S8R+fWFeCu7sLcYe2GcL9JmQ=",
   },
   "Incoming version": {
     val: "Bejövő verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "u02gUA6+LNLSmH1C76FF2HqPX3K7EuK8xBSB0tl41js=",
   },
   "Install and Relaunch Buckets": {
@@ -1420,12 +1419,12 @@ const messages:IMessages = {
   },
   "Invalid categorization.  Categories not set.": {
     val: "Érvénytelen kategorizálás. Kategóriák nincsenek beállítva.",
-    translated: 'auto',
+    translated: "auto",
     h: "DykWhCxgeqeIt2i+Lc2sRdURMNIgRgohpjs83umwH9Y=",
   },
   "Invalid date": {
     val: "Érvénytelen dátum",
-    translated: 'auto',
+    translated: "auto",
     h: "wDN2ZzrVLU22Lij4eJJvxPBmC6Qv9SPmgRT36Qpq9KE=",
   },
   "Invalid license": {
@@ -1435,27 +1434,27 @@ const messages:IMessages = {
   },
   "Invalid password": {
     val: "Érvénytelen jelszó",
-    translated: 'auto',
+    translated: "auto",
     h: "4JKuk5cidGqS+Yy2zWi8Bf+XYJLipTr94xQ+cPTJUVs=",
   },
   "Invalid transactions preventing import": {
     val: "Érvénytelen tranzakciók megakadályozzák az importálást",
-    translated: 'auto',
+    translated: "auto",
     h: "smXPNWsiVwsLzBZ2L/sbD9IO3ZMxKyORNgcKAa3CFRE=",
   },
   "It says:": {
     val: "Azt mondja:",
-    translated: 'auto',
+    translated: "auto",
     h: "gbWdWRhcKGQzFCi8CcKy9Bmfg2oYqz1zGMHQzSU8jQE=",
   },
   "It should say:": {
     val: "Azt kellene mondania:",
-    translated: 'auto',
+    translated: "auto",
     h: "RjwjZtmUgFzGUxR0zMmyXh0cHzpzsbj4nk6R7tGe+i4=",
   },
   "Keep account transactions": {
     val: "Tartsa meg a számlatranzakciókat",
-    translated: 'auto',
+    translated: "auto",
     h: "SA/tgP2OPX7K6/Rztew4oai82mmt7fqOHpOuCWNrPZU=",
   },
   "Keep accounts": {
@@ -1465,30 +1464,30 @@ const messages:IMessages = {
   },
   "Keep bucket transactions": {
     val: "Tartsa meg a bucket tranzakciókat",
-    translated: 'auto',
+    translated: "auto",
     h: "0LwH6beBDlpdXvsVWW7nGj/5/tkz7gDk+Sm4Kltx3rQ=",
   },
   "Keep buckets": {
     val: "Tartsd a vödröket",
-    translated: 'auto',
+    translated: "auto",
     h: "4lGk6/xvGOvn8z5vLVpqCLE6WQwpEoizH0LM95z1Tvo=",
   },
   "Kick Bucket": {
     /* Name of action.  Consider this "Archive Bucket" */
     val: "Rúg Vödör",
-    translated: 'auto',
+    translated: "auto",
     h: "3hmOuv1hNsjpQJ5cSDTlSqN4jGOGFnSPw9r0bK68RWY=",
   },
   "Kick the bucket": {
     /* Button label for archiving a bucket */
     val: "Kirúgja a vödröt",
-    translated: 'auto',
+    translated: "auto",
     h: "IvzeGJ9G+Rns8Rbnal26flTFzd+yBNSEBQSptdNy8t8=",
   },
   "Kicked": {
     /* Label for list of archived buckets */
     val: "Kirúgott",
-    translated: 'auto',
+    translated: "auto",
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "Language": {
@@ -1499,17 +1498,17 @@ const messages:IMessages = {
   },
   "Language default": {
     val: "Alapértelmezett nyelv",
-    translated: 'auto',
+    translated: "auto",
     h: "B22VmGf23mHOBpC02z4zdK4P34035w3nWPUR86u0Dgg=",
   },
   "Last sync": {
     val: "Utolsó szinkron",
-    translated: 'auto',
+    translated: "auto",
     h: "ifqkf2oJbmCZakm2f0rOQonkEGgcRhI46mmhSM3tTbA=",
   },
   "Last updated": {
     val: "Utoljára frissítve",
-    translated: 'auto',
+    translated: "auto",
     h: "BenCUeX0s7/BAYHFcK/s7yUcGW68Pyd1JDxeIPnbBGM=",
   },
   "Last used": {
@@ -1520,7 +1519,7 @@ const messages:IMessages = {
   "Later": {
     /* Button label for purchasing a license later */
     val: "Később",
-    translated: 'auto',
+    translated: "auto",
     h: "wZUl6R8m08S1l0zLg0xgDG2XE1sodemTuRDbalIB4VM=",
   },
   "Learn More": {
@@ -1531,12 +1530,12 @@ const messages:IMessages = {
   "License": {
     /* Label for page where you view license details */
     val: "Licenc",
-    translated: 'auto',
+    translated: "auto",
     h: "qmaEL5BHMIqGJ0RYbmhJPHnRV60sgX8a8RHEh3wAQvc=",
   },
   "License status": {
     val: "Licenc státusz",
-    translated: 'auto',
+    translated: "auto",
     h: "pB9DYc2XWzC+Y3NEmw4dc63G3dstNOjTOAgt+MPA5WU=",
   },
   "Life Insurance": {
@@ -1547,7 +1546,7 @@ const messages:IMessages = {
   "Light": {
     /* Option for theme preference */
     val: " Világos",
-    translated: 'auto',
+    translated: "auto",
     h: "C0avqWOAFWs6Zf7/577zzmx49uDbTZDSmLAJIQchfuE=",
   },
   "Limit": {
@@ -1557,7 +1556,7 @@ const messages:IMessages = {
   },
   "Limit:": {
     val: "Korlát:",
-    translated: 'auto',
+    translated: "auto",
     h: "fU5A7Xvpww+aXRMyXDk5JaooMFWEKRFeMBtm2aYfRXQ=",
   },
   "Link Account": {
@@ -1567,27 +1566,27 @@ const messages:IMessages = {
   },
   "Local file": {
     val: "Helyi fájl",
-    translated: 'auto',
+    translated: "auto",
     h: "CMhZhId2bqThTVsNh1c/YbZs+qOkFTdtsZA8px8zwA4=",
   },
   "Local files": {
     val: "Helyi fájlok",
-    translated: 'auto',
+    translated: "auto",
     h: "Atqw+RURXK7fFYEzxEV4d43UKK1kgVgoaKusNhnbGZg=",
   },
   "Local network client": {
     val: "Helyi hálózati kliens",
-    translated: 'auto',
+    translated: "auto",
     h: "bI/iWjtuzv7DVDFzzviehzbWu1TWwURDNt++OVfSXEg=",
   },
   "Local network server": {
     val: "Helyi hálózati szerver",
-    translated: 'auto',
+    translated: "auto",
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
   "Macro deleted": {
     val: "Makró törölve",
-    translated: 'auto',
+    translated: "auto",
     h: "XdtVcRU7RheAlhzK15asG/s7ppztkgXITjJQkM833Rw=",
   },
   "Macros": {
@@ -1602,35 +1601,35 @@ const messages:IMessages = {
   },
   "Make it rain!": {
     val: "Esőt csinálj!",
-    translated: 'auto',
+    translated: "auto",
     h: "GCU3Hru9VCit7F+BYEMKmg5U8gsc1/UZ+o5wsbMAkeY=",
   },
   "Make it so": {
     /* Button label for causing the set of pending deposits/withdrawls to happen.  Synonyms could be: "Do it" or "Run" or "Go" */
     val: "Legyen úgy",
-    translated: 'auto',
+    translated: "auto",
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
     val: "Megjelölés Elszámolva",
-    translated: 'auto',
+    translated: "auto",
     h: "Z+NICH1z9EYN3Ub7Z9idiTw/t+QaDF9n3h9br9WhjgE=",
   },
   "Mark Not Cleared": {
     /* Name of action for marking a transaction as not having cleared the bank */
     val: "Nem kiegyenlített megjelölése",
-    translated: 'auto',
+    translated: "auto",
     h: "4VoXUMr4nLIoyueiB8YlIR9HFGPYBhYxJq/cqqwDLs0=",
   },
   "Mass Update": {
     val: "Tömeges Frissítés",
-    translated: 'auto',
+    translated: "auto",
     h: "8Vx8raw2DARWzkCbKtZrIQdXCP2vDzw/FMYKfw51Jcs=",
   },
   "Medical": {
     val: "Orvosi",
-    translated: 'auto',
+    translated: "auto",
     h: "TcuCD6n7/CmRm/jdGZQLDvEdAVaJ2cDy2CahpUk9pCQ=",
   },
   "Memo": {
@@ -1640,37 +1639,37 @@ const messages:IMessages = {
   },
   "Memos To Payees": {
     val: "Megjegyzések a kedvezményezetteknek",
-    translated: 'auto',
+    translated: "auto",
     h: "RrzhV+LUxgPfiFMK0krRxVfeKXhRquwgRwC8neBJ2Xs=",
   },
   "Merge": {
     val: "Összevonás",
-    translated: 'auto',
+    translated: "auto",
     h: "mOHySNwxHH1kAQerMpBekxjTXkpm93+75ghAQZBI8YU=",
   },
   "Merge Budgets": {
     val: "Költségvetések összevonása",
-    translated: 'auto',
+    translated: "auto",
     h: "7mOfG0hHFzdbEwVuhnSJP2QnEDVFQg4s3d8syq4EMHw=",
   },
   "Merge Payees": {
     val: "Kedvezményezettek egyesítése",
-    translated: 'auto',
+    translated: "auto",
     h: "E1u4wBRN09jfBf9R5K2xo80gFrGBuDEB39Ri7EL8bYw=",
   },
   "Merge already in progress": {
     val: "Az összevonás már folyamatban van",
-    translated: 'auto',
+    translated: "auto",
     h: "oIEtjAX5TjxJ78OneCHljWt7hpmZS8AhezCjetJ2UEA=",
   },
   "Merge complete": {
     val: "Egyesítés befejezve",
-    translated: 'auto',
+    translated: "auto",
     h: "4DUIP9c3KGNs5H3H3fnNnu8LfaHA4bB8PIds+wSy3jI=",
   },
   "Merge failed": {
     val: "Összevonás sikertelen",
-    translated: 'auto',
+    translated: "auto",
     h: "6HNyKVatlEsWVRVgjSSAxmGoD1obkrMMWW6Ci7DLb3A=",
   },
   "Minimize": {
@@ -1680,7 +1679,7 @@ const messages:IMessages = {
   },
   "Misc": {
     val: "Egyebek",
-    translated: 'auto',
+    translated: "auto",
     h: "DPoc7CIbzLHJxuar3WnaidO3Ryy1QtYkCswRzVHtVBg=",
   },
   "Month to Month": {
@@ -1705,12 +1704,12 @@ const messages:IMessages = {
   },
   "Move Account": {
     val: "Fiók Áthelyezés",
-    translated: 'auto',
+    translated: "auto",
     h: "ybDQ63l83HcIPrlccbfuOBNxeGYsiDmXI3tyTZ7nKZI=",
   },
   "Move Bucket": {
     val: "Mozgasd a vödröt",
-    translated: 'auto',
+    translated: "auto",
     h: "6lJYNJMplvVHQuXlFYBD81+4kgQQb1SwZ0s13hvlIfI=",
   },
   "Move Group": {
@@ -1720,12 +1719,12 @@ const messages:IMessages = {
   },
   "Move all transaction memos to blank payee field": {
     val: "Áthelyezi az összes tranzakciós megjegyzést az üres kedvezményezett mezőbe",
-    translated: 'auto',
+    translated: "auto",
     h: "Ibe3mbvnAzB2IdenvVSIAQdz1//j2Hd5vMpVIn+CH+8=",
   },
   "NO": {
     val: "Nem",
-    translated: 'auto',
+    translated: "auto",
     h: "hxXybQ1uFw+QDmCTj+3XDrm4sicWa7ZqmazhYaf5Nr8=",
   },
   "Name": {
@@ -1737,7 +1736,7 @@ const messages:IMessages = {
   },
   "Natural gas/propane/oil": {
     val: "Földgáz/propán/olaj",
-    translated: 'auto',
+    translated: "auto",
     h: "CMjkKDPUYAAymOaPiz0PkXS6Ec3BTRWuNZJQ34kHA5s=",
   },
   "Need ideas for getting started?": {
@@ -1747,20 +1746,20 @@ const messages:IMessages = {
   },
   "Needs": {
     val: "Szükségek",
-    translated: 'auto',
+    translated: "auto",
     h: "RbGrwaVYaT8OdEbNo5YBRWxoGZNYzZKjiDz7JrZVuuc=",
   },
   "Negate": {
     /* Verb meaning to make a number have the opposite sign */
     /* Verb meaning to make a number have the opposite sign */
     val: "Negál",
-    translated: 'auto',
+    translated: "auto",
     h: "dZDdZz59qbx8gpMDeqIXTcDabOUtC1qWeUHncjptLo0=",
   },
   "Negative": {
     /* Label for choosing which value wihtin a CSV file represents negative */
     val: "Negatív",
-    translated: 'auto',
+    translated: "auto",
     h: "uu+tZJYytTWkRjWGnhq7P28TYmWJ58RmQcbAv4QEakg=",
   },
   "Net": {
@@ -1780,7 +1779,7 @@ const messages:IMessages = {
   },
   "Net change": {
     val: "Nettó változás",
-    translated: 'auto',
+    translated: "auto",
     h: "1giQvPYkVc99a5Ne06RbukR0UJUQY2ba1gRrQHE31bA=",
   },
   "New Bucket": {
@@ -1805,12 +1804,12 @@ const messages:IMessages = {
   },
   "New avenue": {
     val: "Új sugárút",
-    translated: 'auto',
+    translated: "auto",
     h: "EyqJb2lqkOre5EVjsnQYGA3tj0tYdB/UHeT1HQmp6g4=",
   },
   "New bucket": {
     val: "Új vödör",
-    translated: 'auto',
+    translated: "auto",
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "New car": {
@@ -1820,7 +1819,7 @@ const messages:IMessages = {
   },
   "New computer": {
     val: "Új számítógép",
-    translated: 'auto',
+    translated: "auto",
     h: "zrx1OP3GJYjfIIZU0Sa31Mm3aQjGco6OnX25VqxnLlY=",
   },
   "New phone": {
@@ -1830,37 +1829,37 @@ const messages:IMessages = {
   },
   "New roof": {
     val: "Új tető",
-    translated: 'auto',
+    translated: "auto",
     h: "AzV1g+0ivzcHHsk+jxoIrHthrDJ7wuVUOfurDtwV3j8=",
   },
   "New transaction": {
     val: "Új tranzakció",
-    translated: 'auto',
+    translated: "auto",
     h: "1VsMSv2xvSjfHSqSZPw0gw1fD9E+Jvyr+2JVT/4bt64=",
   },
   "New value": {
     val: "Új érték",
-    translated: 'auto',
+    translated: "auto",
     h: "IYMui0S7sNqh1DSN12/iCzLNTNeExrjoZ96g5EkvRgc=",
   },
   "No": {
     val: "Nem",
-    translated: 'auto',
+    translated: "auto",
     h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
   },
   "No conflicts": {
     val: "Nincs konfliktus",
-    translated: 'auto',
+    translated: "auto",
     h: "UlN5g4bplbpYSjOMLbuCBZ5ICB8dMKhKiRial9fMUF8=",
   },
   "No name": {
     val: "Nincs név",
-    translated: 'auto',
+    translated: "auto",
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "No, don't connect": {
     val: "Nem, ne csatlakozz",
-    translated: 'auto',
+    translated: "auto",
     h: "MaiZRnZgYzKFsvyy1L/fnIA4McuhD8MAo4t+Rw216oE=",
   },
   "Normal": {
@@ -1875,13 +1874,13 @@ const messages:IMessages = {
   },
   "Not running": {
     val: "Nem fut",
-    translated: 'auto',
+    translated: "auto",
     h: "PC00/YYL+rTs9SryRz4ennpjhF/LuzL/1aMY6Hiajmc=",
   },
   "Not yet cleared": {
     /* Tooltip text indicating that a transaction has not yet cleared. */
     val: "Még nem tisztázott",
-    translated: 'auto',
+    translated: "auto",
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
@@ -1904,14 +1903,14 @@ const messages:IMessages = {
     /* Account label */
     /* Account label */
     val: "Fiók",
-    translated: 'auto',
+    translated: "auto",
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "OBJ.amount": {
     /* Transaction amount label */
     /* Transaction amount label */
     val: "Összeg",
-    translated: 'auto',
+    translated: "auto",
     h: "DHNNaJF4hWTWIFdaMdMhUT4aSdti7ZfaNexABzxWWzc=",
   },
   "OBJ.created": {
@@ -1928,7 +1927,7 @@ const messages:IMessages = {
     /* Object creation date label */
     /* Object creation date label */
     val: "Létrehozva",
-    translated: 'auto',
+    translated: "auto",
     h: "8ELUP5FRI8KPKAswN0H7ALwQ3sP6liJQvRN5tbeBYzo=",
   },
   "OBJ.id": {
@@ -1945,21 +1944,21 @@ const messages:IMessages = {
     /* Object ID label */
     /* Object ID label */
     val: "Azonosító",
-    translated: 'auto',
+    translated: "auto",
     h: "ge86Jcy26vcv5uPFI29MfLOxHh8ctACck6nRdrl9aM4=",
   },
   "OBJ.last_used": {
     /* Last used date label */
     /* Last used date label */
     val: "Utolsó használat",
-    translated: 'auto',
+    translated: "auto",
     h: "G5a6Jdor9jRT/Wtcg9SfXQsvqL7VFvnVD2+gq7yT1Jg=",
   },
   "OBJ.memo": {
     /* Transaction memo label */
     /* Transaction memo label */
     val: "Megjegyzés",
-    translated: 'auto',
+    translated: "auto",
     h: "9yClwoAwAV0+DXl8NnkkAnlUi+Ebp2soPwN5meYKgWY=",
   },
   "OBJ.notes": {
@@ -1969,26 +1968,26 @@ const messages:IMessages = {
     /* Object note label */
     /* Object note label */
     val: "Megjegyzés",
-    translated: 'auto',
+    translated: "auto",
     h: "omcHOlFDF1aMLf9t2/tJ9R1dYEFSQC9IiPuXLXuFwEk=",
   },
   "OBJ.payee": {
     /* Transaction payee */
     val: " Kedvezményezett",
-    translated: 'auto',
+    translated: "auto",
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "OBJ.posted": {
     /* Transaction posted date label */
     /* Transaction posted date label */
     val: "Könyvelt",
-    translated: 'auto',
+    translated: "auto",
     h: "h6jjM8ytGdEj+QfDnTVzEdq+0oLSE9zd+MArY7gtjzU=",
   },
   "OFF": {
     /* Label for toggle switch OFF */
     val: "KI",
-    translated: 'auto',
+    translated: "auto",
     h: "g0c9fS73Ra/6fEcgtA+AZ5QtmmCEO7dX81vP7YtzM4o=",
   },
   "OK": {
@@ -1999,7 +1998,7 @@ const messages:IMessages = {
   "ON": {
     /* Label for toggle switch ON */
     val: "BE",
-    translated: 'auto',
+    translated: "auto",
     h: "wZR/9OiLHV0XO5Mm9aURB4fbSWSyea2Z6CQce8Q14gU=",
   },
   "Off Budget Accounts": {
@@ -2020,12 +2019,12 @@ const messages:IMessages = {
   "Open Anyway": {
     /* Label for button to indicate that a budget file should be opened even though it was made with a newer version of Buckets */
     val: "Mindenesetre megnyitás",
-    translated: 'auto',
+    translated: "auto",
     h: "C3I8WidkzZOLAGX0ypckK7pR7+e/M/X/YVIV1GCTYms=",
   },
   "Open Buckets Budget": {
     val: "Buckets Budget megnyitása",
-    translated: 'auto',
+    translated: "auto",
     h: "5odppwzoA5bC5nAM3F+GDOVrAq3NfjGxrE0ZFXseCDg=",
   },
   "Open Budget...": {
@@ -2040,22 +2039,22 @@ const messages:IMessages = {
   },
   "Open Transaction File": {
     val: "Tranzakciós fájl megnyitása",
-    translated: 'auto',
+    translated: "auto",
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "Open Web YNAB Zip File": {
     val: "Web YNAB Zip fájl megnyitása",
-    translated: 'auto',
+    translated: "auto",
     h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
   },
   "Open YNAB4 File": {
     val: "Megnyitás YNAB4 Fájl",
-    translated: 'auto',
+    translated: "auto",
     h: "BrKgvN0SgW410a7e11V3gP+FgW67iTGIY+o/cKI1Ftk=",
   },
   "Opening balance": {
     val: "Nyitó egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "OEuQ3gAWrV+lPay2usXLKN3bNCH87PEsrcr+thNNbJY=",
   },
   "Optional message:": {
@@ -2065,12 +2064,12 @@ const messages:IMessages = {
   },
   "Or click to download the new version manually.": {
     val: "Vagy kattintson, hogy manuálisan letöltse az új verziót.",
-    translated: 'auto',
+    translated: "auto",
     h: "J+hkW+8xOyf72R6IgkvGlwWYNzHN+/aWRtotPks3C5U=",
   },
   "Other devices have made the following files available. Choose where you would like to save them on this device.": {
     val: "Mais eszközök a következő fájlokat elérhetővé tették. Válassza ki, hol szeretné menteni őket ezen az eszközön.",
-    translated: 'auto',
+    translated: "auto",
     h: "Fbk5s0n43m2f5wfmDIpYQniAcPes2dp0Opv/VxSZJGE=",
   },
   "Out": {
@@ -2080,103 +2079,103 @@ const messages:IMessages = {
   },
   "Overwrite budget from backup": {
     val: "Költségvetés felülírása a biztonsági mentésből",
-    translated: 'auto',
+    translated: "auto",
     h: "p47XTJ4eKHU3WYE+YwdBvSL80vnN/gn5Xf7C+/gs66U=",
   },
   "Pairing code": {
     val: "Párosítási kód",
-    translated: 'auto',
+    translated: "auto",
     h: "vEvXjrpoLPbXr+M9YBSVz5TplRIOw8ghDETxlgdUp7k=",
   },
   "Password": {
     val: "Jelszó",
-    translated: 'auto',
+    translated: "auto",
     h: "nhByOwQBMFlIuzeSPsoMPTnOwa4wBUBDjDxArgBfXjE=",
   },
   "Password not yet set": {
     val: "Jelszó még nem beállítva",
-    translated: 'auto',
+    translated: "auto",
     h: "8NXPDxaFV7KVroTg3YTaO/dWsepbJT/ASSZw9yGeD5g=",
   },
   "Password reset": {
     val: "Jelszó visszaállítás",
-    translated: 'auto',
+    translated: "auto",
     h: "dVWv+2lbwYUiQVBBqp1wHOfyMDlGJq8aqtvWV20t/Ns=",
   },
   "Passwords did not match": {
     val: "A jelszavak nem egyeznek",
-    translated: 'auto',
+    translated: "auto",
     h: "PyUeXNOVYhNDM/De1HIPLeiwy6d+x7bkZphOo5ZqR6Q=",
   },
   "Paste": {
     val: "Beillesz",
-    translated: 'auto',
+    translated: "auto",
     h: "n2Hnio0AcQPZejqQ+hm35GthBg0zYDNoxd8RCFRUhu4=",
   },
   "Paste and Match Style": {
     val: "Beillesz és illesz stílust",
-    translated: 'auto',
+    translated: "auto",
     h: "w8hRIxBBNWtXNPcYtQ4t/mTHfPF66U/mJbVpOiIDgYE=",
   },
   "Paused": {
     val: "Szünetelve",
-    translated: 'auto',
+    translated: "auto",
     h: "sMAADusAjpKEUapa7bSzeAnEAbEGpH+NKBgGh068Ifw=",
   },
   "Payee": {
     val: "Kedvezményezett",
-    translated: 'auto',
+    translated: "auto",
     h: "vEPcESYpxu8dkXCIJQFVpBeYbocJdS1ypbD50YW9B7Q=",
   },
   "Payees": {
     val: "Kedvezményezettek",
-    translated: 'auto',
+    translated: "auto",
     h: "YjA+7FE+9F3uMVjqhQQyv29+TRFaEMDJfFGbbX1+9aI=",
   },
   "Pending merges": {
     val: "Függőben lévő egyesítések",
-    translated: 'auto',
+    translated: "auto",
     h: "7vaBvdca+0T8ZgfGLkLVyTGgsK9QgFVnFdWRmqi8cbw=",
   },
   "Pending...": {
     /* Status when a connection to another device is pending but not complete */
     val: "Függőben...",
-    translated: 'auto',
+    translated: "auto",
     h: "EBff3fGHatt8ejJo8RfuFp62oI9ZKjguA+ZUW6tDU7I=",
   },
   "Permanently delete account and transactions": {
     val: "Fiók és tranzakciók végleges törlése",
-    translated: 'auto',
+    translated: "auto",
     h: "mSRS1xHHrwwVBuWBlj7RZIGTyGuUy4GwrwOFty5tZrU=",
   },
   "Personal Loan Payment": {
     val: "Személyi kölcsön fizetése",
-    translated: 'auto',
+    translated: "auto",
     h: "cL5KAz7DWc3XTzI4eo3t1PaGUe16WM+dKBg2ykfpQ6A=",
   },
   "Phone": {
     val: "Telefon",
-    translated: 'auto',
+    translated: "auto",
     h: "9WrpirmkhUIuWq47S+FrVpJP+prT4uInaMOfMHjxS8c=",
   },
   "Playing": {
     val: "Játék",
-    translated: 'auto',
+    translated: "auto",
     h: "69elN/r6NyshRWtcjLOKso9OmdOJhvg/ix+Xy/fE+Z0=",
   },
   "Please enter your Buckets License below.": {
     val: "Kérjük, adja meg Buckets licencét alább.",
-    translated: 'auto',
+    translated: "auto",
     h: "xbsLH9dKhhcdpY6+CFD5E3/4IdnZZk49WmeisyuQ/oo=",
   },
   "Port": {
     val: "Kikötő",
-    translated: 'auto',
+    translated: "auto",
     h: "u+5cy7Hv8eqnpUCJUVP2QmhGFpu7Zq4UquU/U7tcspI=",
   },
   "Possible Duplicates": {
     val: "Lehetséges Duplikátumok",
-    translated: 'auto',
+    translated: "auto",
     h: "ofGzHt7c7jfCo867EwNvCl3vCUJPLeLhFiC5Fmgrgp4=",
   },
   "Posted": {
@@ -2191,41 +2190,41 @@ const messages:IMessages = {
   },
   "Preparation": {
     val: "Előkészítés",
-    translated: 'auto',
+    translated: "auto",
     h: "hAU2jJdFn2hdOUvG6S3yousGGeHnblb2/CsaRHWvQwQ=",
   },
   "Preview": {
     /* Noun */
     val: "Előnézet",
-    translated: 'auto',
+    translated: "auto",
     h: "ICJraNVGcHJ6dorVH3VtTMdwZV8dD6wjEdY0Jzm4qbA=",
   },
   "Print...": {
     val: "Nyomtat...",
-    translated: 'auto',
+    translated: "auto",
     h: "Zx0axQhFFBAeUJiZxUAcm9hrf0Dd7+kTskEK3MSkm1Q=",
   },
   "Prompt": {
     /* Title for prompt window */
     val: "Kérés",
-    translated: 'auto',
+    translated: "auto",
     h: "56HrS6R0zfyg5ruiVb/J04UP3T8O2V99V+mXHvVfEZ0=",
   },
   "Purchase": {
     /* Button label for purchasing a license */
     val: "Vásárlás",
-    translated: 'auto',
+    translated: "auto",
     h: "SfwhUMXO5ckJhwUkBjdC9n17k8zH4+hoAlFoUdOwE/g=",
   },
   "Purchase Full Version...": {
     val: "Teljes verzió megvásárlása...",
-    translated: 'auto',
+    translated: "auto",
     h: "+6h2Y0QTHEVui0aUhwAlCsyJp/F+S0PYKMRlQysqjrk=",
   },
   "Purchase license": {
     /* Button that takes people to purchase a license */
     val: "Licenc vásárlása",
-    translated: 'auto',
+    translated: "auto",
     h: "3LYaot06ClRiLOZ31fOKIxzRXO8X0w5qFIfav969me8=",
   },
   "Quit Buckets": {
@@ -2235,12 +2234,12 @@ const messages:IMessages = {
   },
   "Rain": {
     val: "Eső",
-    translated: 'auto',
+    translated: "auto",
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Rain left": {
     val: "Eső elment",
-    translated: 'auto',
+    translated: "auto",
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
   },
   "Recently used": {
@@ -2271,23 +2270,23 @@ const messages:IMessages = {
   },
   "Regenerate": {
     val: "Újragenerál",
-    translated: 'auto',
+    translated: "auto",
     h: "u5QDOgMBGl3INOqya7C/iE0tXSBbYdhLgcM9mBSHQ6k=",
   },
   "Registered to": {
     /* Label for the name/email of the person this application is registered to */
     val: "Regisztrálva",
-    translated: 'auto',
+    translated: "auto",
     h: "fDXs0ZL8cmmMNVzrdFyhb8+RwdyTtA2b9yOO1B0nTrA=",
   },
   "Relay client": {
     val: "Relé kliens",
-    translated: 'auto',
+    translated: "auto",
     h: "mSWVLtN7G9ZyP/WXAVEiOcbZQJIK6YenAW9E0ZZS3B0=",
   },
   "Relay server": {
     val: "Relé szerver",
-    translated: 'auto',
+    translated: "auto",
     h: "+cMcGjAKTrxBcgm02bYOEYsUTqHNoQJayrxZ+3L3Nag=",
   },
   "Reload": {
@@ -2297,39 +2296,39 @@ const messages:IMessages = {
   },
   "Remote device": {
     val: "Távoli eszköz",
-    translated: 'auto',
+    translated: "auto",
     h: "kGM8ugCEJGdTGfBFNcwYe5BNeXY+Wh9J4nYpxeXj2ZY=",
   },
   "Remote devices": {
     val: "Távoli eszközök",
-    translated: 'auto',
+    translated: "auto",
     h: "Pnrxp4rS7bnapZb26P4HXC5hFardsCyTT6Idz/SFJuE=",
   },
   "Remote file": {
     /* Noun; label for budget filename */
     val: "Távoli fájl",
-    translated: 'auto',
+    translated: "auto",
     h: "56l/nivDa2uMpQGnE8MPPBt60GjEgxNG5Cr/fNrTlO8=",
   },
   "Remove Categorization": {
     val: "Kategorizálás eltávolítása",
-    translated: 'auto',
+    translated: "auto",
     h: "b5sIQMfXAnBAqHD2NJfIgIAxclRGe5LJ7NzzF6sOruQ=",
   },
   "Rent/Mortgage": {
     val: "Bérlet/Jelzáloghitel",
-    translated: 'auto',
+    translated: "auto",
     h: "sCLO0xIawRUzVC3QV8aqowoCCfwYNvtXW848jCLfT10=",
   },
   "Reopen": {
     /* Label for button to reopen a close account */
     val: "Újranyitás",
-    translated: 'auto',
+    translated: "auto",
     h: "5497b4yxPFO2M524tL0qmmNk47Qv/aca/7n0zMEeX/o=",
   },
   "Reopen Account": {
     val: "Fiók újranyitása",
-    translated: 'auto',
+    translated: "auto",
     h: "KBv9ohpTpLSanhr/AFbKdJCA0VZ1iJ0THB53Hut00v4=",
   },
   "Report Bug": {
@@ -2354,17 +2353,17 @@ const messages:IMessages = {
   },
   "Reset Password": {
     val: "Jelszó visszaállítása",
-    translated: 'auto',
+    translated: "auto",
     h: "PHk0gZ6FwtHbvhVQhAv2NOv4tUth66ZawXknegPfOIU=",
   },
   "Reset bank macro password": {
     val: "Bank makró jelszó visszaállítása",
-    translated: 'auto',
+    translated: "auto",
     h: "aGiRaSU/j/Kke84s+8fSjfD+y1hVndJAUFpywUJVq50=",
   },
   "Restart Buckets": {
     val: "Kosarak újraindítása",
-    translated: 'auto',
+    translated: "auto",
     h: "TNcYWk7YxhZ0U9Q+mFMRedeWB36VsDXoYgBapDvZCgM=",
   },
   "Restart Buckets for changes to take effect.": {
@@ -2374,18 +2373,18 @@ const messages:IMessages = {
   },
   "Restore from backup": {
     val: "Visszaállítás biztonsági másolatból",
-    translated: 'auto',
+    translated: "auto",
     h: "4/wBBIqPRkVkrgO1WQ28ED/bEOnF9yg7FMna28aBMC0=",
   },
   "Restored budget from backup": {
     val: "A költségvetés visszaállítva a biztonsági mentésből",
-    translated: 'auto',
+    translated: "auto",
     h: "ETnF9ML8onmHyfTrUsxJwyn/DQp3IFbSD1m6PNM9CAU=",
   },
   "Reverse": {
     /* Label for checkbox indicating that transactions should be imported in reverse order */
     val: "Fordítva",
-    translated: 'auto',
+    translated: "auto",
     h: "asyh3SM4xzCuJwKJ77z/6mR7GortI9HKht5YBJYkHnk=",
   },
   "Run": {
@@ -2395,7 +2394,7 @@ const messages:IMessages = {
   },
   "Running": {
     val: "Futás",
-    translated: 'auto',
+    translated: "auto",
     h: "Fc5kaM2PdFj1JUHmSYpQFl5RnVw8wUq7J00zdnDXNBc=",
   },
   "Running...": {
@@ -2425,13 +2424,13 @@ const messages:IMessages = {
   },
   "Search categories": {
     val: "Keresési kategóriák",
-    translated: 'auto',
+    translated: "auto",
     h: "IScCkXq3OcNUufpAsgrWXkdRVqBrowHYo2hdSPS+X7I=",
   },
   "Search...": {
     /* Menu label for search page */
     val: "Keresés...",
-    translated: 'auto',
+    translated: "auto",
     h: "TOtty3gn23+64CNUlKn+bNe2V0f4xfUBGLHQ/Pw8XKQ=",
   },
   "Search:": {
@@ -2467,13 +2466,13 @@ const messages:IMessages = {
   "Set Mapping": {
     /* Undo/redo label for setting the mapping of a file import */
     val: "Leképezés beállítása",
-    translated: 'auto',
+    translated: "auto",
     h: "0VIJHYOJcEvpUbDh2MFyEtmMxHbY10WbgLG0YVeRSng=",
   },
   "Setting": {
     /* Noun: a single budget setting */
     val: "Beállítás",
-    translated: 'auto',
+    translated: "auto",
     h: "VPMIV8ll2EYKjYDlgvDS3IbSSfjmE5VmCEGwFTHn/ys=",
   },
   "Settings": {
@@ -2484,34 +2483,34 @@ const messages:IMessages = {
   "Share with": {
     /* Label for remote devices a budget is shared with */
     val: "Megosztás ezzel",
-    translated: 'auto',
+    translated: "auto",
     h: "U9hHc0V4Fpw0S1hjtdNc0UEGCP7X6n6JmCeoSW/LgVo=",
   },
   "Shared folder": {
     val: "Megosztott mappa",
-    translated: 'auto',
+    translated: "auto",
     h: "oeX6u9PQi6wT6MDH6F+w/A90h0XaexWgp2eca3mEfbE=",
   },
   "Sharing": {
     /* Label for sharing preferences */
     val: "Megosztás",
-    translated: 'auto',
+    translated: "auto",
     h: "+wdr1d9w83UkBcXqGDOkGlmDhl24ktIp0it2O14f4kE=",
   },
   "Sharing key": {
     val: "Megosztási kulcs",
-    translated: 'auto',
+    translated: "auto",
     h: "T90VMQdBq1lWvcHGfsIRWyHfGz8aM9ZB2cWLO1VoH2Q=",
   },
   "Show All": {
     val: "Mindet mutat",
-    translated: 'auto',
+    translated: "auto",
     h: "Kng6HqlojyhuqEK6kaB3KPtAs1w0LcpFWkJYrscali0=",
   },
   "Show Budget File...": {
     /* Show the current budget file in Finder/Explorer */
     val: " Költségvetési fájl megjelenítése...",
-    translated: 'auto',
+    translated: "auto",
     h: "iMBwVJg17i7WagCWW3Att0OrtczZYyVqAM7PDdo5sXk=",
   },
   "Show Log Files...": {
@@ -2521,18 +2520,18 @@ const messages:IMessages = {
   },
   "Show debug info": {
     val: "Hibakeresési információ megjelenítése",
-    translated: 'auto',
+    translated: "auto",
     h: "TXWI2u7pYf+GGAZ9ed2OwHkF93XqFdRCj1q7sE4PsnQ=",
   },
   "Show folder": {
     /* Button to open a folder */
     val: "Mappa megjelenítése",
-    translated: 'auto',
+    translated: "auto",
     h: "479YuRtJUsvCCqzaEjK+WyPmy20v+YQPfY3Xo/eIzKM=",
   },
   "Show full changelog": {
     val: "Teljes változásnapló",
-    translated: 'auto',
+    translated: "auto",
     h: "nu/b3QeVa2N7QmrPffBdK2zSVYIp81gVGbFjcYrlL5A=",
   },
   "Sign": {
@@ -2543,22 +2542,22 @@ const messages:IMessages = {
   },
   "Sign in to the YNAB website, click My Budget then Export Budget.": {
     val: "Jelentkezzen be a YNAB weboldalra, kattintson a Saját költségvetésre, majd exportálja a költségvetést.",
-    translated: 'auto',
+    translated: "auto",
     h: "etFjjZd2+flhi9J3CbiPL8eb4Gc3jHFAKkMPuQZmxlA=",
   },
   "SimpleFIN Connections": {
     val: "SimpleFIN Kapcsolatok",
-    translated: 'auto',
+    translated: "auto",
     h: "yzXdwvSSNy+FUFHW5+bAqRMq+j6krsNUFb/uFreKPNY=",
   },
   "SimpleFIN connection": {
     val: "SimpleFIN kapcsolat",
-    translated: 'auto',
+    translated: "auto",
     h: "g+4foa5uuY9Yv3vI/gA6gaEoNUJi2k4oFouZlUWwv/U=",
   },
   "Since some buckets have negative balances, this payment balance may not be what you actually have available for a payment.": {
     val: "Mivel néhány vödör negatív egyenleggel rendelkezik, ez a fizetési egyenleg nem az, ami valójában rendelkezésre áll egy fizetéshez.",
-    translated: 'auto',
+    translated: "auto",
     h: "DcT2jCu9H9VSH4esyPHz75dbhviMkM3N/TD1N6PtYyM=",
   },
   "Skip This Version": {
@@ -2569,22 +2568,22 @@ const messages:IMessages = {
   "Skip invalid": {
     /* Label for checkbox which controls skipping invalid transactions during import */
     val: "Érvénytelenek kihagyása",
-    translated: 'auto',
+    translated: "auto",
     h: "sKPi3ongM5VPkq2aFjBN1FX9/N/KiThGWd54qaHNfi8=",
   },
   "Speech": {
     val: "Beszéd",
-    translated: 'auto',
+    translated: "auto",
     h: "i4Qm95bH8zVEbjpkUi7jvQiLtDzGkW9z90XEkiglzHM=",
   },
   "Spending Money": {
     val: "Költési Pénz",
-    translated: 'auto',
+    translated: "auto",
     h: "7mLvCPVxhYqWXYW8EcSN4N6vyUtQqT4PnR0iC1ucTtY=",
   },
   "Start Merge": {
     val: "Indítás Összevonás",
-    translated: 'auto',
+    translated: "auto",
     h: "48IhJ8jvgXzTH0cgI8MR9W3NiQFlvBbJA/j7mj6KFhY=",
   },
   "Start Over": {
@@ -2594,7 +2593,7 @@ const messages:IMessages = {
   },
   "Start Speaking": {
     val: "Indítsd a beszédet",
-    translated: 'auto',
+    translated: "auto",
     h: "v8sFOpEAoczjEjGparKZylHWHoxHMVQriwuhJaec2rY=",
   },
   "Start with a template": {
@@ -2611,38 +2610,38 @@ const messages:IMessages = {
   },
   "Step took too long": {
     val: "A lépés túl sokáig tartott",
-    translated: 'auto',
+    translated: "auto",
     h: "Py3rsk0guEg0d8Ce9Lbfwzf1zP7E4Z8YPSOu165mOc0=",
   },
   "Stop Speaking": {
     val: "Beszéd leállítása",
-    translated: 'auto',
+    translated: "auto",
     h: "Pme2/qME7bKdVrHTIEBQYt1Fu/SXRNGyy6sLBfKpqqk=",
   },
   "Stopped": {
     val: "Leállítva",
-    translated: 'auto',
+    translated: "auto",
     h: "9KSqBDjMEVALs44MtvCW75xXb7Ta+lGl6bMoOlDV824=",
   },
   "Student Loan Payment": {
     val: "Diákhitel Törlesztés",
-    translated: 'auto',
+    translated: "auto",
     h: "j83e9PkiJgq0J5iPOaku/mbjw9H3KtXBaDV4ntsQktk=",
   },
   "Success!": {
     val: "Siker!",
-    translated: 'auto',
+    translated: "auto",
     h: "6NxF/uD6sOEPkEbPFOHdBKRxj0ZXVbmnPkRXNJDy0zs=",
   },
   "Suggested value": {
     val: "Javasolt érték",
-    translated: 'auto',
+    translated: "auto",
     h: "k6ScHeFo3C5+aB0s7M5rumKKBu3AJp93St0oUuF2GFw=",
   },
   "Swap NAME and MEMO": {
     /* Label for checkbox that will swap the value for NAME and MEMO when import OFX files */
     val: "Cserélje fel NAME és MEMO-t",
-    translated: 'auto',
+    translated: "auto",
     h: "ayF7yBQJox0msQ75+rZt4xxanK31lYhwEoynkOsepjc=",
   },
   "Sync": {
@@ -2652,7 +2651,7 @@ const messages:IMessages = {
   },
   "Sync complete": {
     val: "Szinkronizálás befejeződött",
-    translated: 'auto',
+    translated: "auto",
     h: "e2VXpLTi1mhVSVqDkExwdM5j8PhfW0MHeOqBwabU4Zo=",
   },
   "Sync has not yet been set up.": {
@@ -2662,12 +2661,12 @@ const messages:IMessages = {
   },
   "Synced balance": {
     val: "Szinkronizált egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "yyCVeQRle/vbcZ1/QyVYtL+ZmyQ5WanHCYKZpJqFd6o=",
   },
   "Syncing...": {
     val: "Szinkronizálás...",
-    translated: 'auto',
+    translated: "auto",
     h: "kuwg7vpvp082IqBtRakekOVu7bqB4PYxhnFVsoBDt/g=",
   },
   "System default": {
@@ -2689,57 +2688,57 @@ const messages:IMessages = {
   "Theme": {
     /* Label for application theme setting */
     val: "Téma",
-    translated: 'auto',
+    translated: "auto",
     h: "iIVgvkFsqSibVEM+h5dM+gyXv0J8Elgp99rvJsOFYqo=",
   },
   "There are unresolved conflicts": {
     val: "Megoldatlan konfliktusok vannak",
-    translated: 'auto',
+    translated: "auto",
     h: "WGAgJ2b6hUZ5DKTAJ6APu2LzgV5Fzwg0I80+N1TETdQ=",
   },
   "There has been an error.": {
     val: "Hiba történt.",
-    translated: 'auto',
+    translated: "auto",
     h: "viN5uLRSpgzhvoD9KO9g1cr7ihLQ0Men9LiUpy9RcwE=",
   },
   "There was an error.  Maybe try again?": {
     val: "Hiba történt. Talán próbálja meg újra?",
-    translated: 'auto',
+    translated: "auto",
     h: "l+W2GSV3tl8Gx19ZW+wOCziBj5/UeMCVO8tvh4P7LEo=",
   },
   "These devices can talk to each other": {
     val: "Ezek az eszközök egymással kommunikálhatnak",
-    translated: 'auto',
+    translated: "auto",
     h: "eNTVUVG4RQJPWolU7i1WUrn9Xi4zBpLJ4eQHjG71Kio=",
   },
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": {
     val: "Ez a költségvetés egy újabb Buckets verzióhoz lett frissítve. Ennek az idősebb verzióval való használata nem fog működni.",
-    translated: 'auto',
+    translated: "auto",
     h: "SJjFg0juSV/ZrJcAQJDMXveLnxwSQT4nfJiyMQFkbMw=",
   },
   "This device's name": {
     val: "Ez az eszköz neve",
-    translated: 'auto',
+    translated: "auto",
     h: "eTNSTczX466LRmFxprC4rfZhDomB7x4xWYltPshnAB4=",
   },
   "This is a special group for all the buckets without a group.": {
     val: "Ez egy speciális csoport az összes olyan vödörnek, amelyeknek nincs csoportja.",
-    translated: 'auto',
+    translated: "auto",
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
     val: "Ez az eszköz törli az adatokat, hogy könnyedén újrakezdhesse a költségvetését.",
-    translated: 'auto',
+    translated: "auto",
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "This will break all existing bank macros": {
     val: "Ez minden meglévő bank makrót el fogja törni",
-    translated: 'auto',
+    translated: "auto",
     h: "VStGFY84kcqELxtAwamD6vI9ELaA4dZnOs2Ubvwnao8=",
   },
   "Thousands separator": {
     val: "Ezres szeparátor",
-    translated: 'auto',
+    translated: "auto",
     h: "lYK3D4dxDxbFalJtMHHtc/++mciDmIUg9A3tgDiUkzs=",
   },
   "To": {
@@ -2749,7 +2748,7 @@ const messages:IMessages = {
   },
   "To use Buckets, you must accept the End User License Agreement (EULA).": {
     val: "A Buckets használatához el kell fogadnod a Végfelhasználói Licencszerződést (EULA).",
-    translated: 'auto',
+    translated: "auto",
     h: "0six0i9oNNM/hjCYct1UTEqdgMn0uoBbaBq0cvnoZLM=",
   },
   "Toggle Developer Tools": {
@@ -2769,12 +2768,12 @@ const messages:IMessages = {
   },
   "Total": {
     val: "Összesen",
-    translated: 'auto',
+    translated: "auto",
     h: "u6dF4hac3zx/3TL4nED+x50jCos7B3IKIqm+WqkIZXk=",
   },
   "Total amount your buckets want each month.": {
     val: "A vödröid teljes összege, amit minden hónapban akarnak.",
-    translated: 'auto',
+    translated: "auto",
     h: "PdavPuX8D9m/BkLbr04OKhddGvl8+l0iDiqd+5K9sMc=",
   },
   "Transaction": {
@@ -2784,17 +2783,17 @@ const messages:IMessages = {
   },
   "Transaction ID": {
     val: "Tranzakció ID",
-    translated: 'auto',
+    translated: "auto",
     h: "5DaWwSVPo8La/gW0/QWRXAHx08KcbBLOe7BrRuMnKMQ=",
   },
   "Transaction Type": {
     val: "Tranzakció Típus",
-    translated: 'auto',
+    translated: "auto",
     h: "5OtdraZlT3YBh5NcgKxXigGdmDWur3wzuyeNvRd4mIM=",
   },
   "Transaction(s) deleted": {
     val: "Tranzakció(k) törölve",
-    translated: 'auto',
+    translated: "auto",
     h: "8umpuy0JiIWHWgMJdIJu2si38T6QhOVeI70IUVV/i3U=",
   },
   "Transactions": {
@@ -2814,7 +2813,7 @@ const messages:IMessages = {
   },
   "Transferred": {
     val: "Átutalt",
-    translated: 'auto',
+    translated: "auto",
     h: "dMUnHOi8B6xpQztmwKOsEkjhvkEKLHaefSUJ0oR9ZEs=",
   },
   "Trial Version": {
@@ -2824,7 +2823,7 @@ const messages:IMessages = {
   },
   "Trial version": {
     val: "Próbaverzió",
-    translated: 'auto',
+    translated: "auto",
     h: "/B8oxaBijS+cHJQBdPRkq7IfcHyPStMT5uGKWUeZQuQ=",
   },
   "Tuition": {
@@ -2834,63 +2833,63 @@ const messages:IMessages = {
   },
   "Type a date format...": {
     val: "Írjon be egy dátumformátumot...",
-    translated: 'auto',
+    translated: "auto",
     h: "oOXoncSSYGIZM5rpYEudSx4xWO7x8hRHdt89DNfPv84=",
   },
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
     val: "Fiók ignorálásának feloldása",
-    translated: 'auto',
+    translated: "auto",
     h: "DVgAPa6nwJLDg7emkZZ+j85bGwcKjEzqlkZlPHkypU8=",
   },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
     val: "Archívum kibontása",
-    translated: 'auto',
+    translated: "auto",
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
     /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
     /* Name of action.  Consider this "Unarchive Bucket" */
     val: "Bucket visszaállítása",
-    translated: 'auto',
+    translated: "auto",
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
     val: "Nem sikerült a hozzáférési token igénylése",
-    translated: 'auto',
+    translated: "auto",
     h: "Gao95RuT9JvhdAoZ5winV9os7iMaPIex3Vq9CMSjhzs=",
   },
   "Unable to open the file:": {
     val: "Nem sikerült megnyitni a fájlt:",
-    translated: 'auto',
+    translated: "auto",
     h: "MxbgnQR4Cyi549ltzzIDDAI1qRGqoeRm0zOApQMS2DY=",
   },
   "Unattended merge not possible": {
     val: "Felügyelet nélküli merge nem lehetséges",
-    translated: 'auto',
+    translated: "auto",
     h: "gj2u4cxLi3C3cxHWoasHcAgEnMNADU6mwZx4EGEZgLU=",
   },
   "Unavailable": {
     val: "Nem elérhető",
-    translated: 'auto',
+    translated: "auto",
     h: "tML1A7GUQ8Z/SUbUV6zcxmjjrptonGvYtuU1Y2y/gvE=",
   },
   "Uncategorized": {
     val: "Kategorizálatlan",
-    translated: 'auto',
+    translated: "auto",
     h: "BjQg1sHfdAVLyMzfMfC6sQnK4vIGQ6vrl6OsGg8Oqkk=",
   },
   "Uncaught Error": {
     /* Title for error reporting dialog */
     val: "Elfogatlan hiba",
-    translated: 'auto',
+    translated: "auto",
     h: "8shOzic2CgRpaIcNhv/44tsVBDgSItWp3ZbdihMYp9E=",
   },
   "Uncleared": {
     /* Label for sum of uncleared transaction amounts */
     val: "Nem kiegyenlített",
-    translated: 'auto',
+    translated: "auto",
     h: "1GBgqlG+RCS8dFTG2z15jLFFd4PCVVXDefXwBRq0oTs=",
   },
   "Undo": {
@@ -2900,47 +2899,47 @@ const messages:IMessages = {
   },
   "Unexpected sync error": {
     val: "Váratlan szinkron hiba",
-    translated: 'auto',
+    translated: "auto",
     h: "78kYsQMTfGS8BNaZVuqYaRojJlTpcmN6CF9PQKKO0ME=",
   },
   "Unknown account": {
     val: "Ismeretlen fiók",
-    translated: 'auto',
+    translated: "auto",
     h: "fe+Wdg63x9QKcxCX3/yM3LDBqelVYK1tng28BgQRovw=",
   },
   "Unknown account deleted": {
     val: "Ismeretlen fiók törölve",
-    translated: 'auto',
+    translated: "auto",
     h: "2db3S+9bmJWgpIWRAqHm8irdPTY5ZMEsdHeADQ7HdeQ=",
   },
   "Unknown category": {
     val: "Ismeretlen kategória",
-    translated: 'auto',
+    translated: "auto",
     h: "bK4teMnFOuofJ4sX76ozAla50yDaLbvb5pCj+New5f4=",
   },
   "Unlinked Accounts": {
     val: "Nem összekapcsolt fiókok",
-    translated: 'auto',
+    translated: "auto",
     h: "BPAjsiEkATiwSf9f6kde3yZwSmmyiPDLiZ7Rr+3Zv/A=",
   },
   "Unregistered Version": {
     val: "Regisztrálatlan Verzió",
-    translated: 'auto',
+    translated: "auto",
     h: "x9ekMClqI57T6jREU5VJurBCzlD+hBNJ8pHNQ0zMB1U=",
   },
   "Update": {
     val: "Frissítés",
-    translated: 'auto',
+    translated: "auto",
     h: "cQYLRi89RKalUb+A5uCwnJtCV0x+6+otody2dq/mqxk=",
   },
   "Update Account Balance": {
     val: "Frissítse a számla egyenlegét",
-    translated: 'auto',
+    translated: "auto",
     h: "iwKjdHzqHPwoupXiUwrVL1tX4QfO//taXOPXFVtWRVE=",
   },
   "Update Account Name": {
     val: "Fiók név frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "xcyLhnHNOTDgJsYGhaelbAmXYam4HWMfD5mQiTiZJ50=",
   },
   "Update Bucket Name": {
@@ -2950,42 +2949,42 @@ const messages:IMessages = {
   },
   "Update Bucket Type": {
     val: "Bucket típus frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "wt5F9WSIpGlUsGaPnhSJlLYk0qraymNHDw0bYzbHlIE=",
   },
   "Update Color": {
     val: "Szín frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "6QBa9YrDFsWCiiS/PMj7r+cTmIgMmmqjTnv9x4l90ic=",
   },
   "Update Currency Symbol": {
     val: "Valuta szimbólum frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "5ni7IpG/zzlc/uAhhkduQ99K/5B9ui5INpaxZw7QTrs=",
   },
   "Update Goal": {
     val: "Cél frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "S3dt9ahT1yTXTCP2uHqiTMkyPUmAvAHvsCeGNa+NL1E=",
   },
   "Update Group Name": {
     val: "Csoport név frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "/pmHZLX1mkRHtus8eVyojidhAUe6BocaSkf5dGoIrSM=",
   },
   "Update Macro Name": {
     val: "Makró név frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "61srDLhVLo6bOo+SbnJ0rMbhNhXXRxEjgP3/nFafMKI=",
   },
   "Update Monthly Deposit": {
     val: "Havi Befizetés Frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "rFQ5lKjSNpQyyptg2Y+a4LQ6jwa1xWjKarMapXiD1/8=",
   },
   "Update Name": {
     val: "Név frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "fTqm8NUcvzaYHnGFDmVhLePEd/TFNPhUDzSYIIerjNc=",
   },
   "Update Note": {
@@ -2995,22 +2994,22 @@ const messages:IMessages = {
   },
   "Update Number Format": {
     val: "Számformátum Frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "98Qu07eWAHjS80FuHQajrVMMtd0jq5Zq8rRKuDQEZEU=",
   },
   "Update Payee": {
     val: "Kedvezményezett frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "28JOAeb8QLlBYMLiOO8RGW8SHBJ14Gdp/t/7rprHodk=",
   },
   "Update Payees": {
     val: "Kedvezményezettek frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "hJhDyJDaai8R9NXK8J3AOdqOOhdqmkZeR8ziJyzuzVU=",
   },
   "Update Target Date": {
     val: "Cél dátum frissítése",
-    translated: 'auto',
+    translated: "auto",
     h: "SEac1rQopyHALPSWU85qYV3GE0x9i2OGDB+JYnVID8A=",
   },
   "Update Transaction": {
@@ -3030,7 +3029,7 @@ const messages:IMessages = {
   },
   "Update complete": {
     val: "Frissítés befejeződött",
-    translated: 'auto',
+    translated: "auto",
     h: "5JP6upRWYG0d3p+rGNvUMcl08i6wvxKs0zhYG5NvUj4=",
   },
   "Update downloaded.": {
@@ -3040,28 +3039,28 @@ const messages:IMessages = {
   },
   "Update failed": {
     val: "Frissítés sikertelen",
-    translated: 'auto',
+    translated: "auto",
     h: "MU8WQkSmMfpUADhweg+WSBrhrTcWK23Ow4QqwxyoAfo=",
   },
   "Update opening balance": {
     val: "Frissítse a nyitó egyenleget",
-    translated: 'auto',
+    translated: "auto",
     h: "Z0BMQUVy9IHw3rAN6dd3xnGsgHNFC+l4FxxGcNc8QJ8=",
   },
   "Updated": {
     val: "Frissítve",
-    translated: 'auto',
+    translated: "auto",
     h: "zN8HYtieJpXIt5Bdb1SWdC1+tonH7H3QHVbuUzU4rgY=",
   },
   "Updates": {
     /* Label for section about Buckets application updates */
     val: "Frissítések",
-    translated: 'auto',
+    translated: "auto",
     h: "lAv/Y2isYNmD0UIkVd8zZO2kJ9FjxPjiL+Bnajfzxtg=",
   },
   "Updating...": {
     val: "Frissítés...",
-    translated: 'auto',
+    translated: "auto",
     h: "gAFg4pzFnJ37C/ReDfO2llXdsckG7onQiLq6WjhBWxk=",
   },
   "Used in future": {
@@ -3071,12 +3070,12 @@ const messages:IMessages = {
   },
   "Username": {
     val: "Felhasználónév",
-    translated: 'auto',
+    translated: "auto",
     h: "UAZmOHuQGOos8K4CBGseGzsnoOEV6JPA/VJYYtHu0k8=",
   },
   "Username/Password": {
     val: "Felhasználónév/Jelszó",
-    translated: 'auto',
+    translated: "auto",
     h: "2pr0zsSsuFii6F31xH62795E7bFmbKwAYd/oe2E1kBc=",
   },
   "Using this tool can ruin your budget file.  Make a copy of your budget if you're worried.": {
@@ -3096,12 +3095,12 @@ const messages:IMessages = {
   },
   "View EULA": {
     val: "EULA megtekintése",
-    translated: 'auto',
+    translated: "auto",
     h: "6symBeYWMFH1ySjpbWX+XjygI3Cq3j/ywz3b0tPtIHE=",
   },
   "Waiting to retry": {
     val: "Várakozás az újrapróbálásra",
-    translated: 'auto',
+    translated: "auto",
     h: "F88F80XANbwofOEoXYAjMA09+UIhKPUY6qNK7dkEQmo=",
   },
   "Want": {
@@ -3111,12 +3110,12 @@ const messages:IMessages = {
   },
   "Wants": {
     val: "Akar",
-    translated: 'auto',
+    translated: "auto",
     h: "AOckwUko9CT2K8gxtu/GHFhjivPPgTDgQSjCNSujUV4=",
   },
   "Warning: Doing this will use rain you don't have and could steal rain from future months (if available).": {
     val: "Figyelem: Ha ezt megteszi, el fogja használni az esőt, amivel nem rendelkezik, és ellophatja az esőt a jövőbeli hónapokból (ha elérhető).",
-    translated: 'auto',
+    translated: "auto",
     h: "YR+S0SMnFz4+K5vpXrMzMfSaBE5mHBrhQTalzgI0/7U=",
   },
   "Water": {
@@ -3132,7 +3131,7 @@ const messages:IMessages = {
   },
   "When \"On\" this macro will be run during a normal sync.": {
     val: "Amikor „Be” ez a makró futni fog egy normál szinkronizálás során.",
-    translated: 'auto',
+    translated: "auto",
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {
@@ -3142,7 +3141,7 @@ const messages:IMessages = {
   },
   "YES": {
     val: "IGEN",
-    translated: 'auto',
+    translated: "auto",
     h: "z2FPqj4x8eJnnL7/njedU5qqPbxgrFqjpsTeqGqJH9U=",
   },
   "Year to Year": {
@@ -3152,7 +3151,7 @@ const messages:IMessages = {
   },
   "Year's Supply": {
     val: "Éves Készlet",
-    translated: 'auto',
+    translated: "auto",
     h: "E5VfnhjiYed/e2Ezg+RdChSIz6cjwl9oyRzpO1rjl0I=",
   },
   "Yearly": {
@@ -3167,12 +3166,12 @@ const messages:IMessages = {
   },
   "Yes": {
     val: "Yes",
-    translated: 'auto',
+    translated: "auto",
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "Yes, connect": {
     val: "Igen, csatlakozz",
-    translated: 'auto',
+    translated: "auto",
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
   "You are running the latest version!": {
@@ -3197,12 +3196,12 @@ const messages:IMessages = {
   },
   "You haven't kicked the bucket yet...": {
     val: "Még nem rúgtad fel a vödröt...",
-    translated: 'auto',
+    translated: "auto",
     h: "mtaAsLJ7BgWZcbIkRmZ4ZPSSRGXj6vJ2H8+diLhIba4=",
   },
   "You must backup to a different file.": {
     val: "Biztonsági mentést kell készítened egy másik fájlra.",
-    translated: 'auto',
+    translated: "auto",
     h: "LAt5pxdaPsRHDU6bS2Cu1aEDIQ2oZAMw46Pa7H6pc5o=",
   },
   "Your email address:": {
@@ -3217,30 +3216,30 @@ const messages:IMessages = {
   },
   "Zoom In": {
     val: " Nagyítás",
-    translated: 'auto',
+    translated: "auto",
     h: "p3yHl1qkGVfRDPsLKitBuZhRJIDaTy3fV/vbWqOzo24=",
   },
   "Zoom Out": {
     val: "Kicsinyítés",
-    translated: 'auto',
+    translated: "auto",
     h: "hRo1uzcSNStVll7ef2xHOB6PqFh+q7Sg/VHiGcK4M8M=",
   },
   "account-in": {
     /* Label for amount put into an account */
     val: "Be",
-    translated: 'auto',
+    translated: "auto",
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "account-net-amount": {
     /* Label for net value of amount in - amount out for an account */
     val: "Nettó",
-    translated: 'auto',
+    translated: "auto",
     h: "QITdwYnhK1fVfALCDc6jQhY2jLIUBpPp0/bSHOX6p9M=",
   },
   "account-out": {
     /* Label for amount taken out of an account */
     val: "Kivétel",
-    translated: 'auto',
+    translated: "auto",
     h: "v4Oj0CQx7cmHP4mcJsZX4xMTzMzeFS81XA9gU3qOFKU=",
   },
   "account-type": {
@@ -3251,157 +3250,157 @@ const messages:IMessages = {
   "account.balance": {
     /* Account balance label */
     val: "Egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "account.closed": {
     /* Account closed label */
     val: "Lezárt",
-    translated: 'auto',
+    translated: "auto",
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "account.currency": {
     /* Account currency label */
     val: "Valuta",
-    translated: 'auto',
+    translated: "auto",
     h: "3D60KXXRwf14ydWSrd5tvgLQBOCOfNDf05UchJALh14=",
   },
   "account.import_balance": {
     /* Account imported balance label */
     val: "Importált egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "Z2Hg44o19bCItKOAhixAAwpW972mvt3LZyFy7Y3Dhgk=",
   },
   "account.kind": {
     /* Account type label */
     val: "Típus",
-    translated: 'auto',
+    translated: "auto",
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "account.name": {
     /* Account name label */
     val: "Név",
-    translated: 'auto',
+    translated: "auto",
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "account.offbudget": {
     /* Deprecated label for off budget accounts */
     val: "Költségvetésen kívüli",
-    translated: 'auto',
+    translated: "auto",
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
   "account.ranking": {
     /* Account order label */
     val: "Rendelés",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "account.starting_balance": {
     /* Account opening balance label */
     val: "Nyitó egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "OEuQ3gAWrV+lPay2usXLKN3bNCH87PEsrcr+thNNbJY=",
   },
   "account_mapping.account_hash": {
     /* Account cryptographic hash label */
     val: "Fingerprint",
-    translated: 'auto',
+    translated: "auto",
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "account_transaction.cleared": {
     /* Transaction cleared flag label */
     val: "Tisztázott",
-    translated: 'auto',
+    translated: "auto",
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "account_transaction.fi_id": {
     /* Financial institution assigned transaction ID label */
     val: "Intézmény által hozzárendelt azonosító",
-    translated: 'auto',
+    translated: "auto",
     h: "gFeirPPl/djXfLKwDK8FtD7JPKjC/2e7sHuRIxqkii8=",
   },
   "account_transaction.general_cat": {
     /* General category label */
     val: "Általános kategória",
-    translated: 'auto',
+    translated: "auto",
     h: "xEay6AzOg30Omh/FS2qPVa7eCkrUiXxTIclZM+h3BZE=",
   },
   "accounts.name_placeholder": {
     val: "nincs név",
-    translated: 'auto',
+    translated: "auto",
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "action.New bucket": {
     val: "Új vödör",
-    translated: 'auto',
+    translated: "auto",
     h: "aIKjDQtVbUMjIHU/6fccfiWBUIwUBnAofdzRJTCuytI=",
   },
   "action.New group": {
     val: "Új csoport",
-    translated: 'auto',
+    translated: "auto",
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "action.ignore": {
     val: "Ignorál",
-    translated: 'auto',
+    translated: "auto",
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "action.link-account": {
     val: "Hivatkozás",
-    translated: 'auto',
+    translated: "auto",
     h: "unfAYQpjuyuTjjRCodr+S+jNjRmz3nahjZ91u/j5HfE=",
   },
   "action.report bug": {
     val: "Hiba jelentése",
-    translated: 'auto',
+    translated: "auto",
     h: "RxuE9Dh0Dadda2PtjUPD0dQ7b8aQok84Ytvw31ABBRU=",
   },
   "bank_macro.enabled": {
     /* Bank macro enabled flag label */
     val: "Engedélyezve",
-    translated: 'auto',
+    translated: "auto",
     h: "hHztbKAreElTc7ttNUovJFG0DIq9xfILBM+1aNV8x2Q=",
   },
   "bank_macro.enc_recording": {
     /* Bank macro recording data label */
     val: "Adatrögzítés",
-    translated: 'auto',
+    translated: "auto",
     h: "nCMGHm2pOXvkN7v4hXGbN6g6Q9KfnHLC9ToPAUPTNIo=",
   },
   "bank_macro.name": {
     /* Bank macro name label */
     val: "Név",
-    translated: 'auto',
+    translated: "auto",
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bank_macro.uuid": {
     /* Bank macro UUID label */
     val: "Egyedi azonosító",
-    translated: 'auto',
+    translated: "auto",
     h: "UbH2EWDbIyGX6gVQAsz9xGUQYrsX+er1VM8Fuuxhxrw=",
   },
   "bucket.balance": {
     /* Bucket balance label */
     val: "Egyenleg",
-    translated: 'auto',
+    translated: "auto",
     h: "azvDWgVPY349dq4q8mbtpDhehRsFKYKNzMk/TcuOvEQ=",
   },
   "bucket.color": {
     /* Bucket color label */
     val: "Szín",
-    translated: 'auto',
+    translated: "auto",
     h: "/hiVjO3WJ9JPhG5BDY2SqUELJlWFlhAWkhD3x/c45mU=",
   },
   "bucket.debt_account_id": {
     /* Bucket's related debt account label */
     val: "Adósség számla",
-    translated: 'auto',
+    translated: "auto",
     h: "VSXRVQC8DbjhKcJjXLieRBksQgQU56PH2njj+P5m/KI=",
   },
   "bucket.deposit": {
     /* Bucket deposit amount label */
     val: "Befizetés",
-    translated: 'auto',
+    translated: "auto",
     h: "m1MGQLRYdNxU9nxvjA8qOlurdztaw7NQI15XBoTWhN8=",
   },
   "bucket.detailslabel": {
@@ -3412,104 +3411,104 @@ const messages:IMessages = {
   "bucket.end_date": {
     /* Bucket goal target date label */
     val: "Target date",
-    translated: 'auto',
+    translated: "auto",
     h: "4+CFBiJaLAXPQeIpTMtcn3dB7Kgzsb0U/1WlSaqWgwM=",
   },
   "bucket.goal": {
     /* Bucket goal amount label */
     val: "Cél",
-    translated: 'auto',
+    translated: "auto",
     h: "IGWRYx9sqJO1YtI2GyVqdV+i4fFQ+e8XMaiWTNAn/xk=",
   },
   "bucket.group_id": {
     /* Bucket group label */
     val: "Csoport",
-    translated: 'auto',
+    translated: "auto",
     h: "sOfjtH37WgstIWC3rRx2AsnvrT3fsQLKx5n8lTeYI0Y=",
   },
   "bucket.kicked": {
     /* Bucket kicked flag label */
     val: "Kirúgott",
-    translated: 'auto',
+    translated: "auto",
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "bucket.kind": {
     /* Bucket type label */
     val: "Típus",
-    translated: 'auto',
+    translated: "auto",
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
   "bucket.name": {
     /* Bucket name label */
     val: "Név",
-    translated: 'auto',
+    translated: "auto",
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket.ranking": {
     /* Bucket order label */
     val: "Order",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket.transfer.help": {
     val: "Egy átutalás egy tranzakció az egyik tárolóból a másikba. Ha a tranzakció nem bevétel vagy kiadás, akkor valószínűleg egy átutalás.",
-    translated: 'auto',
+    translated: "auto",
     h: "dh5nslkaB1wNR4tJ5zAn6Hms+9oJqBDmAIR5k6WE6iY=",
   },
   "bucket_group.name": {
     /* Bucket group name label */
     val: "Név",
-    translated: 'auto',
+    translated: "auto",
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "bucket_group.ranking": {
     /* Bucket group ordering label */
     val: "Sorrend",
-    translated: 'auto',
+    translated: "auto",
     h: "Ggkvvwng4JyzP26RBZ9LrevWhrb766Qq+yTffZWmefg=",
   },
   "bucket_transaction.account_trans_id": {
     /* Bucket transaction's related account transactions ID label */
     val: "Account transaction",
-    translated: 'auto',
+    translated: "auto",
     h: "LyTdIJwB7IZ3hRIJLfTzbNqAiCegb1SR/QSm722WZkc=",
   },
   "bucket_transaction.bucket_id": {
     /* Bucket transaction bucket label */
     val: "Vödör",
-    translated: 'auto',
+    translated: "auto",
     h: "APPSgbsmF5H9B7YIJDaPcEVh4T7ctWU+hxQv/eG1Dg0=",
   },
   "bucket_transaction.linked_trans_id": {
     /* Label for a debt account's transaction that caused this transaction */
     val: "Adósság tranzakció",
-    translated: 'auto',
+    translated: "auto",
     h: "dsZm4Y+ZMohJRUkDmRya3MF/TZcL+z8GokDuT1P2da0=",
   },
   "bucket_transaction.transfer": {
     /* Transfer flag label */
     val: "Átvitel",
-    translated: 'auto',
+    translated: "auto",
     h: "B5GGqjnE8KOjYJjhsFV7zs5TGmGmVPqjihzMVxHJ3sI=",
   },
   "buckethead.activity": {
     val: "A bevétel és kiadások nettó összege.",
-    translated: 'auto',
+    translated: "auto",
     h: "Ci5S7xYAKzBYmbK2mxnSj4p0EV9hMsvSs11lDMecqFo=",
   },
   "buckethead.fill": {
     val: "Befizetett és kivett nettó teljes összeg (tranzakcióktól függetlenül).",
-    translated: 'auto',
+    translated: "auto",
     h: "T/g+6epzxej0HqIZyFjCZzqwtqqEJPCRV2cntaNNfOE=",
   },
   "bucketinout.help": {
     val: "Ezt használja arra, hogy pénzt tegyen be és vegyen ki minden vödörből.",
-    translated: 'auto',
+    translated: "auto",
     h: "FVxtuv3HRHdU7Snx+P3YYxcSngOkrcKyS5mng6AB8gE=",
   },
   "bucketrain.help": {
     val: "Ez mutatja, mennyi pénzt akarnak ezek a vödrök minden hónapban. A kis doboz jelzi, mennyit kaptak.",
-    translated: 'auto',
+    translated: "auto",
     h: "3dbOFkUiGaEoD01CP7kIWDQHgUbULWexjdEKdEAF3sA=",
   },
   "buckettype.deposit": {
@@ -3519,7 +3518,7 @@ const messages:IMessages = {
   },
   "buckettype.deposit-date": {
     val: "Z/hó megtakarítása Y dátumig",
-    translated: 'auto',
+    translated: "auto",
     h: "zdWdEX9eN5qpFDboBF+wi9EIguwYsB9nQCzN9GjrxMc=",
   },
   "buckettype.goal-date": {
@@ -3529,7 +3528,7 @@ const messages:IMessages = {
   },
   "buckettype.goal-deposit": {
     val: "Takarítson meg X-et havonta Z befizetéssel",
-    translated: 'auto',
+    translated: "auto",
     h: "BUzPSZsbi+lN/3tb6eF63oa7CEzS94r6ee5jf5G7inA=",
   },
   "buckettype.plain": {
@@ -3539,25 +3538,25 @@ const messages:IMessages = {
   },
   "budget-file-type-name": {
     val: "Vödrök Költségvetés",
-    translated: 'auto',
+    translated: "auto",
     h: "g2jeytcuhPOlEo6R2OlTzT3vNdE7sVWGnXuffEioq4c=",
   },
   "change_log.action": {
     /* Change log action type */
     val: "Művelet",
-    translated: 'auto',
+    translated: "auto",
     h: "XvzB5DfL6tpSZT8TMSHzyiWbhLdKUeFcJ3tN6T8RvXU=",
   },
   "change_log.obj": {
     /* Change log object name label */
     val: "Objektum",
-    translated: 'auto',
+    translated: "auto",
     h: "x6OaEMmJvznVG69QSR5ZH9Xoyu3vlgNaQC6E/ymQjgQ=",
   },
   "change_log.obj_id": {
     /* Change log object id label */
     val: "Objektumazonosító",
-    translated: 'auto',
+    translated: "auto",
     h: "K80xtzHhh4SO59NC0gT7rx1scigZGMneXw1DA+Ycv48=",
   },
   "daterange.all": {
@@ -3567,13 +3566,13 @@ const messages:IMessages = {
   },
   "debt-bucket-explanation": {
     val: "Ez egy speciális adósségfizetési kosár.",
-    translated: 'auto',
+    translated: "auto",
     h: "+XZJ0Nl0JR5/xu1lf1csGge9E19plZmcKQmuaBg44aI=",
   },
   "debt-payment-bucket-name": {
     /* A likely account name might be "Credit Card" or "Chase VISA".  This is the name of the bucket that holds the payment for the debt account. */
     val: (account_name:string) => `${account_name} Fizetés`,
-    translated: 'auto',
+    translated: "auto",
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
@@ -3583,7 +3582,7 @@ const messages:IMessages = {
   },
   "default new bucket name": {
     val: "Új Vödör",
-    translated: 'auto',
+    translated: "auto",
     h: "FchHrB6weykpHiqRVxc5QKb6BEdhH4DXrc+t6RNcF8M=",
   },
   "default new group name": {
@@ -3593,18 +3592,18 @@ const messages:IMessages = {
   },
   "err": {
     val: "hiba",
-    translated: 'auto',
+    translated: "auto",
     h: "SjZnjAmjB+MXTE65uld0YUG2SmqBsMTAaeG4UnJgm4s=",
   },
   "error-detail": {
     val: "Ha ez a hiba továbbra is előfordul, vagy nem értelmes, kérjük, jelentsen egy hibát vagy csevegjen velünk.",
-    translated: 'auto',
+    translated: "auto",
     h: "10Kk29tlHpBnhcTf7RRMfq1OZPGZgvPPguRlInaLNoY=",
   },
   "file_import_mapping.mapping_json": {
     /* File import mapping data label */
     val: "Adat",
-    translated: 'auto',
+    translated: "auto",
     h: "nb/gDaJJpEyxUczsooYPcWRNvDVzBJLOxevxBEAPM+o=",
   },
   "getting-started-link": {
@@ -3646,7 +3645,7 @@ const messages:IMessages = {
   },
   "import-verb": {
     val: "Importálás",
-    translated: 'auto',
+    translated: "auto",
     h: "F3sijvfYz3oB4iz2rVHjUvNDLQs43MbXDVIr5VFA2/c=",
   },
   "in the bank": {
@@ -3682,7 +3681,7 @@ const messages:IMessages = {
     val: () => `Ez egy regisztrálatlan próbaverzió, és bár a próbaverzió korlátlan ideig használható, licencet kell vásárolni a további használathoz.
 
 Szeretne most licencet vásárolni?`,
-    translated: 'auto',
+    translated: "auto",
     h: "cugeP6FVXqdiCtOers5rslG0mDD5t/Rfl1ZWslfhD48=",
   },
   "navigatestep": {
@@ -3692,12 +3691,12 @@ Szeretne most licencet vásárolni?`,
   },
   "net-transfers.help": {
     val: "A nettó átutalások az összes átutalásként megjelölt tranzakciók teljes összege. Ennek 0-nak kell lennie. Ha nem az, kattintson át, hogy ellenőrizze, nincsenek-e duplikált tranzakciók vagy hibásan átutalásként kategorizált tranzakciók.",
-    translated: 'auto',
+    translated: "auto",
     h: "2P3jr/VPQ35tlPa/uDMqi1spXO4Rinn76fgfVOegiA8=",
   },
   "no name": {
     val: "nincs név",
-    translated: 'auto',
+    translated: "auto",
     h: "UwMHboI9q49SZQkwMN8ps9zBi6YOSdtwakjLJwudtyA=",
   },
   "noin.income": {
@@ -3741,62 +3740,62 @@ Szeretne most licencet vásárolni?`,
                                       Túl sokat, {abs_amount}-ot raktál a vödrökbe. Ha minden tranzakciót kategorizáltak ebben a hónapban, távolítsd el {abs_amount}-ot a választott vödrökből.
                                       </span>
                                     },
-    translated: 'auto',
+    translated: "auto",
     h: "tqXmJxZXqyA0mN/8ugZkpCyspyO7XlPnGlEYGWgQ7jk=",
   },
   "rain.help.pos": {
     val: (abs_amount:JSX.Element) => { return <span> Még {abs_amount} van, amit a vödrökbe kell tenned. </span> },
-    translated: 'auto',
+    translated: "auto",
     h: "boezbSGkVm3dnfFvodJOAeCgAEMIQN9L+8TwEHLpU/o=",
   },
   "sample-size": {
     val: (count:number, total:number) => {
           return `Megjelenítve ${count} a ${total}-ből`
         },
-    translated: 'auto',
+    translated: "auto",
     h: "V4+Zyz6U1+wyTBVSVOfOz+wwkd1EWbQBhFcYdL9jLfY=",
   },
   "settings.key": {
     /* Settings name label */
     val: "Név",
-    translated: 'auto',
+    translated: "auto",
     h: "bMXfNfAzjiMOnmM+rZmR8I9iyrRaMmSXja7cZ0eGcwU=",
   },
   "settings.value": {
     /* Settings value label */
     val: "Érték",
-    translated: 'auto',
+    translated: "auto",
     h: "+VG3lKNZdlCrMfK2d7yG7/OtZ5iGD3yqkIqOIClVuNw=",
   },
   "simplefin-connect-intro": {
     val: "A csatlakozáshoz kövesd az alábbi lépéseket:",
-    translated: 'auto',
+    translated: "auto",
     h: "421gz/BziKZhsIy2YKRFNtwoqPcbQ7uhFZWWfd6ReBg=",
   },
   "simplefin-get-token": {
     val: (mklink) => { return <span>Szerezz egy SimpleFIN tokent a {mklink('SimpleFIN Bridge')}</span> },
-    translated: 'auto',
+    translated: "auto",
     h: "VEeKjngcHxowWbB2xWy5oNH4MXIfJQ7EqpiomT6V0fg=",
   },
   "simplefin-paste": {
     val: "Ezután illessze be a SimpleFIN Tokenjét ide:",
-    translated: 'auto',
+    translated: "auto",
     h: "vAoRsY20OBqs8bleaXD3auq8VnO9gQj7gXz5p+p71EI=",
   },
   "simplefin_connection.access_token": {
     /* SimpleFIN access token label */
     val: "Jogkivonat",
-    translated: 'auto',
+    translated: "auto",
     h: "RqJX7GMSAvHvTe36qzKsJI8E56vSQX8DYTUB/G7/RTI=",
   },
   "single-account Closed": {
     val: "Zárva",
-    translated: 'auto',
+    translated: "auto",
     h: "8pZrnvzAUQTJhDN/XX31DLvx0wIs1Ww3fV6pktEKEHs=",
   },
   "single-bucket Kicked": {
     val: "Kirúgva",
-    translated: 'auto',
+    translated: "auto",
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "some day...": {
@@ -3806,20 +3805,20 @@ Szeretne most licencet vásárolni?`,
   },
   "sync-symbol help": {
     val: "Ez a szimbólum azt jelenti, hogy a tranzakció egy importálásból/szinkronizálásból származik",
-    translated: 'auto',
+    translated: "auto",
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
     val: (start: string, end: string) => {
         return `Tranzakciók szinkronizálása ${start}-tól ${end}-ig`;
       },
-    translated: 'auto',
+    translated: "auto",
     h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
   },
   "tab": {
     /* Label for 'tab' character */
     val: "Tab",
-    translated: 'auto',
+    translated: "auto",
     h: "aEXPpTPGGl6vpoXplsnqN9LGRDys7bKMPu0BVvzbxIg=",
   },
   "this_device.name": {
@@ -3856,25 +3855,25 @@ Szeretne most licencet vásárolni?`,
   "unknown_account.account_hash": {
     /* Account fingerprint label */
     val: "Fingerprint",
-    translated: 'auto',
+    translated: "auto",
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "unknown_account.description": {
     /* Unknown account description label */
     val: "Leírás",
-    translated: 'auto',
+    translated: "auto",
     h: "bg0ZDIR+z+PEkinc/ZyqkERMsVZcFFm3NhQoIqZH+WM=",
   },
   "unknown_account.ignore": {
     /* Label for flag indicating if an unknown account is ignored or not */
     val: "Ignorál",
-    translated: 'auto',
+    translated: "auto",
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
   "use-delimiter": {
     /* When importing CSV files, users can choose a custom delimiter (instead of commas). This presents their custom delimiter as an option. */
     val: (delimiter:string) => `Használj "${delimiter}"`,
-    translated: 'auto',
+    translated: "auto",
     h: "KJbb5/maOo+aep3dLJiRb5KwueX8VsaGVPIXGXDeXkY=",
   },
   "verb-open": {
@@ -3886,6 +3885,7 @@ Szeretne most licencet vásárolni?`,
 }
 export const pack:ILangPack = {
   name: 'Magyar',
+  en_name: 'Hungarian',
   dir: 'ltr',
   numbers: {
     thousands: ' ',
