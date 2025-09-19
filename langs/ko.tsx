@@ -3128,8 +3128,8 @@ const messages:IMessages = {
     h: "tW4h/MIfunRbmUN+oxQ8Sa2pKJQgML5XIcQkPzclpEM=",
   },
   "When \"On\" this macro will be run during a normal sync.": {
-    val: "When \"On\" this macro will be run during a normal sync.",
-    translated: false,
+    val: "\"켜짐\"으로 설정하면 이 매크로는 일반 동기화 중에 실행됩니다.",
+    translated: true,
     h: "HnJ7qVSPXxIg3/lygw1Ln/VvBMBs8roJwXlCpP2KnMw=",
   },
   "Window": {

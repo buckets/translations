@@ -1020,8 +1020,8 @@ const messages:IMessages = {
     h: "6LehLh8oNPMtzfLjQbZAJ3a35TSBoIn+XTBtBBaEuKI=",
   },
   "Error during import": {
-    val: "Error during import",
-    translated: false,
+    val: "Hiba az importálás során",
+    translated: "auto",
     h: "BiI3zjvgdX5vXe4kX0mS7AvEFln+iIdMmLNX1xeQqLU=",
   },
   "Error during merge": {
