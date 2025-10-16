@@ -67,8 +67,8 @@ const messages:IMessages = {
     h: "2TWZMBgBGQU/CoeXRW5NR1b0AT4yW/zrLyRpUGWBQn8=",
   },
   "Account": {
-    val: "Account",
-    translated: false,
+    val: "账户",
+    translated: "auto",
     h: "ihCgI4A9UaFZ63kuiKXqFHoGsze2dYwzpgSVU0clMfQ=",
   },
   "Account Transactions": {
@@ -144,7 +144,7 @@ const messages:IMessages = {
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
     /* Label for letting users select any file for import regardless of extension */
-    val: "All Files",
+    val: "所有文件",
     translated: "auto",
     h: "xP+YqxC7o4/NEWANvugOAGzJXIF368ZNwle6rV7nVRg=",
   },
@@ -317,8 +317,8 @@ const messages:IMessages = {
     h: "9/8gWH6aVupdwCUJFJ4KodEJWn4fFwbiASgh7oQcxPE=",
   },
   "Birthdays": {
-    val: "Birthdays",
-    translated: false,
+    val: "生日",
+    translated: "auto",
     h: "rzI9rIMV5VD86pAzRZf+uFAA8rWYhz1rIH5N9fDesSk=",
   },
   "Break Import Links": {
@@ -591,13 +591,13 @@ const messages:IMessages = {
   "Cleared": {
     /* Tooltip text indicating that a transaction has cleared. */
     val: "Cleared",
-    translated: "auto",
+    translated: false,
     h: "j1SmbPuDDBP04XfOH9NNFCDzXmB9xAzSoVG7RcHcdBg=",
   },
   "Cleared balance": {
     /* Label for balance minus uncleared transactions */
     val: "Cleared balance",
-    translated: "auto",
+    translated: false,
     h: "3SpY0eBe4gJ1WtupFnV904/a1Xlfx5Y4ybAdHQGzGV0=",
   },
   "Close Account": {
@@ -1164,7 +1164,7 @@ const messages:IMessages = {
   },
   "For Older Budgets": {
     /* Label for section related to updating from older budgets */
-    val: "For Older Budgets",
+    val: "旧预算",
     translated: "auto",
     h: "TMGosuE5olJuLuly8uc8gx4r4RTMA3guKrboArLuB7w=",
   },
@@ -1307,7 +1307,7 @@ const messages:IMessages = {
   "Ignore Account": {
     /* Undo/Redo label for ignoring an account from import */
     val: "Ignore Account",
-    translated: "auto",
+    translated: false,
     h: "Ils1ViOchbpiaHmdalbFiGmOlTK7ck+6+BhoyvUVrqM=",
   },
   "Import": {
@@ -1371,7 +1371,7 @@ const messages:IMessages = {
     h: "rLgGF32tMx7KSWu+vRLEbr+IbkedxhS8ELcYZhNCqTs=",
   },
   "In": {
-    val: "在"，,
+    val: "在",
     translated: "auto",
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
@@ -1381,7 +1381,7 @@ const messages:IMessages = {
     h: "G/e+QHikQOjTM9bcDBrmUZj6ONRstDFt17sNXu9zUd8=",
   },
   "Include log file": {
-    val: "包含日志文件,"
+    val: "包含日志文件",
     translated: "auto",
     h: "rjy01ggb0uSRPn/tmrf/BVwGQiXaaSc6Nh+o92BIU3U=",
   },
@@ -1485,7 +1485,7 @@ const messages:IMessages = {
   "Kicked": {
     /* Label for list of archived buckets */
     val: "Kicked",
-    translated: "auto",
+    translated: false,
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "Language": {
@@ -1841,7 +1841,7 @@ const messages:IMessages = {
     h: "IYMui0S7sNqh1DSN12/iCzLNTNeExrjoZ96g5EkvRgc=",
   },
   "No": {
-    val: "“不","
+    val: "“不",
     translated: "auto",
     h: "ssvE4uVUWmxD9vjMjw5HZnc/psg9I4B2MTtvoeNJyvY=",
   },
@@ -1856,7 +1856,7 @@ const messages:IMessages = {
     h: "Z85JCnN1GdDw+yMwZqwW8aeKgQkvCHCkVIkIjZt7G00=",
   },
   "No, don't connect": {
-    val: "“不，别连接”,"
+    val: "“不，别连接”",
     translated: "auto",
     h: "MaiZRnZgYzKFsvyy1L/fnIA4McuhD8MAo4t+Rw216oE=",
   },
@@ -1878,11 +1878,11 @@ const messages:IMessages = {
   "Not yet cleared": {
     /* Tooltip text indicating that a transaction has not yet cleared. */
     val: "Not yet cleared",
-    translated: "auto",
+    translated: false,
     h: "Hf/KSsxHfxvXx0udkqgCw/QkkE8Vi5ex9pdYnX6qzEU=",
   },
   "Note": {
-    val: "笔记"，,
+    val: "笔记",
     translated: "auto",
     h: "omcHOlFDF1aMLf9t2/tJ9R1dYEFSQC9IiPuXLXuFwEk=",
   },
@@ -2005,7 +2005,7 @@ const messages:IMessages = {
     h: "EQ0I5sn/xpO55GIvIhUF8/XeTi0g5sxvvyE7TiynJDQ=",
   },
   "Off budget": {
-    val: "预算外,"
+    val: "预算外",
     translated: "auto",
     h: "cw3ZD6kn6Mat0qZqOZP0Is9hg7xmOxrKqKCD8CIjmz4=",
   },
@@ -2041,7 +2041,7 @@ const messages:IMessages = {
     h: "8teUT2P/KToCDoMTqS88JNVtG9PTE/5PojtS1SGmokw=",
   },
   "Open Web YNAB Zip File": {
-    val: "打开 Web YNAB 压缩文件,"
+    val: "打开 Web YNAB 压缩文件",
     translated: "auto",
     h: "etHUkWVrpkdYsNeOHkK2wLKMkL4YYkEjNO4WwPdIPMY=",
   },
@@ -2236,7 +2236,7 @@ const messages:IMessages = {
     h: "fqeHyOaOYnCtGAcJlJbhAR37DG6YMrsasUNtiL6z8hc=",
   },
   "Rain left": {
-    val: "雨离开了,"
+    val: "雨离开了",
     translated: "auto",
     h: "+xrBpD9ex3fqQgh+YuNxsFxWyrbE8G1236f81k2whuY=",
   },
@@ -2279,7 +2279,7 @@ const messages:IMessages = {
   },
   "Relay client": {
     val: "Relay client",
-    translated: "auto",
+    translated: false,
     h: "mSWVLtN7G9ZyP/WXAVEiOcbZQJIK6YenAW9E0ZZS3B0=",
   },
   "Relay server": {
@@ -2730,7 +2730,7 @@ const messages:IMessages = {
     h: "+40oxGj2jDLNe4ggunYHsgL/9aQz0pw5IeRM5VlYIIU=",
   },
   "This will break all existing bank macros": {
-    val: "这将破坏所有现有的银行宏,"
+    val: "这将破坏所有现有的银行宏",
     translated: "auto",
     h: "VStGFY84kcqELxtAwamD6vI9ELaA4dZnOs2Ubvwnao8=",
   },
@@ -2745,7 +2745,7 @@ const messages:IMessages = {
     h: "syFKIORaeu0FezL85oAbo76XXa8k7bxITMbNowi8ba0=",
   },
   "To use Buckets, you must accept the End User License Agreement (EULA).": {
-    val: "要使用 Buckets，您必须接受最终用户许可协议 (EULA)。,"
+    val: "要使用 Buckets，您必须接受最终用户许可协议 (EULA)。",
     translated: "auto",
     h: "0six0i9oNNM/hjCYct1UTEqdgMn0uoBbaBq0cvnoZLM=",
   },
@@ -2837,20 +2837,20 @@ const messages:IMessages = {
   "Un-ignore Account": {
     /* Undo/Redo label for no longer ignoring an account from import */
     val: "Un-ignore Account",
-    translated: "auto",
+    translated: false,
     h: "DVgAPa6nwJLDg7emkZZ+j85bGwcKjEzqlkZlPHkypU8=",
   },
   "Un-kick": {
     /* Button label for unarchiving a bucket */
     val: "Un-kick",
-    translated: "auto",
+    translated: false,
     h: "P5Z1ij4jmS06jNOQiHymi+/D+uYJktoalTdw+AHGukM=",
   },
   "Un-kick Bucket": {
     /* Name of action for undo/redo labels (i.e. Control-Z will "Undo Un-kick Bucket") Consider this the opposite of "Archive Bucket" */
     /* Name of action.  Consider this "Unarchive Bucket" */
     val: "Un-kick Bucket",
-    translated: "auto",
+    translated: false,
     h: "7WOQPepkeOH+dwwSbEjomy0amoqY5JtvtlyCSG02c1Q=",
   },
   "Unable to claim access token": {
@@ -2881,7 +2881,7 @@ const messages:IMessages = {
   "Uncaught Error": {
     /* Title for error reporting dialog */
     val: "Uncaught Error",
-    translated: "auto",
+    translated: false,
     h: "8shOzic2CgRpaIcNhv/44tsVBDgSItWp3ZbdihMYp9E=",
   },
   "Uncleared": {
@@ -3138,7 +3138,7 @@ const messages:IMessages = {
     h: "qjw17TPhgeX5msjicdTljyCEeBLFbQvz/oyOunMLJnQ=",
   },
   "YES": {
-    val: "“是的","
+    val: "“是的",
     translated: "auto",
     h: "z2FPqj4x8eJnnL7/njedU5qqPbxgrFqjpsTeqGqJH9U=",
   },
@@ -3163,12 +3163,12 @@ const messages:IMessages = {
     h: "9bCZk+mcGxconx1JMhBZKdnRo4id89h4UiucsvMRAng=",
   },
   "Yes": {
-    val: "是的","
+    val: "是的",
     translated: "auto",
     h: "GE/aXJgLnZyzdfQqUogXxiNfvU95d1qAGPrlr8vfKmM=",
   },
   "Yes, connect": {
-    val: "是的，连接,"
+    val: "是的，连接",
     translated: "auto",
     h: "nQoLGB1tRewici5GtXIrzivf6Eqzjlms2YBdnfRbFFc=",
   },
@@ -3225,7 +3225,7 @@ const messages:IMessages = {
   "account-in": {
     /* Label for amount put into an account */
     val: "In",
-    translated: "auto",
+    translated: false,
     h: "TcCPpYF7/U7vM5pPmpqvJipZt0WPk3A/vC7Ec8pfDvo=",
   },
   "account-net-amount": {
@@ -3302,7 +3302,7 @@ const messages:IMessages = {
   "account_mapping.account_hash": {
     /* Account cryptographic hash label */
     val: "Fingerprint",
-    translated: "auto",
+    translated: false,
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "account_transaction.cleared": {
@@ -3314,7 +3314,7 @@ const messages:IMessages = {
   "account_transaction.fi_id": {
     /* Financial institution assigned transaction ID label */
     val: "Institution-assigned ID",
-    translated: "auto",
+    translated: false,
     h: "gFeirPPl/djXfLKwDK8FtD7JPKjC/2e7sHuRIxqkii8=",
   },
   "account_transaction.general_cat": {
@@ -3339,7 +3339,7 @@ const messages:IMessages = {
     h: "054RU7JImk6Pavh27xHA9CgGIgjmP0dYIgXez2UWx34=",
   },
   "action.ignore": {
-    val: "忽略","
+    val: "忽略",
     translated: "auto",
     h: "K8sAh2XND1/tJOuX9xTLmr1fQjUOB70cfc9GwI62fEs=",
   },
@@ -3426,13 +3426,13 @@ const messages:IMessages = {
   },
   "bucket.kicked": {
     /* Bucket kicked flag label */
-    val: "Kicked",
+    val: "已踢",
     translated: "auto",
     h: "cWApfoLlcBvoHizIFtrDQq3uwrZIYMXKO1iLMvv8szI=",
   },
   "bucket.kind": {
     /* Bucket type label */
-    val: "     "类型","
+    val: "类型",
     translated: "auto",
     h: "xE96uLvSSFjRvRq5lfIcX1LGpnGQeyntOksJQ0X3CyE=",
   },
@@ -3574,7 +3574,7 @@ const messages:IMessages = {
     h: "QvSzok8BqSPb+A0q+87lqp62Rk+JFQhIno38JQyUfYg=",
   },
   "default account name": {
-    val: "Savings",
+    val: "储蓄",
     translated: "auto",
     h: "zCYN8vtLT3Hhb9CbDDSL2xOOjqhzmmhMa5yWDTR7bCE=",
   },
@@ -3637,7 +3637,7 @@ const messages:IMessages = {
   },
   "go-to-this-month": {
     /* Menu item for "Go To... This Month" */
-    val: "这个月,"
+    val: "这个月",
     translated: "auto",
     h: "pjcOO9o+UFMLsp6ovyVzksVtCLcFsauwEITWoeq//bg=",
   },
@@ -3808,7 +3808,7 @@ const messages:IMessages = {
     h: "4K+3SY48UwcktULX4xiGt6J8Q8Hys3JjUR3t62WI6mo=",
   },
   "sync-symbol help": {
-    val: "这个符号表示交易来自导入/同步"",
+    val: "这个符号表示交易来自导入/同步",
     translated: "auto",
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
@@ -3859,7 +3859,7 @@ const messages:IMessages = {
   "unknown_account.account_hash": {
     /* Account fingerprint label */
     val: "Fingerprint",
-    translated: "auto",
+    translated: false,
     h: "knLiHOJx3KZ0xE/Ex3QjyueLNEC/iAp6T3RHzZ3RayA=",
   },
   "unknown_account.description": {
