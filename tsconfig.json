@@ -10,6 +10,7 @@
     "noImplicitThis": false,
     "noUnusedLocals": true,
     "noUnusedParameters": false,
+    "skipLibCheck": true,
     "sourceMap": true,
     "jsx": "react",
     "listEmittedFiles": false
