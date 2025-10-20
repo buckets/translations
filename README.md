@@ -5,29 +5,30 @@ This is the repository of translations for the [Buckets budgeting app](https://w
 <!-- trans stats start -->
 | AI Translated | Human Translated | Language | Code |
 |--------------:|-----------------:|----------|------|
-|          100% |               0% | العربية | ar |
-|          100% |              44% | Беларуская | be |
-|          100% |              99% | Български | bg |
-|          100% |               3% | čeština | cs |
-|          100% |               3% | Dansk | da |
-|          100% |              86% | Deutsch | de |
+|           98% |               0% | العربية | ar |
+|           98% |              43% | Беларуская | be |
+|           98% |              97% | Български | bg |
+|           98% |               3% | čeština | cs |
+|           98% |               3% | Dansk | da |
+|           98% |              84% | Deutsch | de |
 |          100% |             100% | English | en |
-|          100% |              75% | Español | es |
-|          100% |              98% | Eesti | et |
-|          100% |              64% | Français | fr |
-|          100% |               0% | עִברִית | he |
-|          100% |              37% | Magyar | hu |
-|          100% |              48% | Italiano | it |
-|          100% |               0% | 한국어 | ko |
-|          100% |              77% | Norsk | nb |
-|          100% |              61% | Nederlands | nl |
-|          100% |              58% | Polski | pl |
-|          100% |              92% | Português | pt |
-|          100% |              98% | Română | ro |
-|          100% |              22% | Русский | ru |
-|          100% |              65% | Svenska | sv |
-|          100% |              24% | Türkçe | tr |
-|          100% |              30% | Українська | uk |
+|           98% |              74% | Español | es |
+|           98% |              96% | Eesti | et |
+|           98% |              63% | Français | fr |
+|           98% |               0% | עִברִית | he |
+|           98% |              37% | Magyar | hu |
+|           98% |              48% | Italiano | it |
+|           98% |               0% | 한국어 | ko |
+|           98% |              76% | Norsk | nb |
+|           98% |              60% | Nederlands | nl |
+|           98% |              57% | Polski | pl |
+|           98% |              90% | Português | pt |
+|           98% |              97% | Română | ro |
+|           98% |              21% | Русский | ru |
+|           98% |              63% | Svenska | sv |
+|           98% |              24% | Türkçe | tr |
+|           98% |              29% | Українська | uk |
+|           96% |               0% | 简体中文 | zh |
 <!-- trans stats end -->
 
 # How to contribute

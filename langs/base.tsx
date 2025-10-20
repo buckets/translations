@@ -1,6 +1,6 @@
 // Auto-generated file
 
-import { IMsg, IMessageSet } from './i18n_ifaces'
+import { IMsg, IMessageSet } from '@iffycan/i18n'
 export interface IMessages extends IMessageSet {
   "\n        Though filling out this form is preferrable, you can also email bugs@budgetwithbuckets.com\n      ": IMsg<string>;
   "(Blank)": IMsg<string>;
@@ -74,6 +74,7 @@ export interface IMessages extends IMessageSet {
   "Buckets Budget Filename": IMsg<string>;
   "Buckets License": IMsg<string>;
   "Buckets has crashed.  Please restart after submitting a bug report.": IMsg<string>;
+  "Buckets supports these methods for getting transaction data from your bank:": IMsg<string>;
   "Budget": IMsg<string>;
   "Budget Specific Settings": IMsg<string>;
   "Budget file": IMsg<string>;
@@ -81,6 +82,7 @@ export interface IMessages extends IMessageSet {
   "Budget password:": IMsg<string>;
   "Budget-specific number format": IMsg<string>;
   "Budgeted": IMsg<string>;
+  "CSV (comma separated value)": IMsg<string>;
   "Cable TV": IMsg<string>;
   "Calculator": IMsg<string>;
   "Can't merge budgets of different versions": IMsg<string>;
@@ -134,6 +136,7 @@ export interface IMessages extends IMessageSet {
   "Create Macro": IMsg<string>;
   "Create Template": IMsg<string>;
   "Create Transaction": IMsg<string>;
+  "Create a local macro to download transaction data directly from your bank.": IMsg<string>;
   "Create budget password:": IMsg<string>;
   "Create macro": IMsg<string>;
   "Create new account": IMsg<string>;
@@ -173,6 +176,7 @@ export interface IMessages extends IMessageSet {
   "Do both devices show the same pairing codes?": IMsg<string>;
   "Done": IMsg<string>;
   "Download Update": IMsg<string>;
+  "Download files from your bank and import them into Buckets by hand. Use one of these supported formats:": IMsg<string>;
   "Downloading update...": IMsg<string>;
   "Duplicate Window": IMsg<string>;
   "Duplicate of existing transaction": IMsg<string>;
@@ -204,12 +208,14 @@ export interface IMessages extends IMessageSet {
   "Error updating transaction": IMsg<string>;
   "Existing version": IMsg<string>;
   "Expenses": IMsg<string>;
+  "Experimental": IMsg<string>;
   "Export": IMsg<string>;
   "Failed": IMsg<string>;
   "Faint cents": IMsg<string>;
   "File": IMsg<string>;
   "File access error": IMsg<string>;
   "File does not exist:": IMsg<string>;
+  "File import": IMsg<string>;
   "File import mapping": IMsg<string>;
   "File saved: ": IMsg<string>;
   "Files available to sync": IMsg<string>;
@@ -246,6 +252,7 @@ export interface IMessages extends IMessageSet {
   "Household goods": IMsg<string>;
   "ID": IMsg<string>;
   "If Net is 0, the bucket transactions will be marked as transfers rather than as income or expenses.": IMsg<string>;
+  "If your bank supports SimpleFIN, this is the best option since it will likely be free and you won't have to give your credentials to anyone (including Buckets). Otherwise you may use a third party SimpleFIN server, which may not be free or private.": IMsg<string>;
   "Ignore": IMsg<string>;
   "Ignore Account": IMsg<string>;
   "Import": IMsg<string>;
@@ -300,11 +307,13 @@ export interface IMessages extends IMessageSet {
   "Local files": IMsg<string>;
   "Local network client": IMsg<string>;
   "Local network server": IMsg<string>;
+  "Macro": IMsg<string>;
   "Macro deleted": IMsg<string>;
   "Macros": IMsg<string>;
   "Make Transfer": IMsg<string>;
   "Make it rain!": IMsg<string>;
   "Make it so": IMsg<string>;
+  "Manage": IMsg<string>;
   "Mark Cleared": IMsg<string>;
   "Mark Not Cleared": IMsg<string>;
   "Mass Update": IMsg<string>;
@@ -462,6 +471,7 @@ export interface IMessages extends IMessageSet {
   "Select All": IMsg<string>;
   "Self debt": IMsg<string>;
   "Send Report": IMsg<string>;
+  "Server": IMsg<string>;
   "Services": IMsg<string>;
   "Set Mapping": IMsg<string>;
   "Setting": IMsg<string>;
@@ -513,6 +523,7 @@ export interface IMessages extends IMessageSet {
   "This budget was upgraded for a newer version of Buckets.  Using it with this older version may not work.": IMsg<string>;
   "This device's name": IMsg<string>;
   "This is a special group for all the buckets without a group.": IMsg<string>;
+  "This method connects to a SimpleFIN server to get transaction data.": IMsg<string>;
   "This tool will delete data to make it easy to start over with your budget.": IMsg<string>;
   "This will break all existing bank macros": IMsg<string>;
   "Thousands separator": IMsg<string>;

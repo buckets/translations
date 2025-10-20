@@ -402,6 +402,11 @@ const messages:IMessages = {
     translated: true,
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
+  "Buckets supports these methods for getting transaction data from your bank:": {
+    val: "Buckets supports these methods for getting transaction data from your bank:",
+    translated: false,
+    h: "FZTmMzn8nueq7ZFrrj79vDt/YeA8nG6ObK8YvAIqM4U=",
+  },
   "Budget": {
     /* Label for budget file selector */
     val: "Бюджэт",
@@ -438,6 +443,11 @@ const messages:IMessages = {
     val: "Бюджэтнае",
     translated: true,
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
+  },
+  "CSV (comma separated value)": {
+    val: "CSV (comma separated value)",
+    translated: false,
+    h: "5Z0E+DB+F+KY2h8NuibNi+87sT6vopRsErOJ8d0yslI=",
   },
   "Cable TV": {
     val: "Тэлебачанне",
@@ -718,6 +728,11 @@ const messages:IMessages = {
     translated: true,
     h: "G5NDAP857MBDE66GWUREcFAJc2pCogndYa6y+m6PRfE=",
   },
+  "Create a local macro to download transaction data directly from your bank.": {
+    val: "Create a local macro to download transaction data directly from your bank.",
+    translated: false,
+    h: "Vh8nBn0cavaQNu36hUUud2ryLiVOAMsRbT5ChS7S4II=",
+  },
   "Create budget password:": {
     val: "Стварыць пароль бюджэту:",
     translated: true,
@@ -924,6 +939,11 @@ const messages:IMessages = {
     translated: true,
     h: "OvekDBh71chOkbTXqPs/V/x0lNbpc668s4hyXRF5G+I=",
   },
+  "Download files from your bank and import them into Buckets by hand. Use one of these supported formats:": {
+    val: "Download files from your bank and import them into Buckets by hand. Use one of these supported formats:",
+    translated: false,
+    h: "LsliERffd99kBsYRlZT5YGFc+8YblI34myXEn8nOf64=",
+  },
   "Downloading update...": {
     val: "Спампоўка абнаўлення...",
     translated: true,
@@ -1081,6 +1101,11 @@ const messages:IMessages = {
     translated: true,
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
+  "Experimental": {
+    val: "Experimental",
+    translated: false,
+    h: "no1ioBlGHyiDvTFwZWO0lttppGgYpgqTedbs4JRiNuo=",
+  },
   "Export": {
     val: "Экспарт",
     translated: true,
@@ -1112,6 +1137,11 @@ const messages:IMessages = {
     val: "Файл не існуе:",
     translated: true,
     h: "RPeWW9lCHkg+d6XybADj3OH2jxrYcSOhrA3+QHEcYz0=",
+  },
+  "File import": {
+    val: "File import",
+    translated: false,
+    h: "uC3CIunheYN1Vvqbcm4I0QpmFe3eLK7808KuuUw6LO4=",
   },
   "File import mapping": {
     /* Noun: object that contains settings for importing a file */
@@ -1301,6 +1331,11 @@ const messages:IMessages = {
     val: "Калі Net роўна 0, транзакцыі па вядру будуць пазначаны як пераводы, а не як даходы або выдаткі.",
     translated: true,
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
+  },
+  "If your bank supports SimpleFIN, this is the best option since it will likely be free and you won't have to give your credentials to anyone (including Buckets). Otherwise you may use a third party SimpleFIN server, which may not be free or private.": {
+    val: "If your bank supports SimpleFIN, this is the best option since it will likely be free and you won't have to give your credentials to anyone (including Buckets). Otherwise you may use a third party SimpleFIN server, which may not be free or private.",
+    translated: false,
+    h: "ddtHdP1npfHbcsMjibiZUwjzILkdwTF/wzcAVrm2yKw=",
   },
   "Ignore": {
     /* Label for checkbox controlling whether an account is ignored or not */
@@ -1586,6 +1621,12 @@ const messages:IMessages = {
     translated: true,
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
+  "Macro": {
+    /* Noun describing a computer recording */
+    val: "Macro",
+    translated: false,
+    h: "TTyp5ScQsIaeW/vglPPov+1Y6tg5/K4mKBuFR2wdDp8=",
+  },
   "Macro deleted": {
     val: "Макра выдаленая",
     translated: "auto",
@@ -1611,6 +1652,12 @@ const messages:IMessages = {
     val: "Зрабі гэта!",
     translated: true,
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
+  },
+  "Manage": {
+    /* Verb use to manage a connection */
+    val: "Manage",
+    translated: false,
+    h: "tdUmovc9v6t8F6J7Qp3fY60LSxcLAqLTgQ7x1XMXHqI=",
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
@@ -2460,6 +2507,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "aLgG0qubuw0p0tGIUYKjgxecVsL0e3AKvQ5+W2JZg18=",
   },
+  "Server": {
+    val: "Server",
+    translated: false,
+    h: "98Uj+bvfVRmVVyN2pOqdlxgm+wkALgm7TVgJgEGYOA0=",
+  },
   "Services": {
     val: "Паслугі",
     translated: "auto",
@@ -2727,6 +2779,11 @@ const messages:IMessages = {
     val: "Гэта спецыяльная група для ўсіх ведроў без групы.",
     translated: "auto",
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
+  },
+  "This method connects to a SimpleFIN server to get transaction data.": {
+    val: "This method connects to a SimpleFIN server to get transaction data.",
+    translated: false,
+    h: "Zmn7+DJ5jSBES0aiPKUlEEvsrJWWUoeWAsydfoGZLqg=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
     val: "Гэты інструмент выдаліць дадзеныя, каб зрабіць гэта лёгка пачаць з пачатку з вашым бюджэтам.",
@@ -3815,11 +3872,18 @@ const messages:IMessages = {
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
+    /* TRANSLATION CHANGED */
+    /* 1. Translate "newval: ..." */
+    /* 2. Delete the old "val: ..." */
+    /* 3. Rename "newval" to "val" */
+    newval: (start: string, end: string) => {
+          return `Syncing transactions from ${start} to ${end}`;
+        },
     val: (start: string, end: string) => {
       return `Сінхранізацыя транзакцый з ${start} да ${end}`;
     },
-    translated: "auto",
-    h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
+    translated: false,
+    h: "kfgeaZeAfZyt8sVvXvqzEHDOD0Tak6EzY5KPcmFm/u0=",
   },
   "tab": {
     /* Label for 'tab' character */

@@ -398,6 +398,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "jPwdFrODeZ3bxIdD+YJ9CFGjCQTqdwQNr9CdB4QTI6U=",
   },
+  "Buckets supports these methods for getting transaction data from your bank:": {
+    val: "Buckets supports these methods for getting transaction data from your bank:",
+    translated: false,
+    h: "FZTmMzn8nueq7ZFrrj79vDt/YeA8nG6ObK8YvAIqM4U=",
+  },
   "Budget": {
     /* Label for budget file selector */
     val: "예산",
@@ -434,6 +439,11 @@ const messages:IMessages = {
     val: "예산된",
     translated: "auto",
     h: "aP72arzLN/j79zGtL8DWE7wcBGciRcWqMOR1aTHJmNo=",
+  },
+  "CSV (comma separated value)": {
+    val: "CSV (comma separated value)",
+    translated: false,
+    h: "5Z0E+DB+F+KY2h8NuibNi+87sT6vopRsErOJ8d0yslI=",
   },
   "Cable TV": {
     val: "케이블 TV",
@@ -714,6 +724,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "G5NDAP857MBDE66GWUREcFAJc2pCogndYa6y+m6PRfE=",
   },
+  "Create a local macro to download transaction data directly from your bank.": {
+    val: "Create a local macro to download transaction data directly from your bank.",
+    translated: false,
+    h: "Vh8nBn0cavaQNu36hUUud2ryLiVOAMsRbT5ChS7S4II=",
+  },
   "Create budget password:": {
     val: "예산 비밀번호 생성:",
     translated: "auto",
@@ -920,6 +935,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "OvekDBh71chOkbTXqPs/V/x0lNbpc668s4hyXRF5G+I=",
   },
+  "Download files from your bank and import them into Buckets by hand. Use one of these supported formats:": {
+    val: "Download files from your bank and import them into Buckets by hand. Use one of these supported formats:",
+    translated: false,
+    h: "LsliERffd99kBsYRlZT5YGFc+8YblI34myXEn8nOf64=",
+  },
   "Downloading update...": {
     val: "업데이트 다운로드...",
     translated: "auto",
@@ -1077,6 +1097,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "d6aKytFAPwPUzFOv41R0itfcMu11VdE29vkM05dnpBU=",
   },
+  "Experimental": {
+    val: "Experimental",
+    translated: false,
+    h: "no1ioBlGHyiDvTFwZWO0lttppGgYpgqTedbs4JRiNuo=",
+  },
   "Export": {
     val: "수출",
     translated: "auto",
@@ -1108,6 +1133,11 @@ const messages:IMessages = {
     val: "파일이 존재하지 않습니다:",
     translated: "auto",
     h: "RPeWW9lCHkg+d6XybADj3OH2jxrYcSOhrA3+QHEcYz0=",
+  },
+  "File import": {
+    val: "File import",
+    translated: false,
+    h: "uC3CIunheYN1Vvqbcm4I0QpmFe3eLK7808KuuUw6LO4=",
   },
   "File import mapping": {
     /* Noun: object that contains settings for importing a file */
@@ -1297,6 +1327,11 @@ const messages:IMessages = {
     val: "Net이 0인 경우, 버킷 거래는 수입이나 지출이 아닌 이체로 표시됩니다.",
     translated: "auto",
     h: "/btREV6/jPJtrc1ERDwLUyJAowC8+v6gUB7bmJJYzT4=",
+  },
+  "If your bank supports SimpleFIN, this is the best option since it will likely be free and you won't have to give your credentials to anyone (including Buckets). Otherwise you may use a third party SimpleFIN server, which may not be free or private.": {
+    val: "If your bank supports SimpleFIN, this is the best option since it will likely be free and you won't have to give your credentials to anyone (including Buckets). Otherwise you may use a third party SimpleFIN server, which may not be free or private.",
+    translated: false,
+    h: "ddtHdP1npfHbcsMjibiZUwjzILkdwTF/wzcAVrm2yKw=",
   },
   "Ignore": {
     /* Label for checkbox controlling whether an account is ignored or not */
@@ -1582,6 +1617,12 @@ const messages:IMessages = {
     translated: "auto",
     h: "/eJCfyE7NbbJocHDU+wjKuxXQBWAzekC3W/Bue6h+nI=",
   },
+  "Macro": {
+    /* Noun describing a computer recording */
+    val: "Macro",
+    translated: false,
+    h: "TTyp5ScQsIaeW/vglPPov+1Y6tg5/K4mKBuFR2wdDp8=",
+  },
   "Macro deleted": {
     val: "매크로 삭제됨",
     translated: "auto",
@@ -1607,6 +1648,12 @@ const messages:IMessages = {
     val: "그렇게 하세요",
     translated: "auto",
     h: "XRTIWjylWKAy5BW8/0C0rOSW5S1QC+CxmgmFfhi81pk=",
+  },
+  "Manage": {
+    /* Verb use to manage a connection */
+    val: "Manage",
+    translated: false,
+    h: "tdUmovc9v6t8F6J7Qp3fY60LSxcLAqLTgQ7x1XMXHqI=",
   },
   "Mark Cleared": {
     /* Name of action for marking a transaction as having cleared the bank */
@@ -2456,6 +2503,11 @@ const messages:IMessages = {
     translated: "auto",
     h: "aLgG0qubuw0p0tGIUYKjgxecVsL0e3AKvQ5+W2JZg18=",
   },
+  "Server": {
+    val: "Server",
+    translated: false,
+    h: "98Uj+bvfVRmVVyN2pOqdlxgm+wkALgm7TVgJgEGYOA0=",
+  },
   "Services": {
     val: "서비스",
     translated: "auto",
@@ -2723,6 +2775,11 @@ const messages:IMessages = {
     val: "그룹이 없는 모든 버킷을 위한 특별한 그룹입니다.",
     translated: "auto",
     h: "QP5fEqFwlvHWJyjzrIWUJFlMvhFDxxSsl1vnej/p30I=",
+  },
+  "This method connects to a SimpleFIN server to get transaction data.": {
+    val: "This method connects to a SimpleFIN server to get transaction data.",
+    translated: false,
+    h: "Zmn7+DJ5jSBES0aiPKUlEEvsrJWWUoeWAsydfoGZLqg=",
   },
   "This tool will delete data to make it easy to start over with your budget.": {
     val: "이 도구는 데이터를 삭제하여 예산을 다시 시작하기 쉽게 합니다.",
@@ -3811,11 +3868,18 @@ const messages:IMessages = {
     h: "S3tDRls+AJYj6f8jSNSCa1FVyNY+ngn6Db1EQJ3dpLE=",
   },
   "sync.toast.syncing": {
+    /* TRANSLATION CHANGED */
+    /* 1. Translate "newval: ..." */
+    /* 2. Delete the old "val: ..." */
+    /* 3. Rename "newval" to "val" */
+    newval: (start: string, end: string) => {
+          return `Syncing transactions from ${start} to ${end}`;
+        },
     val: (start: string, end: string) => {
         return `거래를 ${start}부터 ${end}까지 동기화 중`;
       },
-    translated: "auto",
-    h: "utj3wVCxisKfYRDtJ+t5B8jPlLKwhght2S5Cb3b0qZc=",
+    translated: false,
+    h: "kfgeaZeAfZyt8sVvXvqzEHDOD0Tak6EzY5KPcmFm/u0=",
   },
   "tab": {
     /* Label for 'tab' character */
